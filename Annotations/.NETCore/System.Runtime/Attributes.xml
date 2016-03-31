@@ -1,0 +1,145 @@
+<assembly name="System.Runtime">
+  <member name="M:System.String.IsNullOrEmpty(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+        <argument>null=&gt;true</argument>
+        <argument>true</argument>
+    </attribute>
+  </member>
+  <member name="M:System.String.IsNullOrWhiteSpace(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
+        <argument>null=&gt;true</argument>
+        <argument>true</argument>
+    </attribute>
+  </member>
+  
+  <member name="M:System.String.Format(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+  </member>
+  <member name="M:System.String.Format(System.IFormatProvider,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+  </member>
+
+  <member name="M:System.Text.StringBuilder.AppendFormat(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+  </member>
+  <member name="M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+  </member>
+  
+  <member name="M:System.ArgumentException.#ctor(System.String,System.String)">
+    <parameter name="paramName"><attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.ArgumentException.#ctor(System.String,System.String,System.Exception)">
+    <parameter name="paramName"><attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.ArgumentNullException.#ctor(System.String)">
+    <parameter name="paramName"><attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.ArgumentNullException.#ctor(System.String,System.String)">
+    <parameter name="paramName"><attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.ArgumentOutOfRangeException.#ctor(System.String)">
+    <parameter name="paramName"><attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.ArgumentOutOfRangeException.#ctor(System.String,System.String)">
+    <parameter name="paramName"><attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.ArgumentOutOfRangeException.#ctor(System.String,System.Object,System.String)">
+    <parameter name="paramName"><attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor"/></parameter>
+  </member>
+  
+  <member name="M:System.Array.Exists``1(``0[],System.Predicate{``0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Array.Find``1(``0[],System.Predicate{``0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Array.FindAll``1(``0[],System.Predicate{``0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Array.FindIndex``1(``0[],System.Predicate{``0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Array.FindIndex``1(``0[],System.Int32,System.Predicate{``0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Array.FindIndex``1(``0[],System.Int32,System.Int32,System.Predicate{``0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Array.FindLast``1(``0[],System.Predicate{``0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Array.FindLastIndex``1(``0[],System.Predicate{``0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Array.FindLastIndex``1(``0[],System.Int32,System.Int32,System.Predicate{``0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Array.Sort``1(``0[],System.Comparison{``0})">
+    <parameter name="comparison"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Array.TrueForAll``1(``0[],System.Predicate{``0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  
+  <member name="M:System.Collections.Generic.List`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+    <parameter name="collection"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.AddRange(System.Collections.Generic.IEnumerable{`0})">
+    <parameter name="collection"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.Exists(System.Predicate{`0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.Find(System.Predicate{`0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.FindAll(System.Predicate{`0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.FindIndex(System.Predicate{`0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.FindIndex(System.Int32,System.Predicate{`0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.FindIndex(System.Int32,System.Int32,System.Predicate{`0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.FindLastIndex(System.Predicate{`0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.FindLastIndex(System.Int32,System.Predicate{`0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.FindLastIndex(System.Int32,System.Int32,System.Predicate{`0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})">
+    <parameter name="collection"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.RemoveAll(System.Predicate{`0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.TrueForAll(System.Predicate{`0})">
+    <parameter name="match"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+  <member name="M:System.Collections.Generic.List`1.Sort(System.Comparison{`0})">
+    <parameter name="comparison"><attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/></parameter>
+  </member>
+ 
+  <member name="M:System.Delegate.Combine(System.Delegate,System.Delegate)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>a:notnull=&gt;notnull;b:notnull=&gt;notnull;</argument>
+    </attribute>
+  </member>
+
+  <member name="M:System.Collections.Generic.IDictionary`2.TryGetValue(`0,`1@)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;true; =&gt;false, value: null</argument>
+    </attribute>
+  </member>
+</assembly>

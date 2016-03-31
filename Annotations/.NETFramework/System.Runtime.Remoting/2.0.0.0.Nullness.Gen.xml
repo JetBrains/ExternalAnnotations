@@ -1,0 +1,3062 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Runtime.Remoting, Version=2.0.0.0">
+  <member name="M:System.IO.ByteBufferAllocator.GetBuffer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IO.ByteBufferAllocator.ReturnBuffer(System.Byte[])">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IO.ByteBufferPool.ReturnBuffer(System.Byte[])">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BaseTransportHeaders.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BaseTransportHeaders.GetOtherHeadersEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BaseTransportHeaders.MapHeaderIndexToName(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.BaseTransportHeadersEnumerator.Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.BasicAsyncResult.AsyncState">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.BasicAsyncResult.AsyncWaitHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Messaging.IMessageSink)">
+    <parameter name="replySink">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessRequest(System.Runtime.Remoting.Channels.IClientChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessResponse(System.Runtime.Remoting.Channels.IClientResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryClientFormatterSink.DeserializeMessage(System.Runtime.Remoting.Messaging.IMethodCallMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryClientFormatterSink.GetRequestStream(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.BinaryClientFormatterSink.NextChannelSink">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.BinaryClientFormatterSink.NextSink">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryClientFormatterSink.ProcessMessage(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.BinaryClientFormatterSink.Properties">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SerializeMessage(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage)">
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryClientFormatterSinkProvider.CreateSink(System.Runtime.Remoting.Channels.IChannelSender,System.String,System.Object)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryServerFormatterSink.#ctor(System.Runtime.Remoting.Channels.BinaryServerFormatterSink.Protocol,System.Runtime.Remoting.Channels.IServerChannelSink,System.Runtime.Remoting.Channels.IChannelReceiver)">
+    <parameter name="receiver">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryServerFormatterSink.AsyncProcessResponse(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryServerFormatterSink.GetResponseStream(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.BinaryServerFormatterSink.NextChannelSink">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryServerFormatterSink.ProcessMessage(System.Runtime.Remoting.Channels.IServerChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream,System.Runtime.Remoting.Messaging.IMessage@,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="requestMsg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.BinaryServerFormatterSink.Properties">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryServerFormatterSink.SerializeResponse(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.BinaryServerFormatterSinkProvider.CreateSink(System.Runtime.Remoting.Channels.IChannelReceiver)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CachedSocketList.GetSocket">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CachedSocketList.ReturnSocket(System.Runtime.Remoting.Channels.SocketHandler)">
+    <parameter name="socket">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.ChunkedMemoryStream.AllocateMemoryChunk">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.ChunkedMemoryStream.Read(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.ChunkedMemoryStream.ToArray">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.ChunkedMemoryStream.Write(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.ChunkedMemoryStream.WriteTo(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.AppendProviderToClientProviderChain(System.Runtime.Remoting.Channels.IClientChannelSinkProvider,System.Runtime.Remoting.Channels.IClientChannelSinkProvider)">
+    <parameter name="providerChain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.CreateBinaryFormatter(System.Boolean,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.CreateSoapFormatter(System.Boolean,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.DecodeMachineName(System.String)">
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.DeserializeBinaryRequestMessage(System.String,System.IO.Stream,System.Boolean,System.Runtime.Serialization.Formatters.TypeFilterLevel)">
+    <parameter name="inputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.DeserializeBinaryResponseMessage(System.IO.Stream,System.Runtime.Remoting.Messaging.IMethodCallMessage,System.Boolean)">
+    <parameter name="inputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.DeserializeMessage(System.String,System.IO.Stream,System.Boolean,System.Runtime.Remoting.Messaging.IMessage)">
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xstm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.DeserializeMessage(System.String,System.IO.Stream,System.Boolean,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Messaging.Header[])">
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xstm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.DeserializeSoapRequestMessage(System.IO.Stream,System.Runtime.Remoting.Messaging.Header[],System.Boolean,System.Runtime.Serialization.Formatters.TypeFilterLevel)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="inputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.DeserializeSoapResponseMessage(System.IO.Stream,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Messaging.Header[],System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="requestMsg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="inputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.DetermineChannelProtocol(System.Runtime.Remoting.Channels.IChannel)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.GetCurrentSidString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.GetMessagePropertiesAsSoapHeader(System.Runtime.Remoting.Messaging.IMessage)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="reqMsg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.GetResourceString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.GetSoapHeaders(System.Runtime.Remoting.Messaging.IMessage)">
+    <parameter name="reqMsg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.IsLocalIpAddress(System.Net.IPAddress)">
+    <parameter name="remoteAddress">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.MimeTypeToFormatter(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.RemoveApplicationNameFromUri(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.SerializeBinaryMessage(System.Runtime.Remoting.Messaging.IMessage,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.SerializeBinaryMessage(System.Runtime.Remoting.Messaging.IMessage,System.IO.Stream,System.Boolean)">
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.SerializeMessage(System.String,System.Runtime.Remoting.Messaging.IMessage,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.SerializeMessage(System.String,System.Runtime.Remoting.Messaging.IMessage,System.IO.Stream,System.Boolean)">
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.SerializeSoapMessage(System.Runtime.Remoting.Messaging.IMessage,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.SerializeSoapMessage(System.Runtime.Remoting.Messaging.IMessage,System.IO.Stream,System.Boolean)">
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.CoreChannel.SidToString(System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.ExclusiveTcpListener.#ctor(System.Net.IPAddress,System.Int32)">
+    <parameter name="localaddr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.AggregateDictionary.Add(System.Object,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.AggregateDictionary.Contains(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.AggregateDictionary.CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.AggregateDictionary.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.AggregateDictionary.Item(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.AggregateDictionary.Keys">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.AggregateDictionary.Remove(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.AggregateDictionary.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.AggregateDictionary.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.AggregateDictionary.Values">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.DictionaryEnumeratorByKeys.#ctor(System.Collections.IDictionary)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.DictionaryEnumeratorByKeys.Current">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.DictionaryEnumeratorByKeys.Key">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.DictionaryEnumeratorByKeys.Value">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.ErrorMessage.Args">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.ErrorMessage.GetArg(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.ErrorMessage.GetInArg(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.ErrorMessage.GetInArgName(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.ErrorMessage.InArgs">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.ErrorMessage.LogicalCallContext">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.ErrorMessage.MethodBase">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.ErrorMessage.MethodSignature">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.ErrorMessage.Properties">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.ErrorMessage.Uri">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpChannel.AddHookChannelUri(System.String)">
+    <parameter name="channelUri">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.HttpChannel.ChannelScheme">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpChannel.CreateMessageSink(System.String,System.Object,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpChannel.GetUrlsForUri(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="objectURI">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpChannel.Parse(System.String,System.String@)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.HttpChannel.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpChannelHelper.DecodeUriInPlace(System.Byte[],System.Int32@)">
+    <parameter name="uriBytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpChannelHelper.GetObjectUriFromRequestUri(System.String)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpChannelHelper.ParseURL(System.String,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpChannelHelper.ReplaceChannelUriWithThisString(System.String,System.String)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpChannelHelper.ReplaceMachineNameWithThisString(System.String,System.String)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpChannelHelper.StartsWithHttp(System.String)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpChunkedResponseStream.IntToHexChars(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpChunkedResponseStream.WriteChunk(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientChannel.CreateDefaultClientProviderChain">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientChannel.CreateMessageSink(System.String,System.Object,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientChannel.Parse(System.String,System.String@)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.#ctor(System.Runtime.Remoting.Channels.Http.HttpClientChannel,System.String)">
+    <parameter name="channelURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.AsyncHttpClientRequestState.#ctor(System.Runtime.Remoting.Channels.Http.HttpClientTransportSink,System.Runtime.Remoting.Channels.IClientChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream,System.Int32)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.AsyncHttpClientRequestState.ProcessAsyncCopyRequestStreamCompletion(System.IAsyncResult)">
+    <parameter name="iar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.AsyncHttpClientRequestState.ProcessAsyncCopyResponseStreamCompletion(System.IAsyncResult)">
+    <parameter name="iar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.AsyncHttpClientRequestState.ProcessGetRequestStreamCompletion(System.IAsyncResult)">
+    <parameter name="iar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.AsyncHttpClientRequestState.ProcessGetResponseCompletion(System.IAsyncResult)">
+    <parameter name="iar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.AsyncProcessRequest(System.Runtime.Remoting.Channels.IClientChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.AsyncProcessResponse(System.Runtime.Remoting.Channels.IClientResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.CollectResponseHeaders(System.Net.HttpWebResponse)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="response">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.GetRequestStream(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.NextChannelSink">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.ProcessAndSend(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.ProcessMessage(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.ProcessResponseException(System.Net.WebException,System.Net.HttpWebResponse@)">
+    <parameter name="webException">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSink.SetupWebRequest(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpClientTransportSinkProvider.CreateSink(System.Runtime.Remoting.Channels.IChannelSender,System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpEncodingHelper.DecodeUri(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpEncodingHelper.EncodeUriAsXLinkHref(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpHandlerTransportSink.AsyncProcessResponse(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpHandlerTransportSink.GetResponseStream(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpHandlerTransportSink.HandleRequest(System.Web.HttpContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.HttpHandlerTransportSink.NextChannelSink">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpHandlerTransportSink.ProcessMessage(System.Runtime.Remoting.Channels.IServerChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream,System.Runtime.Remoting.Messaging.IMessage@,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestMsg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.HttpHandlerTransportSink.Properties">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpHandlerTransportSink.SendResponse(System.Web.HttpResponse,System.Int32,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="httpResponse">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpReadingStream.Write(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpRemotingHandler.CanServiceRequest(System.Web.HttpContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpRemotingHandler.CustomErrorsEnabled(System.Web.HttpContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpRemotingHandler.GenerateFaultString(System.Web.HttpContext,System.Exception)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpRemotingHandler.GetRequestUriForCurrentRequest(System.Web.HttpContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpRemotingHandler.InternalProcessRequest(System.Web.HttpContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpRemotingHandler.IsLocal(System.Web.HttpContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpRemotingHandler.ProcessRequest(System.Web.HttpContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpRemotingHandler.SetHttpResponseStatusCode(System.Web.HttpResponse,System.Int32)">
+    <parameter name="httpResponse">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpRemotingHandler.WriteException(System.Web.HttpContext,System.Exception)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpRemotingHandlerFactory.ConfigureAppName(System.Web.HttpRequest)">
+    <parameter name="httpRequest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpRemotingHandlerFactory.DumpRequest(System.Web.HttpContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpRemotingHandlerFactory.GetHandler(System.Web.HttpContext,System.String,System.String,System.String)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpRemotingHandlerFactory.ReleaseHandler(System.Web.IHttpHandler)">
+    <parameter name="handler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpServerChannel.AddHookChannelUri(System.String)">
+    <parameter name="channelUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.HttpServerChannel.ChannelScheme">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpServerChannel.CreateDefaultServerProviderChain">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpServerChannel.GetUrlsForUri(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="objectUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.HttpServerChannel.Keys">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpServerChannel.Parse(System.String,System.String@)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpServerResponseStream.Read(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpServerSocketHandler.GenerateFaultString(System.Exception)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpServerSocketHandler.GetRequestStream">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpServerSocketHandler.GetResponseStream(System.String,System.String,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reasonPhrase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="statusCode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpServerSocketHandler.ReadHeaders">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpServerSocketHandler.SendResponse(System.IO.Stream,System.String,System.String,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <parameter name="statusCode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reasonPhrase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpServerTransportSink.AsyncProcessResponse(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpServerTransportSink.GetResponseStream(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.HttpServerTransportSink.NextChannelSink">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpServerTransportSink.ProcessMessage(System.Runtime.Remoting.Channels.IServerChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream,System.Runtime.Remoting.Messaging.IMessage@,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestMsg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Http.HttpServerTransportSink.Properties">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpServerTransportSink.ServiceRequest(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpSocketHandler.ReadToEndOfHeaders(System.Runtime.Remoting.Channels.BaseTransportHeaders,System.Boolean@,System.Int32@,System.Boolean@,System.Boolean@)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpSocketHandler.WriteHeader(System.String,System.String,System.IO.Stream)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpSocketHandler.WriteHeaders(System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.HttpSocketHandler.WriteResponseFirstLine(System.String,System.String,System.IO.Stream)">
+    <parameter name="statusCode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reasonPhrase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.RegistrationHelper.RegisterSingleType(System.String,System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Http.RegistrationHelper.RegisterType(System.String,System.Type,System.String)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.ConnectionCache.GetConnection(System.String,System.Boolean,System.Security.Principal.TokenImpersonationLevel,System.Int32)">
+    <parameter name="portName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.ConnectionCache.ReleaseConnection(System.Runtime.Remoting.Channels.Ipc.IpcPort)">
+    <parameter name="port">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcChannel.#ctor(System.String)">
+    <parameter name="portName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcChannel.CreateMessageSink(System.String,System.Object,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcChannel.GetUrlsForUri(System.String)">
+    <parameter name="objectURI">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcChannel.Parse(System.String,System.String@)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcChannelHelper.ParseURL(System.String,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcChannelHelper.StartsWithIpc(System.String)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel.CreateDefaultClientProviderChain">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel.CreateMessageSink(System.String,System.Object,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel.Parse(System.String,System.String@)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcClientHandler.GetResponseStream">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcClientHandler.ReadHeaders">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcClientHandler.SendRequest(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.#ctor(System.String,System.Runtime.Remoting.Channels.Ipc.IpcClientChannel)">
+    <parameter name="channelURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.AsyncFinishedCallback(System.IAsyncResult)">
+    <parameter name="ar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@,System.Runtime.Remoting.Channels.IClientChannelSinkStack)">
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.AsyncProcessRequest(System.Runtime.Remoting.Channels.IClientChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.AsyncProcessResponse(System.Runtime.Remoting.Channels.IClientResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.GetRequestStream(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.NextChannelSink">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSinkProvider.CreateSink(System.Runtime.Remoting.Channels.IChannelSender,System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcPort.#ctor(System.String,System.Runtime.Remoting.Channels.Ipc.PipeHandle)">
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcPort.AsyncFSCallback(System.UInt32,System.UInt32,System.Threading.NativeOverlapped*)">
+    <parameter name="pOverlapped">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcPort.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcPort.Connect(System.String,System.Boolean,System.Security.Principal.TokenImpersonationLevel,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcPort.Create(System.String,System.Security.AccessControl.CommonSecurityDescriptor,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcPort.CreateSecurityDescriptor(System.Security.Principal.SecurityIdentifier)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcPort.GetMessage(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel.#ctor(System.String)">
+    <parameter name="portName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel.#ctor(System.String,System.String)">
+    <parameter name="portName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel.#ctor(System.String,System.String,System.Runtime.Remoting.Channels.IServerChannelSinkProvider)">
+    <parameter name="portName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel.CreateDefaultServerProviderChain">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel.GetUrlsForUri(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="objectUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcServerChannel.Parse(System.String,System.String@)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcServerHandler.GetRequestStream">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcServerHandler.ReadHeaders">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcServerHandler.ReadToEndOfHeaders(System.Runtime.Remoting.Channels.BaseTransportHeaders)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcServerHandler.SendResponse(System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcServerTransportSink.AsyncProcessResponse(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcServerTransportSink.GetResponseStream(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Ipc.IpcServerTransportSink.NextChannelSink">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcServerTransportSink.ProcessMessage(System.Runtime.Remoting.Channels.IServerChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream,System.Runtime.Remoting.Messaging.IMessage@,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="requestMsg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Ipc.IpcServerTransportSink.Properties">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.IpcServerTransportSink.ServiceRequest(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Ipc.PipeAsyncResult.AsyncState">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Ipc.PipeAsyncResult.AsyncWaitHandle">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.PipeStream.#ctor(System.Runtime.Remoting.Channels.Ipc.IpcPort)">
+    <parameter name="port">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.PipeStream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.PipeStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.PipeStream.EndRead(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.PipeStream.EndWrite(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.PipeStream.Read(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Ipc.PipeStream.Write(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.RemoteConnection.#ctor(System.Runtime.Remoting.Channels.SocketCache,System.String)">
+    <parameter name="socketCache">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(System.Net.EndPoint)">
+    <parameter name="ipEndPoint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.RemoteConnection.DisableNagleDelays(System.Net.Sockets.Socket)">
+    <parameter name="socket">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.RemoteConnection.HasIPv6Address(System.Net.IPAddress[])">
+    <parameter name="addressList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.RemoteConnection.ReleaseSocket(System.Runtime.Remoting.Channels.SocketHandler)">
+    <parameter name="socket">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.RequestQueue.GetRequestToExecute(System.Runtime.Remoting.Channels.SocketHandler)">
+    <parameter name="sh">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.RequestQueue.IsLocal(System.Runtime.Remoting.Channels.SocketHandler)">
+    <parameter name="sh">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.RequestQueue.ProcessNextRequest(System.Runtime.Remoting.Channels.SocketHandler)">
+    <parameter name="sh">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapClientFormatterSink.AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Messaging.IMessageSink)">
+    <parameter name="replySink">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapClientFormatterSink.AsyncProcessRequest(System.Runtime.Remoting.Channels.IClientChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapClientFormatterSink.AsyncProcessResponse(System.Runtime.Remoting.Channels.IClientResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapClientFormatterSink.DeserializeMessage(System.Runtime.Remoting.Messaging.IMethodCallMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="mcm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapClientFormatterSink.GetRequestStream(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.SoapClientFormatterSink.NextChannelSink">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.SoapClientFormatterSink.NextSink">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapClientFormatterSink.ProcessMessage(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.SoapClientFormatterSink.Properties">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapClientFormatterSink.SerializeMessage(System.Runtime.Remoting.Messaging.IMethodCallMessage,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="mcm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapClientFormatterSink.SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapClientFormatterSinkProvider.CreateSink(System.Runtime.Remoting.Channels.IChannelSender,System.String,System.Object)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapServerFormatterSink.#ctor(System.Runtime.Remoting.Channels.SoapServerFormatterSink.Protocol,System.Runtime.Remoting.Channels.IServerChannelSink,System.Runtime.Remoting.Channels.IChannelReceiver)">
+    <parameter name="receiver">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapServerFormatterSink.AsyncProcessResponse(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapServerFormatterSink.GetChannelHeaders(System.Runtime.Remoting.Channels.ITransportHeaders,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapServerFormatterSink.GetResponseStream(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.SoapServerFormatterSink.NextChannelSink">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapServerFormatterSink.ProcessMessage(System.Runtime.Remoting.Channels.IServerChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream,System.Runtime.Remoting.Messaging.IMessage@,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="requestMsg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.SoapServerFormatterSink.Properties">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapServerFormatterSink.SerializeResponse(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Boolean,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SoapServerFormatterSinkProvider.CreateSink(System.Runtime.Remoting.Channels.IChannelReceiver)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketCache.CreateSocketHandler(System.Net.Sockets.Socket,System.String)">
+    <parameter name="socket">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketCache.GetSocket(System.String,System.Boolean)">
+    <parameter name="machinePortAndSid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketCache.ReleaseSocket(System.String,System.Runtime.Remoting.Channels.SocketHandler)">
+    <parameter name="machinePortAndSid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="socket">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketHandler.BeginReadMessageCallback(System.IAsyncResult)">
+    <parameter name="ar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketHandler.CloseOnFatalError(System.Exception)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketHandler.Read(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(System.Byte[])">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketHandler.ReadToByte(System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketHandler.ReadToByte(System.Byte,System.Runtime.Remoting.Channels.ValidateByteDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketHandler.SendErrorMessageIfPossible(System.Exception)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketHandler.WriteByte(System.Byte,System.IO.Stream)">
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketHandler.WriteInt32(System.Int32,System.IO.Stream)">
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketHandler.WriteUInt16(System.UInt16,System.IO.Stream)">
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.SocketStream.#ctor(System.Net.Sockets.Socket)">
+    <parameter name="socket">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.StreamHelper.AsyncCopyReadHelper(System.Runtime.Remoting.Channels.AsyncCopyStreamResult)">
+    <parameter name="streamState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.StreamHelper.AsyncCopyStreamReadCallback(System.IAsyncResult)">
+    <parameter name="iar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.StreamHelper.AsyncCopyStreamWriteCallback(System.IAsyncResult)">
+    <parameter name="iar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.StreamHelper.AsyncCopyWriteHelper(System.Runtime.Remoting.Channels.AsyncCopyStreamResult,System.Int32)">
+    <parameter name="streamState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.StreamHelper.BeginAsyncCopyStream(System.IO.Stream,System.IO.Stream,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.StreamHelper.BufferCopy(System.Byte[],System.Int32,System.Byte[],System.Int32,System.Int32)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.StreamHelper.CopyStream(System.IO.Stream,System.IO.Stream)">
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.StreamHelper.EndAsyncCopyStream(System.IAsyncResult)">
+    <parameter name="iar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.StringHelper.StartsWithAsciiIgnoreCasePrefixLower(System.String,System.String)">
+    <parameter name="str">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="asciiPrefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.StringHelper.StartsWithDoubleUnderscore(System.String)">
+    <parameter name="str">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpChannel.CreateMessageSink(System.String,System.Object,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpChannel.GetUrlsForUri(System.String)">
+    <parameter name="objectURI">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpChannel.Parse(System.String,System.String@)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpChannelHelper.ParseURL(System.String,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientChannel.CreateDefaultClientProviderChain">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientChannel.CreateMessageSink(System.String,System.Object,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientChannel.Parse(System.String,System.String@)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.GetRequestStream(System.Runtime.Remoting.Messaging.IMessage,System.Int32,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.GetResponseStream">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.ReadHeaders">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientSocketHandler.SendRequest(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.#ctor(System.String,System.Runtime.Remoting.Channels.Tcp.TcpClientChannel)">
+    <parameter name="channelURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(System.Runtime.Remoting.Channels.IClientChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessResponse(System.Runtime.Remoting.Channels.IClientResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.CreateAuthenticatedStream(System.IO.Stream,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="netStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.CreateSocketHandler(System.Net.Sockets.Socket,System.Runtime.Remoting.Channels.SocketCache,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="socket">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.GetRequestStream(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.GetSid">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.NextChannelSink">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ReceiveCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSinkProvider.CreateSink(System.Runtime.Remoting.Channels.IChannelSender,System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpReadingStream.Write(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerChannel.AcceptSocketCallback(System.IAsyncResult)">
+    <parameter name="ar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerChannel.AcceptSocketCallbackAsync(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerChannel.AcceptSocketCallbackHelper(System.IAsyncResult)">
+    <parameter name="ar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerChannel.Authenticate(System.IO.Stream@,System.Runtime.Remoting.Channels.Tcp.TcpServerSocketHandler)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="streamManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="netStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerChannel.CreateDefaultServerProviderChain">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerChannel.GetChannelUri">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerChannel.GetUrlsForUri(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="objectUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerChannel.Parse(System.String,System.String@)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerSocketHandler.GenerateFaultString(System.Exception)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerSocketHandler.GetRequestStream">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerSocketHandler.ReadHeaders">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerSocketHandler.SendErrorResponse(System.Exception,System.Boolean)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerSocketHandler.SendResponse(System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerTransportSink.AsyncProcessResponse(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerTransportSink.GetResponseStream(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Tcp.TcpServerTransportSink.NextChannelSink">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerTransportSink.ProcessMessage(System.Runtime.Remoting.Channels.IServerChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream,System.Runtime.Remoting.Messaging.IMessage@,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestMsg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Channels.Tcp.TcpServerTransportSink.Properties">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpServerTransportSink.ServiceRequest(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadCountedString">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadToEndOfHeaders(System.Runtime.Remoting.Channels.BaseTransportHeaders)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.WriteContentTypeHeader(System.String,System.IO.Stream)">
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.WriteCountedString(System.String,System.IO.Stream)">
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.WriteCustomHeader(System.String,System.String,System.IO.Stream)">
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.WriteHeaders(System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.WritePreambleAndVersion(System.IO.Stream)">
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.MetaData.ConvertCodeSourceStreamToAssemblyFile(System.Collections.ArrayList,System.String,System.String)">
+    <parameter name="outCodeStreamList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.MetaData.ConvertSchemaStreamToCodeSourceStream(System.Boolean,System.String,System.IO.Stream,System.Collections.ArrayList)">
+    <parameter name="inputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.MetaData.ConvertSchemaStreamToCodeSourceStream(System.Boolean,System.String,System.IO.Stream,System.Collections.ArrayList,System.String)">
+    <parameter name="inputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.MetaData.ConvertSchemaStreamToCodeSourceStream(System.Boolean,System.String,System.IO.Stream,System.Collections.ArrayList,System.String,System.String)">
+    <parameter name="inputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.MetaData.ConvertTypesToSchemaToFile(System.Runtime.Remoting.MetadataServices.ServiceType[],System.Runtime.Remoting.MetadataServices.SdlType,System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.MetaData.ConvertTypesToSchemaToFile(System.Type[],System.Runtime.Remoting.MetadataServices.SdlType,System.String)">
+    <parameter name="types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.MetaData.ConvertTypesToSchemaToStream(System.Runtime.Remoting.MetadataServices.ServiceType[],System.Runtime.Remoting.MetadataServices.SdlType,System.IO.Stream)">
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceTypes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.MetaData.ConvertTypesToSchemaToStream(System.Type[],System.Runtime.Remoting.MetadataServices.SdlType,System.IO.Stream)">
+    <parameter name="types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.MetaData.RetrieveSchemaFromUrlToFile(System.String,System.String)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.MetaData.RetrieveSchemaFromUrlToStream(System.String,System.IO.Stream)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.MetaData.SaveStreamToFile(System.IO.Stream,System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="inputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.SdlChannelSink.AsyncProcessResponse(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.SdlChannelSink.GenerateSdl(System.Runtime.Remoting.MetadataServices.SdlType,System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Runtime.Remoting.Channels.ITransportHeaders,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream@)">
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="responseHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.SdlChannelSink.GetResponseStream(System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack,System.Object,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.MetadataServices.SdlChannelSink.NextChannelSink">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.SdlChannelSink.ProcessMessage(System.Runtime.Remoting.Channels.IServerChannelSinkStack,System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders,System.IO.Stream,System.Runtime.Remoting.Messaging.IMessage@,System.Runtime.Remoting.Channels.ITransportHeaders@,System.IO.Stream@)">
+    <parameter name="requestMsg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sinkStack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.MetadataServices.SdlChannelSink.Properties">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.SdlChannelSink.SetupUrlBashingForIisIfNecessary(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.SdlChannelSink.SetupUrlBashingForIisIfNecessaryWorker(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.SdlChannelSink.ShouldIntercept(System.Runtime.Remoting.Channels.ITransportHeaders,System.Runtime.Remoting.MetadataServices.SdlType@)">
+    <parameter name="requestHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.SdlChannelSinkProvider.CreateSink(System.Runtime.Remoting.Channels.IChannelReceiver)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.SudsConverter.MapClrTypeToXsdType(System.Type)">
+    <parameter name="clrType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.SudsConverter.MapXsdToClrTypes(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xsdType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.SUDSGenerator.#ctor(System.Runtime.Remoting.MetadataServices.ServiceType[],System.Runtime.Remoting.MetadataServices.SdlType,System.IO.TextWriter)">
+    <parameter name="serviceTypes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.SUDSGenerator.#ctor(System.Type[],System.Runtime.Remoting.MetadataServices.SdlType,System.IO.TextWriter)">
+    <parameter name="types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.SUDSGeneratorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.SUDSParserException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.Util.LogInput(System.IO.TextReader@)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.#ctor(System.Runtime.Remoting.MetadataServices.ServiceType[],System.Runtime.Remoting.MetadataServices.SdlType,System.IO.TextWriter)">
+    <parameter name="serviceTypes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.#ctor(System.Type[],System.IO.TextWriter)">
+    <parameter name="types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.#ctor(System.Type[],System.IO.TextWriter,System.Reflection.Assembly,System.String)">
+    <parameter name="types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.#ctor(System.Type[],System.Runtime.Remoting.MetadataServices.SdlType,System.IO.TextWriter)">
+    <parameter name="types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.#ctor(System.Type[],System.Runtime.Remoting.MetadataServices.SdlType,System.IO.TextWriter,System.Reflection.Assembly,System.String)">
+    <parameter name="types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.AddNamespace(System.String,System.Reflection.Assembly)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.AddNamespace(System.String,System.Reflection.Assembly,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.AddType(System.Type,System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.ArraySchemaType.PrintSchemaType(System.IO.TextWriter,System.Text.StringBuilder,System.String,System.Boolean)">
+    <parameter name="indent">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.ComplexSchemaType.PrintBody(System.IO.TextWriter,System.Text.StringBuilder,System.String)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.EnqueueReachableTypes(System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType)">
+    <parameter name="rsType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.EnqueueType(System.Type,System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.EnumElement.Print(System.IO.TextWriter,System.Text.StringBuilder,System.String)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.GetNamespace(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.GetNSAndAssembly(System.Type,System.String@,System.Reflection.Assembly@)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.LookupNamespace(System.String,System.Reflection.Assembly)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.Particle.Print(System.IO.TextWriter,System.Text.StringBuilder,System.String)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.PhonySchemaType.PrintSchemaType(System.IO.TextWriter,System.Text.StringBuilder,System.String,System.Boolean)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="indent">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.PrintServiceWsdl(System.IO.TextWriter,System.Text.StringBuilder,System.String,System.Collections.ArrayList)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="refNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.PrintTypesBeginWsdl(System.IO.TextWriter,System.Text.StringBuilder,System.String)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.PrintTypesEndWsdl(System.IO.TextWriter,System.Text.StringBuilder,System.String)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.PrintWsdlNamespaces(System.IO.TextWriter,System.Text.StringBuilder,System.String)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.ProcessMethods(System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType)">
+    <parameter name="rsType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.ProcessType(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.ProcessTypeAttributes(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.QualifyName(System.Text.StringBuilder,System.String,System.String)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType.#ctor(System.Type,System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace,System.String,System.Collections.Hashtable,System.Boolean,System.Runtime.Remoting.MetadataServices.WsdlGenerator)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="WsdlGenerator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType.FindMethodAttributes(System.Type,System.Reflection.MethodInfo[],System.String[]@,System.Reflection.BindingFlags)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="infos">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="methodAttributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType.GetInstanceFields(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType.GetIntroducedInterfaces">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType.GetIntroducedInterfaces(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType.GetIntroducedMethods(System.Type,System.String[]@)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType.IsNotSystemDefinedRoot(System.Type,System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType.ParamInOut(System.Reflection.ParameterInfo,System.Boolean@,System.Boolean@)">
+    <parameter name="param">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType.PrintMessageWsdl(System.IO.TextWriter,System.Text.StringBuilder,System.String,System.Collections.ArrayList)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="indent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="refNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType.PrintMethodName(System.Reflection.MethodInfo)">
+    <parameter name="methodInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType.PrintSuds(System.Type,System.String[],System.Type[],System.IO.TextWriter,System.Text.StringBuilder,System.String)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType.ProcessArray(System.Type,System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType.Resolve(System.Text.StringBuilder)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType.TypeName(System.Type,System.Boolean,System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="thisxns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.RefName(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.SchemaAttribute.Print(System.IO.TextWriter,System.Text.StringBuilder,System.String)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.SchemaElement.#ctor(System.String,System.Type,System.Boolean,System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.SchemaType.PrintSchemaType(System.IO.TextWriter,System.Text.StringBuilder,System.String,System.Boolean)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="indent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.SimpleSchemaType.#ctor(System.Type,System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.SimpleSchemaType.GetSimpleSchemaType(System.Type,System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace.#ctor(System.String,System.Reflection.Assembly,System.String,System.Collections.Hashtable,System.String,System.Boolean,System.Runtime.Remoting.MetadataServices.WsdlGenerator)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace.AddPhonySchemaType(System.Runtime.Remoting.MetadataServices.WsdlGenerator.PhonySchemaType)">
+    <parameter name="phType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace.AddRealSchemaType(System.Runtime.Remoting.MetadataServices.WsdlGenerator.RealSchemaType)">
+    <parameter name="rsType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace.DependsOnSchemaNS(System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace,System.Boolean)">
+    <parameter name="xns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace.DependsOnSUDSNS(System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace)">
+    <parameter name="xns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace.LookupArraySchemaType(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace.LookupPhonySchemaType(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace.LookupRealSchemaType(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace.LookupSchemaNamespace(System.String,System.Reflection.Assembly)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace.LookupSimpleSchemaType(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace.LookupSUDSNamespace(System.String,System.Reflection.Assembly)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace.PrintDependsOnWsdl(System.IO.TextWriter,System.Text.StringBuilder,System.String,System.Collections.Hashtable)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="usedNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace.PrintMessageWsdl(System.IO.TextWriter,System.Text.StringBuilder,System.String,System.Collections.ArrayList)">
+    <parameter name="refNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="indent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlGenerator.XMLNamespace.PrintSchemaWsdl(System.IO.TextWriter,System.Text.StringBuilder,System.String)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.AddNewNamespace(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.Atomize(System.String)">
+    <parameter name="str">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.BaseInterface.PrintClassMethods(System.IO.TextWriter,System.String,System.String,System.Collections.ArrayList,System.Boolean,System.Text.StringBuilder)">
+    <parameter name="printedIFaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="indentation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.MetadataServices.WsdlParser.BaseType.FieldName">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.MetadataServices.WsdlParser.BaseType.FieldNamespace">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.BaseType.GetMethodFlags(System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.CheckValidIdentifier(System.String)">
+    <parameter name="ident">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.CreatePrimedNametable">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ElementDecl.Resolve(System.Runtime.Remoting.MetadataServices.WsdlParser)">
+    <parameter name="parser">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.GetTypeString(System.String,System.Boolean,System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace,System.String,System.String)">
+    <parameter name="urtNS">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.IsCSharpKeyword(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.IsURTExportedType(System.String,System.String@,System.String@)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.IsValidCS(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.IsValidCSAttr(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.IsValidLanguageIndependentIdentifier(System.String)">
+    <parameter name="ident">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.IsValidUrl(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.LookupAttribute(System.String,System.String,System.Boolean)">
+    <parameter name="attrName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.LookupNamespace(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.MapSchemaTypesToCSharpTypes(System.String)">
+    <parameter name="xsdType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.OnewayMethod.#ctor(System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlMethodInfo,System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType)">
+    <parameter name="wsdlMethodInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.OnewayMethod.#ctor(System.String,System.String,System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ParseAttributeField(System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace,System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType)">
+    <parameter name="parsingNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parsingComplexType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ParseComplexType(System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ParseElementDecl(System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace)">
+    <parameter name="parsingNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ParseElementField(System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace,System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType,System.Int32)">
+    <parameter name="parsingNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parsingComplexType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ParseEnumeration(System.Runtime.Remoting.MetadataServices.WsdlParser.URTSimpleType,System.Int32)">
+    <parameter name="parsingSimpleType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ParseNamespace">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ParseReaderStreamLocation(System.Runtime.Remoting.MetadataServices.WsdlParser.ReaderStream,System.Runtime.Remoting.MetadataServices.WsdlParser.ReaderStream)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ParseRestrictionField(System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace,System.Runtime.Remoting.MetadataServices.WsdlParser.BaseType)">
+    <parameter name="parsingType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ParseSimpleType(System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="parsingNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ParseWsdlBindingOperation(System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingOperation,System.Boolean@,System.Boolean@)">
+    <parameter name="op">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ParseWsdlBindingOperationSection(System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingOperation,System.String,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="op">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ParseWsdlBindingSuds(System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingSuds)">
+    <parameter name="suds">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ParseWsdlPortTypeOperationContent(System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlPortType,System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlPortTypeOperation)">
+    <parameter name="portType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="portTypeOperation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ParseWsdlServicePort(System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlServicePort)">
+    <parameter name="port">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ReaderStream.GetNextReaderStream(System.Runtime.Remoting.MetadataServices.WsdlParser.ReaderStream)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ReaderStream.GetReaderStream(System.Runtime.Remoting.MetadataServices.WsdlParser.ReaderStream,System.Runtime.Remoting.MetadataServices.WsdlParser.ReaderStream)">
+    <parameter name="inputStreams">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="newStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ResolveTypeNames(System.String@,System.String@,System.Boolean@,System.Boolean@)">
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ResolveWsdlAddress(System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBinding)">
+    <parameter name="binding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ResolveWsdlClass(System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBinding,System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingSuds,System.Boolean)">
+    <parameter name="binding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ResolveWsdlInterface(System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBinding,System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingSuds)">
+    <parameter name="binding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suds">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ResolveWsdlMethodInfo(System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBinding)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="binding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.ResolveWsdlNestedType(System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBinding,System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingSuds,System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingSudsNestedType)">
+    <parameter name="suds">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="nested">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.RRMethod.#ctor(System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlMethodInfo,System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType)">
+    <parameter name="wsdlMethodInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.SchemaFacet.PrintCSC(System.IO.TextWriter,System.String,System.String,System.Text.StringBuilder)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.SystemInterface.CSharpTypeString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType.#ctor(System.String,System.String,System.String,System.String,System.Runtime.Remoting.MetadataServices.SchemaBlockType,System.Boolean,System.Boolean,System.Runtime.Remoting.MetadataServices.WsdlParser,System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parser">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType.AddMethod(System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType.FilterDimensions(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType.GetMethod(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType.Implements(System.String,System.String,System.Runtime.Remoting.MetadataServices.WsdlParser)">
+    <parameter name="parser">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType.PrintClientProxy(System.IO.TextWriter,System.String,System.String,System.Text.StringBuilder)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType.PrintCSC(System.IO.TextWriter,System.String,System.String,System.Text.StringBuilder)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="indentation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType.PrintISerializable(System.IO.TextWriter,System.String,System.String,System.Text.StringBuilder,System.String)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType.ResolveTypes(System.Runtime.Remoting.MetadataServices.WsdlParser)">
+    <parameter name="parser">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTField.#ctor(System.String,System.String,System.String,System.Runtime.Remoting.MetadataServices.WsdlParser,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace)">
+    <parameter name="xmlNS">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parser">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="urtNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTField.PrintCSC(System.IO.TextWriter,System.String,System.String,System.Text.StringBuilder)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="indentation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTInterface.AddMethod(System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTInterface.CheckIfNewNeeded(System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTInterface.Extends(System.String,System.String,System.Runtime.Remoting.MetadataServices.WsdlParser)">
+    <parameter name="parser">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTInterface.NewNeeded(System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTInterface.PrintCSC(System.IO.TextWriter,System.String,System.String,System.Text.StringBuilder)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="indentation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTInterface.ResolveTypes(System.Runtime.Remoting.MetadataServices.WsdlParser)">
+    <parameter name="parser">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod.#ctor(System.String,System.String,System.String,System.Runtime.Remoting.MetadataServices.WsdlParser.URTComplexType)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod.AddParam(System.Runtime.Remoting.MetadataServices.WsdlParser.URTParam)">
+    <parameter name="newParam">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod.IsSignature(System.Reflection.MethodBase)">
+    <parameter name="baseInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod.PrintCSC(System.IO.TextWriter,System.String,System.String,System.String,System.Runtime.Remoting.MetadataServices.WsdlParser.MethodPrintEnum,System.Boolean,System.String,System.Text.StringBuilder)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="indentation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod.PrintMethodName(System.Text.StringBuilder,System.String,System.String)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod.PrintPropertyBody(System.IO.TextWriter,System.String,System.Text.StringBuilder,System.String)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod.PrintSignature(System.Text.StringBuilder,System.String)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod.PrintSoapAction(System.String,System.Text.StringBuilder)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod.ResolveTypes(System.Runtime.Remoting.MetadataServices.WsdlParser)">
+    <parameter name="parser">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod.ResolveWsdlParams(System.Runtime.Remoting.MetadataServices.WsdlParser,System.String,System.String,System.Boolean,System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlMethodInfo)">
+    <parameter name="parser">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="wsdlMethodInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod.ValueString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace.#ctor(System.String,System.Runtime.Remoting.MetadataServices.WsdlParser)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parser">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace.EncodeInterop(System.String,System.Runtime.Remoting.MetadataServices.WsdlParser)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parser">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace.LookupComplexType(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace.LookupComplexTypeEqual(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace.LookupInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace.LookupSimpleType(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace.LookupType(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace.PrintCSC(System.Runtime.Remoting.MetadataServices.WsdlParser.WriterStream)">
+    <parameter name="writerStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace.ResolveElements(System.Runtime.Remoting.MetadataServices.WsdlParser)">
+    <parameter name="parser">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTNamespace.ResolveTypes(System.Runtime.Remoting.MetadataServices.WsdlParser)">
+    <parameter name="parser">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTParam.PrintCSC(System.Text.StringBuilder)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTParam.PrintCSC(System.Text.StringBuilder,System.String)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTSimpleType.GetMethodFlags(System.Runtime.Remoting.MetadataServices.WsdlParser.URTMethod)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTSimpleType.MapToEnumType(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.URTSimpleType.PrintCSC(System.IO.TextWriter,System.String,System.String,System.Text.StringBuilder)">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="indentation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WriterStream.GetWriterStream(System.Runtime.Remoting.MetadataServices.WsdlParser.WriterStream@,System.String,System.String,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBinding.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingOperation.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingOperationSection.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingSoapBinding.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingSoapBody.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingSoapFault.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingSoapHeader.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingSoapOperation.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingSuds.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlBindingSudsImplements.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlMessage.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlMessagePart.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlPortType.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlPortTypeOperation.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlPortTypeOperationContent.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlService.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Remoting.MetadataServices.WsdlParser.WsdlServicePort.UsedNamespace(System.Collections.Hashtable)">
+    <parameter name="namespaces">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Remoting.Services.RemotingClientProxy.Cookies">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Services.RemotingService.Application">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Services.RemotingService.Context">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Remoting.Services.RemotingService.Server">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>

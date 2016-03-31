@@ -1,0 +1,689 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Windows.Controls, Version=2.0.5.0">
+  <member name="M:System.Windows.Automation.Peers.CalendarAutomationPeer.#GetColumnHeaders">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.CalendarAutomationPeer.#GetRowHeaders">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.CalendarAutomationPeer.#GetSelection">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.CalendarAutomationPeer.#GetSupportedViews">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.CalendarAutomationPeer.#GetViewName(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.CalendarAutomationPeer.GetNameCore">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Automation.Peers.CalendarAutomationPeer.OwningCalendar">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.CalendarAutomationPeer.RaiseDayButtonSelectionEvent(System.Windows.Controls.Calendar,System.DateTime,)">
+    <parameter name="calendar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Peers.CalendarButtonAutomationPeer.GetLocalizedControlTypeCore">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Automation.Peers.CalendarButtonAutomationPeer.OwningCalendarButton">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.CalendarDayButtonAutomationPeer.#GetColumnHeaderItems">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.CalendarDayButtonAutomationPeer.#GetRowHeaderItems">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.CalendarDayButtonAutomationPeer.GetLocalizedControlTypeCore">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Automation.Peers.CalendarDayButtonAutomationPeer.OwningCalendarDayButton">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.ChildWindowAutomationPeer.#ctor(System.Windows.Controls.ChildWindow)">
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Windows.Automation.Peers.DatePickerAutomationPeer.#Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.DatePickerAutomationPeer.GetLocalizedControlTypeCore">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.DatePickerAutomationPeer.GetNameCore">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Automation.Peers.DatePickerAutomationPeer.OwningDatePicker">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.TabControlAutomationPeer.#GetSelection">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.TabControlAutomationPeer.CreateItemAutomationPeer(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.TabControlAutomationPeer.GetClickablePointCore">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.TabItemAutomationPeer.GetNameCore">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Automation.Peers.TabItemAutomationPeer.TabOwner">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.TreeViewAutomationPeer.#GetSelection">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.TreeViewAutomationPeer.GetChildrenCore">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.TreeViewAutomationPeer.GetClassNameCore">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.TreeViewAutomationPeer.GetPattern()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.TreeViewItemAutomationPeer.GetClassNameCore">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Peers.TreeViewItemAutomationPeer.GetPattern()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.Calendar.FindDayButtonFromDay(System.DateTime)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.Calendar.IsValidDateSelection(System.Windows.Controls.Calendar,System.Object)">
+    <parameter name="cal">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.Calendar.IsValidFirstDayOfWeek(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.Calendar.IsValidKeyboardSelection(System.Windows.Controls.Calendar,System.Object)">
+    <parameter name="cal">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.Calendar.IsValidSelectionMode(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Windows.Controls.Calendar.MonthControl">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.Calendar.OnCreateAutomationPeer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.Calendar.OnDisplayDateChanged(,)">
+    <parameter name="d">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.Calendar.SelectedDateMax(System.Windows.Controls.Calendar)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="cal">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.Calendar.SelectedDateMin(System.Windows.Controls.Calendar)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="cal">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.Calendar.UpdateDisplayDate(System.Windows.Controls.Calendar,System.DateTime,System.DateTime)">
+    <parameter name="c">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.CalendarBlackoutDatesCollection.InsertItem(System.Int32,System.Windows.Controls.CalendarDateRange)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.CalendarBlackoutDatesCollection.IsValid(System.Windows.Controls.CalendarDateRange)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.CalendarBlackoutDatesCollection.SetItem(System.Int32,System.Windows.Controls.CalendarDateRange)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.CalendarDateRange.ContainsAny(System.Windows.Controls.CalendarDateRange)">
+    <parameter name="range">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.CalendarExtensions.IsHandlerSuspended(,)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dependencyProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.CalendarExtensions.SuspendHandler(,,System.Boolean)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dependencyProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.ChildWindow.OnCreateAutomationPeer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.ChildWindow.OnHasCloseButtonPropertyChanged(,)">
+    <parameter name="d">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.ChildWindow.OnOverlayBrushPropertyChanged(,)">
+    <parameter name="d">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.ChildWindow.OnOverlayOpacityPropertyChanged(,)">
+    <parameter name="d">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Windows.Controls.ChildWindow.RootVisual">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.DatePicker.Calendar_DisplayDateChanged(System.Object,System.Windows.Controls.CalendarDateChangedEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.DatePicker.DateTimeToString(System.DateTime)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.DatePicker.DiscardTime(System.Nullable{System.DateTime})">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.DatePicker.InternalTestHook.DateTimeToString(System.DateTime)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.DatePicker.OnCreateAutomationPeer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.DatePicker.ParseText(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.DatePicker.SetTextBoxValue(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.DatePicker.TestHook">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.DateTimeHelper.AddDays(System.DateTime,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.DateTimeHelper.AddMonths(System.DateTime,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.DateTimeHelper.AddYears(System.DateTime,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.DateTimeHelper.DiscardTime(System.Nullable{System.DateTime})">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.DateTimeHelper.GetCurrentDateFormat">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.DateTimeHelper.InRange(System.DateTime,System.Windows.Controls.CalendarDateRange)">
+    <parameter name="range">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.DateTimeHelper.ToYearMonthPatternString(System.DateTime)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.DateTimeTypeConverter.ConvertFrom(,System.Globalization.CultureInfo,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="culture">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.DateTimeTypeConverter.ConvertTo(,System.Globalization.CultureInfo,System.Object,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="culture">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="destinationType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.GridSplitter.GetActualLength(System.Windows.Controls.GridSplitter.DefinitionAbstraction)">
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.GridSplitter.GetDeltaConstraints">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.GridSplitter.GetGridDefinition(,System.Int32,System.Windows.Controls.GridSplitter.GridResizeDirection)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.GridSplitter.IsStar(System.Windows.Controls.GridSplitter.DefinitionAbstraction)">
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.GridSplitter.OnCreateAutomationPeer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.GridSplitter.SetDefinitionLength(System.Windows.Controls.GridSplitter.DefinitionAbstraction,)">
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Windows.Controls.GridSplitter.TestHook">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.HeaderedItemsControl.PrepareHeaderedItemsControlContainer(System.Windows.Controls.HeaderedItemsControl,System.Object,,)">
+    <parameter name="control">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.InteractionHelper.AllowGotFocus()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.InteractionHelper.AllowKeyDown()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.InteractionHelper.AllowKeyUp()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.InteractionHelper.AllowLostFocus()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.InteractionHelper.AllowMouseEnter()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.InteractionHelper.AllowMouseLeave()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.InteractionHelper.AllowMouseLeftButtonDown()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.InteractionHelper.AllowMouseLeftButtonUp()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.PreviewControl.Bind(System.Windows.Controls.GridSplitter)">
+    <parameter name="gridSplitter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.Primitives.CalendarButton.OnCreateAutomationPeer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.Primitives.CalendarDayButton.OnCreateAutomationPeer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.Primitives.CalendarItem.AddSelection(System.Windows.Controls.Primitives.CalendarDayButton)">
+    <parameter name="b">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.Primitives.CalendarItem.SetButtonState(System.Windows.Controls.Primitives.CalendarDayButton,System.DateTime)">
+    <parameter name="childButton">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.Primitives.DatePickerTextBox.ExtractTemplatePart``1(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.Primitives.DatePickerTextBox.ExtractTemplatePart``1(System.String,)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.Primitives.TabPanel.CalculateHeaderDistribution(System.Double,System.Double[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="headerWidth">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.Primitives.TabPanel.GetActiveRow(System.Int32[])">
+    <parameter name="solution">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.Primitives.TabPanel.GetDesiredSizeWithoutMargin()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.Primitives.TabPanel.GetHeadersSize">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.Primitives.TabPanel.MeasureOverride()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Primitives.TabPanel.TabControlParent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.Automation_OperationCannotBePerformed">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.Calendar_CheckSelectionMode_InvalidOperation">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.Calendar_NextButtonName">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.Calendar_OnDisplayModePropertyChanged_InvalidValue">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.Calendar_OnFirstDayOfWeekChanged_InvalidValue">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.Calendar_OnSelectedDateChanged_InvalidOperation">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.Calendar_OnSelectedDateChanged_InvalidValue">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.Calendar_OnSelectionModeChanged_InvalidValue">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.Calendar_PreviousButtonName">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.Calendar_UnSelectableDates">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.CalendarAutomationPeer_BlackoutDayHelpText">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.CalendarAutomationPeer_CalendarButtonLocalizedControlType">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.CalendarAutomationPeer_DayButtonLocalizedControlType">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.CalendarAutomationPeer_DecadeMode">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.CalendarAutomationPeer_MonthMode">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.CalendarAutomationPeer_YearMode">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.CalendarCollection_MultiThreadedCollectionChangeNotSupported">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.ChildWindow_InvalidOperation">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.DatePicker_DropDownButtonName">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.DatePicker_OnSelectedDateFormatChanged_InvalidValue">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.DatePicker_WatermarkText">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.DatePickerAutomationPeer_LocalizedControlType">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.DatePickerDateValidationErrorEventArgs_ThrowException_NoException">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.DatePickerTextBox_DefaultWatermarkText">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.DatePickerTextBox_TemplatePartIsOfIncorrectType">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.DateTimeTypeConverter_FormatException">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.ParameterCollection_EnsureCanChangeCollection_IsReadOnly">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.ResolveElementNameEventArgs_ctor_ElementNameEmpty">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.RoutedPropertyChangingEventArgs_CancelSet_InvalidOperation">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.TabControl_InvalidChild">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.TabControl_InvalidIndex">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.TreeView_OnSelectedItemPropertyChanged_InvalidWrite">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.TreeView_OnSelectedValuePropertyChanged_InvalidWrite">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.TreeViewItem_OnHasItemsPropertyChanged_InvalidWrite">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.TreeViewItem_OnIsSelectionActivePropertyChanged_InvalidWrite">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.TypeConverters_Convert_CannotConvert">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.Properties.Resources.TypeConverters_ConvertFrom_CannotConvertFromType">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.TabItem.GetTabItemAutomationPeer(System.Windows.Controls.TabItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Windows.Controls.TabItem.InternalTestHook.TabControlParent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.TabItem.OnCreateAutomationPeer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.TabItem.OnHeaderChanged(,)">
+    <parameter name="d">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Windows.Controls.TabItem.TabControlParent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.TabItem.TestHook">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.TreeView.ChangeSelection(System.Object,System.Windows.Controls.TreeViewItem,System.Boolean)">
+    <parameter name="container">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeView.GetContainerForItemOverride">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.TreeView.OnCreateAutomationPeer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.TreeView.OnGotFocus()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeView.OnItemsChanged()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeView.OnKeyDown()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeView.OnKeyUp()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeView.OnLostFocus()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeView.OnMouseEnter()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeView.OnMouseLeave()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeView.OnMouseLeftButtonDown()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeView.OnMouseLeftButtonUp()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeView.PropagateKeyDown()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeViewItem.FindLastFocusableItem">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.TreeViewItem.FindPreviousFocusableItem">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.TreeViewItem.GetContainerForItemOverride">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.TreeViewItem.OnCreateAutomationPeer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.TreeViewItem.OnGotFocus()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeViewItem.OnHeaderMouseLeftButtonDown(System.Object,)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeViewItem.OnItemsChanged()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeViewItem.OnKeyDown()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeViewItem.OnKeyUp()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeViewItem.OnLostFocus()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeViewItem.OnMouseEnter()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeViewItem.OnMouseLeave()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeViewItem.OnMouseLeftButtonDown()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TreeViewItem.OnMouseLeftButtonUp()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Windows.Controls.TreeViewItem.ParentTreeView">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Controls.TreeViewItem.ParentTreeViewItem">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.TypeConverters.CanConvertFrom``1(System.Type)">
+    <parameter name="sourceType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TypeConverters.CanConvertTo``1(System.Type)">
+    <parameter name="destinationType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TypeConverters.ConvertFrom``1(,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.TypeConverters.ConvertTo(,System.Object,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="destinationType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Controls.VisualStates.GetImplementationRoot()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Controls.VisualStates.GoToState(,System.Boolean,System.String[])">
+    <parameter name="stateNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

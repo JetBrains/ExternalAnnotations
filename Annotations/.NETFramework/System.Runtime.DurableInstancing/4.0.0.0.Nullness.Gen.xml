@@ -1,0 +1,1088 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Runtime.DurableInstancing, Version=4.0.0.0">
+  <member name="M:System.Runtime.AsyncResult.PrepareTransactionalCall(System.Transactions.Transaction)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Diagnostics.DiagnosticsEventProvider.WriteMessageEvent(System.String)">
+    <parameter name="eventMessage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Diagnostics.DiagnosticsEventProvider.WriteMessageEvent(System.String,System.Byte,System.Int64)">
+    <parameter name="eventMessage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Diagnostics.DiagnosticTrace.BuildTrace(System.Diagnostics.Eventing.EventDescriptor@,System.String,System.Runtime.TracePayload)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Diagnostics.DiagnosticTrace.CreateSourceString(System.Object)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Diagnostics.DiagnosticTrace.ExceptionToTraceString(System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Diagnostics.DiagnosticTrace.StackTraceString(System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Diagnostics.DiagnosticTrace.UnhandledExceptionHandler(System.Object,System.UnhandledExceptionEventArgs)">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Diagnostics.EventLogger.LogEvent(System.Diagnostics.TraceEventType,System.UInt16,System.UInt32,System.Boolean,System.String[])">
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Diagnostics.EventLogger.LogEvent(System.Diagnostics.TraceEventType,System.UInt16,System.UInt32,System.String[])">
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Diagnostics.EventLogger.SafeLogEvent(System.Diagnostics.TraceEventType,System.UInt16,System.UInt32,System.Boolean,System.String[])">
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Diagnostics.EventLogger.UnsafeCreateEventLogger(System.String,System.Runtime.Diagnostics.DiagnosticTrace)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Diagnostics.EventLogger.UnsafeLogEvent(System.Diagnostics.TraceEventType,System.UInt16,System.UInt32,System.Boolean,System.String[])">
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Diagnostics.EventLogger.UnsafeWriteEventLog(System.Diagnostics.TraceEventType,System.UInt16,System.UInt32,System.String[],System.Byte[],System.Runtime.InteropServices.GCHandle)">
+    <parameter name="logValues">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceCollisionException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceCollisionException.ToMessage(System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceCompleteException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceCompleteException.ToMessage(System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandle.AcquireContextAsyncResult.#ctor(System.Runtime.DurableInstancing.InstanceHandle,System.Transactions.Transaction,System.TimeSpan,System.Boolean@)">
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandle.AcquireContextAsyncResult.#ctor(System.Runtime.DurableInstancing.InstanceHandle,System.Transactions.Transaction,System.TimeSpan,System.Boolean@,System.AsyncCallback,System.Object)">
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandle.AcquireContextAsyncResult.#ctor(System.Runtime.DurableInstancing.InstanceHandle,System.Transactions.Transaction,System.TimeSpan,System.Boolean@,System.Boolean,System.AsyncCallback,System.Object)">
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandle.AcquireContextAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandle.AcquireContextAsyncResult.OnHostTransaction(System.Object,System.TimeoutException)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandle.AcquireExecutionContext(System.Transactions.Transaction,System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandle.BeginAcquireExecutionContext(System.Transactions.Transaction,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandle.BeginWaitForEvents(System.Runtime.DurableInstancing.InstanceHandle,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandle.EndAcquireExecutionContext(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandle.EndWaitForEvents(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandle.StartWaiting(System.Runtime.DurableInstancing.InstanceHandle.WaitForEventsAsyncResult,System.Runtime.IOThreadTimer,System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandle.WaitForEventsAsyncResult.#ctor(System.Runtime.DurableInstancing.InstanceHandle,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandle.WaitForEventsAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandle.WaitForEventsAsyncResult.OnTimeout(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandleConflictException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceHandleConflictException.ToMessage(System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceKeyCollisionException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceKeyCollisionException.ToMessage(System.Guid,System.Runtime.DurableInstancing.InstanceKey,System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceKeyCompleteException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceKeyNotReadyException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceLockedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceLockedException.ToMessage(System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceLockedException.ToMessage(System.Guid,System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceLockLostException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceLockLostException.ToMessage(System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceLockQueryResult.#ctor(System.Collections.Generic.IDictionary{System.Guid,System.Guid})">
+    <parameter name="instanceOwnerIds">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceNotReadyException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceNotReadyException.ToMessage(System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceOwner.CancelReference(System.Runtime.DurableInstancing.InstanceHandleReference@,System.Collections.Generic.List{System.Runtime.DurableInstancing.InstanceHandleReference}@)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceOwner.FinishBind(System.Runtime.DurableInstancing.InstanceHandleReference@,System.Int64@,System.Collections.Generic.List{System.Runtime.DurableInstancing.InstanceHandleReference}@)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceOwner.InitiateLockResolution(System.Int64,System.Runtime.DurableInstancing.InstanceHandleReference@,System.Collections.Generic.List{System.Runtime.DurableInstancing.InstanceHandleReference}@)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceOwner.TryCompleteBind(System.Runtime.DurableInstancing.InstanceHandleReference@,System.Collections.Generic.List{System.Runtime.DurableInstancing.InstanceHandleReference}@,System.Runtime.DurableInstancing.InstanceHandle@)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceOwnerException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceOwnerException.ToMessage(System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceOwnerQueryResult.#ctor(System.Collections.Generic.IDictionary{System.Guid,System.Collections.Generic.IDictionary{,System.Runtime.DurableInstancing.InstanceValue}})">
+    <parameter name="instanceOwners">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistence.ReadOnlyCopy(System.Collections.Generic.IDictionary{System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue},System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceCommand.#ctor(System.Xml.Linq.XName)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceCommand.Validate(System.Runtime.DurableInstancing.InstanceView)">
+    <parameter name="view">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceCommandException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.#ctor(System.Runtime.DurableInstancing.InstanceHandle,System.TimeSpan)">
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.BeginBindReclaimedLock(System.Int64,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.BeginExecute(System.Runtime.DurableInstancing.InstancePersistenceCommand,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="command">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.BeginOuterExecute(System.Runtime.DurableInstancing.InstanceHandle,System.Runtime.DurableInstancing.InstancePersistenceCommand,System.Transactions.Transaction,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="initialInstanceHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.BindEvent(System.Runtime.DurableInstancing.InstancePersistenceEvent)">
+    <parameter name="persistenceEvent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.BindReclaimedLockAsyncResult.#ctor(System.Runtime.DurableInstancing.InstancePersistenceContext,System.Runtime.AsyncWaitHandle,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="wait">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.BindReclaimedLockAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.BindReclaimedLockAsyncResult.OnWaitComplete(System.Object,System.TimeoutException)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.BindReclaimedLockException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.CreateBindReclaimedLockException(System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.EndBindReclaimedLock(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.EndExecute(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.EndOuterExecute(System.IAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.Execute(System.Runtime.DurableInstancing.InstancePersistenceCommand,System.TimeSpan)">
+    <parameter name="command">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.ExecuteAsyncResult.#ctor(System.Runtime.DurableInstancing.InstanceHandle,System.Runtime.DurableInstancing.InstancePersistenceCommand,System.Transactions.Transaction,System.TimeSpan)">
+    <parameter name="initialInstanceHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.ExecuteAsyncResult.#ctor(System.Runtime.DurableInstancing.InstanceHandle,System.Runtime.DurableInstancing.InstancePersistenceCommand,System.Transactions.Transaction,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="initialInstanceHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.ExecuteAsyncResult.#ctor(System.Runtime.DurableInstancing.InstancePersistenceContext,System.Runtime.DurableInstancing.InstancePersistenceCommand,System.TimeSpan)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.ExecuteAsyncResult.#ctor(System.Runtime.DurableInstancing.InstancePersistenceContext,System.Runtime.DurableInstancing.InstancePersistenceCommand,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.ExecuteAsyncResult.DoEndCommand(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.ExecuteAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.ExecuteAsyncResult.OnAcquireContext(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.ExecuteAsyncResult.OnBindReclaimed(System.Object,System.TimeoutException)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.ExecuteAsyncResult.OnCommit(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.ExecuteAsyncResult.OnCommitWait(System.Object,System.TimeoutException)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.ExecuteAsyncResult.OnTryCommand(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.ExecuteAsyncResult.SetInteriorTransaction(System.Transactions.Transaction,System.Boolean)">
+    <parameter name="interiorTransaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.InitiateBindReclaimedLockHelper(System.String,System.Int64,System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.OuterExecute(System.Runtime.DurableInstancing.InstanceHandle,System.Runtime.DurableInstancing.InstancePersistenceCommand,System.Transactions.Transaction,System.TimeSpan)">
+    <parameter name="initialInstanceHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.QueriedInstanceStore(System.Runtime.DurableInstancing.InstanceStoreQueryResult)">
+    <parameter name="queryResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.WroteInstanceKeyMetadataValue(System.Guid,System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.WroteInstanceMetadataValue(System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceContext.WroteInstanceOwnerMetadataValue(System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceEvent.#ctor(System.Xml.Linq.XName)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceEvent.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceEvent.Equals(System.Runtime.DurableInstancing.InstancePersistenceEvent)">
+    <parameter name="persistenceEvent">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceEvent`1.#ctor(System.Xml.Linq.XName)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstancePersistenceException.ToMessage(System.Xml.Linq.XName)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.BeginExecute(System.Runtime.DurableInstancing.InstanceHandle,System.Runtime.DurableInstancing.InstancePersistenceCommand,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="command">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.BeginTryCommand(System.Runtime.DurableInstancing.InstancePersistenceContext,System.Runtime.DurableInstancing.InstancePersistenceCommand,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="command">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.BeginWaitForEvents(System.Runtime.DurableInstancing.InstanceHandle,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.CreateInstanceHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.CreateInstanceHandle(System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.CreateInstanceHandle(System.Runtime.DurableInstancing.InstanceOwner)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.CreateInstanceHandle(System.Runtime.DurableInstancing.InstanceOwner,System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.EndExecute(System.IAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.EndTryCommand(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.EndWaitForEvents(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.Execute(System.Runtime.DurableInstancing.InstanceHandle,System.Runtime.DurableInstancing.InstancePersistenceCommand,System.TimeSpan)">
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="command">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.FreeInstanceHandle(System.Runtime.DurableInstancing.InstanceHandle,System.Object)">
+    <parameter name="providerObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.GetEvents(System.Runtime.DurableInstancing.InstanceOwner)">
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.GetOrCreateOwner(System.Guid,System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.OnFreeInstanceHandle(System.Runtime.DurableInstancing.InstanceHandle,System.Object)">
+    <parameter name="userContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.OnNewInstanceHandle(System.Runtime.DurableInstancing.InstanceHandle)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.RemoveHandleFromEvents(System.Runtime.DurableInstancing.InstanceHandle,System.Collections.Generic.IEnumerable{},System.Runtime.DurableInstancing.InstanceOwner)">
+    <parameter name="eventNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.ResetEvent(System.Runtime.DurableInstancing.InstancePersistenceEvent,System.Runtime.DurableInstancing.InstanceOwner)">
+    <parameter name="persistenceEvent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.SelectSignaledEvents(System.Collections.Generic.IEnumerable{},System.Runtime.DurableInstancing.InstanceOwner)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="eventNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.SignalEvent(System.Runtime.DurableInstancing.InstancePersistenceEvent,System.Runtime.DurableInstancing.InstanceOwner)">
+    <parameter name="persistenceEvent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.TryCommand(System.Runtime.DurableInstancing.InstancePersistenceContext,System.Runtime.DurableInstancing.InstancePersistenceCommand,System.TimeSpan)">
+    <parameter name="command">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.DurableInstancing.InstanceStore.WaitForEvents(System.Runtime.DurableInstancing.InstanceHandle,System.TimeSpan)">
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Fx.CreateTransactionScope(System.Transactions.Transaction)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.#ctor(System.Collections.Generic.IEnumerable{System.Runtime.IPersistencePipelineModule},System.Collections.Generic.Dictionary{System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue})">
+    <parameter name="initialValues">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.BeginLoad(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.BeginSave(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.EndLoad(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.EndSave(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.IOAsyncResult.#ctor(System.Runtime.PersistencePipeline,System.Boolean,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="pipeline">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.IOAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.IOAsyncResult.IOComplete(System.IAsyncResult,System.Runtime.IPersistencePipelineModule)">
+    <parameter name="module">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.IOAsyncResult.OnIOComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.SetLoadedValues(System.Collections.Generic.IDictionary{System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue})">
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.ValueDictionaryView.Add(System.Xml.Linq.XName,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.ValueDictionaryView.ContainsKey(System.Xml.Linq.XName)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.ValueDictionaryView.CopyTo(System.Collections.Generic.KeyValuePair{System.Xml.Linq.XName,System.Object}[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.PersistencePipeline.ValueDictionaryView.Item(System.Xml.Linq.XName)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.ValueDictionaryView.Remove(System.Xml.Linq.XName)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.ValueDictionaryView.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.PersistencePipeline.ValueDictionaryView.TryGetValue(System.Xml.Linq.XName,System.Object@)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.ReadOnlyDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})">
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.ReadOnlyDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1},System.Boolean)">
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.ReadOnlyDictionary`2.Add(`0,`1)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.ReadOnlyDictionary`2.ContainsKey(`0)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.ReadOnlyDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.ReadOnlyDictionary`2.Create(System.Collections.Generic.IDictionary{`0,`1})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.ReadOnlyDictionary`2.CreateReadOnlyException">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.ReadOnlyDictionary`2.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.ReadOnlyDictionary`2.Item(`0)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.ReadOnlyDictionary`2.Keys">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.ReadOnlyDictionary`2.Remove(`0)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.ReadOnlyDictionary`2.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.ReadOnlyDictionary`2.TryGetValue(`0,`1@)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.ReadOnlyDictionary`2.Values">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.ActionItemIsAlreadyScheduled">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.ArgumentNullOrEmpty(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.AsyncCallbackThrewException">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.AsyncResultAlreadyEnded">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.AsyncResultCompletedTwice(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.BadCopyToArray">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.BufferAllocationFailed(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.BufferedOutputStreamQuotaExceeded(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.BufferIsNotRightSizeForBufferManager">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.CannotAcquireLockSpecific(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.CannotAcquireLockSpecificWithOwner(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.CannotConvertObject(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.CouldNotResolveNamespacePrefix(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.DictionaryIsReadOnly">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.EtwAPIMaxStringCountExceeded(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.EtwMaxNumberArgumentsExceeded(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.EtwRegistrationFailed(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.FailFastMessage(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.GenericInstanceCommand(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.GetParameterTypeMismatch(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.IncompatibleArgumentType(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.IncorrectValueType(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.InitialMetadataCannotBeDeleted(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.InstanceCollisionSpecific(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.InstanceCompleteSpecific(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.InstanceHandleConflictSpecific(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.InstanceLockLostSpecific(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.InstanceNotReadySpecific(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.InstanceOwnerSpecific(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.InvalidAsyncResult">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.InvalidAsyncResultImplementation(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.InvalidAsyncResultImplementationGeneric">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.InvalidNullAsyncResult">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.InvalidSemaphoreExit">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.KeyCollisionSpecific(System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.KeyCollisionSpecificKeyOnly(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.KeyCompleteSpecific(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.KeyNotFoundInDictionary">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.KeyNotReadySpecific(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.LockTimeoutExceptionMessage(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.MetadataCannotContainNullValue(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.MustCancelOldTimer">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.NameCollisionOnCollect(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.NameCollisionOnMap(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.NullAssignedToValueType(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.OutsideInstanceExecutionScope(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.OutsideTransactionalCommand(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.PersistencePipelineAbortThrew(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.ProviderDoesNotSupportCommand(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.ReadNotSupported">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.SeekNotSupported">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.ShipAssertExceptionMessage(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.ThreadNeutralSemaphoreAborted">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.TimeoutInputQueueDequeue(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.TimeoutMustBeNonNegative(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.TimeoutMustBePositive(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.TimeoutOnOperation(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.SRCore.ValueMustBeNonNegative">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.SRCore.WaitForEventsTimedOut(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.TraceCore.AppDomainUnload(System.Runtime.Diagnostics.DiagnosticTrace,System.String,System.String,System.String)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.AppDomainUnloadIsEnabled(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.HandledException(System.Runtime.Diagnostics.DiagnosticTrace,System.Exception)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.HandledExceptionIsEnabled(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.HandledExceptionWarning(System.Runtime.Diagnostics.DiagnosticTrace,System.Exception)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.HandledExceptionWarningIsEnabled(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.IsEtwEventEnabled(System.Runtime.Diagnostics.DiagnosticTrace,System.Int32)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.MaxInstancesExceeded(System.Runtime.Diagnostics.DiagnosticTrace,System.Int32)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.MaxInstancesExceededIsEnabled(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.ShipAssertExceptionMessage(System.Runtime.Diagnostics.DiagnosticTrace,System.String)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.ShipAssertExceptionMessageIsEnabled(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.ThrowingException(System.Runtime.Diagnostics.DiagnosticTrace,System.String,System.Exception)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.ThrowingExceptionIsEnabled(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.TraceCodeEventLogCritical(System.Runtime.Diagnostics.DiagnosticTrace,System.Runtime.Diagnostics.TraceRecord)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.TraceCodeEventLogCriticalIsEnabled(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.TraceCodeEventLogError(System.Runtime.Diagnostics.DiagnosticTrace,System.Runtime.Diagnostics.TraceRecord)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.TraceCodeEventLogErrorIsEnabled(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.TraceCodeEventLogInfo(System.Runtime.Diagnostics.DiagnosticTrace,System.Runtime.Diagnostics.TraceRecord)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.TraceCodeEventLogInfoIsEnabled(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.TraceCodeEventLogVerbose(System.Runtime.Diagnostics.DiagnosticTrace,System.Runtime.Diagnostics.TraceRecord)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.TraceCodeEventLogVerboseIsEnabled(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.TraceCodeEventLogWarning(System.Runtime.Diagnostics.DiagnosticTrace,System.Runtime.Diagnostics.TraceRecord)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.TraceCodeEventLogWarningIsEnabled(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.UnhandledException(System.Runtime.Diagnostics.DiagnosticTrace,System.Exception)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.UnhandledExceptionIsEnabled(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.WriteEtwEvent(System.Runtime.Diagnostics.DiagnosticTrace,System.Int32,System.Int32,System.String)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.WriteEtwEvent(System.Runtime.Diagnostics.DiagnosticTrace,System.Int32,System.String,System.String)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.WriteEtwEvent(System.Runtime.Diagnostics.DiagnosticTrace,System.Int32,System.String,System.String,System.String)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.WriteEtwEvent(System.Runtime.Diagnostics.DiagnosticTrace,System.Int32,System.String,System.String,System.String,System.String)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TraceCore.WriteTraceSource(System.Runtime.Diagnostics.DiagnosticTrace,System.Int32,System.String,System.Runtime.TracePayload)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TypeHelper.GetImplementedTypesHelper(System.Type,System.Collections.Generic.HashSet{System.Type})">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typesEncountered">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.TypeHelper.ShouldFilterProperty(System.ComponentModel.PropertyDescriptor,System.Attribute[])">
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.XNameTypeConverterHelper.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Object)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.XNameTypeConverterHelper.ConvertFromHelper(System.ComponentModel.ITypeDescriptorContext,System.Object)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

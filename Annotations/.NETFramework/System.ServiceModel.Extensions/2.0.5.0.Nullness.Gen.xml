@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.ServiceModel.Extensions, Version=2.0.5.0">
+  <member name="M:System.ServiceModel.Channels.ClientFramingDecoder.Decode(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientSingletonSizedEncoder.CalcStartSize(System.ServiceModel.Channels.EncodedVia,System.ServiceModel.Channels.EncodedContentType)">
+    <parameter name="via">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientSingletonSizedEncoder.EncodeStart(System.Byte[],System.Int32,System.ServiceModel.Channels.EncodedVia,System.ServiceModel.Channels.EncodedContentType)">
+    <parameter name="via">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionUtilities.CloseNoThrow(System.ServiceModel.Channels.IConnection,System.TimeSpan)">
+    <parameter name="connection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionUtilities.ValidateBufferBounds(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.EncodedContentType.#ctor(System.String)">
+    <parameter name="contentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.EncodedContentType.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="contentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.EncodedFramingRecord.#ctor(System.ServiceModel.Channels.FramingRecordType,System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.EncodedVia.#ctor(System.String)">
+    <parameter name="via">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FaultStringDecoder.GetFaultException(System.String,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDecoder.CreateException()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDecoder.CreateException(,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDecoder.CreateInvalidRecordTypeException(System.ServiceModel.Channels.FramingRecordType,System.ServiceModel.Channels.FramingRecordType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDecoder.CreatePrematureEOFException">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.IOThreadScheduler.ScheduleCallback(System.Threading.WaitCallback,System.Object)">
+    <parameter name="callback">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.RequestContextBase.BeginReply(,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.RequestContextBase.BeginReply(,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.RequestContextBase.OnBeginReply(,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ServerModeDecoder.Decode(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ServerSessionDecoder.Decode(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SessionEncoder.CalcStartSize(System.ServiceModel.Channels.EncodedVia,System.ServiceModel.Channels.EncodedContentType)">
+    <parameter name="via">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SessionEncoder.EncodeStart(System.Byte[],System.Int32,System.ServiceModel.Channels.EncodedVia,System.ServiceModel.Channels.EncodedContentType)">
+    <parameter name="via">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.StringDecoder.CompareBuffers(System.Byte[],System.Byte[],System.Int32)">
+    <parameter name="buffer1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="buffer2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.StringDecoder.Decode(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.StringDecoder.OnSizeQuotaExceeded(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Description.TypeLoaderEx.AddBehaviorsAtOneScope``2(System.Type,``1,System.ServiceModel.Description.TypeLoaderEx.ServiceInheritanceCallback{``0,``1})">
+    <parameter name="callback">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Description.TypeLoaderEx.ApplyServiceInheritance``2(System.Type,``1,System.ServiceModel.Description.TypeLoaderEx.ServiceInheritanceCallback{``0,``1})">
+    <parameter name="callback">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Description.TypeLoaderEx.GetIOperationBehaviorAttributesFromType(,System.Type,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="targetIface">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.ChannelHandler.OnAsyncReceiveComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.ChannelHandler.OnStartAsyncMessagePump(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.ChannelHandler.Register(System.ServiceModel.Dispatcher.ChannelHandler)">
+    <parameter name="handler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Dispatcher.ChannelHandler.ThisLock">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.BeginMethod(System.String,System.Type,System.Boolean)">
+    <parameter name="delegateType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="methodName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.BeginMethod(System.Type,System.String,System.Type[],System.Boolean)">
+    <parameter name="methodName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="argTypes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Box(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Call(System.Reflection.MethodInfo)">
+    <parameter name="methodInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Castclass(System.Type)">
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.ConvertValue(System.Type,System.Type)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.DeclareLocal(System.Type,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.DeclareLocal(System.Type,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.EndMethod">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.InitObj(System.Type)">
+    <parameter name="valueType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.InternalConvert(System.Type,System.Type,System.Boolean)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.IsStruct(System.Type)">
+    <parameter name="objType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Ldarg(System.ServiceModel.Dispatcher.ArgBuilder)">
+    <parameter name="arg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Ldarga(System.ServiceModel.Dispatcher.ArgBuilder)">
+    <parameter name="argBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.LdargAddress(System.ServiceModel.Dispatcher.ArgBuilder)">
+    <parameter name="argBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Ldc(System.Object)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Ldelem(System.Type)">
+    <parameter name="arrayElementType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Ldelema(System.Type)">
+    <parameter name="arrayElementType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Ldloc(System.Reflection.Emit.LocalBuilder)">
+    <parameter name="localBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Ldloca(System.Reflection.Emit.LocalBuilder)">
+    <parameter name="localBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.LdlocAddress(System.Reflection.Emit.LocalBuilder)">
+    <parameter name="localBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Ldobj(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Ldstr(System.String)">
+    <parameter name="strVar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Ldtoken(System.Type)">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.LoadZeroValueIntoLocal(System.Type,System.Reflection.Emit.LocalBuilder)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="local">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.PopIfState">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Starg(System.ServiceModel.Dispatcher.ArgBuilder)">
+    <parameter name="arg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Stelem(System.Type)">
+    <parameter name="arrayElementType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Stloc(System.Reflection.Emit.LocalBuilder)">
+    <parameter name="local">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Store(System.Object)">
+    <parameter name="var">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.CodeGenerator.Unbox(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.DispatchOperationRuntime.#ctor(,System.ServiceModel.Dispatcher.ImmutableDispatchRuntime)">
+    <parameter name="operation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.DispatchRuntimeEx.UnhandledActionInvoker.AllocateInputs">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.DispatchRuntimeEx.UnhandledActionInvoker.Invoke(System.Object,System.Object[],System.Object[]@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="inputs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.DispatchRuntimeEx.UnhandledActionInvoker.OnServiceChannelClose(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.DuplexChannelBinder.#ctor(,,)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="correlator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.DuplexChannelBinder.AsyncDuplexRequest.TimerCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.DuplexChannelBinder.BeginRequest(,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.DuplexChannelBinder.DuplexRequestContext.#ctor(,,System.ServiceModel.Dispatcher.DuplexChannelBinder)">
+    <parameter name="binder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.DuplexChannelBinder.DuplexRequestContext.ReplyAsyncResult.#ctor(System.ServiceModel.Dispatcher.DuplexChannelBinder.DuplexRequestContext,,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.DuplexChannelBinder.DuplexRequestContext.ReplyAsyncResult.OnSend(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.DuplexChannelBinder.EndRequest(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.DuplexChannelBinder.GetReceiveTimeoutException(System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Dispatcher.DuplexChannelBinder.Requests">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.DuplexChannelBinder.SendCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Dispatcher.DuplexChannelBinder.ThisLock">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ActionDemuxer.Add(System.String,System.ServiceModel.Dispatcher.DispatchOperationRuntime)">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="operation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.InstanceContextProviderBase.GetProviderForMode(System.ServiceModel.InstanceContextMode,)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.InvokerUtil.CriticalHelper.DeclareParameterLocals(System.Reflection.ParameterInfo[],System.Reflection.Emit.LocalBuilder[])">
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parameterLocals">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.InvokerUtil.CriticalHelper.GenerateInvokeDelegate(System.Reflection.MethodInfo,System.Int32@,System.Int32@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.InvokerUtil.CriticalHelper.InvokeMethod(System.Reflection.MethodInfo,System.Reflection.Emit.LocalBuilder)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="returnLocal">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.InvokerUtil.CriticalHelper.LoadInputParametersIntoLocals(System.Reflection.ParameterInfo[],System.Reflection.Emit.LocalBuilder[],System.ServiceModel.Dispatcher.ArgBuilder,System.Int32@)">
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parameterLocals">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.InvokerUtil.CriticalHelper.LoadOutputParametersIntoArray(System.Reflection.ParameterInfo[],System.Reflection.Emit.LocalBuilder[],System.ServiceModel.Dispatcher.ArgBuilder,System.Int32@)">
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parameterLocals">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.InvokerUtil.CriticalHelper.LoadParameters(System.Reflection.ParameterInfo[],System.Reflection.Emit.LocalBuilder[])">
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parameterLocals">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.InvokerUtil.CriticalHelper.LoadTarget(System.ServiceModel.Dispatcher.ArgBuilder,System.Type)">
+    <parameter name="targetArg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.InvokerUtil.GenerateInvokeDelegate(System.Reflection.MethodInfo,System.Int32@,System.Int32@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.MessageOperationFormatter.DeserializeRequest(,System.Object[])">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.MessageRpc.Pause">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.OperationInvokerBehavior.#ApplyDispatchBehavior(,)">
+    <parameter name="dispatch">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.SyncMethodInvoker.#ctor(System.Reflection.MethodInfo)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.SyncMethodInvoker.AllocateInputs">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(System.Object,System.Object[],System.Object[]@)">
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Dispatcher.SyncMethodInvoker.Method">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.ThreadBehavior.SynchronizationContextCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Dispatcher.ThreadBehavior.ThreadAffinityCallbackDelegate">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.DuplexChannelFactory`1.#ctor(System.Object,)">
+    <parameter name="callbackObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="binding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.DuplexChannelFactory`1.#ctor(System.Object,,)">
+    <parameter name="callbackObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="binding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.DuplexChannelFactory`1.#ctor(System.Object,System.String)">
+    <parameter name="callbackObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="endpointConfigurationName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.DuplexChannelFactory`1.#ctor(System.Object,System.String,)">
+    <parameter name="callbackObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="endpointConfigurationName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.DuplexChannelFactory`1.CreateChannel(,)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.DuplexChannelFactory`1.CreateChannel(System.ServiceModel.InstanceContext)">
+    <parameter name="callbackInstance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.DuplexChannelFactory`1.CreateChannel(System.ServiceModel.InstanceContext,)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="callbackInstance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.DuplexChannelFactory`1.CreateChannel(System.ServiceModel.InstanceContext,,)">
+    <parameter name="callbackInstance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.DuplexChannelFactory`1.TypeLoader">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.DuplexHelperAttribute.#CreateChannelBinder(,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.DuplexHelperAttribute.#CreateDispatchRuntime(,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.DuplexHelperAttribute.DispatchRuntimeFactory.Create()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.InstanceContext.#CreateChannelFactory``1(,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.InstanceContext.#CreateChannelFactory``1(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.InstanceContext.#CreateChannelFactory``1(System.String,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.InstanceContext.#ctor(System.Object)">
+    <parameter name="implementation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.InstanceContext.#ctor(System.Object,System.Object)">
+    <parameter name="implementation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.InstanceContext.#ctor(System.Object,System.Object,System.Boolean)">
+    <parameter name="implementation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.InstanceContext.#ctor(System.Object,System.Object,System.Boolean,System.Boolean)">
+    <parameter name="implementation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.InstanceContext.GetServiceInstance()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.SR.Culture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.SR.GetObject(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.SR.GetString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.SR.GetString(System.String,System.Boolean@)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.SR.GetString(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.SRCategoryAttribute.GetLocalizedString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.TypedCompletedAsyncResult`1.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

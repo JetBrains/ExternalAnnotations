@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.ServiceModel.PollingDuplex, Version=2.0.5.0">
+  <member name="M:System.ServiceModel.Channels.ChainedCloseAsyncResult.BeginClose(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.#ctor(System.String,,System.ServiceModel.Channels.IPollingDuplexFactorySettings)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.AddOutputHeaders(,System.String)">
+    <parameter name="sessionId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.BeginPoll(System.ServiceModel.Channels.ClientPollingDuplexSessionChannel,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.EnsurePollingLater(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.FramingMessageSource.#ctor(System.ServiceModel.Channels.ClientPollingDuplexDispatcher,,,)">
+    <parameter name="parent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.FramingMessageSource.DispatchCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.FramingMessageSource.EnsureData(,System.Int32,,System.Byte[],System.Int32,System.Int32@)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.GetDispatcher(,,System.ServiceModel.Channels.IPollingDuplexFactorySettings)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.OnChannelClosingOrFaulted(System.Object,System.EventArgs)">
+    <parameter name="sender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.OnChannelOpened(System.Object,System.EventArgs)">
+    <parameter name="sender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.OnPollComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.PollAsyncResult.#ctor(System.ServiceModel.Channels.ClientPollingDuplexSessionChannel,,System.AsyncCallback,System.Object)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.PollAsyncResult.OnChannelOpen(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.PollAsyncResult.OnCloseInnerChannelComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.PollAsyncResult.OnRequestComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.RemoveChannel(System.ServiceModel.Channels.ClientPollingDuplexSessionChannel)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexDispatcher.RemoveChannel(System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexSessionChannel.#ctor(System.ServiceModel.Channels.PollingDuplexChannelFactory,System.ServiceModel.Channels.IPollingDuplexFactorySettings,,System.ServiceModel.Channels.ClientPollingDuplexDispatcher)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dispatcher">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexSessionChannel.CloseAsyncResult.#ctor(System.ServiceModel.Channels.ClientPollingDuplexSessionChannel,System.TimeSpan,System.AsyncCallback,System.Object,,)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexSessionChannel.CloseAsyncResult.OnChainedCloseComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexSessionChannel.CloseAsyncResult.OnCloseSessionComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexSessionChannel.SendAsyncResult.#ctor(System.ServiceModel.Channels.ClientPollingDuplexSessionChannel,,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientPollingDuplexSessionChannel.SendAsyncResult.OnSendComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationObjectHelpers.CreateAbortedException(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="communicationObjectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationObjectHelpers.CreateNotOpenException(,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="communicationObjectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationObjectHelpers.ThrowIfNotOpened(,System.Type)">
+    <parameter name="communicationObjectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexChannel.BeginReceive(System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexChannel.BeginReceive(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexChannel.BeginSend(,System.AsyncCallback,System.Object)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexChannel.BeginSend(,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexChannel.BeginTryReceive(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexChannel.BeginWaitForMessage(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexChannel.CreateReceiveTimedOutException(,System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexChannel.GetProperty``1">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexChannel.HelpBeginReceive(,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexChannel.HelpReceiveAsyncResult.OnReceive(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexChannel.OnBeginSend(,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexChannel.Send()">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexChannel.Send(,System.TimeSpan)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexHeader.AddToMessage(,System.String,System.String)">
+    <parameter name="sessionId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexHeader.Create(System.String,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="sessionId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexHeader.FindHeader()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Channels.DuplexHeader.Name">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Channels.DuplexHeader.Namespace">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.DuplexHeader.ReadHeaderValue()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingStream.CreateInvalidOperationException">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingStream.CreateMessage">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingStream.ValidateBufferBounds(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingStream.Write(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamMessage.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamMessage.CreateDisposedException">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamMessage.HttpStreamBodyWriter.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Channels.HttpStreamMessageEncoderFactory.HttpStreamMessageEncoder.ContentType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Channels.HttpStreamMessageEncoderFactory.HttpStreamMessageEncoder.MediaType">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamMessageEncoderFactory.HttpStreamMessageEncoder.ReadMessage(System.ArraySegment{System.Byte},,System.String)">
+    <parameter name="bufferManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamMessageEncoderFactory.HttpStreamMessageEncoder.ReadMessage(System.IO.Stream,System.Int32,System.String)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamMessageEncoderFactory.HttpStreamMessageEncoder.WriteMessage(,System.Int32,,System.Int32)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="bufferManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamMessageEncoderFactory.HttpStreamMessageEncoder.WriteMessage(,System.IO.Stream)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamXmlDictionaryReader.#ctor(System.IO.Stream,)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Channels.HttpStreamXmlDictionaryReader.BaseURI">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamXmlDictionaryReader.GetAttribute(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamXmlDictionaryReader.GetAttribute(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Channels.HttpStreamXmlDictionaryReader.LocalName">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamXmlDictionaryReader.LookupNamespace(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Channels.HttpStreamXmlDictionaryReader.NamespaceURI">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Channels.HttpStreamXmlDictionaryReader.Prefix">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamXmlDictionaryReader.ReadContentAsBase64(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamXmlDictionaryWriter.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamXmlDictionaryWriter.LookupPrefix(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamXmlDictionaryWriter.WriteBase64(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamXmlDictionaryWriter.WriteStartElement(System.String,System.String,System.String)">
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamXmlDictionaryWriter.WriteString(System.String)">
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.HttpStreamXmlDictionaryWriter.WriteWhitespace(System.String)">
+    <parameter name="ws">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.InputQueue`1.AsyncQueueReader.TimerCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.InputQueue`1.BeginDequeue(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.InputQueue`1.BeginWaitForItem(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.InputQueue`1.CompleteOutstandingReadersCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.InputQueue`1.CompleteWaiters(System.Boolean,System.ServiceModel.Channels.InputQueue{`0}.IQueueWaiter[])">
+    <parameter name="waiters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.InputQueue`1.CompleteWaitersFalseCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.InputQueue`1.CompleteWaitersTrueCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.InputQueue`1.OnDispatchCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.InputQueue`1.OnInvokeDequeuedCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.InputQueueChannel`1.BeginDequeue(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.InputQueueChannel`1.BeginWaitForItem(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.InputQueueChannel`1.OnBeginClose(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexBindingElement.#ctor(System.ServiceModel.Channels.PollingDuplexBindingElement)">
+    <parameter name="elementToBeCloned">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexBindingElement.BuildChannelFactory``1()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexBindingElement.CanBuildChannelFactory``1()">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexBindingElement.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexBindingElement.GetProperty``1()">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexChannelFactory.#ctor(System.ServiceModel.Channels.IPollingDuplexFactorySettings,,)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexChannelFactory.CreateInnerChannelForPoll(System.ServiceModel.Channels.ClientPollingDuplexSessionChannel)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexChannelFactory.OnBeginClose(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexChannelFactory.OnCreateChannel(,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexHelpers.CopyMessageProperties(,,System.Boolean)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="destination">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexSession.#ctor(System.ServiceModel.Channels.IPollingDuplexSettings,System.ServiceModel.Channels.PollingDuplexSessionChannel,System.String,System.String)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexSession.BeginCloseOutputSession(System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexSession.BeginCloseOutputSession(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexSession.Create(System.ServiceModel.Channels.IPollingDuplexSettings,System.ServiceModel.Channels.PollingDuplexSessionChannel,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexSession.OnSessionInactive(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.PollingDuplexSessionChannel.BeginSendCloseSession(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.WebMessageEncodingBindingElement.BuildChannelFactory``1()">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.WebMessageEncodingBindingElement.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.WebMessageEncodingBindingElement.CreateMessageEncoderFactory">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Configuration.PollingDuplexElement.ApplyConfiguration()">
+    <parameter name="bindingElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Configuration.PollingDuplexElement.BindingElementType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Configuration.PollingDuplexElement.CreateBindingElement">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.SR.Culture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.SR.GetObject(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR.GetString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR.GetString(System.String,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR.GetString(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SRCategoryAttribute.GetLocalizedString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

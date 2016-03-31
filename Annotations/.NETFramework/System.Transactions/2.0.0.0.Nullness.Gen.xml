@@ -1,0 +1,1567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Transactions, Version=2.0.0.0">
+  <member name="M:System.Transactions.Bucket.Add(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Bucket.Remove(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.BucketSet.Add(System.Transactions.InternalTransaction)">
+    <parameter name="newTx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.CommittableTransaction.BeginCommit(System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.CommittableTransaction.EndCommit(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Transactions.CommittableTransaction.System#IAsyncResult#AsyncState">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Transactions.CommittableTransaction.System#IAsyncResult#AsyncWaitHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Transactions.Configuration.ConfigurationStrings.DefaultSettingsSectionPath">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Configuration.ConfigurationStrings.GetSectionPath(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Transactions.Configuration.ConfigurationStrings.MachineSettingsSectionPath">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Configuration.DefaultSettingsSection.GetSection">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Transactions.Configuration.DefaultSettingsSection.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Configuration.MachineSettingsSection.GetSection">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Transactions.Configuration.MachineSettingsSection.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Configuration.TransactionsSectionGroup.GetSectionGroup(System.Configuration.Configuration)">
+    <parameter name="config">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Transactions.ContextData.CurrentData">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Diagnostics.Activity.CreateActivity(System.Guid,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Diagnostics.DiagnosticTrace.AddExceptionToTraceString(System.Xml.XmlWriter,System.Exception)">
+    <parameter name="xml">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.DiagnosticTrace.BuildTraceString(System.Transactions.Diagnostics.PlainXmlWriter,System.Diagnostics.TraceEventType,System.String,System.String,System.Transactions.Diagnostics.TraceRecord,System.Exception,System.Object)">
+    <parameter name="xml">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.DiagnosticTrace.CreateSourceString(System.Object)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.DiagnosticTrace.StackTraceString(System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Diagnostics.DiagnosticTrace.UnhandledExceptionHandler(System.Object,System.UnhandledExceptionEventArgs)">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.DiagnosticTrace.XmlEncode(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.LookupPrefix(System.String)">
+    <parameter name="ns">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteBase64(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteBinHex(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteCData(System.String)">
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteChars(System.Char[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteComment(System.String)">
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteDocType(System.String,System.String,System.String,System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sysid">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteEntityRef(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteName(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteNmToken(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteProcessingInstruction(System.String,System.String)">
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteQualifiedName(System.String,System.String)">
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteRaw(System.Char[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteRaw(System.String)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteStartAttribute(System.String,System.String,System.String)">
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ns">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteStartElement(System.String,System.String,System.String)">
+    <parameter name="ns">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteString(System.String)">
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteValue(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.PlainXmlWriter.WriteWhitespace(System.String)">
+    <parameter name="ws">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.TraceHelper.WriteEnId(System.Xml.XmlWriter,System.Transactions.EnlistmentTraceIdentifier)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.TraceHelper.WriteTraceSource(System.Xml.XmlWriter,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.TraceHelper.WriteTxId(System.Xml.XmlWriter,System.Transactions.TransactionTraceIdentifier)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Transactions.Diagnostics.TraceRecord.EventId">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Diagnostics.TraceRecord.ToString">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Diagnostics.TraceRecord.WriteTo(System.Xml.XmlWriter)">
+    <parameter name="xml">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.TraceXPathNavigator.MoveToId(System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Diagnostics.TraceXPathNavigator.ToString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.DistributedTransactionPermission.Copy">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.DistributedTransactionPermission.Union(System.Security.IPermission)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.DistributedTransactionPermissionAttribute.CreatePermission">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.DurableEnlistmentAborting.EnlistmentDone(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.DurableEnlistmentActive.ChangeStateCommitting(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.DurableEnlistmentActive.ChangeStateDelegated(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.DurableEnlistmentActive.EnlistmentDone(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.DurableEnlistmentEnded.InDoubt(System.Transactions.InternalEnlistment,System.Exception)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.DurableEnlistmentEnded.InternalAborted(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.DurableInternalEnlistment.#ctor(System.Transactions.Enlistment,System.Guid,System.Transactions.InternalTransaction,System.Transactions.IEnlistmentNotification,System.Transactions.ISinglePhaseNotification,System.Transactions.Transaction)">
+    <parameter name="transaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Enlistment.#ctor(System.Guid,System.Transactions.InternalTransaction,System.Transactions.IEnlistmentNotification,System.Transactions.ISinglePhaseNotification,System.Transactions.Transaction)">
+    <parameter name="transaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Enlistment.#ctor(System.Transactions.InternalTransaction,System.Transactions.IEnlistmentNotification,System.Transactions.ISinglePhaseNotification,System.Transactions.Transaction,System.Transactions.EnlistmentOptions)">
+    <parameter name="transaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Enlistment.#ctor(System.Transactions.InternalTransaction,System.Transactions.IPromotableSinglePhaseNotification,System.Transactions.Transaction)">
+    <parameter name="transaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.Aborted(System.Transactions.InternalEnlistment,System.Exception)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.ChangeStateCommitting(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.ChangeStateDelegated(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.ChangeStatePreparing(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.ChangeStatePromoted(System.Transactions.InternalEnlistment,System.Transactions.IPromotedEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.ChangeStateSinglePhaseCommit(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.Committed(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.EnlistmentDone(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.EnterState(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.ForceRollback(System.Transactions.InternalEnlistment,System.Exception)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.InDoubt(System.Transactions.InternalEnlistment,System.Exception)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.InternalAborted(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.InternalCommitted(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.InternalIndoubt(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.Prepared(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentState.RecoveryInformation(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.EnlistmentTraceIdentifier.Equals(System.Object)">
+    <parameter name="objectToCompare">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.InternalEnlistment.#ctor(System.Transactions.Enlistment,System.Transactions.InternalTransaction,System.Transactions.IEnlistmentNotification,System.Transactions.ISinglePhaseNotification,System.Transactions.Transaction)">
+    <parameter name="transaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.InternalEnlistment.#ctor(System.Transactions.Enlistment,System.Transactions.InternalTransaction,System.Transactions.Transaction)">
+    <parameter name="transaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Transactions.InternalEnlistment.PreparingEnlistment">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Transactions.InternalEnlistment.SinglePhaseEnlistment">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.InternalTransaction.DistributedTransactionOutcome(System.Transactions.InternalTransaction,System.Transactions.TransactionStatus)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxCommittableTransaction.#ctor(System.Transactions.Oletx.RealOletxTransaction)">
+    <parameter name="realOletxTransaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxDependentTransaction.#ctor(System.Transactions.Oletx.RealOletxTransaction,System.Boolean)">
+    <parameter name="realTransaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxEnlistment.#ctor(System.Transactions.IEnlistmentNotificationInternal,System.Transactions.Oletx.OletxTransactionStatus,System.Byte[],System.Transactions.Oletx.OletxResourceManager)">
+    <parameter name="enlistmentNotification">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prepareInfoByteArray">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="oletxResourceManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxEnlistment.GetRecoveryInformation">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxEnlistment.PrepareRequest(System.Boolean,System.Byte[])">
+    <parameter name="prepareInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxPhase0VolatileEnlistmentContainer.#ctor(System.Transactions.Oletx.RealOletxTransaction)">
+    <parameter name="realOletxTransaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxPhase1VolatileEnlistmentContainer.#ctor(System.Transactions.Oletx.RealOletxTransaction)">
+    <parameter name="realOletxTransaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxResourceManager.EnlistDurable(System.Transactions.Oletx.OletxTransaction,System.Boolean,System.Transactions.IEnlistmentNotificationInternal,System.Transactions.EnlistmentOptions)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="oletxTransaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxResourceManager.Reenlist(System.Int32,System.Byte[],System.Transactions.IEnlistmentNotificationInternal)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="enlistmentNotification">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prepareInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxResourceManager.ReenlistThread(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxTransaction.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxTransaction.#ctor(System.Transactions.Oletx.RealOletxTransaction)">
+    <parameter name="realOletxTransaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxTransaction.DependentClone(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxTransaction.EnlistDurable(System.Guid,System.Transactions.ISinglePhaseNotificationInternal,System.Boolean,System.Transactions.EnlistmentOptions)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxTransaction.EnlistVolatile(System.Transactions.IEnlistmentNotificationInternal,System.Transactions.EnlistmentOptions)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxTransaction.EnlistVolatile(System.Transactions.ISinglePhaseNotificationInternal,System.Transactions.EnlistmentOptions)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxTransaction.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxTransaction.GetRealObject(System.Runtime.Serialization.StreamingContext)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(System.Transactions.TransactionOptions)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Transactions.Oletx.OletxTransactionManager.DtcTransactionManager">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxTransactionManager.FindOrRegisterResourceManager(System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxTransactionManager.ProxyException(System.Runtime.InteropServices.COMException)">
+    <parameter name="comException">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxTransactionManager.ReenlistTransaction(System.Guid,System.Byte[],System.Transactions.IEnlistmentNotificationInternal)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="recoveryInformation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="enlistmentNotification">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxTransactionManager.RegisterResourceManager(System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Oletx.OletxVolatileEnlistment.Prepare(System.Transactions.Oletx.OletxVolatileEnlistmentContainer)">
+    <parameter name="container">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OutcomeEnlistment.SetRealTransaction(System.Transactions.Oletx.RealOletxTransaction)">
+    <parameter name="realTx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.OutcomeEnlistment.TransactionIsInDoubt(System.Transactions.Oletx.RealOletxTransaction)">
+    <parameter name="realTx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Oletx.RealOletxTransaction.AddDependentClone(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Oletx.RealOletxTransaction.CommonEnlistVolatile(System.Transactions.IEnlistmentNotificationInternal,System.Transactions.EnlistmentOptions,System.Transactions.Oletx.OletxTransaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Oletx.RealOletxTransaction.EnlistVolatile(System.Transactions.IEnlistmentNotificationInternal,System.Transactions.EnlistmentOptions,System.Transactions.Oletx.OletxTransaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Oletx.RealOletxTransaction.EnlistVolatile(System.Transactions.ISinglePhaseNotificationInternal,System.Transactions.EnlistmentOptions,System.Transactions.Oletx.OletxTransaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Transactions.Oletx.RealOletxTransaction.TransactionShim">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Phase1VolatileEnlistment.#ctor(System.Transactions.Enlistment,System.Transactions.InternalTransaction,System.Transactions.IEnlistmentNotification,System.Transactions.ISinglePhaseNotification,System.Transactions.Transaction)">
+    <parameter name="transaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.PromotableInternalEnlistment.#ctor(System.Transactions.Enlistment,System.Transactions.InternalTransaction,System.Transactions.IPromotableSinglePhaseNotification,System.Transactions.Transaction)">
+    <parameter name="transaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Transactions.SR.Culture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.SR.GetObject(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.SR.GetString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.SR.GetString(System.String,System.Object[])">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.SubordinateTransaction.#ctor(System.Transactions.IsolationLevel,System.Transactions.ISimpleTransactionSuperior)">
+    <parameter name="superior">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Transaction.#ctor(System.Transactions.IsolationLevel,System.Transactions.ISimpleTransactionSuperior)">
+    <parameter name="superior">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Transaction.#ctor(System.Transactions.Oletx.OletxTransaction)">
+    <parameter name="oleTransaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Transaction.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Transaction.DependentClone(System.Transactions.DependentCloneOption)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Transaction.EnlistDurable(System.Guid,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions)">
+    <parameter name="enlistmentNotification">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Transaction.EnlistDurable(System.Guid,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions)">
+    <parameter name="singlePhaseNotification">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Transaction.EnlistPromotableSinglePhase(System.Transactions.IPromotableSinglePhaseNotification)">
+    <parameter name="promotableSinglePhaseNotification">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Transaction.EnlistVolatile(System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions)">
+    <parameter name="enlistmentNotification">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Transaction.EnlistVolatile(System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions)">
+    <parameter name="singlePhaseNotification">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Transaction.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Transaction.FastGetTransaction(System.Transactions.TransactionScope,System.Transactions.ContextData,System.Transactions.Transaction@)">
+    <parameter name="contextData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Transaction.GetContextTransaction(System.Transactions.ContextData)">
+    <parameter name="contextData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Transaction.InternalClone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.Transaction.JitSafeGetContextTransaction(System.Transactions.ContextData)">
+    <parameter name="contextData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.Transaction.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Transactions.Transaction.TransactionInformation">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionAbortedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionAbortedException.Create(System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionAbortedException.Create(System.String,System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionException.Create(System.String,System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionException.CreateEnlistmentStateException(System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionException.CreateInvalidOperationException(System.String,System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionException.CreateTransactionCompletedException(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionException.CreateTransactionStateException(System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionInDoubtException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionInDoubtException.Create(System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionInDoubtException.Create(System.String,System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionInterop.ConvertToOletxTransaction(System.Transactions.Transaction)">
+    <parameter name="transaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionInterop.GetDtcTransaction(System.Transactions.Transaction)">
+    <parameter name="transaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionInterop.GetExportCookie(System.Transactions.Transaction,System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="transaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="whereabouts">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionInterop.GetOletxTransactionFromTransmitterPropigationToken(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="propagationToken">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionInterop.GetTransactionFromDtcTransaction(System.Transactions.IDtcTransaction)">
+    <parameter name="transactionNative">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionInterop.GetTransactionFromExportCookie(System.Byte[])">
+    <parameter name="cookie">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionInterop.GetTransactionFromTransmitterPropagationToken(System.Byte[])">
+    <parameter name="propagationToken">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionInterop.GetTransmitterPropagationToken(System.Transactions.Oletx.OletxTransaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="oletxTx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionInterop.GetTransmitterPropagationToken(System.Transactions.Transaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="transaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionManager.CheckTransactionManager(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionManager.ConvertToByteArray(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="thingToConvert">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionManager.FindOrCreatePromotedTransaction(System.Guid,System.Transactions.Oletx.OletxTransaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="oletx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionManager.FindPromotedTransaction(System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionManager.FireDistributedTransactionStarted(System.Transactions.Transaction)">
+    <parameter name="transaction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionManager.GetRecoveryInformation(System.String,System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="resourceManagerRecoveryInformation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionManager.ProcessExistingTransactions(System.Transactions.TransactionStartedEventHandler)">
+    <parameter name="eventHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionManager.Reenlist(System.Guid,System.Byte[],System.Transactions.IEnlistmentNotification)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="recoveryInformation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="enlistmentNotification">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionManagerCommunicationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionManagerCommunicationException.Create(System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionManagerCommunicationException.Create(System.String,System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionOptions.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionPromotionException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionScope.#ctor(System.Transactions.Transaction)">
+    <parameter name="transactionToUse">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionScope.#ctor(System.Transactions.Transaction,System.TimeSpan)">
+    <parameter name="transactionToUse">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionScope.#ctor(System.Transactions.Transaction,System.TimeSpan,System.Transactions.EnterpriseServicesInteropOption)">
+    <parameter name="transactionToUse">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionScope.Initialize(System.Transactions.Transaction,System.TimeSpan,System.Boolean)">
+    <parameter name="transactionToUse">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionScope.TimerCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.AddOutcomeRegistrant(System.Transactions.InternalTransaction,System.Transactions.TransactionCompletedEventHandler)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.AddVolatileEnlistment(System.Transactions.VolatileEnlistmentSet@,System.Transactions.Enlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.BeginCommit(System.Transactions.InternalTransaction,System.Boolean,System.AsyncCallback,System.Object)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.ChangeStateAbortedDuringPromotion(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.ChangeStatePromotedAborted(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.ChangeStatePromotedCommitted(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.ChangeStatePromotedPhase0(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.ChangeStatePromotedPhase1(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.ChangeStateTransactionAborted(System.Transactions.InternalTransaction,System.Exception)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.ChangeStateTransactionCommitted(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.CheckForFinishedTransaction(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.CommonEnterState(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.CompleteAbortingClone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.CompleteBlockingClone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.CreateAbortingClone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.CreateBlockingClone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.DisposeRoot(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.EndCommit(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.EnlistDurable(System.Transactions.InternalTransaction,System.Guid,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.EnlistDurable(System.Transactions.InternalTransaction,System.Guid,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.EnlistPromotableSinglePhase(System.Transactions.InternalTransaction,System.Transactions.IPromotableSinglePhaseNotification,System.Transactions.Transaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="promotableSinglePhaseNotification">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.EnlistVolatile(System.Transactions.InternalTransaction,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.EnlistVolatile(System.Transactions.InternalTransaction,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.EnterState(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.get_Identifier(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.get_Status(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.GetObjectData(System.Transactions.InternalTransaction,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.InDoubtFromDtc(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.InDoubtFromEnlistment(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.IsCompleted(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.Phase0VolatilePrepareDone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.Phase1VolatilePrepareDone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.Promote(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.RestartCommitIfNeeded(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.Rollback(System.Transactions.InternalTransaction,System.Exception)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionState.Timeout(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateAborted.ChangeStateAbortedDuringPromotion(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateAborted.ChangeStatePromotedAborted(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateAborted.ChangeStateTransactionAborted(System.Transactions.InternalTransaction,System.Exception)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateAborted.CreateTransactionAbortedException(System.Transactions.InternalTransaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateAborted.get_Status(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateAborted.GetObjectData(System.Transactions.InternalTransaction,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateAborted.Phase0VolatilePrepareDone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateAborted.Phase1VolatilePrepareDone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateAborted.RestartCommitIfNeeded(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateAborted.Rollback(System.Transactions.InternalTransaction,System.Exception)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateAborted.Timeout(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateActive.EnlistVolatile(System.Transactions.InternalTransaction,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionStateActive.EnlistVolatile(System.Transactions.InternalTransaction,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionStateActive.Phase0VolatilePrepareDone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateActive.Phase1VolatilePrepareDone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateCommitted.EndCommit(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateCommitted.get_Status(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateDelegatedSubordinate.ChangeStatePromotedPhase0(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateDelegatedSubordinate.ChangeStatePromotedPhase1(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateDelegatedSubordinate.PromoteDurable(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateEnded.IsCompleted(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateInDoubt.get_Status(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateInDoubt.GetObjectData(System.Transactions.InternalTransaction,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePhase0.EnlistVolatile(System.Transactions.InternalTransaction,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionStatePhase0.EnlistVolatile(System.Transactions.InternalTransaction,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionStatePhase0.Phase1VolatilePrepareDone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePhase0.RestartCommitIfNeeded(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromoted.PromoteDurable(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromoted.PromoteEnlistmentsAndOutcome(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromoted.PromotePhaseVolatiles(System.Transactions.InternalTransaction,System.Transactions.VolatileEnlistmentSet@,System.Boolean)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedAborted.ChangeStatePromotedAborted(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedAborted.ChangeStateTransactionAborted(System.Transactions.InternalTransaction,System.Exception)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedAborted.get_Status(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedAborted.GetObjectData(System.Transactions.InternalTransaction,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedAborted.InDoubtFromDtc(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedAborted.InDoubtFromEnlistment(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedAborted.Phase0VolatilePrepareDone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedAborted.Phase1VolatilePrepareDone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedAborted.RestartCommitIfNeeded(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedAborted.Rollback(System.Transactions.InternalTransaction,System.Exception)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedAborting.ChangeStateTransactionAborted(System.Transactions.InternalTransaction,System.Exception)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedBase.ChangeStatePromotedCommitted(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedBase.EnlistDurable(System.Transactions.InternalTransaction,System.Guid,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedBase.EnlistDurable(System.Transactions.InternalTransaction,System.Guid,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedBase.EnlistPromotableSinglePhase(System.Transactions.InternalTransaction,System.Transactions.IPromotableSinglePhaseNotification,System.Transactions.Transaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="promotableSinglePhaseNotification">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedBase.EnlistVolatile(System.Transactions.InternalTransaction,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedBase.EnlistVolatile(System.Transactions.InternalTransaction,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedBase.get_Status(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedBase.InDoubtFromDtc(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedBase.InDoubtFromEnlistment(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedBase.Promote(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedBase.RestartCommitIfNeeded(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedCommitted.ChangeStatePromotedCommitted(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedCommitted.get_Status(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedCommitted.InDoubtFromDtc(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedCommitted.InDoubtFromEnlistment(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedCommitted.PromotedTransactionOutcome(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedCommitting.ChangeStatePromotedPhase0(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedCommitting.ChangeStatePromotedPhase1(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedEnded.CompleteAbortingClone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedEnded.CompleteBlockingClone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedEnded.Promote(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedEnded.PromotedTransactionOutcome(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedEnded.SignalCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedIndoubt.ChangeStatePromotedAborted(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedIndoubt.ChangeStatePromotedCommitted(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedIndoubt.get_Status(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedIndoubt.GetObjectData(System.Transactions.InternalTransaction,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedIndoubt.InDoubtFromDtc(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedIndoubt.InDoubtFromEnlistment(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedIndoubt.RestartCommitIfNeeded(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedP0Aborting.Phase0VolatilePrepareDone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedP1Aborting.Phase1VolatilePrepareDone(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedPhase1.EnlistDurable(System.Transactions.InternalTransaction,System.Guid,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedPhase1.EnlistDurable(System.Transactions.InternalTransaction,System.Guid,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedPhase1.EnlistVolatile(System.Transactions.InternalTransaction,System.Transactions.IEnlistmentNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePromotedPhase1.EnlistVolatile(System.Transactions.InternalTransaction,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions,System.Transactions.Transaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePSPEOperation.EnterState(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePSPEOperation.Phase0PSPEInitialize(System.Transactions.InternalTransaction,System.Transactions.IPromotableSinglePhaseNotification)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="promotableSinglePhaseNotification">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePSPEOperation.PSPEInitialize(System.Transactions.InternalTransaction,System.Transactions.IPromotableSinglePhaseNotification)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="promotableSinglePhaseNotification">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStatePSPEOperation.PSPEPromote(System.Transactions.InternalTransaction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateSubordinateActive.EnlistPromotableSinglePhase(System.Transactions.InternalTransaction,System.Transactions.IPromotableSinglePhaseNotification,System.Transactions.Transaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="promotableSinglePhaseNotification">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionStateVolatilePhase1.Rollback(System.Transactions.InternalTransaction,System.Exception)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionTable.Add(System.Transactions.InternalTransaction)">
+    <parameter name="txNew">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionTable.AddIter(System.Transactions.InternalTransaction)">
+    <parameter name="txNew">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionTable.RecalcTimeout(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionTable.Remove(System.Transactions.InternalTransaction)">
+    <parameter name="tx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.TransactionTraceIdentifier.Equals(System.Object)">
+    <parameter name="objectToCompare">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileDemultiplexer.PoolableCommit(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileDemultiplexer.PoolableInDoubt(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileDemultiplexer.PoolablePrepare(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileDemultiplexer.PoolableRollback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentAborting.ChangeStatePreparing(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentAborting.EnlistmentDone(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentAborting.InternalAborted(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentActive.ChangeStatePreparing(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentActive.ChangeStateSinglePhaseCommit(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentCommitting.EnlistmentDone(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentEnded.InDoubt(System.Transactions.InternalEnlistment,System.Exception)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentEnded.InternalAborted(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentEnded.InternalCommitted(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentEnded.InternalIndoubt(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentPrepared.ChangeStatePreparing(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentPreparing.ChangeStatePreparing(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentPreparing.InternalAborted(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentPreparingAborting.InternalAborted(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Transactions.VolatileEnlistmentState.RecoveryInformation(System.Transactions.InternalEnlistment)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

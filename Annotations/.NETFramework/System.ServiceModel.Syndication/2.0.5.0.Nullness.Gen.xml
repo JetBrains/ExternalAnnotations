@@ -1,0 +1,1550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.ServiceModel.Syndication, Version=2.0.5.0">
+  <member name="M:System.ServiceModel.Channels.BufferedOutputStream.Read(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.BufferedOutputStream.Write(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.DiagnosticUtility.ExceptionUtility.ThrowHelperArgument(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.DiagnosticUtility.ExceptionUtility.ThrowHelperArgument(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.DiagnosticUtility.ExceptionUtility.ThrowHelperArgumentNull(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.#ctor(System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="feedToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.#ctor(System.Type)">
+    <parameter name="feedTypeToCreate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.#GetSchema">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.#ReadXml()">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.#WriteXml()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.AsString(System.DateTimeOffset)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.DateFromString(System.String,)">
+    <parameter name="dateTimeString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadCategory(,System.ServiceModel.Syndication.SyndicationCategory)">
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadCategory(,System.ServiceModel.Syndication.SyndicationCategory,System.String,System.Boolean,System.Boolean,System.Int32)">
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadCategoryFrom(,System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadCategoryFrom(,System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadContentFrom(,System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadFeed()">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadFeedFrom(,System.ServiceModel.Syndication.SyndicationFeed,System.Boolean)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadItem(,System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadItemFrom(,System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadItemFrom(,System.ServiceModel.Syndication.SyndicationItem,)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadItems(,System.ServiceModel.Syndication.SyndicationFeed,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadLink(,System.ServiceModel.Syndication.SyndicationLink,)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadLinkFrom(,System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadLinkFrom(,System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadPersonFrom(,System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadPersonFrom(,System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadPersonFrom(,System.ServiceModel.Syndication.SyndicationPerson)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadTextContentFrom(,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadTextContentFrom(,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.ReadTextContentFromHelper(,System.String,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.TryParseFeedElementFrom(,System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.TryParseItemElementFrom(,System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WriteCategoriesTo(,System.Collections.ObjectModel.Collection{System.ServiceModel.Syndication.SyndicationCategory})">
+    <parameter name="categories">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WriteCategory(,System.ServiceModel.Syndication.SyndicationCategory,System.String)">
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WriteContentTo(,System.String,System.ServiceModel.Syndication.SyndicationContent)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="elementName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WriteFeed()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WriteFeedAuthorsTo(,System.Collections.ObjectModel.Collection{System.ServiceModel.Syndication.SyndicationPerson})">
+    <parameter name="authors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WriteFeedContributorsTo(,System.Collections.ObjectModel.Collection{System.ServiceModel.Syndication.SyndicationPerson})">
+    <parameter name="contributors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WriteFeedTo(,System.ServiceModel.Syndication.SyndicationFeed,System.Boolean)">
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WriteItem(,System.ServiceModel.Syndication.SyndicationItem,)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WriteItemAuthorsTo(,System.Collections.ObjectModel.Collection{System.ServiceModel.Syndication.SyndicationPerson})">
+    <parameter name="authors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WriteItemContents(,System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dictWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WriteItemContents(,System.ServiceModel.Syndication.SyndicationItem,)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dictWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WriteItemContributorsTo(,System.Collections.ObjectModel.Collection{System.ServiceModel.Syndication.SyndicationPerson})">
+    <parameter name="contributors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WriteItems(,System.Collections.Generic.IEnumerable{System.ServiceModel.Syndication.SyndicationItem},)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WriteLink(,System.ServiceModel.Syndication.SyndicationLink,)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter.WritePersonTo(,System.ServiceModel.Syndication.SyndicationPerson,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10FeedFormatter`1.#ctor(`0)">
+    <parameter name="feedToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10ItemFormatter.#ctor(System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="itemToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10ItemFormatter.#ctor(System.Type)">
+    <parameter name="itemTypeToCreate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10ItemFormatter.#GetSchema">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10ItemFormatter.#ReadXml()">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10ItemFormatter.#WriteXml()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Atom10ItemFormatter`1.#ctor(`0)">
+    <parameter name="itemToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Syndication.ExtensibleSyndicationObject.AttributeExtensions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.ExtensibleSyndicationObject.CreateXmlBuffer(,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.ExtensibleSyndicationObject.ElementExtensions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.ExtensibleSyndicationObject.LoadElementExtensions(,System.Int32)">
+    <parameter name="readerOverUnparsedExtensions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.ExtensibleSyndicationObject.WriteAttributeExtensions()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.ExtensibleSyndicationObject.WriteElementExtensions()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.FeedUtils.CloneCategories(System.Collections.ObjectModel.Collection{System.ServiceModel.Syndication.SyndicationCategory})">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.FeedUtils.CloneLinks(System.Collections.ObjectModel.Collection{System.ServiceModel.Syndication.SyndicationLink})">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.FeedUtils.ClonePersons(System.Collections.ObjectModel.Collection{System.ServiceModel.Syndication.SyndicationPerson})">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.FeedUtils.CloneTextContent(System.ServiceModel.Syndication.TextSyndicationContent)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.#ctor(System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="feedToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.#ctor(System.ServiceModel.Syndication.SyndicationFeed,System.Boolean)">
+    <parameter name="feedToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.#ctor(System.Type)">
+    <parameter name="feedTypeToCreate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.#GetSchema">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.#ReadXml()">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.#WriteXml()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.AsString(System.DateTimeOffset)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.DateFromString(System.String,)">
+    <parameter name="dateTimeString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.NormalizeTimeZone(System.String,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="rfc822TimeZone">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.ReadAlternateLink(,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.ReadCategory(,System.ServiceModel.Syndication.SyndicationCategory)">
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.ReadCategory(,System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.ReadCategory(,System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.ReadItem(,System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.ReadItems(,System.ServiceModel.Syndication.SyndicationFeed,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.ReadMediaEnclosure(,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.ReadPerson(,System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.ReadPerson(,System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.ReadPerson(,System.ServiceModel.Syndication.SyndicationPerson)">
+    <parameter name="person">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.RemoveExtraWhiteSpaceAtStart(System.Text.StringBuilder)">
+    <parameter name="stringBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.ReplaceMultipleWhiteSpaceWithSingleWhiteSpace(System.Text.StringBuilder)">
+    <parameter name="builder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.WriteAlternateLink(,System.ServiceModel.Syndication.SyndicationLink,)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.WriteCategory(,System.ServiceModel.Syndication.SyndicationCategory)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.WriteFeed()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.WriteMediaEnclosure(,System.ServiceModel.Syndication.SyndicationLink,)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter.WritePerson(,System.String,System.ServiceModel.Syndication.SyndicationPerson)">
+    <parameter name="person">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter`1.#ctor(`0)">
+    <parameter name="feedToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20FeedFormatter`1.#ctor(`0,System.Boolean)">
+    <parameter name="feedToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20ItemFormatter.#ctor(System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="itemToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20ItemFormatter.#ctor(System.ServiceModel.Syndication.SyndicationItem,System.Boolean)">
+    <parameter name="itemToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20ItemFormatter.#ctor(System.Type)">
+    <parameter name="itemTypeToCreate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20ItemFormatter.#GetSchema">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20ItemFormatter.#ReadXml()">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20ItemFormatter.#WriteXml()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20ItemFormatter`1.#ctor(`0)">
+    <parameter name="itemToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.Rss20ItemFormatter`1.#ctor(`0,System.Boolean)">
+    <parameter name="itemToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationCategory.#ctor(System.ServiceModel.Syndication.SyndicationCategory)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationCategory.AttributeExtensions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationCategory.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationCategory.ElementExtensions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationCategory.LoadElementExtensions(,System.Int32)">
+    <parameter name="readerOverUnparsedExtensions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationCategory.WriteAttributeExtensions(,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationCategory.WriteElementExtensions(,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationContent.#ctor(System.ServiceModel.Syndication.SyndicationContent)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationContent.AttributeExtensions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationContent.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationContent.CopyAttributeExtensions(System.ServiceModel.Syndication.SyndicationContent)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationContent.CreateHtmlContent(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationContent.CreatePlaintextContent(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationContent.CreateUrlContent(,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationContent.CreateXhtmlContent(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationContent.CreateXmlContent()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="xmlReader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationContent.CreateXmlContent(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationContent.CreateXmlContent(System.Object,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationContent.WriteContentsTo()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationContent.WriteTo(,System.String,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outerElementName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationElementExtension.#ctor()">
+    <parameter name="xmlReader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationElementExtension.#ctor(System.Object,)">
+    <parameter name="xmlSerializerExtension">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dataContractExtension">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationElementExtension.#ctor(System.String,System.String,System.Object,)">
+    <parameter name="dataContractExtension">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationElementExtension.GetObject``1()">
+    <parameter name="serializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationElementExtension.WriteTo()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationElementExtensionCollection.#ctor(System.ServiceModel.Syndication.SyndicationElementExtensionCollection)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationElementExtensionCollection.Add()">
+    <parameter name="xmlReader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationElementExtensionCollection.Add(System.Object,)">
+    <parameter name="xmlSerializerExtension">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dataContractExtension">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationElementExtensionCollection.Add(System.String,System.String,System.Object)">
+    <parameter name="dataContractExtension">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationElementExtensionCollection.Add(System.String,System.String,System.Object,)">
+    <parameter name="dataContractExtension">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationElementExtensionCollection.GetOrCreateBufferOverExtensions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationElementExtensionCollection.ReadElementExtensions``1(System.String,System.String,)">
+    <parameter name="serializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="extensionName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationElementExtensionCollection.ReadExtensions``1(System.String,System.String,,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="extensionName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationElementExtensionCollection.WriteTo()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.#ctor(System.ServiceModel.Syndication.SyndicationFeed,System.Boolean)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationFeed.AttributeExtensions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationFeed.Authors">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationFeed.Categories">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.Clone(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationFeed.Contributors">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.CreateCategory">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.CreateItem">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.CreateLink">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.CreatePerson">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationFeed.ElementExtensions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.GetAtom10Formatter">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.GetRss20Formatter">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.GetRss20Formatter(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationFeed.Items">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationFeed.Links">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.Load()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.Load``1()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.LoadElementExtensions(,System.Int32)">
+    <parameter name="readerOverUnparsedExtensions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.SaveAsAtom10()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.SaveAsRss20()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.WriteAttributeExtensions(,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeed.WriteElementExtensions(,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.#ctor(System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="feedToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.CanRead()">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.CreateCategory(System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.CreateCategory(System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.CreateFeedInstance">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.CreateFeedInstance(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="feedType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.CreateItem(System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.CreateLink(System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.CreateLink(System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.CreatePerson(System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.CreatePerson(System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.GetName(System.String,System.String)">
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.GetNonNullValue``1(``0,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.GetWhatWasFound()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.LoadElementExtensions(,System.ServiceModel.Syndication.SyndicationCategory,System.Int32)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.LoadElementExtensions(,System.ServiceModel.Syndication.SyndicationFeed,System.Int32)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.LoadElementExtensions(,System.ServiceModel.Syndication.SyndicationItem,System.Int32)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.LoadElementExtensions(,System.ServiceModel.Syndication.SyndicationLink,System.Int32)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.LoadElementExtensions(,System.ServiceModel.Syndication.SyndicationPerson,System.Int32)">
+    <parameter name="person">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.LoadElementExtensions(System.ServiceModel.XmlBuffer,,System.ServiceModel.Syndication.SyndicationCategory)">
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.LoadElementExtensions(System.ServiceModel.XmlBuffer,,System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.LoadElementExtensions(System.ServiceModel.XmlBuffer,,System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.LoadElementExtensions(System.ServiceModel.XmlBuffer,,System.ServiceModel.Syndication.SyndicationLink)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.LoadElementExtensions(System.ServiceModel.XmlBuffer,,System.ServiceModel.Syndication.SyndicationPerson)">
+    <parameter name="person">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.ReadFrom()">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.SetFeed(System.ServiceModel.Syndication.SyndicationFeed)">
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.TryParseAttribute(System.String,System.String,System.String,System.ServiceModel.Syndication.SyndicationCategory,System.String)">
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.TryParseAttribute(System.String,System.String,System.String,System.ServiceModel.Syndication.SyndicationFeed,System.String)">
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.TryParseAttribute(System.String,System.String,System.String,System.ServiceModel.Syndication.SyndicationItem,System.String)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.TryParseAttribute(System.String,System.String,System.String,System.ServiceModel.Syndication.SyndicationLink,System.String)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.TryParseAttribute(System.String,System.String,System.String,System.ServiceModel.Syndication.SyndicationPerson,System.String)">
+    <parameter name="person">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.TryParseContent(,System.ServiceModel.Syndication.SyndicationItem,System.String,System.String,System.ServiceModel.Syndication.SyndicationContent@)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.TryParseElement(,System.ServiceModel.Syndication.SyndicationCategory,System.String)">
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.TryParseElement(,System.ServiceModel.Syndication.SyndicationFeed,System.String)">
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.TryParseElement(,System.ServiceModel.Syndication.SyndicationItem,System.String)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.TryParseElement(,System.ServiceModel.Syndication.SyndicationLink,System.String)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.TryParseElement(,System.ServiceModel.Syndication.SyndicationPerson,System.String)">
+    <parameter name="person">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationFeedFormatter.Version">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.WriteAttributeExtensions(,System.ServiceModel.Syndication.SyndicationCategory,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.WriteAttributeExtensions(,System.ServiceModel.Syndication.SyndicationFeed,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.WriteAttributeExtensions(,System.ServiceModel.Syndication.SyndicationItem,System.String)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.WriteAttributeExtensions(,System.ServiceModel.Syndication.SyndicationLink,System.String)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.WriteAttributeExtensions(,System.ServiceModel.Syndication.SyndicationPerson,System.String)">
+    <parameter name="person">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.WriteElementExtensions(,System.ServiceModel.Syndication.SyndicationCategory,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.WriteElementExtensions(,System.ServiceModel.Syndication.SyndicationFeed,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="feed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.WriteElementExtensions(,System.ServiceModel.Syndication.SyndicationItem,System.String)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.WriteElementExtensions(,System.ServiceModel.Syndication.SyndicationLink,System.String)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.WriteElementExtensions(,System.ServiceModel.Syndication.SyndicationPerson,System.String)">
+    <parameter name="person">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationFeedFormatter.WriteTo()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.#ctor(System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.AddPermalink()">
+    <parameter name="permalink">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationItem.AttributeExtensions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationItem.Authors">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationItem.Categories">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationItem.Contributors">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.CreateCategory">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.CreateLink">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.CreatePerson">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationItem.ElementExtensions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.GetAtom10Formatter">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.GetRss20Formatter">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.GetRss20Formatter(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationItem.Links">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.Load()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.Load``1()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.LoadElementExtensions(,System.Int32)">
+    <parameter name="readerOverUnparsedExtensions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.SaveAsAtom10()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.SaveAsRss20()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.WriteAttributeExtensions(,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItem.WriteElementExtensions(,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.#ctor(System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="itemToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.CanRead()">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.CreateCategory(System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.CreateItemInstance">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.CreateItemInstance(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="itemType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.CreateLink(System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.CreatePerson(System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.LoadElementExtensions(,System.ServiceModel.Syndication.SyndicationCategory,System.Int32)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.LoadElementExtensions(,System.ServiceModel.Syndication.SyndicationItem,System.Int32)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.LoadElementExtensions(,System.ServiceModel.Syndication.SyndicationLink,System.Int32)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.LoadElementExtensions(,System.ServiceModel.Syndication.SyndicationPerson,System.Int32)">
+    <parameter name="person">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.ReadFrom()">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.SetItem(System.ServiceModel.Syndication.SyndicationItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.TryParseAttribute(System.String,System.String,System.String,System.ServiceModel.Syndication.SyndicationCategory,System.String)">
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.TryParseAttribute(System.String,System.String,System.String,System.ServiceModel.Syndication.SyndicationItem,System.String)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.TryParseAttribute(System.String,System.String,System.String,System.ServiceModel.Syndication.SyndicationLink,System.String)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.TryParseAttribute(System.String,System.String,System.String,System.ServiceModel.Syndication.SyndicationPerson,System.String)">
+    <parameter name="person">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.TryParseContent(,System.ServiceModel.Syndication.SyndicationItem,System.String,System.String,System.ServiceModel.Syndication.SyndicationContent@)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.TryParseElement(,System.ServiceModel.Syndication.SyndicationCategory,System.String)">
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.TryParseElement(,System.ServiceModel.Syndication.SyndicationItem,System.String)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.TryParseElement(,System.ServiceModel.Syndication.SyndicationLink,System.String)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.TryParseElement(,System.ServiceModel.Syndication.SyndicationPerson,System.String)">
+    <parameter name="person">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationItemFormatter.Version">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.WriteAttributeExtensions(,System.ServiceModel.Syndication.SyndicationCategory,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.WriteAttributeExtensions(,System.ServiceModel.Syndication.SyndicationItem,System.String)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.WriteAttributeExtensions(,System.ServiceModel.Syndication.SyndicationLink,System.String)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.WriteAttributeExtensions(,System.ServiceModel.Syndication.SyndicationPerson,System.String)">
+    <parameter name="person">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.WriteElementExtensions(,System.ServiceModel.Syndication.SyndicationCategory,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="category">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.WriteElementExtensions(,System.ServiceModel.Syndication.SyndicationItem,System.String)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.WriteElementExtensions(,System.ServiceModel.Syndication.SyndicationLink,System.String)">
+    <parameter name="link">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.WriteElementExtensions(,System.ServiceModel.Syndication.SyndicationPerson,System.String)">
+    <parameter name="person">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationItemFormatter.WriteTo()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationLink.#ctor(System.ServiceModel.Syndication.SyndicationLink)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationLink.AttributeExtensions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationLink.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationLink.CreateAlternateLink()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationLink.CreateAlternateLink(,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationLink.CreateMediaEnclosureLink(,System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationLink.CreateSelfLink()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationLink.CreateSelfLink(,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationLink.ElementExtensions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationLink.LoadElementExtensions(,System.Int32)">
+    <parameter name="readerOverUnparsedExtensions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationLink.WriteAttributeExtensions(,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationLink.WriteElementExtensions(,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationPerson.#ctor(System.ServiceModel.Syndication.SyndicationPerson)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationPerson.AttributeExtensions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationPerson.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Syndication.SyndicationPerson.ElementExtensions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationPerson.LoadElementExtensions(,System.Int32)">
+    <parameter name="readerOverUnparsedExtensions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationPerson.WriteAttributeExtensions(,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.SyndicationPerson.WriteElementExtensions(,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.TextSyndicationContent.#ctor(System.ServiceModel.Syndication.TextSyndicationContent)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Syndication.TextSyndicationContent.Type">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Syndication.TextSyndicationContent.WriteContentsTo()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.UriGenerator.#ctor(System.String)">
+    <parameter name="scheme">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.UriGenerator.#ctor(System.String,System.String)">
+    <parameter name="scheme">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.UrlSyndicationContent.#ctor(,System.String)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.UrlSyndicationContent.#ctor(System.ServiceModel.Syndication.UrlSyndicationContent)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.UrlSyndicationContent.WriteContentsTo()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.XmlSyndicationContent.#ctor()">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.XmlSyndicationContent.#ctor(System.ServiceModel.Syndication.XmlSyndicationContent)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Syndication.XmlSyndicationContent.#ctor(System.String,System.ServiceModel.Syndication.SyndicationElementExtension)">
+    <parameter name="extension">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.XmlBuffer.CreateInvalidStateException">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.SR2.Culture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.SR2.GetObject(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR2.GetString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR2.GetString(System.String,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR2.GetString(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR2CategoryAttribute.GetLocalizedString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

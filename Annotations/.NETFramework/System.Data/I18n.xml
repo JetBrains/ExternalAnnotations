@@ -1,0 +1,1857 @@
+<assembly name="System.Data">
+  <member name="P:System.Data.IColumnMapping.DataSetColumn">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.IColumnMapping.SourceColumn">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.IColumnMapping.Add(System.String,System.String)">
+    <parameter name="sourceColumnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="dataSetColumnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.IColumnMapping.Contains(System.String)">
+    <parameter name="sourceColumnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.IColumnMapping.GetByDataSetColumn(System.String)">
+    <parameter name="dataSetColumnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.IColumnMapping.IndexOf(System.String)">
+    <parameter name="sourceColumnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.IColumnMapping.RemoveAt(System.String)">
+    <parameter name="sourceColumnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.IColumnMapping.Item(System.String)">
+    <parameter name="index"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+
+  <member name="M:System.Data.IDataParameterCollection.Contains(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.IDataParameterCollection.IndexOf(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.IDataParameterCollection.RemoveAt(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.IDataParameterCollection.Item(System.String)">
+    <parameter name="index"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+
+  <member name="P:System.Data.IDataParameter.ParameterName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.IDataParameter.SourceColumn">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.IDataRecord.GetOrdinal(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.IDataRecord.Item(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+
+  <member name="P:System.Data.IDbCommand.CommandText">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="P:System.Data.IDbConnection.ConnectionString">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.IDbConnection.Database">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="M:System.Data.IDbConnection.ChangeDatabase(System.String)">
+    <parameter name="databaseName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="P:System.Data.ITableMapping.DataSetTable">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.ITableMapping.SourceTable">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.ITableMappingCollection.Add(System.String,System.String)">
+    <parameter name="sourceTableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="dataSetTableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.ITableMappingCollection.Contains(System.String)">
+    <parameter name="sourceTableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.ITableMappingCollection.GetByDataSetTable(System.String)">
+    <parameter name="dataSetTableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.ITableMappingCollection.IndexOf(System.String)">
+    <parameter name="sourceTableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.ITableMappingCollection.RemoveAt(System.String)">
+    <parameter name="sourceTableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.ITableMappingCollection.Item(System.String)">
+    <parameter name="index"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+
+  <member name="M:System.Data.DataColumn.#ctor(System.String)">
+    <parameter name="columnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataColumn.#ctor(System.String,System.Type)">
+    <parameter name="columnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataColumn.#ctor(System.String,System.Type,System.String)">
+    <parameter name="columnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="expr"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataColumn.#ctor(System.String,System.Type,System.String,System.Data.MappingType)">
+    <parameter name="columnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="expr"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataColumn.RaisePropertyChanging(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.DataColumn.ColumnName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.DataColumn.Expression">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.DataColumn.Namespace">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.DataColumn.Prefix">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="M:System.Data.DataColumnCollection.Add(System.String)">
+    <parameter name="columnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataColumnCollection.Add(System.String,System.Type)">
+    <parameter name="columnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataColumnCollection.Add(System.String,System.Type,System.String)">
+    <parameter name="columnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="expression"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataColumnCollection.Contains(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataColumnCollection.IndexOf(System.String)">
+    <parameter name="columnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataColumnCollection.Remove(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.DataColumnCollection.Item(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.DataRelation.#ctor(System.String,System.Data.DataColumn,System.Data.DataColumn)">
+    <parameter name="relationName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRelation.#ctor(System.String,System.Data.DataColumn[],System.Data.DataColumn[])">
+    <parameter name="relationName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRelation.#ctor(System.String,System.Data.DataColumn,System.Data.DataColumn,System.Boolean)">
+    <parameter name="relationName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRelation.#ctor(System.String,System.Data.DataColumn[],System.Data.DataColumn[],System.Boolean)">
+    <parameter name="relationName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRelation.#ctor(System.String,System.String,System.String,System.String[],System.String[],System.Boolean)">
+    <parameter name="relationName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="parentTableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="childTableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="parentColumnNames"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="childColumnNames"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRelation.#ctor(System.String,System.String,System.String,System.String,System.String,System.String[],System.String[],System.Boolean)">
+    <parameter name="relationName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="parentTableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="parentTableNamespace"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="childTableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="childTableNamespace"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="parentColumnNames"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="childColumnNames"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRelation.RaisePropertyChanging(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.DataRelation.RelationName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+
+  <member name="M:System.Data.DataRelationCollection.Add(System.String,System.Data.DataColumn,System.Data.DataColumn)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRelationCollection.Add(System.String,System.Data.DataColumn[],System.Data.DataColumn[])">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRelationCollection.Add(System.String,System.Data.DataColumn,System.Data.DataColumn,System.Boolean)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRelationCollection.Add(System.String,System.Data.DataColumn[],System.Data.DataColumn[],System.Boolean)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRelationCollection.Contains(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRelationCollection.IndexOf(System.String)">
+    <parameter name="relationName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRelationCollection.Remove(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.DataRelationCollection.Item(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+
+  <member name="M:System.Data.DataRow.GetChildRows(System.String)">
+    <parameter name="relationName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRow.GetChildRows(System.String,System.Data.DataRowVersion)">
+    <parameter name="relationName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRow.GetParentRow(System.String)">
+    <parameter name="relationName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRow.GetParentRow(System.String,System.Data.DataRowVersion)">
+    <parameter name="relationName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRow.GetParentRows(System.String)">
+    <parameter name="relationName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRow.GetParentRows(System.String,System.Data.DataRowVersion)">
+    <parameter name="relationName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRow.GetColumnError(System.String)">
+    <parameter name="columnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRow.IsNull(System.String)">
+    <parameter name="columnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRow.IsNull(System.String,System.Data.DataRowVersion)">
+    <parameter name="columnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRow.SetColumnError(System.Data.DataColumn,System.String)">
+    <parameter name="error"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>true</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRow.SetColumnError(System.Int32,System.String)">
+    <parameter name="error"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>true</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataRow.SetColumnError(System.String,System.String)">
+    <parameter name="columnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="error"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>true</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.DataRow.Item(System.String)">
+    <parameter name="columnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.DataRow.Item(System.String,System.Data.DataRowVersion)">
+    <parameter name="columnName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.DataRow.RowError">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>true</argument></attribute>
+  </member>
+
+  <member name="M:System.Data.DataRowView.CreateChildView(System.String)">
+    <parameter name="relationName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.DataRowView.Item(System.String)">
+    <parameter name="property"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.DataSet.#ctor(System.String)">
+    <parameter name="dataSetName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataSet.InferXmlSchema(System.String,System.String[])">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="nsArray"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataSet.Load(System.Data.IDataReader,System.Data.LoadOption,System.String[])">
+    <parameter name="tables"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataSet.RaisePropertyChanging(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataSet.ReadXml(System.String)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataSet.ReadXml(System.String,System.Data.XmlReadMode)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataSet.ReadXmlSchema(System.String)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataSet.WriteXml(System.String)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataSet.WriteXml(System.String,System.Data.XmlWriteMode)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataSet.WriteXmlSchema(System.String)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.DataSet.DataSetName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.DataSet.Namespace">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.DataSet.Prefix">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="M:System.Data.DataSetSchemaImporterExtension.ImportSchemaType(System.String,System.String,System.Xml.Schema.XmlSchemaObject,System.Xml.Serialization.XmlSchemas,System.Xml.Serialization.XmlSchemaImporter,System.CodeDom.CodeCompileUnit,System.CodeDom.CodeNamespace,System.Xml.Serialization.CodeGenerationOptions,System.CodeDom.Compiler.CodeDomProvider)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="schemaNamespace"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.DataTable.#ctor(System.String)">
+    <parameter name="tableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTable.#ctor(System.String,System.String)">
+    <parameter name="tableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="tableNamespace"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTable.Compute(System.String,System.String)">
+    <parameter name="expression"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="filter"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTable.ReadXml(System.String)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTable.ReadXmlSchema(System.String)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTable.Select(System.String)">
+    <parameter name="filterExpression"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTable.Select(System.String,System.String)">
+    <parameter name="filterExpression"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="sort"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTable.Select(System.String,System.String,System.Data.DataViewRowState)">
+    <parameter name="filterExpression"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="sort"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTable.WriteXml(System.String)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTable.WriteXml(System.String,System.Boolean)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTable.WriteXml(System.String,System.Data.XmlWriteMode)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTable.WriteXml(System.String,System.Data.XmlWriteMode,System.Boolean)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTable.WriteXmlSchema(System.String)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTable.WriteXmlSchema(System.String,System.Boolean)">
+    <parameter name="fileName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.DataTable.TableName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.DataTable.Namespace">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.DataTable.Prefix">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.DataTableCollection.Add(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTableCollection.Add(System.String,System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="tableNamespace"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTableCollection.Contains(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTableCollection.Contains(System.String,System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="tableNamespace"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTableCollection.IndexOf(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTableCollection.IndexOf(System.String,System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="tableNamespace"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTableCollection.Remove(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataTableCollection.Remove(System.String,System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="tableNamespace"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.DataTableCollection.Item(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.DataTableCollection.Item(System.String,System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="tableNamespace"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+
+  <member name="M:System.Data.DataTableReader.GetOrdinal(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+
+  <member name="M:System.Data.DataView.#ctor(System.Data.DataTable,System.String,System.String,System.Data.DataViewRowState)">
+    <parameter name="RowFilter"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="Sort"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataView.ToTable(System.String)">
+    <parameter name="tableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataView.ToTable(System.Boolean,System.String[])">
+    <parameter name="columnNames"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.DataView.ToTable(System.String,System.Boolean,System.String[])">
+    <parameter name="tableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="columnNames"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.DataView.RowFilter">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.DataView.Sort">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="P:System.Data.DataViewSetting.RowFilter">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.DataViewSetting.Sort">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="P:System.Data.DataViewManager.DataViewSettingCollectionString">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="M:System.Data.ForeignKeyConstraint.#ctor(System.String,System.Data.DataColumn,System.Data.DataColumn)">
+    <parameter name="constraintName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.ForeignKeyConstraint.#ctor(System.String,System.String,System.String,System.String[],System.String[],System.Data.AcceptRejectRule,System.Data.Rule,System.Data.Rule)">
+    <parameter name="constraintName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="parentTableName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="parentTableNamespace"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="parentColumnNames"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="childColumnNames"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+
+  <member name="M:System.Data.MergeFailedEventArgs.#ctor(System.Data.DataTable,System.String)">
+    <parameter name="conflict"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.MergeFailedEventArgs.Conflict">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="M:System.Data.TypedDataSetGenerator.GenerateIdName(System.String,System.CodeDom.Compiler.ICodeGenerator)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+
+  <member name="M:System.Data.UniqueConstraint.#ctor(System.String,System.Data.DataColumn)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.UniqueConstraint.#ctor(System.String,System.Data.DataColumn[])">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.UniqueConstraint.#ctor(System.String,System.Data.DataColumn,System.Boolean)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.UniqueConstraint.#ctor(System.String,System.Data.DataColumn[],System.Boolean)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+
+  <member name="P:Microsoft.SqlServer.Server.SqlDataRecord.Item(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="P:Microsoft.SqlServer.Server.SqlFunctionAttribute.Name">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:Microsoft.SqlServer.Server.SqlFunctionAttribute.TableDefinition">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType,System.Int64)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType,System.Type)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType,System.Byte,System.Byte)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType,System.Type,System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="serverTypeName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType,System.Int64,System.Int64,System.Data.SqlTypes.SqlCompareOptions)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType,System.String,System.String,System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="database"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="owningSchema"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="objectName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType,System.Boolean,System.Boolean,System.Data.SqlClient.SortOrder,System.Int32)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType,System.Int64,System.Boolean,System.Boolean,System.Data.SqlClient.SortOrder,System.Int32)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType,System.Byte,System.Byte,System.Boolean,System.Boolean,System.Data.SqlClient.SortOrder,System.Int32)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType,System.Int64,System.Byte,System.Byte,System.Int64,System.Data.SqlTypes.SqlCompareOptions,System.Type)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType,System.Type,System.String,System.Boolean,System.Boolean,System.Data.SqlClient.SortOrder,System.Int32)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="serverTypeName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType,System.Int64,System.Int64,System.Data.SqlTypes.SqlCompareOptions,System.Boolean,System.Boolean,System.Data.SqlClient.SortOrder,System.Int32)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Data.SqlClient.SortOrder,System.Int32)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="database"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="owningSchema"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="objectName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType,System.Int64,System.Byte,System.Byte,System.Int64,System.Data.SqlTypes.SqlCompareOptions,System.Type,System.Boolean,System.Boolean,System.Data.SqlClient.SortOrder,System.Int32)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.Adjust(System.String)">
+    <parameter name="value"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:Microsoft.SqlServer.Server.SqlMetaData.InferFromValue(System.Object,System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:Microsoft.SqlServer.Server.SqlMetaData.Name">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:Microsoft.SqlServer.Server.SqlMetaData.TypeName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:Microsoft.SqlServer.Server.SqlMetaData.XmlSchemaCollectionDatabase">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:Microsoft.SqlServer.Server.SqlMetaData.XmlSchemaCollectionName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:Microsoft.SqlServer.Server.SqlMetaData.XmlSchemaCollectionOwningSchema">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="P:Microsoft.SqlServer.Server.SqlProcedureAttribute.Name">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="P:Microsoft.SqlServer.Server.SqlTriggerAttribute.Name">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:Microsoft.SqlServer.Server.SqlTriggerAttribute.Event">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:Microsoft.SqlServer.Server.SqlTriggerAttribute.Target">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="P:Microsoft.SqlServer.Server.SqlUserDefinedAggregateAttribute.Name">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="P:Microsoft.SqlServer.Server.SqlUserDefinedTypeAttribute.Name">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:Microsoft.SqlServer.Server.SqlUserDefinedTypeAttribute.ValidationMethodName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="M:System.Data.Common.DataAdapter.Fill(System.Data.DataSet,System.String,System.Data.IDataReader,System.Int32,System.Int32)">
+    <parameter name="srcTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DataAdapter.FillSchema(System.Data.DataSet,System.Data.SchemaType,System.String,System.Data.IDataReader)">
+    <parameter name="srcTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.Common.DataColumnMapping.#ctor(System.String,System.String)">
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="dataSetColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DataColumnMapping.GetDataColumnBySchemaAction(System.String,System.String,System.Data.DataTable,System.Type,System.Data.MissingSchemaAction)">
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="dataSetColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.Common.DataColumnMapping.DataSetColumn">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Common.DataColumnMapping.SourceColumn">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.Common.DataColumnMappingCollection.Add(System.String,System.String)">
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="dataSetColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DataColumnMappingCollection.Contains(System.String)">
+    <parameter name="value"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DataColumnMappingCollection.GetByDataSetColumn(System.String)">
+    <parameter name="value"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DataColumnMappingCollection.GetColumnMappingBySchemaAction(System.Data.Common.DataColumnMappingCollection,System.String,System.Data.MissingMappingAction)">
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DataColumnMappingCollection.GetDataColumn(System.Data.Common.DataColumnMappingCollection,System.String,System.Type,System.Data.DataTable,System.Data.MissingMappingAction,System.Data.MissingSchemaAction)">
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DataColumnMappingCollection.IndexOf(System.String)">
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DataColumnMappingCollection.IndexOfDataSetColumn(System.String)">
+    <parameter name="dataSetColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DataColumnMappingCollection.RemoveAt(System.String)">
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.Common.DataColumnMappingCollection.Item(System.String)">
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.Common.DataTableMapping.#ctor(System.String,System.String,System.Data.Common.DataColumnMapping[])">
+    <parameter name="sourceTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="dataSetTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DataTableMapping.#ctor(System.String,System.String)">
+    <parameter name="sourceTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="dataSetTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DataTableMapping.GetColumnMappingBySchemaAction(System.String,System.Data.MissingMappingAction)">
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DataTableMapping.GetDataColumn(System.String,System.Type,System.Data.DataTable,System.Data.MissingMappingAction,System.Data.MissingSchemaAction)">
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.Common.DataTableMapping.DataSetTable">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Common.DataTableMapping.SourceTable">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="M:System.Data.Common.DataTableMappingCollection.Add(System.String,System.String)">
+    <parameter name="sourceTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="dataSetTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>  
+  <member name="M:System.Data.Common.DataTableMappingCollection.Contains(System.String)">
+    <parameter name="value"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>  
+  <member name="M:System.Data.Common.DataTableMappingCollection.GetByDataSetTable(System.String)">
+    <parameter name="dataSetTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>  
+  <member name="M:System.Data.Common.DataTableMappingCollection.GetTableMappingBySchemaAction(System.Data.Common.DataTableMappingCollection,System.String,System.String,System.Data.MissingMappingAction)">
+    <parameter name="sourceTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="dataSetTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>  
+  <member name="M:System.Data.Common.DataTableMappingCollection.IndexOf(System.String)">
+    <parameter name="sourceTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>  
+  <member name="M:System.Data.Common.DataTableMappingCollection.IndexOfDataSetTable(System.String)">
+    <parameter name="dataSetTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>  
+  <member name="M:System.Data.Common.DataTableMappingCollection.RemoveAt(System.String)">
+    <parameter name="sourceTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>  
+  <member name="P:System.Data.Common.DataTableMappingCollection.Item(System.String)">
+    <parameter name="sourceTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>  
+
+  <member name="P:System.Data.Common.DbCommand.CommandText">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.Common.DbCommandBuilder.GetParameterName(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member> 
+  <member name="M:System.Data.Common.DbCommandBuilder.QuoteIdentifier(System.String)">
+    <parameter name="unquotedIdentifier"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member> 
+  <member name="M:System.Data.Common.DbCommandBuilder.UnquoteIdentifier(System.String)">
+    <parameter name="quotedIdentifier"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member> 
+  <member name="P:System.Data.Common.DbCommandBuilder.CatalogSeparator">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Common.DbCommandBuilder.QuotePrefix">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Common.DbCommandBuilder.QuoteSuffix">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Common.DbCommandBuilder.SchemaSeparator">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="M:System.Data.Common.DbConnection.ChangeDatabase(System.String)">
+    <parameter name="databaseName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbConnection.GetSchema(System.String,System.String[])">
+    <parameter name="collectionName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="restrictionValues"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbConnection.GetSchema(System.String)">
+    <parameter name="collectionName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.Common.DbConnection.ConnectionString">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Common.DbConnection.Database">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Common.DbConnection.DataSource">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Common.DbConnection.ServerVersion">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.Common.DbConnectionStringBuilder.Add(System.String,System.Object)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbConnectionStringBuilder.AppendKeyValuePair(System.Text.StringBuilder,System.String,System.String,System.Boolean)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="value"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbConnectionStringBuilder.AppendKeyValuePair(System.Text.StringBuilder,System.String,System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="value"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbConnectionStringBuilder.ContainsKey(System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbConnectionStringBuilder.Remove(System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbConnectionStringBuilder.ShouldSerialize(System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbConnectionStringBuilder.TryGetValue(System.String,System.Object@)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.Common.DbConnectionStringBuilder.ConnectionString">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Common.DbConnectionStringBuilder.Item(System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member> 
+  
+  <member name="M:System.Data.Common.DbDataAdapter.Fill(System.Data.DataSet,System.Int32,System.Int32,System.String,System.Data.IDbCommand,System.Data.CommandBehavior)">
+    <parameter name="srcTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbDataAdapter.Fill(System.Data.DataSet,System.Int32,System.Int32,System.String)">
+    <parameter name="srcTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbDataAdapter.Fill(System.Data.DataSet,System.String)">
+    <parameter name="srcTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbDataAdapter.FillSchema(System.Data.DataSet,System.Data.SchemaType,System.String)">
+    <parameter name="srcTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbDataAdapter.Update(System.Data.DataSet,System.String)">
+    <parameter name="srcTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="F:System.Data.Common.DbDataAdapter.DefaultSourceTableName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member> 
+  
+  <member name="M:System.Data.Common.DBDataPermission.Add(System.String,System.String,System.Data.KeyRestrictionBehavior)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="restrictions"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="P:System.Data.Common.DBDataPermissionAttribute.ConnectionString">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Common.DBDataPermissionAttribute.KeyRestrictions">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.Common.DbDataReader.GetOrdinal(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.Common.DbDataReader.Item(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+
+  <member name="M:System.Data.Common.DbDataRecord.GetOrdinal(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.Common.DbDataRecord.Item(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="F:System.Data.Common.DbMetaDataCollectionNames.DataSourceInformation">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataCollectionNames.DataTypes">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataCollectionNames.MetaDataCollections">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataCollectionNames.ReservedWords">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataCollectionNames.Restrictions">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.CollectionName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.ColumnSize">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.CompositeIdentifierSeparatorPattern">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.CreateFormat">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.CreateParameters">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.DataSourceProductName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.DataSourceProductVersion">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.DataSourceProductVersionNormalized">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.DataType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.GroupByBehavior">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.IdentifierCase">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.IdentifierPattern">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.IsAutoIncrementable">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.IsBestMatch">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.IsCaseSensitive">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.IsConcurrencyType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.IsFixedLength">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.IsFixedPrecisionScale">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.IsLiteralSupported">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.IsLong">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.IsNullable">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.IsSearchable">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.IsSearchableWithLike">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.IsUnsigned">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.LiteralPrefix">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.LiteralSuffix">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.MaximumScale">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.MinimumScale">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.NumberOfIdentifierParts">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.NumberOfRestrictions">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.OrderByColumnsInSelect">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.ParameterMarkerFormat">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.ParameterMarkerPattern">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.ParameterNameMaxLength">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.ParameterNamePattern">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.ProviderDbType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.QuotedIdentifierCase">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.QuotedIdentifierPattern">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.ReservedWord">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.StatementSeparatorPattern">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.StringLiteralPattern">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.SupportedJoinOperators">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.DbMetaDataColumnNames.TypeName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+
+  <member name="P:System.Data.Common.DbParameter.ParameterName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Common.DbParameter.SourceColumn">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.Common.DbParameterCollection.Contains(System.String)">
+    <parameter name="value"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbParameterCollection.GetParameter(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbParameterCollection.IndexOf(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbParameterCollection.RemoveAt(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Common.DbParameterCollection.SetParameter(System.String,System.Data.Common.DbParameter)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.Common.DbParameterCollection.System#Data#IDataParameterCollection#Item(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.Common.DbProviderFactories.GetFactory(System.String)">
+    <parameter name="providerInvariantName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+
+  <member name="F:System.Data.Common.SchemaTableColumn.AllowDBNull">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.BaseColumnName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.BaseSchemaName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.BaseTableName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.ColumnName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.ColumnOrdinal">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.ColumnSize">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.DataType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.IsAliased">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.IsExpression">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.IsKey">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.IsLong">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.IsUnique">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.NonVersionedProviderType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.NumericPrecision">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.NumericScale">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableColumn.ProviderType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="F:System.Data.Common.SchemaTableOptionalColumn.AutoIncrementSeed">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableOptionalColumn.AutoIncrementStep">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableOptionalColumn.BaseCatalogName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableOptionalColumn.BaseColumnNamespace">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableOptionalColumn.BaseServerName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableOptionalColumn.BaseTableNamespace">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableOptionalColumn.ColumnMapping">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableOptionalColumn.DefaultValue">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableOptionalColumn.Expression">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableOptionalColumn.IsAutoIncrement">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableOptionalColumn.IsHidden">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableOptionalColumn.IsReadOnly">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableOptionalColumn.IsRowVersion">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Common.SchemaTableOptionalColumn.ProviderSpecificDataType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.Odbc.OdbcCommand.#ctor(System.String,System.Data.Odbc.OdbcConnection,System.Data.Odbc.OdbcTransaction)">
+    <parameter name="cmdText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcCommand.#ctor(System.String,System.Data.Odbc.OdbcConnection)">
+    <parameter name="cmdText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcCommand.#ctor(System.String)">
+    <parameter name="cmdText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.Odbc.OdbcCommand.CommandText">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.Odbc.OdbcCommandBuilder.GetParameterName(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcCommandBuilder.QuoteIdentifier(System.String,System.Data.Odbc.OdbcConnection)">
+    <parameter name="unquotedIdentifier"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcCommandBuilder.QuoteIdentifier(System.String)">
+    <parameter name="unquotedIdentifier"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcCommandBuilder.UnquoteIdentifier(System.String,System.Data.Odbc.OdbcConnection)">
+    <parameter name="quotedIdentifier"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcCommandBuilder.UnquoteIdentifier(System.String)">
+    <parameter name="quotedIdentifier"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.Odbc.OdbcConnection.ChangeDatabase(System.String)">
+    <parameter name="value"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcConnection.GetSchema(System.String,System.String[])">
+    <parameter name="collectionName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="restrictionValues"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcConnection.GetSchema(System.String)">
+    <parameter name="collectionName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcConnection.#ctor(System.String)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.Odbc.OdbcConnection.ConnectionString">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Odbc.OdbcConnection.Database">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Odbc.OdbcConnection.DataSource">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Odbc.OdbcConnection.Driver">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Odbc.OdbcConnection.ServerVersion">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.Odbc.OdbcConnectionStringBuilder.ContainsKey(System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcConnectionStringBuilder.#ctor(System.String)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcConnectionStringBuilder.Remove(System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcConnectionStringBuilder.TryGetValue(System.String,System.Object@)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.Odbc.OdbcConnectionStringBuilder.Driver">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Odbc.OdbcConnectionStringBuilder.Dsn">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Odbc.OdbcConnectionStringBuilder.Item(System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.Odbc.OdbcDataAdapter.#ctor(System.String,System.String)">
+    <parameter name="selectCommandText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="selectConnectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcDataAdapter.#ctor(System.String,System.Data.Odbc.OdbcConnection)">
+    <parameter name="selectCommandText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.Odbc.OdbcDataReader.GetOrdinal(System.String)">
+    <parameter name="value"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.Odbc.OdbcDataReader.Item(System.String)">
+    <parameter name="value"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="P:System.Data.Odbc.OdbcError.Source">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Odbc.OdbcError.SQLState">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="P:System.Data.Odbc.OdbcException.Source">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="F:System.Data.Odbc.OdbcMetaDataCollectionNames.Columns">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Odbc.OdbcMetaDataCollectionNames.Indexes">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Odbc.OdbcMetaDataCollectionNames.ProcedureColumns">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Odbc.OdbcMetaDataCollectionNames.ProcedureParameters">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Odbc.OdbcMetaDataCollectionNames.Procedures">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Odbc.OdbcMetaDataCollectionNames.Tables">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Odbc.OdbcMetaDataCollectionNames.Views">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="F:System.Data.Odbc.OdbcMetaDataColumnNames.BooleanFalseLiteral">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Odbc.OdbcMetaDataColumnNames.BooleanTrueLiteral">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.Odbc.OdbcMetaDataColumnNames.SQLType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.Odbc.OdbcParameter.#ctor(System.String,System.Data.Odbc.OdbcType,System.Int32,System.Data.ParameterDirection,System.Byte,System.Byte,System.String,System.Data.DataRowVersion,System.Boolean,System.Object)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcParameter.#ctor(System.String,System.Data.Odbc.OdbcType,System.Int32,System.Data.ParameterDirection,System.Boolean,System.Byte,System.Byte,System.String,System.Data.DataRowVersion,System.Object)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="srcColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcParameter.#ctor(System.String,System.Data.Odbc.OdbcType,System.Int32,System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcParameter.#ctor(System.String,System.Data.Odbc.OdbcType,System.Int32)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcParameter.#ctor(System.String,System.Data.Odbc.OdbcType)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcParameter.#ctor(System.String,System.Object)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.Odbc.OdbcParameter.ParameterName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Odbc.OdbcParameter.SourceColumn">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.Odbc.OdbcParameterCollection.Add(System.String,System.Data.Odbc.OdbcType,System.Int32,System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcParameterCollection.Add(System.String,System.Data.Odbc.OdbcType,System.Int32)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcParameterCollection.Add(System.String,System.Data.Odbc.OdbcType)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcParameterCollection.AddWithValue(System.String,System.Object)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcParameterCollection.Contains(System.String)">
+    <parameter name="value"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcParameterCollection.GetParameter(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcParameterCollection.IndexOf(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcParameterCollection.RemoveAt(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.Odbc.OdbcParameterCollection.SetParameter(System.String,System.Data.Common.DbParameter)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.Odbc.OdbcParameterCollection.Item(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.Odbc.OdbcPermission.Add(System.String,System.String,System.Data.KeyRestrictionBehavior)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="restrictions"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.OleDb.OleDbCommand.#ctor(System.String,System.Data.OleDb.OleDbConnection,System.Data.OleDb.OleDbTransaction)">
+    <parameter name="cmdText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbCommand.#ctor(System.String,System.Data.OleDb.OleDbConnection)">
+    <parameter name="cmdText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbCommand.#ctor(System.String)">
+    <parameter name="cmdText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.OleDb.OleDbCommand.CommandText">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.OleDb.OleDbCommandBuilder.GetParameterName(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbCommandBuilder.QuoteIdentifier(System.String,System.Data.OleDb.OleDbConnection)">
+    <parameter name="unquotedIdentifier"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbCommandBuilder.QuoteIdentifier(System.String)">
+    <parameter name="unquotedIdentifier"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbCommandBuilder.UnquoteIdentifier(System.String,System.Data.OleDb.OleDbConnection)">
+    <parameter name="quotedIdentifier"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbCommandBuilder.UnquoteIdentifier(System.String)">
+    <parameter name="quotedIdentifier"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.OleDb.OleDbConnection.ChangeDatabase(System.String)">
+    <parameter name="value"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbConnection.GetSchema(System.String,System.String[])">
+    <parameter name="collectionName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="restrictionValues"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbConnection.GetSchema(System.String)">
+    <parameter name="collectionName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbConnection.#ctor(System.String)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.OleDb.OleDbConnection.ConnectionString">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.OleDb.OleDbConnection.Database">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.OleDb.OleDbConnection.DataSource">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.OleDb.OleDbConnection.Provider">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.OleDb.OleDbConnection.ServerVersion">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.OleDb.OleDbConnectionStringBuilder.ContainsKey(System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbConnectionStringBuilder.#ctor(System.String)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbConnectionStringBuilder.Remove(System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbConnectionStringBuilder.TryGetValue(System.String,System.Object@)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.OleDb.OleDbConnectionStringBuilder.FileName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.OleDb.OleDbConnectionStringBuilder.Provider">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>  
+  <member name="P:System.Data.OleDb.OleDbConnectionStringBuilder.Item(System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.OleDb.OleDbDataAdapter.Fill(System.Data.DataSet,System.Object,System.String)">
+    <parameter name="srcTable"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbDataAdapter.#ctor(System.String,System.Data.OleDb.OleDbConnection)">
+    <parameter name="selectCommandText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbDataAdapter.#ctor(System.String,System.String)">
+    <parameter name="selectCommandText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="selectConnectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbDataReader.GetOrdinal(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.OleDb.OleDbDataReader.Item(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="P:System.Data.OleDb.OleDbError.Source">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.OleDb.OleDbError.SQLState">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="P:System.Data.OleDb.OleDbInfoMessageEventArgs.Source">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="F:System.Data.OleDb.OleDbMetaDataCollectionNames.Catalogs">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.OleDb.OleDbMetaDataCollectionNames.Collations">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.OleDb.OleDbMetaDataCollectionNames.Columns">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.OleDb.OleDbMetaDataCollectionNames.Indexes">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.OleDb.OleDbMetaDataCollectionNames.ProcedureColumns">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.OleDb.OleDbMetaDataCollectionNames.ProcedureParameters">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.OleDb.OleDbMetaDataCollectionNames.Procedures">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.OleDb.OleDbMetaDataCollectionNames.Tables">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.OleDb.OleDbMetaDataCollectionNames.Views">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="F:System.Data.OleDb.OleDbMetaDataColumnNames.BooleanFalseLiteral">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.OleDb.OleDbMetaDataColumnNames.BooleanTrueLiteral">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.OleDb.OleDbMetaDataColumnNames.DateTimeDigits">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.OleDb.OleDbMetaDataColumnNames.NativeDataType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.OleDb.OleDbParameter.#ctor(System.String,System.Data.OleDb.OleDbType,System.Int32,System.Data.ParameterDirection,System.Byte,System.Byte,System.String,System.Data.DataRowVersion,System.Boolean,System.Object)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbParameter.#ctor(System.String,System.Data.OleDb.OleDbType,System.Int32,System.Data.ParameterDirection,System.Boolean,System.Byte,System.Byte,System.String,System.Data.DataRowVersion,System.Object)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="srcColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbParameter.#ctor(System.String,System.Data.OleDb.OleDbType,System.Int32,System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="srcColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbParameter.#ctor(System.String,System.Data.OleDb.OleDbType,System.Int32)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbParameter.#ctor(System.String,System.Data.OleDb.OleDbType)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbParameter.#ctor(System.String,System.Object)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.OleDb.OleDbParameter.ParameterName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.OleDb.OleDbParameter.SourceColumn">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.OleDb.OleDbParameterCollection.Add(System.String,System.Data.OleDb.OleDbType,System.Int32,System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbParameterCollection.Add(System.String,System.Data.OleDb.OleDbType,System.Int32)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbParameterCollection.Add(System.String,System.Data.OleDb.OleDbType)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbParameterCollection.AddWithValue(System.String,System.Object)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbParameterCollection.Contains(System.String)">
+    <parameter name="value"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbParameterCollection.GetParameter(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbParameterCollection.IndexOf(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbParameterCollection.RemoveAt(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.OleDb.OleDbParameterCollection.SetParameter(System.String,System.Data.Common.DbParameter)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.OleDb.OleDbParameterCollection.Item(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="P:System.Data.Sql.SqlNotificationRequest.Options">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.Sql.SqlNotificationRequest.UserData">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.SqlClient.SqlBulkCopy.#ctor(System.String,System.Data.SqlClient.SqlBulkCopyOptions)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlBulkCopy.#ctor(System.String)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlBulkCopy.DestinationTableName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.SqlClient.SqlBulkCopyColumnMapping.#ctor(System.String,System.Int32)">
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlBulkCopyColumnMapping.#ctor(System.Int32,System.String)">
+    <parameter name="destinationColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlBulkCopyColumnMapping.#ctor(System.String,System.String)">
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="destinationColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlBulkCopyColumnMapping.DestinationColumn">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlBulkCopyColumnMapping.SourceColumn">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.Add(System.String,System.Int32)">
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.Add(System.Int32,System.String)">
+    <parameter name="destinationColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.Add(System.String,System.String)">
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="destinationColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="F:System.Data.SqlClient.SqlClientMetaDataCollectionNames.Columns">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.SqlClient.SqlClientMetaDataCollectionNames.Databases">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.SqlClient.SqlClientMetaDataCollectionNames.ForeignKeys">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.SqlClient.SqlClientMetaDataCollectionNames.IndexColumns">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.SqlClient.SqlClientMetaDataCollectionNames.Indexes">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.SqlClient.SqlClientMetaDataCollectionNames.Parameters">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.SqlClient.SqlClientMetaDataCollectionNames.ProcedureColumns">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.SqlClient.SqlClientMetaDataCollectionNames.Procedures">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.SqlClient.SqlClientMetaDataCollectionNames.Tables">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.SqlClient.SqlClientMetaDataCollectionNames.UserDefinedTypes">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.SqlClient.SqlClientMetaDataCollectionNames.Users">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.SqlClient.SqlClientMetaDataCollectionNames.ViewColumns">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="F:System.Data.SqlClient.SqlClientMetaDataCollectionNames.Views">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.SqlClient.SqlClientPermission.Add(System.String,System.String,System.Data.KeyRestrictionBehavior)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="restrictions"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.SqlClient.SqlCommand.#ctor(System.String,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+    <parameter name="cmdText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlCommand.#ctor(System.String,System.Data.SqlClient.SqlConnection)">
+    <parameter name="cmdText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlCommand.#ctor(System.String)">
+    <parameter name="cmdText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlCommand.CommandText">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.SqlClient.SqlCommandBuilder.GetParameterName(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlCommandBuilder.QuoteIdentifier(System.String)">
+    <parameter name="unquotedIdentifier"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlCommandBuilder.UnquoteIdentifier(System.String)">
+    <parameter name="quotedIdentifier"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.SqlClient.SqlConnection.BeginTransaction(System.String)">
+    <parameter name="transactionName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlConnection.ChangeDatabase(System.String)">
+    <parameter name="database"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlConnection.ChangePassword(System.String,System.String)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="newPassword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlConnection.GetSchema(System.String,System.String[])">
+    <parameter name="collectionName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="restrictionValues"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlConnection.GetSchema(System.String)">
+    <parameter name="collectionName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlConnection.#ctor(System.String)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnection.ConnectionString">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnection.Database">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnection.DataSource">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnection.ServerVersion">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnection.WorkstationId">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.SqlClient.SqlConnectionStringBuilder.ContainsKey(System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlConnectionStringBuilder.Remove(System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlConnectionStringBuilder.ShouldSerialize(System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlConnectionStringBuilder.#ctor(System.String)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlConnectionStringBuilder.TryGetValue(System.String,System.Object@)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnectionStringBuilder.ApplicationName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnectionStringBuilder.AttachDBFilename">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnectionStringBuilder.CurrentLanguage">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnectionStringBuilder.DataSource">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnectionStringBuilder.FailoverPartner">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnectionStringBuilder.InitialCatalog">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnectionStringBuilder.NetworkLibrary">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnectionStringBuilder.Password">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnectionStringBuilder.Item(System.String)">
+    <parameter name="keyword"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnectionStringBuilder.TransactionBinding">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnectionStringBuilder.TypeSystemVersion">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnectionStringBuilder.UserID">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlConnectionStringBuilder.WorkstationID">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.SqlClient.SqlDataAdapter.#ctor(System.String,System.Data.SqlClient.SqlConnection)">
+    <parameter name="selectCommandText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlDataAdapter.#ctor(System.String,System.String)">
+    <parameter name="selectCommandText"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="selectConnectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.SqlClient.SqlDataReader.GetOrdinal(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlDataReader.Item(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.SqlClient.SqlDependency.#ctor(System.Data.SqlClient.SqlCommand,System.String,System.Int32)">
+    <parameter name="options"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlDependency.Start(System.String,System.String)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="queue"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlDependency.Start(System.String)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlDependency.Stop(System.String,System.String)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="queue"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlDependency.Stop(System.String)">
+    <parameter name="connectionString"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlDependency.Id">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="P:System.Data.SqlClient.SqlError.Procedure">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlError.Server">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlError.Source">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="P:System.Data.SqlClient.SqlException.Procedure">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlException.Server">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlException.Source">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="P:System.Data.SqlClient.SqlInfoMessageEventArgs.Source">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType,System.Int32,System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType,System.Int32)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Object)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType,System.Int32,System.Data.ParameterDirection,System.Byte,System.Byte,System.String,System.Data.DataRowVersion,System.Boolean,System.Object,System.String,System.String,System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="xmlSchemaCollectionDatabase"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="xmlSchemaCollectionOwningSchema"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="xmlSchemaCollectionName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType,System.Int32,System.Data.ParameterDirection,System.Boolean,System.Byte,System.Byte,System.String,System.Data.DataRowVersion,System.Object)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlParameter.ParameterName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlParameter.SourceColumn">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlParameter.TypeName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlParameter.UdtTypeName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlParameter.XmlSchemaCollectionDatabase">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlParameter.XmlSchemaCollectionName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlParameter.XmlSchemaCollectionOwningSchema">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute>
+  </member>
+  
+  <member name="M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Data.SqlDbType,System.Int32,System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="sourceColumn"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Data.SqlDbType,System.Int32)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Data.SqlDbType)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlParameterCollection.AddWithValue(System.String,System.Object)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlParameterCollection.Contains(System.String)">
+    <parameter name="value"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlParameterCollection.GetParameter(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlParameterCollection.IndexOf(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlParameterCollection.RemoveAt(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlParameterCollection.SetParameter(System.String,System.Data.Common.DbParameter)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="P:System.Data.SqlClient.SqlParameterCollection.Item(System.String)">
+    <parameter name="parameterName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Data.SqlClient.SqlTransaction.Rollback(System.String)">
+    <parameter name="transactionName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Data.SqlClient.SqlTransaction.Save(System.String)">
+    <parameter name="savePointName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  
+  <member name="M:System.Xml.XmlDataDocument.CreateElement(System.String,System.String,System.String)">
+    <parameter name="prefix"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="localName"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+    <parameter name="namespaceURI"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Xml.XmlDataDocument.CreateEntityReference(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Xml.XmlDataDocument.GetElementById(System.String)">
+    <parameter name="elemId"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Xml.XmlDataDocument.GetElementsByTagName(System.String)">
+    <parameter name="name"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+  <member name="M:System.Xml.XmlDataDocument.Load(System.String)">
+    <parameter name="filename"><attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)"><argument>false</argument></attribute></parameter>
+  </member>
+</assembly>

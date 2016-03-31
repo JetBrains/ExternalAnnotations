@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.ServiceModel.Web, Version=2.0.5.0">
+  <member name="M:System.Runtime.Serialization.Json.DataContractJsonSerializer.ConvertDataContractToObject(System.Object,,System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson,System.Boolean,System.RuntimeTypeHandle)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.DataContractJsonSerializer.ConvertObjectToDataContract(,System.Object,System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.DataContractJsonSerializer.ConvertObjectToPrimitiveDataContract(,System.Object,System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.DataContractJsonSerializer.GetKnownTypesFromContext(,System.Collections.Generic.IList{System.Type})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Runtime.Serialization.Json.DataContractJsonSerializer.KnownTypes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObjectInternal(System.Object,,System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson,System.Boolean,System.RuntimeTypeHandle)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.DataContractToObjectConverter.AddDictionaryEntryData(System.Runtime.Serialization.Json.DataContractJsonSerializer,System.Collections.Generic.Dictionary{System.String,System.Object},System.String,System.Type,System.Object,System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson)">
+    <parameter name="serializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="currentEntry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="declaredType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.DataContractToObjectConverter.AddTypeInformation(System.Collections.IDictionary,)">
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.DataContractToObjectConverter.ConvertClassDataContractToDictionary(System.Runtime.Serialization.Json.DataContractJsonSerializer,,System.Object,System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson,System.Boolean)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="serializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.DataContractToObjectConverter.ConvertGenericDictionaryToArray(System.Runtime.Serialization.Json.DataContractJsonSerializer,System.Collections.IEnumerable,,System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.DataContractToObjectConverter.ConvertGenericListToArray(System.Runtime.Serialization.Json.DataContractJsonSerializer,System.Collections.IEnumerable,,System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="serializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.DataContractToObjectConverter.GetMemberValue(System.Object,System.String,System.Type)">
+    <parameter name="typeToInvokeOn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.DataContractToObjectConverter.IsTypePrimitive(System.Type)">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.DataContractToObjectConverter.WriteClassDataContractMembers(System.Runtime.Serialization.Json.DataContractJsonSerializer,,System.Collections.Generic.Dictionary{System.String,System.Object}@,System.Object,System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson)">
+    <parameter name="serializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="classToDictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptDeserializer.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptDeserializer.BufferedStreamReader.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptDeserializer.BufferedStreamReader.Write(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptObjectDeserializer.AppendCharToBuilder(System.Nullable{System.Char},System.Text.StringBuilder)">
+    <parameter name="c">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptObjectDeserializer.CheckQuoteChar(System.Nullable{System.Char})">
+    <parameter name="c">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptObjectDeserializer.DeserializeDictionary(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptObjectDeserializer.DeserializeList(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptObjectDeserializer.DeserializeMemberName">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptObjectDeserializer.DeserializePrimitiveToken">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptObjectDeserializer.DeserializeString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptObjectDeserializer.DeserializeStringIntoDateTime">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptSerializer.ReferenceComparer.System#Collections#Generic#IEqualityComparer{System#Object}#Equals(System.Object,System.Object)">
+    <parameter name="y">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="x">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptSerializer.ReferenceComparer.System#Collections#Generic#IEqualityComparer{System#Object}#GetHashCode(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptSerializer.SerializeBoolean(System.Boolean,System.Text.StringBuilder)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptSerializer.SerializeDateTime(System.DateTime,System.Text.StringBuilder)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptSerializer.SerializeDictionary(System.Collections.IDictionary,System.Text.StringBuilder,System.Int32,System.Collections.Generic.Dictionary{System.Object,System.Boolean})">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptSerializer.SerializeEnumerable(System.Collections.IEnumerable,System.Text.StringBuilder,System.Int32,System.Collections.Generic.Dictionary{System.Object,System.Boolean})">
+    <parameter name="enumerable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptSerializer.SerializeGuid(System.Guid,System.Text.StringBuilder)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptSerializer.SerializeString(System.String,System.Text.StringBuilder)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptSerializer.SerializeUri(,System.Text.StringBuilder)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptSerializer.SerializeValue(System.Object,System.Text.StringBuilder,System.Int32,System.Collections.Generic.Dictionary{System.Object,System.Boolean})">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptSerializer.SerializeValueInternal(System.Object,System.Text.StringBuilder,System.Int32,System.Collections.Generic.Dictionary{System.Object,System.Boolean})">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptString.AppendCharAsUnicode(System.Text.StringBuilder,System.Char)">
+    <parameter name="builder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptString.GetDebugString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptString.GetNextNonEmptyChar">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptString.MoveNext">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptString.MoveNext(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.JavaScriptString.QuoteString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.ObjectToDataContractConverter.ConvertDictionary(System.Runtime.Serialization.Json.DataContractJsonSerializer,,System.Object,System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.ObjectToDataContractConverter.ConvertDictionaryToClassDataContract(System.Runtime.Serialization.Json.DataContractJsonSerializer,,System.Collections.Generic.Dictionary{System.String,System.Object},System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson)">
+    <parameter name="serializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.ObjectToDataContractConverter.ConvertICollectionToCollectionDataContract(System.Runtime.Serialization.Json.DataContractJsonSerializer,,System.Object,System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson)">
+    <parameter name="serializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deserializedValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.ObjectToDataContractConverter.ConvertToArray(System.Type,System.Collections.ICollection)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="newList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.ObjectToDataContractConverter.ReadClassDataContractMembers(System.Runtime.Serialization.Json.DataContractJsonSerializer,,System.Collections.Generic.Dictionary{System.String,System.Object},System.Object,System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson)">
+    <parameter name="serializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deserialzedValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.ObjectToDataContractConverter.ResolveDataContractFromTypeInformation(System.String,,System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.ObjectToDataContractConverter.SetMemberValue(System.Object,System.Object,System.String,System.Type)">
+    <parameter name="typeToInvokeOn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.#ctor(System.Runtime.Serialization.Json.DataContractJsonSerializer,)">
+    <parameter name="serializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ParseQualifiedName(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson.#ctor(System.Runtime.Serialization.Json.DataContractJsonSerializer,)">
+    <parameter name="serializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson.CreateContext(System.Runtime.Serialization.Json.DataContractJsonSerializer,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="serializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson.OnEndHandleReference(,System.Object,System.Boolean)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson.OnHandleReference(,System.Object,System.Boolean)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson.VerifyObjectCompatibilityWithInterface(,System.Object,System.Type)">
+    <parameter name="graph">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson.WriteDataContractValue(,,System.Object,System.RuntimeTypeHandle)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.SR2.Culture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.SR2.GetObject(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR2.GetString(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR2.GetString(System.String,System.Boolean@)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR2.GetString(System.String,System.Boolean@,System.Object[])">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR2.GetString(System.String,System.Object[])">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR2.GetStringHelper(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR2.UriEncode(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.SR2CategoryAttribute.GetLocalizedString(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

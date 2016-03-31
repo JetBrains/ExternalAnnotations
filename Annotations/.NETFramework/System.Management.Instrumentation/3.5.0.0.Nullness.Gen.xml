@@ -1,0 +1,1268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Management.Instrumentation, Version=3.5.0.0">
+  <member name="M:PublishProvider.Delete(System.Management.Instrumentation.CallContext,System.Management.Instrumentation.ICIMResultHandler)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:PublishProvider.Enumerate(System.Management.Instrumentation.CallContext,System.Management.Instrumentation.ICIMResultHandler)">
+    <parameter name="resultHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:PublishProvider.Execute(System.Management.Instrumentation.CallContext,System.String,System.Management.Instrumentation.ObjectDictionary,System.Management.Instrumentation.ObjectDictionary@,System.Management.Instrumentation.ICIMResultHandler)">
+    <parameter name="outputParamters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="inputParameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="methodName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:PublishProvider.Get(System.Management.Instrumentation.CallContext,System.Management.Instrumentation.ICIMResultHandler)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:PublishProvider.GetDeleteInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:PublishProvider.GetEnumInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:PublishProvider.GetExecuteInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:PublishProvider.GetGetInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:PublishProvider.GetQueryInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:PublishProvider.GetUpdateInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:PublishProvider.Publish(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:PublishProvider.Put(System.Management.Instrumentation.CallContext,System.Management.PutOptions,System.Management.Instrumentation.ICIMResultHandler)">
+    <parameter name="options">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:PublishProvider.Query(System.Management.Instrumentation.CallContext,System.String,System.Management.Instrumentation.ICIMResultHandler)">
+    <parameter name="resultHandler">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:PublishProvider.Revoke(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AssemblyInformation.BinToString(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.AssemblyInformation.GenerateMof(System.Management.Instrumentation.InstallTypes)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.AssemblyInformation.GenNamespaceInfo(System.Management.Instrumentation.WmiConfigurationAttribute,System.Management.Instrumentation.AssemblyInformation)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AssemblyInformation.GenProviderInfo(System.Management.Instrumentation.WmiConfigurationAttribute,System.Management.Instrumentation.AssemblyInformation,System.Management.ManagementClass@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="asInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AssemblyInformation.InstrumentationClass(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AttrUtil.GetInstanceProviderInfo(System.Management.Instrumentation.WmiConfigurationAttribute,System.Management.Instrumentation.AssemblyInformation)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="asAttr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="asInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AttrUtil.GetMethodProviderInfo(System.Management.Instrumentation.WmiConfigurationAttribute,System.Management.Instrumentation.AssemblyInformation)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="asAttr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="asInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AttrUtil.HostingAsString(System.Management.Instrumentation.WmiConfigurationAttribute)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AttrUtil.HostingCLSID(System.Management.Instrumentation.WmiConfigurationAttribute)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.AttrUtil.MakeProviderClass(System.Management.Instrumentation.WmiConfigurationAttribute)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="asAttr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AutomationType.#ctor(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Management.Instrumentation.AutomationType.BaseType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.AutomationType.CalculateKey(System.Management.Instrumentation.ObjectDictionary)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="dict">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AutomationType.CalculateKey(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AutomationType.FindTask(System.String)">
+    <parameter name="sMethodName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AutomationType.GetAutomationType(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AutomationType.GetCustomAttributes(System.Type,System.Boolean)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AutomationType.ValidateCommitMethod(System.Management.Instrumentation.MetaMethodInfo)">
+    <parameter name="mi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AutomationType.ValidateCreateConstructor(System.Management.Instrumentation.MetaConstructorInfo)">
+    <parameter name="mc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AutomationType.ValidateCreateMethod(System.Management.Instrumentation.MetaMethodInfo)">
+    <parameter name="mi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AutomationType.ValidateDeleteMethod(System.Management.Instrumentation.MetaMethodInfo)">
+    <parameter name="mi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AutomationType.ValidateEnumerateMethod(System.Management.Instrumentation.MetaMethodInfo)">
+    <parameter name="mi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AutomationType.ValidateGetConstructor(System.Management.Instrumentation.MetaConstructorInfo)">
+    <parameter name="mc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AutomationType.ValidateGetMethod(System.Management.Instrumentation.MetaMethodInfo)">
+    <parameter name="mi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.AutomationType.ValidateQueryMethod(System.Management.Instrumentation.MetaMethodInfo)">
+    <parameter name="mi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.CaselessObjectDictionary.Add(System.String,System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.CaselessObjectDictionary.Contains(System.String)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Management.Instrumentation.CaselessObjectDictionary.Item(System.String)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.CaselessObjectDictionary.Remove(System.String)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ClassMetadata.#ctor(System.Management.Instrumentation.AutomationType)">
+    <parameter name="autoType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ClassMetadata.BuildManagedObjectFromWbemInstance(WmiNative.IWbemClassObject)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.ClassMetadata.CopyInto(System.Object,System.Management.Instrumentation.ObjectDictionary)">
+    <parameter name="odSrc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ClassMetadata.Init(System.Management.Instrumentation.AutomationType)">
+    <parameter name="autoType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ConstructorInvoker.InvokeInfrastructureCtor(System.Management.Instrumentation.ObjectDictionary,System.Int32,System.String)">
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ExceptionsTranslator.ProcessTargetInvocationException(System.Reflection.TargetInvocationException,System.Exception@)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ExceptionsTranslator.TranslateExceptionToCOM(System.Exception)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.HashedArrayList.Add(System.Object,System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.HashedArrayList.Contains(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.HashedArrayList.ContainsKey(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.HashedArrayList.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.HashedArrayList.Item(System.Object)">
+    <parameter name="index">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.HashedArrayList.Remove(System.Object,System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.InstrumentationManager.Publish(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.InstrumentationManager.RegisterType(System.Type)">
+    <parameter name="managementType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.InstrumentationManager.Revoke(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.InstrumentationManager.UnregisterType(System.Type)">
+    <parameter name="managementType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ManagedCommonProvider.WmiNative#IWbemProviderInit#Initialize(System.String,System.Int32,System.String,System.String,WmiNative.IWbemServices,WmiNative.IWbemContext,WmiNative.IWbemProviderInitSink)">
+    <parameter name="wbemSink">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ManagedCommonProvider.WmiNative#IWbemServices#CreateInstanceEnumAsync(System.String,System.Int32,WmiNative.IWbemContext,WmiNative.IWbemObjectSink)">
+    <parameter name="className">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ManagedCommonProvider.WmiNative#IWbemServices#DeleteInstanceAsync(System.String,System.Int32,WmiNative.IWbemContext,WmiNative.IWbemObjectSink)">
+    <parameter name="objectPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ManagedCommonProvider.WmiNative#IWbemServices#ExecMethodAsync(System.String,System.String,System.Int32,WmiNative.IWbemContext,WmiNative.IWbemClassObject,WmiNative.IWbemObjectSink)">
+    <parameter name="methodName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="objectPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ManagedCommonProvider.WmiNative#IWbemServices#GetObjectAsync(System.String,System.Int32,WmiNative.IWbemContext,WmiNative.IWbemObjectSink)">
+    <parameter name="objectPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaConstructorInfo.#ctor(System.Reflection.ConstructorInfo,System.Management.Instrumentation.AutomationType)">
+    <parameter name="constructor">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaConstructorInfo.GetCustomAttributes(System.Type,System.Boolean)">
+    <parameter name="attrType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaConstructorInfo.Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="binder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="culture">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaConstructorInfo.Invoke(System.Object[])">
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaMethodInfo.#ctor(System.Reflection.MethodInfo,System.Management.Instrumentation.AutomationType)">
+    <parameter name="mi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaMethodInfo.GetCustomAttributes(System.Type,System.Boolean)">
+    <parameter name="attrType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaMethodInfo.Invoke(System.Object,System.Object[])">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaMethodInfo.Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="binder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="culture">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaParamInfo.#ctor(System.Reflection.ParameterInfo)">
+    <parameter name="pi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaParamInfo.GetCustomAttributes(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaParamInfo.GetCustomAttributes(System.Type,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaPropertyInfo.#ctor(System.Reflection.MemberInfo)">
+    <parameter name="mi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Management.Instrumentation.MetaPropertyInfo.DisplayName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaPropertyInfo.GetCustomAttributes(System.Type,System.Boolean)">
+    <parameter name="attrType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaPropertyInfo.GetValue(System.Object)">
+    <parameter name="oTarget">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MetaPropertyInfo.Init(System.Reflection.MemberInfo,System.String)">
+    <parameter name="mi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MethodInvoker.Invoke(System.Object,System.Management.Instrumentation.ObjectDictionary,System.Management.Instrumentation.ObjectDictionary)">
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputParameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MethodInvoker.InvokeInfrastructureMethod(System.Management.Instrumentation.ObjectDictionary)">
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MethodInvoker.InvokeInfrastructureMethod(System.Management.Instrumentation.ObjectDictionary,System.Int32)">
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.AddQualifiers(System.Type)">
+    <parameter name="baseType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.GetText">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.Method.GetText">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.Method.GetTextForParam">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.MethodSet.Add(System.String)">
+    <parameter name="methodName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.MethodSet.GetText">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.MgmtClassGen.MethodSet.Item(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="methodName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.MethodSet.Remove(System.String)">
+    <parameter name="methodName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.Property.AddQualifier(System.String,System.Object)">
+    <parameter name="qualValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="qualName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.Property.AddQualifier(System.String,System.Object,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+    <parameter name="qualifierValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="qualifierName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.Property.AddQualifiers(System.Management.Instrumentation.MetaParamInfo,System.Type)">
+    <parameter name="param">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.Property.AddQualifiers(System.Management.Instrumentation.MetaPropertyInfo,System.Type)">
+    <parameter name="param">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.Property.GetCimTypeText">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.Property.GetText">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.Property.IsQualifier(System.String)">
+    <parameter name="qualName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.PropertySet.Add(System.String,System.Management.CimType,System.Boolean)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.PropertySet.Add(System.String,System.Object)">
+    <parameter name="propertyValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.PropertySet.Add(System.String,System.Object,System.Management.CimType,System.Boolean)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.PropertySet.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.PropertySet.GetText">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.MgmtClassGen.PropertySet.Item(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.PropertySet.Remove(System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.Qualifier.GetObjectText(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="wmiValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.Qualifier.GetText">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.QualifierSet.Add(System.String,System.Object)">
+    <parameter name="qualifierName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.QualifierSet.Add(System.String,System.Object,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+    <parameter name="qualifierName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.QualifierSet.GetText">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.MgmtClassGen.QualifierSet.Item(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="methodName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.MgmtClassGen.QualifierSet.Remove(System.String)">
+    <parameter name="qualifierName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ObjectDictionary.Add(System.String,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ObjectDictionary.Contains(System.String)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Management.Instrumentation.ObjectDictionary.Item(System.String)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Management.Instrumentation.ObjectDictionary.Keys">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.ObjectDictionary.OnInsert(System.Object,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ObjectDictionary.OnSet(System.Object,System.Object,System.Object)">
+    <parameter name="newValue">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ObjectDictionary.Remove(System.String)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Management.Instrumentation.ObjectDictionary.Values">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.OrderedClassList.Add(System.String,System.Management.Instrumentation.MgmtClassGen,System.Management.Instrumentation.AutomationType)">
+    <parameter name="sClassName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.OrderedClassList.Contains(System.String)">
+    <parameter name="sClassName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.OrderedClassList.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.OrderedClassList.Item(System.String)">
+    <parameter name="className">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderManager.AddClass(System.Type,System.Management.Instrumentation.AutomationType,System.Boolean)">
+    <parameter name="autoType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="oCIMProviderType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderManager.AddOrGetCIMProvider(System.Type,System.String,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="oCIMProviderType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sProviderName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderManager.GetProviderByClass(System.String)">
+    <parameter name="sClassesMapKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderManager.GetProviderByClass(System.String,System.String)">
+    <parameter name="sClassesMapKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderManager.LoadProvider(System.String,System.String)">
+    <parameter name="sProviderName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderManager.Publish(System.Management.Instrumentation.ProviderMetadata)">
+    <parameter name="provInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderManager.RemoveClass(System.Management.Instrumentation.AutomationType)">
+    <parameter name="autoType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderManager.Revoke(System.Management.Instrumentation.ProviderMetadata)">
+    <parameter name="provInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderManager.Revoke(System.Management.Instrumentation.ProviderMetadata,System.Boolean)">
+    <parameter name="provInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderMetadata.#ctor(System.Type,System.String,System.String,System.Boolean)">
+    <parameter name="oProviderType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderMetadata.AddSupportedClass(System.Management.Instrumentation.AutomationType)">
+    <parameter name="autoType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Management.Instrumentation.ProviderMetadata.Capabilities">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderMetadata.GetDeleteInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderMetadata.GetEnumInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderMetadata.GetExecuteInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderMetadata.GetGetInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderMetadata.GetQueryInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderMetadata.GetUpdateInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderMetadata.IsClassSupported(System.String)">
+    <parameter name="ClassName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ProviderMetadata.RemoveClass(System.Management.Instrumentation.AutomationType)">
+    <parameter name="autoType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.AddResultNull">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.CircularReferencesNotSupported">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.HelpInstall">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectAttrUsageOnCommitMethod">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectAttrUsageOnMethod">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectAttrUsageOnMethodNonStaticVoid">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectBindCtorUsage">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectBindMethodUsage">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectCreateCtorUsage">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectCreateMethodUsage">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectDuplicatePropertyInClass">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectEnumeratorUsage">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectEnumeratorUsageOnSingletonClass">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectMultiDimensionArray">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectOperatorAsTaskNotAllowed">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectOverloadedMethodNotAllowed">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectROConfiguration">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectSingletonAttrUsageOnClass">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectStaticField">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectTypeNotSupported">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.IncorrectUnsupportedType">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.InstallException_WmiConfigurationAttributeNeeded">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.KeyArrayNotSupported">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.MismatchType">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.MOFCOMPerror">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.MOFFileGeneration">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.NeedAGetterForManagedProperty">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.NonStaticConstructorNeeded">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.Publish_UnmanagedInstance">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.Register_UnmanagedClass">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.RuntimeConvertFailure">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.RuntimeEnumeratorBadEnumeration">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.RuntimeInvalidEnumerateReturn">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.RuntimeKeyString">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.RuntimeMismatchType">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.RuntimeNonReadableProperty">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.RuntimeSchemaMismatch">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.RuntimeStringToCharFailure">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.RuntimeUnhandledProviderException">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.SingletonClassNonStaticConstructorNeeded">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.SingletonClassStaticBindMethodNeeded">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.StaticBindMethodNeeded">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.StaticIEnumerableMethodNeeded">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.WMISchemaInstallEnd">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Management.Instrumentation.Res.WMISchemaInstallStart">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.ResultHandler.#ctor(System.Management.Instrumentation.CallContext,WmiNative.IWbemObjectSink)">
+    <parameter name="ctx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ResultHandler.AddObjectToResult(System.Object,WmiNative.IWbemClassObject@)">
+    <parameter name="oResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ResultHandler.AddResults(System.Collections.IEnumerable)">
+    <parameter name="pIEnumerable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ResultHandler.AddResults(System.Object[])">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.ResultHandler.SetOutParams(System.Management.Instrumentation.ObjectDictionary,System.Object)">
+    <parameter name="outParams">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.TypeConverter.CimConvert(System.Type)">
+    <parameter name="t2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.TypeConverter.GenerateType(System.Management.Instrumentation.AutomationType,System.Management.Instrumentation.AssemblyInformation,System.Management.Instrumentation.OrderedClassList@)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="providerAssembly">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="knownTypes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.FillInstanceProperties(System.Management.Instrumentation.ObjectDictionary,WmiNative.IWbemClassObject)">
+    <parameter name="PropertyBag">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="pOutInstance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.IWbemClassObjectInstanceToDictionary(WmiNative.IWbemClassObject,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.PrepareArrayForProvider(System.Object@,System.Type)">
+    <parameter name="oValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="destType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.PrepareManagedArrayForWMI(System.Object@)">
+    <parameter name="oValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.PrepareManagedObjectForProvider(System.Object@,System.Type)">
+    <parameter name="oValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="destType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.AddPrimitiveType(System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler)">
+    <parameter name="ti">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.ChangeToOldOleautoFriendly(System.Object)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.ChangeType(System.Object,System.Type)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.CreateArrayForOleauto(System.Type,System.Int32)">
+    <parameter name="srcType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler.ChangeSign(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler.ChangeToOldOleautoFriendly(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler.ChangeType(System.Object,System.Type)">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler.ChangeTypeAfterMatchingSign(System.Object,System.Type)">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler.ConvertFromString(System.String)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler.CreateArrayForOleauto(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler.NeedsSignChangeToConvertTo(System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler)">
+    <parameter name="ti">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler_Char.ConvertFromString(System.String)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler_Char.CreateArrayForOleauto(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler_DateTime.ChangeToOldOleautoFriendly(System.Object)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler_DateTime.ConvertFromString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler_DateTime.CreateArrayForOleauto(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler_Int64.CreateArrayForOleauto(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler_SByte.ChangeToOldOleautoFriendly(System.Object)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler_SByte.CreateArrayForOleauto(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler_TimeSpan.ChangeToOldOleautoFriendly(System.Object)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler_TimeSpan.ConvertFromString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler_TimeSpan.CreateArrayForOleauto(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler_UInt16.CreateArrayForOleauto(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler_UInt32.CreateArrayForOleauto(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemMarshal.TypeHelper.KnownTypeHandler_UInt64.CreateArrayForOleauto(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemRegistrar.AddProvider(System.String)">
+    <parameter name="sProvider">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WbemRegistrar.RemoveProvider(System.String)">
+    <parameter name="sProvider">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WMIInfraException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WMIManagementInstaller.GenerateMof(System.Management.Instrumentation.InstallTypes)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Management.Instrumentation.WmiProviderInstallationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Management.Instrumentation.WmiProviderInstallationException.TranslateWmiInforExceptionForDecoupledRegistration(System.Management.Instrumentation.WMIInfraException)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="ex">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:UMPProvider.Create(System.Management.Instrumentation.AutomationType,System.Management.Instrumentation.CallContext,System.Management.Instrumentation.ICIMResultHandler)">
+    <parameter name="cachedType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:UMPProvider.Delete(System.Management.Instrumentation.CallContext,System.Management.Instrumentation.ICIMResultHandler)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:UMPProvider.Enumerate(System.Management.Instrumentation.CallContext,System.Management.Instrumentation.ICIMResultHandler)">
+    <parameter name="resultHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:UMPProvider.Execute(System.Management.Instrumentation.CallContext,System.String,System.Management.Instrumentation.ObjectDictionary,System.Management.Instrumentation.ObjectDictionary@,System.Management.Instrumentation.ICIMResultHandler)">
+    <parameter name="outputParamters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="inputParameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="methodName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:UMPProvider.Get(System.Management.Instrumentation.CallContext,System.Management.Instrumentation.ICIMResultHandler)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:UMPProvider.GetDeleteInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:UMPProvider.GetEnumInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:UMPProvider.GetExecuteInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:UMPProvider.GetGetInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:UMPProvider.GetQueryInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:UMPProvider.GetUpdateInterface(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:UMPProvider.Publish(System.Type,System.Boolean)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:UMPProvider.Put(System.Management.Instrumentation.CallContext,System.Management.PutOptions,System.Management.Instrumentation.ICIMResultHandler)">
+    <parameter name="options">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:UMPProvider.Query(System.Management.Instrumentation.CallContext,System.String,System.Management.Instrumentation.ICIMResultHandler)">
+    <parameter name="resultHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:UMPProvider.Revoke(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:WmiNative.WbemProvider.CrashOnUnhandledException(System.Exception)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:WmiNative.WbemProvider.FillCallInfoFromPath(System.String,System.UInt64,System.String@,System.Management.Instrumentation.CallContext@)">
+    <parameter name="sPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="callCtx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:WmiNative.WbemProvider.GetClass(System.String,WmiNative.IWbemContext,WmiNative.WbemProvider.WMIClassCacheEntry@)">
+    <parameter name="sClassName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:WmiNative.WbemProvider.GetProvider(WmiNative.WbemProvider.WMIClassCacheEntry)">
+    <parameter name="wmiClass">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:WmiNative.WbemProvider.LogInfraException(System.Int32,System.Management.Instrumentation.WMIInfraException)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:WmiNative.WbemProvider.LogInstallationException(System.Management.Instrumentation.WmiProviderInstallationException)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:WmiNative.WbemProvider.WMIClassCacheEntry.#ctor(System.String)">
+    <parameter name="ClassName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:WmiNative.WbemProvider.WMIClassCacheEntry.LoadFromWMI(WmiNative.IWbemServices,WmiNative.IWbemContext)">
+    <parameter name="pNS">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:WmiNative.WbemProvider.WmiNative#IWbemProviderInit#Initialize(System.String,System.Int32,System.String,System.String,WmiNative.IWbemServices,WmiNative.IWbemContext,WmiNative.IWbemProviderInitSink)">
+    <parameter name="wbemSink">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:WmiNative.WbemProvider.WmiNative#IWbemServices#CreateInstanceEnumAsync(System.String,System.Int32,WmiNative.IWbemContext,WmiNative.IWbemObjectSink)">
+    <parameter name="className">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:WmiNative.WbemProvider.WmiNative#IWbemServices#DeleteInstanceAsync(System.String,System.Int32,WmiNative.IWbemContext,WmiNative.IWbemObjectSink)">
+    <parameter name="objectPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:WmiNative.WbemProvider.WmiNative#IWbemServices#ExecMethodAsync(System.String,System.String,System.Int32,WmiNative.IWbemContext,WmiNative.IWbemClassObject,WmiNative.IWbemObjectSink)">
+    <parameter name="methodName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="objectPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:WmiNative.WbemProvider.WmiNative#IWbemServices#GetObjectAsync(System.String,System.Int32,WmiNative.IWbemContext,WmiNative.IWbemObjectSink)">
+    <parameter name="objectPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

@@ -1,0 +1,1360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.ComponentModel.Composition, Version=4.0.0.0">
+  <member name="M:Microsoft.Internal.Collections.CollectionServices.Copy``1(System.Collections.Generic.Stack{``0})">
+    <parameter name="stack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Internal.Collections.CollectionServices.WhereNotNull``1(System.Collections.Generic.IEnumerable{``0})">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Internal.Collections.ReadOnlyDictionary`2.ContainsKey(`0)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.Collections.ReadOnlyDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.Collections.ReadOnlyDictionary`2.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.Internal.Collections.ReadOnlyDictionary`2.Item(`0)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.Internal.Collections.ReadOnlyDictionary`2.Keys">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Internal.Collections.ReadOnlyDictionary`2.System#Collections#Generic#IDictionary{TKey@TValue}#Add(`0,`1)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.Collections.ReadOnlyDictionary`2.System#Collections#Generic#IDictionary{TKey@TValue}#Remove(`0)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.Collections.ReadOnlyDictionary`2.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Internal.Collections.ReadOnlyDictionary`2.TryGetValue(`0,`1@)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.Internal.Collections.ReadOnlyDictionary`2.Values">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Internal.Collections.ReadOnlyDictionaryDebuggerProxy`2.#ctor(Microsoft.Internal.Collections.ReadOnlyDictionary{`0,`1})">
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.LazyServices.AsLazy``1(``0)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.Internal.Strings.CompositionTrace_Discovery_DefinitionContainsGenericParameters">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModel.AttributedExportDefinition.#ctor(System.ComponentModel.Composition.AttributedModel.AttributedPartCreationInfo,System.Reflection.MemberInfo,System.ComponentModel.Composition.ExportAttribute)">
+    <parameter name="exportAttribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModel.AttributedModelDiscovery.GetImportDefinitionCreationInfo(System.ComponentModel.Composition.ReflectionModel.ReflectionItem,System.Reflection.ICustomAttributeProvider)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeProvider">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.AddExportedValue``1(System.ComponentModel.Composition.Hosting.CompositionBatch,``0)">
+    <parameter name="batch">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.AddExportedValue``1(System.ComponentModel.Composition.Hosting.CompositionBatch,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="batch">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.AddPart(System.ComponentModel.Composition.Hosting.CompositionBatch,System.Object)">
+    <parameter name="batch">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributedPart">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.ComposeExportedValue``1(System.ComponentModel.Composition.Hosting.CompositionContainer,``0)">
+    <parameter name="container">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.ComposeExportedValue``1(System.ComponentModel.Composition.Hosting.CompositionContainer,System.String,``0)">
+    <parameter name="container">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.ComposeParts(System.ComponentModel.Composition.Hosting.CompositionContainer,System.Object[])">
+    <parameter name="container">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributedParts">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.CreatePart(System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="partDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributedPart">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.CreatePart(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributedPart">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.CreatePart(System.Object,System.Reflection.ReflectionContext)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributedPart">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reflectionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.CreatePartDefinition(System.Type,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.CreatePartDefinition(System.Type,System.ComponentModel.Composition.Primitives.ICompositionElement,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.Exports(System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.Type)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.Exports``1(System.ComponentModel.Composition.Primitives.ComposablePartDefinition)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.GetContractName(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.GetMetadataView``1(System.Collections.Generic.IDictionary{System.String,System.Object})">
+    <parameter name="metadata">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.GetTypeIdentity(System.Reflection.MethodInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.GetTypeIdentity(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.Imports(System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.Type)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.Imports(System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.Type,System.ComponentModel.Composition.Primitives.ImportCardinality)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.Imports``1(System.ComponentModel.Composition.Primitives.ComposablePartDefinition)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.Imports``1(System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.ComponentModel.Composition.Primitives.ImportCardinality)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.SatisfyImportsOnce(System.ComponentModel.Composition.ICompositionService,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="compositionService">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributedPart">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.AttributedModelServices.SatisfyImportsOnce(System.ComponentModel.Composition.ICompositionService,System.Object,System.Reflection.ReflectionContext)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="compositionService">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributedPart">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reflectionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.CatalogReflectionContextAttribute.#ctor(System.Type)">
+    <parameter name="reflectionContextType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.CompositionContractMismatchException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ComponentModel.Composition.CompositionException.Message">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ComponentModel.Composition.CompositionException.RootCauses">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.ConstraintServices.AndAlso``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+    <parameter name="left">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.ConstraintServices.CreateConstraint(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Type}})">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.ContractNameServices.WriteArrayType(System.Text.StringBuilder,System.Type)">
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ContractNameServices.WriteByRefType(System.Text.StringBuilder,System.Type)">
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ContractNameServices.WriteCustomModifiers(System.Text.StringBuilder,System.String,System.Type[])">
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ContractNameServices.WriteGenericType(System.Text.StringBuilder,System.Type,System.Boolean,System.Collections.Generic.Queue{System.Type})">
+    <parameter name="genericTypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ContractNameServices.WriteGenericTypeName(System.Text.StringBuilder,System.Type,System.Boolean,System.Collections.Generic.Queue{System.Type})">
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="genericTypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ContractNameServices.WriteNonGenericType(System.Text.StringBuilder,System.Type)">
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ContractNameServices.WritePointerType(System.Text.StringBuilder,System.Type)">
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ContractNameServices.WriteType(System.Text.StringBuilder,System.Type)">
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ContractNameServices.WriteTypeArgumentsString(System.Text.StringBuilder,System.Int32,System.Boolean,System.Collections.Generic.Queue{System.Type})">
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="genericTypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ContractNameServices.WriteTypeWithNamespace(System.Text.StringBuilder,System.Type)">
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Diagnostics.CompositionTrace.DefinitionContainsGenericsParameters(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Diagnostics.TraceSourceTraceWriter.WriteEvent(System.Diagnostics.TraceEventType,System.ComponentModel.Composition.Diagnostics.CompositionTraceId,System.String,System.Object[])">
+    <parameter name="arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="format">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ExportFactory`1.#ctor(System.Func{System.Tuple{`0,System.Action}})">
+    <parameter name="exportLifetimeContextCreator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ExportFactory`1.CreateExport">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.ExportFactory`2.#ctor(System.Func{System.Tuple{`0,System.Action}},`1)">
+    <parameter name="exportLifetimeContextCreator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ExportServices.CheckCardinality(System.ComponentModel.Composition.Primitives.ImportDefinition,System.Collections.Generic.IEnumerable{System.ComponentModel.Composition.Primitives.Export})">
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="exports">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ExportServices.CreateSemiStronglyTypedExport``2(System.ComponentModel.Composition.Primitives.Export)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="export">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ExportServices.CreateSemiStronglyTypedExportFactory(System.Type,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.ExportServices.CreateStronglyTypedExportFactory(System.Type,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.ExportServices.CreateStronglyTypedExportOfT``1(System.ComponentModel.Composition.Primitives.Export)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.ExportServices.CreateStronglyTypedExportOfTM``2(System.ComponentModel.Composition.Primitives.Export)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="export">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ExportServices.GetExportedValueFromLazy``1(System.ComponentModel.Composition.Primitives.Export)">
+    <parameter name="export">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ApplicationCatalog.#ctor(System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="definitionOrigin">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ApplicationCatalog.#ctor(System.Reflection.ReflectionContext)">
+    <parameter name="reflectionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ApplicationCatalog.#ctor(System.Reflection.ReflectionContext,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="reflectionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="definitionOrigin">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AssemblyCatalog.#ctor(System.Reflection.Assembly)">
+    <parameter name="assembly">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AssemblyCatalog.#ctor(System.Reflection.Assembly,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="assembly">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="definitionOrigin">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AssemblyCatalog.#ctor(System.Reflection.Assembly,System.Reflection.ReflectionContext)">
+    <parameter name="assembly">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reflectionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AssemblyCatalog.#ctor(System.Reflection.Assembly,System.Reflection.ReflectionContext,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="assembly">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reflectionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="definitionOrigin">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AssemblyCatalog.#ctor(System.String)">
+    <parameter name="codeBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AssemblyCatalog.#ctor(System.String,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="codeBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="definitionOrigin">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AssemblyCatalog.#ctor(System.String,System.Reflection.ReflectionContext)">
+    <parameter name="codeBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reflectionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AssemblyCatalog.#ctor(System.String,System.Reflection.ReflectionContext,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="codeBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reflectionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="definitionOrigin">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AssemblyCatalog.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AssemblyCatalog.GetExports(System.ComponentModel.Composition.Primitives.ImportDefinition)">
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ComponentModel.Composition.Hosting.AssemblyCatalog.Parts">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AtomicComposition.AddCompleteAction(System.Action)">
+    <parameter name="completeAction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AtomicComposition.AddRevertAction(System.Action)">
+    <parameter name="revertAction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AtomicComposition.SetValue(System.Object,System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AtomicComposition.TryGetValue``1(System.Object,``0@)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.AtomicComposition.TryGetValue``1(System.Object,System.Boolean,``0@)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CatalogExportProvider.#ctor(System.ComponentModel.Composition.Primitives.ComposablePartCatalog)">
+    <parameter name="catalog">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CatalogExportProvider.#ctor(System.ComponentModel.Composition.Primitives.ComposablePartCatalog,System.Boolean)">
+    <parameter name="catalog">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CatalogExportProvider.#ctor(System.ComponentModel.Composition.Primitives.ComposablePartCatalog,System.ComponentModel.Composition.Hosting.CompositionOptions)">
+    <parameter name="catalog">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ComponentModel.Composition.Hosting.CatalogExportProvider.CatalogChangeProxy.Parts">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CatalogExportProvider.CreateExport(System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.ComponentModel.Composition.Primitives.ExportDefinition,System.ComponentModel.Composition.Primitives.ImportDefinition)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="partDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CatalogExportProvider.GetAtomicCompositionQuery(System.ComponentModel.Composition.Hosting.AtomicComposition)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="atomicComposition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CatalogExportProvider.GetExportedValue(System.ComponentModel.Composition.Primitives.ComposablePart,System.ComponentModel.Composition.Primitives.ExportDefinition,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="export">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CatalogExportProvider.GetExportsCore(System.ComponentModel.Composition.Primitives.ImportDefinition,System.ComponentModel.Composition.Hosting.AtomicComposition)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CatalogExportProvider.ReleasePart(System.Object,System.ComponentModel.Composition.Primitives.ComposablePart,System.ComponentModel.Composition.Hosting.AtomicComposition)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CatalogExportProvider.SetConditionalReferenceForRecomposablePart(System.Object,System.ComponentModel.Composition.Primitives.ComposablePart)">
+    <parameter name="exportedValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CatalogExportProvider.UpdateAtomicCompositionQuery(System.ComponentModel.Composition.Hosting.AtomicComposition,System.Func{System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.Boolean},System.ComponentModel.Composition.Hosting.CatalogExportProvider.AtomicCompositionQueryState)">
+    <parameter name="atomicComposition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="query">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CatalogExtensions.CreateCompositionService(System.ComponentModel.Composition.Primitives.ComposablePartCatalog)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="composablePartCatalog">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs.#ctor(System.Collections.Generic.IEnumerable{},System.Collections.Generic.IEnumerable{},System.ComponentModel.Composition.Hosting.AtomicComposition)">
+    <parameter name="addedDefinitions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="removedDefinitions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ComposablePartExportProvider.Compose(System.ComponentModel.Composition.Hosting.CompositionBatch)">
+    <parameter name="batch">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ComposablePartExportProvider.GetUpdatedPartsList(System.ComponentModel.Composition.Hosting.CompositionBatch)">
+    <parameter name="batch">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionBatch.AddExport(System.ComponentModel.Composition.Primitives.Export)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="export">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionBatch.AddPart(System.ComponentModel.Composition.Primitives.ComposablePart)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionBatch.RemovePart(System.ComponentModel.Composition.Primitives.ComposablePart)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionContainer.Compose(System.ComponentModel.Composition.Hosting.CompositionBatch)">
+    <parameter name="batch">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionContainer.ReleaseExport(System.ComponentModel.Composition.Primitives.Export)">
+    <parameter name="export">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionContainer.ReleaseExport``1(System.Lazy{``0})">
+    <parameter name="export">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionContainer.ReleaseExports(System.Collections.Generic.IEnumerable{System.ComponentModel.Composition.Primitives.Export})">
+    <parameter name="exports">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionContainer.ReleaseExports``1(System.Collections.Generic.IEnumerable{System.Lazy{``0}})">
+    <parameter name="exports">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionContainer.ReleaseExports``2(System.Collections.Generic.IEnumerable{System.Lazy{``0,``1}})">
+    <parameter name="exports">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionContainer.SatisfyImportsOnce(System.ComponentModel.Composition.Primitives.ComposablePart)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionScopeDefinition.#ctor(System.ComponentModel.Composition.Primitives.ComposablePartCatalog,System.Collections.Generic.IEnumerable{System.ComponentModel.Composition.Hosting.CompositionScopeDefinition})">
+    <parameter name="catalog">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionScopeDefinition.#ctor(System.ComponentModel.Composition.Primitives.ComposablePartCatalog,System.Collections.Generic.IEnumerable{System.ComponentModel.Composition.Hosting.CompositionScopeDefinition},System.Collections.Generic.IEnumerable{System.ComponentModel.Composition.Primitives.ExportDefinition})">
+    <parameter name="catalog">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionScopeDefinition.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionService.SatisfyImportsOnce(System.ComponentModel.Composition.Primitives.ComposablePart)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionServices.GetContractNameFromExport(System.Reflection.MemberInfo,System.ComponentModel.Composition.ExportAttribute)">
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="export">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionServices.GetTypeIdentityFromExport(System.Reflection.MemberInfo,System.ComponentModel.Composition.ExportAttribute)">
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="export">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionServices.TryInvoke``1(System.Func{``0})">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.DirectoryCatalog.#ctor(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.DirectoryCatalog.#ctor(System.String,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="definitionOrigin">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.DirectoryCatalog.#ctor(System.String,System.Reflection.ReflectionContext)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reflectionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.DirectoryCatalog.#ctor(System.String,System.Reflection.ReflectionContext,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reflectionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="definitionOrigin">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.DirectoryCatalog.#ctor(System.String,System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="searchPattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.DirectoryCatalog.#ctor(System.String,System.String,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="searchPattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="definitionOrigin">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.DirectoryCatalog.#ctor(System.String,System.String,System.Reflection.ReflectionContext)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="searchPattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reflectionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.DirectoryCatalog.#ctor(System.String,System.String,System.Reflection.ReflectionContext,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="searchPattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reflectionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="definitionOrigin">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.DirectoryCatalog.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.DirectoryCatalog.GetExports(System.ComponentModel.Composition.Primitives.ImportDefinition)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExport``1">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExport``1(System.String)">
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExport``2">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExport``2(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExportedValue``1(System.String)">
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExportedValueOrDefault``1(System.String)">
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExportedValues``1">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExportedValues``1(System.String)">
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExports(System.ComponentModel.Composition.Primitives.ImportDefinition)">
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExports(System.ComponentModel.Composition.Primitives.ImportDefinition,System.ComponentModel.Composition.Hosting.AtomicComposition)">
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExports(System.Type,System.Type,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExports``1">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExports``1(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExports``2">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExports``2(System.String)">
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.GetExportsCore(System.ComponentModel.Composition.Primitives.ImportDefinition,System.ComponentModel.Composition.Hosting.AtomicComposition)">
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.OnExportsChanged(System.ComponentModel.Composition.Hosting.ExportsChangeEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.OnExportsChanging(System.ComponentModel.Composition.Hosting.ExportsChangeEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportProvider.TryGetExports(System.ComponentModel.Composition.Primitives.ImportDefinition,System.ComponentModel.Composition.Hosting.AtomicComposition,System.Collections.Generic.IEnumerable{System.ComponentModel.Composition.Primitives.Export}@)">
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ExportsChangeEventArgs.#ctor(System.Collections.Generic.IEnumerable{System.ComponentModel.Composition.Primitives.ExportDefinition},System.Collections.Generic.IEnumerable{System.ComponentModel.Composition.Primitives.ExportDefinition},System.ComponentModel.Composition.Hosting.AtomicComposition)">
+    <parameter name="addedExports">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="removedExports">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.FilteredCatalog.#ctor(System.ComponentModel.Composition.Primitives.ComposablePartCatalog,System.Func{System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.Boolean})">
+    <parameter name="catalog">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.FilteredCatalog.GetExports(System.ComponentModel.Composition.Primitives.ImportDefinition)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.FilteredCatalog.IncludeDependencies">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.FilteredCatalog.IncludeDependencies(System.Func{System.ComponentModel.Composition.Primitives.ImportDefinition,System.Boolean})">
+    <parameter name="importFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.FilteredCatalog.IncludeDependents">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.FilteredCatalog.IncludeDependents(System.Func{System.ComponentModel.Composition.Primitives.ImportDefinition,System.Boolean})">
+    <parameter name="importFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ImportEngine.#ctor(System.ComponentModel.Composition.Hosting.ExportProvider)">
+    <parameter name="sourceProvider">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ImportEngine.#ctor(System.ComponentModel.Composition.Hosting.ExportProvider,System.Boolean)">
+    <parameter name="sourceProvider">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ImportEngine.#ctor(System.ComponentModel.Composition.Hosting.ExportProvider,System.ComponentModel.Composition.Hosting.CompositionOptions)">
+    <parameter name="sourceProvider">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ImportEngine.PreviewImports(System.ComponentModel.Composition.Primitives.ComposablePart,System.ComponentModel.Composition.Hosting.AtomicComposition)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ImportEngine.ReleaseImports(System.ComponentModel.Composition.Primitives.ComposablePart,System.ComponentModel.Composition.Hosting.AtomicComposition)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ImportEngine.SatisfyImports(System.ComponentModel.Composition.Primitives.ComposablePart)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ImportEngine.SatisfyImportsOnce(System.ComponentModel.Composition.Primitives.ComposablePart)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ScopingExtensions.ContainsPartMetadata``1(System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.String,``0)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ScopingExtensions.ContainsPartMetadataWithKey(System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.String)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ScopingExtensions.Exports(System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.String)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ScopingExtensions.Filter(System.ComponentModel.Composition.Primitives.ComposablePartCatalog,System.Func{System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.Boolean})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="catalog">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ScopingExtensions.Imports(System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.String)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.ScopingExtensions.Imports(System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.String,System.ComponentModel.Composition.Primitives.ImportCardinality)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.TypeCatalog.#ctor(System.Collections.Generic.IEnumerable{System.Type})">
+    <parameter name="types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.TypeCatalog.#ctor(System.Collections.Generic.IEnumerable{System.Type},System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="definitionOrigin">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.TypeCatalog.#ctor(System.Collections.Generic.IEnumerable{System.Type},System.Reflection.ReflectionContext)">
+    <parameter name="types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reflectionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.TypeCatalog.#ctor(System.Collections.Generic.IEnumerable{System.Type},System.Reflection.ReflectionContext,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reflectionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="definitionOrigin">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.TypeCatalog.#ctor(System.Type[])">
+    <parameter name="types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ComponentModel.Composition.Hosting.TypeCatalog.Parts">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.ICompositionService.SatisfyImportsOnce(System.ComponentModel.Composition.Primitives.ComposablePart)">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ImportCardinalityMismatchException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.MetadataViewGenerator.GenerateLocalAssignmentFromDefaultAttribute(System.Reflection.Emit.ILGenerator,System.ComponentModel.DefaultValueAttribute[],System.Reflection.Emit.LocalBuilder)">
+    <parameter name="IL">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attrs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="local">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.MetadataViewGenerator.GenerateView(System.Type)">
+    <parameter name="viewType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ComposablePart.GetExportedValue(System.ComponentModel.Composition.Primitives.ExportDefinition)">
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ComposablePart.SetImport(System.ComponentModel.Composition.Primitives.ImportDefinition,System.Collections.Generic.IEnumerable{System.ComponentModel.Composition.Primitives.Export})">
+    <parameter name="exports">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ComposablePartCatalog.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ComposablePartCatalog.GetExports(System.ComponentModel.Composition.Primitives.ImportDefinition)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ComposablePartDefinition.CreatePart">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ComposablePartException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ContractBasedImportDefinition.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Type}},System.ComponentModel.Composition.Primitives.ImportCardinality,System.Boolean,System.Boolean,System.ComponentModel.Composition.CreationPolicy)">
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ContractBasedImportDefinition.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Type}},System.ComponentModel.Composition.Primitives.ImportCardinality,System.Boolean,System.Boolean,System.ComponentModel.Composition.CreationPolicy,System.Collections.Generic.IDictionary{System.String,System.Object})">
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ContractBasedImportDefinition.MatchRequiredMatadata(System.ComponentModel.Composition.Primitives.ExportDefinition)">
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.Export.#ctor(System.ComponentModel.Composition.Primitives.ExportDefinition,System.Func{System.Object})">
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="exportedValueGetter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.Export.#ctor(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Func{System.Object})">
+    <parameter name="exportedValueGetter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.Export.#ctor(System.String,System.Func{System.Object})">
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="exportedValueGetter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ComponentModel.Composition.Primitives.Export.Definition">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.Export.GetExportedValueCore">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ExportDefinition.#ctor(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ComponentModel.Composition.Primitives.ExportDefinition.ContractName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ExportedDelegate.#ctor(System.Object,System.Reflection.MethodInfo)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ExportedDelegate.ConvertMethodInfoToFuncOrActionType(System.Reflection.MethodInfo)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ExportedDelegate.CreateDelegate(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="delegateType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ComponentModel.Composition.Primitives.ICompositionElement.Origin">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ImportDefinition.#ctor(System.Linq.Expressions.Expression{System.Func{System.ComponentModel.Composition.Primitives.ExportDefinition,System.Boolean}},System.String,System.ComponentModel.Composition.Primitives.ImportCardinality,System.Boolean,System.Boolean)">
+    <parameter name="constraint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ImportDefinition.#ctor(System.Linq.Expressions.Expression{System.Func{System.ComponentModel.Composition.Primitives.ExportDefinition,System.Boolean}},System.String,System.ComponentModel.Composition.Primitives.ImportCardinality,System.Boolean,System.Boolean,System.Collections.Generic.IDictionary{System.String,System.Object})">
+    <parameter name="constraint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ComponentModel.Composition.Primitives.ImportDefinition.Constraint">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ImportDefinition.IsConstraintSatisfiedBy(System.ComponentModel.Composition.Primitives.ExportDefinition)">
+    <parameter name="exportDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Primitives.ImportDefinition.ToString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ImportType.CreateLazyType(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.LazyMemberInfo.#ctor(System.Reflection.MemberInfo)">
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.LazyMemberInfo.#ctor(System.Reflection.MemberTypes,System.Func{System.Reflection.MemberInfo[]})">
+    <parameter name="accessorsCreator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.LazyMemberInfo.#ctor(System.Reflection.MemberTypes,System.Reflection.MemberInfo[])">
+    <parameter name="accessors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.LazyMemberInfo.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionExtensions.ToLazyMember(System.ComponentModel.Composition.ReflectionModel.ReflectionMember)">
+    <parameter name="reflectionMember">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionImportDefinition.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Type}},System.ComponentModel.Composition.Primitives.ImportCardinality,System.Boolean,System.Boolean,System.ComponentModel.Composition.CreationPolicy,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionImportDefinition.ToString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionMemberImportDefinition.#ctor(System.ComponentModel.Composition.ReflectionModel.LazyMemberInfo,System.String,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Type}},System.ComponentModel.Composition.Primitives.ImportCardinality,System.Boolean,System.ComponentModel.Composition.CreationPolicy,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.CreateExportDefinition(System.ComponentModel.Composition.ReflectionModel.LazyMemberInfo,System.String,System.Lazy{System.Collections.Generic.IDictionary{System.String,System.Object}},System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.CreateImportDefinition(System.ComponentModel.Composition.ReflectionModel.LazyMemberInfo,System.String,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Type}},System.ComponentModel.Composition.Primitives.ImportCardinality,System.Boolean,System.Boolean,System.ComponentModel.Composition.CreationPolicy,System.Collections.Generic.IDictionary{System.String,System.Object},System.Boolean,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.CreateImportDefinition(System.ComponentModel.Composition.ReflectionModel.LazyMemberInfo,System.String,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Type}},System.ComponentModel.Composition.Primitives.ImportCardinality,System.Boolean,System.ComponentModel.Composition.CreationPolicy,System.Collections.Generic.IDictionary{System.String,System.Object},System.Boolean,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.CreateImportDefinition(System.ComponentModel.Composition.ReflectionModel.LazyMemberInfo,System.String,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Type}},System.ComponentModel.Composition.Primitives.ImportCardinality,System.Boolean,System.ComponentModel.Composition.CreationPolicy,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.CreateImportDefinition(System.Lazy{System.Reflection.ParameterInfo},System.String,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Type}},System.ComponentModel.Composition.Primitives.ImportCardinality,System.ComponentModel.Composition.CreationPolicy,System.Collections.Generic.IDictionary{System.String,System.Object},System.Boolean,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.CreateImportDefinition(System.Lazy{System.Reflection.ParameterInfo},System.String,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Type}},System.ComponentModel.Composition.Primitives.ImportCardinality,System.ComponentModel.Composition.CreationPolicy,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.CreatePartDefinition(System.Lazy{System.Type},System.Boolean,System.Lazy{System.Collections.Generic.IEnumerable{System.ComponentModel.Composition.Primitives.ImportDefinition}},System.Lazy{System.Collections.Generic.IEnumerable{System.ComponentModel.Composition.Primitives.ExportDefinition}},System.Lazy{System.Collections.Generic.IDictionary{System.String,System.Object}},System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="partType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.GetExportFactoryProductImportDefinition(System.ComponentModel.Composition.Primitives.ImportDefinition)">
+    <parameter name="importDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.GetExportingMember(System.ComponentModel.Composition.Primitives.ExportDefinition)">
+    <parameter name="exportDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.GetImportingMember(System.ComponentModel.Composition.Primitives.ImportDefinition)">
+    <parameter name="importDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.GetImportingParameter(System.ComponentModel.Composition.Primitives.ImportDefinition)">
+    <parameter name="importDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.GetPartType(System.ComponentModel.Composition.Primitives.ComposablePartDefinition)">
+    <parameter name="partDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.IsDisposalRequired(System.ComponentModel.Composition.Primitives.ComposablePartDefinition)">
+    <parameter name="partDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.IsExportFactoryImportDefinition(System.ComponentModel.Composition.Primitives.ImportDefinition)">
+    <parameter name="importDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.IsImportingParameter(System.ComponentModel.Composition.Primitives.ImportDefinition)">
+    <parameter name="importDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionModelServices.TryMakeGenericPartDefinition(System.ComponentModel.Composition.Primitives.ComposablePartDefinition,System.Collections.Generic.IEnumerable{System.Type},System.ComponentModel.Composition.Primitives.ComposablePartDefinition@)">
+    <parameter name="partDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="genericParameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ReflectionModel.ReflectionParameterImportDefinition.#ctor(System.Lazy{System.Reflection.ParameterInfo},System.String,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Type}},System.ComponentModel.Composition.Primitives.ImportCardinality,System.ComponentModel.Composition.CreationPolicy,System.ComponentModel.Composition.Primitives.ICompositionElement)">
+    <parameter name="contractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Lazy`2.#ctor(System.Func{`0},`1)">
+    <parameter name="valueFactory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Lazy`2.#ctor(System.Func{`0},`1,System.Boolean)">
+    <parameter name="valueFactory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Lazy`2.#ctor(System.Func{`0},`1,System.Threading.LazyThreadSafetyMode)">
+    <parameter name="valueFactory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

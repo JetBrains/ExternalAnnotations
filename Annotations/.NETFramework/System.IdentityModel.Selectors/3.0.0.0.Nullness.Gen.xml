@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.IdentityModel.Selectors, Version=3.0.0.0">
+  <member name="M:Microsoft.InfoCards.Diagnostics.DiagnosticUtility.DebugAssert(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.InfoCards.Diagnostics.InfoCardTrace.Assert(System.Boolean,System.String,System.Object[])">
+    <parameter name="format">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.InfoCards.Diagnostics.InfoCardTrace.BuildMessage(Microsoft.InfoCards.InfoCardBaseException)">
+    <parameter name="ie">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.InfoCards.Diagnostics.InfoCardTrace.SafeEventLogHandle.Construct">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.Diagnostics.InfoCardTrace.ThrowHelperArgument(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.Diagnostics.InfoCardTrace.ThrowHelperArgumentNull(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.Diagnostics.InfoCardTrace.ThrowHelperArgumentNull(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.Diagnostics.InfoCardTrace.ThrowHelperCritical(System.Exception)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.Diagnostics.InfoCardTrace.ThrowHelperError(System.Exception)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.Diagnostics.InfoCardTrace.ThrowHelperErrorWithNoLogging(System.Exception)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.Diagnostics.InfoCardTrace.ThrowHelperWarning(System.Exception)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.Diagnostics.InfoCardTrace.ThunkCallback(System.Threading.TimerCallback)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.Diagnostics.InfoCardTrace.ThunkCallback(System.Threading.WaitCallback)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.Diagnostics.InfoCardTraceRecord.ToString">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.Diagnostics.InfoCardTraceRecord.WriteTo(System.Xml.XmlWriter)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.InfoCards.HGlobalSafeHandle.Construct">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.HGlobalSafeHandle.Construct(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.HGlobalSafeHandle.Construct(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="managedString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.InfoCards.InfoCardArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="si">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.InfoCards.InfoCardBaseException.#ctor(System.Int32,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.InfoCards.SR.Culture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.SR.GetObject(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.SR.GetString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.InfoCards.SR.GetString(System.String,System.Object[])">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.InfoCards.UserCancelledException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="si">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.AsymmetricCryptoHandle.#ctor(System.IdentityModel.Selectors.InternalRefCountedHandle)">
+    <parameter name="internalHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.AsymmetricCryptoHandle.#ctor(System.IdentityModel.Selectors.InternalRefCountedHandle,System.DateTime,System.IntPtr)">
+    <parameter name="nativeHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.CardSpaceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.CardSpaceSelector.CreateReaderWithQuotas(System.String)">
+    <parameter name="root">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.CardSpaceSelector.GetToken(System.IdentityModel.Selectors.CardSpacePolicyElement[],System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="policyChain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="tokenSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.CardSpaceSelector.GetToken(System.Xml.XmlElement,System.Collections.Generic.IEnumerable{System.Xml.XmlElement},System.Xml.XmlElement,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="policy">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="tokenSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.CardSpaceSelector.Import(System.String)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.CardSpaceSelector.XmlToString(System.Collections.Generic.IEnumerable{System.Xml.XmlElement})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="xml">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.CryptoHandle.#ctor(System.IdentityModel.Selectors.InternalRefCountedHandle)">
+    <parameter name="internalHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.CryptoHandle.#ctor(System.IdentityModel.Selectors.InternalRefCountedHandle,System.DateTime,System.IntPtr,System.Type)">
+    <parameter name="nativeHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.CryptoHandle.Create(System.IdentityModel.Selectors.InternalRefCountedHandle)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="nativeHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.CryptoHandle.Duplicate">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.CryptoHandle.OnDuplicate">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.HashCryptoHandle.#ctor(System.IdentityModel.Selectors.InternalRefCountedHandle)">
+    <parameter name="internalHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.HashCryptoHandle.#ctor(System.IdentityModel.Selectors.InternalRefCountedHandle,System.DateTime,System.IntPtr)">
+    <parameter name="nativeHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.IdentityValidationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardAsymmetricCrypto.#ctor(System.IdentityModel.Selectors.AsymmetricCryptoHandle)">
+    <parameter name="cryptoHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardAsymmetricCrypto.DecryptKey(System.String,System.Byte[])">
+    <parameter name="algorithmUri">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardAsymmetricCrypto.EncryptKey(System.String,System.Byte[])">
+    <parameter name="algorithmUri">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardKeyedHashAlgorithm.#ctor(System.IdentityModel.Selectors.SymmetricCryptoHandle)">
+    <parameter name="cryptoHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardKeyedHashAlgorithm.HashCore(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardProofToken.#ctor(System.IdentityModel.Selectors.AsymmetricCryptoHandle,System.DateTime)">
+    <parameter name="cryptoHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardProofToken.#ctor(System.IdentityModel.Selectors.SymmetricCryptoHandle,System.DateTime)">
+    <parameter name="cryptoHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardRSACryptoProvider.#ctor(System.IdentityModel.Selectors.AsymmetricCryptoHandle)">
+    <parameter name="cryptoHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardRSACryptoProvider.Decrypt(System.Byte[],System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardRSACryptoProvider.Encrypt(System.Byte[],System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardRSACryptoProvider.FromXmlString(System.String)">
+    <parameter name="xmlString">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardRSACryptoProvider.SignHash(System.Byte[],System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardRSAOAEPKeyExchangeDeformatter.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardRSAOAEPKeyExchangeFormatter.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardRSAPKCS1KeyExchangeDeformatter.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardRSAPKCS1KeyExchangeFormatter.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardRSAPKCS1SignatureDeformatter.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardRSAPKCS1SignatureDeformatter.VerifySignature(System.Byte[],System.Byte[])">
+    <parameter name="rgbSignature">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="rgbHash">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardRSAPKCS1SignatureFormatter.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardRSAPKCS1SignatureFormatter.CreateSignature(System.Byte[])">
+    <parameter name="rgbHash">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardSymmetricAlgorithm.#ctor(System.IdentityModel.Selectors.SymmetricCryptoHandle)">
+    <parameter name="cryptoHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardSymmetricAlgorithm.CreateDecryptor">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardSymmetricAlgorithm.CreateDecryptor(System.Byte[],System.Byte[])">
+    <parameter name="rgbIV">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="rgbKey">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardSymmetricAlgorithm.CreateEncryptor">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardSymmetricAlgorithm.CreateEncryptor(System.Byte[],System.Byte[])">
+    <parameter name="rgbIV">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="rgbKey">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardSymmetricAlgorithm.CryptoTransform.#ctor(System.IdentityModel.Selectors.InfoCardSymmetricAlgorithm,System.IdentityModel.Selectors.InfoCardSymmetricAlgorithm.CryptoTransform.Direction)">
+    <parameter name="symAlgo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardSymmetricAlgorithm.CryptoTransform.TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)">
+    <parameter name="outputBuffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="inputBuffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardSymmetricAlgorithm.CryptoTransform.TransformFinalBlock(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="inputBuffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardSymmetricCrypto.#ctor(System.IdentityModel.Selectors.SymmetricCryptoHandle)">
+    <parameter name="cryptoHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardSymmetricCrypto.DecryptKey(System.String,System.Byte[])">
+    <parameter name="keyData">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="algorithmUri">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardSymmetricCrypto.EncryptKey(System.String,System.Byte[])">
+    <parameter name="keyData">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="algorithmUri">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardSymmetricCrypto.GenerateDerivedKey(System.String,System.Byte[],System.Byte[],System.Int32,System.Int32)">
+    <parameter name="algorithmUri">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardSymmetricCrypto.GetDecryptionTransform(System.String,System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="iv">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InfoCardSymmetricCrypto.GetEncryptionTransform(System.String,System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="iv">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.InternalPolicyElement.#ctor(System.IdentityModel.Selectors.CardSpacePolicyElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.PolicyChain.#ctor(System.IdentityModel.Selectors.CardSpacePolicyElement[])">
+    <parameter name="elements">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.PolicyChain.DoMarshal">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.PolicyValidationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.ProofTokenCryptoHandle.#ctor(System.IdentityModel.Selectors.InternalRefCountedHandle)">
+    <parameter name="internalHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.ProofTokenCryptoHandle.#ctor(System.IdentityModel.Selectors.InternalRefCountedHandle,System.DateTime,System.IntPtr,System.Type)">
+    <parameter name="nativeHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.ProofTokenCryptoHandle.CreateProofToken">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.ProofTokenCryptoHandle.OnCreateProofToken">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.ServiceBusyException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.ServiceNotStartedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.StsCommunicationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SymmetricCryptoHandle.#ctor(System.IdentityModel.Selectors.InternalRefCountedHandle)">
+    <parameter name="internalHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SymmetricCryptoHandle.#ctor(System.IdentityModel.Selectors.InternalRefCountedHandle,System.DateTime,System.IntPtr)">
+    <parameter name="nativeHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.TransformCryptoHandle.#ctor(System.IdentityModel.Selectors.InternalRefCountedHandle)">
+    <parameter name="internalHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.TransformCryptoHandle.#ctor(System.IdentityModel.Selectors.InternalRefCountedHandle,System.DateTime,System.IntPtr)">
+    <parameter name="nativeHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.UIInitializationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.UnsupportedPolicyOptionsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.UntrustedRecipientException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.UserCancellationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

@@ -1,0 +1,2 @@
+nuget pack ReSharper.ExternalAnnotations.nuspec -NoDefaultExcludes -NoPackageAnalysis -ExcludeEmptyDirectories
+nuget pack JetBrains.ExternalAnnotations.nuspec -NoDefaultExcludes -NoPackageAnalysis -ExcludeEmptyDirectories

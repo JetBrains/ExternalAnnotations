@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="Microsoft.ServiceModel.Channels.Mail, Version=3.5.0.0">
+  <member name="P:Microsoft.ServiceModel.Channels.Mail.AsyncResult.AsyncState">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.ServiceModel.Channels.Mail.AsyncResult.AsyncWaitHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.AsyncResult.End``1(System.IAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.CompletedAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.DiagnosticUtility.ThrowHelperObjectDisposed(System.Type)">
+    <parameter name="objType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.InputChannelOpenCloseAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.InputQueue`1.BeginWaitForItem(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.InputQueue`1.CompleteWaiters(System.Boolean,Microsoft.ServiceModel.Channels.Mail.InputQueue{`0}.IQueueWaiter[])">
+    <parameter name="waiters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.InputQueue`1.CompleteWaitersFalseCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.InputQueue`1.CompleteWaitersTrueCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.InputQueue`1.EndDequeue(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.InputQueue`1.EndDequeue(System.IAsyncResult,`0@)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.InputQueue`1.EndWaitForItem(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.InputQueue`1.OnInvokeDequeuedCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.InputQueue`1.WaitOne(System.Threading.WaitHandle,System.TimeSpan,System.Boolean)">
+    <parameter name="waitHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailBindingBase.CreateBindingElements">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailBindingBase.CreateMessageSecurity">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.ServiceModel.Channels.Mail.MailBindingBase.Scheme">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailChannelFactoryBase`1.#ctor(System.ServiceModel.Channels.TransportBindingElement,System.ServiceModel.Channels.BindingContext)">
+    <parameter name="bindingElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailChannelListenerBase`1.#ctor(Microsoft.ServiceModel.Channels.Mail.MailTransportBindingElementBase,System.ServiceModel.Channels.BindingContext)">
+    <parameter name="bindingElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailChannelListenerBase`1.CreateInputChannel">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailChannelListenerBase`1.OnEndAcceptChannel(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailChannelListenerBase`1.OnEndWaitForChannel(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailChannelListenerBase`1.SetUri(System.Uri,System.String)">
+    <parameter name="baseAddress">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailInputChannel.#ctor(Microsoft.ServiceModel.Channels.Mail.MailInputChannelListener)">
+    <parameter name="listener">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailInputChannel.BeginReceive(System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailInputChannel.BeginReceive(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailInputChannel.BeginTryReceive(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailInputChannel.BeginWaitForMessage(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailInputChannel.EndReceive(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailInputChannel.EndTryReceive(System.IAsyncResult,System.ServiceModel.Channels.Message@)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailInputChannel.EndWaitForMessage(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailInputChannel.GetProperty``1">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailInputChannel.OnNewMessageArrived(Microsoft.ServiceModel.Channels.Mail.MessageReceivedCallbackArgs)">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailInputChannel.Receive">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailInputChannel.Receive(System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailInputChannelListener.#ctor(Microsoft.ServiceModel.Channels.Mail.MailTransportBindingElementBase,System.ServiceModel.Channels.BindingContext)">
+    <parameter name="transportElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailMessageSecurity.CreateMessageSecurity">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailOutputChannel.#ctor(Microsoft.ServiceModel.Channels.Mail.MailOutputChannelFactory,System.ServiceModel.EndpointAddress,System.Uri,System.Boolean)">
+    <parameter name="factory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="to">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailOutputChannel.AddHeadersTo(System.ServiceModel.Channels.Message)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailOutputChannel.BeginSend(System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailOutputChannel.BeginSend(System.ServiceModel.Channels.Message,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailOutputChannel.EndSend(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailOutputChannel.GetProperty``1">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.ServiceModel.Channels.Mail.MailOutputChannel.RemoteAddress">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailOutputChannel.Send(System.ServiceModel.Channels.Message)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailOutputChannel.Send(System.ServiceModel.Channels.Message,System.TimeSpan)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailOutputChannel.SendInternal(System.ServiceModel.Channels.Message,System.TimeSpan)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.ServiceModel.Channels.Mail.MailOutputChannel.Via">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailOutputChannelFactory.#ctor(Microsoft.ServiceModel.Channels.Mail.MailTransportBindingElementBase,System.ServiceModel.Channels.BindingContext)">
+    <parameter name="bindingElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailOutputChannelFactory.OnCreateChannel(System.ServiceModel.EndpointAddress,System.Uri)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="via">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailSecurity.CreateMessageSecurity">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.ChangeChannelState(Microsoft.ServiceModel.Channels.Mail.InputChannelDescription,System.Boolean)">
+    <parameter name="description">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.CloseMessageQueue(Microsoft.ServiceModel.Channels.Mail.MessageQueue)">
+    <parameter name="queue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.CreateMailBody(System.ArraySegment{System.Byte},System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.CreateMailSubject(System.String,Microsoft.ServiceModel.Channels.Mail.SendParameters)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.DequeueMessage(Microsoft.ServiceModel.Channels.Mail.InputChannelDescription,Microsoft.ServiceModel.Channels.Mail.CachedMessage)">
+    <parameter name="description">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="cm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.DispatchMessage(Microsoft.ServiceModel.Channels.Mail.InputChannelDescription,Microsoft.ServiceModel.Channels.Mail.CachedMessage)">
+    <parameter name="description">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.GetChannelDescription(System.ServiceModel.Channels.IInputChannel)">
+    <parameter name="inputChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.GetChannelDescription(System.String)">
+    <parameter name="channelName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.IsMessageInCache(System.String)">
+    <parameter name="messageUniqueId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.MatchArrayBytes(System.Byte[],System.Int32,System.Byte[],System.Boolean)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="bytesToMatch">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.ReadMessageAttributes(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="subject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.RegisterInputChannel(System.ServiceModel.Channels.IInputChannel,Microsoft.ServiceModel.Channels.Mail.MessageReceivedCallback,Microsoft.ServiceModel.Channels.Mail.ReceiveParameters)">
+    <parameter name="inputChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="callbackHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.TryReceive(System.ServiceModel.Channels.IInputChannel,System.TimeSpan,System.ServiceModel.Channels.Message@)">
+    <parameter name="inputChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.UnregisterInputChannel(System.ServiceModel.Channels.IInputChannel)">
+    <parameter name="inputChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransport.WaitForMessage(System.ServiceModel.Channels.IInputChannel,System.TimeSpan)">
+    <parameter name="inputChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransportBindingElementBase.#ctor(Microsoft.ServiceModel.Channels.Mail.MailTransportBindingElementBase)">
+    <parameter name="elementToCopy">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransportBindingElementBase.BuildChannelFactory``1(System.ServiceModel.Channels.BindingContext)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransportBindingElementBase.BuildChannelListener``1(System.ServiceModel.Channels.BindingContext)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransportBindingElementBase.CanBuildChannelFactory``1(System.ServiceModel.Channels.BindingContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailTransportBindingElementBase.CanBuildChannelListener``1(System.ServiceModel.Channels.BindingContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailUriHelper.Create(System.String,System.String)">
+    <parameter name="channelName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailUriHelper.Create(System.String,System.String[])">
+    <parameter name="channelName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailUriHelper.CreateUri(System.String,System.String)">
+    <parameter name="channelName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailUriHelper.CreateUri(System.String,System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="channelName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailUriHelper.GetChannelName(System.Uri)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailUriHelper.GetChannelNameFromAddress(System.String)">
+    <parameter name="uriString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailUriHelper.GetEmailAddress(System.Uri)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailUriHelper.ValidateChannelName(System.Uri)">
+    <parameter name="uriAddress">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MailUriHelper.ValidateScheme(System.Uri)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.MessageQueue.Enqueue(Microsoft.ServiceModel.Channels.Mail.CachedMessage)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.SendAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.TryReceiveAsyncResult.End(System.IAsyncResult,System.ServiceModel.Channels.Message@)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.TypedAsyncResult`1.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.ServiceModel.Channels.Mail.TypedCompletedAsyncResult`1.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

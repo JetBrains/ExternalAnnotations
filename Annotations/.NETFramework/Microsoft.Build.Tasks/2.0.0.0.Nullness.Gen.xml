@@ -1,0 +1,2479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="Microsoft.Build.Tasks">
+  <member name="M:Microsoft.Build.Shared.AssemblyNameExtension.CompareBaseNamesStringWise(System.String,System.String)">
+    <parameter name="asString1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="asString2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.AssemblyNameExtension.CompareBaseNameTo(Microsoft.Build.Shared.AssemblyNameExtension)">
+    <parameter name="that">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.AssemblyNameExtension.CompareBaseNameToImpl(Microsoft.Build.Shared.AssemblyNameExtension)">
+    <parameter name="that">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.AssemblyNameExtension.CompareTo(Microsoft.Build.Shared.AssemblyNameExtension)">
+    <parameter name="that">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.AssemblyNameExtension.Equals(Microsoft.Build.Shared.AssemblyNameExtension)">
+    <parameter name="that">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.AssemblyNameExtension.GetAssemblyNameEx(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Shared.AssemblyNameExtension.GetAssemblyNameFromDisplayName(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Shared.ConversionUtilities.ConvertDecimalToFloat(System.String,)">
+    <parameter name="number">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.ConversionUtilities.ConvertHexToFloat(System.String,)">
+    <parameter name="number">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.ConversionUtilities.ValidHexNumber(System.String,)">
+    <parameter name="number">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.ErrorUtilities.ThrowInternalError(System.Boolean,System.String,System.Object[])">
+    <parameter name="unformattedMessage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.ErrorUtilities.VerifyThrow(System.Boolean,System.String)">
+    <parameter name="unformattedMessage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.ErrorUtilities.VerifyThrow(System.Boolean,System.String,System.Object)">
+    <parameter name="unformattedMessage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.ErrorUtilities.VerifyThrow(System.Boolean,System.String,System.Object,System.Object)">
+    <parameter name="unformattedMessage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.ErrorUtilities.VerifyThrow(System.Boolean,System.String,System.Object,System.Object,System.Object)">
+    <parameter name="unformattedMessage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.ErrorUtilities.VerifyThrow(System.Boolean,System.String,System.Object,System.Object,System.Object,System.Object)">
+    <parameter name="unformattedMessage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.ErrorUtilities.VerifyThrowArgumentLength(System.String,System.String)">
+    <parameter name="parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.ErrorUtilities.VerifyThrowArgumentNull(System.Object,System.String)">
+    <parameter name="parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.ErrorUtilities.VerifyThrowNoAssert(System.Boolean,System.String)">
+    <parameter name="unformattedMessage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.EscapingUtilities.ContainsEscapedWildcards(System.String)">
+    <parameter name="escapedString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.EscapingUtilities.ContainsReservedCharacters(System.String)">
+    <parameter name="unescapedString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.ExceptionHandling.RethrowUnlessFileIO()">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.FileMatch(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="fileToMatch">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="filespec">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.FileMatch(System.String,System.String,Microsoft.Build.Shared.FileMatcher.GetFileSystemEntries)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="fileToMatch">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="filespec">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.GetAccessibleDirectories(System.String,System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.GetAccessibleFiles(System.String,System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.GetAccessibleFilesAndDirectories(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.GetAccessibleFileSystemEntries(Microsoft.Build.Shared.FileMatcher.FileSystemEntity,System.String,System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.GetFiles(System.String)">
+    <parameter name="filespec">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.GetFiles(System.String,Microsoft.Build.Shared.FileMatcher.GetFileSystemEntries,Microsoft.Build.Shared.FileMatcher.DirectoryExists)">
+    <parameter name="directoryExists">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="filespec">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.GetFileSpecInfo(System.String,System.String@,System.String@,System.String@,System.String@,System.Boolean@,System.Boolean@,Microsoft.Build.Shared.FileMatcher.GetFileSystemEntries)">
+    <parameter name="filespec">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.GetFileSpecInfo(System.String,System.Text.RegularExpressions.Regex@,System.Boolean@,System.Boolean@,Microsoft.Build.Shared.FileMatcher.GetFileSystemEntries)">
+    <parameter name="filespec">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.GetLongPathName(System.String,Microsoft.Build.Shared.FileMatcher.GetFileSystemEntries)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.HasWildcards(System.String)">
+    <parameter name="filespec">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.PreprocessFileSpecForSplitting(System.String,System.String@,System.String@,System.String@)">
+    <parameter name="filespec">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.RegularExpressionFromFileSpec(System.String,System.String,System.String,System.Boolean@)">
+    <parameter name="wildcardDirectoryPart">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="filenamePart">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.RemoveInitialDotSlash(System.String[])">
+    <parameter name="paths">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileMatcher.SplitFileSpec(System.String,System.String@,System.String@,System.String@,Microsoft.Build.Shared.FileMatcher.GetFileSystemEntries)">
+    <parameter name="filespec">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileUtilities.EndsWithSlash(System.String)">
+    <parameter name="fileSpec">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileUtilities.EnsureTrailingSlash(System.String)">
+    <parameter name="fileSpec">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileUtilities.GetItemSpecModifier(System.String,System.String,@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileUtilities.HasExtension(System.String,System.String[])">
+    <parameter name="allowedExtensions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.FileUtilities.IsDerivableItemSpecModifier(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.LanguageParser.CSharpTokenizer.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Shared.LanguageParser.TokenCharReader.Sink(System.String)">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.LanguageParser.TokenCharReader.Sink(System.String,System.Boolean)">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.LanguageParser.TokenCharReader.SinkIgnoreCase(System.String)">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.LanguageParser.TokenCharReader.SinkUntil(System.String)">
+    <parameter name="find">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.LanguageParser.VisualBasicTokenizer.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Shared.MetadataConversionUtilities.TryConvertItemMetadataToBool(Microsoft.Build.Framework.ITaskItem,System.String)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="itemMetadataName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.MetadataConversionUtilities.TryConvertItemMetadataToBool(Microsoft.Build.Framework.ITaskItem,System.String,System.Boolean@)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="itemMetadataName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Shared.ResourceUtilities.ExtractMessageCode(System.Text.RegularExpressions.Regex,System.String,System.String@)">
+    <parameter name="messageWithCode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Shared.ResourceUtilities.FormatResourceString(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Shared.ResourceUtilities.FormatResourceString(System.String@,System.String@,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Shared.ResourceUtilities.FormatString(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="unformatted">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AppConfig.Load(System.String)">
+    <parameter name="appConfigFile">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AppConfig.Read(System.Xml.XmlTextReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.Build.Tasks.AspNetCompiler.TargetName">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyFolder.AddFoldersFromRegistryKey(,System.String,)">
+    <parameter name="directories">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyFolder.AddFoldersFromRegistryKey(System.String,)">
+    <parameter name="directories">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyFoldersEx.#ctor(System.String,System.String,System.String,System.String,System.String,Microsoft.Build.Tasks.GetRegistrySubKeyNames,Microsoft.Build.Tasks.GetRegistrySubKeyDefaultValue)">
+    <parameter name="targetRuntimeVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="getRegistrySubKeyNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="getRegistrySubKeyDefaultValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyFoldersEx.ConvertToVersion(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="version">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyFoldersEx.FindDirectories(,System.String,System.String,System.String,System.String,System.String,Microsoft.Build.Tasks.GetRegistrySubKeyNames,Microsoft.Build.Tasks.GetRegistrySubKeyDefaultValue)">
+    <parameter name="targetRuntimeVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="getRegistrySubKeyNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="getRegistrySubKeyDefaultValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyFoldersExResolver.Resolve(Microsoft.Build.Shared.AssemblyNameExtension,System.String,System.Boolean,System.Boolean,System.String[],System.String,System.String,,System.String@,System.Boolean@)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyFoldersResolver.Resolve(Microsoft.Build.Shared.AssemblyNameExtension,System.String,System.Boolean,System.Boolean,System.String[],System.String,System.String,,System.String@,System.Boolean@)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyInformation.#ctor(System.String)">
+    <parameter name="sourceFile">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyInformation.ConstructAssemblyName(,System.Char[],System.UInt32,,System.UInt32,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyInformation.GetAssemblyMetadata(System.String,Microsoft.Build.Shared.AssemblyNameExtension[]@,System.String[]@)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyNameComparer.Compare(System.Object,System.Object)">
+    <parameter name="o1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="o2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyNameComparer.Equals(System.Object,System.Object)">
+    <parameter name="o1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="o2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyNameComparer.GetHashCode(System.Object)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyNameReferenceAscendingVersionComparer.Compare(System.Object,System.Object)">
+    <parameter name="o1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="o2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyNamesTypeResolutionService.GetType(System.String,System.Boolean,System.Boolean)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyResolution.CompileDirectories(,Microsoft.Build.Tasks.FileExists,Microsoft.Build.Tasks.GetAssemblyName)">
+    <parameter name="directories">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyResolution.CompileSearchPaths(System.String[],System.String[],System.String,System.String[],Microsoft.Build.Tasks.FileExists,Microsoft.Build.Tasks.GetAssemblyName,Microsoft.Build.Tasks.GetRegistrySubKeyNames,Microsoft.Build.Tasks.GetRegistrySubKeyDefaultValue)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="searchPaths">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssemblyResolution.ResolveReference(,Microsoft.Build.Shared.AssemblyNameExtension,System.String,System.Boolean,System.Boolean,System.String[],System.String,System.String,,System.String@,System.Boolean@)">
+    <parameter name="jaggedResolvers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="executableExtensions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AssignProjectConfiguration.ResolveProject(Microsoft.Build.Framework.ITaskItem,Microsoft.Build.Framework.ITaskItem@)">
+    <parameter name="projectRef">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AxReference.System#Windows#Forms#Design#AxImporter#IReferenceResolver#ResolveManagedReference(System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.AxTlbBaseReference.IsWrapperUpToDate(Microsoft.Build.Tasks.ComReferenceWrapperInfo,)">
+    <parameter name="wrapperInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.BindingRedirect.Read(System.Xml.XmlTextReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CandidateAssemblyFilesResolver.Resolve(Microsoft.Build.Shared.AssemblyNameExtension,System.String,System.Boolean,System.Boolean,System.String[],System.String,System.String,,System.String@,System.Boolean@)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CommandLineBuilderExtension.AppendPlusOrMinusSwitch(System.String,,System.String)">
+    <parameter name="bag">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="switchName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CommandLineBuilderExtension.AppendSwitchIfNotNull(System.String,Microsoft.Build.Framework.ITaskItem[],System.String[])">
+    <parameter name="attributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="switchName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CommandLineBuilderExtension.AppendSwitchIfNotNull(System.String,Microsoft.Build.Framework.ITaskItem[],System.String[],System.Boolean[])">
+    <parameter name="metadataNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="switchName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CommandLineBuilderExtension.AppendSwitchWithInteger(System.String,,System.String)">
+    <parameter name="bag">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CommandLineBuilderExtension.AppendSwitchWithSplitting(System.String,System.String,System.String,System.Char[])">
+    <parameter name="delimiter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="switchName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CommandLineBuilderExtension.AppendWhenTrue(System.String,,System.String)">
+    <parameter name="bag">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="switchName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ComReference.GetPathOfTypeLib(Microsoft.Build.Utilities.TaskLoggingHelper,@,System.String@)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ComReference.GetTypeLibNameForITypeLib(Microsoft.Build.Utilities.TaskLoggingHelper,,System.String,System.String@)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ComReference.GetTypeLibNameForTypeLibAttrs(Microsoft.Build.Utilities.TaskLoggingHelper,,System.String@)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ComReference.RemapAdoTypeLib(Microsoft.Build.Utilities.TaskLoggingHelper,@)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ComReference.StripTypeLibNumberFromPath(System.String,Microsoft.Build.Tasks.FileExists)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="fileExists">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ComReference.UniqueKeyFromTypeLibAttr()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ComReferenceInfo.#ctor(Microsoft.Build.Tasks.ComReferenceInfo)">
+    <parameter name="copyFrom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ComReferenceInfo.GetTypeLibId(Microsoft.Build.Utilities.TaskLoggingHelper)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ComReferenceInfo.InitializeWithPath(Microsoft.Build.Utilities.TaskLoggingHelper,System.String,Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ComReferenceInfo.InitializeWithTypeLibAttrs(Microsoft.Build.Utilities.TaskLoggingHelper,,Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Copy.Execute(Microsoft.Build.Tasks.CopyFile)">
+    <parameter name="copyFile">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CreateItem.CreateOutputItems(,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CreateItem.GetUniqueItems(Microsoft.Build.Framework.ITaskItem[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CreateManifestResourceName.CreateFileStreamOverNewFileStream(System.String,,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CreateManifestResourceName.CreateManifestName(System.String,System.String,System.String,System.String,)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CreateManifestResourceName.Execute(Microsoft.Build.Tasks.CreateFileStream)">
+    <parameter name="createFileStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CreateManifestResourceName.MakeValidEverettFolderIdentifier(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CreateManifestResourceName.MakeValidEverettIdentifier(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CreateManifestResourceName.MakeValidEverettSubFolderIdentifier(System.String)">
+    <parameter name="subName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CreateTemporaryVCProject.FindToolInConfiguration(System.Xml.XmlElement,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="configurationElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CreateTemporaryVCProject.GetConfigurationInformation(System.Xml.XmlDocument,System.String,System.String@,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="project">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CreateTemporaryVCProject.ReplaceProjectReferences(System.Xml.XmlDocument,System.String,Microsoft.Build.Framework.ITaskItem[],Microsoft.Build.Framework.ITaskItem[],Microsoft.Build.Framework.ITaskItem[])">
+    <parameter name="project">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="referencesToRemove">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Csc.AddReferencesToCommandLine(Microsoft.Build.Tasks.CommandLineBuilderExtension)">
+    <parameter name="commandLine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Csc.InitializeHostCompiler(Microsoft.Build.Tasks.Hosting.ICscHostObject)">
+    <parameter name="cscHostObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Csc.IsLegalIdentifier(System.String)">
+    <parameter name="identifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.CSharpParserUtilities.Extract(Microsoft.Build.Shared.LanguageParser.CSharpTokenizer)">
+    <parameter name="tokens">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Delete.LogError(Microsoft.Build.Framework.ITaskItem,)">
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.DependentAssembly.Read(System.Xml.XmlTextReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.AddAttribute(System.Xml.XmlNode,System.String,System.String)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.AddBuiltProducts(Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings,Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="results">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.AddDependencies(Microsoft.Build.Tasks.Deployment.Bootstrapper.Product,)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="availableProducts">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.AddIncludedProducts(Microsoft.Build.Tasks.Deployment.Bootstrapper.Product,)">
+    <parameter name="product">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.AddIncludes(Microsoft.Build.Tasks.Deployment.Bootstrapper.Product,)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="availableProducts">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.AddStringResourceForUrl(Microsoft.Build.Tasks.Deployment.Bootstrapper.ResourceUpdater,System.String,System.String,System.String,Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults)">
+    <parameter name="resourceUpdater">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="results">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.AddVerificationInformation(System.Xml.XmlNode,System.String,System.String,Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder,Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings,Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults)">
+    <parameter name="packageFileNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="builder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.AppendNode(System.Xml.XmlElement,System.String,System.Xml.XmlElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="mergeElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.Build(Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.BuildResources(Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings,Microsoft.Build.Tasks.Deployment.Bootstrapper.ResourceUpdater,Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults)">
+    <parameter name="resourceUpdater">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.CombineElements(System.Xml.XmlElement,System.Xml.XmlElement,System.String,System.String,System.Xml.XmlElement)">
+    <parameter name="langElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="baseElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="mergeElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="strNodeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.ConvertChildsNodeToAttributes(System.Xml.XmlNode)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.CopySetupToOutputDirectory(Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings,System.String,Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="results">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.CorrectPackageFiles(System.Xml.XmlNode)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.CreateApplicationElement(System.Xml.XmlElement,Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings)">
+    <parameter name="configElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.CreateNodes()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.CreatePackage(System.Xml.XmlNode,Microsoft.Build.Tasks.Deployment.Bootstrapper.Product)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="product">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.CreateProduct(System.Xml.XmlNode)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.CreateProductNode(System.Xml.XmlNode)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.Cultures">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.DepthFirstSearchVisit(Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.GraphNode,System.Int32@,,)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.DumpXmlToFile(System.Xml.XmlNode,System.String)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.GetCycle(,Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.GraphNode)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="endNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.GetIncludedProducts(Microsoft.Build.Tasks.Deployment.Bootstrapper.Product)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="product">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.GetOutputFolders(System.String[],System.String,System.String,Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="productCodes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.GetPackageForSettings(Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings,Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder,Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="builder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.GetPackageForSettings_Helper(,,Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder,Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="builder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.GetResourcesNodeForSettings(Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings,Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults,System.Int32@)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.Graph.Nodes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.GraphNode.Edges">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.LoadAndValidateXmlDocument(System.String,System.Boolean,System.String,System.String,Microsoft.Build.Tasks.Deployment.Bootstrapper.XmlValidationResults)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="results">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.MergeAttribute(System.Xml.XmlNode,System.Xml.XmlAttribute)">
+    <parameter name="targetNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.QueryForSubNode(System.Xml.XmlNode,System.String,System.String)">
+    <parameter name="subNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.ReadAttribute(System.Xml.XmlNode,System.String)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.ReplaceAttribute(System.Xml.XmlNode,System.String,System.String)">
+    <parameter name="targetNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.ReplaceAttributes(System.Xml.XmlNode,System.String,System.String,System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.ReplaceAttributeString(System.Xml.XmlNode,System.String,System.Xml.XmlNode)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stringsNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.ReplacePackageFileAttributes(System.Xml.XmlNode,System.String,System.Xml.XmlNode,System.String,System.String,System.String)">
+    <parameter name="sourceNodes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetAttribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.ReplaceStrings(System.Xml.XmlNode)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.SelectRelatedProducts(Microsoft.Build.Tasks.Deployment.Bootstrapper.Product,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.SortGraph(Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.Graph)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="g">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.UpdatePackageFileNodes(System.Xml.XmlNode,System.String,System.String)">
+    <parameter name="packageFilesNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.VerifyHomeSiteInformation(System.Xml.XmlNode,Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder,Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings,Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults)">
+    <parameter name="packageFileNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="builder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.XmlToConfigurationFile(System.Xml.XmlNode)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage.CreateMessage(Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults.ComponentFiles">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults.Messages">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.PackageCollection.Add(Microsoft.Build.Tasks.Deployment.Bootstrapper.Package)">
+    <parameter name="package">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.PackageCollection.Package(System.String)">
+    <parameter name="culture">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.AddDependentProduct(Microsoft.Build.Tasks.Deployment.Bootstrapper.Product)">
+    <parameter name="product">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.AddIncludedProduct(Microsoft.Build.Tasks.Deployment.Bootstrapper.Product)">
+    <parameter name="product">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.AddPackage(Microsoft.Build.Tasks.Deployment.Bootstrapper.Package)">
+    <parameter name="package">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.ContainsCulture(System.String)">
+    <parameter name="culture">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.MissingDependencies">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.ProductBuilder">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection.Add(Microsoft.Build.Tasks.Deployment.Bootstrapper.Product)">
+    <parameter name="product">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection.Product(System.String)">
+    <parameter name="productCode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ResourceUpdater.StringToByteArray(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.Util.AddTrailingChar(System.String,System.Char)">
+    <parameter name="str">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.Util.GetCultureInfoFromString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.Util.IsWebUrl(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.Util.ReadRegistryString(,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.XmlValidationResults.SchemaValidationEventHandler(System.Object,System.Xml.Schema.ValidationEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.XmlValidationResults.ValidationErrors">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.XmlValidationResults.ValidationWarnings">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationIdentity.#ctor(System.String,Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyIdentity,Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyIdentity)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deployManifestIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="applicationManifestIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationIdentity.#ctor(System.String,System.String,System.String)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deployManifestPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="applicationManifestPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationManifest.ValidateReferenceForPartialTrust(Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyReference,Microsoft.Build.Tasks.Deployment.ManifestUtilities.TrustInfo)">
+    <parameter name="assembly">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="trustInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyIdentity.FromAssemblyName(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyIdentity.FromFile(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyIdentity.FromManagedAssembly(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyIdentity.FromManifest()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyIdentity.FromManifest(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyIdentity.FromManifest(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyIdentity.FromNativeAssembly(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyReferenceCollection.Find(Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyReferenceCollection.Find(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyReferenceCollection.FindTargetPath(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ComImporter.#ctor(System.String,Microsoft.Build.Tasks.Deployment.ManifestUtilities.OutputMessageCollection,System.String)">
+    <parameter name="outputMessages">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.EmbeddedManifestReader.Read(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.FileReference.ImportComComponent(System.String,Microsoft.Build.Tasks.Deployment.ManifestUtilities.OutputMessageCollection,System.String)">
+    <parameter name="outputMessages">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.FileReferenceCollection.FindTargetPath(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.Build.Tasks.Deployment.ManifestUtilities.Manifest.AssemblyReferences">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.Build.Tasks.Deployment.ManifestUtilities.Manifest.FileReferences">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.Manifest.IsMismatchedPlatform(Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyReference)">
+    <parameter name="assembly">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.Manifest.ResolveFiles(System.String[])">
+    <parameter name="searchPaths">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.Manifest.UpdateAssemblyReference(Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyReference)">
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.Manifest.UpdateEntryPoint(System.String,System.String,System.String,System.String)">
+    <parameter name="applicationManifestPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="inputPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.Manifest.UpdateFileReference(Microsoft.Build.Tasks.Deployment.ManifestUtilities.BaseReference)">
+    <parameter name="f">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ManifestFormatter.Format()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ManifestReader.GetComInfo(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ManifestReader.GetXmlDocument(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ManifestReader.ReadEmbeddedManifest(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ManifestReader.ReadManifest(,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ManifestReader.ReadManifest(System.String,,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ManifestReader.ReadManifest(System.String,System.Boolean)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ManifestReader.ReadManifest(System.String,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ManifestWriter.Serialize(Microsoft.Build.Tasks.Deployment.ManifestUtilities.Manifest)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="manifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ManifestWriter.WriteManifest(Microsoft.Build.Tasks.Deployment.ManifestUtilities.Manifest)">
+    <parameter name="manifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ManifestWriter.WriteManifest(Microsoft.Build.Tasks.Deployment.ManifestUtilities.Manifest,)">
+    <parameter name="manifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ManifestWriter.WriteManifest(Microsoft.Build.Tasks.Deployment.ManifestUtilities.Manifest,System.String)">
+    <parameter name="manifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.MetadataReader.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.MetadataReader.GetGuidOfType()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.MetadataReader.HasAssemblyAttribute(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.OutputMessage.#ctor(Microsoft.Build.Tasks.Deployment.ManifestUtilities.OutputMessageType,System.String,System.String,System.String[])">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.OutputMessageCollection.AddErrorMessage(System.String,System.String[])">
+    <parameter name="taskResourceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.OutputMessageCollection.AddWarningMessage(System.String,System.String[])">
+    <parameter name="taskResourceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.OutputMessageCollection.LogTaskMessages(Microsoft.Build.Utilities.Task)">
+    <parameter name="task">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.PathUtil.CanonicalizeUrl(System.String)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.PathUtil.GetPathSegments(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.PathUtil.IsAssembly(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.PathUtil.IsDataFile(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.PathUtil.IsLocalPath(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.PathUtil.IsManagedAssembly(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.PathUtil.IsNativeAssembly(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.PathUtil.IsProgramFile(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.GetCert(System.String)">
+    <parameter name="thumbprint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.GetRegistryPermissionSetByName(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.IdentityListToPermissionSet(System.String[])">
+    <parameter name="ids">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.IsCertInStore(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="cert">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.PermissionSetToIdentityList()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.PermissionSetToXml()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.RemoveNonReferencedPermissions(System.String[],Microsoft.Build.Framework.ITaskItem[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.SignFile(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Uri,System.String)">
+    <parameter name="cert">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.SignFile(System.String,,System.Uri,System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.SignFile(System.String,System.Uri,System.String)">
+    <parameter name="certThumbprint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.SignPEFile(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Uri,System.String,)">
+    <parameter name="cert">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.ToolName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.XmlElementToSecurityElement(System.Xml.XmlElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="xe">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.XmlToIdentityList(System.Xml.XmlElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="psElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.SecurityUtilities.XmlToPermissionSet(System.Xml.XmlElement)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.TrustInfo.AddSameSiteAttribute(System.Xml.XmlElement)">
+    <parameter name="permissionSetElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.TrustInfo.FixupPermissionSetElement(System.Xml.XmlElement)">
+    <parameter name="permissionSetElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.TrustInfo.GetInputPermissionSetElement">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.TrustInfo.GetOutputPermissionSetDocument">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.TrustInfo.GetPermissionSetElement(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.TrustInfo.Read(,System.String)">
+    <parameter name="xpath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.Util.GetRegisteredOrganization">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.Util.IsValidAssemblyName(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.Util.IsValidFileName(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.Util.RemoveDuplicateItems(Microsoft.Build.Framework.ITaskItem[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.Util.SortItems(Microsoft.Build.Framework.ITaskItem[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.Util.WriteLogFile(System.String,System.Xml.XmlElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.XmlNamespaces.GetNamespaceManager(System.Xml.XmlNameTable)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="nameTable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.XmlUtil.CloneElementToDocument(System.Xml.XmlElement,System.Xml.XmlDocument,System.String)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.XmlUtil.GetQName(System.Xml.XmlTextReader,System.Xml.XmlNamespaceManager)">
+    <parameter name="r">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="nsmgr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.XmlUtil.TrimPrefix(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Deployment.ManifestUtilities.XmlUtil.XslTransform(System.String,,[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="entries">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.DirectoryResolver.Resolve(Microsoft.Build.Shared.AssemblyNameExtension,System.String,System.Boolean,System.Boolean,System.String[],System.String,System.String,,System.String@,System.Boolean@)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Exec.GetTemporaryBatchFileName(Microsoft.Build.Tasks.PathGetTempFileName,Microsoft.Build.Tasks.FileExists,Microsoft.Build.Tasks.FileCopy,Microsoft.Build.Tasks.FileDelete)">
+    <parameter name="pathGetTempFileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileExists">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileCopy">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileDelete">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Exec.LogToolCommand(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.FrameworkPathResolver.Resolve(Microsoft.Build.Shared.AssemblyNameExtension,System.String,System.Boolean,System.Boolean,System.String[],System.String,System.String,,System.String@,System.Boolean@)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GacResolver.Resolve(Microsoft.Build.Shared.AssemblyNameExtension,System.String,System.Boolean,System.Boolean,System.String[],System.String,System.String,,System.String@,System.Boolean@)">
+    <parameter name="executableExtensions">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateApplicationManifest.AddClickOnceFiles(Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationManifest)">
+    <parameter name="manifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateApplicationManifest.AddIsolatedComReferences(Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationManifest)">
+    <parameter name="manifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateApplicationManifest.BuildApplicationManifest(Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationManifest)">
+    <parameter name="manifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateDeploymentManifest.BuildDeployManifest(Microsoft.Build.Tasks.Deployment.ManifestUtilities.DeployManifest)">
+    <parameter name="manifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateDeploymentManifest.BuildResolvedSettings(Microsoft.Build.Tasks.Deployment.ManifestUtilities.DeployManifest)">
+    <parameter name="manifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateManifestBase.AddAssemblyFromItem(Microsoft.Build.Framework.ITaskItem)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateManifestBase.AddAssemblyNameFromItem(Microsoft.Build.Framework.ITaskItem,Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyReferenceType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateManifestBase.AddEntryPointFromItem(Microsoft.Build.Framework.ITaskItem,Microsoft.Build.Tasks.Deployment.ManifestUtilities.AssemblyReferenceType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateManifestBase.AddFileFromItem(Microsoft.Build.Framework.ITaskItem)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateManifestBase.FindFileFromItem(Microsoft.Build.Framework.ITaskItem)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateManifestBase.GetItemAssemblyType(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateManifestBase.GetItemDependencyType(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateManifestBase.GetObjectType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateManifestBase.SetItemAttributes(Microsoft.Build.Framework.ITaskItem,Microsoft.Build.Tasks.Deployment.ManifestUtilities.BaseReference)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateResource.ByteArrayFromBase64WrappedString(System.String)">
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateResource.DetermineWhetherSerializedObjectLoads(System.String)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateResource.LogResgenCommandLine(,)">
+    <parameter name="inputFiles">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputFiles">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateResource.NeedSeparateAppDomainBasedOnSerializedType(System.Xml.XmlTextReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GenerateTrustInfo.StringToIdentityList(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GlobalAssemblyCache.GetLocation(Microsoft.Build.Shared.AssemblyNameExtension,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="strongName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.GlobalAssemblyCache.GetLocationImpl(Microsoft.Build.Shared.AssemblyNameExtension,System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.HintPathResolver.Resolve(Microsoft.Build.Shared.AssemblyNameExtension,System.String,System.Boolean,System.Boolean,System.String[],System.String,System.String,,System.String@,System.Boolean@)">
+    <parameter name="executableExtensions">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ImportPFXKeyDlg.UserAction_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.InstalledAssemblies.GetInfo(Microsoft.Build.Shared.AssemblyNameExtension,@,System.Boolean@,System.Nullable{System.Boolean}@,System.String@)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.MSBuild.CreateTargetLists(System.String[],System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.MSBuild.ExecuteTargets(Microsoft.Build.Framework.ITaskItem,,,System.Boolean,System.Boolean,Microsoft.Build.Framework.IBuildEngine,Microsoft.Build.Utilities.TaskLoggingHelper,)">
+    <parameter name="targetLists">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="buildEngine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ProcessorArchitecture.GetCurrentProcessArchitecture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ProcessResourceFiles.GenerateDefaultStronglyTypedFilename(System.CodeDom.Compiler.CodeDomProvider,System.String)">
+    <parameter name="provider">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ProcessResourceFiles.LineNumberStreamReader.Read(System.Char[],System.Int32,System.Int32)">
+    <parameter name="chars">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ProcessResourceFiles.LineNumberStreamReader.ReadLine">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ProcessResourceFiles.ProcessFile(System.String,System.String)">
+    <parameter name="inFile">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ProcessResourceFiles.ReadResources(System.String,System.Boolean)">
+    <parameter name="filename">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ProcessResourceFiles.ReadTextResources(System.String)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RawFilenameResolver.Resolve(Microsoft.Build.Shared.AssemblyNameExtension,System.String,System.Boolean,System.Boolean,System.String[],System.String,System.String,,System.String@,System.Boolean@)">
+    <parameter name="executableExtensions">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReadLinesFromFile.LogError(Microsoft.Build.Framework.ITaskItem,,System.Boolean@)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RedistList.#ctor(System.String[])">
+    <parameter name="files">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RedistList.GetRedistList(System.String[])">
+    <parameter name="files">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RedistList.GetSimpleName(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RedistList.GetUnifiedAssemblyEntry(System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RedistList.GetUnifiedAssemblyName(System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RedistList.IsEquivalentAssemblyNames(System.String,System.String)">
+    <parameter name="assemblyName1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="assemblyName2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RedistList.IsFrameworkAssembly(System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RedistList.IsPrerequisiteAssembly(System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RedistList.IsRedistRoot(System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RedistList.ReadFile(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RedistList.RedistName(System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Reference.AddSourceItem(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="sourceItem">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Reference.AddSourceItems()">
+    <parameter name="sourceItemsToAdd">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Reference.IsFrameworkFile(System.String,System.String[])">
+    <parameter name="frameworkPaths">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Reference.MakeDependentAssemblyReference(Microsoft.Build.Tasks.Reference)">
+    <parameter name="sourceReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Reference.MakePrimaryAssemblyReference(Microsoft.Build.Framework.ITaskItem,System.Boolean,System.String)">
+    <parameter name="sourceItem">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Reference.SetExecutableExtension(System.String)">
+    <parameter name="extension">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Reference.SetFinalCopyLocalState(Microsoft.Build.Shared.AssemblyNameExtension,System.String[],System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String[],System.String[],System.String[],System.String[],System.String[],Microsoft.Build.Tasks.InstalledAssemblies,System.String,Microsoft.Build.Tasks.FileExists,Microsoft.Build.Tasks.DirectoryExists,Microsoft.Build.Tasks.GetDirectories,Microsoft.Build.Tasks.GetAssemblyName,Microsoft.Build.Tasks.GetAssemblyMetadata,Microsoft.Build.Tasks.GetRegistrySubKeyNames,Microsoft.Build.Tasks.GetRegistrySubKeyDefaultValue)">
+    <parameter name="searchPaths">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.AddReference(Microsoft.Build.Shared.AssemblyNameExtension,Microsoft.Build.Tasks.Reference)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.BuildSimpleNameTable">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.FindCopyLocalItems(Microsoft.Build.Framework.ITaskItem[],)">
+    <parameter name="items">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.FindDependenciesAndScatterFiles(Microsoft.Build.Tasks.Reference,)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.FindRelatedFiles(Microsoft.Build.Tasks.Reference)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.FindSatellites(Microsoft.Build.Tasks.Reference)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.FindSerializationAssemblies(Microsoft.Build.Tasks.Reference)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.GetReference(Microsoft.Build.Shared.AssemblyNameExtension)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.GetUnifiedAssemblyMetadata(Microsoft.Build.Tasks.Reference,@,System.String[]@)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.NameAssemblyFileReference(Microsoft.Build.Tasks.Reference,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.ResolveReference(Microsoft.Build.Shared.AssemblyNameExtension,System.String,Microsoft.Build.Tasks.Reference)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.SetPrimaryAssemblyReferenceItem(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="referenceAssemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.SetPrimaryFileItem(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="referenceAssemblyFile">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.TryConvertToAssemblyName(System.String,System.String,Microsoft.Build.Shared.AssemblyNameExtension@)">
+    <parameter name="itemSpec">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.TryGatherAssemblyNameEssentials(System.String,Microsoft.Build.Shared.AssemblyNameExtension@)">
+    <parameter name="fusionName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.TryGetAssemblyNameComponent(System.String,System.String,System.String@)">
+    <parameter name="fusionName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="component">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.UnifyAssemblyNameVersions(Microsoft.Build.Shared.AssemblyNameExtension,@,Microsoft.Build.Tasks.UnificationReason@,System.Boolean@,System.Nullable{System.Boolean}@,System.String@)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ReferenceTable.WantSpecificVersion(Microsoft.Build.Framework.ITaskItem,Microsoft.Build.Shared.AssemblyNameExtension)">
+    <parameter name="referenceAssemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RegisterAssembly.Register(System.String,System.String)">
+    <parameter name="typeLibPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RegisterAssembly.ReportEvent(,System.Int32,System.String)">
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RegisterAssembly.ResolveRef()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RegistryHelper.GetSubKeyNames(,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RemoveDir.RemoveDirectory(Microsoft.Build.Framework.ITaskItem,System.Boolean,System.Boolean@)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResGenDependencies.AddResxFile(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResGenDependencies.DeserializeCache(System.String,System.Boolean,Microsoft.Build.Utilities.TaskLoggingHelper)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResGenDependencies.GetResXFileInfo(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveAssemblyReference.ChooseReferenceLoggingImportance(Microsoft.Build.Tasks.Reference)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveAssemblyReference.LogAssembliesConsideredAndRejected(Microsoft.Build.Tasks.Reference,Microsoft.Build.Framework.MessageImportance)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveAssemblyReference.LogAttribute(Microsoft.Build.Framework.ITaskItem,System.String)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="metadataName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveAssemblyReference.LogConflict(Microsoft.Build.Tasks.Reference,System.String,System.Boolean@)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveAssemblyReference.LogCopyLocalState(Microsoft.Build.Tasks.Reference,Microsoft.Build.Framework.MessageImportance)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveAssemblyReference.LogDependees(Microsoft.Build.Tasks.Reference,Microsoft.Build.Framework.MessageImportance)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveAssemblyReference.LogFullName(Microsoft.Build.Tasks.Reference,System.String,Microsoft.Build.Framework.MessageImportance)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveAssemblyReference.LogPrimaryOrDependency(Microsoft.Build.Tasks.Reference,System.String,Microsoft.Build.Framework.MessageImportance)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveAssemblyReference.LogReference(Microsoft.Build.Tasks.Reference,System.String)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveAssemblyReference.LogReferenceErrors(Microsoft.Build.Tasks.Reference,Microsoft.Build.Framework.MessageImportance)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveAssemblyReference.LogRelatedFiles(Microsoft.Build.Tasks.Reference,Microsoft.Build.Framework.MessageImportance)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveAssemblyReference.LogResults(Microsoft.Build.Tasks.ReferenceTable,Microsoft.Build.Tasks.DependentAssembly[],Microsoft.Build.Tasks.AssemblyNameReference[],)">
+    <parameter name="dependencyTable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="idealAssemblyRemappings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="idealAssemblyRemappingsIdentities">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="generalResolutionExceptions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveAssemblyReference.LogSatellites(Microsoft.Build.Tasks.Reference,Microsoft.Build.Framework.MessageImportance)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveAssemblyReference.LogScatterFiles(Microsoft.Build.Tasks.Reference,Microsoft.Build.Framework.MessageImportance)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveComReference.InitializeDefaultMetadataForFileItem(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveComReference.InitializeDefaultMetadataForNameItem(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveComReference.Microsoft#Build#Tasks#IComReferenceResolver#ResolveNetAssemblyReference(System.String,System.String@)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveComReference.ResolveComClassicReference(Microsoft.Build.Tasks.ComReferenceInfo,System.String,System.String,System.String,System.Boolean,Microsoft.Build.Tasks.ComReferenceWrapperInfo@)">
+    <parameter name="referenceInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveComReference.ResolveComReferenceAx(Microsoft.Build.Tasks.ComReferenceInfo,System.String,System.String,Microsoft.Build.Tasks.ComReferenceWrapperInfo@)">
+    <parameter name="referenceInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveComReference.ResolveComReferencePia(Microsoft.Build.Tasks.ComReferenceInfo,System.String,Microsoft.Build.Tasks.ComReferenceWrapperInfo@)">
+    <parameter name="referenceInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveComReference.ResolveComReferenceTlb(Microsoft.Build.Tasks.ComReferenceInfo,System.String,System.String,System.Boolean,Microsoft.Build.Tasks.ComReferenceWrapperInfo@)">
+    <parameter name="referenceInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveComReference.ResolveReference(Microsoft.Build.Tasks.ComReferenceInfo,System.String,Microsoft.Build.Framework.ITaskItem@)">
+    <parameter name="referenceInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveComReference.ResolveReferenceAndAddToList(Microsoft.Build.Tasks.ComReferenceInfo,,)">
+    <parameter name="projectRefInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveComReference.SetCopyLocalToFalseOnGacAssemblies(,System.String)">
+    <parameter name="outputTaskItems">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="gacPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveComReference.TaskItemToTypeLibAttr(Microsoft.Build.Framework.ITaskItem)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="taskItem">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveComReference.VerifyReferenceMetadataForNameItem(Microsoft.Build.Framework.ITaskItem,System.String@)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.AssemblyMap.Add(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.Build.Tasks.ResolveManifestFiles.AssemblyMap.Item(System.String)">
+    <parameter name="fusionName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.CreateAssemblyItem(Microsoft.Build.Framework.ITaskItem,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.CreateFileItem(Microsoft.Build.Framework.ITaskItem,System.String,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.CreatePrerequisiteItem(Microsoft.Build.Framework.ITaskItem)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.FileMap.Add(Microsoft.Build.Framework.ITaskItem,System.Boolean)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.Build.Tasks.ResolveManifestFiles.FileMap.Item(System.String)">
+    <parameter name="targetPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.GetItemCopyLocal(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.GetItemCulture(Microsoft.Build.Framework.ITaskItem)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.GetItemTargetPath(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.GetOutputAssemblies(Microsoft.Build.Tasks.ResolveManifestFiles.PublishInfo[],@)">
+    <parameter name="publishInfos">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.GetOutputAssembliesAndSatellites(Microsoft.Build.Tasks.ResolveManifestFiles.PublishInfo[],Microsoft.Build.Tasks.ResolveManifestFiles.PublishInfo[])">
+    <parameter name="assemblyPublishInfos">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="satellitePublishInfos">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.GetOutputFiles(Microsoft.Build.Tasks.ResolveManifestFiles.PublishInfo[])">
+    <parameter name="publishInfos">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.GetOutputSatellites(Microsoft.Build.Tasks.ResolveManifestFiles.PublishInfo[],@)">
+    <parameter name="publishInfos">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.IsFiltered(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.PublishFlags.GetAssemblyFlags(Microsoft.Build.Tasks.ResolveManifestFiles.PublishState,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.PublishFlags.GetFileFlags(Microsoft.Build.Tasks.ResolveManifestFiles.PublishState,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="fileExtension">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.PublishFlags.GetSatelliteFlags(Microsoft.Build.Tasks.ResolveManifestFiles.PublishState,,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveManifestFiles.PublishInfo.#ctor(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveNativeReference.ExtractFromManifest(Microsoft.Build.Framework.ITaskItem,System.String,,,,,,)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveNativeReference.ItemSpecComparerClass.#Compare(System.Object,System.Object)">
+    <parameter name="taskItem1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="taskItem2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveNonMSBuildProjectOutput.ResolveProject(Microsoft.Build.Framework.ITaskItem,Microsoft.Build.Framework.ITaskItem@)">
+    <parameter name="projectRef">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveProjectBase.GetProjectItem(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="projectRef">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveProjectBase.VerifyProjectReferenceItems(Microsoft.Build.Framework.ITaskItem[],System.Boolean)">
+    <parameter name="references">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveProjectBase.VerifyReferenceAttributes(Microsoft.Build.Framework.ITaskItem,System.String@)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Resolver.FileMatchesAssemblyName(Microsoft.Build.Shared.AssemblyNameExtension,System.Boolean,System.Boolean,System.Boolean,System.String,Microsoft.Build.Tasks.ResolutionSearchLocation)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="searchLocation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Resolver.Resolve(Microsoft.Build.Shared.AssemblyNameExtension,System.String,System.Boolean,System.Boolean,System.String[],System.String,System.String,,System.String@,System.Boolean@)">
+    <parameter name="executableExtensions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Resolver.ResolveAsFile(System.String,Microsoft.Build.Shared.AssemblyNameExtension,System.Boolean,System.Boolean,System.Boolean,)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Resolver.ResolveFromDirectory(Microsoft.Build.Shared.AssemblyNameExtension,System.Boolean,System.Boolean,System.String[],System.String,)">
+    <parameter name="executableExtensions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ResolveVCProjectOutput.ResolveUsingVCEngineObjectModel(Microsoft.Build.Framework.ITaskItem,System.String,System.String@,System.String@)">
+    <parameter name="projectRef">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.RuntimeSection.Read(System.Xml.XmlTextReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.Build.Tasks.SGen.DelaySigningSwitch">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.StateFileBase.DeleteFile(System.String,Microsoft.Build.Utilities.TaskLoggingHelper)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.StateFileBase.DeserializeCache(System.String,Microsoft.Build.Utilities.TaskLoggingHelper,)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.StateFileBase.SerializeCache(System.String,Microsoft.Build.Utilities.TaskLoggingHelper)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.StrongNameUtils.GetAssemblyStrongNameLevel(System.String)">
+    <parameter name="assemblyPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.StrongNameUtils.GetStrongNameKey(Microsoft.Build.Utilities.TaskLoggingHelper,System.String,System.String,@,System.Byte[]@)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.StrongNameUtils.ReadKeyFile(Microsoft.Build.Utilities.TaskLoggingHelper,System.String,@,System.Byte[]@)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.SystemState.CacheDelegate(Microsoft.Build.Tasks.FileExists)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.SystemState.CacheDelegate(Microsoft.Build.Tasks.GetAssemblyMetadata)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.SystemState.CacheDelegate(Microsoft.Build.Tasks.GetAssemblyName)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.SystemState.CacheDelegate(Microsoft.Build.Tasks.GetDirectories)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.SystemState.GetFileState(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.SystemState.SetInstalledAssemblyInformation(System.String[],System.String[])">
+    <parameter name="frameworkPaths">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="installedAssemblyTables">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.TaskItemSpecFilenameComparer.Compare(System.Object,System.Object)">
+    <parameter name="o1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="o2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.TlbReference.#ReportEvent(,System.Int32,System.String)">
+    <parameter name="eventMsg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ToolTaskExtension.AddCommandLineCommands(Microsoft.Build.Tasks.CommandLineBuilderExtension)">
+    <parameter name="commandLine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.ToolTaskExtension.AddResponseFileCommands(Microsoft.Build.Tasks.CommandLineBuilderExtension)">
+    <parameter name="commandLine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Touch.CreateFile(System.String,Microsoft.Build.Tasks.FileCreate)">
+    <parameter name="fileCreate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Touch.ExecuteImpl(Microsoft.Build.Tasks.FileExists,Microsoft.Build.Tasks.FileCreate,Microsoft.Build.Tasks.GetAttributes,Microsoft.Build.Tasks.SetAttributes,Microsoft.Build.Tasks.SetLastAccessTime,Microsoft.Build.Tasks.SetLastWriteTime)">
+    <parameter name="fileCreate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileGetAttributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileSetLastWriteTime">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileSetAttributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileSetLastAccessTime">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileExists">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Touch.TouchFile(System.String,,Microsoft.Build.Tasks.FileExists,Microsoft.Build.Tasks.FileCreate,Microsoft.Build.Tasks.GetAttributes,Microsoft.Build.Tasks.SetAttributes,Microsoft.Build.Tasks.SetLastAccessTime,Microsoft.Build.Tasks.SetLastWriteTime)">
+    <parameter name="fileExists">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileCreate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileGetAttributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileSetAttributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileSetLastAccessTime">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileSetLastWriteTime">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.UnregisterAssembly.Unregister(System.String,System.String)">
+    <parameter name="typeLibPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Vbc.InitializeHostCompiler(Microsoft.Build.Tasks.Hosting.IVbcHostObject)">
+    <parameter name="vbcHostObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.VCBuild.AppendITaskItemArrayToEnvironmentVariable(Microsoft.Build.Framework.ITaskItem[],System.String)">
+    <parameter name="environmentVariableName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.Build.Tasks.VCBuild.TargetName">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.VCBuild.TryLocationFromRegistry(,System.String,System.String,System.String,System.String,System.String)">
+    <parameter name="messageToLogIfNotFound">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.VisualBasicParserUtilities.Extract(Microsoft.Build.Shared.LanguageParser.VisualBasicTokenizer)">
+    <parameter name="tokens">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.WriteLinesToFile.LogError(Microsoft.Build.Framework.ITaskItem,,System.Boolean@)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.Performance.CodeMarkers.CodeMarkerEx(Microsoft.Internal.Performance.CodeMarkerEvent,System.Byte[])">
+    <parameter name="aBuff">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.CmiManifestSigner.#ctor()">
+    <parameter name="strongNameKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.CmiManifestSigner.#ctor(,System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="strongNameKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.ManifestSignedXml.#ctor(System.Xml.XmlDocument)">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.ManifestSignedXml.#ctor(System.Xml.XmlDocument,System.Boolean)">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.ManifestSignedXml.#ctor(System.Xml.XmlElement)">
+    <parameter name="elem">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.ManifestSignedXml.FindIdElement(System.Xml.XmlElement,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.#ctor(System.Xml.XmlDocument)">
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.AuthenticodeSignLicenseDom(System.Xml.XmlDocument,System.Deployment.Internal.CodeSigning.CmiManifestSigner,System.String)">
+    <parameter name="licenseDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.BytesToHexString(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.ComputeHashFromManifest(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.ComputeHashFromManifest(System.Xml.XmlDocument,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.CreateLicenseDom(System.Deployment.Internal.CodeSigning.CmiManifestSigner,System.Xml.XmlElement,System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="principal">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.ExtractPrincipalFromManifest">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.GetPublicKeyToken(System.Xml.XmlDocument)">
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.HexStringToBytes(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="hexString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.InsertPublisherIdentity(System.Xml.XmlDocument,System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="signerCert">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.RemoveExistingSignature(System.Xml.XmlDocument)">
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.ReplacePublicKeyToken(System.Xml.XmlDocument,)">
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.Sign(System.Deployment.Internal.CodeSigning.CmiManifestSigner)">
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.Sign(System.Deployment.Internal.CodeSigning.CmiManifestSigner,System.String)">
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.StrongNameSignManifestDom(System.Xml.XmlDocument,System.Xml.XmlDocument,System.Deployment.Internal.CodeSigning.CmiManifestSigner)">
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.TimestampSignedLicenseDom(System.Xml.XmlDocument,System.String)">
+    <parameter name="licenseDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

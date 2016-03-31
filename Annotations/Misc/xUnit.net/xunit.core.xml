@@ -1,0 +1,60 @@
+<assembly name="xunit.core">
+
+  <member name="T:Xunit.CollectionDefinitionAttribute">
+    <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor" />
+  </member>
+
+  <!-- Marks anything decorated with [Fact] or derived as in use. Also marks the
+       containing class as in use -->
+  <member name="T:Xunit.FactAttribute">
+    <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor" />
+  </member>
+
+  <member name="M:Xunit.MemberDataAttribute.ConvertDataItem(System.Reflection.MethodInfo, System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>item:null =&gt; null</argument>
+    </attribute>
+  </member>
+
+  <member name="M:Xunit.MemberDataAttributeBase.GetData(System.Reflection.MethodInfo)">
+    <parameter name="testMethod">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+
+  <member name="M:Xunit.Record.Exception(System.Action)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.MustUseReturnValueAttribute.#ctor" />
+    <parameter name="testCode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+
+  <member name="M:Xunit.Record.Exception(System.Func{System.Object})">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.MustUseReturnValueAttribute.#ctor" />
+    <parameter name="testCode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+
+  <member name="M:Xunit.Record.ExceptionAsync(System.Func{System.Threading.Tasks.Task})">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.MustUseReturnValueAttribute.#ctor" />
+    <parameter name="testCode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+
+  <member name="T:Xunit.TraitAttribute">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

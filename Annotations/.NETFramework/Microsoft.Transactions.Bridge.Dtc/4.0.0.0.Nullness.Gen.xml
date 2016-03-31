@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="Microsoft.Transactions.Bridge.Dtc" version="4.0.0.0">
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Callback_Abort(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Callback_Commit(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Callback_EnlistPrePrepare(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Callback_Forget(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Callback_PhaseZero(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Callback_Prepare(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Callback_Rejoin(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Callback_Replay(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Callback_SinglePhaseCommit(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Dummy_DummyCompleted(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.EnterState(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_Abort(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_AckAbort(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_Committed(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_CrashJoined(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine,Microsoft.Transactions.Bridge.Dtc.GatewayTxCrashType,Microsoft.Transactions.Bridge.Dtc.GatewayTxCrashState,System.IntPtr,System.UInt32)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_Error(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine,Microsoft.Transactions.Bridge.Dtc.GatewayTxError)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_Forget(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_Prepare(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_PreparedCommit(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_ReadOnly(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_ResolveChildUsurp(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_ResolveForget(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_SinglePhaseCommitted(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_SinglePhaseIndoubt(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_SinglePhasePrepare(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_Successful(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink_SuperiorJoined(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine,System.Guid)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink2_PhaseZero(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink2_PhaseZeroComplete(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink2_PhaseZeroRegister(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink2_PhaseZeroRegistered(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink2_PhaseZeroRegistrationRejected(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.IGatewayTxSink2_SubordinateJoined(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine,Microsoft.Transactions.Bridge.EnlistmentOptions)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Protocol_Commit(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Protocol_Prepare(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Protocol_PrePrepare(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Protocol_Rollback(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.Disconnecting.Protocol_SinglePhaseCommit(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayProtocolState.IGatewayProtocolSink_Disconnected(Microsoft.Transactions.Bridge.Dtc.GatewayProtocolStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayProtocolState.IGatewayProtocolSink_Error(Microsoft.Transactions.Bridge.Dtc.GatewayProtocolStateMachine,Microsoft.Transactions.Bridge.Dtc.GatewayProtocolError)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayProtocolState.IGatewayProtocolSink_Success(Microsoft.Transactions.Bridge.Dtc.GatewayProtocolStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayProtocolStateMachine.BeginRegisterProtocolInformation(System.Byte[])">
+    <parameter name="protocolInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_Abort(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_AckAbort(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_Committed(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_CrashJoined(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine,Microsoft.Transactions.Bridge.Dtc.GatewayTxCrashType,Microsoft.Transactions.Bridge.Dtc.GatewayTxCrashState,System.IntPtr,System.UInt32)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_Disconnected(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_Error(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine,Microsoft.Transactions.Bridge.Dtc.GatewayTxError)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_Forget(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_Prepare(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_PreparedCommit(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_ProtocolError(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_ReadOnly(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_ResolveChildUsurp(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_ResolveForget(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_SinglePhaseCommitted(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_SinglePhaseIndoubt(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_SinglePhasePrepare(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_Successful(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink_SuperiorJoined(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine,System.Guid)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink2_PhaseZero(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink2_PhaseZeroComplete(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink2_PhaseZeroRegister(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink2_PhaseZeroRegistered(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink2_PhaseZeroRegistrationRejected(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayState.IGatewayTxSink2_SubordinateJoined(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine,Microsoft.Transactions.Bridge.EnlistmentOptions)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine.#ctor(Microsoft.Transactions.Bridge.Enlistment,System.Guid,Microsoft.Transactions.Bridge.IProtocolProviderCoordinatorService,Microsoft.Transactions.Bridge.IProtocolProviderPropagationService)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine.CreateRecoveryData(Microsoft.Transactions.Bridge.Enlistment)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.GatewayTransactionManagerSettings.#ctor(System.Object)">
+    <parameter name="config">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.RegisterProtocolDisconnected.IGatewayProtocolSink_Disconnected(Microsoft.Transactions.Bridge.Dtc.GatewayProtocolStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.RegisterProtocolDisconnected.IGatewayProtocolSink_Error(Microsoft.Transactions.Bridge.Dtc.GatewayProtocolStateMachine,Microsoft.Transactions.Bridge.Dtc.GatewayProtocolError)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.RegisterProtocolDisconnected.IGatewayProtocolSink_Success(Microsoft.Transactions.Bridge.Dtc.GatewayProtocolStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SimpleDisconnecting.Callback_Abort(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SimpleDisconnecting.Dummy_DummyCompleted(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SimpleDisconnecting.ITxBeginSink_Error(Microsoft.Transactions.Bridge.Dtc.SimpleStateMachine,Microsoft.Transactions.Bridge.Dtc.TxBeginError)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SimpleDisconnecting.Protocol_Commit(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SimpleDisconnecting.Protocol_Rollback(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SimpleState.ITxBeginSink_Begun(Microsoft.Transactions.Bridge.Dtc.SimpleStateMachine,System.Guid)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SimpleState.ITxBeginSink_Disconnected(Microsoft.Transactions.Bridge.Dtc.SimpleStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SimpleState.ITxBeginSink_Error(Microsoft.Transactions.Bridge.Dtc.SimpleStateMachine,Microsoft.Transactions.Bridge.Dtc.TxBeginError)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SimpleState.ITxBeginSink_Successful(Microsoft.Transactions.Bridge.Dtc.SimpleStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SimpleStateMachine.#ctor(Microsoft.Transactions.Bridge.Enlistment,System.Guid,Microsoft.Transactions.Bridge.IProtocolProviderCoordinatorService)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.Transactions.Bridge.Dtc.SR.Culture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SR.GetObject(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Callback_Abort(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Callback_Commit(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Callback_EnlistPrePrepare(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Callback_Forget(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Callback_PhaseZero(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Callback_Prepare(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Callback_Rejoin(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Callback_Replay(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Callback_SinglePhaseCommit(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Dummy_DummyCompleted(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.EnterState(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.GetStateName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.InvalidEvent(Microsoft.Transactions.Bridge.Dtc.StateMachine,System.String)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Protocol_Commit(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Protocol_Prepare(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Protocol_PrePrepare(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Protocol_Rollback(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.State.Protocol_SinglePhaseCommit(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.#ctor(_TxOptions_Ver2_*,Microsoft.Transactions.Bridge.EnlistmentOptions)">
+    <parameter name="enlistmentOptions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.#ctor(Microsoft.Transactions.Bridge.Enlistment,System.Guid)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.AbortCallbackImpl(Microsoft.Transactions.Bridge.Enlistment,Microsoft.Transactions.Bridge.Status,System.Object)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.ChangeState(Microsoft.Transactions.Bridge.Dtc.State)">
+    <parameter name="newState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.CommitCallbackImpl(Microsoft.Transactions.Bridge.Enlistment,Microsoft.Transactions.Bridge.Status,System.Object)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.ConvertTransactionOptions(_TxOptions_Ver2_*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.EnlistPrePrepareCallbackImpl(Microsoft.Transactions.Bridge.Enlistment,Microsoft.Transactions.Bridge.Status,System.Object)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.ForgetCallbackImpl(Microsoft.Transactions.Bridge.Enlistment,Microsoft.Transactions.Bridge.Status,System.Object)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.PhaseZeroCallbackImpl(Microsoft.Transactions.Bridge.Enlistment,Microsoft.Transactions.Bridge.Status,System.Object)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.PrepareCallbackImpl(Microsoft.Transactions.Bridge.Enlistment,Microsoft.Transactions.Bridge.Status,System.Object)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.RejoinCallbackImpl(Microsoft.Transactions.Bridge.Enlistment,Microsoft.Transactions.Bridge.Status,System.Object)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.ReplayCallbackImpl(Microsoft.Transactions.Bridge.Enlistment,Microsoft.Transactions.Bridge.Status,System.Object)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.SinglePhaseCommitCallbackImpl(Microsoft.Transactions.Bridge.Enlistment,Microsoft.Transactions.Bridge.Status,System.Object)">
+    <parameter name="enlistment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.StateMachineEvent.GetEventName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.StateMachineEvent.Invoke(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.StateMachine.WriteHistory(System.Text.StringBuilder)">
+    <parameter name="builder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SubordinateAsyncAborting.IGatewayTxSink_Prepare(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SubordinateAsyncAborting.IGatewayTxSink_SinglePhasePrepare(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SubordinateAsyncAborting.IGatewayTxSink2_PhaseZero(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SubordinateGatewayAborting.Callback_PhaseZero(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SubordinatePhaseZeroAborted.Callback_PhaseZero(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SuperiorAborting.Callback_EnlistPrePrepare(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SuperiorAborting.IGatewayTxSink_PreparedCommit(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SuperiorAborting.IGatewayTxSink2_PhaseZeroComplete(Microsoft.Transactions.Bridge.Dtc.GatewayStateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SuperiorActive.EnterState(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SuperiorGatewayAborting.Callback_EnlistPrePrepare(Microsoft.Transactions.Bridge.Dtc.StateMachine,Microsoft.Transactions.Bridge.Status)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SuperiorGatewayAborting.Protocol_Prepare(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SuperiorGatewayAborting.Protocol_PrePrepare(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SuperiorGatewayAborting.Protocol_SinglePhaseCommit(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.SuperiorUnilateralAborting.Protocol_Rollback(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.TraceHelper.FormatMessage(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.TransactionState.EnsureDummyEnlistment(Microsoft.Transactions.Bridge.Dtc.StateMachine)">
+    <parameter name="machine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Transactions.Bridge.Dtc.TransactionState.Get(System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:ModuleLoadExceptionHandlerException.GetObjectData(,)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:ModuleLoadExceptionHandlerException.ToString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>

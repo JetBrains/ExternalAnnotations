@@ -1,0 +1,17 @@
+<assembly name="System.Diagnostics.Debug">
+  <member name="M:System.Diagnostics.Debug.Assert(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:false=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Diagnostics.Debug.Assert(System.Boolean,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:false=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Diagnostics.Debug.WriteLine(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+  </member>
+</assembly>

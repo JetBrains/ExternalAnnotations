@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="SMDiagnostics, Version=3.0.0.0">
+  <member name="P:System.ServiceModel.Configuration.MachineSettingsSection.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.Activity.CreateActivity(System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.AssertUtility.DebugAssert(System.Boolean,System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.AssertUtility.DebugAssert(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.AssertUtility.DebugAssertCore(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.CallbackException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.DiagnosticTrace.AddExceptionToTraceString(System.Xml.XmlWriter,System.Exception)">
+    <parameter name="xml">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.DiagnosticTrace.BuildTrace(System.ServiceModel.Diagnostics.PlainXmlWriter,System.Diagnostics.TraceEventType,System.ServiceModel.Diagnostics.TraceCode,System.String,System.ServiceModel.Diagnostics.TraceRecord,System.Exception,System.Object)">
+    <parameter name="xml">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.DiagnosticTrace.CreateSourceString(System.Object)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.DiagnosticTrace.GenerateTraceCode(System.ServiceModel.Diagnostics.TraceCode)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.DiagnosticTrace.StackTraceString(System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.DiagnosticTrace.UnhandledExceptionHandler(System.Object,System.UnhandledExceptionEventArgs)">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.DiagnosticTrace.UnsafeRemoveDefaultTraceListener(System.ServiceModel.Diagnostics.PiiTraceSource)">
+    <parameter name="piiTraceSource">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.DiagnosticTraceSource.#ctor(System.String,System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.DiagnosticTraceSource.#ctor(System.String,System.String,System.Diagnostics.SourceLevels)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.EventLogger.LogEvent(System.Diagnostics.TraceEventType,System.ServiceModel.Diagnostics.EventLogCategory,System.ServiceModel.Diagnostics.EventLogEventId,System.Boolean,System.String[])">
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.EventLogger.LogEvent(System.Diagnostics.TraceEventType,System.ServiceModel.Diagnostics.EventLogCategory,System.ServiceModel.Diagnostics.EventLogEventId,System.String[])">
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.EventLogger.NormalizeEventLogParameter(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="param">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.EventLogger.SafeLogEvent(System.Diagnostics.TraceEventType,System.ServiceModel.Diagnostics.EventLogCategory,System.ServiceModel.Diagnostics.EventLogEventId,System.Boolean,System.String[])">
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.EventLogger.UnsafeCreateEventLogger(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.EventLogger.UnsafeLogEvent(System.Diagnostics.TraceEventType,System.ServiceModel.Diagnostics.EventLogCategory,System.ServiceModel.Diagnostics.EventLogEventId,System.Boolean,System.String[])">
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.EventLogger.UnsafeWriteEventLog(System.Diagnostics.TraceEventType,System.ServiceModel.Diagnostics.EventLogCategory,System.ServiceModel.Diagnostics.EventLogEventId,System.String[],System.Byte[],System.Runtime.InteropServices.GCHandle)">
+    <parameter name="logValues">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.ExceptionUtility.InternalException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.ExceptionUtility.ThrowHelper(System.Exception,System.Diagnostics.TraceEventType)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.ExceptionUtility.ThrowHelper(System.Exception,System.Diagnostics.TraceEventType,System.ServiceModel.Diagnostics.TraceRecord)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.ExceptionUtility.ThrowHelperArgument(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.ExceptionUtility.ThrowHelperArgument(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.ExceptionUtility.ThrowHelperArgumentNull(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.ExceptionUtility.ThrowHelperArgumentNull(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.ExceptionUtility.ThrowHelperCallback(System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.ExceptionUtility.ThrowHelperCallback(System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.ExceptionUtility.ThrowHelperCritical(System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.ExceptionUtility.ThrowHelperError(System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.ExceptionUtility.ThrowHelperFatal(System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.ExceptionUtility.ThrowHelperInternal(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.ExceptionUtility.ThrowHelperWarning(System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.FatalException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PiiTraceSource.#ctor(System.String,System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PiiTraceSource.#ctor(System.String,System.String,System.Diagnostics.SourceLevels)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PiiTraceSource.GetSupportedAttributes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PlainXmlWriter.LookupPrefix(System.String)">
+    <parameter name="ns">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PlainXmlWriter.WriteBase64(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PlainXmlWriter.WriteCData(System.String)">
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PlainXmlWriter.WriteComment(System.String)">
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PlainXmlWriter.WriteDocType(System.String,System.String,System.String,System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sysid">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PlainXmlWriter.WriteEntityRef(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PlainXmlWriter.WriteProcessingInstruction(System.String,System.String)">
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PlainXmlWriter.WriteRaw(System.Char[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PlainXmlWriter.WriteRaw(System.String)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PlainXmlWriter.WriteStartAttribute(System.String,System.String,System.String)">
+    <parameter name="ns">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PlainXmlWriter.WriteStartElement(System.String,System.String,System.String)">
+    <parameter name="ns">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PlainXmlWriter.WriteString(System.String)">
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PlainXmlWriter.WriteValue(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.PlainXmlWriter.WriteWhitespace(System.String)">
+    <parameter name="ws">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Diagnostics.PlainXmlWriter.XmlLang">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.SafeEventLogWriteHandle.RegisterEventSource(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Diagnostics.TraceRecord.EventId">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.TraceRecord.WriteTo(System.Xml.XmlWriter)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Diagnostics.TraceSR.Culture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.TraceSR.GetObject(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.TraceSR.GetString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.TraceSR.GetString(System.String,System.Object[])">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Diagnostics.TraceXPathNavigator.BaseURI">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Diagnostics.TraceXPathNavigator.CurrentComment">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Diagnostics.TraceXPathNavigator.CurrentElement">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Diagnostics.TraceXPathNavigator.CurrentProcessingInstruction">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.TraceXPathNavigator.LookupPrefix(System.String,System.ServiceModel.Diagnostics.TraceXPathNavigator.ElementNode)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.TraceXPathNavigator.MaskSubnodes(System.ServiceModel.Diagnostics.TraceXPathNavigator.ElementNode,System.String[])">
+    <parameter name="elementNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.TraceXPathNavigator.MaskSubnodes(System.ServiceModel.Diagnostics.TraceXPathNavigator.ElementNode,System.String[],System.Boolean)">
+    <parameter name="elementNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.TraceXPathNavigator.MoveToId(System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.TraceXPathNavigator.RemovePii(System.String[],System.String[])">
+    <parameter name="piiList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.TraceXPathNavigator.RemovePii(System.String[][])">
+    <parameter name="paths">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.TraceXPathNavigator.ToString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.TraceXPathNavigator.VerifySize(System.ServiceModel.Diagnostics.TraceXPathNavigator.IMeasurable)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.TraceXPathNavigator.VerifySize(System.String)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.Utility.AllocateByteArray(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.Utility.AllocateCharArray(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Diagnostics.Utility.AsyncThunk.ThunkFrame">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.Utility.CreateGuid(System.String)">
+    <parameter name="guidString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Diagnostics.Utility.IOCompletionThunk.ThunkFrame">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.Utility.ThunkCallback(System.AsyncCallback)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.Utility.ThunkCallback(System.Threading.IOCompletionCallback)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.Utility.ThunkCallback(System.Threading.TimerCallback)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.Utility.ThunkCallback(System.Threading.WaitCallback)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.Utility.ThunkCallback(System.Threading.WaitOrTimerCallback)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Diagnostics.Utility.TimerThunk.ThunkFrame">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Diagnostics.Utility.TryCreateGuid(System.String,System.Guid@)">
+    <parameter name="guidString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Diagnostics.Utility.WaitOrTimerThunk.ThunkFrame">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Diagnostics.Utility.WaitThunk.ThunkFrame">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>

@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.DirectoryServices.Protocols, Version=4.0.0.0">
+  <member name="M:System.DirectoryServices.Protocols.AddRequest.#ctor(System.String,System.String)">
+    <parameter name="objectClass">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.BerConversionException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.BerConverter.Decode(System.String,System.Byte[])">
+    <parameter name="format">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.BerConverter.Encode(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="format">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.CompareRequest.#ctor(System.String,System.DirectoryServices.Protocols.DirectoryAttribute)">
+    <parameter name="assertion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.CompareRequest.#ctor(System.String,System.String,System.Byte[])">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.CompareRequest.#ctor(System.String,System.String,System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.CompareRequest.#ctor(System.String,System.String,System.Uri)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttribute.#ctor(System.String,System.Object[])">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttribute.AddRange(System.Object[])">
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttribute.Contains(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttribute.CopyTo(System.Object[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttribute.GetValues(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="valuesType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttribute.IndexOf(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttribute.Remove(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeCollection.Add(System.DirectoryServices.Protocols.DirectoryAttribute)">
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeCollection.AddRange(System.DirectoryServices.Protocols.DirectoryAttribute[])">
+    <parameter name="attributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeCollection.AddRange(System.DirectoryServices.Protocols.DirectoryAttributeCollection)">
+    <parameter name="attributeCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeCollection.Contains(System.DirectoryServices.Protocols.DirectoryAttribute)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeCollection.CopyTo(System.DirectoryServices.Protocols.DirectoryAttribute[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeCollection.IndexOf(System.DirectoryServices.Protocols.DirectoryAttribute)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeCollection.Insert(System.Int32,System.DirectoryServices.Protocols.DirectoryAttribute)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeCollection.Remove(System.DirectoryServices.Protocols.DirectoryAttribute)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection.Add(System.DirectoryServices.Protocols.DirectoryAttributeModification)">
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection.AddRange(System.DirectoryServices.Protocols.DirectoryAttributeModification[])">
+    <parameter name="attributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection.AddRange(System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection)">
+    <parameter name="attributeCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection.Contains(System.DirectoryServices.Protocols.DirectoryAttributeModification)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection.CopyTo(System.DirectoryServices.Protocols.DirectoryAttributeModification[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection.IndexOf(System.DirectoryServices.Protocols.DirectoryAttributeModification)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection.Insert(System.Int32,System.DirectoryServices.Protocols.DirectoryAttributeModification)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryAttributeModificationCollection.Remove(System.DirectoryServices.Protocols.DirectoryAttributeModification)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryConnection.SendRequest(System.DirectoryServices.Protocols.DirectoryRequest)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryControl.#ctor(System.String,System.Byte[],System.Boolean,System.Boolean)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryControl.GetValue">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryControlCollection.Add(System.DirectoryServices.Protocols.DirectoryControl)">
+    <parameter name="control">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryControlCollection.AddRange(System.DirectoryServices.Protocols.DirectoryControl[])">
+    <parameter name="controls">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryControlCollection.AddRange(System.DirectoryServices.Protocols.DirectoryControlCollection)">
+    <parameter name="controlCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryControlCollection.Contains(System.DirectoryServices.Protocols.DirectoryControl)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryControlCollection.CopyTo(System.DirectoryServices.Protocols.DirectoryControl[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryControlCollection.IndexOf(System.DirectoryServices.Protocols.DirectoryControl)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryControlCollection.Insert(System.Int32,System.DirectoryServices.Protocols.DirectoryControl)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryControlCollection.Remove(System.DirectoryServices.Protocols.DirectoryControl)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryOperationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryOperationException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DirectoryRequest.ToXmlNode(System.Xml.XmlDocument)">
+    <parameter name="doc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.DirectoryResponse.Controls">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.DirectoryResponse.Referral">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.DirSyncResponseControl.Cookie">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlDirectoryIdentifier.#ctor(System.Uri)">
+    <parameter name="serverUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlDocument.ToXml">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlInvalidDocumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlRequestDocument.Add(System.DirectoryServices.Protocols.DirectoryRequest)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlRequestDocument.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlRequestDocument.IndexOf(System.DirectoryServices.Protocols.DirectoryRequest)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlRequestDocument.Insert(System.Int32,System.DirectoryServices.Protocols.DirectoryRequest)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlRequestDocument.Remove(System.DirectoryServices.Protocols.DirectoryRequest)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlResponseDocument.#ctor(System.Net.HttpWebResponse,System.String)">
+    <parameter name="xpathToResponse">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="resp">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlResponseDocument.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlSoapHttpConnection.#ctor(System.DirectoryServices.Protocols.DsmlDirectoryIdentifier)">
+    <parameter name="identifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlSoapHttpConnection.#ctor(System.DirectoryServices.Protocols.DsmlDirectoryIdentifier,System.Net.NetworkCredential)">
+    <parameter name="identifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlSoapHttpConnection.#ctor(System.DirectoryServices.Protocols.DsmlDirectoryIdentifier,System.Net.NetworkCredential,System.DirectoryServices.Protocols.AuthType)">
+    <parameter name="identifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlSoapHttpConnection.#ctor(System.Uri)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlSoapHttpConnection.Abort(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlSoapHttpConnection.BeginSendRequest(System.DirectoryServices.Protocols.DsmlRequestDocument,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlSoapHttpConnection.EndSendRequest(System.IAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlSoapHttpConnection.ExtractSessionID(System.Net.HttpWebResponse)">
+    <parameter name="resp">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlSoapHttpConnection.PrepareHttpWebRequest(System.Net.HttpWebRequest)">
+    <parameter name="dsmlConnection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlSoapHttpConnection.SendRequest(System.DirectoryServices.Protocols.DirectoryRequest)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.DsmlSoapHttpConnection.SendRequest(System.DirectoryServices.Protocols.DsmlRequestDocument)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.ErrorResponseException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.ErrorResponseException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.ExtendedResponse.ResponseValue">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.LdapConnection.Abort(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.LdapConnection.BeginSendRequest(System.DirectoryServices.Protocols.DirectoryRequest,System.DirectoryServices.Protocols.PartialResultProcessing,System.AsyncCallback,System.Object)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.LdapConnection.BeginSendRequest(System.DirectoryServices.Protocols.DirectoryRequest,System.TimeSpan,System.DirectoryServices.Protocols.PartialResultProcessing,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.LdapConnection.EndSendRequest(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.LdapConnection.GetPartialResults(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.LdapConnection.SendRequest(System.DirectoryServices.Protocols.DirectoryRequest,System.TimeSpan)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.LdapDirectoryIdentifier.Servers">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.LdapException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.LdapException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.LdapSessionOptions.ProcessQueryConnection(System.IntPtr,System.IntPtr,System.IntPtr,System.String,System.Int32,System.DirectoryServices.Protocols.SEC_WINNT_AUTH_IDENTITY_EX,System.DirectoryServices.Protocols.Luid,System.IntPtr@)">
+    <parameter name="CurrentUserToken">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.LdapSessionOptions.SecurityContext">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.LdapSessionOptions.SslInformation">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.ModifyRequest.#ctor(System.String,System.DirectoryServices.Protocols.DirectoryAttributeModification[])">
+    <parameter name="modifications">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.ModifyRequest.#ctor(System.String,System.DirectoryServices.Protocols.DirectoryAttributeOperation,System.String,System.Object[])">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.PageResultResponseControl.Cookie">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.PartialResultsCollection.IndexOf(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.SearchResultAttributeCollection.AttributeNames">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.SearchResultAttributeCollection.Contains(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.SearchResultAttributeCollection.CopyTo(System.DirectoryServices.Protocols.DirectoryAttribute[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.SearchResultAttributeCollection.Item(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.SearchResultAttributeCollection.Values">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.SearchResultEntry.Controls">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.SearchResultEntryCollection.IndexOf(System.DirectoryServices.Protocols.SearchResultEntry)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.SearchResultReference.Controls">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.SearchResultReference.Reference">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.SearchResultReferenceCollection.IndexOf(System.DirectoryServices.Protocols.SearchResultReference)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.SortRequestControl.#ctor(System.DirectoryServices.Protocols.SortKey[])">
+    <parameter name="sortKeys">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.SortRequestControl.SortKeys">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.TlsOperationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.VerifyNameControl.#ctor(System.String)">
+    <parameter name="serverName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.Protocols.VerifyNameControl.#ctor(System.String,System.Int32)">
+    <parameter name="serverName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.Protocols.VlvResponseControl.ContextId">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>

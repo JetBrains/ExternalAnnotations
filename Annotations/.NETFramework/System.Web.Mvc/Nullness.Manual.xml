@@ -1,0 +1,118 @@
+<assembly name="System.Web.Mvc">
+  <member name="M:System.Web.Mvc.ModelStateDictionary.#ctor(System.Web.Mvc.ModelStateDictionary)">
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Web.Mvc.ModelStateDictionary.AddModelError(System.String,System.Exception)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Web.Mvc.ModelStateDictionary.AddModelError(System.String,System.String)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Web.Mvc.ModelStateDictionary.SetModelValue(System.String,System.Web.Mvc.ValueProviderResult)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Web.Mvc.ModelStateDictionary.IsValidField(System.String)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Web.Mvc.HandleErrorInfo.#ctor(System.Exception,System.String,System.String)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="controllerName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Web.Mvc.HandleErrorInfo.Exception">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Web.Mvc.HandleErrorInfo.ControllerName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Web.Mvc.HandleErrorInfo.ActionName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+
+  <!-- Path related -->
+  <member name="M:System.Web.Mvc.UrlHelper.Action(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.Action(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.Action(System.String,System.Web.Routing.RouteValueDictionary)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.Action(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.Action(System.String,System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.Action(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.Action(System.String,System.String,System.Object,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.Action(System.String,System.String,System.Web.Routing.RouteValueDictionary,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.Content(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="contentPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.GenerateContentUrl(System.String,System.Web.HttpContextBase)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="contentPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="httpContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.GenerateUrl(System.String,System.String,System.String,System.String,System.String,System.String,System.Web.Routing.RouteValueDictionary,System.Web.Routing.RouteCollection,System.Web.Routing.RequestContext,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.GenerateUrl(System.String,System.String,System.String,System.Web.Routing.RouteValueDictionary,System.Web.Routing.RouteCollection,System.Web.Routing.RequestContext,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.HttpRouteUrl(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.HttpRouteUrl(System.String,System.Web.Routing.RouteValueDictionary)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.RouteUrl(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.RouteUrl(System.Web.Routing.RouteValueDictionary)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.RouteUrl(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.RouteUrl(System.String,System.Web.Routing.RouteValueDictionary)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.RouteUrl(System.String,System.Object,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Web.Mvc.UrlHelper.RouteUrl(System.String,System.Web.Routing.RouteValueDictionary,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+</assembly>

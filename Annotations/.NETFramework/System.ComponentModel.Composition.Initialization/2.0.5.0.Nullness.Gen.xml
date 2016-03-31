@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.ComponentModel.Composition.Initialization, Version=2.0.5.0">
+  <member name="M:Microsoft.Internal.ReadLock.#ctor(Microsoft.Internal.Lock)">
+    <parameter name="lock">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.Requires.NotNull``1(``0,System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.Requires.NotNullOrEmpty(System.String,System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.WriteLock.#ctor(Microsoft.Internal.Lock)">
+    <parameter name="lock">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.CompositionInitializer.CreateCompositionContainer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.CompositionInitializer.GetAssemblyList">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.CompositionInitializer.SatisfyImports()">
+    <parameter name="part">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.CompositionInitializer.SatisfyImports(System.Object)">
+    <parameter name="attributedPart">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ExportFactory`1.#ctor()">
+    <parameter name="exportLifetimeContextCreator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.ExportFactory`1.CreateExport">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.ExportFactory`2.#ctor(,`1)">
+    <parameter name="exportLifetimeContextCreator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionHost.Initialize()">
+    <parameter name="container">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.CompositionHost.Initialize([])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.DeploymentCatalog.#ctor()">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.DeploymentCatalog.#ctor(System.String)">
+    <parameter name="uriRelative">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.DeploymentCatalog.DiscoverParts(System.Collections.Generic.IEnumerable{System.Reflection.Assembly})">
+    <parameter name="assemblies">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.DeploymentCatalog.GetExports()">
+    <parameter name="definition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ComponentModel.Composition.Hosting.Package.CurrentAssemblies">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.Package.GetDeploymentParts()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ComponentModel.Composition.Hosting.Package.LoadPackagedAssemblies(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="packageStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ComponentModel.Composition.Strings.ArgumentException_EmptyString">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ComponentModel.Composition.Strings.ArgumentException_TypeHasExports">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ComponentModel.Composition.Strings.InvalidOperationException_DeploymentCatalogInvalidStateChange">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ComponentModel.Composition.Strings.InvalidOperationException_ErrorReadingXap">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ComponentModel.Composition.Strings.InvalidOperationException_GlobalContainerAlreadyInitialized">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+</assembly>

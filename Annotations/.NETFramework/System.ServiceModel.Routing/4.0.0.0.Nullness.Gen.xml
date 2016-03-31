@@ -1,0 +1,1273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.ServiceModel.Routing" version="4.0.0.0">
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousChannelBase`1.#ctor(System.ServiceModel.Channels.ChannelManagerBase,`0)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousChannelBase`1.OnBeginOpen(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousChannelFactory`1.OnBeginOpen(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousDuplexChannel.#ctor(System.ServiceModel.Channels.ChannelManagerBase,System.ServiceModel.Channels.IDuplexChannel)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousDuplexChannelBase`1.#ctor(System.ServiceModel.Channels.ChannelManagerBase,`0)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousDuplexChannelBase`1.EndReceive(System.IAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousDuplexChannelBase`1.EndTryReceive(System.IAsyncResult,System.ServiceModel.Channels.Message@)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousDuplexChannelBase`1.EndWaitForMessage(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousDuplexChannelBase`1.Receive">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousDuplexChannelBase`1.Receive(System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousDuplexSessionChannel.#ctor(System.ServiceModel.Channels.ChannelManagerBase,System.ServiceModel.Channels.IDuplexSessionChannel)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousOutputChannel.#ctor(System.ServiceModel.Channels.ChannelManagerBase,System.ServiceModel.Channels.IOutputChannel)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousOutputChannelBase`1.#ctor(System.ServiceModel.Channels.ChannelManagerBase,`0)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousOutputChannelBase`1.BeginSend(System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousOutputChannelBase`1.BeginSend(System.ServiceModel.Channels.Message,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousOutputChannelBase`1.EndSend(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousOutputChannelBase`1.RemoteAddress">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousOutputChannelBase`1.Send(System.ServiceModel.Channels.Message)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousOutputChannelBase`1.Send(System.ServiceModel.Channels.Message,System.TimeSpan)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousOutputChannelBase`1.Via">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousOutputSessionChannel.#ctor(System.ServiceModel.Channels.ChannelManagerBase,System.ServiceModel.Channels.IOutputSessionChannel)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousRequestChannel.#ctor(System.ServiceModel.Channels.ChannelManagerBase,System.ServiceModel.Channels.IRequestChannel)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousRequestChannelBase`1.#ctor(System.ServiceModel.Channels.ChannelManagerBase,`0)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousRequestChannelBase`1.BeginRequest(System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousRequestChannelBase`1.BeginRequest(System.ServiceModel.Channels.Message,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousRequestChannelBase`1.EndRequest(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousRequestChannelBase`1.Request(System.ServiceModel.Channels.Message)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousRequestChannelBase`1.Request(System.ServiceModel.Channels.Message,System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronousSendBindingElement.SynchronousRequestSessionChannel.#ctor(System.ServiceModel.Channels.ChannelManagerBase,System.ServiceModel.Channels.IRequestSessionChannel)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.EndpointNameMessageFilter.#ctor(System.String)">
+    <parameter name="endpointName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.EndpointNameMessageFilter.MatchInternal(System.ServiceModel.Channels.MessageProperties)">
+    <parameter name="messageProperties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.EndpointNameMessageFilter.Set(System.ServiceModel.Channels.MessageProperties,System.String)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.EndpointNameMessageFilter.Validate(System.Collections.Generic.HashSet{System.String})">
+    <parameter name="endpoints">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.EndpointNameMessageFilter.Validate(System.Collections.Generic.ICollection{System.ServiceModel.Dispatcher.MessageFilter},System.Collections.Generic.HashSet{System.String})">
+    <parameter name="messageFilters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="endpoints">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.#ctor(System.ServiceModel.Dispatcher.MessageFilter,System.ServiceModel.Dispatcher.MessageFilter)">
+    <parameter name="filter1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="filter2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.CreateFilterTable``1">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.Match(System.ServiceModel.Channels.Message)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.Match(System.ServiceModel.Channels.MessageBuffer)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.Add(System.ServiceModel.Dispatcher.MessageFilter,`0)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.ContainsKey(System.ServiceModel.Dispatcher.MessageFilter)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.CopyTo(System.Collections.Generic.KeyValuePair{System.ServiceModel.Dispatcher.MessageFilter,`0}[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.FindMatchingAndFilters(System.Collections.Generic.List{System.ServiceModel.Dispatcher.MessageFilter})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="firstPassResults">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.GetMatchingFilter(System.ServiceModel.Channels.Message,System.ServiceModel.Dispatcher.MessageFilter@)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.GetMatchingFilter(System.ServiceModel.Channels.MessageBuffer,System.ServiceModel.Dispatcher.MessageFilter@)">
+    <parameter name="messageBuffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.GetMatchingFilters(System.ServiceModel.Channels.Message,System.Collections.Generic.ICollection{System.ServiceModel.Dispatcher.MessageFilter})">
+    <parameter name="results">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.GetMatchingFilters(System.ServiceModel.Channels.MessageBuffer,System.Collections.Generic.ICollection{System.ServiceModel.Dispatcher.MessageFilter})">
+    <parameter name="results">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="messageBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.GetMatchingValue(System.ServiceModel.Channels.Message,`0@)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.GetMatchingValue(System.ServiceModel.Channels.MessageBuffer,`0@)">
+    <parameter name="messageBuffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.GetMatchingValues(System.ServiceModel.Channels.Message,System.Collections.Generic.ICollection{`0})">
+    <parameter name="results">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.GetMatchingValues(System.ServiceModel.Channels.MessageBuffer,System.Collections.Generic.ICollection{`0})">
+    <parameter name="messageBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="results">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.Item(System.ServiceModel.Dispatcher.MessageFilter)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.Keys">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.Remove(System.ServiceModel.Dispatcher.MessageFilter)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.TryGetValue(System.ServiceModel.Dispatcher.MessageFilter,`0@)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Dispatcher.StrictAndMessageFilter.StrictAndMessageFilterTable`1.Values">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.Create(System.ServiceModel.Routing.RoutingEndpointTrait,System.ServiceModel.Routing.RoutingService,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="endpointTrait">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="service">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.DuplexSessionClient.#ctor(System.ServiceModel.Routing.RoutingService,System.ServiceModel.Routing.RoutingEndpointTrait,System.Boolean)">
+    <parameter name="service">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="endpointTrait">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.DuplexSessionClient.DuplexCallbackProxy.CallbackAsyncResult.#ctor(System.ServiceModel.Routing.IDuplexRouterCallback,System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <parameter name="callbackInstance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.DuplexSessionClient.DuplexCallbackProxy.CallbackAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.DuplexSessionClient.DuplexCallbackProxy.CallbackAsyncResult.ProcessCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.DuplexSessionClient.DuplexCallbackProxy.System#ServiceModel#Routing#IDuplexRouterCallback#BeginProcessMessage(System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.DuplexSessionClient.DuplexCallbackProxy.System#ServiceModel#Routing#IDuplexRouterCallback#EndProcessMessage(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.DuplexSessionClient.OnBeginOperation(System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RequestReplyClient.#ctor(System.ServiceModel.Routing.RoutingEndpointTrait,System.ServiceModel.Routing.RoutingConfiguration,System.Boolean)">
+    <parameter name="endpointTrait">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="routingConfig">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RoutingClientBase`1.#ctor(System.ServiceModel.Routing.RoutingEndpointTrait,System.ServiceModel.Routing.RoutingConfiguration,System.Boolean)">
+    <parameter name="endpointTrait">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="routingConfig">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RoutingClientBase`1.#ctor(System.ServiceModel.Routing.RoutingEndpointTrait,System.ServiceModel.Routing.RoutingConfiguration,System.Object,System.Boolean)">
+    <parameter name="endpointTrait">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="routingConfig">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RoutingClientBase`1.BeginOperation(System.ServiceModel.Channels.Message,System.Transactions.Transaction,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RoutingClientBase`1.ConfigureImpersonation(System.ServiceModel.Description.ServiceEndpoint,System.Boolean)">
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RoutingClientBase`1.ConfigureTransactionFlow(System.ServiceModel.Description.ServiceEndpoint)">
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RoutingClientBase`1.EndOperation(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RoutingClientBase`1.Initialize(System.ServiceModel.Routing.RoutingEndpointTrait,System.ServiceModel.Routing.RoutingConfiguration,System.Boolean)">
+    <parameter name="endpointTrait">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="routingConfig">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RoutingClientBase`1.OnBeginOperation(System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RoutingClientBase`1.OnEndOperation(System.IAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RoutingClientBase`1.OperationAsyncResult.#ctor(System.ServiceModel.Routing.ClientFactory.RoutingClientBase{`0},System.ServiceModel.Channels.Message,System.Transactions.Transaction,System.AsyncCallback,System.Object)">
+    <parameter name="parent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RoutingClientBase`1.OperationAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RoutingClientBase`1.OperationAsyncResult.OpenComplete(System.IAsyncResult)">
+    <parameter name="openResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RoutingClientBase`1.OperationAsyncResult.OperationComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.RoutingClientBase`1.OperationAsyncResult.SignalWaiter(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.SimplexDatagramClient.#ctor(System.ServiceModel.Routing.RoutingEndpointTrait,System.ServiceModel.Routing.RoutingConfiguration,System.Boolean)">
+    <parameter name="endpointTrait">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="routingConfig">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.SimplexDatagramClient.OnBeginOperation(System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.SimplexSessionClient.#ctor(System.ServiceModel.Routing.RoutingEndpointTrait,System.ServiceModel.Routing.RoutingConfiguration,System.Boolean)">
+    <parameter name="endointTrait">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="routingConfig">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ClientFactory.SimplexSessionClient.OnBeginOperation(System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.BackupEndpointCollection.Add(System.ServiceModel.Routing.Configuration.BackupEndpointElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.BackupEndpointCollection.CreateAlternateEndpoints">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.BackupEndpointCollection.CreateNewElement">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.BackupEndpointCollection.Remove(System.ServiceModel.Routing.Configuration.BackupEndpointElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.BackupListCollection.Add(System.ServiceModel.Routing.Configuration.BackupEndpointCollection)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.BackupListCollection.CreateNewElement">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Routing.Configuration.BackupListCollection.Item(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.BackupListCollection.Remove(System.ServiceModel.Routing.Configuration.BackupEndpointCollection)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.FilterElement.CreateCustomFilter(System.String,System.String)">
+    <parameter name="customType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.FilterElement.CreateFilter(System.Xml.XmlNamespaceManager,System.ServiceModel.Routing.Configuration.FilterElementCollection)">
+    <parameter name="filters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.FilterElementCollection.Add(System.ServiceModel.Routing.Configuration.FilterElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.FilterElementCollection.CreateNewElement">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.FilterElementCollection.IsElementRemovable(System.Configuration.ConfigurationElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Routing.Configuration.FilterElementCollection.Item(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.FilterElementCollection.Remove(System.ServiceModel.Routing.Configuration.FilterElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.FilterTableCollection.Add(System.ServiceModel.Routing.Configuration.FilterTableEntryCollection)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.FilterTableCollection.CreateNewElement">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Routing.Configuration.FilterTableCollection.Item(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.FilterTableCollection.Remove(System.ServiceModel.Routing.Configuration.FilterTableEntryCollection)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.FilterTableEntryCollection.Add(System.ServiceModel.Routing.Configuration.FilterTableEntryElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.FilterTableEntryCollection.CreateNewElement">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.FilterTableEntryCollection.Remove(System.ServiceModel.Routing.Configuration.FilterTableEntryElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.NamespaceElementCollection.Add(System.ServiceModel.Routing.Configuration.NamespaceElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.NamespaceElementCollection.CreateNewElement">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Routing.Configuration.NamespaceElementCollection.Item(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.NamespaceElementCollection.Remove(System.ServiceModel.Routing.Configuration.NamespaceElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Routing.Configuration.RoutingExtensionElement.BehaviorType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.RoutingExtensionElement.CreateBehavior">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.RoutingSection.CreateFilterTable(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Routing.Configuration.SoapProcessingExtensionElement.BehaviorType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.Configuration.SoapProcessingExtensionElement.CreateBehavior">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.DelegatingHeader.OnWriteHeaderContents(System.Xml.XmlDictionaryWriter,System.ServiceModel.Channels.MessageVersion)">
+    <parameter name="messageVersion">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.DelegatingHeader.OnWriteStartHeader(System.Xml.XmlDictionaryWriter,System.ServiceModel.Channels.MessageVersion)">
+    <parameter name="messageVersion">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Routing.FxTrace.EventLog">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.FxTrace.InitializeTracing">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.FxTrace.UpdateLevel(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.GenericTransactionFlowAttribute.System#ServiceModel#Description#IOperationBehavior#AddBindingParameters(System.ServiceModel.Description.OperationDescription,System.ServiceModel.Channels.BindingParameterCollection)">
+    <parameter name="bindingParameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="operationDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.GenericTransactionFlowAttribute.System#ServiceModel#Description#IOperationBehavior#ApplyClientBehavior(System.ServiceModel.Description.OperationDescription,System.ServiceModel.Dispatcher.ClientOperation)">
+    <parameter name="clientOperation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="operationDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.GenericTransactionFlowAttribute.System#ServiceModel#Description#IOperationBehavior#ApplyDispatchBehavior(System.ServiceModel.Description.OperationDescription,System.ServiceModel.Dispatcher.DispatchOperation)">
+    <parameter name="dispatchOperation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="operationDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.MessageRpc.#ctor(System.ServiceModel.Channels.Message,System.ServiceModel.OperationContext,System.Boolean)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.MessageRpc.CallState.#ctor(System.ServiceModel.Routing.MessageRpc)">
+    <parameter name="messageRpc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.MessageRpc.CreateBuffer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.MessageRpc.PrepareCall">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.MessageRpc.RouteToEndpoints``1(System.ServiceModel.Routing.RoutingConfiguration)">
+    <parameter name="routingConfig">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.MessageRpc.RouteToSingleEndpoint``1(System.ServiceModel.Routing.RoutingConfiguration)">
+    <parameter name="routingConfig">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ProcessMessagesAsyncResult`1.#ctor(System.ServiceModel.Channels.Message,System.ServiceModel.Routing.RoutingService,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="service">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ProcessMessagesAsyncResult`1.ChannelCloseCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ProcessMessagesAsyncResult`1.ChannelCloseComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ProcessMessagesAsyncResult`1.ClientOperationCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ProcessMessagesAsyncResult`1.ClientOperationComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ProcessMessagesAsyncResult`1.CommitTransactionCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ProcessMessagesAsyncResult`1.CommitTransactionCompleted(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ProcessMessagesAsyncResult`1.CompleteReceiveContextCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ProcessMessagesAsyncResult`1.CompleteReceiveContextCompleted(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ProcessMessagesAsyncResult`1.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ProcessRequestAsyncResult`1.#ctor(System.ServiceModel.Routing.RoutingService,System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <parameter name="service">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ProcessRequestAsyncResult`1.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ProcessRequestAsyncResult`1.OperationCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.ProcessRequestAsyncResult`1.OperationComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.#ctor(System.ServiceModel.Routing.RoutingConfiguration)">
+    <parameter name="routingConfiguration">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.GetContractForDescription(System.ServiceModel.Description.ContractDescription)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="description">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.RoutingEndpointBehavior.#ctor(System.ServiceModel.Description.ServiceEndpoint)">
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.RoutingEndpointBehavior.AddBindingParameters(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Channels.BindingParameterCollection)">
+    <parameter name="bindingParameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.RoutingEndpointBehavior.ApplyClientBehavior(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.ClientRuntime)">
+    <parameter name="clientRuntime">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.RoutingEndpointBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.EndpointDispatcher)">
+    <parameter name="endpointDispatcher">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.RoutingEndpointBehavior.System#ServiceModel#Dispatcher#IChannelInitializer#Initialize(System.ServiceModel.IClientChannel)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.RoutingEndpointBehavior.System#ServiceModel#Dispatcher#IInputSessionShutdown#ChannelFaulted(System.ServiceModel.IDuplexContextChannel)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.RoutingEndpointBehavior.System#ServiceModel#Dispatcher#IInputSessionShutdown#DoneReceiving(System.ServiceModel.IDuplexContextChannel)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.RoutingEndpointBehavior.Validate(System.ServiceModel.Description.ServiceEndpoint)">
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.System#ServiceModel#Description#IServiceBehavior#AddBindingParameters(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase,System.Collections.ObjectModel.Collection{System.ServiceModel.Description.ServiceEndpoint},System.ServiceModel.Channels.BindingParameterCollection)">
+    <parameter name="bindingParameters">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.System#ServiceModel#Description#IServiceBehavior#ApplyDispatchBehavior(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+    <parameter name="serviceDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceHostBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.System#ServiceModel#Description#IServiceBehavior#Validate(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+    <parameter name="serviceHostBase">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.TransactedReceiveOperationBehavior.AddBindingParameters(System.ServiceModel.Description.OperationDescription,System.ServiceModel.Channels.BindingParameterCollection)">
+    <parameter name="bindingParameters">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="operationDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.TransactedReceiveOperationBehavior.ApplyClientBehavior(System.ServiceModel.Description.OperationDescription,System.ServiceModel.Dispatcher.ClientOperation)">
+    <parameter name="clientOperation">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="operationDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingBehavior.TransactedReceiveOperationBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.OperationDescription,System.ServiceModel.Dispatcher.DispatchOperation)">
+    <parameter name="dispatchOperation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="operationDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingChannelExtension.AttachService(System.ServiceModel.Routing.RoutingService)">
+    <parameter name="service">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingChannelExtension.BeginShutdown(System.ServiceModel.Routing.RoutingService,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="service">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingChannelExtension.CloseChannelsCallback(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingChannelExtension.Create(System.ServiceModel.Routing.RoutingBehavior.RoutingEndpointBehavior)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="endpointBehavior">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingChannelExtension.EndShutdown(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingChannelExtension.Fault(System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Routing.RoutingChannelExtension.SessionChannels">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingChannelExtension.ShutdownCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingChannelExtension.ShutdownComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingChannelExtension.System#ServiceModel#IExtension{System#ServiceModel#IContextChannel}#Attach(System.ServiceModel.IContextChannel)">
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingChannelExtension.System#ServiceModel#IExtension{System#ServiceModel#IContextChannel}#Detach(System.ServiceModel.IContextChannel)">
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingConfiguration.#ctor(System.ServiceModel.Dispatcher.MessageFilterTable{},System.Boolean)">
+    <parameter name="filterTable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingEndpointTrait.#ctor(System.Type,System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.OperationContext)">
+    <parameter name="operationContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingEndpointTrait.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingExtension.#ctor(System.ServiceModel.Routing.RoutingConfiguration)">
+    <parameter name="configuration">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingExtension.ApplyConfiguration(System.ServiceModel.Routing.RoutingConfiguration)">
+    <parameter name="routingConfiguration">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingExtension.System#ServiceModel#IExtension{System#ServiceModel#ServiceHostBase}#Attach(System.ServiceModel.ServiceHostBase)">
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingExtension.System#ServiceModel#IExtension{System#ServiceModel#ServiceHostBase}#Detach(System.ServiceModel.ServiceHostBase)">
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingService.BeginProcessMessage``1(System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingService.BeginProcessRequest``1(System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingService.CreateNewTransactionIfNeeded(System.ServiceModel.Routing.MessageRpc)">
+    <parameter name="messageRpc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingService.EndProcessMessage``1(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingService.EndProcessRequest``1(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingService.GetOrCreateClient``1(System.ServiceModel.Routing.RoutingEndpointTrait,System.Boolean)">
+    <parameter name="endpointTrait">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingService.System#ServiceModel#Routing#IDuplexSessionRouter#BeginProcessMessage(System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingService.System#ServiceModel#Routing#IDuplexSessionRouter#EndProcessMessage(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingService.System#ServiceModel#Routing#IRequestReplyRouter#BeginProcessRequest(System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingService.System#ServiceModel#Routing#IRequestReplyRouter#EndProcessRequest(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingService.System#ServiceModel#Routing#ISimplexDatagramRouter#BeginProcessMessage(System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingService.System#ServiceModel#Routing#ISimplexDatagramRouter#EndProcessMessage(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingService.System#ServiceModel#Routing#ISimplexSessionRouter#BeginProcessMessage(System.ServiceModel.Channels.Message,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingService.System#ServiceModel#Routing#ISimplexSessionRouter#EndProcessMessage(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingUtilities.Abort(System.ServiceModel.ICommunicationObject,System.Object)">
+    <parameter name="commObj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingUtilities.GetAddressingNamespace(System.ServiceModel.Channels.AddressingVersion)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="addressing">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingUtilities.IsMessageUsingWSSecurity(System.ServiceModel.Channels.UnderstoodHeaders)">
+    <parameter name="understoodHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.RoutingUtilities.IsTransactedReceive(System.ServiceModel.Channels.Binding,System.ServiceModel.Channels.BindingParameterCollection)">
+    <parameter name="binding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="bindingParameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SendOperation.#ctor(System.Collections.Generic.IEnumerable{System.ServiceModel.Description.ServiceEndpoint},System.Type,System.ServiceModel.OperationContext)">
+    <parameter name="endpoints">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="operationContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SendOperation.PrepareMessage(System.ServiceModel.Channels.Message)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SessionChannels.AbortChannel(System.ServiceModel.Routing.RoutingEndpointTrait)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SessionChannels.BeginClose(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.SessionChannels.ChannelFaulted(System.Object,System.EventArgs)">
+    <parameter name="sender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SessionChannels.EndClose(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SessionChannels.GetOrCreateClient``1(System.ServiceModel.Routing.RoutingEndpointTrait,System.ServiceModel.Routing.RoutingService,System.Boolean)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="service">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SessionChannels.ReleaseChannel">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.AddBindingParameters(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Channels.BindingParameterCollection)">
+    <parameter name="bindingParameters">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.ApplyClientBehavior(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.ClientRuntime)">
+    <parameter name="clientRuntime">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.EndpointDispatcher)">
+    <parameter name="endpointDispatcher">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.#ctor(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.ClientRuntime)">
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="clientRuntime">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.ActorIsNextDestination(System.ServiceModel.Channels.MessageHeaderInfo,System.ServiceModel.Channels.MessageVersion)">
+    <parameter name="header">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="messageVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.CloneHeaders(System.ServiceModel.Channels.MessageHeaders,System.ServiceModel.Channels.MessageHeaders,System.Uri,System.Collections.Generic.HashSet{System.String})">
+    <parameter name="targetHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sourceHeaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="understoodHeadersSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.CloneProperties(System.ServiceModel.Channels.MessageProperties,System.ServiceModel.Channels.MessageProperties)">
+    <parameter name="destination">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.CreateKeys(System.ServiceModel.Channels.UnderstoodHeaders)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.FilterHeaders(System.ServiceModel.Channels.MessageHeaders,System.Collections.Generic.HashSet{System.String})">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="understoodHeadersSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.FilterProperties(System.ServiceModel.Channels.MessageProperties)">
+    <parameter name="destination">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.InitializeHeadersToFlow">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.MarshalMessage(System.ServiceModel.Channels.Message,System.Uri,System.ServiceModel.Channels.MessageVersion)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.MessageHeaderKey(System.ServiceModel.Channels.MessageHeaderInfo)">
+    <parameter name="header">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.PreProcess(System.ServiceModel.Channels.Message)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.System#ServiceModel#Dispatcher#IClientMessageInspector#AfterReceiveReply(System.ServiceModel.Channels.Message@,System.Object)">
+    <parameter name="correlationState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.System#ServiceModel#Dispatcher#IClientMessageInspector#BeforeSendRequest(System.ServiceModel.Channels.Message@,System.ServiceModel.IClientChannel)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.System#ServiceModel#Dispatcher#IDispatchMessageInspector#AfterReceiveRequest(System.ServiceModel.Channels.Message@,System.ServiceModel.IClientChannel,System.ServiceModel.InstanceContext)">
+    <parameter name="instanceContext">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.System#ServiceModel#Dispatcher#IDispatchMessageInspector#BeforeSendReply(System.ServiceModel.Channels.Message@,System.Object)">
+    <parameter name="reply">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.SoapProcessingInspector.System#ServiceModel#Dispatcher#IParameterInspector#BeforeCall(System.String,System.Object[])">
+    <parameter name="inputs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.SoapProcessingBehavior.Validate(System.ServiceModel.Description.ServiceEndpoint)">
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Routing.SR.AddressingVersionInvalid(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Routing.SR.BackupListEmpty">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.SR.BackupListNotFound(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.SR.EndpointNameNotFound(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.SR.ErrorHandlingNotSupportedReqReplyTxn(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.SR.ErrorHandlingNotSupportedTxNoRC(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.SR.FilterElementNotFound(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Routing.SR.MarshalingBehaviorNotSupported">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Routing.SR.NoFilterMatched">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.SR.ReqReplyMulticastNotSupported(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Routing.SR.RoutingExtensionNotFound">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Routing.SR.RoutingSectionNotFound">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Routing.SR.RoutingTableNotConfigured">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.SR.RoutingTableNotFound(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Routing.SR.SourceHeaderNotFound(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>

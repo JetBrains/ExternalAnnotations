@@ -1,0 +1,3004 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Deployment, Version=2.0.0.0">
+  <member name="M:Microsoft.Internal.Performance.CodeMarkers.CodeMarkerEx(Microsoft.Internal.Performance.CodeMarkerEvent,System.Byte[])">
+    <parameter name="aBuff">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.Performance.CodeMarkers.GetPerformanceSubKey(Microsoft.Win32.RegistryKey,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ActivationDescription.SetApplicationManifest(System.Deployment.Application.Manifest.AssemblyManifest,System.Uri,System.String)">
+    <parameter name="manifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ActivationDescription.ToActivationContext">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.Activate(System.Deployment.Application.DefinitionAppId,System.Deployment.Application.Manifest.AssemblyManifest,System.String,System.Boolean)">
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.ActivateDeploymentWorker(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.BrowserSettings.Validate(System.String)">
+    <parameter name="manifestPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.CheckActivationInProgress(System.String)">
+    <parameter name="activationUrl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.CheckDeploymentProviderValidity(System.Deployment.Application.ActivationDescription,System.Deployment.Application.SubscriptionState)">
+    <parameter name="actDesc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.ConsumeUpdatedDeployment(System.Deployment.Application.SubscriptionState@,System.Deployment.Application.ActivationDescription)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="actDesc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.DisplayActivationFailureReason(System.Exception,System.String)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.DisplayPlatformDetectionFailureUI(System.Deployment.Application.DependentPlatformMissingException)">
+    <parameter name="ex">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.DownloadApplication(System.Deployment.Application.SubscriptionState,System.Deployment.Application.ActivationDescription,System.Int64,System.Deployment.Application.TempDirectory@)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="actDesc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.GetInnerMostException(System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.InstallApplication(System.Deployment.Application.SubscriptionState@,System.Deployment.Application.ActivationDescription)">
+    <parameter name="actDesc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.PerformDeploymentActivation(System.Uri,System.Boolean,System.String,System.String,System.Deployment.Application.ApplicationActivator.BrowserSettings,System.String@)">
+    <parameter name="activationUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.PerformDeploymentUpdate(System.Deployment.Application.SubscriptionState@,System.String@)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.ProcessOrFollowExtension(System.Uri,System.String,System.String,System.String@,System.Deployment.Application.TempFile@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="associatedFile">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.ProcessOrFollowShortcut(System.String,System.String@,System.Deployment.Application.TempFile@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="shortcutFile">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationActivator.SkipUpdate(System.Deployment.Application.SubscriptionState,System.Deployment.Application.DefinitionIdentity)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.#ctor(System.String)">
+    <parameter name="fullAppId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.ApplicationDeployment.ActivationUri">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.CheckForDetailedUpdate">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.CheckForDetailedUpdate(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.CheckForUpdateBindCompletedEventHandler(System.Object,System.Deployment.Application.BindCompletedEventArgs)">
+    <parameter name="sender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.CheckForUpdateProgressChangedEventHandler(System.Object,System.Deployment.Application.DeploymentProgressChangedEventArgs)">
+    <parameter name="sender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.CreateDeploymentManager">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Application.ApplicationDeployment.DataDirectory">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.DetermineUpdateCheckResult(System.Deployment.Application.ActivationDescription)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="actDesc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.DownloadFileGroup(System.String)">
+    <parameter name="groupName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.DownloadFileGroupAsync(System.String)">
+    <parameter name="groupName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.DownloadFileGroupAsync(System.String,System.Object)">
+    <parameter name="groupName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.DownloadFileGroupAsyncCancel(System.String)">
+    <parameter name="groupName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.ProcessUpdateCheckResult(System.Deployment.Application.UpdateCheckInfo,System.Deployment.Application.ActivationDescription)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="actDesc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.SynchronizeGroupCompletedEventHandler(System.Object,System.Deployment.Application.SynchronizeCompletedEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.SynchronizeNullCompletedEventHandler(System.Object,System.Deployment.Application.SynchronizeCompletedEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.UpdateBindCompletedEventHandler(System.Object,System.Deployment.Application.BindCompletedEventArgs)">
+    <parameter name="sender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.ApplicationDeployment.UpdatedVersion">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationDeployment.UpdateProgressChangedEventHandler(System.Object,System.Deployment.Application.DeploymentProgressChangedEventArgs)">
+    <parameter name="sender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationTrust.PersistTrustWithoutEvaluation(System.ActivationContext)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="actCtx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationTrust.RemoveCachedTrust(System.Deployment.Application.DefinitionAppId)">
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationTrust.RequestTrust(System.Deployment.Application.SubscriptionState,System.Boolean,System.Boolean,System.ActivationContext)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="actCtx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ApplicationTrust.RequestTrust(System.Deployment.Application.SubscriptionState,System.Boolean,System.Boolean,System.ActivationContext,System.Security.Policy.TrustManagerContext)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="actCtx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="tmc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.AssemblyMetaDataImport.ConstructAssemblyName(System.IntPtr,System.Char[],System.UInt32,System.IntPtr,System.UInt32,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.AssemblyMetaDataImport.ImportIdentity">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Application.AssemblyMetaDataImport.Name">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Base32String.FromBytes(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.CommitApplicationParams.#ctor(System.Deployment.Application.CommitApplicationParams)">
+    <parameter name="src">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.ActivateApplication(System.Deployment.Application.DefinitionAppId,System.String,System.Boolean)">
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.CheckGroupInstalled(System.Deployment.Application.DefinitionAppId,System.Deployment.Application.Manifest.AssemblyManifest,System.String)">
+    <parameter name="appManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.CheckGroupInstalled(System.Deployment.Application.DefinitionAppId,System.String)">
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.CleanCDFMSFilesInDirectory(System.IO.DirectoryInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Folder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.CollectCrossGroupApplications(System.Uri,System.Deployment.Application.DefinitionIdentity,System.Boolean@,System.Boolean@,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="deploymentIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.CommitApplication(System.Deployment.Application.SubscriptionState,System.Deployment.Application.CommitApplicationParams)">
+    <parameter name="commitParams">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.DeployAppIdsToComPtrs(System.Collections.ArrayList)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="deployAppIdList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.FinalizeSubscriptionState(System.Deployment.Application.SubscriptionStateInternal)">
+    <parameter name="newState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.GetAssemblyManifest(System.Deployment.Application.DefinitionIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="asmId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.GetHostTypeFromMetadata(System.Deployment.Application.DefinitionAppId)">
+    <parameter name="defAppId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.GetPropertyAppType(System.Deployment.Application.DefinitionAppId,System.String)">
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.GetPropertyBoolean(System.Deployment.Application.DefinitionAppId,System.String)">
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.GetPropertyDateTime(System.Deployment.Application.DefinitionAppId,System.String)">
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.GetPropertyDefinitionAppId(System.Deployment.Application.DefinitionAppId,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.GetPropertyDefinitionIdentity(System.Deployment.Application.DefinitionAppId,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.GetPropertyString(System.Deployment.Application.DefinitionAppId,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.GetPropertyUri(System.Deployment.Application.DefinitionAppId,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.GetPropertyVersion(System.Deployment.Application.DefinitionAppId,System.String)">
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.GetStore(System.Deployment.Application.ComponentStoreType,System.Deployment.Application.SubscriptionStore)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.GetSubscriptionStateInternal(System.Deployment.Application.DefinitionIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.GetSubscriptionStateInternal(System.Deployment.Application.SubscriptionState)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.IsAssemblyInstalled(System.Deployment.Application.DefinitionIdentity)">
+    <parameter name="asmId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.LockApplicationPath(System.Deployment.Application.DefinitionAppId)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="definitionAppId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.LockAssemblyPath(System.Deployment.Application.DefinitionIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="asmId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareCommitApplication(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState,System.Deployment.Application.CommitApplicationParams)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="commitParams">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareCommitDeploymentState(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState,System.Deployment.Application.CommitApplicationParams)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="commitParams">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareFinalizeSubscription(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState,System.Deployment.Application.SubscriptionStateInternal)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="newState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareFinalizeSubscriptionState(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState,System.Deployment.Application.SubscriptionStateInternal)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="newState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareInstallFile(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.Manifest.File,System.Deployment.Application.DefinitionAppId,System.Deployment.Application.DefinitionIdentity,System.String)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="asmPayloadPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareInstallPrivateAssembly(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.Manifest.DependentAssembly,System.Deployment.Application.DefinitionAppId,System.String)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="privAsm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="appPayloadPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareInstallUninstallDeployment(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.DefinitionAppId,System.Boolean)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deployAppId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PreparePinUnpinDeployment(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.DefinitionAppId,System.Boolean)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deployAppId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareRemoveDeployment(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState,System.Deployment.Application.DefinitionAppId)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareRemoveOrphanedDeployments(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState,System.Deployment.Application.SubscriptionStateInternal)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="newState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareRemoveSubscription(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareRollbackSubscription(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareSetDeploymentProperties(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.DefinitionAppId,System.Deployment.Application.CommitApplicationParams)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareSetPendingDeployment(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState,System.Deployment.Application.DefinitionIdentity,System.DateTime)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareSetSubscriptionProperties(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState,System.Deployment.Application.SubscriptionStateInternal)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="newState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareSetSubscriptionState(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState,System.Deployment.Application.SubscriptionStateInternal)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="newState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareStageAppComponent(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.CommitApplicationParams)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="commitParams">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareStageDeploymentComponent(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState,System.Deployment.Application.CommitApplicationParams)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="commitParams">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.PrepareUpdateSkipTime(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState,System.Deployment.Application.DefinitionIdentity,System.DateTime)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.RemoveApplicationInstance(System.Deployment.Application.SubscriptionState,System.Deployment.Application.DefinitionAppId)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.RemoveSubscription(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.ResetUpdateSkippedState(System.Deployment.Application.SubscriptionStateInternal)">
+    <parameter name="newState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.RollbackSubscription(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.ScavengeContext.AddDeploymentToUnpin(System.Deployment.Application.DefinitionAppId,System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.ScavengeContext.AddOnlineAppToCommit(System.Deployment.Application.DefinitionAppId,System.Deployment.Application.SubscriptionState)">
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.ScavengeContext.CollectOnlineApps(System.Deployment.Internal.Isolation.IDefinitionAppId[]@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.ScavengeContext.CollectOnlineAppsMRU(System.Deployment.Internal.Isolation.IDefinitionAppId[]@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.ScavengeContext.ScavengeAppsOverQuota(System.Deployment.Application.ComponentStore.ScavengeContext.SubInstance[],System.Int32,System.Boolean@)">
+    <parameter name="subs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.ScavengeContext.SubInstance.CompareTo(System.Object)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.SetPendingDeployment(System.Deployment.Application.SubscriptionState,System.Deployment.Application.DefinitionIdentity,System.DateTime)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.SetUpdateSkipTime(System.Deployment.Application.SubscriptionState,System.Deployment.Application.DefinitionIdentity,System.DateTime)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.SubmitStoreTransaction(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentStore.SubmitStoreTransactionCheckQuota(System.Deployment.Application.ComponentStore.StoreTransactionContext,System.Deployment.Application.SubscriptionState)">
+    <parameter name="storeTxn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentVerifier.GenerateDigestValue(System.String,System.Deployment.Internal.Isolation.Manifest.CMS_HASH_DIGESTMETHOD,System.Deployment.Internal.Isolation.Manifest.CMS_HASH_TRANSFORM)">
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentVerifier.GetHashAlgorithm(System.Deployment.Internal.Isolation.Manifest.CMS_HASH_DIGESTMETHOD)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ComponentVerifier.GetTransformedStream(System.String,System.Deployment.Internal.Isolation.Manifest.CMS_HASH_TRANSFORM)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentVerifier.IsVerifiableHash(System.Deployment.Application.Hash)">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentVerifier.IsVerifiableHashCollection(System.Deployment.Application.HashCollection)">
+    <parameter name="hashCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentVerifier.VerifyFileHash(System.String,System.Deployment.Application.Hash)">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentVerifier.VerifyFileHash(System.String,System.Deployment.Application.HashCollection)">
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="hashCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentVerifier.VerifyManifestComponentFiles(System.Deployment.Application.Manifest.AssemblyManifest,System.String,System.Boolean)">
+    <parameter name="manifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentVerifier.VerifySimplyNamedAssembly(System.String,System.Deployment.Application.Manifest.AssemblyManifest)">
+    <parameter name="assemblyManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ComponentVerifier.VerifyStrongNameAssembly(System.String,System.Deployment.Application.Manifest.AssemblyManifest)">
+    <parameter name="assemblyManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DefinitionAppId.#ctor(System.Deployment.Application.DefinitionIdentity[])">
+    <parameter name="idPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DefinitionAppId.#ctor(System.String,System.Deployment.Application.DefinitionIdentity[])">
+    <parameter name="idPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.DefinitionAppId.ApplicationIdentity">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Application.DefinitionAppId.DeploymentIdentity">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.DefinitionAppId.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DefinitionAppId.PathComponent(System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.DefinitionAppId.ToApplicationIdentity">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.DefinitionAppId.ToDeploymentAppId">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.DefinitionIdentity.#ctor(System.Deployment.Application.ReferenceIdentity)">
+    <parameter name="refId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DefinitionIdentity.#ctor(System.Reflection.AssemblyName)">
+    <parameter name="asmName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DefinitionIdentity.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.DefinitionIdentity.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DefinitionIdentity.Matches(System.Deployment.Application.ReferenceIdentity,System.Boolean)">
+    <parameter name="refId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DefinitionIdentity.ToPKTGroupId">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.DefinitionIdentity.ToSubscriptionId">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Application.DefinitionIdentity.Version">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.DependentPlatformMissingException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentDownloadException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentManager.#ctor(System.String)">
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentManager.#ctor(System.Uri)">
+    <parameter name="deploymentSource">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentManager.AttachToGroup(System.String,System.Object,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="groupName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentManager.ConstructActivationContext(System.Deployment.Application.ActivationDescription)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="actDesc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentManager.ConstructActivationContextFromStore(System.Deployment.Application.DefinitionAppId)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="defAppId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentManager.DetachFromGroup(System.Deployment.Application.SyncGroupHelper)">
+    <parameter name="sgh">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentManager.ExecuteNewDomain">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Application.DeploymentManager.LogFilePath">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Application.DeploymentManager.ShortcutAppId">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentManager.SynchronizeGroupAsyncWorker(System.Object)">
+    <parameter name="arg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentManager.SynchronizeGroupCore(System.Boolean,System.Deployment.Application.SyncGroupHelper)">
+    <parameter name="sgh">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentManager.System#Deployment#Application#IDownloadNotification#DownloadCompleted(System.Object,System.Deployment.Application.DownloadEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentManager.System#Deployment#Application#IDownloadNotification#DownloadModified(System.Object,System.Deployment.Application.DownloadEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentServiceCom.CheckForDeploymentUpdate(System.String)">
+    <parameter name="textualSubId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentServiceCom.CheckForDeploymentUpdateInternal(System.String)">
+    <parameter name="textualSubId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentServiceCom.GetInnerMostException(System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentServiceCom.GetShellVisibleSubscriptionState(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="textualSubId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentServiceCom.GetSubscriptionState(System.String)">
+    <parameter name="textualSubId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentServiceCom.MaintainSubscription(System.String)">
+    <parameter name="textualSubId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DeploymentServiceCom.MaintainSubscriptionInternal(System.String)">
+    <parameter name="textualSubId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DFServiceEntryPoint.DfsvcForm.DfsvcForm_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DFServiceEntryPoint.DfsvcForm.SessionEndingEventHandler(System.Object,Microsoft.Win32.SessionEndingEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadApplicationCompletedEventArgs.#ctor(System.ComponentModel.AsyncCompletedEventArgs,System.String,System.String)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadCancelledException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.AddDependencies(System.Deployment.Application.FileDownloader,System.Deployment.Application.Manifest.AssemblyManifest,System.Deployment.Application.Manifest.AssemblyManifest,System.Uri,System.String,System.String)">
+    <parameter name="downloader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="appManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetDirectory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deployManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sourceUriBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.AddFileToDownloader(System.Deployment.Application.FileDownloader,System.Deployment.Application.Manifest.AssemblyManifest,System.Deployment.Application.Manifest.AssemblyManifest,System.Object,System.Uri,System.String,System.String,System.Deployment.Application.HashCollection)">
+    <parameter name="downloader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetDirectory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetFileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileSourceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.DownloadApplicationManifest(System.Deployment.Application.Manifest.AssemblyManifest,System.String,System.Uri,System.Deployment.Application.IDownloadNotification,System.Deployment.Application.DownloadOptions,System.Uri@,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="deploymentManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetDir">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deploymentUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.DownloadApplicationManifest(System.Deployment.Application.Manifest.AssemblyManifest,System.String,System.Uri,System.Uri@,System.String@)">
+    <parameter name="deploymentUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetDir">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deploymentManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.DownloadDependencies(System.Deployment.Application.SubscriptionState,System.Deployment.Application.Manifest.AssemblyManifest,System.Deployment.Application.Manifest.AssemblyManifest,System.Uri,System.String,System.String,System.Deployment.Application.IDownloadNotification,System.Deployment.Application.DownloadOptions)">
+    <parameter name="appManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetDirectory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deployManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sourceUriBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.DownloadDeploymentManifest(System.Deployment.Application.SubscriptionStore,System.Uri@,System.Deployment.Application.TempFile@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="subStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.DownloadDeploymentManifest(System.Deployment.Application.SubscriptionStore,System.Uri@,System.Deployment.Application.TempFile@,System.Deployment.Application.IDownloadNotification,System.Deployment.Application.DownloadOptions)">
+    <parameter name="subStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.DownloadDeploymentManifestBypass(System.Deployment.Application.SubscriptionStore,System.Uri@,System.Deployment.Application.TempFile@,System.Deployment.Application.SubscriptionState@,System.Deployment.Application.IDownloadNotification,System.Deployment.Application.DownloadOptions)">
+    <parameter name="subStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.DownloadDeploymentManifestDirect(System.Deployment.Application.SubscriptionStore,System.Uri@,System.Deployment.Application.TempFile@,System.Deployment.Application.IDownloadNotification,System.Deployment.Application.DownloadOptions,System.Deployment.Application.ServerInformation@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="subStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.DownloadDeploymentManifestDirectBypass(System.Deployment.Application.SubscriptionStore,System.Uri@,System.Deployment.Application.TempFile@,System.Deployment.Application.SubscriptionState@,System.Deployment.Application.IDownloadNotification,System.Deployment.Application.DownloadOptions,System.Deployment.Application.ServerInformation@)">
+    <parameter name="subStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.DownloadManifest(System.Uri@,System.String,System.Deployment.Application.IDownloadNotification,System.Deployment.Application.DownloadOptions,System.Deployment.Application.Manifest.AssemblyManifest.ManifestType,System.Deployment.Application.ServerInformation@)">
+    <parameter name="targetPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.DownloadManifestAsRawFile(System.Uri@,System.String,System.Deployment.Application.IDownloadNotification,System.Deployment.Application.DownloadOptions,System.Deployment.Application.ServerInformation@)">
+    <parameter name="sourceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.FollowDeploymentProviderUri(System.Deployment.Application.SubscriptionStore,System.Deployment.Application.Manifest.AssemblyManifest@,System.Uri@,System.Deployment.Application.TempFile@,System.Deployment.Application.IDownloadNotification,System.Deployment.Application.DownloadOptions)">
+    <parameter name="subStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deployment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sourceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.MapFileSourceUri(System.Deployment.Application.Manifest.AssemblyManifest,System.Uri,System.String)">
+    <parameter name="deployManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sourceUriBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.ProcessDownloadedFile(System.Object,System.Deployment.Application.DownloadEventArgs)">
+    <parameter name="sender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.ReorderFilesForIconFile(System.Deployment.Application.Manifest.AssemblyManifest,System.Deployment.Application.Manifest.File[])">
+    <parameter name="manifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="files">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.DownloadManager.VerifyRequestedPrivilegesSupport(System.Deployment.Application.Manifest.AssemblyManifest,System.String)">
+    <parameter name="appManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetDirectory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ErrorPiece.#ctor(System.Deployment.Application.UserInterfaceForm,System.String,System.String,System.String,System.String,System.String,System.Threading.ManualResetEvent)">
+    <parameter name="parentForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ErrorPiece.errorLink_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.FileDownloader.AddFile(System.Uri,System.String)">
+    <parameter name="sourceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.FileDownloader.AddFile(System.Uri,System.String,System.Int32)">
+    <parameter name="sourceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.FileDownloader.AddFile(System.Uri,System.String,System.Object,System.Deployment.Application.HashCollection)">
+    <parameter name="sourceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.FileDownloader.AddFile(System.Uri,System.String,System.Object,System.Deployment.Application.HashCollection,System.Int32)">
+    <parameter name="sourceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.FileDownloader.AddFilesInHashtable(System.Collections.Hashtable,System.Deployment.Application.Manifest.AssemblyManifest,System.String)">
+    <parameter name="hashtable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="applicationManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="applicationFolder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.FileDownloader.AddNotification(System.Deployment.Application.IDownloadNotification)">
+    <parameter name="notification">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.FileDownloader.AddSingleFileInHashtable(System.Collections.Hashtable,System.Deployment.Application.HashCollection,System.String)">
+    <parameter name="hashtable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="hashCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="location">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.FileDownloader.Create">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.FileDownloader.FileHashVerified(System.Deployment.Application.HashCollection,System.String)">
+    <parameter name="hashCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="location">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.FileDownloader.GetPatchSourceStream(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.FileDownloader.GetPatchTargetStream(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.FileDownloader.PatchFiles(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.FileDownloader.PatchSingleFile(System.Deployment.Application.FileDownloader.DownloadQueueItem,System.Collections.Hashtable)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dependencyTable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.FileDownloader.RemoveNotification(System.Deployment.Application.IDownloadNotification)">
+    <parameter name="notification">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.GetManifestCompletedEventArgs.#ctor(System.Deployment.Application.BindCompletedEventArgs,System.Deployment.Application.ActivationDescription,System.String)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="activationDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.GetManifestCompletedEventArgs.#ctor(System.Deployment.Application.BindCompletedEventArgs,System.Exception,System.String)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.GetManifestCompletedEventArgs.#ctor(System.Deployment.Application.BindCompletedEventArgs,System.String)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.GetManifestCompletedEventArgs.ApplicationManifest">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Application.GetManifestCompletedEventArgs.DeploymentManifest">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.GetManifestCompletedEventArgs.ManifestToXml(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Hash.#ctor(System.Byte[],System.Deployment.Internal.Isolation.Manifest.CMS_HASH_DIGESTMETHOD,System.Deployment.Internal.Isolation.Manifest.CMS_HASH_TRANSFORM)">
+    <parameter name="digestValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.Hash.DigestMethodCodeString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Hash.ToCodedString(System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Application.Hash.TranformCodeString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.HashCollection.AddHash(System.Byte[],System.Deployment.Internal.Isolation.Manifest.CMS_HASH_DIGESTMETHOD,System.Deployment.Internal.Isolation.Manifest.CMS_HASH_TRANSFORM)">
+    <parameter name="digestValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.HashCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Application.HashCollection.HashEnumerator.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.HashCollection.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.HexString.FromBytes(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.InPlaceHostingManager.#ctor(System.Uri)">
+    <parameter name="deploymentManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.InPlaceHostingManager.#ctor(System.Uri,System.Boolean)">
+    <parameter name="deploymentManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.InPlaceHostingManager.ChangeState(System.Deployment.Application.InPlaceHostingManager.State,System.ComponentModel.AsyncCompletedEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.InPlaceHostingManager.Execute">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.InPlaceHostingManager.GetSubIdAndValidate(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="subscriptionId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.InPlaceHostingManager.OnBindCompleted(System.Object,System.Deployment.Application.BindCompletedEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.InPlaceHostingManager.OnProgressChanged(System.Object,System.Deployment.Application.DeploymentProgressChangedEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.InPlaceHostingManager.OnSynchronizeCompleted(System.Object,System.Deployment.Application.SynchronizeCompletedEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.InPlaceHostingManager.UninstallCustomAddIn(System.String)">
+    <parameter name="subscriptionId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.InPlaceHostingManager.UninstallCustomUXApplication(System.String)">
+    <parameter name="subscriptionId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.InvalidDeploymentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.LockedFile.AcquireLock(System.String,System.TimeSpan,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.LockedFile.LockedFileHandle.#ctor(Microsoft.Win32.SafeHandles.SafeFileHandle,System.String,System.IO.FileAccess)">
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.LockedFile.LockHeldByThread(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.AddCurrentThreadLogger(System.Deployment.Application.Logger)">
+    <parameter name="logger">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.AddErrorInformation(System.Deployment.Application.Logger.LogIdentity,System.String,System.Exception)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.AddErrorInformation(System.Deployment.Application.Logger.LogIdentity,System.String,System.Exception,System.DateTime)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.AddErrorInformation(System.Exception,System.String,System.Object[])">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="messageFormat">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.AddLogger(System.Deployment.Application.Logger)">
+    <parameter name="logger">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.AddPhaseInformation(System.String,System.Object[])">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="messageFormat">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.AddTransactionInformation(System.Deployment.Internal.Isolation.StoreTransactionOperation[],System.UInt32[],System.Int32[])">
+    <parameter name="storeOperations">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="rgDispositions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="rgResults">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.AddTransactionInformation(System.Deployment.Internal.Isolation.StoreTransactionOperation[],System.UInt32[],System.Int32[],System.DateTime)">
+    <parameter name="storeOperations">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="rgDispositions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="rgResults">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.CreateLogFileStream">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Logger.EndLogging(System.Deployment.Application.Logger.LogIdentity)">
+    <parameter name="logIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.ErrorInformation.GetExceptionType(System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.Logger.ErrorInformation.Summary">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Application.Logger.ErrorSection.ErrorSummary">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Logger.FlushLog(System.Deployment.Application.Logger.LogIdentity)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.GetLogFilePath">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Logger.GetLogFilePath(System.Deployment.Application.Logger)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Logger.GetLogFilePath(System.Deployment.Application.Logger.LogIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.GetLogger(System.Deployment.Application.Logger.LogIdentity)">
+    <parameter name="logIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.GetRegitsryBasedLogFilePath">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Logger.GetWinInetBasedLogFilePath">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Logger.HeaderSection.GenerateLogHeaderText">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Logger.HeaderSection.GetExecutingAssemblyPath">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Logger.HeaderSection.GetModulePath(System.String)">
+    <parameter name="moduleName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.HeaderSection.GetModulePathInClrFolder(System.String)">
+    <parameter name="moduleName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.HeaderSection.GetModulePathInSystemFolder(System.String)">
+    <parameter name="moduleName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.HeaderSection.GetVersionInfo(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Application.Logger.LogFilePath">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Logger.RemoveLogger(System.Deployment.Application.Logger.LogIdentity)">
+    <parameter name="logIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.SetApplicationManifest(System.Deployment.Application.Logger.LogIdentity,System.Deployment.Application.Manifest.AssemblyManifest)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="applicationManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.SetApplicationManifest(System.Deployment.Application.Manifest.AssemblyManifest)">
+    <parameter name="applicationManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.SetApplicationUrl(System.Deployment.Application.Logger.LogIdentity,System.Uri)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.SetDeploymentManifest(System.Deployment.Application.Logger.LogIdentity,System.Deployment.Application.Manifest.AssemblyManifest)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deploymentManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.SetDeploymentManifest(System.Deployment.Application.Manifest.AssemblyManifest)">
+    <parameter name="deploymentManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.SetSubscriptionUrl(System.Deployment.Application.Logger.LogIdentity,System.Uri)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.SetSubscriptionUrl(System.String)">
+    <parameter name="subscrioptionUrl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.SetTextualSubscriptionIdentity(System.Deployment.Application.Logger.LogIdentity,System.String)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.SourceSection.AppendServerInformation(System.Text.StringBuilder,System.Deployment.Application.ServerInformation)">
+    <parameter name="destination">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serverInformation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Logger.TransactionInformation.#ctor(System.Deployment.Internal.Isolation.StoreTransactionOperation[],System.UInt32[],System.Int32[],System.DateTime)">
+    <parameter name="storeOperations">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="rgDispositions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="rgResults">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.Logger.TransactionInformation.FailureSummary">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Logger.TransactionSection.AddTransactionInformation(System.Deployment.Internal.Isolation.StoreTransactionOperation[],System.UInt32[],System.Int32[],System.DateTime)">
+    <parameter name="rgResults">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeOperations">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="rgDispositions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.Logger.TransactionSection.FailureSummary">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.MaintenancePiece.#ctor(System.Deployment.Application.UserInterfaceForm,System.Deployment.Application.UserInterfaceInfo,System.Deployment.Application.MaintenanceInfo,System.Threading.ManualResetEvent)">
+    <parameter name="parentForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.#ctor(System.Deployment.Internal.Isolation.Manifest.ICMS)">
+    <parameter name="cms">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.#ctor(System.IO.FileStream)">
+    <parameter name="fileStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.#ctor(System.String)">
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.AnalyzeManifestCertificate(System.String)">
+    <parameter name="manifestPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.ExtractIdentityFromCompLibAssembly(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.GetDependentAssemblyByIdentity(System.Deployment.Internal.Isolation.IReferenceIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.GetFileFromName(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.GetPrivateAssembliesInGroup(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.IsInvalidHash(System.Deployment.Application.HashCollection)">
+    <parameter name="hashCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.IsResourceReference(System.Deployment.Application.Manifest.DependentAssembly)">
+    <parameter name="dependentAssembly">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.LoadCMSFromStream(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.LoadFromInternalManifestFile(System.String)">
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.LoadFromRawXmlFile(System.String)">
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.LoadFromUnknownFormatFile(System.String)">
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.ManifestParseErrors.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Application.Manifest.AssemblyManifest.ManifestParseErrors.ParseErrorEnumerator.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.ManifestParseErrors.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.ReValidateManifestSignatures(System.Deployment.Application.Manifest.AssemblyManifest,System.Deployment.Application.Manifest.AssemblyManifest)">
+    <parameter name="depManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="appManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.UriFromMetadataEntry(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="exResourceStr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.ValidateApplicationDependency(System.Deployment.Application.Manifest.DependentAssembly)">
+    <parameter name="da">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.ValidateAssemblyIdentity(System.Deployment.Application.DefinitionIdentity)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.ValidateAssemblyIdentity(System.Deployment.Application.ReferenceIdentity)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.ValidateComponentDependency(System.Deployment.Application.Manifest.DependentAssembly)">
+    <parameter name="da">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.AssemblyManifest.ValidateFile(System.Deployment.Application.Manifest.File)">
+    <parameter name="f">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.DependentAssembly.#ctor(System.Deployment.Internal.Isolation.Manifest.AssemblyReferenceEntry)">
+    <parameter name="assemblyReferenceEntry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.DependentOS.#ctor(System.Deployment.Internal.Isolation.Manifest.DependentOSMetadataEntry)">
+    <parameter name="dependentOSMetadataEntry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.Deployment.#ctor(System.Deployment.Internal.Isolation.Manifest.DeploymentMetadataEntry)">
+    <parameter name="deploymentMetadataEntry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.DeploymentUpdate.#ctor(System.Deployment.Internal.Isolation.Manifest.DeploymentMetadataEntry)">
+    <parameter name="entry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.Description.#ctor(System.Deployment.Internal.Isolation.Manifest.DescriptionMetadataEntry)">
+    <parameter name="descriptionMetadataEntry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.EntryPoint.#ctor(System.Deployment.Internal.Isolation.Manifest.EntryPointEntry,System.Deployment.Application.Manifest.AssemblyManifest)">
+    <parameter name="entryPointEntry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="manifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.File.#ctor(System.Deployment.Internal.Isolation.Manifest.FileEntry)">
+    <parameter name="fileEntry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.File.#ctor(System.String,System.Byte[],System.UInt64)">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Manifest.FileAssociation.#ctor(System.Deployment.Internal.Isolation.Manifest.FileAssociationEntry)">
+    <parameter name="fileAssociationEntry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ManifestGenerator.AddDependencies(System.Xml.XmlDocument,System.Deployment.Application.Manifest.DependentAssembly[])">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dependentAssemblies">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ManifestGenerator.AddFile(System.Xml.XmlDocument,System.Xml.XmlElement,System.Deployment.Application.Manifest.File)">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="assemblyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ManifestGenerator.AddFiles(System.Xml.XmlDocument,System.Deployment.Application.Manifest.File[])">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="files">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ManifestGenerator.CreateAssemblyIdentityElement(System.Xml.XmlDocument,System.Deployment.Application.DefinitionIdentity)">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="asmId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ManifestGenerator.GenerateGACDetectionManifest(System.Deployment.Application.ReferenceIdentity,System.String)">
+    <parameter name="outputManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ManifestGenerator.GenerateManifest(System.Deployment.Application.ReferenceIdentity,System.Deployment.Application.Manifest.AssemblyManifest,System.String)">
+    <parameter name="suggestedReferenceIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="manifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ManifestGenerator.GetNamespaceMgr(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ManifestGenerator.InjectIdentityXml(System.Xml.XmlDocument,System.Deployment.Application.DefinitionIdentity)">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="asmId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ManifestReader.FromDocument(System.String,System.Deployment.Application.Manifest.AssemblyManifest.ManifestType,System.Uri)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="localPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ManifestReader.FromDocumentNoValidation(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="localPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ManifestValidatingReader.Create(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ManifestValidatingReader.Create(System.IO.Stream,System.Xml.Schema.XmlSchemaSet)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ManifestValidatingReader.MakeSchemaSet(System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="schemas">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ManifestValidatingReader.ResourceResolver.ResolveUri(System.Uri,System.String)">
+    <parameter name="relativeUri">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ManifestValidatingReader.XmlFilteredReader.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.NativeMethods.GetLoadedModulePath(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.PathHelper.GetShortPath(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.PathTwiddler.FilterString(System.String,System.Char,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.PathTwiddler.FilterString(System.String,System.Char[],System.Char,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="toFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.#ctor(System.String)">
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.#ctor(System.String,System.Boolean)">
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.ConstructFromFile(System.String,System.Boolean)">
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.ConstructPEImage(System.IO.FileStream,System.Boolean)">
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.DataComponent.Read(System.Byte[],System.Int32,System.Int64,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.DataDirectory.#ctor(System.IO.FileStream,System.Int64)">
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.DosHeader.#ctor(System.IO.FileStream)">
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.FileHeader.#ctor(System.IO.FileStream,System.Int64)">
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.GetDefaultId1ManifestResource">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.GetId1ManifestResource">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.GetManifestResource(System.UInt16,System.UInt16)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.NtSignature.#ctor(System.IO.FileStream,System.Int64)">
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.OptionalHeader.#ctor(System.IO.FileStream,System.Int64)">
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.PEComponent.Read(System.Byte[],System.Int32,System.Int64,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.PEComponent.ReadData(System.IO.FileStream,System.Int64,System.Type)">
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.PEComponent.ToByteArray(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.PEComponentComparer.Compare(System.Object,System.Object)">
+    <parameter name="b">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.ResourceComponent.AddComponentsToStream(System.Deployment.Application.PEStream.StreamComponentList)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.ResourceData.#ctor(System.IO.FileStream,System.Int64,System.Int64,System.Int64)">
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.PEStream.ResourceData.Data">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.ResourceDirectory.#ctor(System.Deployment.Application.PEStream.ResourceSection,System.IO.FileStream,System.Int64,System.Int64,System.Int64,System.Boolean)">
+    <parameter name="resourceSection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.PEStream.ResourceDirectory.Item(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.ResourceDirectoryEntry.#ctor(System.IO.FileStream,System.Int64)">
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.ResourceDirectoryString.#ctor(System.IO.FileStream,System.Int64)">
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.PEStream.ResourceRawData.Data">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.ResourceSection.#ctor(System.IO.FileStream,System.Deployment.Application.PEStream.SectionHeader,System.Boolean)">
+    <parameter name="sectionHeader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.ResourceSection.CreateResourceDirectoryString(System.IO.FileStream,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.RetrieveResource(System.Deployment.Application.PEStream.ResourceDirectory,System.Object[],System.UInt32)">
+    <parameter name="resourcesDirectory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keys">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.RetrieveResource(System.Object[])">
+    <parameter name="keys">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.Section.#ctor(System.IO.FileStream,System.Deployment.Application.PEStream.SectionHeader)">
+    <parameter name="sectionHeader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.Section.AddComponentsToStream(System.Deployment.Application.PEStream.StreamComponentList)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.SectionHeader.#ctor(System.IO.FileStream,System.Int64)">
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.StreamComponentList.Add(System.Deployment.Application.PEStream.PEComponent)">
+    <parameter name="peComponent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PEStream.Write(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PlatformDetector.GetPlatformNetFx35SKU(System.String)">
+    <parameter name="tempDir">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PlatformDetector.IsNetFX35SP1ClientSignatureAsm(System.Deployment.Application.ReferenceIdentity)">
+    <parameter name="ra">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PlatformDetector.IsNetFX35SP1FullSignatureAsm(System.Deployment.Application.ReferenceIdentity)">
+    <parameter name="ra">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PlatformDetector.NameMap.MapMaskToName(System.UInt32,System.Deployment.Application.PlatformDetector.NameMap[])">
+    <parameter name="nmArray">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PlatformDetector.NameMap.MapNameToMask(System.String,System.Deployment.Application.PlatformDetector.NameMap[])">
+    <parameter name="nmArray">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PlatformDetector.OSDependency.#ctor(System.Deployment.Application.NativeMethods.OSVersionInfoEx)">
+    <parameter name="osvi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PlatformDetector.VerifyCLRVersionInfo(System.Version,System.String)">
+    <parameter name="v">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PlatformDetector.VerifyGACDependency(System.Deployment.Application.ReferenceIdentity,System.String)">
+    <parameter name="refId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="tempDir">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PlatformDetector.VerifyGACDependencyWhidbey(System.Deployment.Application.ReferenceIdentity)">
+    <parameter name="refId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PlatformDetector.VerifyGACDependencyXP(System.Deployment.Application.ReferenceIdentity,System.String)">
+    <parameter name="tempDir">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PlatformDetector.VerifyOSDependency(System.Deployment.Application.PlatformDetector.OSDependency@)">
+    <parameter name="osd">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PlatformDetector.VerifyPlatformDependencies(System.Deployment.Application.Manifest.AssemblyManifest,System.Uri,System.String)">
+    <parameter name="appManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="tempDir">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PlatformPiece.#ctor(System.Deployment.Application.UserInterfaceForm,System.String,System.Uri,System.Threading.ManualResetEvent)">
+    <parameter name="parentForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.PlatformPiece.linkSupport_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ProgressPiece.#ctor(System.Deployment.Application.UserInterfaceForm,System.Deployment.Application.UserInterfaceInfo)">
+    <parameter name="parentForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ProgressPiece.DownloadCompleted(System.Object,System.Deployment.Application.DownloadEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ProgressPiece.DownloadModified(System.Object,System.Deployment.Application.DownloadEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ProgressPiece.FormatBytes(System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ProgressPiece.FormatProgressText(System.Int64,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ProgressPiece.linkAppId_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ProgressPiece.TryGet32x32Bitmap(System.Drawing.Icon)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="icon">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ReferenceIdentity.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ReferenceIdentity.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.ReferenceIdentity.Version">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Resources.GetIcon(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Resources.GetImage(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Resources.GetString(System.String)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.AddFileAssociation(System.Deployment.Application.Manifest.FileAssociation,System.Deployment.Application.DefinitionIdentity,System.Uri)">
+    <parameter name="fileAssociation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deploymentProviderUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.AddShellExtensions(System.Deployment.Application.DefinitionIdentity,System.Uri,System.Deployment.Application.Manifest.AssemblyManifest)">
+    <parameter name="appManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deploymentProviderUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.GenerateAppShortcut(System.Deployment.Application.SubscriptionState,System.Deployment.Application.ShellExposure.ShellExposureInformation)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="shellExposureInformation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.GenerateArpKeyName(System.Deployment.Application.DefinitionIdentity)">
+    <parameter name="subId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.GenerateSupportShortcut(System.Deployment.Application.SubscriptionState,System.Deployment.Application.ShellExposure.ShellExposureInformation)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="shellExposureInformation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.MoveDeleteEmptyFolder(System.String)">
+    <parameter name="folderPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.MoveDeleteFile(System.String)">
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.ParseAppShortcut(System.String,System.Deployment.Application.DefinitionIdentity@,System.Uri@)">
+    <parameter name="shortcutFile">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.RemoveArpEntry(System.Deployment.Application.DefinitionIdentity)">
+    <parameter name="subId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.RemoveFileAssociation(System.Deployment.Application.Manifest.FileAssociation,System.Deployment.Application.DefinitionIdentity,System.String)">
+    <parameter name="subId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fileAssociation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.RemoveFileAssociationCLSIDInfo(System.Deployment.Application.Manifest.FileAssociation,System.Deployment.Application.DefinitionIdentity,Microsoft.Win32.RegistryKey,System.String,System.String)">
+    <parameter name="subId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="classesKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="clsIdString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.RemoveFileAssociationExtentionInfo(System.Deployment.Application.Manifest.FileAssociation,System.Deployment.Application.DefinitionIdentity,Microsoft.Win32.RegistryKey,System.String)">
+    <parameter name="fileAssociation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="classesKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.RemoveFileAssociationProgIDInfo(System.Deployment.Application.Manifest.FileAssociation,System.Deployment.Application.DefinitionIdentity,Microsoft.Win32.RegistryKey,System.String)">
+    <parameter name="fileAssociation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="classesKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.RemoveShellExtensions(System.Deployment.Application.DefinitionIdentity,System.Deployment.Application.Manifest.AssemblyManifest,System.String)">
+    <parameter name="appManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.RemoveShortcuts(System.Deployment.Application.ShellExposure.ShellExposureInformation)">
+    <parameter name="shellExposureInformation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.RemoveSubscriptionShellExposure(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.ShellExposure.ShellExposureInformation.ARPDisplayName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.ShellExposureInformation.CreateShellExposureInformation(System.Deployment.Application.DefinitionIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="subscriptionIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.ShellExposureInformation.CreateShellExposureInformation(System.String,System.String,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="publisher">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.UpdateArpEntry(System.Deployment.Application.SubscriptionState,System.Deployment.Application.ShellExposure.ShellExposureInformation)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="shellExposureInformation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.UpdateShellExtensions(System.Deployment.Application.SubscriptionState,System.Deployment.Application.ShellExposure.ShellExposureInformation@)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.UpdateShortcuts(System.Deployment.Application.SubscriptionState,System.Deployment.Application.ShellExposure.ShellExposureInformation@)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.ShellExposure.UpdateSubscriptionShellExposure(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SplashPiece.#ctor(System.Deployment.Application.UserInterfaceForm,System.Deployment.Application.SplashInfo)">
+    <parameter name="parentForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SplashPiece.ShowSplash(System.Windows.Forms.Form)">
+    <parameter name="parentForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionState.#ctor(System.Deployment.Application.SubscriptionStore,System.Deployment.Application.Manifest.AssemblyManifest)">
+    <parameter name="deployment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.SubscriptionState.PKTGroupId">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStateInternal.#ctor(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.#ctor(System.String,System.String,System.Deployment.Application.ComponentStoreType)">
+    <parameter name="tempPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deployPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.AcquireLock(System.Deployment.Application.DefinitionIdentity,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="asmId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.AcquireReferenceTransaction(System.Int64@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.AcquireStoreReaderLock">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.AcquireStoreWriterLock">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.AcquireSubscriptionReaderLock(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.AcquireSubscriptionWriterLock(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.AcquireTempDirectory">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.AcquireTempFile(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.ActivateApplication(System.Deployment.Application.DefinitionAppId,System.String,System.Boolean)">
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.CheckAndReferenceApplication(System.Deployment.Application.SubscriptionState,System.Deployment.Application.DefinitionAppId,System.Int64)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.CheckApplicationPayload(System.Deployment.Application.CommitApplicationParams)">
+    <parameter name="commitParams">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.CheckCustomUXFlag(System.Deployment.Application.SubscriptionState,System.Deployment.Application.Manifest.AssemblyManifest)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="application">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.CheckDeploymentSubscriptionState(System.Deployment.Application.SubscriptionState,System.Deployment.Application.Manifest.AssemblyManifest)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deployment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.CheckForDeploymentUpdate(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.CheckGroupInstalled(System.Deployment.Application.SubscriptionState,System.Deployment.Application.DefinitionAppId,System.Deployment.Application.Manifest.AssemblyManifest,System.String)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="appManifest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.CheckGroupInstalled(System.Deployment.Application.SubscriptionState,System.Deployment.Application.DefinitionAppId,System.String)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="appId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.CheckInstalled(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.CheckInstalledAndShellVisible(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.CheckMinimumRequiredVersion(System.Deployment.Application.SubscriptionState,System.Deployment.Application.Manifest.AssemblyManifest)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deployment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.CheckOnlineShellVisibleConflict(System.Deployment.Application.SubscriptionState,System.Deployment.Application.Manifest.AssemblyManifest)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deployment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.CheckShellVisible(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.CheckUpdateInManifest(System.Deployment.Application.SubscriptionState,System.Uri,System.Deployment.Application.Manifest.AssemblyManifest,System.Version)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="updateCodebaseUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deployment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.CommitApplication(System.Deployment.Application.SubscriptionState@,System.Deployment.Application.CommitApplicationParams)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="commitParams">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.GetSubscriptionState(System.Deployment.Application.DefinitionIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.GetSubscriptionState(System.Deployment.Application.Manifest.AssemblyManifest)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="deployment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.GetSubscriptionStateInternal(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.IsAssemblyInstalled(System.Deployment.Application.DefinitionIdentity)">
+    <parameter name="asmId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.LockApplicationPath(System.Deployment.Application.DefinitionAppId)">
+    <parameter name="definitionAppId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.RemoveSubscriptionExposure(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.RollbackSubscription(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.SetLastCheckTimeToNow(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.SetPendingDeployment(System.Deployment.Application.SubscriptionState,System.Deployment.Application.DefinitionIdentity,System.DateTime)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.SetUpdateSkipTime(System.Deployment.Application.SubscriptionState,System.Deployment.Application.DefinitionIdentity,System.DateTime)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.UninstallCustomHostSpecifiedSubscription(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.UninstallCustomUXSubscription(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.UninstallSubscription(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.UpdateSubscriptionExposure(System.Deployment.Application.SubscriptionState)">
+    <parameter name="subState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SubscriptionStore.ValidateFileAssoctiation(System.Deployment.Application.SubscriptionState,System.Deployment.Application.CommitApplicationParams)">
+    <parameter name="commitParams">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SyncGroupHelper.#ctor(System.String,System.Object,System.ComponentModel.AsyncOperation,System.Threading.SendOrPostCallback)">
+    <parameter name="groupName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SyncGroupHelper.DownloadCompleted(System.Object,System.Deployment.Application.DownloadEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SyncGroupHelper.DownloadModified(System.Object,System.Deployment.Application.DownloadEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SystemNetDownloader.DownloadSingleFile(System.Deployment.Application.FileDownloader.DownloadQueueItem)">
+    <parameter name="next">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SystemNetDownloader.GetOutputFileStream(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="targetPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.SystemNetDownloader.GetUriCookieContainer(System.Uri)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.TempDirectory.#ctor(System.String)">
+    <parameter name="basePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.TempFile.#ctor(System.String)">
+    <parameter name="basePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.TempFile.#ctor(System.String,System.String)">
+    <parameter name="basePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.TrustNotGrantedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.UpdatePiece.#ctor(System.Deployment.Application.UserInterfaceForm,System.Deployment.Application.UserInterfaceInfo,System.Threading.ManualResetEvent)">
+    <parameter name="parentForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.UpdatePiece.linkAppId_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.UriHelper.IsSupportedScheme(System.Uri)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.UriHelper.UriFromRelativeFilePath(System.Uri,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="baseUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.UriHelper.ValidateSupportedScheme(System.Uri)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.UriHelper.ValidateSupportedSchemeInArgument(System.Uri,System.String)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Application.UserInterface.DefaultBrowserExePath">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.UserInterface.GetDisplaySite(System.Uri)">
+    <parameter name="sourceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.UserInterface.LimitDisplayTextLength(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="displayText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.UserInterfaceForm.ConstructErrorPiece(System.String,System.String,System.String,System.String,System.String,System.Threading.ManualResetEvent)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.UserInterfaceForm.ConstructMaintenancePiece(System.Deployment.Application.UserInterfaceInfo,System.Deployment.Application.MaintenanceInfo,System.Threading.ManualResetEvent)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.UserInterfaceForm.ConstructPlatformPiece(System.String,System.Uri,System.Threading.ManualResetEvent)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.UserInterfaceForm.ConstructProgressPiece(System.Deployment.Application.UserInterfaceInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.UserInterfaceForm.ConstructUpdatePiece(System.Deployment.Application.UserInterfaceInfo,System.Threading.ManualResetEvent)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.UserInterfaceForm.IsRightToLeft(System.Windows.Forms.Control)">
+    <parameter name="control">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.UserInterfaceForm.SwitchUserInterfacePiece(System.Deployment.Application.FormPiece)">
+    <parameter name="piece">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Application.Win32InterOp.SystemUtils.GetDefinitionIdentityFromManagedAssembly(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Win32InterOp.SystemUtils.GetManifestFromPEResources(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Win32InterOp.SystemUtils.QueryAssemblyInfo(System.Deployment.Application.Win32InterOp.SystemUtils.QueryAssemblyInfoFlags,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Application.Win32InterOp.SystemUtils.Win32LoadExceptionHelper(System.Int32,System.String,System.String)">
+    <parameter name="resourceId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.CmiManifestSigner.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="strongNameKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.CmiManifestSigner.#ctor(System.Security.Cryptography.AsymmetricAlgorithm,System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="strongNameKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.ManifestSignedXml.#ctor(System.Xml.XmlDocument)">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.ManifestSignedXml.#ctor(System.Xml.XmlDocument,System.Boolean)">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.ManifestSignedXml.#ctor(System.Xml.XmlElement)">
+    <parameter name="elem">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.ManifestSignedXml.FindIdElement(System.Xml.XmlElement,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.#ctor(System.Xml.XmlDocument)">
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.AuthenticodeSignLicenseDom(System.Xml.XmlDocument,System.Deployment.Internal.CodeSigning.CmiManifestSigner,System.String)">
+    <parameter name="licenseDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.BytesToHexString(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.ComputeHashFromManifest(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.ComputeHashFromManifest(System.Xml.XmlDocument,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.CreateLicenseDom(System.Deployment.Internal.CodeSigning.CmiManifestSigner,System.Xml.XmlElement,System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="principal">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.ExtractPrincipalFromManifest">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.GetPublicKeyToken(System.Xml.XmlDocument)">
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.HexStringToBytes(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="hexString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.InsertPublisherIdentity(System.Xml.XmlDocument,System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="signerCert">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.RemoveExistingSignature(System.Xml.XmlDocument)">
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.ReplacePublicKeyToken(System.Xml.XmlDocument,System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="snKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.Sign(System.Deployment.Internal.CodeSigning.CmiManifestSigner)">
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.Sign(System.Deployment.Internal.CodeSigning.CmiManifestSigner,System.String)">
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.StrongNameSignManifestDom(System.Xml.XmlDocument,System.Xml.XmlDocument,System.Deployment.Internal.CodeSigning.CmiManifestSigner)">
+    <parameter name="manifestDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.CodeSigning.SignedCmiManifest.TimestampSignedLicenseDom(System.Xml.XmlDocument,System.String)">
+    <parameter name="licenseDom">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.ApplicationContext.#ctor(System.Deployment.Internal.Isolation.DefinitionAppId)">
+    <parameter name="appid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.ApplicationContext.#ctor(System.Deployment.Internal.Isolation.IActContext)">
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.ApplicationContext.#ctor(System.Deployment.Internal.Isolation.ReferenceAppId)">
+    <parameter name="appid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.ApplicationContext.Components">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.ApplicationContext.GetComponentManifest(System.Deployment.Internal.Isolation.DefinitionIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="component">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.ApplicationContext.GetComponentManifestPath(System.Deployment.Internal.Isolation.DefinitionIdentity)">
+    <parameter name="component">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.ApplicationContext.GetComponentPath(System.Deployment.Internal.Isolation.DefinitionIdentity)">
+    <parameter name="component">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.ApplicationContext.Identity">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.ApplicationContext.MatchReference(System.Deployment.Internal.Isolation.ReferenceIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="TheRef">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.DefinitionAppId.#ctor(System.Deployment.Internal.Isolation.IDefinitionAppId)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.DefinitionAppId.AppPath">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.DefinitionAppId.SetAppPath(System.Deployment.Internal.Isolation.IDefinitionIdentity[])">
+    <parameter name="Ids">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.DefinitionIdentity.#ctor(System.Deployment.Internal.Isolation.IDefinitionIdentity)">
+    <parameter name="i">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.EnumDefinitionIdentity.#ctor(System.Deployment.Internal.Isolation.IEnumDefinitionIdentity)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.EnumDefinitionIdentity.Current">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.EnumDefinitionIdentity.GetCurrent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.EnumDefinitionIdentity.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.EnumDefinitionIdentity.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.EnumReferenceIdentity.Current">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.EnumReferenceIdentity.GetCurrent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.EnumReferenceIdentity.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.EnumReferenceIdentity.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.IsolationInterop.CreateActContext(System.Deployment.Internal.Isolation.IDefinitionAppId)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.IsolationInterop.CreateActContext(System.Deployment.Internal.Isolation.IReferenceAppId)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.IsolationInterop.GetGuidOfType(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.IsolationInterop.GetUserStore">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.ReferenceAppId.#ctor(System.Deployment.Internal.Isolation.IReferenceAppId)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.ReferenceAppId.AppPath">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.ReferenceIdentity.#ctor(System.Deployment.Internal.Isolation.IReferenceIdentity)">
+    <parameter name="i">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.#ctor(System.Deployment.Internal.Isolation.IStore)">
+    <parameter name="pStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.EnumAssemblies(System.Deployment.Internal.Isolation.Store.EnumAssembliesFlags)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.EnumAssemblies(System.Deployment.Internal.Isolation.Store.EnumAssembliesFlags,System.Deployment.Internal.Isolation.IReferenceIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.EnumCategories(System.Deployment.Internal.Isolation.Store.EnumCategoriesFlags,System.Deployment.Internal.Isolation.IReferenceIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.EnumCategoryInstances(System.Deployment.Internal.Isolation.Store.EnumCategoryInstancesFlags,System.Deployment.Internal.Isolation.IDefinitionIdentity,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.EnumFiles(System.Deployment.Internal.Isolation.Store.EnumAssemblyFilesFlags,System.Deployment.Internal.Isolation.IDefinitionIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.EnumInstallerDeploymentProperties(System.Guid,System.String,System.String,System.Deployment.Internal.Isolation.IDefinitionAppId)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.EnumInstallerDeployments(System.Guid,System.String,System.String,System.Deployment.Internal.Isolation.IReferenceAppId)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.EnumPrivateFiles(System.Deployment.Internal.Isolation.Store.EnumApplicationPrivateFiles,System.Deployment.Internal.Isolation.IDefinitionAppId,System.Deployment.Internal.Isolation.IDefinitionIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.EnumSubcategories(System.Deployment.Internal.Isolation.Store.EnumSubcategoriesFlags,System.Deployment.Internal.Isolation.IDefinitionIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.EnumSubcategories(System.Deployment.Internal.Isolation.Store.EnumSubcategoriesFlags,System.Deployment.Internal.Isolation.IDefinitionIdentity,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.GetDeploymentProperty(System.Deployment.Internal.Isolation.Store.GetPackagePropertyFlags,System.Deployment.Internal.Isolation.IDefinitionAppId,System.Deployment.Internal.Isolation.StoreApplicationReference,System.Guid,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.LockApplicationPath(System.Deployment.Internal.Isolation.IDefinitionAppId)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.LockAssemblyPath(System.Deployment.Internal.Isolation.IDefinitionIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.Transact(System.Deployment.Internal.Isolation.StoreTransactionOperation[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="operations">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.Store.Transact(System.Deployment.Internal.Isolation.StoreTransactionOperation[],System.UInt32[],System.Int32[])">
+    <parameter name="operations">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.StoreAssemblyEnumeration.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.StoreAssemblyEnumeration.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.StoreAssemblyFileEnumeration.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.StoreAssemblyFileEnumeration.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.StoreCategoryEnumeration.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.StoreCategoryEnumeration.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.StoreCategoryInstanceEnumeration.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.StoreCategoryInstanceEnumeration.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.StoreDeploymentMetadataEnumeration.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.StoreDeploymentMetadataEnumeration.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.StoreDeploymentMetadataPropertyEnumeration.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.StoreDeploymentMetadataPropertyEnumeration.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.StoreSubcategoryEnumeration.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.StoreSubcategoryEnumeration.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Deployment.Internal.Isolation.StoreTransaction.GenerateStoreOpsList">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Deployment.Internal.Isolation.StoreTransaction.Operations">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="Microsoft.Build.Conversion.v4.0" version="4.0.0.0">
+  <member name="M:Microsoft.Build.Conversion.AdditionalOptionsParser.ExtractSwitchInfo(Microsoft.Build.Conversion.CompSwitchInfo,System.String)">
+    <parameter name="compSwitchInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="compSwitch">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Conversion.AdditionalOptionsParser.PopulatePropertyGroup(Microsoft.Build.Construction.ProjectPropertyGroupElement)">
+    <parameter name="configPropertyGroup">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Conversion.AdditionalOptionsParser.ProcessAdditionalOptions(System.String,Microsoft.Build.Construction.ProjectPropertyGroupElement)">
+    <parameter name="configPropertyGroup">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Conversion.AdditionalOptionsParser.TokenizeAdditionalOptionsValue(System.String)">
+    <parameter name="additionalOptionsValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Conversion.AssemblyResources.GetString(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Conversion.OldVSProjectFileReader.#ctor(System.String)">
+    <parameter name="filename">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Conversion.OldVSProjectFileReader.ReadBlock(System.Char[],System.Int32,System.Int32)">
+    <parameter name="bufferToReadInto">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Conversion.OldVSProjectFileReader.ReadToEnd">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Conversion.OldVSProjectFileReader.ReplaceAmpersandWithLiteral(System.String,System.Int32)">
+    <parameter name="originalString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Conversion.OldVSProjectFileReader.ReplaceNonEscapingAmpersands(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="xmlAttributeText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Conversion.OldVSProjectFileReader.ReplaceSpecialCharacters(System.String)">
+    <parameter name="originalLine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Conversion.OldVSProjectFileReader.ReplaceSpecialCharactersInXmlAttribute(System.Text.RegularExpressions.Match)">
+    <parameter name="xmlAttribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Conversion.OldVSProjectFileReader.ReplaceSpecialCharactersInXmlAttributeString(System.String)">
+    <parameter name="xmlAttributeText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Conversion.ProjectFileConverter.AddFinalPropertiesAndImports(Microsoft.Build.Construction.XmlElementWithLocation,System.Boolean)">
+    <parameter name="languageElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Conversion.ProjectFileConverter.AddXMakePropertiesFromXMLAttributes(Microsoft.Build.Construction.ProjectPropertyGroupElement,System.Xml.XmlElement)">
+    <parameter name="xmlElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Conversion.ProjectFileConverter.ConvertAssemblyReference(Microsoft.Build.Construction.XmlElementWithLocation,Microsoft.Build.Construction.ProjectItemGroupElement,System.String)">
+    <parameter name="referenceElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="referencesItemGroup">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="referenceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Conversion.ProjectFileConverter.ConvertClassicComReference(Microsoft.Build.Construction.XmlElementWithLocation,Microsoft.Build.Construction.ProjectItemGroupElement,System.String)">
+    <parameter name="referenceElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="referencesItemGroup">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="referenceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Conversion.ProjectFileConverter.ConvertInMemory(Microsoft.Build.BuildEngine.Engine)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Conversion.ProjectFileConverter.ConvertInMemory(Microsoft.Build.BuildEngine.Engine,Microsoft.Build.BuildEngine.ProjectLoadSettings)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Conversion.ProjectFileConverter.ConvertProjectToProjectReference(Microsoft.Build.Construction.XmlElementWithLocation,Microsoft.Build.Construction.ProjectItemGroupElement,System.String,System.String@)">
+    <parameter name="referenceElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="referencesItemGroup">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="referencedProjectGuid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="referenceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Conversion.ProjectFileConverter.FindPropertyIfPresent(Microsoft.Build.Construction.ProjectRootElement,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="project">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Conversion.ProjectFileConverter.GetProjectExtensionsString(System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Conversion.ProjectFileConverter.GetRelativePathToReferencedProject(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Conversion.ProjectFileConverter.IsFilePresentButEmpty(System.String,System.String)">
+    <parameter name="relPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Conversion.ProjectFileConverter.RelativePathTo(System.String,System.String)">
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="to">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Conversion.ProjectFileConverter.SetProjectExtensionsString(System.String,System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

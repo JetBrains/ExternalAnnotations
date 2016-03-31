@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.ServiceModel.NetTcp, Version=2.0.5.0">
+  <member name="P:System.ServiceModel.Channels.BufferedConnection.ThisLock">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.BufferedConnectionInitiator.EndConnect(System.IAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientDuplexConnectionReader.#ctor(System.ServiceModel.Channels.ClientFramingDuplexSessionChannel,,,System.ServiceModel.Channels.IConnectionOrientedTransportFactorySettings,)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.BeginSendPreamble(,System.ArraySegment{System.Byte},@,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.DuplexConnectionPoolHelper.#ctor(System.ServiceModel.Channels.ClientFramingDuplexSessionChannel,System.ServiceModel.Channels.ConnectionPool,)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnBeginOpen(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OpenAsyncResult.#ctor(System.ServiceModel.Channels.ClientFramingDuplexSessionChannel,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="duplexChannel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OpenAsyncResult.OnEstablishConnection(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.SendPreambleAsyncResult.#ctor(System.ServiceModel.Channels.ClientFramingDuplexSessionChannel,,System.ArraySegment{System.Byte},@,System.AsyncCallback,System.Object)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.SendPreambleAsyncResult.OnFailedPreamble(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.SendPreambleAsyncResult.OnReadPreambleAck(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.SendPreambleAsyncResult.OnWritePreamble(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationObjectHelpers.CreateNotOpenException(,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="communicationObjectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.AddConnection(`0,`1,System.TimeSpan)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="connection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.CreateEndpointConnectionPool(`0)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.EndpointConnectionPool.AbortConnections(System.Collections.Generic.List{`1})">
+    <parameter name="idleItemsToClose">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.EndpointConnectionPool.AbortItem(`1)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.EndpointConnectionPool.AddConnection(`1,System.TimeSpan)">
+    <parameter name="connection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.EndpointConnectionPool.CloseIdleConnection(`1,System.TimeSpan)">
+    <parameter name="connection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.EndpointConnectionPool.CloseItem(`1,System.TimeSpan)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.EndpointConnectionPool.CloseItemAsync(`1,System.TimeSpan)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.EndpointConnectionPool.GetIdleConnectionPool">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Channels.CommunicationPool`2.EndpointConnectionPool.IdleConnections">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.EndpointConnectionPool.Prune(System.Collections.Generic.List{`1})">
+    <parameter name="itemsToClose">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.EndpointConnectionPool.ReturnConnection(`1,System.Boolean,System.TimeSpan)">
+    <parameter name="connection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.EndpointConnectionPool.SnapshotIdleConnections">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.EndpointConnectionPool.TakeConnection(System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Channels.CommunicationPool`2.EndpointConnectionPool.ThisLock">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.GetEndpointPool(`0,System.TimeSpan)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.GetPoolKey(,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.IdleConnectionPool.Add(`1)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.IdleConnectionPool.Return(`1)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.PruneIfNecessary">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.ReturnConnection(`0,`1,System.Boolean,System.TimeSpan)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="connection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.CommunicationPool`2.TakeConnection(,,System.TimeSpan,`0@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Channels.CommunicationPool`2.ThisLock">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionOrientedTransportBindingElement.#ctor(System.ServiceModel.Channels.ConnectionOrientedTransportBindingElement)">
+    <parameter name="elementToBeCloned">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionOrientedTransportBindingElement.CanBuildChannelFactory``1()">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionOrientedTransportChannelFactory`1.#ctor(System.ServiceModel.Channels.ConnectionOrientedTransportBindingElement,,System.String,System.TimeSpan,System.Int32)">
+    <parameter name="bindingElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionOrientedTransportChannelFactory`1.CloseAsyncResult.#ctor(System.ServiceModel.Channels.ConnectionOrientedTransportChannelFactory{`0},System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="parent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionOrientedTransportChannelFactory`1.CloseAsyncResult.OnReleaseConnectionPoolScheduled(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionOrientedTransportChannelFactory`1.GetConnectionInitiator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionOrientedTransportChannelFactory`1.GetConnectionPool">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionOrientedTransportChannelFactory`1.OnBeginClose(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionOrientedTransportChannelFactory`1.OnBeginOpen(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionOrientedTransportChannelFactory`1.OnCreateChannel(,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionOrientedTransportChannelFactory`1.ReleaseConnectionPool(System.ServiceModel.Channels.ConnectionPool,System.TimeSpan)">
+    <parameter name="pool">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionPool.#ctor(System.ServiceModel.Channels.IConnectionOrientedTransportChannelFactorySettings,System.TimeSpan)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionPool.IsCompatible(System.ServiceModel.Channels.IConnectionOrientedTransportChannelFactorySettings)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionPoolHelper.BeginAcceptPooledConnection(,@,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionPoolHelper.BeginEstablishConnection(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionPoolHelper.CreateNewConnectionTimeoutException(System.TimeSpan,System.TimeoutException)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnectionAsyncResult.OnConnect(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnectionAsyncResult.OnProcessConnection(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionPoolHelper.SnapshotConnection(,,System.Boolean)">
+    <parameter name="rawConnection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionPoolHelper.TakeConnection(System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Channels.ConnectionPoolHelper.ThisLock">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionPoolRegistry.CreatePool(System.ServiceModel.Channels.IConnectionOrientedTransportChannelFactorySettings)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionPoolRegistry.Lookup(System.ServiceModel.Channels.IConnectionOrientedTransportChannelFactorySettings)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionPoolRegistry.Release(System.ServiceModel.Channels.ConnectionPool,System.TimeSpan)">
+    <parameter name="pool">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionUpgradeHelper.BeginDecodeFramingFault(,,,System.String,@,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ConnectionUpgradeHelper.DecodeFailedUpgradeAsyncResult.OnReadFaultData(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.BeginCloseOutputSession(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.BeginReceive(System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.BeginReceive(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.BeginTryReceive(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.BeginWaitForMessage(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.CloseAsyncResult.#ctor(System.ServiceModel.Channels.FramingDuplexSessionChannel,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.CloseAsyncResult.OnCloseInputSession(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.CloseAsyncResult.OnCloseOutputSession(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.CloseAsyncResult.OnCompleteCloseScheduled(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.CloseOutputSessionAsyncResult.#ctor(System.ServiceModel.Channels.FramingDuplexSessionChannel,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.CloseOutputSessionAsyncResult.OnEnterComplete(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.CloseOutputSessionAsyncResult.OnWriteComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.ConnectionDuplexSession.BeginCloseOutputSession(System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.ConnectionDuplexSession.BeginCloseOutputSession(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.ConnectionDuplexSession.CreateSession(System.ServiceModel.Channels.FramingDuplexSessionChannel)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.EndReceive(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.EndWaitForMessage(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.OnBeginClose(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.SendAsyncResult.#ctor(System.ServiceModel.Channels.FramingDuplexSessionChannel,,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.SendAsyncResult.OnEnterComplete(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.SendAsyncResult.OnWriteComplete(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.TryReceiveAsyncResult.#ctor(System.ServiceModel.Channels.FramingDuplexSessionChannel,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="channel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.TryReceiveAsyncResult.CompleteReceive(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.FramingDuplexSessionChannel.TryReceiveAsyncResult.OnReceive(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.IdlingCommunicationPool`2.IdleTimeoutEndpointConnectionPool.IdleTimeoutIdleConnectionPool.#ctor(System.ServiceModel.Channels.IdlingCommunicationPool{`0,`1}.IdleTimeoutEndpointConnectionPool,System.Object)">
+    <parameter name="parent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.IdlingCommunicationPool`2.IdleTimeoutEndpointConnectionPool.IdleTimeoutIdleConnectionPool.OnIdle(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.IdlingCommunicationPool`2.IdleTimeoutEndpointConnectionPool.IdleTimeoutIdleConnectionPool.OnItemClosing(`1)">
+    <parameter name="connection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.IdlingCommunicationPool`2.IdleTimeoutEndpointConnectionPool.IdleTimeoutIdleConnectionPool.Prune(System.Collections.Generic.List{`1},System.Boolean)">
+    <parameter name="itemsToClose">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.OutputChannel.BeginSend(,System.AsyncCallback,System.Object)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.OutputChannel.BeginSend(,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.OutputChannel.GetProperty``1">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.OutputChannel.OnBeginSend(,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.OutputChannel.Send()">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.OutputChannel.Send(,System.TimeSpan)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SocketConnection.#ctor(,System.Int32)">
+    <parameter name="socket">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SocketConnection.BeginWrite(System.Byte[],System.Int32,System.Int32,System.Boolean,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SocketConnection.ConvertReceiveException(,System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SocketConnection.ConvertSendException(,System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SocketConnection.ConvertTimeoutErrorException(System.Exception,System.ServiceModel.Channels.SocketConnection.TransferOperation,System.String,System.ServiceModel.Channels.SocketConnection.TransferOperation)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SocketConnection.ConvertTransferException(,System.TimeSpan,System.Exception,System.ServiceModel.Channels.SocketConnection.TransferOperation,System.Boolean,System.String,System.ServiceModel.Channels.SocketConnection.TransferOperation,System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SocketConnection.OnReceiveTimeout(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SocketConnection.OnSendTimeout(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SocketConnection.OnWaitForFinComplete(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Channels.SocketConnection.ThisLock">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SocketConnectionInitiator.BeginConnect(,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SocketConnectionInitiator.ConnectAsyncResult.StartConnectCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SocketConnectionInitiator.ConvertConnectException(,,System.TimeSpan,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SocketConnectionInitiator.CreateConnection()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="socket">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SocketConnectionInitiator.EndConnect(System.IAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronizedMessageSource.BeginReceive(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronizedMessageSource.BeginWaitForMessage(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronizedMessageSource.ReceiveAsyncResult.#ctor(System.ServiceModel.Channels.SynchronizedMessageSource,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="syncSource">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronizedMessageSource.ReceiveAsyncResult.OnReceiveComplete(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronizedMessageSource.SynchronizedAsyncResult`1.#ctor(System.ServiceModel.Channels.SynchronizedMessageSource,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="syncSource">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronizedMessageSource.SynchronizedAsyncResult`1.OnEnterComplete(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronizedMessageSource.WaitForMessageAsyncResult.#ctor(System.ServiceModel.Channels.SynchronizedMessageSource,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="syncSource">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.SynchronizedMessageSource.WaitForMessageAsyncResult.OnWaitForMessageComplete(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.TcpChannelFactory`1.#ctor(System.ServiceModel.Channels.TcpTransportBindingElement,)">
+    <parameter name="bindingElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.TcpConnectionPoolRegistry.TcpConnectionPool.#ctor(System.ServiceModel.Channels.ITcpChannelFactorySettings)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.TcpConnectionPoolSettings.#ctor(System.ServiceModel.Channels.TcpConnectionPoolSettings)">
+    <parameter name="tcp">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.TcpConnectionPoolSettings.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.TcpTransportBindingElement.#ctor(System.ServiceModel.Channels.TcpTransportBindingElement)">
+    <parameter name="elementToBeCloned">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.TcpTransportBindingElement.BuildChannelFactory``1()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.TcpTransportBindingElement.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Channels.TcpTransportBindingElement.Scheme">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ThreadNeutralSemaphore.CreateEnterTimedOutException(System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ThreadNeutralSemaphore.CreateObjectAbortedException">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.ThreadNeutralSemaphore.Enter(System.Threading.WaitCallback,System.Object)">
+    <parameter name="callback">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.ThreadNeutralSemaphore.EnterCore">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Channels.TransportOutputChannel.ToDictionary.TryLookup(,@)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.TransportOutputChannel.ToDictionary.TryLookup(System.String,@)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.UriGenerator.#ctor(System.String)">
+    <parameter name="scheme">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Channels.UriGenerator.#ctor(System.String,System.String)">
+    <parameter name="scheme">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Configuration.ConnectionOrientedTransportElement.ApplyConfiguration()">
+    <parameter name="bindingElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Configuration.TcpConnectionPoolSettingsElement.ApplyConfiguration(System.ServiceModel.Channels.TcpConnectionPoolSettings)">
+    <parameter name="settings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Configuration.TcpTransportElement.BindingElementType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Configuration.TcpTransportElement.CreateDefaultBindingElement">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.SR2.Culture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.SR2.GetObject(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR2.GetString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR2.GetString(System.String,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR2.GetString(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.SR2CategoryAttribute.GetLocalizedString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

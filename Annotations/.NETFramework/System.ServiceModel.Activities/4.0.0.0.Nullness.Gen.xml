@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.ServiceModel.Activities" version="4.0.0.0">
+  <member name="P:System.ServiceModel.Activities.Configuration.BufferedReceiveElement.BehaviorType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Configuration.BufferedReceiveElement.CreateBehavior">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.BufferedReceiveElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.ChannelSettingsElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.EtwTrackingBehaviorElement.BehaviorType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Configuration.EtwTrackingBehaviorElement.CreateBehavior">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.EtwTrackingBehaviorElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.FactorySettingsElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.SendMessageChannelCacheElement.BehaviorType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Configuration.SendMessageChannelCacheElement.CreateBehavior">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.SendMessageChannelCacheElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Configuration.ServiceModelActivitiesSectionGroup.GetSectionGroup(System.Configuration.Configuration)">
+    <parameter name="config">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.SqlWorkflowInstanceStoreElement.BehaviorType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Configuration.SqlWorkflowInstanceStoreElement.CreateBehavior">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Configuration.WorkflowControlEndpointElement.CreateServiceEndpoint(System.ServiceModel.Description.ContractDescription)">
+    <parameter name="contractDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.WorkflowControlEndpointElement.EndpointType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Configuration.WorkflowControlEndpointElement.OnApplyConfiguration(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Configuration.ChannelEndpointElement)">
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Configuration.WorkflowControlEndpointElement.OnApplyConfiguration(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Configuration.ServiceEndpointElement)">
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Configuration.WorkflowControlEndpointElement.OnInitializeAndValidate(System.ServiceModel.Configuration.ChannelEndpointElement)">
+    <parameter name="channelEndpointElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Configuration.WorkflowControlEndpointElement.OnInitializeAndValidate(System.ServiceModel.Configuration.ServiceEndpointElement)">
+    <parameter name="serviceEndpointElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.WorkflowIdleElement.BehaviorType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Configuration.WorkflowIdleElement.CreateBehavior">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.WorkflowIdleElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.WorkflowInstanceManagementElement.BehaviorType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Configuration.WorkflowInstanceManagementElement.CreateBehavior">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.WorkflowInstanceManagementElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.WorkflowUnhandledExceptionElement.BehaviorType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Configuration.WorkflowUnhandledExceptionElement.CreateBehavior">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Configuration.WorkflowUnhandledExceptionElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.CorrelationHandle.EnsureBookmarkScope(System.Activities.NativeActivityContext)">
+    <parameter name="executionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.CorrelationHandle.GetExplicitCallbackCorrelation(System.Activities.NativeActivityContext,System.Collections.ObjectModel.Collection{System.ServiceModel.Activities.CorrelationInitializer})">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.CorrelationHandle.GetExplicitChannelCorrelation(System.Activities.NativeActivityContext,System.Collections.ObjectModel.Collection{System.ServiceModel.Activities.CorrelationInitializer})">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.CorrelationHandle.GetExplicitContextCorrelation(System.Activities.NativeActivityContext,System.Collections.ObjectModel.Collection{System.ServiceModel.Activities.CorrelationInitializer})">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.CorrelationHandle.GetTypedCorrelationHandle(System.Activities.NativeActivityContext,System.Collections.ObjectModel.Collection{System.ServiceModel.Activities.CorrelationInitializer},System.Type)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.CorrelationHandle.InitializeBookmarkScope(System.Activities.NativeActivityContext,System.Runtime.DurableInstancing.InstanceKey)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="instanceKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.CorrelationHandle.TryAcquireRequestContext(System.Activities.NativeActivityContext,System.ServiceModel.Activities.CorrelationRequestContext@)">
+    <parameter name="executionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.CorrelationHandle.TryAcquireResponseContext(System.Activities.NativeActivityContext,System.ServiceModel.Activities.CorrelationResponseContext@)">
+    <parameter name="executionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.CorrelationHandle.TryRegisterRequestContext(System.Activities.NativeActivityContext,System.ServiceModel.Activities.CorrelationRequestContext)">
+    <parameter name="executionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.CorrelationHandle.TryRegisterResponseContext(System.Activities.NativeActivityContext,System.ServiceModel.Activities.CorrelationResponseContext)">
+    <parameter name="executionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.BufferedReceiveServiceBehavior.AddBindingParameters(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase,System.Collections.ObjectModel.Collection{System.ServiceModel.Description.ServiceEndpoint},System.ServiceModel.Channels.BindingParameterCollection)">
+    <parameter name="bindingParameters">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.BufferedReceiveServiceBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+    <parameter name="serviceHostBase">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.BufferedReceiveServiceBehavior.Validate(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+    <parameter name="serviceHostBase">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.EtwTrackingBehavior.AddBindingParameters(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase,System.Collections.ObjectModel.Collection{System.ServiceModel.Description.ServiceEndpoint},System.ServiceModel.Channels.BindingParameterCollection)">
+    <parameter name="bindingParameters">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.EtwTrackingBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+    <parameter name="serviceHostBase">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.EtwTrackingBehavior.Validate(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+    <parameter name="serviceHostBase">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.SqlWorkflowInstanceStoreBehavior.AddBindingParameters(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase,System.Collections.ObjectModel.Collection{System.ServiceModel.Description.ServiceEndpoint},System.ServiceModel.Channels.BindingParameterCollection)">
+    <parameter name="bindingParameters">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.SqlWorkflowInstanceStoreBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+    <parameter name="serviceDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceHostBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.SqlWorkflowInstanceStoreBehavior.Promote(System.String,System.Collections.Generic.IEnumerable{},System.Collections.Generic.IEnumerable{})">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.SqlWorkflowInstanceStoreBehavior.Validate(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+    <parameter name="serviceHostBase">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.WorkflowContractBehaviorAttribute.ApplyClientBehavior(System.ServiceModel.Description.ContractDescription,System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.ClientRuntime)">
+    <parameter name="clientRuntime">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.WorkflowContractBehaviorAttribute.ApplyDispatchBehavior(System.ServiceModel.Description.ContractDescription,System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.DispatchRuntime)">
+    <parameter name="dispatchRuntime">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.WorkflowContractBehaviorAttribute.Validate(System.ServiceModel.Description.ContractDescription,System.ServiceModel.Description.ServiceEndpoint)">
+    <parameter name="endpoint">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contractDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.WorkflowIdleBehavior.AddBindingParameters(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase,System.Collections.ObjectModel.Collection{System.ServiceModel.Description.ServiceEndpoint},System.ServiceModel.Channels.BindingParameterCollection)">
+    <parameter name="bindingParameters">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.WorkflowIdleBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+    <parameter name="serviceHostBase">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.WorkflowIdleBehavior.Validate(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+    <parameter name="serviceHostBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.WorkflowInstanceManagementBehavior.AddBindingParameters(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase,System.Collections.ObjectModel.Collection{System.ServiceModel.Description.ServiceEndpoint},System.ServiceModel.Channels.BindingParameterCollection)">
+    <parameter name="bindingParameters">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.WorkflowInstanceManagementBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+    <parameter name="serviceDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceHostBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.WorkflowInstanceManagementBehavior.Validate(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+    <parameter name="serviceHostBase">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.WorkflowOperationBehavior.OnResolveBookmark(System.ServiceModel.Activities.WorkflowOperationContext,System.Activities.BookmarkScope@,System.Object@)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.WorkflowUnhandledExceptionBehavior.AddBindingParameters(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase,System.Collections.ObjectModel.Collection{System.ServiceModel.Description.ServiceEndpoint},System.ServiceModel.Channels.BindingParameterCollection)">
+    <parameter name="bindingParameters">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.WorkflowUnhandledExceptionBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+    <parameter name="serviceHostBase">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceDescription">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Description.WorkflowUnhandledExceptionBehavior.Validate(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+    <parameter name="serviceHostBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Dispatcher.BufferedReceiveManager.Retry(System.Collections.Generic.HashSet{System.Runtime.DurableInstancing.InstanceKey},System.Collections.ObjectModel.ReadOnlyCollection{System.Activities.Hosting.BookmarkInfo})">
+    <parameter name="associatedInstances">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="availableBookmarks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Dispatcher.DurableInstanceManager.BeginGetInstance(System.Guid,System.ServiceModel.Activities.WorkflowGetInstanceContext,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Dispatcher.DurableInstanceManager.GetInstanceAsyncResult.#ctor(System.ServiceModel.Activities.Dispatcher.DurableInstanceManager,System.Guid,System.ServiceModel.Activities.WorkflowGetInstanceContext,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="instanceManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Dispatcher.PersistenceContext.PopulateActivationMetadata(System.Activities.DurableInstancing.SaveWorkflowCommand)">
+    <parameter name="saveCommand">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Dispatcher.PersistenceProviderDirectory.BeginLoad(System.Guid,System.Collections.Generic.ICollection{System.Runtime.DurableInstancing.InstanceKey},System.Transactions.Transaction,System.Boolean,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Dispatcher.PersistenceProviderDirectory.LoadOrCreateAsyncResult.#ctor(System.ServiceModel.Activities.Dispatcher.PersistenceProviderDirectory,System.Runtime.DurableInstancing.InstanceKey,System.Guid,System.Boolean,System.Collections.Generic.ICollection{System.Runtime.DurableInstancing.InstanceKey},System.Transactions.Transaction,System.Boolean,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="ppd">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Dispatcher.WorkflowServiceInstance.#ctor(System.Activities.Activity,System.Guid,System.ServiceModel.Activities.WorkflowServiceHost,System.ServiceModel.Activities.Dispatcher.PersistenceContext)">
+    <parameter name="workflowDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceHost">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Dispatcher.WorkflowServiceInstance.BeginResumeProtocolBookmark(System.Activities.Bookmark,System.Activities.BookmarkScope,System.Object,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Dispatcher.WorkflowServiceInstance.InitializeInstance(System.ServiceModel.Activities.Dispatcher.PersistenceContext,System.Guid,System.Activities.Activity,System.Collections.Generic.IDictionary{,System.Runtime.DurableInstancing.InstanceValue},System.ServiceModel.Activities.WorkflowCreationContext,System.Threading.SynchronizationContext,System.ServiceModel.Activities.WorkflowServiceHost)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="persistenceContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="workflowDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceHost">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Dispatcher.WorkflowServiceInstance.OnNotifyUnhandledException(System.Exception,System.Activities.Activity,System.String)">
+    <parameter name="exceptionSource">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Dispatcher.WorkflowServiceInstance.ResumeProtocolBookmarkAsyncResult.#ctor(System.ServiceModel.Activities.Dispatcher.WorkflowServiceInstance,System.Activities.Bookmark,System.Object,System.Activities.BookmarkScope,System.Boolean,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Dispatcher.WorkflowServiceInstance.ResumeProtocolBookmarkCore(System.Activities.Bookmark,System.Object,System.Activities.BookmarkScope,System.Boolean,System.Runtime.AsyncWaitHandle@,System.Boolean@)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Dispatcher.WorkflowServiceInstance.RunAsyncResult.Create(System.ServiceModel.Activities.Dispatcher.WorkflowServiceInstance,System.Transactions.Transaction,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.FxTrace.UpdateLevel(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalReceiveMessage.ClientScheduleOnReceivedMessage(System.Activities.NativeActivityContext,System.ServiceModel.Activities.InternalReceiveMessage.ReceiveMessageInstanceData)">
+    <parameter name="executionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalReceiveMessage.ClientScheduleOnReceiveMessageCallback(System.Activities.NativeActivityContext,System.Activities.ActivityInstance)">
+    <parameter name="executionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalReceiveMessage.ClientScheduleOnReceiveMessageCore(System.Activities.NativeActivityContext,System.ServiceModel.Activities.InternalReceiveMessage.ReceiveMessageInstanceData)">
+    <parameter name="executionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalReceiveMessage.FinalizeReceiveMessageCore(System.Activities.NativeActivityContext,System.ServiceModel.Activities.InternalReceiveMessage.ReceiveMessageInstanceData)">
+    <parameter name="executionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalReceiveMessage.FinalizeScheduleOnReceivedMessage(System.Activities.NativeActivityContext,System.ServiceModel.Activities.InternalReceiveMessage.ReceiveMessageInstanceData)">
+    <parameter name="executionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalReceiveMessage.OnMessage(System.Activities.NativeActivityContext,System.Activities.Bookmark,System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="executionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalReceiveMessage.ProcessReceiveMessageTrace(System.Activities.NativeActivityContext,System.ServiceModel.Activities.InternalReceiveMessage.ReceiveMessageInstanceData)">
+    <parameter name="executionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalReceiveMessage.ReceiveMessageInstanceData.GetAmbientCorrelation(System.Activities.NativeActivityContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalReceiveMessage.RequireContextCallback(System.Activities.NativeActivityTransactionContext,System.Object)">
+    <parameter name="transactionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalReceiveMessage.ServerScheduleOnReceivedMessage(System.Activities.NativeActivityContext,System.ServiceModel.Activities.InternalReceiveMessage.ReceiveMessageInstanceData)">
+    <parameter name="executionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalReceiveMessage.SetupTransaction(System.Activities.NativeActivityContext,System.ServiceModel.Activities.InternalReceiveMessage.ReceiveMessageInstanceData)">
+    <parameter name="executionContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalReceiveMessage.WaitForReply.BeginExecute(System.Activities.AsyncCodeActivityContext,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalReceiveMessage.WaitForReply.EndExecute(System.Activities.AsyncCodeActivityContext,System.IAsyncResult)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.Cancel(System.Activities.NativeActivityContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.CompleteCorrelationCallback(System.Activities.NativeActivityContext,System.Activities.Bookmark,System.Object)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.CreateEndpointAddress(System.Activities.NativeActivityContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.EnsureCorrelationBehaviorScopeName(System.Activities.ActivityContext,System.ServiceModel.Activities.Description.CorrelationQueryBehavior)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="correlationBehavior">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.ExecuteServerResponse(System.Activities.NativeActivityContext,System.ServiceModel.Activities.InternalSendMessage.SendMessageInstance)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.FactoryCacheKey.ContractDescriptionComparerHelper.EqualsOrdered``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0},System.Func{``0,``0,System.Boolean})">
+    <parameter name="equals">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.FactoryCacheKey.ContractDescriptionComparerHelper.IsContractDescriptionEquivalent(System.ServiceModel.Description.ContractDescription,System.ServiceModel.Description.ContractDescription)">
+    <parameter name="c1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="c2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.FactoryCacheKey.ContractDescriptionComparerHelper.IsMessageDescriptionEquivalent(System.ServiceModel.Description.MessageDescription,System.ServiceModel.Description.MessageDescription)">
+    <parameter name="m1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="m2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.FactoryCacheKey.ContractDescriptionComparerHelper.IsOperationDescriptionEquivalent(System.ServiceModel.Description.OperationDescription,System.ServiceModel.Description.OperationDescription)">
+    <parameter name="o1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="o2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.GetSendMessageInstance(System.Activities.ActivityContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.InitializeCorrelations(System.Activities.NativeActivityContext,System.ServiceModel.Activities.InternalSendMessage.SendMessageInstance)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.OnChannelCorrelationComplete(System.Activities.NativeActivityContext,System.Activities.ActivityInstance)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.OnChannelCorrelationCompleteCore(System.Activities.NativeActivityContext,System.ServiceModel.Activities.InternalSendMessage.SendMessageInstance)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.OnChannelFactoryOpened(System.Activities.NativeActivityContext,System.Activities.ActivityInstance)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.OnChannelFactoryOpenedCore(System.Activities.NativeActivityContext,System.ServiceModel.Activities.InternalSendMessage.SendMessageInstance)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.OnClientSendComplete(System.Activities.NativeActivityContext,System.Activities.ActivityInstance)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.OnPersistCompleted(System.Activities.NativeActivityContext,System.Activities.ActivityInstance)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.OpenChannelAndSendMessage.BeginExecute(System.Activities.AsyncCodeActivityContext,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.OpenChannelAndSendMessage.EndExecute(System.Activities.AsyncCodeActivityContext,System.IAsyncResult)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.OpenChannelFactory.BeginExecute(System.Activities.AsyncCodeActivityContext,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.OpenChannelFactory.EndExecute(System.Activities.AsyncCodeActivityContext,System.IAsyncResult)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.ProcessSendMessageTrace(System.Activities.NativeActivityContext,System.ServiceModel.Activities.InternalSendMessage.SendMessageInstance,System.Boolean)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.SendMessageInstance.#ctor(System.ServiceModel.Activities.InternalSendMessage,System.Activities.NativeActivityContext)">
+    <parameter name="parent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.SendMessageInstance.GetExplicitChannelCorrelationHandle(System.Activities.NativeActivityContext,System.Collections.ObjectModel.Collection{System.ServiceModel.Activities.CorrelationInitializer})">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.SetSendMessageInstance(System.Activities.NativeActivityContext,System.ServiceModel.Activities.InternalSendMessage.SendMessageInstance)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.WaitOnChannelCorrelation.BeginExecute(System.Activities.AsyncCodeActivityContext,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.InternalSendMessage.WaitOnChannelCorrelation.EndExecute(System.Activities.AsyncCodeActivityContext,System.IAsyncResult)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.MessagingActivityHelper.AddRuntimeArgument(System.Activities.Argument,System.String,System.Type,System.Activities.ArgumentDirection,System.Activities.ActivityMetadata)">
+    <parameter name="runtimeArgumentName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="runtimeArgumentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.MessagingActivityHelper.CreateReplyCorrelatesWith(System.Activities.InArgument{System.ServiceModel.Activities.CorrelationHandle})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="requestCorrelatesWith">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.MessagingActivityHelper.GetCallbacks``1(System.Activities.ExecutionProperties)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="executionProperties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.MessagingActivityHelper.InitializeCorrelationHandles(System.Activities.NativeActivityContext,System.ServiceModel.Activities.CorrelationHandle,System.ServiceModel.Activities.CorrelationHandle,System.Collections.ObjectModel.Collection{System.ServiceModel.Activities.CorrelationInitializer},System.Runtime.DurableInstancing.InstanceKey,System.Collections.Generic.ICollection{System.Runtime.DurableInstancing.InstanceKey})">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.MessagingActivityHelper.InitializeCorrelationHandles(System.Activities.NativeActivityContext,System.ServiceModel.Activities.CorrelationHandle,System.ServiceModel.Activities.CorrelationHandle,System.Collections.ObjectModel.Collection{System.ServiceModel.Activities.CorrelationInitializer},System.ServiceModel.Activities.Dispatcher.CorrelationKeyCalculator,System.ServiceModel.Channels.Message)">
+    <parameter name="keyCalculator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.MessagingActivityHelper.InitializeCorrelationHandles(System.Activities.NativeActivityContext,System.ServiceModel.Activities.CorrelationHandle,System.ServiceModel.Activities.CorrelationHandle,System.Collections.ObjectModel.Collection{System.ServiceModel.Activities.CorrelationInitializer},System.ServiceModel.Channels.MessageProperties)">
+    <parameter name="messageProperties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Activities.Receive.CorrelationInitializers">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Receive.KnownTypes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.ReceiveContent.CacheMetadata(System.Activities.ActivityMetadata,System.Activities.Activity,System.String)">
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.ReceiveContent.Create(System.Activities.OutArgument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.ReceiveContent.Create(System.Activities.OutArgument,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.ReceiveContent.Create(System.Collections.Generic.IDictionary{System.String,System.Activities.OutArgument})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.ReceiveParametersContent.#ctor(System.Collections.Generic.IDictionary{System.String,System.Activities.OutArgument})">
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Activities.ReceiveReply.CorrelationInitializers">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Send.CorrelationInitializers">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Send.InitializeChannelCacheEnabledSetting(System.Activities.ActivityContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Activities.Send.KnownTypes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.SendContent.CacheMetadata(System.Activities.ActivityMetadata,System.Activities.Activity,System.String)">
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.SendContent.Create(System.Activities.InArgument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.SendContent.Create(System.Activities.InArgument,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.SendContent.Create(System.Collections.Generic.IDictionary{System.String,System.Activities.InArgument})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.SendParametersContent.#ctor(System.Collections.Generic.IDictionary{System.String,System.Activities.InArgument})">
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Activities.SendReply.CorrelationInitializers">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Tracking.Configuration.AnnotationElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Tracking.Configuration.ArgumentElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Tracking.Configuration.ProfileElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Tracking.Configuration.ProfileWorkflowElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Tracking.Configuration.StateElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Tracking.Configuration.TrackingConfigurationCollection`1.Add(`0)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Tracking.Configuration.TrackingConfigurationCollection`1.IndexOf(`0)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Tracking.Configuration.TrackingConfigurationCollection`1.Remove(`0)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Tracking.Configuration.TrackingConfigurationElement.GetStringPairKey(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Tracking.Configuration.TrackingQueryElement.ElementKey">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Tracking.Configuration.TrackingQueryElement.NewTrackingQuery">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Tracking.Configuration.TrackingQueryElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Tracking.Configuration.TrackingQueryElement.UpdateTrackingQuery(System.Activities.Tracking.TrackingQuery)">
+    <parameter name="trackingQuery">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Activities.Tracking.Configuration.TrackingSection.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Tracking.Configuration.TrackingSection.TrackingProfiles">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Activities.Tracking.Configuration.VariableElement.Properties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.Tracking.ReceiveMessageRecord.#ctor(System.ServiceModel.Activities.Tracking.ReceiveMessageRecord)">
+    <parameter name="record">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Tracking.ReceiveMessageRecord.#ctor(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Tracking.SendMessageRecord.#ctor(System.ServiceModel.Activities.Tracking.SendMessageRecord)">
+    <parameter name="record">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.Tracking.SendMessageRecord.#ctor(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.TransactedReceiveScope.OnBodyCompleted(System.Activities.NativeActivityContext,System.Activities.ActivityInstance)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.TransactedReceiveScope.OnReceiveCompleted(System.Activities.NativeActivityContext,System.Activities.ActivityInstance)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="completedInstance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Activities.TransactedReceiveScope.Variables">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.#ctor(System.ServiceModel.Activities.WorkflowControlEndpoint)">
+    <parameter name="workflowEndpoint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.#ctor(System.ServiceModel.Channels.Binding,System.ServiceModel.EndpointAddress)">
+    <parameter name="binding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="remoteAddress">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.#ctor(System.String)">
+    <parameter name="endpointConfigurationName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.#ctor(System.String,System.ServiceModel.EndpointAddress)">
+    <parameter name="endpointConfigurationName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="remoteAddress">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.#ctor(System.String,System.String)">
+    <parameter name="endpointConfigurationName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="remoteAddress">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.BeginCancel(System.Guid,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.BeginRun(System.Guid,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.BeginSuspend(System.Guid,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.BeginSuspend(System.Guid,System.String,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.BeginTerminate(System.Guid,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.BeginTerminate(System.Guid,System.String,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.BeginUnsuspend(System.Guid,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.EndCancel(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.EndRun(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.EndSuspend(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.EndTerminate(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowControlClient.EndUnsuspend(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowCreationContext.OnBeginWorkflowCompleted(System.Activities.ActivityInstanceState,System.Collections.Generic.IDictionary{System.String,System.Object},System.Exception,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowCreationContext.OnEndWorkflowCompleted(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Activities.WorkflowCreationContext.WorkflowArguments">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowHostingEndpoint.#ctor(System.Type)">
+    <parameter name="contractType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowHostingEndpoint.#ctor(System.Type,System.ServiceModel.Channels.Binding,System.ServiceModel.EndpointAddress)">
+    <parameter name="contractType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowHostingEndpoint.OnGetCreationContext(System.Object[],System.ServiceModel.OperationContext,System.Guid,System.ServiceModel.Activities.WorkflowHostingResponseContext)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowHostingEndpoint.OnGetInstanceId(System.Object[],System.ServiceModel.OperationContext)">
+    <parameter name="operationContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowHostingEndpoint.OnResolveBookmark(System.Object[],System.ServiceModel.OperationContext,System.ServiceModel.Activities.WorkflowHostingResponseContext,System.Object@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="responseContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="inputs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowHostingEndpoint.WorkflowHostingContractBehavior.WorkflowHostingOperationBehavior.OnResolveBookmark(System.ServiceModel.Activities.WorkflowOperationContext,System.Activities.BookmarkScope@,System.Object@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowOperationContext.#ctor(System.Object[],System.ServiceModel.OperationContext,System.String,System.Boolean,System.Boolean,System.Transactions.Transaction,System.ServiceModel.Activities.Dispatcher.WorkflowServiceInstance,System.ServiceModel.Dispatcher.IInvokeReceivedNotification,System.ServiceModel.Activities.Description.WorkflowOperationBehavior,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="operationContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="workflowInstance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="behavior">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowOperationContext.BeginProcessRequest(System.ServiceModel.Activities.Dispatcher.WorkflowServiceInstance,System.ServiceModel.OperationContext,System.String,System.Object[],System.Boolean,System.Boolean,System.Transactions.Transaction,System.ServiceModel.Dispatcher.IInvokeReceivedNotification,System.ServiceModel.Activities.Description.WorkflowOperationBehavior,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="workflowInstance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="operationContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="behavior">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowService.CollectCorrelationQueryFromReply(System.Collections.ObjectModel.Collection{System.ServiceModel.CorrelationQuery}@,System.Xml.Linq.XName,System.Activities.Activity,System.ServiceModel.Description.OperationDescription)">
+    <parameter name="operation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceContractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.Activities.WorkflowService.Endpoints">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowService.GetContractDescriptions">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.#ctor(System.Activities.Activity,System.Uri[])">
+    <parameter name="activity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="baseAddresses">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.#ctor(System.Object,System.Uri[])">
+    <parameter name="serviceImplementation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="baseAddresses">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.#ctor(System.ServiceModel.Activities.WorkflowService,System.Uri[])">
+    <parameter name="serviceDefinition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="baseAddresses">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.AddServiceEndpoint(System.String,System.ServiceModel.Channels.Binding,System.String)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="implementedContract">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="binding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.AddServiceEndpoint(System.String,System.ServiceModel.Channels.Binding,System.String,System.Uri)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="implementedContract">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="binding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.AddServiceEndpoint(System.String,System.ServiceModel.Channels.Binding,System.Uri)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="implementedContract">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="binding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.AddServiceEndpoint(System.String,System.ServiceModel.Channels.Binding,System.Uri,System.Uri)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="implementedContract">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="binding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.AddServiceEndpoint(System.Xml.Linq.XName,System.ServiceModel.Channels.Binding,System.String,System.Uri,System.String)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="binding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="serviceContractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.AddServiceEndpoint(System.Xml.Linq.XName,System.ServiceModel.Channels.Binding,System.Uri,System.Uri,System.String)">
+    <parameter name="binding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="serviceContractName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.BeginHostOpen(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.CreateDescription(System.Collections.Generic.IDictionary{System.String,System.ServiceModel.Description.ContractDescription}@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.EndHostOpen(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.InitializeFromConstructor(System.Activities.Activity,System.Uri[])">
+    <parameter name="baseAddresses">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.OpenAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.OpenAsyncResult.HandleDurableInstanceManagerEndOpen(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.Activities.WorkflowServiceHost.OpenAsyncResult.HandleEndHostOpen(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.CorrelationActionMessageFilter.Equals(System.Object)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.CorrelationQuery.Equals(System.Object)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.ServiceModel.CorrelationQuery.SelectAdditional">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Endpoint.GetAddress">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.Endpoint.GetAddress(System.ServiceModel.ServiceHostBase)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.ServiceModel.Endpoint.Headers">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.EndpointIdentityExtension.#ctor(System.ServiceModel.EndpointIdentity)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.EndpointIdentityExtension.ProvideValue(System.IServiceProvider)">
+    <parameter name="serviceProvider">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.MessageQuerySet.#ctor(System.ServiceModel.Dispatcher.MessageQueryTable{System.String})">
+    <parameter name="queryTable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.MessageQuerySet.GetMessageQueryTable">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.ServiceModel.XamlIntegration.EndpointIdentityConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.XamlIntegration.ServiceXNameTypeConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+    <parameter name="sourceType">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.XamlIntegration.ServiceXNameTypeConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+    <parameter name="destinationType">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.XamlIntegration.SpnEndpointIdentityExtension.#ctor(System.ServiceModel.SpnEndpointIdentity)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.XamlIntegration.SpnEndpointIdentityExtension.ProvideValue(System.IServiceProvider)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="serviceProvider">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.XamlIntegration.UpnEndpointIdentityExtension.#ctor(System.ServiceModel.UpnEndpointIdentity)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.ServiceModel.XamlIntegration.UpnEndpointIdentityExtension.ProvideValue(System.IServiceProvider)">
+    <parameter name="serviceProvider">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>

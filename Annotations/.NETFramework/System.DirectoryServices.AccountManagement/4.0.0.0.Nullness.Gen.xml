@@ -1,0 +1,2778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.DirectoryServices.AccountManagement, Version=4.0.0.0">
+  <member name="P:System.DirectoryServices.AccountManagement.AccountInfo.AccountLockoutTime">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.AccountInfo.LastLogon">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AccountInfo.LoadValueIntoProperty(System.String,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADAMStoreCtx.#ctor(System.DirectoryServices.DirectoryEntry,System.Boolean,System.String,System.String,System.String,System.DirectoryServices.AccountManagement.ContextOptions)">
+    <parameter name="ctxBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADAMStoreCtx.InitializeUserAccountControl(System.DirectoryServices.AccountManagement.AuthenticablePrincipal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADAMStoreCtx.PopulatAuxObjectList(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADAMStoreCtx.SetupPasswordModification(System.DirectoryServices.AccountManagement.AuthenticablePrincipal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADEntriesSet.#ctor(System.DirectoryServices.SearchResultCollection,System.DirectoryServices.AccountManagement.ADStoreCtx)">
+    <parameter name="src">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADEntriesSet.#ctor(System.DirectoryServices.SearchResultCollection,System.DirectoryServices.AccountManagement.ADStoreCtx,System.Object)">
+    <parameter name="src">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.ADEntriesSet.CurrentAsPrincipal">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.#ctor(System.DirectoryServices.DirectoryEntry,System.Boolean,System.String,System.String,System.DirectoryServices.AccountManagement.ContextOptions)">
+    <parameter name="ctxBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.AcctDisabledConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.AcctDisabledFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.AcctDisabledToLdapConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.AcctExpirFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.AcctExpirToLdapConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.AddPropertySetToTypePropListMap(System.Type,System.Collections.Specialized.StringCollection)">
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.BinaryConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.BinaryFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.BinaryToLdapConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.BoolFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.BoolToLdapConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.BuildExtensionPropertyList(System.Collections.Hashtable,System.Type)">
+    <parameter name="propertyList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.BuildPropertySet(System.Type,System.Collections.Specialized.StringCollection)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertySet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.CannotChangePwdFromLdapConverter(System.DirectoryServices.DirectoryEntry)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.CannotChangePwdToLdapConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.CertFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.CertificateConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.CertToLdap(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.CommaStringConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.CommaStringFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.CommaStringToLdapConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.DateTimeFilterBuilder(System.String,System.DateTime,System.DateTime,System.Boolean,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.DateTimeFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String,System.Boolean)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.DefaultValueBoolConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.DefaultValutMatchingDateTimeConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.EnablePrincipalIfNecessary(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.ExpirationDateConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.ExtensionCacheConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.ExtensionCacheToLdapConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.ExtensionTypeConverter(System.String,System.Type,System.Object,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.FindByBadPasswordAttempt(System.DateTime,System.DirectoryServices.AccountManagement.MatchType,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.FindByDate(System.Type,System.String[],System.DirectoryServices.AccountManagement.MatchType,System.DateTime)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="subtype">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ldapAttributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.FindByLockoutTime(System.DateTime,System.DirectoryServices.AccountManagement.MatchType,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.FindPrincipalByIdentRefHelper(System.Type,System.String,System.String,System.DateTime,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="urnValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.FindPrincipalBySID(System.Type,System.DirectoryServices.AccountManagement.IdentityReference,System.Boolean)">
+    <parameter name="ir">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.GenericDateTimeFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.GetDirectorySearcherFromGroupID(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="groupSid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.GetGroupDnFromGroupID(System.Byte[],System.Int32)">
+    <parameter name="userSid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.GetObjectClassPortion(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.GetSidPathFromPrincipal(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.GroupTypeConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.GroupTypeFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.GroupTypeToLdapConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.GuidConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.GuidFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.IdentityClaimConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.InitializeNewDirectoryOptions(System.DirectoryServices.DirectoryEntry)">
+    <parameter name="newDeChild">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.IntFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.IsContainer(System.DirectoryServices.DirectoryEntry)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.IsValidProperty(System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.LastLogonConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.LastLogonFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.Load(System.DirectoryServices.AccountManagement.Principal,System.DirectoryServices.SearchResult)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.LoadDirectoryEntryAttributes(System.DirectoryServices.DirectoryEntry)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.LoadFilterMappingTable(System.Int32,System.Object[0:,0:])">
+    <parameter name="rawFilterPropertiesTable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.LoadPropertyMappingTable(System.Int32,System.Object[0:,0:])">
+    <parameter name="rawPropertyMappingTable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.MatchingDateTimeConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.MatchingIntConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.MultiStringFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.MultiStringToLdapConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.ObjectClassFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.ScanACLForChangePasswordRight(System.DirectoryServices.ActiveDirectorySecurity,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@)">
+    <parameter name="adsSecurity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.SearcherNativeType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.SecurityIdentityClaimConverterHelper(System.String,System.Boolean,System.Text.StringBuilder,System.Boolean)">
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.SetAuthPrincipalEnableStatus(System.DirectoryServices.AccountManagement.AuthenticablePrincipal,System.Boolean)">
+    <parameter name="ap">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.SetCannotChangePasswordStatus(System.DirectoryServices.AccountManagement.Principal,System.Boolean,System.Boolean)">
+    <parameter name="ap">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.SetPasswordSecurityifNeccessary(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.SidFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.StringConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.StringFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.StringToLdapConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.UACFromLdapConverter(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.UACToLdapConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedAdProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.UpdateGroupMembership(System.DirectoryServices.AccountManagement.Principal,System.DirectoryServices.DirectoryEntry,System.DirectoryServices.AccountManagement.NetCred,System.DirectoryServices.AuthenticationTypes)">
+    <parameter name="group">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.UserAccountControlConverter(System.DirectoryServices.AccountManagement.FilterBase,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.WriteAttribute(System.DirectoryServices.AccountManagement.Principal,System.String,System.Int32)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreCtx.WriteAttribute``1(System.DirectoryServices.AccountManagement.Principal,System.String,``0)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreKey.#ctor(System.String,System.Byte[])">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADStoreKey.Equals(System.Object)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.ArePrincipalsInSameForest(System.DirectoryServices.AccountManagement.Principal,System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.AreSidsInSameDomain(System.Security.Principal.SecurityIdentifier,System.Security.Principal.SecurityIdentifier)">
+    <parameter name="sid1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sid2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.DirectoryEntryAsPrincipal(System.DirectoryServices.DirectoryEntry,System.DirectoryServices.AccountManagement.ADStoreCtx)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeCtx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.EscapeBinaryValue(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.EscapeDNComponent(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="dnComponent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.EscapeRFC2254SpecialChars(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.GetServerName(System.DirectoryServices.DirectoryEntry)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.HexStringToLdapHexString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.IsOfObjectClass(System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="classToCompare">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.IsOfObjectClass(System.DirectoryServices.SearchResult,System.String)">
+    <parameter name="sr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.LargeIntToInt64(System.DirectoryServices.AccountManagement.UnsafeNativeMethods.IADsLargeInteger)">
+    <parameter name="largeInt">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.PAPIQueryToLdapQueryString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="papiString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.RetriveWkDn(System.DirectoryServices.DirectoryEntry,System.String,System.String,System.Byte[])">
+    <parameter name="deBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="wellKnownContainerGuid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.SearchResultAsPrincipal(System.DirectoryServices.SearchResult,System.DirectoryServices.AccountManagement.ADStoreCtx,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="sr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeCtx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ADUtils.VerifyOutboundTrust(System.String,System.String,System.String)">
+    <parameter name="targetDomain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AdvancedFilters.AdvancedFilterSet(System.String,System.Object,System.Type,System.DirectoryServices.AccountManagement.MatchType)">
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AdvancedFilters.GetChangeStatusForProperty(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.#ctor(System.DirectoryServices.AccountManagement.PrincipalContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.#ctor(System.DirectoryServices.AccountManagement.PrincipalContext,System.String,System.String,System.Boolean)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.AccountInfo">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.AccountLockoutTime">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.ChangePassword(System.String,System.String)">
+    <parameter name="newPassword">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="oldPassword">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.CheckFindByArgs(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType,System.Type)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subtype">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.FindByBadPasswordAttempt(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.FindByBadPasswordAttempt``1(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.FindByExpirationTime(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.FindByExpirationTime``1(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.FindByLockoutTime(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.FindByLockoutTime``1(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.FindByLogonTime(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.FindByLogonTime``1(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.FindByPasswordSetTime(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.FindByPasswordSetTime``1(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.LastBadPasswordAttempt">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.LastLogon">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.LastPasswordSet">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.LoadCertificateCollection(System.Collections.Generic.List{System.Byte[]})">
+    <parameter name="certificatesToLoad">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.MakeAuthenticablePrincipal(System.DirectoryServices.AccountManagement.PrincipalContext)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="ctx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.PasswordInfo">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthenticablePrincipal.SetPassword(System.String)">
+    <parameter name="newPassword">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.AuthZSet.#ctor(System.Byte[],System.DirectoryServices.AccountManagement.NetCred,System.DirectoryServices.AccountManagement.ContextOptions,System.String,System.DirectoryServices.AccountManagement.StoreCtx,System.Object)">
+    <parameter name="flatUserAuthority">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="userStoreCtx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="userSid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.AuthZSet.CurrentAsPrincipal">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.BookmarkableResultSet.BookmarkAndReset">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.BookmarkableResultSet.RestoreBookmark(System.DirectoryServices.AccountManagement.ResultSetBookmark)">
+    <parameter name="bookmark">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ComputerPrincipal.#ctor(System.DirectoryServices.AccountManagement.PrincipalContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ComputerPrincipal.#ctor(System.DirectoryServices.AccountManagement.PrincipalContext,System.String,System.String,System.Boolean)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samAccountName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="password">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ComputerPrincipal.FindByBadPasswordAttempt(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ComputerPrincipal.FindByExpirationTime(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ComputerPrincipal.FindByIdentity(System.DirectoryServices.AccountManagement.PrincipalContext,System.DirectoryServices.AccountManagement.IdentityType,System.String)">
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ComputerPrincipal.FindByIdentity(System.DirectoryServices.AccountManagement.PrincipalContext,System.String)">
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ComputerPrincipal.FindByLockoutTime(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ComputerPrincipal.FindByLogonTime(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ComputerPrincipal.FindByPasswordSetTime(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ComputerPrincipal.MakeComputer(System.DirectoryServices.AccountManagement.PrincipalContext)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="ctx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ConfigurationHandler.Create(System.Object,System.Object,System.Xml.XmlNode)">
+    <parameter name="configContext">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="section">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.CredentialValidator.BindLdap(System.Net.NetworkCredential,System.DirectoryServices.AccountManagement.ContextOptions)">
+    <parameter name="creds">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.CredentialValidator.lockedLdapBind(System.DirectoryServices.Protocols.LdapConnection,System.Net.NetworkCredential,System.DirectoryServices.AccountManagement.ContextOptions)">
+    <parameter name="current">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="creds">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.DirectoryObjectClassAttribute.Context">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.DirectoryRdnPrefixAttribute.Context">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.dSPropertyCollection.Item(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.dSPropertyValueCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.EmptySet.RestoreBookmark(System.DirectoryServices.AccountManagement.ResultSetBookmark)">
+    <parameter name="bookmark">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ExceptionHelper.GetExceptionFromCOMException(System.Runtime.InteropServices.COMException)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ExceptionHelper.GetExceptionFromErrorCode(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ExceptionHelper.GetExceptionFromErrorCode(System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ExtensionCache.TryGetValue(System.String,System.DirectoryServices.AccountManagement.ExtensionCacheValue@)">
+    <parameter name="attr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.ExtensionHelper.ReadStructuralObjectClass(System.Type)">
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.FilterBase.PropertyName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.FilterFactory.CreateFilter(System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.FindByDateMatcher.MatchOnAccountExpirationTime(System.DirectoryServices.DirectoryEntry)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.FindByDateMatcher.MatchOnLogonTime(System.DirectoryServices.DirectoryEntry)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.FindByDateMatcher.MatchOnPasswordSetTime(System.DirectoryServices.DirectoryEntry)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.FindResultEnumerator`1.Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.FindResultEnumerator`1.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.GroupPrincipal.#ctor(System.DirectoryServices.AccountManagement.PrincipalContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.GroupPrincipal.#ctor(System.DirectoryServices.AccountManagement.PrincipalContext,System.String)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samAccountName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.GroupPrincipal.FindByIdentity(System.DirectoryServices.AccountManagement.PrincipalContext,System.DirectoryServices.AccountManagement.IdentityType,System.String)">
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.GroupPrincipal.FindByIdentity(System.DirectoryServices.AccountManagement.PrincipalContext,System.String)">
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.GroupPrincipal.GetMembers">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.GroupPrincipal.GetMembers(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.GroupPrincipal.MakeGroup(System.DirectoryServices.AccountManagement.PrincipalContext)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="ctx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.GroupPrincipal.Members">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.MultipleMatchesException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.NoMatchingPrincipalException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PasswordException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PasswordInfo.ChangePassword(System.String,System.String)">
+    <parameter name="oldPassword">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="newPassword">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.PasswordInfo.LastBadPasswordAttempt">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.PasswordInfo.LastPasswordSet">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PasswordInfo.LoadValueIntoProperty(System.String,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PasswordInfo.SetPassword(System.String)">
+    <parameter name="newPassword">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.AdvancedFilterSet(System.String,System.Object,System.Type,System.DirectoryServices.AccountManagement.MatchType)">
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.Equals(System.Object)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.ExtensionGet(System.String)">
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.Principal.ExtensionHelper">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.ExtensionSet(System.String,System.Object)">
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.FindByIdentity(System.DirectoryServices.AccountManagement.PrincipalContext,System.DirectoryServices.AccountManagement.IdentityType,System.String)">
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.FindByIdentity(System.DirectoryServices.AccountManagement.PrincipalContext,System.String)">
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.FindByIdentityWithType(System.DirectoryServices.AccountManagement.PrincipalContext,System.Type,System.DirectoryServices.AccountManagement.IdentityType,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.FindByIdentityWithType(System.DirectoryServices.AccountManagement.PrincipalContext,System.Type,System.String)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.FindByIdentityWithTypeHelper(System.DirectoryServices.AccountManagement.PrincipalContext,System.Type,System.Nullable{System.DirectoryServices.AccountManagement.IdentityType},System.String,System.DateTime)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.GetChangeStatusForProperty(System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.GetGroups">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.GetGroups(System.DirectoryServices.AccountManagement.PrincipalContext)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="contextToQuery">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.GetGroupsHelper">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.GetGroupsHelper(System.DirectoryServices.AccountManagement.PrincipalContext)">
+    <parameter name="contextToQuery">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.GetUnderlyingObject">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.GetUnderlyingObjectType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.GetValueForProperty(System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.Principal.Guid">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.HandleGet``1(``0@,System.String,System.DirectoryServices.AccountManagement.LoadState@)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.IsMemberOf(System.DirectoryServices.AccountManagement.GroupPrincipal)">
+    <parameter name="group">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.IsMemberOf(System.DirectoryServices.AccountManagement.PrincipalContext,System.DirectoryServices.AccountManagement.IdentityType,System.String)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.LoadIfNeeded(System.String)">
+    <parameter name="principalPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.LoadValueIntoProperty(System.String,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.MakePrincipal(System.DirectoryServices.AccountManagement.PrincipalContext,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Principal.Save(System.DirectoryServices.AccountManagement.PrincipalContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Add(System.DirectoryServices.AccountManagement.ComputerPrincipal)">
+    <parameter name="computer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Add(System.DirectoryServices.AccountManagement.GroupPrincipal)">
+    <parameter name="group">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Add(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="principal">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Add(System.DirectoryServices.AccountManagement.PrincipalContext,System.DirectoryServices.AccountManagement.IdentityType,System.String)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Add(System.DirectoryServices.AccountManagement.UserPrincipal)">
+    <parameter name="user">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Contains(System.DirectoryServices.AccountManagement.ComputerPrincipal)">
+    <parameter name="computer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Contains(System.DirectoryServices.AccountManagement.GroupPrincipal)">
+    <parameter name="group">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Contains(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="principal">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Contains(System.DirectoryServices.AccountManagement.PrincipalContext,System.DirectoryServices.AccountManagement.IdentityType,System.String)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Contains(System.DirectoryServices.AccountManagement.UserPrincipal)">
+    <parameter name="user">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.ContainsEnumTest(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="principal">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.ContainsNativeTest(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="principal">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.CopyTo(System.DirectoryServices.AccountManagement.Principal[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Remove(System.DirectoryServices.AccountManagement.ComputerPrincipal)">
+    <parameter name="computer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Remove(System.DirectoryServices.AccountManagement.GroupPrincipal)">
+    <parameter name="group">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Remove(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="principal">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Remove(System.DirectoryServices.AccountManagement.PrincipalContext,System.DirectoryServices.AccountManagement.IdentityType,System.String)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.Remove(System.DirectoryServices.AccountManagement.UserPrincipal)">
+    <parameter name="user">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.PrincipalCollection.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.PrincipalCollection.System#Collections#ICollection#SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalCollection.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.PrincipalCollectionEnumerator.Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.PrincipalCollectionEnumerator.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalContext.ContextForType(System.Type)">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalContext.CreateContextFromDirectoryEntry(System.DirectoryServices.DirectoryEntry)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="entry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalExistsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalOperationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalSearcher.#ctor(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="queryFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalSearcher.FindAll">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalSearcher.FindAll(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalSearcher.FindOne">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalSearcher.GetUnderlyingSearcher">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalSearchResult`1.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalSearchResult`1.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalServerDownException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.Add(`0)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.ChangedValues">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.Contains(`0)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.CopyTo(`0[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.IndexOf(`0)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.Insert(System.Int32,`0)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.Inserted">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.Load(System.Collections.Generic.List{`0})">
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.Remove(`0)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.System#Collections#ICollection#SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.System#Collections#IList#Add(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.System#Collections#IList#Contains(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.System#Collections#IList#IndexOf(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.System#Collections#IList#Insert(System.Int32,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PrincipalValueCollection`1.System#Collections#IList#Remove(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.PropertyNamesExternal.GetExternalForm(System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.QbeMatcher.BinaryMatcher(System.DirectoryServices.AccountManagement.FilterBase,System.String,System.DirectoryServices.DirectoryEntry)">
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="winNTPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.QbeMatcher.DateTimeMatcher(System.DirectoryServices.AccountManagement.FilterBase,System.String,System.DirectoryServices.DirectoryEntry)">
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="winNTPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.QbeMatcher.ExpirationDateMatcher(System.DirectoryServices.AccountManagement.FilterBase,System.String,System.DirectoryServices.DirectoryEntry)">
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="winNTPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.QbeMatcher.GroupTypeMatcher(System.DirectoryServices.AccountManagement.FilterBase,System.String,System.DirectoryServices.DirectoryEntry)">
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.QbeMatcher.IntMatcher(System.DirectoryServices.AccountManagement.FilterBase,System.String,System.DirectoryServices.DirectoryEntry)">
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="winNTPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.QbeMatcher.MultiStringMatcher(System.DirectoryServices.AccountManagement.FilterBase,System.String,System.DirectoryServices.DirectoryEntry)">
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="winNTPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.QbeMatcher.SamAccountNameMatcher(System.DirectoryServices.AccountManagement.FilterBase,System.String,System.DirectoryServices.DirectoryEntry)">
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.QbeMatcher.SidMatcher(System.DirectoryServices.AccountManagement.FilterBase,System.String,System.DirectoryServices.DirectoryEntry)">
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.QbeMatcher.StringMatcher(System.DirectoryServices.AccountManagement.FilterBase,System.String,System.DirectoryServices.DirectoryEntry)">
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="winNTPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.QbeMatcher.UserFlagsMatcher(System.DirectoryServices.AccountManagement.FilterBase,System.String,System.DirectoryServices.DirectoryEntry)">
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="winNTPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.QbeMatcher.WildcardStringMatch(System.DirectoryServices.AccountManagement.FilterBase,System.String,System.String)">
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="wildcardFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.RangeRetriever.Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.RangeRetriever.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.RangeRetriever.GetNextChunk">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.ResultSet.CurrentAsPrincipal">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMGroupsSet.#ctor(System.DirectoryServices.AccountManagement.UnsafeNativeMethods.IADsMembers,System.DirectoryServices.AccountManagement.SAMStoreCtx,System.DirectoryServices.DirectoryEntry)">
+    <parameter name="iADsMembers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMMatcher.Matches(System.DirectoryServices.DirectoryEntry)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMMembersSet.#ctor(System.String,System.DirectoryServices.AccountManagement.UnsafeNativeMethods.IADsGroup,System.Boolean,System.DirectoryServices.AccountManagement.SAMStoreCtx,System.DirectoryServices.DirectoryEntry)">
+    <parameter name="group">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMMembersSet.IsLocalMember(System.Byte[])">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMQuerySet.#ctor(System.Collections.Generic.List{System.String},System.DirectoryServices.DirectoryEntries,System.DirectoryServices.DirectoryEntry,System.Int32,System.DirectoryServices.AccountManagement.SAMStoreCtx,System.DirectoryServices.AccountManagement.SAMMatcher)">
+    <parameter name="entries">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMQuerySet.IsOfCorrectType(System.DirectoryServices.DirectoryEntry)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.AcctExpirDateToNTConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String,System.Boolean)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedWinNTProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.BinaryFromWinNTConverter(System.DirectoryServices.DirectoryEntry,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedWinNTProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.CanGroupBeCleared(System.DirectoryServices.AccountManagement.GroupPrincipal,System.String@)">
+    <parameter name="g">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.CanGroupMemberBeRemoved(System.DirectoryServices.AccountManagement.GroupPrincipal,System.DirectoryServices.AccountManagement.Principal,System.String@)">
+    <parameter name="g">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.CertToWinNT(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String,System.Boolean)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.DateFromWinNTConverter(System.DirectoryServices.DirectoryEntry,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedWinNTProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.ElapsedTimeFromWinNTConverter(System.DirectoryServices.DirectoryEntry,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedWinNTProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.EmailToWinNTConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String,System.Boolean)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.ExceptionToWinNTConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String,System.Boolean)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.FindByBadPasswordAttempt(System.DateTime,System.DirectoryServices.AccountManagement.MatchType,System.Type)">
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.FindByDate(System.DirectoryServices.AccountManagement.FindByDateMatcher.DateProperty,System.DirectoryServices.AccountManagement.MatchType,System.DateTime,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.FindByLockoutTime(System.DateTime,System.DirectoryServices.AccountManagement.MatchType,System.Type)">
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.FindNativeByNT4IdentRef(System.Type,System.String)">
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="urnValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.FindNativeBySIDIdentRef(System.Type,System.Byte[])">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.GetSamAccountName(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.GetSchemaFilter(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.GetSidADsPathFromPrincipal(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.GroupTypeFromWinNTConverter(System.DirectoryServices.DirectoryEntry,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.GroupTypeToWinNTConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String,System.Boolean)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.IntFromWinNTConverter(System.DirectoryServices.DirectoryEntry,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedWinNTProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.IsMemberOfInStore(System.DirectoryServices.AccountManagement.GroupPrincipal,System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="g">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.LogonHoursToWinNTConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String,System.Boolean)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedWinNTProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.Move(System.DirectoryServices.AccountManagement.StoreCtx,System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.MultiStringFromWinNTConverter(System.DirectoryServices.DirectoryEntry,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedWinNTProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.MultiStringToWinNTConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String,System.Boolean)">
+    <parameter name="suggestedWinNTProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.SamAccountNameFromWinNTConverter(System.DirectoryServices.DirectoryEntry,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.SidFromWinNTConverter(System.DirectoryServices.DirectoryEntry,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.StringFromWinNTConverter(System.DirectoryServices.DirectoryEntry,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedWinNTProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.StringToWinNTConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String,System.Boolean)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedWinNTProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.UpdateGroupMembership(System.DirectoryServices.AccountManagement.Principal,System.DirectoryServices.DirectoryEntry,System.DirectoryServices.AccountManagement.NetCred,System.DirectoryServices.AuthenticationTypes)">
+    <parameter name="group">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.UserFlagsFromWinNTConverter(System.DirectoryServices.DirectoryEntry,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedWinNTProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.UserFlagsToWinNTConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String,System.Boolean)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedWinNTProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreCtx.WriteAttribute(System.DirectoryServices.AccountManagement.AuthenticablePrincipal,System.String,System.Int32)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreKey.#ctor(System.String,System.Byte[])">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMStoreKey.Equals(System.Object)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMUtils.DirectoryEntryAsPrincipal(System.DirectoryServices.DirectoryEntry,System.DirectoryServices.AccountManagement.StoreCtx)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeCtx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMUtils.GetOSVersion(System.DirectoryServices.DirectoryEntry,System.Int32@,System.Int32@)">
+    <parameter name="computerDE">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMUtils.IsOfObjectClass(System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SAMUtils.PAPIQueryToRegexString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="papiString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSCache.GetContext(System.String,System.DirectoryServices.AccountManagement.NetCred,System.DirectoryServices.AccountManagement.ContextOptions)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.AccountControlFromDirectoryEntry(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String,System.Boolean)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.AccountControlToDirectoryEntry(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String,System.Boolean,System.Boolean)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.ApplyChangesToDirectory(System.DirectoryServices.AccountManagement.Principal,System.DirectoryServices.AccountManagement.StoreCtx,System.DirectoryServices.AccountManagement.SDSUtils.GroupMembershipUpdater,System.DirectoryServices.AccountManagement.NetCred,System.DirectoryServices.AuthenticationTypes)">
+    <parameter name="storeCtx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="updateGroupMembership">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.BuildDirectoryEntry(System.DirectoryServices.AccountManagement.NetCred,System.DirectoryServices.AuthenticationTypes)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.BuildDirectoryEntry(System.String,System.DirectoryServices.AccountManagement.NetCred,System.DirectoryServices.AuthenticationTypes)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.ChangePassword(System.DirectoryServices.DirectoryEntry,System.String,System.String)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.ConstructDnsDomainNameFromDn(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="dn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.ConstructSearcher(System.DirectoryServices.DirectoryEntry)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.DeleteDirectoryEntry(System.DirectoryServices.DirectoryEntry)">
+    <parameter name="deToDelete">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.DirectoryEntryToPrincipal(System.DirectoryServices.DirectoryEntry,System.DirectoryServices.AccountManagement.PrincipalContext,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="owningContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.InsertPrincipal(System.DirectoryServices.AccountManagement.Principal,System.DirectoryServices.AccountManagement.StoreCtx,System.DirectoryServices.AccountManagement.SDSUtils.GroupMembershipUpdater,System.DirectoryServices.AccountManagement.NetCred,System.DirectoryServices.AuthenticationTypes,System.Boolean)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeCtx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="updateGroupMembership">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.IsObjectFromGC(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.IsOfObjectClass(System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="className">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.IsOfObjectClass(System.DirectoryServices.SearchResult,System.String)">
+    <parameter name="sr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.MoveDirectoryEntry(System.DirectoryServices.DirectoryEntry,System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="deToMove">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="newParent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.MultiScalarFromDirectoryEntry``1(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.MultiStringToDirectoryEntryConverter(System.DirectoryServices.AccountManagement.Principal,System.String,System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.SearchResultToPrincipal(System.DirectoryServices.SearchResult,System.DirectoryServices.AccountManagement.PrincipalContext,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="sr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="owningContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.SetPassword(System.DirectoryServices.DirectoryEntry,System.String)">
+    <parameter name="de">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.SingleScalarFromDirectoryEntry``1(System.DirectoryServices.AccountManagement.dSPropertyCollection,System.String,System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suggestedProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.WriteAttribute(System.String,System.String,System.Int32,System.DirectoryServices.AccountManagement.NetCred,System.DirectoryServices.AuthenticationTypes)">
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SDSUtils.WriteAttribute``1(System.String,System.String,``0,System.DirectoryServices.AccountManagement.NetCred,System.DirectoryServices.AuthenticationTypes)">
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SidList.#ctor(System.Collections.Generic.List{System.Byte[]})">
+    <parameter name="sidListByteFormat">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SidList.#ctor(System.Collections.Generic.List{System.Byte[]},System.String,System.DirectoryServices.AccountManagement.NetCred)">
+    <parameter name="sidListByteFormat">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SidList.#ctor(System.DirectoryServices.AccountManagement.UnsafeNativeMethods.SID_AND_ATTR[])">
+    <parameter name="sidAndAttr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.SidList.TranslateSids(System.String,System.IntPtr[])">
+    <parameter name="pSids">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.AccessCheck(System.DirectoryServices.AccountManagement.Principal,System.DirectoryServices.AccountManagement.PrincipalAccessMask)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.BuildFilterSet(System.DirectoryServices.AccountManagement.Principal,System.String[],System.DirectoryServices.AccountManagement.QbeFilterDescription)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertySet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="qbeFilterDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.BuildQbeFilterDescription(System.DirectoryServices.AccountManagement.Principal)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.CanGroupBeCleared(System.DirectoryServices.AccountManagement.GroupPrincipal,System.String@)">
+    <parameter name="g">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.CanGroupMemberBeRemoved(System.DirectoryServices.AccountManagement.GroupPrincipal,System.DirectoryServices.AccountManagement.Principal,System.String@)">
+    <parameter name="g">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.ChangePassword(System.DirectoryServices.AccountManagement.AuthenticablePrincipal,System.String,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.ConstructFakePrincipalFromSID(System.Byte[])">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.Delete(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.ExpirePassword(System.DirectoryServices.AccountManagement.AuthenticablePrincipal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.FindByBadPasswordAttempt(System.DateTime,System.DirectoryServices.AccountManagement.MatchType,System.Type)">
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.FindByExpirationTime(System.DateTime,System.DirectoryServices.AccountManagement.MatchType,System.Type)">
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.FindByLockoutTime(System.DateTime,System.DirectoryServices.AccountManagement.MatchType,System.Type)">
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.FindByLogonTime(System.DateTime,System.DirectoryServices.AccountManagement.MatchType,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.FindByPasswordSetTime(System.DateTime,System.DirectoryServices.AccountManagement.MatchType,System.Type)">
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.FindPrincipalByIdentRef(System.Type,System.String,System.String,System.DateTime)">
+    <parameter name="urnValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="principalType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.GetAsPrincipal(System.Object,System.Object)">
+    <parameter name="storeObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.GetGroupMembership(System.DirectoryServices.AccountManagement.GroupPrincipal,System.Boolean)">
+    <parameter name="g">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.GetGroupsMemberOf(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.GetGroupsMemberOf(System.DirectoryServices.AccountManagement.Principal,System.DirectoryServices.AccountManagement.StoreCtx)">
+    <parameter name="foreignPrincipal">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.GetGroupsMemberOfAZ(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.InitializeUserAccountControl(System.DirectoryServices.AccountManagement.AuthenticablePrincipal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.Insert(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.IsLockedOut(System.DirectoryServices.AccountManagement.AuthenticablePrincipal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.IsMemberOfInStore(System.DirectoryServices.AccountManagement.GroupPrincipal,System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="g">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.IsValidProperty(System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.Load(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.Load(System.DirectoryServices.AccountManagement.Principal,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="principalPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.Move(System.DirectoryServices.AccountManagement.StoreCtx,System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.NativeType(System.DirectoryServices.AccountManagement.Principal)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.PushChangesToNative(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.PushFilterToNativeSearcher(System.DirectoryServices.AccountManagement.PrincipalSearcher)">
+    <parameter name="ps">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.Query(System.DirectoryServices.AccountManagement.PrincipalSearcher,System.Int32)">
+    <parameter name="ps">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.ResolveCrossStoreRefToPrincipal(System.Object)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.SetPassword(System.DirectoryServices.AccountManagement.AuthenticablePrincipal,System.String)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.SupportedCredTypes(System.DirectoryServices.AccountManagement.AuthenticablePrincipal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.SupportsAccounts(System.DirectoryServices.AccountManagement.AuthenticablePrincipal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.UnexpirePassword(System.DirectoryServices.AccountManagement.AuthenticablePrincipal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.UnlockAccount(System.DirectoryServices.AccountManagement.AuthenticablePrincipal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.StoreCtx.Update(System.DirectoryServices.AccountManagement.Principal)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.TrackedCollection`1.Add(`0)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.TrackedCollection`1.ChangedValues">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.TrackedCollection`1.Contains(`0)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.TrackedCollection`1.CopyTo(`0[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.TrackedCollection`1.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.TrackedCollection`1.Inserted">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.TrackedCollection`1.Remove(`0)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.TrackedCollection`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.TrackedCollection`1.System#Collections#ICollection#SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.TrackedCollection`1.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.TrackedCollectionEnumerator`1.Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.TrackedCollectionEnumerator`1.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.UserPrincipal.#ctor(System.DirectoryServices.AccountManagement.PrincipalContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.UserPrincipal.#ctor(System.DirectoryServices.AccountManagement.PrincipalContext,System.String,System.String,System.Boolean)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samAccountName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="password">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.UserPrincipal.Current">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.UserPrincipal.FindByBadPasswordAttempt(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.UserPrincipal.FindByExpirationTime(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.UserPrincipal.FindByIdentity(System.DirectoryServices.AccountManagement.PrincipalContext,System.DirectoryServices.AccountManagement.IdentityType,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.UserPrincipal.FindByIdentity(System.DirectoryServices.AccountManagement.PrincipalContext,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="identityValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.UserPrincipal.FindByLockoutTime(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.UserPrincipal.FindByLogonTime(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.UserPrincipal.FindByPasswordSetTime(System.DirectoryServices.AccountManagement.PrincipalContext,System.DateTime,System.DirectoryServices.AccountManagement.MatchType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.UserPrincipal.GetAuthorizationGroups">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.UserPrincipal.GetAuthorizationGroupsHelper">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.UserPrincipal.MakeUser(System.DirectoryServices.AccountManagement.PrincipalContext)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="ctx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Utils.AreBytesEqual(System.Byte[],System.Byte[])">
+    <parameter name="src">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="tgt">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Utils.ByteArrayToString(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="byteArray">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Utils.ClassifySID(System.Byte[])">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Utils.ConstructFakePrincipalFromSID(System.Byte[],System.DirectoryServices.AccountManagement.PrincipalContext,System.String,System.DirectoryServices.AccountManagement.NetCred,System.String)">
+    <parameter name="ctx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Utils.ConvertByteArrayToIntPtr(System.Byte[])">
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Utils.ConvertNativeSidToByteArray(System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Utils.ConvertSidToSDDL(System.Byte[])">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Utils.GetComputerFlatName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Utils.GetLastRidFromSid(System.Byte[])">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Utils.LookupSid(System.String,System.DirectoryServices.AccountManagement.NetCred,System.Byte[],System.String@,System.String@,System.Int32@)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Utils.SecurityIdentifierToLdapHexBindingString(System.Security.Principal.SecurityIdentifier)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Utils.SecurityIdentifierToLdapHexFilterString(System.Security.Principal.SecurityIdentifier)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.DirectoryServices.AccountManagement.Utils.StringToByteArray(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.ValueCollectionEnumerator`1.Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.DirectoryServices.AccountManagement.ValueCollectionEnumerator`1.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+</assembly>

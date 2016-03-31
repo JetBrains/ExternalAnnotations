@@ -1,0 +1,3583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.IdentityModel, Version=3.0.0.0">
+  <member name="M:System.IdentityModel.Asn1IntegerConverter.AddSecondDecimalToFirst(System.Collections.Generic.List{System.Byte},System.Byte[])">
+    <parameter name="first">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="second">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Asn1IntegerConverter.Asn1IntegerToDecimalString(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="asn1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Asn1IntegerConverter.SubtractSecondDecimalFromFirst(System.Collections.Generic.List{System.Byte},System.Collections.Generic.List{System.Byte})">
+    <parameter name="first">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="second">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CanonicalFormWriter.Base64EncodeAndWrite(System.IO.Stream,System.Byte[],System.Char[],System.Byte[])">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="workBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="base64WorkBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CanonicalFormWriter.EncodeAndWrite(System.IO.Stream,System.Byte[],System.Char[])">
+    <parameter name="chars">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="workBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CanonicalFormWriter.EncodeAndWrite(System.IO.Stream,System.Byte[],System.Char[],System.Int32)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="workBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="chars">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CanonicalFormWriter.EncodeAndWrite(System.IO.Stream,System.Byte[],System.String)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="workBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CanonicalFormWriter.EncodeAndWrite(System.IO.Stream,System.Char[],System.Int32)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="chars">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CanonicalFormWriter.EncodeAndWrite(System.IO.Stream,System.String)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CanonicalizationDriver.GetBytes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.CanonicalizationDriver.GetMemoryStream">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.CanonicalizationDriver.SetInput(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CanonicalizationDriver.SetInput(System.Xml.XmlReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CanonicalizationDriver.WriteTo(System.Security.Cryptography.HashAlgorithm)">
+    <parameter name="hashAlgorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.#ctor(System.String,System.Object,System.String)">
+    <parameter name="right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="claimType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.#ctor(System.String,System.Object,System.String,System.Collections.Generic.IEqualityComparer{System.IdentityModel.Claims.Claim})">
+    <parameter name="claimType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.CreateDenyOnlyWindowsSidClaim(System.Security.Principal.SecurityIdentifier)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.CreateDnsClaim(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="dns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.CreateHashClaim(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.CreateMailAddressClaim(System.Net.Mail.MailAddress)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="mailAddress">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.CreateNameClaim(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.CreateRsaClaim(System.Security.Cryptography.RSA)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="rsa">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.CreateSpnClaim(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="spn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.CreateThumbprintClaim(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="thumbprint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.CreateUpnClaim(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="upn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.CreateUriClaim(System.Uri)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.CreateWindowsSidClaim(System.Security.Principal.SecurityIdentifier)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.CreateX500DistinguishedNameClaim(System.Security.Cryptography.X509Certificates.X500DistinguishedName)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="x500DistinguishedName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.Claim.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimComparer.BinaryObjectComparer.System#Collections#IEqualityComparer#Equals(System.Object,System.Object)">
+    <parameter name="obj2">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="obj1">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimComparer.BinaryObjectComparer.System#Collections#IEqualityComparer#GetHashCode(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimComparer.Equals(System.IdentityModel.Claims.Claim,System.IdentityModel.Claims.Claim)">
+    <parameter name="claim2">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="claim1">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimComparer.GetComparer(System.String)">
+    <parameter name="claimType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimComparer.GetHashCode(System.IdentityModel.Claims.Claim)">
+    <parameter name="claim">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimComparer.ObjectComparer.System#Collections#IEqualityComparer#Equals(System.Object,System.Object)">
+    <parameter name="obj2">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="obj1">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimComparer.ObjectComparer.System#Collections#IEqualityComparer#GetHashCode(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimComparer.RsaObjectComparer.System#Collections#IEqualityComparer#Equals(System.Object,System.Object)">
+    <parameter name="obj2">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="obj1">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimComparer.RsaObjectComparer.System#Collections#IEqualityComparer#GetHashCode(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimComparer.UpnObjectComparer.System#Collections#IEqualityComparer#Equals(System.Object,System.Object)">
+    <parameter name="obj2">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="obj1">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimComparer.UpnObjectComparer.System#Collections#IEqualityComparer#GetHashCode(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimComparer.UpnObjectComparer.TryLookupSidFromName(System.String,System.Security.Principal.SecurityIdentifier@)">
+    <parameter name="upn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimComparer.X500DistinguishedNameObjectComparer.System#Collections#IEqualityComparer#Equals(System.Object,System.Object)">
+    <parameter name="obj2">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="obj1">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimComparer.X500DistinguishedNameObjectComparer.System#Collections#IEqualityComparer#GetHashCode(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimSet.ContainsClaim(System.IdentityModel.Claims.Claim)">
+    <parameter name="claim">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimSet.ContainsClaim(System.IdentityModel.Claims.Claim,System.Collections.Generic.IEqualityComparer{System.IdentityModel.Claims.Claim})">
+    <parameter name="claim">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.ClaimSet.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Anonymous">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Authentication">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.AuthorizationDecision">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Country">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.DateOfBirth">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.DenyOnlySid">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Dns">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Email">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Gender">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.GivenName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Hash">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.HomePhone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Locality">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.MobilePhone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Name">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.NameIdentifier">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.OtherPhone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.PostalCode">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.PPID">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Rsa">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Sid">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Spn">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.StateOrProvince">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.StreetAddress">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Surname">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.System">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Thumbprint">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Upn">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Uri">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.Webpage">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.ClaimTypes.X500DistinguishedName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Claims.DefaultClaimSet.#ctor(System.Collections.Generic.IList{System.IdentityModel.Claims.Claim})">
+    <parameter name="claims">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.DefaultClaimSet.#ctor(System.IdentityModel.Claims.Claim[])">
+    <parameter name="claims">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.DefaultClaimSet.#ctor(System.IdentityModel.Claims.ClaimSet,System.Collections.Generic.IList{System.IdentityModel.Claims.Claim})">
+    <parameter name="claims">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="issuer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.DefaultClaimSet.#ctor(System.IdentityModel.Claims.ClaimSet,System.IdentityModel.Claims.Claim[])">
+    <parameter name="claims">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="issuer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.DefaultClaimSet.Initialize(System.IdentityModel.Claims.ClaimSet,System.Collections.Generic.IList{System.IdentityModel.Claims.Claim})">
+    <parameter name="issuer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="claims">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.Claims.Rights.Identity">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.Rights.PossessProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Claims.WindowsClaimSet.#ctor(System.IdentityModel.Claims.WindowsClaimSet)">
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.WindowsClaimSet.#ctor(System.Security.Principal.WindowsIdentity)">
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.WindowsClaimSet.#ctor(System.Security.Principal.WindowsIdentity,System.Boolean)">
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.WindowsClaimSet.#ctor(System.Security.Principal.WindowsIdentity,System.Boolean,System.Boolean)">
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.WindowsClaimSet.#ctor(System.Security.Principal.WindowsIdentity,System.Boolean,System.DateTime)">
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.WindowsClaimSet.#ctor(System.Security.Principal.WindowsIdentity,System.Boolean,System.DateTime,System.Boolean)">
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.WindowsClaimSet.#ctor(System.Security.Principal.WindowsIdentity,System.DateTime)">
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.WindowsClaimSet.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Claims.WindowsClaimSet.GetTokenInformation(System.IntPtr,System.IdentityModel.TokenInformationClass,System.UInt32@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.WindowsClaimSet.Groups">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Claims.WindowsClaimSet.GroupSidClaimCollection.#ctor(System.Security.Principal.WindowsIdentity)">
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.WindowsClaimSet.InitializeClaimsCore">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Claims.WindowsClaimSet.TryCreateWindowsSidClaim(System.Security.Principal.WindowsIdentity,System.IdentityModel.Claims.Claim@)">
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.X509CertificateClaimSet.#ctor(System.IdentityModel.Claims.X509CertificateClaimSet)">
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.X509CertificateClaimSet.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.X509CertificateClaimSet.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Boolean)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.X509CertificateClaimSet.#ctor(System.Security.Cryptography.X509Certificates.X509ChainElementCollection,System.Int32)">
+    <parameter name="elements">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.X509CertificateClaimSet.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Claims.X509CertificateClaimSet.InitializeClaimsCore">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.X509CertificateClaimSet.Issuer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Claims.X509CertificateClaimSet.System#IdentityModel#Policy#IIdentityInfo#Identity">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Claims.X509CertificateClaimSet.X500DistinguishedNameClaimSet.#ctor(System.Security.Cryptography.X509Certificates.X500DistinguishedName)">
+    <parameter name="x500DistinguishedName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.X509Identity.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.X509Identity.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Boolean,System.Boolean)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Claims.X509Identity.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Claims.X509Identity.GetName">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.ComputeHash(System.Byte[])">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.CreateDecryptor(System.Byte[],System.Byte[],System.String)">
+    <parameter name="iv">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.CreateEncryptor(System.Byte[],System.Byte[],System.String)">
+    <parameter name="iv">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.CreateHashAlgorithm(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.CreateKeyedHashAlgorithm(System.Byte[],System.String)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.GenerateDerivedKey(System.Byte[],System.String,System.Byte[],System.Byte[],System.Int32,System.Int32)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="nonce">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="label">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.GetSymmetricAlgorithm(System.Byte[],System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.NewHmacSha1KeyedHashAlgorithm(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.NewHmacSha256KeyedHashAlgorithm(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.NewRijndaelSymmetricAlgorithm">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.NewSha1HashAlgorithm">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.NewSha256HashAlgorithm">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.UnwrapKey(System.Byte[],System.Byte[],System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="wrappedKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.ValidateBufferBounds(System.Array,System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.CryptoHelper.WrapKey(System.Byte[],System.Byte[],System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyToBeWrapped">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Diagnostics.TraceUtility.Description(System.ServiceModel.Diagnostics.TraceCode)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.DiagnosticUtility.DebugAssert(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.ElementWithAlgorithmAttribute.#ctor()">
+    <parameter name="elementName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.ElementWithAlgorithmAttribute.ReadFrom(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.ElementWithAlgorithmAttribute.WriteTo(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.EnvelopedSignatureTransform.Process(System.Object,System.IdentityModel.SignatureResourcePool,System.IdentityModel.DictionaryManager)">
+    <parameter name="resourcePool">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.EnvelopedSignatureTransform.ProcessAndDigest(System.Object,System.IdentityModel.SignatureResourcePool,System.String,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="resourcePool">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.ExclusiveC14NDictionary.#ctor(System.IdentityModel.IdentityModelDictionary)">
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.ExclusiveCanonicalizationTransform.GetConfiguredDriver(System.IdentityModel.SignatureResourcePool)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="resourcePool">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.ExclusiveCanonicalizationTransform.ProcessAndDigest(System.Object,System.IdentityModel.SignatureResourcePool,System.Security.Cryptography.HashAlgorithm,System.IdentityModel.DictionaryManager)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="resourcePool">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dictionaryManger">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.ExclusiveCanonicalizationTransform.ProcessReaderInput(System.Xml.XmlReader,System.IdentityModel.SignatureResourcePool,System.IdentityModel.HashStream)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="resourcePool">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.ExclusiveCanonicalizationTransform.TokenizeInclusivePrefixList(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.ExtendedTransformFactory.CreateTransform(System.String)">
+    <parameter name="transformAlgorithmUri">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.HashStream.#ctor(System.Security.Cryptography.HashAlgorithm)">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.HashStream.Read(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.IdentityModelDictionary.#ctor(System.IdentityModel.IdentityModelStrings)">
+    <parameter name="strings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.IdentityModelDictionary.CreateString(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.IdentityModelDictionary.TryLookup(,@)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.IdentityModelDictionary.TryLookup(System.String,@)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.IdentityModelStrings.Item(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.MostlySingletonList`1.Compare(`0,`0)">
+    <parameter name="y">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.MostlySingletonList`1.Contains(`0)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.MostlySingletonList`1.IndexOf(`0)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.MostlySingletonList`1.MatchesSingleton(`0)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.MostlySingletonList`1.Remove(`0)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.NegotiationInfoClass.#ctor(System.Runtime.InteropServices.SafeHandle,System.Int32)">
+    <parameter name="safeHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Policy.DefaultAuthorizationContext.#ctor(System.IdentityModel.Policy.DefaultEvaluationContext)">
+    <parameter name="evaluationContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Policy.EvaluationContext.AddClaimSet(System.IdentityModel.Policy.IAuthorizationPolicy,System.IdentityModel.Claims.ClaimSet)">
+    <parameter name="claimSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Policy.UnconditionalPolicy.#ctor(System.Collections.ObjectModel.ReadOnlyCollection{System.IdentityModel.Claims.ClaimSet},System.DateTime)">
+    <parameter name="issuances">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Policy.UnconditionalPolicy.#ctor(System.IdentityModel.Claims.ClaimSet)">
+    <parameter name="issuance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Policy.UnconditionalPolicy.#ctor(System.IdentityModel.Claims.ClaimSet,System.DateTime)">
+    <parameter name="issuance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Policy.UnconditionalPolicy.#ctor(System.IdentityModel.Policy.UnconditionalPolicy)">
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Policy.UnconditionalPolicy.#ctor(System.Security.Principal.IIdentity,System.Collections.ObjectModel.ReadOnlyCollection{System.IdentityModel.Claims.ClaimSet},System.DateTime)">
+    <parameter name="issuances">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Policy.UnconditionalPolicy.#ctor(System.Security.Principal.IIdentity,System.IdentityModel.Claims.ClaimSet)">
+    <parameter name="issuance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Policy.UnconditionalPolicy.#ctor(System.Security.Principal.IIdentity,System.IdentityModel.Claims.ClaimSet,System.DateTime)">
+    <parameter name="issuance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Policy.UnconditionalPolicy.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Policy.UnconditionalPolicy.Evaluate(System.IdentityModel.Policy.EvaluationContext,System.Object@)">
+    <parameter name="evaluationContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Policy.UnconditionalPolicy.Initialize(System.IdentityModel.Claims.ClaimSet,System.IdentityModel.Claims.ClaimSet,System.Collections.ObjectModel.ReadOnlyCollection{System.IdentityModel.Claims.ClaimSet},System.DateTime)">
+    <parameter name="issuances">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.Policy.UnconditionalPolicy.Issuances">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.PreDigestedSignedInfo.#ctor(System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.PreDigestedSignedInfo.#ctor(System.IdentityModel.DictionaryManager,System.String,,System.String,,System.String,)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.PreDigestedSignedInfo.ReadFrom(,System.IdentityModel.TransformFactory,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="transformFactory">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.PreDigestedSignedInfo.SignedInfoCanonicalFormWriter.EncodeDigestAlgorithm(System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.PreDigestedSignedInfo.SignedInfoCanonicalFormWriter.EncodeSignatureAlgorithm(System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.PreDigestedSignedInfo.SignedInfoCanonicalFormWriter.WriteSignedInfoCanonicalForm(System.IO.Stream,System.String,System.String,System.IdentityModel.PreDigestedSignedInfo.ReferenceEntry[],System.Int32,System.Byte[],System.Char[])">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="signatureMethod">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="digestMethod">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="references">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="workBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="base64WorkBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Privilege.#ctor(System.String)">
+    <parameter name="privilege">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Privilege.LuidFromPrivilege(System.String)">
+    <parameter name="privilege">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Psha1DerivedKeyGenerator.#ctor(System.Byte[])">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Psha1DerivedKeyGenerator.GenerateDerivedKey(System.Byte[],System.Byte[],System.Int32,System.Int32)">
+    <parameter name="label">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="nonce">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Psha1DerivedKeyGenerator.ManagedPsha1.#ctor(System.Byte[],System.Byte[],System.Byte[])">
+    <parameter name="secret">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="label">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="seed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Psha1DerivedKeyGenerator.ManagedPsha1.GetDerivedKey(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Reference.#ctor(System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Reference.#ctor(System.IdentityModel.DictionaryManager,System.String)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Reference.#ctor(System.IdentityModel.DictionaryManager,System.String,System.Object)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Reference.DigestValueElement.ReadFrom(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Reference.DigestValueElement.WriteTo(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Reference.ExtractReferredId">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Reference.ReadFrom(,System.IdentityModel.TransformFactory,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="transformFactory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Reference.WriteTo(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.RijndaelCryptoServiceProvider.CreateDecryptor(System.Byte[],System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.RijndaelCryptoServiceProvider.CreateEncryptor(System.Byte[],System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.RijndaelCryptoServiceProvider.RijndaelCryptoTransform.#ctor(System.Byte[],System.Byte[],System.Security.Cryptography.PaddingMode,System.Int32,System.Boolean)">
+    <parameter name="rgbKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="rgbIV">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.RijndaelCryptoServiceProvider.RijndaelCryptoTransform.DecryptData(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Boolean)">
+    <parameter name="outputBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.RijndaelCryptoServiceProvider.RijndaelCryptoTransform.DoPadding(System.Byte[]@,System.Int32@,System.Int32@)">
+    <parameter name="tempBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.RijndaelCryptoServiceProvider.RijndaelCryptoTransform.EncryptData(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Boolean)">
+    <parameter name="outputBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.RijndaelCryptoServiceProvider.RijndaelCryptoTransform.ThrowIfFalse(System.String,System.Boolean)">
+    <parameter name="sr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.RijndaelCryptoServiceProvider.RijndaelCryptoTransform.TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)">
+    <parameter name="outputBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="inputBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.RijndaelCryptoServiceProvider.RijndaelCryptoTransform.TransformFinalBlock(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="inputBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.RijndaelCryptoServiceProvider.RijndaelCryptoTransform.TruncateBuffer(System.Byte[],System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.SafeCertChainHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.SafeCertContextHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.SafeCertStoreHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SafeDeleteContext.AcceptSecurityContext(System.IdentityModel.SafeFreeCredentials,System.IdentityModel.SafeDeleteContext@,System.IdentityModel.SspiContextFlags,System.IdentityModel.Endianness,System.IdentityModel.SecurityBuffer,System.IdentityModel.SecurityBuffer[],System.IdentityModel.SecurityBuffer,System.IdentityModel.SspiContextFlags@)">
+    <parameter name="inCredentials">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outSecBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SafeDeleteContext.DecryptMessage(System.IdentityModel.SafeDeleteContext,System.IdentityModel.SecurityBufferDescriptor,System.UInt32)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SafeDeleteContext.EncryptMessage(System.IdentityModel.SafeDeleteContext,System.IdentityModel.SecurityBufferDescriptor,System.UInt32)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SafeDeleteContext.ImpersonateSecurityContext(System.IdentityModel.SafeDeleteContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SafeDeleteContext.InitializeSecurityContext(System.IdentityModel.SafeFreeCredentials,System.IdentityModel.SafeDeleteContext@,System.String,System.IdentityModel.SspiContextFlags,System.IdentityModel.Endianness,System.IdentityModel.SecurityBuffer,System.IdentityModel.SecurityBuffer[],System.IdentityModel.SecurityBuffer,System.IdentityModel.SspiContextFlags@)">
+    <parameter name="inCredentials">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outSecBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SafeDeleteContext.MustRunAcceptSecurityContext(System.IdentityModel.SafeFreeCredentials,System.Void*,System.IdentityModel.SecurityBufferDescriptor,System.IdentityModel.SspiContextFlags,System.IdentityModel.Endianness,System.IdentityModel.SafeDeleteContext,System.IdentityModel.SecurityBufferDescriptor,System.IdentityModel.SspiContextFlags@,System.IdentityModel.SafeFreeContextBuffer)">
+    <parameter name="inCredentials">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SafeDeleteContext.MustRunInitializeSecurityContext(System.IdentityModel.SafeFreeCredentials,System.Void*,System.Byte*,System.IdentityModel.SspiContextFlags,System.IdentityModel.Endianness,System.IdentityModel.SecurityBufferDescriptor,System.IdentityModel.SafeDeleteContext,System.IdentityModel.SecurityBufferDescriptor,System.IdentityModel.SspiContextFlags@,System.IdentityModel.SafeFreeContextBuffer)">
+    <parameter name="inCredentials">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SafeFreeContextBuffer.CreateEmptyHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SafeFreeContextBuffer.QueryContextAttributes(System.IdentityModel.SafeDeleteContext,System.IdentityModel.ContextAttribute,System.Byte*,System.Runtime.InteropServices.SafeHandle)">
+    <parameter name="phContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SafeHGlobalHandle.AllocHGlobal(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SafeHGlobalHandle.AllocHGlobal(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SafeHGlobalHandle.AllocHGlobal(System.String)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SafeHGlobalHandle.AllocHGlobal(System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.SafeHGlobalHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.SafeKeyHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SafeKeyHandle.SafeCryptImportKey(System.IdentityModel.SafeProvHandle,System.Void*,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="provHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.SafeLsaLogonProcessHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.SafeLsaReturnBufferHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.SafeProvHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SamlDelegatingWriter.#ctor(,System.IO.Stream,System.IdentityModel.ICanonicalWriterEndRootElementCallback,)">
+    <parameter name="innerWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="canonicalStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="callback">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SamlDictionary.#ctor(System.IdentityModel.IdentityModelDictionary)">
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SecurityAlgorithmDictionary.#ctor(System.IdentityModel.IdentityModelDictionary)">
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SecurityPackageInfoClass.#ctor(System.Runtime.InteropServices.SafeHandle,System.Int32)">
+    <parameter name="safeHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SecuritySessionKeyClass.#ctor(System.Runtime.InteropServices.SafeHandle,System.Int32)">
+    <parameter name="safeHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SecurityUniqueId.Create">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SecurityUniqueId.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.ClaimSetToString(System.IdentityModel.Claims.ClaimSet)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="claimSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.CloneAuthorizationPoliciesIfNecessary(System.Collections.ObjectModel.ReadOnlyCollection{System.IdentityModel.Policy.IAuthorizationPolicy})">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.CloneBuffer(System.Byte[])">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.CloneBuffer(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.CloneClaimSetIfNecessary(System.IdentityModel.Claims.ClaimSet)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.CloneClaimSetsIfNecessary(System.Collections.ObjectModel.ReadOnlyCollection{System.IdentityModel.Claims.ClaimSet})">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.CloneIdentityIfNecessary(System.Security.Principal.IIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.CloneWindowsIdentityIfNecessary(System.Security.Principal.WindowsIdentity)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.CreateAuthorizationPolicies(System.IdentityModel.Claims.ClaimSet)">
+    <parameter name="claimSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.CreateAuthorizationPolicies(System.IdentityModel.Claims.ClaimSet,System.DateTime)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="claimSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.CreateIdentity(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.CreateIdentity(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="authenticationType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.DecodeHexString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="hexString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.GetCertificateId(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.IsSupportedAlgorithm(System.String,System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.SimpleAuthorizationContext.#ctor(System.Collections.Generic.IList{System.IdentityModel.Policy.IAuthorizationPolicy})">
+    <parameter name="authorizationPolicies">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.SecurityUtils.SimpleAuthorizationContext.ClaimSets">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.UnsafeCreateWindowsIdentityFromToken(System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SecurityUtils.UnsafeGetWindowsIdentityToken(System.Security.Principal.WindowsIdentity)">
+    <parameter name="wid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.CustomUserNameSecurityTokenAuthenticator.#ctor(System.IdentityModel.Selectors.UserNamePasswordValidator)">
+    <parameter name="validator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.CustomUserNameSecurityTokenAuthenticator.UserNameClaimSet.#ctor(System.String,System.String)">
+    <parameter name="userName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.CustomUserNameSecurityTokenAuthenticator.ValidateUserNamePasswordCore(System.String,System.String)">
+    <parameter name="userName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="password">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.KerberosSecurityTokenProvider.#ctor(System.String)">
+    <parameter name="servicePrincipalName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.KerberosSecurityTokenProvider.#ctor(System.String,System.Security.Principal.TokenImpersonationLevel)">
+    <parameter name="servicePrincipalName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.KerberosSecurityTokenProvider.#ctor(System.String,System.Security.Principal.TokenImpersonationLevel,System.Net.NetworkCredential)">
+    <parameter name="servicePrincipalName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.KerberosSecurityTokenProvider.GetTokenCore(System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.RsaSecurityTokenAuthenticator.CanValidateTokenCore(System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.RsaSecurityTokenAuthenticator.ValidateTokenCore(System.IdentityModel.Tokens.SecurityToken)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SamlSecurityTokenAuthenticator.#ctor(System.Collections.Generic.IList{System.IdentityModel.Selectors.SecurityTokenAuthenticator})">
+    <parameter name="supportingAuthenticators">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SamlSecurityTokenAuthenticator.#ctor(System.Collections.Generic.IList{System.IdentityModel.Selectors.SecurityTokenAuthenticator},System.TimeSpan)">
+    <parameter name="supportingAuthenticators">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SamlSecurityTokenAuthenticator.CanValidateTokenCore(System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SamlSecurityTokenAuthenticator.IsCurrentlyTimeEffective(System.IdentityModel.Tokens.SamlSecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SamlSecurityTokenAuthenticator.ResolveClaimSet(System.IdentityModel.Tokens.SecurityKeyIdentifier)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="keyIdentifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SamlSecurityTokenAuthenticator.ResolveClaimSet(System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SamlSecurityTokenAuthenticator.ResolveIdentity(System.IdentityModel.Tokens.SecurityKeyIdentifier)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="keyIdentifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SamlSecurityTokenAuthenticator.ResolveIdentity(System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SamlSecurityTokenAuthenticator.ValidateAudienceRestriction(System.IdentityModel.Tokens.SamlAudienceRestrictionCondition)">
+    <parameter name="audienceRestrictionCondition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SamlSecurityTokenAuthenticator.ValidateTokenCore(System.IdentityModel.Tokens.SecurityToken)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenAuthenticator.CanValidateToken(System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenAuthenticator.CanValidateTokenCore(System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenAuthenticator.ValidateToken(System.IdentityModel.Tokens.SecurityToken)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenAuthenticator.ValidateTokenCore(System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenManager.CreateSecurityTokenAuthenticator(System.IdentityModel.Selectors.SecurityTokenRequirement,System.IdentityModel.Selectors.SecurityTokenResolver@)">
+    <parameter name="tokenRequirement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenManager.CreateSecurityTokenProvider(System.IdentityModel.Selectors.SecurityTokenRequirement)">
+    <parameter name="tokenRequirement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenManager.CreateSecurityTokenSerializer(System.IdentityModel.Selectors.SecurityTokenVersion)">
+    <parameter name="version">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.BeginCancelToken(System.TimeSpan,System.IdentityModel.Tokens.SecurityToken,System.AsyncCallback,System.Object)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.BeginCancelTokenCore(System.TimeSpan,System.IdentityModel.Tokens.SecurityToken,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.BeginGetToken(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.BeginGetTokenCore(System.TimeSpan,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.BeginRenewToken(System.TimeSpan,System.IdentityModel.Tokens.SecurityToken,System.AsyncCallback,System.Object)">
+    <parameter name="tokenToBeRenewed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.BeginRenewTokenCore(System.TimeSpan,System.IdentityModel.Tokens.SecurityToken,System.AsyncCallback,System.Object)">
+    <parameter name="tokenToBeRenewed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.CancelToken(System.TimeSpan,System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.EndCancelToken(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.EndCancelTokenCore(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.EndGetToken(System.IAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.EndGetTokenCore(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.EndRenewToken(System.IAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.EndRenewTokenCore(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.GetToken(System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.GetTokenCore(System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.RenewToken(System.TimeSpan,System.IdentityModel.Tokens.SecurityToken)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="tokenToBeRenewed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.RenewTokenCore(System.TimeSpan,System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="tokenToBeRenewed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Selectors.SecurityTokenProvider.SecurityTokenAsyncResult.AsyncState">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Selectors.SecurityTokenProvider.SecurityTokenAsyncResult.AsyncWaitHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenProvider.SecurityTokenAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenRequirement.GetProperty``1(System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.Selectors.SecurityTokenRequirement.KeySizeProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Selectors.SecurityTokenRequirement.KeyTypeProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Selectors.SecurityTokenRequirement.KeyUsageProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Selectors.SecurityTokenRequirement.PeerAuthenticationMode">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Selectors.SecurityTokenRequirement.RequireCryptographicTokenProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Selectors.SecurityTokenRequirement.TokenTypeProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenRequirement.TryGetProperty``1(System.String,``0@)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenResolver.CreateDefaultSecurityTokenResolver(System.Collections.ObjectModel.ReadOnlyCollection{System.IdentityModel.Tokens.SecurityToken},System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="tokens">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenResolver.ResolveSecurityKey(System.IdentityModel.Tokens.SecurityKeyIdentifierClause)">
+    <parameter name="keyIdentifierClause">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenResolver.ResolveToken(System.IdentityModel.Tokens.SecurityKeyIdentifier)">
+    <parameter name="keyIdentifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenResolver.ResolveToken(System.IdentityModel.Tokens.SecurityKeyIdentifierClause)">
+    <parameter name="keyIdentifierClause">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenResolver.SimpleTokenResolver.#ctor(System.Collections.ObjectModel.ReadOnlyCollection{System.IdentityModel.Tokens.SecurityToken},System.Boolean)">
+    <parameter name="tokens">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenResolver.SimpleTokenResolver.ResolveSecurityToken(System.IdentityModel.Tokens.SecurityKeyIdentifierClause)">
+    <parameter name="keyIdentifierClause">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenResolver.TryResolveSecurityKey(System.IdentityModel.Tokens.SecurityKeyIdentifierClause,System.IdentityModel.Tokens.SecurityKey@)">
+    <parameter name="keyIdentifierClause">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenResolver.TryResolveSecurityKeyCore(System.IdentityModel.Tokens.SecurityKeyIdentifierClause,System.IdentityModel.Tokens.SecurityKey@)">
+    <parameter name="keyIdentifierClause">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenResolver.TryResolveToken(System.IdentityModel.Tokens.SecurityKeyIdentifier,System.IdentityModel.Tokens.SecurityToken@)">
+    <parameter name="keyIdentifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenResolver.TryResolveToken(System.IdentityModel.Tokens.SecurityKeyIdentifierClause,System.IdentityModel.Tokens.SecurityToken@)">
+    <parameter name="keyIdentifierClause">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenResolver.TryResolveTokenCore(System.IdentityModel.Tokens.SecurityKeyIdentifier,System.IdentityModel.Tokens.SecurityToken@)">
+    <parameter name="keyIdentifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenResolver.TryResolveTokenCore(System.IdentityModel.Tokens.SecurityKeyIdentifierClause,System.IdentityModel.Tokens.SecurityToken@)">
+    <parameter name="keyIdentifierClause">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.CanReadKeyIdentifier(System.Xml.XmlReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.CanReadKeyIdentifierClause(System.Xml.XmlReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.CanReadKeyIdentifierClauseCore(System.Xml.XmlReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.CanReadKeyIdentifierCore(System.Xml.XmlReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.CanReadToken(System.Xml.XmlReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.CanReadTokenCore(System.Xml.XmlReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.CanWriteKeyIdentifier(System.IdentityModel.Tokens.SecurityKeyIdentifier)">
+    <parameter name="keyIdentifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.CanWriteKeyIdentifierClause(System.IdentityModel.Tokens.SecurityKeyIdentifierClause)">
+    <parameter name="keyIdentifierClause">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.CanWriteKeyIdentifierClauseCore(System.IdentityModel.Tokens.SecurityKeyIdentifierClause)">
+    <parameter name="keyIdentifierClause">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.CanWriteKeyIdentifierCore(System.IdentityModel.Tokens.SecurityKeyIdentifier)">
+    <parameter name="keyIdentifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.CanWriteToken(System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.CanWriteTokenCore(System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.ReadKeyIdentifier(System.Xml.XmlReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.ReadKeyIdentifierClause(System.Xml.XmlReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.ReadKeyIdentifierClauseCore(System.Xml.XmlReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.ReadKeyIdentifierCore(System.Xml.XmlReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.ReadToken(System.Xml.XmlReader,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="tokenResolver">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.ReadTokenCore(System.Xml.XmlReader,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="tokenResolver">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.WriteKeyIdentifier(System.Xml.XmlWriter,System.IdentityModel.Tokens.SecurityKeyIdentifier)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyIdentifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.WriteKeyIdentifierClause(System.Xml.XmlWriter,System.IdentityModel.Tokens.SecurityKeyIdentifierClause)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyIdentifierClause">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.WriteKeyIdentifierClauseCore(System.Xml.XmlWriter,System.IdentityModel.Tokens.SecurityKeyIdentifierClause)">
+    <parameter name="keyIdentifierClause">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.WriteKeyIdentifierCore(System.Xml.XmlWriter,System.IdentityModel.Tokens.SecurityKeyIdentifier)">
+    <parameter name="keyIdentifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.WriteToken(System.Xml.XmlWriter,System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.SecurityTokenSerializer.WriteTokenCore(System.Xml.XmlWriter,System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.UserNamePasswordValidator.CreateMembershipProviderValidator(System.Web.Security.MembershipProvider)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="provider">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.UserNamePasswordValidator.NoneUserNamePasswordValidator.Validate(System.String,System.String)">
+    <parameter name="password">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.UserNamePasswordValidator.Validate(System.String,System.String)">
+    <parameter name="password">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.UserNameSecurityTokenAuthenticator.CanValidateTokenCore(System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.UserNameSecurityTokenAuthenticator.ValidateUserNamePasswordCore(System.String,System.String)">
+    <parameter name="userName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.UserNameSecurityTokenProvider.#ctor(System.String,System.String)">
+    <parameter name="userName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.WindowsSecurityTokenAuthenticator.CanValidateTokenCore(System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.WindowsSecurityTokenAuthenticator.ValidateTokenCore(System.IdentityModel.Tokens.SecurityToken)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509CertificateChain.Build(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509CertificateChain.CopyOidsToUnmanagedMemory(System.Security.Cryptography.OidCollection)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509CertificateChain.ExportToMemoryStore(System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509CertificateStore.BinaryMatches(System.Byte[],System.Byte[])">
+    <parameter name="src">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dst">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509CertificateStore.Find(System.Security.Cryptography.X509Certificates.X509FindType,System.Object,System.Boolean)">
+    <parameter name="findValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509CertificateStore.TryGetMatchingX509Certificate(System.IntPtr,System.Security.Cryptography.X509Certificates.X509FindType,System.UInt32,System.Object,System.Boolean,System.Security.Cryptography.X509Certificates.X509Certificate2@)">
+    <parameter name="findValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509CertificateValidator.ChainTrustValidator.GetChainStatusInformation(System.Security.Cryptography.X509Certificates.X509ChainStatus[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509CertificateValidator.CreateChainTrustValidator(System.Boolean,System.Security.Cryptography.X509Certificates.X509ChainPolicy)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="chainPolicy">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509CertificateValidator.CreatePeerOrChainTrustValidator(System.Boolean,System.Security.Cryptography.X509Certificates.X509ChainPolicy)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="chainPolicy">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509CertificateValidator.PeerOrChainTrustValidator.#ctor(System.Boolean,System.Security.Cryptography.X509Certificates.X509ChainPolicy)">
+    <parameter name="chainPolicy">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509CertificateValidator.PeerTrustValidator.StoreContainsCertificate(System.Security.Cryptography.X509Certificates.StoreName,System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509CertificateValidator.PeerTrustValidator.TryValidate(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Exception@)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509CertificateValidator.Validate(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509SecurityTokenAuthenticator.#ctor(System.IdentityModel.Selectors.X509CertificateValidator)">
+    <parameter name="validator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509SecurityTokenAuthenticator.#ctor(System.IdentityModel.Selectors.X509CertificateValidator,System.Boolean)">
+    <parameter name="validator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509SecurityTokenAuthenticator.#ctor(System.IdentityModel.Selectors.X509CertificateValidator,System.Boolean,System.Boolean)">
+    <parameter name="validator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509SecurityTokenAuthenticator.#ctor(System.IdentityModel.Selectors.X509CertificateValidator,System.Boolean,System.Boolean,System.Boolean)">
+    <parameter name="validator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509SecurityTokenAuthenticator.CanValidateTokenCore(System.IdentityModel.Tokens.SecurityToken)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509SecurityTokenAuthenticator.KerberosCertificateLogon(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509SecurityTokenAuthenticator.ValidateTokenCore(System.IdentityModel.Tokens.SecurityToken)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509SecurityTokenProvider.#ctor(System.Security.Cryptography.X509Certificates.StoreLocation,System.Security.Cryptography.X509Certificates.StoreName,System.Security.Cryptography.X509Certificates.X509FindType,System.Object)">
+    <parameter name="findValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509SecurityTokenProvider.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Selectors.X509SecurityTokenProvider.GetTokenCore(System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Signature.ReadFrom(,System.IdentityModel.DictionaryManager)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.Signature.SignatureValueElement.Id">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Signature.SignatureValueElement.ReadFrom(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Signature.SignatureValueElement.WriteTo(,System.IdentityModel.DictionaryManager)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Signature.WriteTo(,System.IdentityModel.DictionaryManager)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignatureResourcePool.TakeBase64Buffer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SignatureResourcePool.TakeCanonicalizationDriver">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SignatureResourcePool.TakeEncodingBuffer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SignatureResourcePool.TakeHashAlgorithm(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SignatureResourcePool.TakeHashStream(System.Security.Cryptography.HashAlgorithm)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignatureResourcePool.TakeHashStream(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SignatureResourcePool.TakeSha1">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SignedInfo.#ctor(System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedInfo.ComputeHash(System.IdentityModel.HashStream)">
+    <parameter name="hashStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedInfo.ComputeHash(System.Security.Cryptography.HashAlgorithm)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedInfo.GetNamespaceForInclusivePrefix(System.String)">
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.SignedInfo.Id">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SignedInfo.ReadCanonicalizationMethod(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedInfo.ReadFrom(,System.IdentityModel.TransformFactory,System.IdentityModel.DictionaryManager)">
+    <parameter name="transformFactory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedInfo.ReadSignatureMethod(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedInfo.WriteCanonicalizationMethod(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedInfo.WriteSignatureMethod(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedInfo.WriteTo(,System.IdentityModel.DictionaryManager)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedXml.#ctor(System.IdentityModel.DictionaryManager,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="tokenSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedXml.#ctor(System.IdentityModel.SignedInfo,System.IdentityModel.DictionaryManager,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="signedInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="tokenSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedXml.ComputeSignature(System.IdentityModel.Tokens.SecurityKey)">
+    <parameter name="signingKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedXml.ComputeSignature(System.Security.Cryptography.HashAlgorithm,System.Security.Cryptography.AsymmetricSignatureFormatter)">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="formatter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedXml.ComputeSignature(System.Security.Cryptography.KeyedHashAlgorithm)">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.SignedXml.Id">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SignedXml.ReadFrom()">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedXml.StartSignatureVerification(System.IdentityModel.Tokens.SecurityKey)">
+    <parameter name="verificationKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedXml.VerifySignature(System.Security.Cryptography.HashAlgorithm,System.Security.Cryptography.AsymmetricSignatureDeformatter)">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="deformatter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedXml.VerifySignature(System.Security.Cryptography.KeyedHashAlgorithm)">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedXml.WriteTo()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SignedXml.WriteTo(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.SR.Culture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SR.GetObject(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SR.GetString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SR.GetString(System.String,System.Object[])">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SspiWrapper.AcceptSecurityContext(System.IdentityModel.SafeFreeCredentials,System.IdentityModel.SafeDeleteContext@,System.IdentityModel.SspiContextFlags,System.IdentityModel.Endianness,System.IdentityModel.SecurityBuffer,System.IdentityModel.SecurityBuffer,System.IdentityModel.SspiContextFlags@)">
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SspiWrapper.DecryptMessage(System.IdentityModel.SafeDeleteContext,System.IdentityModel.SecurityBuffer[],System.UInt32,System.Boolean)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SspiWrapper.EncryptDecryptHelper(System.IdentityModel.SafeDeleteContext,System.IdentityModel.SecurityBuffer[],System.UInt32,System.Boolean,System.Boolean)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SspiWrapper.EncryptMessage(System.IdentityModel.SafeDeleteContext,System.IdentityModel.SecurityBuffer[],System.UInt32)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SspiWrapper.EnumerateSecurityPackages">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.SspiWrapper.ImpersonateSecurityContext(System.IdentityModel.SafeDeleteContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SspiWrapper.InitializeSecurityContext(System.IdentityModel.SafeFreeCredentials,System.IdentityModel.SafeDeleteContext@,System.String,System.IdentityModel.SspiContextFlags,System.IdentityModel.Endianness,System.IdentityModel.SecurityBuffer,System.IdentityModel.SecurityBuffer,System.IdentityModel.SspiContextFlags@)">
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SspiWrapper.QueryContextAttributes(System.IdentityModel.SafeDeleteContext,System.IdentityModel.ContextAttribute)">
+    <parameter name="securityContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SspiWrapper.QueryContextAttributes(System.IdentityModel.SafeDeleteContext,System.IdentityModel.ContextAttribute,System.Byte[],System.Type,System.Runtime.InteropServices.SafeHandle@)">
+    <parameter name="phContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.SspiWrapper.QuerySecurityContextToken(System.IdentityModel.SafeDeleteContext,System.IdentityModel.SafeCloseHandle@)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.StandardSignedInfo.#ctor(System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.StandardSignedInfo.AddReference(System.IdentityModel.Reference)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.AsymmetricSecurityKey.GetAsymmetricAlgorithm(System.String,System.Boolean)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.AsymmetricSecurityKey.GetHashAlgorithmForSignature(System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.AsymmetricSecurityKey.GetSignatureDeformatter(System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.AsymmetricSecurityKey.GetSignatureFormatter(System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.BinaryKeyIdentifierClause.#ctor(System.String,System.Byte[],System.Boolean)">
+    <parameter name="identificationData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.BinaryKeyIdentifierClause.#ctor(System.String,System.Byte[],System.Boolean,System.Byte[],System.Int32)">
+    <parameter name="identificationData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.BinaryKeyIdentifierClause.GetBuffer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.BinaryKeyIdentifierClause.ToBase64String">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.BinaryKeyIdentifierClause.ToHexString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.DEREncoding.BufferIsEqual(System.Byte[],System.Int32,System.Byte[],System.Int32,System.Int32)">
+    <parameter name="arrayOne">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="arrayTwo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.DEREncoding.MakeTokenHeader(System.Int32,System.Byte[],System.Int32@,System.Int32@)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.DEREncoding.ReadLength(System.Byte[],System.Int32@,System.Int32@)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.DEREncoding.VerifyTokenHeader(System.Byte[],System.Int32@,System.Int32@)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.DEREncoding.WriteLength(System.Byte[],System.Int32@,System.Int32@,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.EncryptedKeyIdentifierClause.#ctor(System.Byte[],System.String)">
+    <parameter name="encryptedKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="encryptionMethod">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.EncryptedKeyIdentifierClause.#ctor(System.Byte[],System.String,System.IdentityModel.Tokens.SecurityKeyIdentifier)">
+    <parameter name="encryptedKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="encryptionMethod">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.EncryptedKeyIdentifierClause.#ctor(System.Byte[],System.String,System.IdentityModel.Tokens.SecurityKeyIdentifier,System.String)">
+    <parameter name="encryptionMethod">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="encryptedKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.EncryptedKeyIdentifierClause.#ctor(System.Byte[],System.String,System.IdentityModel.Tokens.SecurityKeyIdentifier,System.String,System.Boolean,System.Byte[],System.Int32)">
+    <parameter name="encryptedKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="encryptionMethod">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.EncryptedKeyIdentifierClause.#ctor(System.Byte[],System.String,System.IdentityModel.Tokens.SecurityKeyIdentifier,System.String,System.Byte[],System.Int32)">
+    <parameter name="encryptionMethod">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="encryptedKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.EncryptedKeyIdentifierClause.GetEncryptedKey">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.GenericXmlSecurityToken.#ctor(System.Xml.XmlElement,System.IdentityModel.Tokens.SecurityToken,System.DateTime,System.DateTime,System.IdentityModel.Tokens.SecurityKeyIdentifierClause,System.IdentityModel.Tokens.SecurityKeyIdentifierClause,System.Collections.ObjectModel.ReadOnlyCollection{})">
+    <parameter name="tokenXml">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.GenericXmlSecurityToken.CreateKeyIdentifierClause``1">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.GenericXmlSecurityToken.GetWsuId(System.Xml.XmlElement)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.InMemorySymmetricSecurityKey.#ctor(System.Byte[])">
+    <parameter name="symmetricKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.InMemorySymmetricSecurityKey.#ctor(System.Byte[],System.Boolean)">
+    <parameter name="symmetricKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.InMemorySymmetricSecurityKey.DecryptKey(System.String,System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.InMemorySymmetricSecurityKey.GetDecryptionTransform(System.String,System.Byte[])">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.InMemorySymmetricSecurityKey.GetEncryptionTransform(System.String,System.Byte[])">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.InMemorySymmetricSecurityKey.GetIVSize(System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.InMemorySymmetricSecurityKey.GetKeyedHashAlgorithm(System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.InMemorySymmetricSecurityKey.GetSymmetricAlgorithm(System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.InMemorySymmetricSecurityKey.GetSymmetricKey">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.KerberosReceiverSecurityToken.#ctor(System.Byte[])">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.KerberosReceiverSecurityToken.#ctor(System.Byte[],System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.KerberosReceiverSecurityToken.#ctor(System.Byte[],System.String,System.Boolean)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.KerberosReceiverSecurityToken.GetRequest">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.KerberosReceiverSecurityToken.SecurityKeys">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.KerberosRequestorSecurityToken.#ctor(System.String)">
+    <parameter name="servicePrincipalName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.KerberosRequestorSecurityToken.#ctor(System.String,System.Security.Principal.TokenImpersonationLevel,System.Net.NetworkCredential,System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="servicePrincipalName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.KerberosRequestorSecurityToken.#ctor(System.String,System.Security.Principal.TokenImpersonationLevel,System.Net.NetworkCredential,System.String,System.IdentityModel.SafeFreeCredentials)">
+    <parameter name="servicePrincipalName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.KerberosRequestorSecurityToken.GetRequest">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.KerberosRequestorSecurityToken.SecurityKeys">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.KerberosTicketHashKeyIdentifierClause.#ctor(System.Byte[])">
+    <parameter name="ticketHash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.KerberosTicketHashKeyIdentifierClause.#ctor(System.Byte[],System.Boolean,System.Byte[],System.Int32)">
+    <parameter name="ticketHash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.KerberosTicketHashKeyIdentifierClause.#ctor(System.Byte[],System.Byte[],System.Int32)">
+    <parameter name="ticketHash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.KerberosTicketHashKeyIdentifierClause.GetKerberosTicketHash">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.LocalIdKeyIdentifierClause.#ctor(System.String)">
+    <parameter name="localId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.LocalIdKeyIdentifierClause.#ctor(System.String,System.Byte[],System.Int32,System.Type[])">
+    <parameter name="localId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.LocalIdKeyIdentifierClause.#ctor(System.String,System.Type)">
+    <parameter name="localId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.LocalIdKeyIdentifierClause.#ctor(System.String,System.Type[])">
+    <parameter name="localId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaKeyIdentifierClause.#ctor(System.Security.Cryptography.RSA)">
+    <parameter name="rsa">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaKeyIdentifierClause.CreateKey">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaKeyIdentifierClause.GetExponent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaKeyIdentifierClause.GetModulus">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaKeyIdentifierClause.WriteExponentAsBase64(System.Xml.XmlWriter)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaKeyIdentifierClause.WriteModulusAsBase64(System.Xml.XmlWriter)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaSecurityKey.#ctor(System.Security.Cryptography.RSA)">
+    <parameter name="rsa">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaSecurityKey.DecryptKey(System.String,System.Byte[])">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaSecurityKey.EncryptKey(System.String,System.Byte[])">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaSecurityKey.GetAsymmetricAlgorithm(System.String,System.Boolean)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaSecurityToken.#ctor(System.Security.Cryptography.RSA)">
+    <parameter name="rsa">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaSecurityToken.#ctor(System.Security.Cryptography.RSA,System.String)">
+    <parameter name="rsa">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaSecurityToken.#ctor(System.Security.Cryptography.RSACryptoServiceProvider,System.Boolean)">
+    <parameter name="rsa">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaSecurityToken.CreateKeyIdentifierClause``1">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.RsaSecurityToken.CreateSafeRsaSecurityToken(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.RsaSecurityToken.SecurityKeys">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAction.#ctor(System.String)">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAction.#ctor(System.String,System.String)">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAction.ReadXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAction.WriteXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAdvice.ReadXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAdvice.WriteXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAssertion.#ctor(System.String,System.String,System.DateTime,System.IdentityModel.Tokens.SamlConditions,System.IdentityModel.Tokens.SamlAdvice,System.Collections.Generic.IEnumerable{System.IdentityModel.Tokens.SamlStatement})">
+    <parameter name="assertionId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="issuer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlStatements">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAssertion.AddSamlClaimTypes(System.Collections.Generic.ICollection{System.Type})">
+    <parameter name="knownClaimTypes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAssertion.BuildCryptoList">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAssertion.ReadSignature(,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver,System.IdentityModel.Tokens.SamlSerializer)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAssertion.ReadXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAssertion.System#IdentityModel#ICanonicalWriterEndRootElementCallback#OnEndOfRootElement()">
+    <parameter name="dictionaryWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAssertion.VerifySignature(System.IdentityModel.SignedXml,System.IdentityModel.Tokens.SecurityKey)">
+    <parameter name="signature">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="signatureVerificationKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAssertion.WriteTo(System.Xml.XmlWriter,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAssertion.WriteXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAssertionKeyIdentifierClause.#ctor(System.String)">
+    <parameter name="assertionId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAssertionKeyIdentifierClause.#ctor(System.String,System.Byte[],System.Int32)">
+    <parameter name="assertionId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAssertionKeyIdentifierClause.#ctor(System.String,System.Byte[],System.Int32,System.String,System.String,System.String,System.String,System.String)">
+    <parameter name="assertionId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAttribute.#ctor(System.IdentityModel.Claims.Claim)">
+    <parameter name="claim">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAttribute.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">
+    <parameter name="attributeNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValues">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAttribute.ExtractClaims">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAttribute.ReadXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAttribute.WriteXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAttributeStatement.#ctor(System.IdentityModel.Tokens.SamlSubject,System.Collections.Generic.IEnumerable{System.IdentityModel.Tokens.SamlAttribute})">
+    <parameter name="attributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSubject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAttributeStatement.AddClaimsToList(System.Collections.Generic.IList{})">
+    <parameter name="claims">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAudienceRestrictionCondition.#ctor(System.Collections.Generic.IEnumerable{System.Uri})">
+    <parameter name="audiences">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAuthenticationClaimResource.#ctor(System.DateTime,System.String,System.String,System.String)">
+    <parameter name="authenticationMethod">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAuthenticationClaimResource.#ctor(System.DateTime,System.String,System.String,System.String,System.Collections.Generic.IEnumerable{System.IdentityModel.Tokens.SamlAuthorityBinding})">
+    <parameter name="authenticationMethod">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="authorityBindings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAuthenticationClaimResource.#ctor(System.DateTime,System.String,System.String,System.String,System.Collections.ObjectModel.ReadOnlyCollection{System.IdentityModel.Tokens.SamlAuthorityBinding})">
+    <parameter name="authorityBindings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="authenticationMethod">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAuthenticationClaimResource.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAuthenticationStatement.#ctor(System.IdentityModel.Tokens.SamlSubject,System.String,System.DateTime,System.String,System.String,System.Collections.Generic.IEnumerable{System.IdentityModel.Tokens.SamlAuthorityBinding})">
+    <parameter name="authenticationMethod">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSubject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SamlAuthenticationStatement.ClaimType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAuthorityBinding.ReadXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAuthorityBinding.WriteXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAuthorizationDecisionClaimResource.#ctor(System.String,System.IdentityModel.Tokens.SamlAccessDecision,System.String,System.String)">
+    <parameter name="resource">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAuthorizationDecisionClaimResource.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAuthorizationDecisionStatement.#ctor(System.IdentityModel.Tokens.SamlSubject,System.String,System.IdentityModel.Tokens.SamlAccessDecision,System.Collections.Generic.IEnumerable{System.IdentityModel.Tokens.SamlAction})">
+    <parameter name="samlActions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSubject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlAuthorizationDecisionStatement.#ctor(System.IdentityModel.Tokens.SamlSubject,System.String,System.IdentityModel.Tokens.SamlAccessDecision,System.Collections.Generic.IEnumerable{System.IdentityModel.Tokens.SamlAction},System.IdentityModel.Tokens.SamlEvidence)">
+    <parameter name="samlActions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSubject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SamlAuthorizationDecisionStatement.ClaimType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlCondition.ReadXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlCondition.WriteXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlConditions.ReadXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlConditions.WriteXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SamlConstants.EmailName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SamlConstants.EmailNamespace">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SamlConstants.HolderOfKey">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SamlConstants.Namespace">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SamlConstants.SenderVouches">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SamlConstants.UserName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SamlConstants.UserNameNamespace">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlEvidence.ReadXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlEvidence.WriteXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlNameIdentifierClaimResource.#ctor(System.String,System.String,System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlNameIdentifierClaimResource.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSecurityToken.#ctor(System.IdentityModel.Tokens.SamlAssertion)">
+    <parameter name="assertion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSecurityToken.Initialize(System.IdentityModel.Tokens.SamlAssertion)">
+    <parameter name="assertion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SamlSerializer.DictionaryManager">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSerializer.LoadAdvice(,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSerializer.LoadAssertion(,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSerializer.LoadAttribute(,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSerializer.LoadCondition(,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSerializer.LoadConditions(,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSerializer.LoadStatement(,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSerializer.PopulateDictionary()">
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSerializer.ReadSecurityKeyIdentifier(System.Xml.XmlReader,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="tokenSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSerializer.ReadToken(System.Xml.XmlReader,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSerializer.ResolveSecurityKey(System.IdentityModel.Tokens.SecurityKeyIdentifier,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <parameter name="ski">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSerializer.ResolveSecurityToken(System.IdentityModel.Tokens.SecurityKeyIdentifier,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="ski">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSerializer.WriteSecurityKeyIdentifier(System.Xml.XmlWriter,System.IdentityModel.Tokens.SecurityKeyIdentifier,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ski">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="tokenSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSerializer.WriteToken(System.IdentityModel.Tokens.SamlSecurityToken,System.Xml.XmlWriter,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="token">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlStatement.CreatePolicy(System.IdentityModel.Claims.ClaimSet,System.IdentityModel.Selectors.SamlSecurityTokenAuthenticator)">
+    <parameter name="issuer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlStatement.ReadXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlStatement.WriteXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSubject.ExtractClaims">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSubject.ExtractSubjectKeyClaimSet(System.IdentityModel.Selectors.SamlSecurityTokenAuthenticator)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SamlSubject.NameClaimType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSubject.ReadXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer,System.IdentityModel.Selectors.SecurityTokenResolver)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSubject.WriteXml(,System.IdentityModel.Tokens.SamlSerializer,System.IdentityModel.Selectors.SecurityTokenSerializer)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="samlSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyInfoSerializer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSubjectStatement.#ctor(System.IdentityModel.Tokens.SamlSubject)">
+    <parameter name="samlSubject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSubjectStatement.AddClaimsToList(System.Collections.Generic.IList{System.IdentityModel.Claims.Claim})">
+    <parameter name="claims">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SamlSubjectStatement.SetSubject(System.IdentityModel.Tokens.SamlSubject)">
+    <parameter name="samlSubject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SecurityKey.DecryptKey(System.String,System.Byte[])">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SecurityKey.EncryptKey(System.String,System.Byte[])">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SecurityKeyIdentifier.#ctor(System.IdentityModel.Tokens.SecurityKeyIdentifierClause[])">
+    <parameter name="clauses">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SecurityKeyIdentifier.Add(System.IdentityModel.Tokens.SecurityKeyIdentifierClause)">
+    <parameter name="clause">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SecurityKeyIdentifier.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SecurityKeyIdentifier.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SecurityToken.CreateKeyIdentifierClause``1">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SecurityToken.SecurityKeys">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SecurityTokenException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SecurityTokenTypes.Kerberos">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SecurityTokenTypes.Rsa">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SecurityTokenTypes.Saml">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SecurityTokenTypes.UserName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IdentityModel.Tokens.SecurityTokenTypes.X509Certificate">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SecurityTokenValidationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SigningCredentials.#ctor(System.IdentityModel.Tokens.SecurityKey,System.String,System.String)">
+    <parameter name="digestAlgorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="signatureAlgorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="signingKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SigningCredentials.#ctor(System.IdentityModel.Tokens.SecurityKey,System.String,System.String,System.IdentityModel.Tokens.SecurityKeyIdentifier)">
+    <parameter name="signingKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="signatureAlgorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="digestAlgorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SymmetricSecurityKey.GenerateDerivedKey(System.String,System.Byte[],System.Byte[],System.Int32,System.Int32)">
+    <parameter name="nonce">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="label">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SymmetricSecurityKey.GetDecryptionTransform(System.String,System.Byte[])">
+    <parameter name="iv">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SymmetricSecurityKey.GetEncryptionTransform(System.String,System.Byte[])">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="iv">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SymmetricSecurityKey.GetIVSize(System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SymmetricSecurityKey.GetKeyedHashAlgorithm(System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.SymmetricSecurityKey.GetSymmetricAlgorithm(System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.UserNameSecurityToken.#ctor(System.String,System.String)">
+    <parameter name="userName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.UserNameSecurityToken.#ctor(System.String,System.String,System.String)">
+    <parameter name="userName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.WindowsSecurityToken.#ctor(System.Security.Principal.WindowsIdentity)">
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.WindowsSecurityToken.#ctor(System.Security.Principal.WindowsIdentity,System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.WindowsSecurityToken.Initialize(System.String,System.DateTime,System.DateTime,System.Security.Principal.WindowsIdentity,System.Boolean)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509AsymmetricSecurityKey.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509AsymmetricSecurityKey.DecryptKey(System.String,System.Byte[])">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509AsymmetricSecurityKey.EncryptKey(System.String,System.Byte[])">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509AsymmetricSecurityKey.GetAsymmetricAlgorithm(System.String,System.Boolean)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509AsymmetricSecurityKey.GetHashAlgorithmForSignature(System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509AsymmetricSecurityKey.GetSignatureDeformatter(System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509AsymmetricSecurityKey.GetSignatureFormatter(System.String)">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.Tokens.X509AsymmetricSecurityKey.PublicKey">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509IssuerSerialKeyIdentifierClause.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509IssuerSerialKeyIdentifierClause.#ctor(System.String,System.String)">
+    <parameter name="issuerName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="issuerSerialNumber">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.#ctor(System.Byte[])">
+    <parameter name="certificateRawData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.#ctor(System.Byte[],System.Boolean)">
+    <parameter name="certificateRawData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.CreateKey">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.GetRawData(System.Security.Cryptography.X509Certificates.X509Certificate)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509RawDataKeyIdentifierClause.GetX509RawData">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509SecurityToken.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509SecurityToken.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Boolean)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509SecurityToken.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Boolean,System.Boolean)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509SecurityToken.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.String)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509SecurityToken.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.String,System.Boolean)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509SecurityToken.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.String,System.Boolean,System.Boolean)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.Tokens.X509SecurityToken.SecurityKeys">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509SubjectKeyIdentifierClause.#ctor(System.Byte[])">
+    <parameter name="ski">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509SubjectKeyIdentifierClause.#ctor(System.Byte[],System.Boolean)">
+    <parameter name="ski">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509SubjectKeyIdentifierClause.CanCreateFrom(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509SubjectKeyIdentifierClause.GetSkiRawData(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509SubjectKeyIdentifierClause.GetX509SubjectKeyIdentifier">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509SubjectKeyIdentifierClause.TryCreateFrom(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IdentityModel.Tokens.X509SubjectKeyIdentifierClause@)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509ThumbprintKeyIdentifierClause.#ctor(System.Byte[])">
+    <parameter name="thumbprint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509ThumbprintKeyIdentifierClause.#ctor(System.Byte[],System.Boolean)">
+    <parameter name="thumbprint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509ThumbprintKeyIdentifierClause.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509ThumbprintKeyIdentifierClause.GetHash(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509ThumbprintKeyIdentifierClause.GetX509Thumbprint">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509WindowsSecurityToken.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Principal.WindowsIdentity)">
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509WindowsSecurityToken.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Principal.WindowsIdentity,System.Boolean)">
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509WindowsSecurityToken.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Principal.WindowsIdentity,System.String)">
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Tokens.X509WindowsSecurityToken.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Principal.WindowsIdentity,System.String,System.Boolean)">
+    <parameter name="windowsIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Transform.Process(System.Object,System.IdentityModel.SignatureResourcePool,System.IdentityModel.DictionaryManager)">
+    <parameter name="resourcePool">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Transform.ProcessAndDigest(System.Object,System.IdentityModel.SignatureResourcePool,System.String,System.IdentityModel.DictionaryManager)">
+    <parameter name="resourcePool">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Transform.ReadFrom(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.Transform.WriteTo(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.TransformChain.ReadFrom(,System.IdentityModel.TransformFactory,System.IdentityModel.DictionaryManager)">
+    <parameter name="transformFactory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.TransformChain.TransformToDigest(System.Object,System.IdentityModel.SignatureResourcePool,System.String,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="resourcePool">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.TransformChain.WriteTo(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.TransformFactory.CreateTransform(System.String)">
+    <parameter name="transformAlgorithmUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.UtilityDictionary.#ctor(System.IdentityModel.IdentityModelDictionary)">
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.WrappedReader.#ctor()">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.WrappedReader.ReadBinaryContent(System.Byte[],System.Int32,System.Int32,System.Boolean)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.WrappedReader.ReadContentAsBase64(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.WrappedReader.ReadContentAsBinHex(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.WrappedReader.ReadValueChunk(System.Char[],System.Int32,System.Int32)">
+    <parameter name="chars">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.XmlAttributeHolder.Deduct(System.String,System.Int32@)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.XmlAttributeHolder.GetAttribute(System.IdentityModel.XmlAttributeHolder[],System.String,System.String)">
+    <parameter name="attributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.XmlAttributeHolder.WriteAttributes(System.IdentityModel.XmlAttributeHolder[],System.Xml.XmlWriter)">
+    <parameter name="attributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.XmlAttributeHolder.WriteTo(System.Xml.XmlWriter)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.XmlHelper.GetWhiteSpace(System.Xml.XmlReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.XmlHelper.ReadEmptyElementAndRequiredAttribute(,,,,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.XmlHelper.ReadTextElementAsTrimmedString(System.Xml.XmlElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.XmlSignatureDictionary.#ctor(System.IdentityModel.IdentityModelDictionary)">
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.IdentityModel.XmlTokenStream.System#IdentityModel#ISecurityElement#Id">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.IdentityModel.XmlTokenStream.WriteTo(,System.IdentityModel.DictionaryManager)">
+    <parameter name="dictionaryManager">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.XmlUtil.Trim(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.XmlUtil.TrimEnd(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IdentityModel.XmlUtil.TrimStart(System.String)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>

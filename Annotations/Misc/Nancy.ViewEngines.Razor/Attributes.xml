@@ -1,0 +1,68 @@
+<assembly name="Nancy.ViewEngines.Razor">
+  <assembly>
+    <attribute ctor="M:JetBrains.Annotations.RazorImportNamespaceAttribute.#ctor(System.String)">
+      <argument>System</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.RazorImportNamespaceAttribute.#ctor(System.String)">
+      <argument>System.IO</argument>
+    </attribute>
+  </assembly>
+  
+  <member name="M:Nancy.ViewEngines.Razor.NancyRazorViewBase`1.RenderSection(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.RazorSectionAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Nancy.ViewEngines.Razor.NancyRazorViewBase`1.RenderSection(System.String,System.Boolean)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.RazorSectionAttribute.#ctor" />
+    </parameter>
+  </member>
+
+  <member name="P:Nancy.ViewEngines.Razor.NancyRazorViewBase`1.Layout">
+    <attribute ctor="M:JetBrains.Annotations.RazorLayoutAttribute.#ctor" />
+  </member>
+
+  <member name="M:Nancy.ViewEngines.Razor.NancyRazorViewBase`1.Write(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodParameterAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Nancy.ViewEngines.Razor.NancyRazorViewBase`1.Write(System.Web.WebPages.HelperResult)">
+    <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodAttribute.#ctor" />
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodParameterAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Nancy.ViewEngines.Razor.NancyRazorViewBase`1.WriteTo(System.IO.TextWriter,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodAttribute.#ctor" />
+    <parameter name="content">
+      <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodParameterAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Nancy.ViewEngines.Razor.NancyRazorViewBase`1.WriteTo(System.IO.TextWriter,System.Web.WebPages.HelperResult)">
+    <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodAttribute.#ctor" />
+    <parameter name="content">
+      <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodParameterAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Nancy.ViewEngines.Razor.NancyRazorViewBase`1e.WriteLiteral(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.RazorWriteLiteralMethodAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodParameterAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Nancy.ViewEngines.Razor.NancyRazorViewBase`1.WriteLiteralTo(System.IO.TextWriter,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.RazorWriteLiteralMethodAttribute.#ctor" />
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodParameterAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Nancy.ViewEngines.Razor.NancyRazorViewBase`1.WriteLiteralTo(System.IO.TextWriter,System.Web.WebPages.HelperResult)">
+    <attribute ctor="M:JetBrains.Annotations.RazorWriteLiteralMethodAttribute.#ctor" />
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodParameterAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

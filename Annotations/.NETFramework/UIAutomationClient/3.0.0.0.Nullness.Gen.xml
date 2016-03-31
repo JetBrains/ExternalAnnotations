@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="UIAutomationClient, Version=3.0.0.0">
+  <member name="M:MS.Internal.Automation.Accessible.Create(System.IntPtr,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.CacheHelper.BuildAutomationElementsFromResponse(MS.Internal.Automation.UiaCoreApi.UiaCacheRequest,MS.Internal.Automation.UiaCoreApi.UiaCacheResponse)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.CacheHelper.ParseTreeDescription(System.String,System.Object[0:,0:],System.Int32@,System.Int32@,MS.Internal.Automation.UiaCoreApi.UiaCacheRequest,System.Boolean,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="cacheRequest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.ClientEventManager.AddFocusListener(System.Delegate,MS.Internal.Automation.EventListener)">
+    <parameter name="l">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.ClientEventManager.AddListener(System.Windows.Automation.AutomationElement,System.Delegate,MS.Internal.Automation.EventListener)">
+    <parameter name="rawEl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="l">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.ClientEventManager.AddRootListener(MS.Internal.Automation.ClientEventManager.Tracker,System.Delegate,MS.Internal.Automation.EventListener)">
+    <parameter name="l">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.ClientEventManager.GetNewRootTracker(MS.Internal.Automation.ClientEventManager.Tracker)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.ClientEventManager.OnWindowHideOrClose(System.IntPtr,System.Windows.Automation.AutomationElement,System.Int32[])">
+    <parameter name="runtimeId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.ClientEventManager.OnWindowShowOrOpen(System.IntPtr,System.Windows.Automation.AutomationElement)">
+    <parameter name="rawEl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.ClientEventManager.PropertyArrayToIntArray([])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.ClientEventManager.RaiseEventInThisClientOnly(,System.Int32[],)">
+    <parameter name="rid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.ClientEventManager.RemoveListener(,System.Windows.Automation.AutomationElement,System.Delegate)">
+    <parameter name="el">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.EventListenerClientSide.#ctor(System.Windows.Automation.AutomationElement,System.Delegate,MS.Internal.Automation.EventListener)">
+    <parameter name="elRoot">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.EventListenerClientSide.IsChildOf(System.Windows.Automation.AutomationElement,System.Windows.Automation.AutomationElement)">
+    <parameter name="elPossibleParent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="el">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.EventListenerClientSide.IsListeningFor(,System.Windows.Automation.AutomationElement,System.Delegate)">
+    <parameter name="el">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.EventListenerClientSide.WithinScope(System.Int32[])">
+    <parameter name="rid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.EventListenerClientSide.WithinScope(System.Windows.Automation.AutomationElement)">
+    <parameter name="el">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.FocusTracker.GetFocusedElementFromWinEvent(System.IntPtr,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.#ElementProviderFromPoint(System.Double,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Automation.HwndProxyElementProvider.#FragmentRoot">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.#GetFocus">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.#GetPatternProvider(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.#GetRuntimeId">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Automation.HwndProxyElementProvider.#HostRawElementProvider">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.#Navigate()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.ElementProviderFromPoint(MS.Win32.NativeMethods.HWND,System.Double,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.GetAllUIFragmentRoots(MS.Win32.NativeMethods.HWND,System.Boolean,System.Collections.ArrayList)">
+    <parameter name="uiFragmentRoots">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.GetFirstChild">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.GetFocusedProvider">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.GetLastChild">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.GetNextSibling">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.GetParent">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.GetPreviousSibling">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.GetRootProvider">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.MakeRuntimeId(MS.Win32.NativeMethods.HWND)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.HwndProxyElementProvider.Wrap(MS.Win32.NativeMethods.HWND)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.InvokeHandlers.InvokeClientHandler(System.Delegate,System.Windows.Automation.AutomationElement,)">
+    <parameter name="clientCallback">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.Misc.CheckNonNull(System.Object,System.Object)">
+    <parameter name="el1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="el2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.Misc.CombineArrays(System.Collections.IEnumerable,System.Type)">
+    <parameter name="arrays">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.Misc.Compare(System.Int32[],System.Int32[])">
+    <parameter name="a1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="a2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.Misc.Compare(System.Windows.Automation.AutomationElement,System.Windows.Automation.AutomationElement)">
+    <parameter name="el1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="el2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.Misc.IsWindowsFormsControl(System.String)">
+    <parameter name="className">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.Misc.RemoveDuplicates(System.Array,System.Type)">
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.Misc.ValidateArgument(System.Boolean,System.String)">
+    <parameter name="reason">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.Misc.ValidateArgumentNonNull(System.Object,System.String)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.Misc.ValidateCurrent(MS.Internal.Automation.SafePatternHandle)">
+    <parameter name="hPattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.Misc.WrapInterfaceOnClientSide(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,)">
+    <parameter name="hPattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.ProxyManager.AddToHashTable(System.Collections.Hashtable,System.String,System.Object)">
+    <parameter name="table">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.ProxyManager.AddToProxyDescriptionTable(System.Windows.Automation.ClientSideProviderDescription[])">
+    <parameter name="proxyInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.ProxyManager.FindProxyInEntryOrArrayList(MS.Internal.Automation.ProxyManager.ProxyScoping,System.Object,System.String@,MS.Win32.NativeMethods.HWND,System.Int32,System.Int32,System.String)">
+    <parameter name="classNameForPartialMatch">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.ProxyManager.GetClassName(MS.Win32.NativeMethods.HWND)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.ProxyManager.GetImageName(MS.Win32.NativeMethods.HWND)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.ProxyManager.GetProxyDescriptionTable">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.ProxyManager.GetProxyFromEntry(MS.Internal.Automation.ProxyManager.ProxyScoping,System.Object,System.String@,MS.Win32.NativeMethods.HWND,System.Int32,System.Int32,System.String)">
+    <parameter name="entry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="classNameForPartialMatch">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.ProxyManager.RealGetWindowClass(MS.Win32.NativeMethods.HWND)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.ProxyManager.RegisterProxyAssembly(System.Reflection.AssemblyName)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.ProxyManager.RegisterWindowHandlers(System.Windows.Automation.ClientSideProviderDescription[])">
+    <parameter name="proxyInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.ProxyManager.SetProxyDescriptionTable(System.Windows.Automation.ClientSideProviderDescription[])">
+    <parameter name="proxyInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.Schema.ConvertToControlType(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.Schema.ConvertToCultureInfo(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.Schema.ConvertToElement(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.Schema.ConvertToElementArray(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.Schema.ConvertToPoint(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.Schema.ConvertToRect(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.ArrayFromIntPtr(System.IntPtr,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.GetUiaEventArgs(System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.GridPattern_GetItem(MS.Internal.Automation.SafePatternHandle,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.OnGetProvider(System.IntPtr,MS.Internal.Automation.UiaCoreApi.ProviderType)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.TextPattern_get_DocumentRange(MS.Internal.Automation.SafePatternHandle)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.TextPattern_GetSelection(MS.Internal.Automation.SafePatternHandle)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.TextPattern_GetVisibleRanges(MS.Internal.Automation.SafePatternHandle)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.TextPattern_RangeFromChild(MS.Internal.Automation.SafePatternHandle,MS.Internal.Automation.SafeNodeHandle)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.TextPattern_RangeFromPoint(MS.Internal.Automation.SafePatternHandle,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.TextRange_Clone(System.Windows.Automation.Text.SafeTextRangeHandle)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.TextRange_FindAttribute(System.Windows.Automation.Text.SafeTextRangeHandle,System.Int32,System.Object,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.TextRange_FindText(System.Windows.Automation.Text.SafeTextRangeHandle,System.String,System.Boolean,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.TextRange_GetBoundingRectangles(System.Windows.Automation.Text.SafeTextRangeHandle)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.TextRange_GetEnclosingElement(System.Windows.Automation.Text.SafeTextRangeHandle)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaAddEvent(MS.Internal.Automation.SafeNodeHandle,System.Int32,MS.Internal.Automation.UiaCoreApi.UiaEventCallback,,System.Int32[],MS.Internal.Automation.UiaCoreApi.UiaCacheRequest)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaCacheRequest.#ctor(System.Windows.Automation.Condition,,[],[],System.Windows.Automation.AutomationElementMode)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="patterns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaCacheResponse.#ctor(System.Object[0:,0:],System.String,MS.Internal.Automation.UiaCoreApi.UiaCacheRequest)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaCacheResponse.ConvertFromComTypesToClrTypes(System.Object[0:,0:],MS.Internal.Automation.UiaCoreApi.UiaCacheRequest)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaFind(MS.Internal.Automation.SafeNodeHandle,MS.Internal.Automation.UiaCoreApi.UiaFindParams,System.Windows.Automation.Condition,MS.Internal.Automation.UiaCoreApi.UiaCacheRequest)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="findCondition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaGetPatternProvider(MS.Internal.Automation.SafeNodeHandle,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaGetRootNode">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaGetUpdatedCache(MS.Internal.Automation.SafeNodeHandle,MS.Internal.Automation.UiaCoreApi.UiaCacheRequest,MS.Internal.Automation.UiaCoreApi.NormalizeState,System.Windows.Automation.Condition)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaHPatternObjectFromVariant(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaHTextRangeFromVariant(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaHUiaNodeFromVariant(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaMiniCacheRequest.#ctor(MS.Internal.Automation.UiaCoreApi.UiaCacheRequest,System.IntPtr)">
+    <parameter name="cr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaNavigate(MS.Internal.Automation.SafeNodeHandle,,System.Windows.Automation.Condition,MS.Internal.Automation.UiaCoreApi.UiaCacheRequest)">
+    <parameter name="condition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaNodeFromFocus(MS.Internal.Automation.UiaCoreApi.UiaCacheRequest)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaNodeFromHandle(System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaNodeFromPoint(System.Double,System.Double,MS.Internal.Automation.UiaCoreApi.UiaCacheRequest)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.UiaCoreApi.UiaNodeFromProvider()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Automation.WinEventWrap.#ctor(System.Int32[])">
+    <parameter name="eventIds">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Automation.WinEventWrap.GetHandlers">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.AndCondition.#ctor(System.Windows.Automation.Condition[])">
+    <parameter name="conditions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Automation.AddAutomationEventHandler(,System.Windows.Automation.AutomationElement,,)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="eventHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Automation.AddAutomationFocusChangedEventHandler(System.Windows.Automation.AutomationFocusChangedEventHandler)">
+    <parameter name="eventHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Automation.AddAutomationPropertyChangedEventHandler(System.Windows.Automation.AutomationElement,,,[])">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="eventHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Automation.AddStructureChangedEventHandler(System.Windows.Automation.AutomationElement,,)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="eventHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Automation.Compare(System.Int32[],System.Int32[])">
+    <parameter name="runtimeId1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="runtimeId2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Automation.Compare(System.Windows.Automation.AutomationElement,System.Windows.Automation.AutomationElement)">
+    <parameter name="el1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="el2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Automation.PatternName()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Automation.PropertyName()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Automation.RemoveAutomationEventHandler(,System.Windows.Automation.AutomationElement,)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="eventHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Automation.RemoveAutomationFocusChangedEventHandler(System.Windows.Automation.AutomationFocusChangedEventHandler)">
+    <parameter name="eventHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Automation.RemoveAutomationPropertyChangedEventHandler(System.Windows.Automation.AutomationElement,)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="eventHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Automation.RemoveStructureChangedEventHandler(System.Windows.Automation.AutomationElement,)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="eventHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Windows.Automation.AutomationElement.CachedChildren">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.DrillForPointOrFocus(System.Boolean,,MS.Internal.Automation.UiaCoreApi.UiaCacheRequest)">
+    <parameter name="cacheRequest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.Find(,System.Windows.Automation.Condition,MS.Internal.Automation.UiaCoreApi.UiaCacheRequest,System.Boolean,System.ComponentModel.BackgroundWorker)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="condition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.FindAll(,System.Windows.Automation.Condition)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="condition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.FindFirst(,System.Windows.Automation.Condition)">
+    <parameter name="condition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Automation.AutomationElement.FocusedElement">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.FromHandle(System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.FromLocalProvider()">
+    <parameter name="localImpl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.FromPoint()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.GetCachedPattern()">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.GetCachedPropertyValue()">
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.GetCachedPropertyValue(,System.Boolean)">
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.GetCurrentPattern()">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.GetCurrentPropertyValue()">
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.GetCurrentPropertyValue(,System.Boolean)">
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.GetPatternPropertyValue(,System.Boolean)">
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.GetUpdatedCache(System.Windows.Automation.CacheRequest)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.Navigate(,System.Windows.Automation.Condition,System.Windows.Automation.CacheRequest)">
+    <parameter name="condition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.Normalize(System.Windows.Automation.Condition,System.Windows.Automation.CacheRequest)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Automation.AutomationElement.RootElement">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.TryGetCachedPattern(,System.Object@)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.TryGetCurrentPattern(,System.Object@)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElement.Wrap(MS.Internal.Automation.SafeNodeHandle)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElementCollection.CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.AutomationElementCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Automation.AutomationElementCollection.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.CacheRequest.Activate">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.CacheRequest.Add()">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.CacheRequest.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.CacheRequest.GetUiaCacheRequest">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.ClickablePoint.GetTopLevelAncestor(System.Windows.Automation.AutomationElement)">
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.ClickablePoint.HitTestForClickablePoint(System.Windows.Automation.AutomationElement,@)">
+    <parameter name="el">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.ClickablePoint.IsTopLevelWindowObscuring(System.Windows.Automation.AutomationElement,,System.Windows.Automation.AutomationElement)">
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="hitTarget">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.ClientSettings.RegisterClientSideProviderAssembly(System.Reflection.AssemblyName)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.ClientSettings.RegisterClientSideProviders(System.Windows.Automation.ClientSideProviderDescription[])">
+    <parameter name="clientSideProviderDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.DockPattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.ExpandCollapsePattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.GridItemPattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.GridPattern.GetItem(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.GridPattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.InvokePattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.MultipleViewPattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.NotCondition.#ctor(System.Windows.Automation.Condition)">
+    <parameter name="condition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.OrCondition.#ctor(System.Windows.Automation.Condition[])">
+    <parameter name="conditions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.PropertyCondition.#ctor(,System.Object)">
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.PropertyCondition.#ctor(,System.Object,System.Windows.Automation.PropertyConditionFlags)">
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.PropertyCondition.Init(,System.Object,System.Windows.Automation.PropertyConditionFlags)">
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.RangeValuePattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.SafeConditionMemoryHandle.AllocateConditionArrayHandle(System.Windows.Automation.Condition[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="conditions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.SafeConditionMemoryHandle.AllocateConditionHandle(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.ScrollItemPattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.ScrollPattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.SelectionItemPattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.SelectionPattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TableItemPattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TablePattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Text.TextPatternRange.Clone">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Text.TextPatternRange.Compare(System.Windows.Automation.Text.TextPatternRange)">
+    <parameter name="range">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Text.TextPatternRange.CompareEndpoints(,System.Windows.Automation.Text.TextPatternRange,)">
+    <parameter name="targetRange">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Text.TextPatternRange.FindAttribute(,System.Object,System.Boolean)">
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Text.TextPatternRange.FindText(System.String,System.Boolean,System.Boolean)">
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Text.TextPatternRange.GetAttributeValue()">
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Text.TextPatternRange.GetBoundingRectangles">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Text.TextPatternRange.GetChildren">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Text.TextPatternRange.GetEnclosingElement">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.Text.TextPatternRange.MoveEndpointByRange(,System.Windows.Automation.Text.TextPatternRange,)">
+    <parameter name="targetRange">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Text.TextPatternRange.ValidateRangeArgument(System.Windows.Automation.Text.TextPatternRange,System.String)">
+    <parameter name="range">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Text.TextPatternRange.Wrap(System.Windows.Automation.Text.SafeTextRangeHandle,System.Windows.Automation.TextPattern)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="hTextRange">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Text.TextPatternRange.Wrap(System.Windows.Automation.Text.SafeTextRangeHandle[],System.Windows.Automation.TextPattern)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TextPattern.Compare(System.Windows.Automation.TextPattern,System.Windows.Automation.TextPattern)">
+    <parameter name="t1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="t2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Windows.Automation.TextPattern.DocumentRange">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TextPattern.GetSelection">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TextPattern.GetVisibleRanges">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TextPattern.RangeFromChild(System.Windows.Automation.AutomationElement)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="childElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.TextPattern.RangeFromPoint()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TextPattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="hPattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.TogglePattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TransformPattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TreeWalker.#ctor(System.Windows.Automation.Condition)">
+    <parameter name="condition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.TreeWalker.GetFirstChild(System.Windows.Automation.AutomationElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TreeWalker.GetFirstChild(System.Windows.Automation.AutomationElement,System.Windows.Automation.CacheRequest)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TreeWalker.GetLastChild(System.Windows.Automation.AutomationElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TreeWalker.GetLastChild(System.Windows.Automation.AutomationElement,System.Windows.Automation.CacheRequest)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TreeWalker.GetNextSibling(System.Windows.Automation.AutomationElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TreeWalker.GetNextSibling(System.Windows.Automation.AutomationElement,System.Windows.Automation.CacheRequest)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TreeWalker.GetParent(System.Windows.Automation.AutomationElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TreeWalker.GetParent(System.Windows.Automation.AutomationElement,System.Windows.Automation.CacheRequest)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TreeWalker.GetPreviousSibling(System.Windows.Automation.AutomationElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TreeWalker.GetPreviousSibling(System.Windows.Automation.AutomationElement,System.Windows.Automation.CacheRequest)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TreeWalker.Normalize(System.Windows.Automation.AutomationElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.TreeWalker.Normalize(System.Windows.Automation.AutomationElement,System.Windows.Automation.CacheRequest)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.ValuePattern.SetValue(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Windows.Automation.ValuePattern.ValuePatternInformation.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.ValuePattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Automation.WindowPattern.Wrap(System.Windows.Automation.AutomationElement,MS.Internal.Automation.SafePatternHandle,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.SR.Get(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.SR.Get(System.String,System.Object[])">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.ST.Get(System.Windows.STID)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.ST.Get(System.Windows.STID,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+</assembly>

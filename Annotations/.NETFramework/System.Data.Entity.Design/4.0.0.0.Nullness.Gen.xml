@@ -1,0 +1,3242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Data.Entity.Design, Version=4.0.0.0">
+  <member name="P:System.Data.EDesignRes.Culture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EDesignRes.GetObject(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EDesignRes.GetString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EDesignRes.GetString(System.String,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EDesignRes.GetString(System.String,System.Object[])">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.AspNet.BuildProviderUtils.AddArtifactReference(System.Web.Compilation.AssemblyBuilder,System.Web.Compilation.BuildProvider,System.String)">
+    <parameter name="assemblyBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="virtualPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.AspNet.BuildProviderUtils.GetResourceNameForVirtualPath(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.AspNet.EntityDesignerBuildProvider.SetupEmbeddedResource(System.Web.Compilation.AssemblyBuilder,System.Web.Compilation.BuildProvider,System.Xml.XmlElement,System.String)">
+    <parameter name="resourceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="assemblyBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xmlElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.Argument(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.Argument(System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.ArgumentNull(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.ArgumentOutOfRange(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.CheckArgumentNull``1(``0,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.CheckStringArgument(System.String,System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.CheckTargetEntityFrameworkVersionArgument(System.Version,System.String)">
+    <parameter name="targetEntityFrameworkVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.DuplicateEntityContainerName(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.EdmReservedNamespace(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.EntityModelGeneratorSchemaNotLoaded">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.EntityStoreGeneratorSchemaNotLoaded">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.GetMessagesFromEntireExceptionChain(System.Exception)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.InvalidEntityContainerNameArgument(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.InvalidNamespaceNameArgument(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.InvalidOperation(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.InvalidStoreEntityContainer(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.InvalidStringArgument(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.MissingGenerationPatternForType(System.Data.Metadata.Edm.BuiltInTypeKind)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.NonSerializableType(System.Data.Metadata.Edm.BuiltInTypeKind)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.ProviderIncompatible(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.ProviderIncompatible(System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.StonglyTypedAccessToNullValue(System.String,System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.EDesignUtil.StrongTyping(System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.GetAssociatedFacetDescriptions(System.Data.Metadata.Edm.EdmType)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.GetAttributeValueString(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.GetEdmType(System.Data.Metadata.Edm.TypeUsage)">
+    <parameter name="typeUsage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.GetFullName(System.Data.Metadata.Edm.EdmType)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.GetModelType(System.Data.Metadata.Edm.EdmType)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="edmType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.GetTypeName(System.Data.Metadata.Edm.TypeUsage)">
+    <parameter name="typeUsage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.GetXmlMultiplicity(System.Data.Metadata.Edm.RelationshipMultiplicity)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.IsSpecialFacet(System.Data.Metadata.Edm.Facet)">
+    <parameter name="facet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.RemoveXmlCommentCharacters(System.IO.StringWriter)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="stringWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.SkipFacet(System.Data.Metadata.Edm.Facet,System.Data.Metadata.Edm.FacetDescription)">
+    <parameter name="facet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteAssociationSetElement(System.Data.Metadata.Edm.AssociationSet)">
+    <parameter name="associationSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteAssociationSetEndElement(System.Data.Metadata.Edm.AssociationSetEnd)">
+    <parameter name="end">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteAssociationTypeElement(System.Data.Metadata.Edm.AssociationType)">
+    <parameter name="associationType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteComplexTypeElement(System.Data.Metadata.Edm.ComplexType)">
+    <parameter name="complexType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteEntityContainerElement(System.Data.Metadata.Edm.EntityContainer)">
+    <parameter name="container">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteEntitySetElement(System.Data.Metadata.Edm.EntitySet)">
+    <parameter name="entitySet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteEntityTypeElement(System.Data.Metadata.Edm.EntityType)">
+    <parameter name="entityType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteErrorsComment(System.Data.Metadata.Edm.EdmType)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteExtendedPropertyAttributes(System.Data.Metadata.Edm.MetadataItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteFunctionElement(System.Data.Metadata.Edm.EdmFunction)">
+    <parameter name="function">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteFunctionParameterElement(System.Data.Metadata.Edm.FunctionParameter)">
+    <parameter name="parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteNavigationPropertyElement(System.Data.Metadata.Edm.NavigationProperty)">
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteOperationActionElement(System.String,System.Data.Metadata.Edm.OperationAction)">
+    <parameter name="elementName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WritePropertyElement(System.Data.Metadata.Edm.EdmMember)">
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WritePropertyTypeFacets(System.Data.Metadata.Edm.TypeUsage)">
+    <parameter name="typeUsage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteReferentialConstraintElement(System.Data.Metadata.Edm.ReferentialConstraint)">
+    <parameter name="constraint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteReferentialConstraintRoleElement(System.String,System.Data.Metadata.Edm.RelationshipEndMember,System.Collections.Generic.IList{System.Data.Metadata.Edm.EdmProperty})">
+    <parameter name="end">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="nodeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteRelationshipEndElement(System.Data.Metadata.Edm.RelationshipEndMember)">
+    <parameter name="end">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteSchemaElement(System.String,System.String,System.String,System.Collections.Generic.KeyValuePair{System.String,System.String}[])">
+    <parameter name="xmlPrefixToNamespaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="schemaNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteTypeElement(System.Data.Metadata.Edm.EdmType)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteXml(System.Xml.XmlWriter,System.Data.Metadata.Edm.ItemCollection,System.String,System.Data.Entity.Design.Common.MetadataItemSerializer.ErrorsLookup,System.Collections.Generic.List{System.Data.Metadata.Edm.EdmType},System.String,System.String,System.Version,System.Collections.Generic.KeyValuePair{System.String,System.String}[])">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="collection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="commentedOutItems">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xmlPrefixToNamespaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="namespaceToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataItemSerializer.WriteXml(System.Xml.XmlWriter,System.Data.Metadata.Edm.ItemCollection,System.String,System.Version,System.Collections.Generic.KeyValuePair{System.String,System.String}[])">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xmlPrefixToNamespaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="collection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="namespaceToWrite">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.CheckIfAllErrorsAreWarnings(System.Collections.Generic.IList{System.Data.Metadata.Edm.EdmSchemaError})">
+    <parameter name="schemaErrors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.CombineErrorMessage(System.Collections.Generic.IEnumerable{System.Data.Metadata.Edm.EdmSchemaError})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="errors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.DisposeXmlReaders(System.Collections.Generic.IEnumerable{System.Xml.XmlReader})">
+    <parameter name="xmlReaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.Entityize(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.FormatInvariant(System.String,System.Object[])">
+    <parameter name="format">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.GetProviderServices(System.Data.Common.DbProviderFactory)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="factory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.IsCatchableExceptionType(System.Exception)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.IsCollectionType(System.Data.Metadata.Edm.GlobalItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.IsComplexType(System.Data.Metadata.Edm.EdmType)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.IsEntitySet(System.Data.Metadata.Edm.EntitySetBase)">
+    <parameter name="entitySetBase">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.IsEnumerationType(System.Data.Metadata.Edm.EdmType)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.IsPrimitiveType(System.Data.Metadata.Edm.EdmType)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.IsStoreType(System.Data.Metadata.Edm.GlobalItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.MembersToCommaSeparatedString(System.Collections.IEnumerable)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.ProviderIncompatible(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.ToCommaSeparatedString(System.Text.StringBuilder,System.Collections.IEnumerable)">
+    <parameter name="builder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.ToSeparatedStringPrivate(System.Text.StringBuilder,System.Collections.IEnumerable,System.String,System.String,System.Boolean)">
+    <parameter name="stringBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.MetadataUtil.TrySplitExtendedMetadataPropertyName(System.String,System.String@,System.String@)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.#ctor(System.Data.Entity.Design.Common.OneToOneMappingSerializer.MappingLookups,System.Data.Metadata.Edm.EntityContainer,System.Data.Metadata.Edm.EntityContainer,System.Version)">
+    <parameter name="lookups">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeContainer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="modelContainer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.CollapsedEntityAssociationSet.GetAssociationSetEnd(System.Data.Metadata.Edm.AssociationSet,System.Boolean)">
+    <parameter name="set">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.CollapsedEntityAssociationSet.GetFromAssociationSetEnd(System.Data.Metadata.Edm.AssociationSet,System.Data.Metadata.Edm.AssociationSet,System.Data.Metadata.Edm.AssociationSetEnd@,System.Data.Metadata.Edm.RelationshipMultiplicity@,System.Data.Metadata.Edm.OperationAction@)">
+    <parameter name="definingSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="multiplicitySet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.CollapsedEntityAssociationSet.IsAtLeastOneColumnFKInBothAssociations(System.Data.Metadata.Edm.ReferentialConstraint,System.Data.Metadata.Edm.ReferentialConstraint)">
+    <parameter name="constraint0">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="constraint1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.CollapsedEntityAssociationSet.IsAtLeastOneColumnOfBothDependentRelationshipColumnSetsNonNullable(System.Data.Metadata.Edm.ReferentialConstraint,System.Data.Metadata.Edm.ReferentialConstraint)">
+    <parameter name="constraint0">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="constraint1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.CollapsedEntityAssociationSet.IsEntityDependentSideOfBothAssociations(System.Data.Metadata.Edm.ReferentialConstraint,System.Data.Metadata.Edm.ReferentialConstraint)">
+    <parameter name="constraint0">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="constraint1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.CollapsedEntityAssociationSet.ToPropertyHasNonNullableColumn(System.Data.Metadata.Edm.ReferentialConstraint)">
+    <parameter name="constraint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.GetAssociatedFkColumn(System.Data.Metadata.Edm.AssociationSetEnd,System.Data.Metadata.Edm.EdmProperty)">
+    <parameter name="store">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.GetAssociationSetEndForForeignKeyTable(System.Data.Metadata.Edm.AssociationSet)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="store">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.GetReferentialConstraint(System.Data.Metadata.Edm.AssociationSet)">
+    <parameter name="set">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.WriteAssociationSetMappingElement(System.Xml.XmlWriter,System.Data.Entity.Design.Common.OneToOneMappingSerializer.CollapsedEntityAssociationSet)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="collapsedAssociationSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.WriteAssociationSetMappingElement(System.Xml.XmlWriter,System.Data.Metadata.Edm.AssociationSet,System.Data.Metadata.Edm.AssociationSet)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="store">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="model">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.WriteConditionElement(System.Xml.XmlWriter,System.Data.Metadata.Edm.EdmProperty)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fkColumn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.WriteEndPropertyElement(System.Xml.XmlWriter,System.Data.Metadata.Edm.AssociationSetEnd,System.Data.Metadata.Edm.AssociationSetEnd)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="store">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="model">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.WriteEntityContainerMappingElement(System.Xml.XmlWriter)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.WriteEntitySetMappingElement(System.Xml.XmlWriter,System.Data.Metadata.Edm.EntitySet,System.Data.Metadata.Edm.EntitySet)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="store">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="model">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.WriteMappingStartElement(System.Xml.XmlWriter)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.WriteScalarPropertyElement(System.Xml.XmlWriter,System.Data.Metadata.Edm.EdmProperty,System.Data.Metadata.Edm.EdmProperty)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="store">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="model">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.OneToOneMappingSerializer.WriteXml(System.Xml.XmlWriter)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.UniqueIdentifierService.RegisterUsedIdentifier(System.String)">
+    <parameter name="identifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Common.UniqueIdentifierService.TryGetAdjustedName(System.Object,System.String@)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EdmToObjectNamespaceMap.Add(System.String,System.String)">
+    <parameter name="edmNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="objectNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EdmToObjectNamespaceMap.Contains(System.String)">
+    <parameter name="edmNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Data.Entity.Design.EdmToObjectNamespaceMap.EdmNamespaces">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.EdmToObjectNamespaceMap.Item(System.String)">
+    <parameter name="edmNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EdmToObjectNamespaceMap.Remove(System.String)">
+    <parameter name="edmNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EdmToObjectNamespaceMap.TryGetObjectNamespace(System.String,System.String@)">
+    <parameter name="edmNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityClassGenerator.CreateErrorForException(System.Data.Entity.Design.SsdlGenerator.ModelBuilderErrorCode,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityClassGenerator.CreateErrorForException(System.Data.Entity.Design.SsdlGenerator.ModelBuilderErrorCode,System.Exception,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityClassGenerator.CreateErrorForException(System.Data.EntityModel.SchemaObjectModel.ErrorCode,System.Exception,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityClassGenerator.GenerateCode(System.String,System.String)">
+    <parameter name="sourceEdmSchemaFilePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="targetFilePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityClassGenerator.GenerateCode(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="sourceEdmSchemaFilePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="additionalEdmSchemaFilePaths">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityClassGenerator.GenerateCode(System.Xml.XmlReader,System.IO.TextWriter)">
+    <parameter name="sourceEdmSchema">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityClassGenerator.GenerateCode(System.Xml.XmlReader,System.IO.TextWriter,System.Collections.Generic.IEnumerable{System.Xml.XmlReader})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="sourceEdmSchema">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="additionalEdmSchemas">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityClassGenerator.GenerateCodeCommon(System.Data.Metadata.Edm.MetadataArtifactLoader,System.Collections.Generic.List{System.Data.Metadata.Edm.MetadataArtifactLoader},System.Data.Entity.Design.LazyTextWriterCreator,System.String,System.String,System.Boolean,System.Collections.Generic.List{System.Data.Metadata.Edm.EdmSchemaError})">
+    <parameter name="sourceLoader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="loaders">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="errors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityClassGenerator.ThrowOnAnyNonWarningErrors(System.Collections.Generic.List{System.Data.Metadata.Edm.EdmSchemaError})">
+    <parameter name="errors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityCodeGenerator.ConvertToEdmSchemaError(System.CodeDom.Compiler.CompilerError,System.Data.Entity.Design.SsdlGenerator.ModelBuilderErrorCode)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="error">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityCodeGenerator.CreateCodeGeneratorType(System.CodeDom.Compiler.CodeDomProvider,System.String,System.String)">
+    <parameter name="compilerProvider">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityCodeGenerator.GenerateCode(System.String,System.String)">
+    <parameter name="sourceEdmSchemaFilePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityCodeGenerator.GenerateCode(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">
+    <parameter name="sourceEdmSchemaFilePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="additionalEdmSchemaFilePaths">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityCodeGenerator.GenerateCode(System.Xml.XmlReader,System.IO.TextWriter)">
+    <parameter name="sourceEdmSchema">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityCodeGenerator.GenerateCode(System.Xml.XmlReader,System.IO.TextWriter,System.Collections.Generic.IEnumerable{System.Xml.XmlReader})">
+    <parameter name="sourceEdmSchema">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="additionalEdmSchemas">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityCodeGenerator.GenerateCodeFor1_1Schema(System.String,System.Data.Entity.Design.LazyTextWriterCreator,System.Collections.Generic.IEnumerable{System.String})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="sourceEdmSchemaFilePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityCodeGenerator.InternalGenerateCode(System.String,System.Data.Entity.Design.LazyTextWriterCreator,System.Collections.Generic.IEnumerable{System.String})">
+    <parameter name="textWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sourceEdmSchemaFilePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityCodeGenerator.ReflectionAdapter.#ctor(System.Object)">
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityCodeGenerator.ReflectionAdapter.Create(System.Data.Entity.Design.LanguageOption)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityCodeGenerator.SaveXmlReaderToFile(System.Xml.XmlReader,System.String)">
+    <parameter name="schema">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="tempSchemaPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityDesignerUtils.OutputXmlElementToStream(System.Xml.XmlElement,System.IO.Stream)">
+    <parameter name="xmlElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityDesignPluralizationHandler.GetEntitySetName(System.String)">
+    <parameter name="storeTableName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityDesignPluralizationHandler.GetEntityTypeName(System.String)">
+    <parameter name="storeTableName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityDesignPluralizationHandler.GetNavigationPropertyName(System.Data.Metadata.Edm.AssociationEndMember,System.String)">
+    <parameter name="toEnd">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeTableName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityFrameworkVersions.GetEdmSchemaNamespace(System.Version)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityFrameworkVersions.GetEdmSchemaXsdResourceName(System.Version)">
+    <parameter name="entityFrameworkVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityFrameworkVersions.GetEdmVersion(System.Version)">
+    <parameter name="entityFrameworkVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityFrameworkVersions.GetMappingSchemaNamespace(System.Version)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityFrameworkVersions.GetMappingSchemaXsdResourceName(System.Version)">
+    <parameter name="entityFrameworkVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityFrameworkVersions.GetSchemaNamespace(System.Version,System.Data.Metadata.Edm.DataSpace)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityFrameworkVersions.GetSchemaXsd(System.Version,System.Data.Metadata.Edm.DataSpace)">
+    <parameter name="entityFrameworkVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityFrameworkVersions.GetStoreSchemaNamespace(System.Version)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityFrameworkVersions.GetStoreSchemaXsdResourceName(System.Version)">
+    <parameter name="entityFrameworkVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityFrameworkVersions.IsValidVersion(System.Version)">
+    <parameter name="entityFrameworkVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.#ctor(System.Data.Metadata.Edm.EntityContainer)">
+    <parameter name="storeEntityContainer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.#ctor(System.Data.Metadata.Edm.EntityContainer,System.String,System.String)">
+    <parameter name="storeEntityContainer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="modelEntityContainerName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.AddStoreGeneratedPatternAnnoation(System.Data.Metadata.Edm.EdmProperty,System.Data.Metadata.Edm.TypeUsage)">
+    <parameter name="cSpaceProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeTypeUsage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CollectAllFkProperties(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState)">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateAssociationEndMember(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.AssociationEndMember,System.Collections.Generic.KeyValuePair{System.String,System.Data.Metadata.Edm.RelationshipMultiplicity},System.Data.Entity.Design.Common.UniqueIdentifierService)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="storeEndMember">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="usedEndMemberNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateAssociationEndMember(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.AssociationEndMember,System.Data.Entity.Design.Common.UniqueIdentifierService,System.Data.Metadata.Edm.RelationshipMultiplicity,System.Data.Metadata.Edm.OperationAction)">
+    <parameter name="usedEndMemberNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeEndMember">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateEndMultiplicityOverride(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.AssociationType,System.Data.Metadata.Edm.AssociationType)">
+    <parameter name="storeAssociation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateModelAssociation(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.AssociationType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeAssociationType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateModelAssociationSet(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.Data.Entity.Design.Common.OneToOneMappingSerializer.CollapsedEntityAssociationSet)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="collapsedAssociationSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateModelAssociationSet(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.AssociationSet)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeAssociationSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateModelAssociationSetEnd(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.AssociationSetEnd,System.Data.Metadata.Edm.AssociationSet)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeEnd">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateModelEntity(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.EntityType)">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeEntityType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateModelEntitySet(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.EntitySet)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeEntitySet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateModelName(System.String)">
+    <parameter name="storeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateModelName(System.String,System.Data.Entity.Design.Common.UniqueIdentifierService)">
+    <parameter name="usedNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateModelNavigationProperties(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.AssociationType)">
+    <parameter name="association">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateModelNavigationProperty(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.AssociationEndMember,System.Data.Metadata.Edm.AssociationEndMember)">
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="to">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateModelProperty(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.String,System.Data.Metadata.Edm.EdmProperty,System.Data.Entity.Design.Common.UniqueIdentifierService)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="usedPropertyNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateReferentialConstraint(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.AssociationType)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeAssociation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateValidEcmaName(System.String,System.Char)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateValidNamespaceName(System.String,System.Char)">
+    <parameter name="storeNamespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.CreateValildModelNamespaceName(System.String)">
+    <parameter name="storeNamespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.FindAllInvalidCollapsedAssociationCandidates(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState)">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.GenerateMetadata(System.Version)">
+    <parameter name="targetEntityFrameworkVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.Initialize(System.Data.Metadata.Edm.EntityContainer,System.String,System.String)">
+    <parameter name="storeEntityContainer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.IsAssociationPartOfCandidateCollapsedAssociation(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.AssociationSet)">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeAssociationSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState.AddError(System.String,System.Data.Entity.Design.SsdlGenerator.ModelBuilderErrorCode,System.Data.Metadata.Edm.EdmSchemaErrorSeverity,System.Exception)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.LoadNameLookupWithUsedMemberNames(System.Data.Metadata.Edm.EntityType,System.Data.Entity.Design.Common.UniqueIdentifierService)">
+    <parameter name="entityType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="usedMemberNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.RequiresModelReferentialConstraint(System.Data.Metadata.Edm.AssociationType)">
+    <parameter name="storeAssociation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.RequiresModelReferentialConstraint(System.Data.Metadata.Edm.ReferentialConstraint,System.Data.Metadata.Edm.EntityType)">
+    <parameter name="storeConstraint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="toType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.SaveAssociationForCollapsedAssociationCandidate(System.Data.Entity.Design.EntityModelSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.AssociationSet)">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeAssociationSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.WriteModelSchema(System.String)">
+    <parameter name="outputFileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.WriteModelSchema(System.Xml.XmlWriter)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.WriteStorageMapping(System.String)">
+    <parameter name="outputFileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityModelSchemaGenerator.WriteStorageMapping(System.Xml.XmlWriter)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.#ctor(System.String,System.String,System.String)">
+    <parameter name="providerInvariantName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="connectionString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.AreAllFkKeyColumnsNullable(System.Data.Metadata.Edm.EntityType,System.Collections.Generic.List{System.Data.Entity.Design.SsdlGenerator.RelationshipDetailsRow})">
+    <parameter name="entity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="columns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.AreAnyFkKeyColumnsNullable(System.Data.Metadata.Edm.EntityType,System.Collections.Generic.List{System.Data.Entity.Design.SsdlGenerator.RelationshipDetailsRow})">
+    <parameter name="entity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="columns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.AreRelationshipColumnsTheTypesEntireKey(System.Data.Metadata.Edm.EntityType,System.Collections.Generic.List{System.Data.Entity.Design.SsdlGenerator.RelationshipDetailsRow},System.Func{System.Data.Entity.Design.SsdlGenerator.RelationshipDetailsRow,System.String})">
+    <parameter name="entity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="columns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="getColumnName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateAssociationEnd(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.EntityType,System.Data.Metadata.Edm.RelationshipMultiplicity,System.Data.Entity.Design.Common.UniqueIdentifierService,System.Data.Metadata.Edm.OperationAction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="usedEndNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateAssociationSet(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.AssociationType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateAssociationType(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState,System.Collections.Generic.List{System.Data.Entity.Design.SsdlGenerator.RelationshipDetailsRow})">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="columns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateAssociationTypes(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState)">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateDbObjectKey(System.Data.Entity.Design.SsdlGenerator.TableDetailsRow,System.Data.Entity.Design.EntityStoreSchemaGenerator.DbObjectType)">
+    <parameter name="row">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateEdmFunction(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState,System.Collections.Generic.List{System.Data.Entity.Design.SsdlGenerator.FunctionDetailsReader.Memento})">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateEdmFunctions(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState)">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateEntitySet(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.EntityType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateEntityType(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState,System.Collections.Generic.IList{System.Data.Entity.Design.SsdlGenerator.TableDetailsRow},System.Collections.Generic.ICollection{System.String},System.Data.Entity.Design.EntityStoreSchemaGenerator.DbObjectType,System.Collections.Generic.List{System.Data.Metadata.Edm.EdmSchemaError})">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="columns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="primaryKeys">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateEntityTypes(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState,System.Data.Entity.Design.SsdlGenerator.TableDetailsCollection,System.Data.Entity.Design.EntityStoreSchemaGenerator.DbObjectType)">
+    <parameter name="details">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateMetadataWorkspace(System.Data.Metadata.Edm.EntityContainer,System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState)">
+    <parameter name="entityContainer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateReferentialConstraint(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState,System.Data.Metadata.Edm.AssociationType,System.Data.Metadata.Edm.AssociationEndMember,System.Data.Metadata.Edm.AssociationEndMember,System.Collections.Generic.List{System.Data.Entity.Design.SsdlGenerator.RelationshipDetailsRow},System.Collections.Generic.List{System.Data.Metadata.Edm.EdmSchemaError})">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="association">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="pkEnd">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fkEnd">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="columns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="errors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateStoreSchemaConnection(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="providerInvariantName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="connectionString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateTableEntityTypes(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState)">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.CreateViewEntityTypes(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState)">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.DbObjectKey.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.DoGenerateStoreMetadata(System.Collections.Generic.IEnumerable{System.Data.Entity.Design.EntityStoreSchemaFilterEntry},System.Version)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.FixupKeylessEntitySets(System.Data.Metadata.Edm.EntityContainer,System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState)">
+    <parameter name="entityContainer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.FixupViewEntitySetDefiningQuery(System.Data.Metadata.Edm.EntitySet,System.Data.Metadata.Edm.MetadataWorkspace)">
+    <parameter name="entitySet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="metadataWorkspace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.ForceViewGeneration(System.Data.Metadata.Edm.MetadataWorkspace)">
+    <parameter name="workspace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.GenerateStoreMetadata">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.GenerateStoreMetadata(System.Collections.Generic.IEnumerable{System.Data.Entity.Design.EntityStoreSchemaFilterEntry})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.GenerateStoreMetadata(System.Collections.Generic.IEnumerable{System.Data.Entity.Design.EntityStoreSchemaFilterEntry},System.Version)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetEntityFrameworkVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.GetFunctionTypeUsage(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.GetProviderSchemaMetadataWorkspace(System.Data.Common.DbProviderServices,System.Data.Common.DbConnection)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="providerServices">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="providerConnection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.GetSourceNameFromObjectType(System.Data.Entity.Design.EntityStoreSchemaGenerator.DbObjectType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.HasErrorSeverityErrors(System.Collections.Generic.IEnumerable{System.Data.Metadata.Edm.EdmSchemaError})">
+    <parameter name="errors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.InferKeyColumns(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState,System.Collections.Generic.IList{System.Data.Entity.Design.SsdlGenerator.TableDetailsRow},System.Collections.Generic.List{System.String},System.Data.Entity.Design.EntityStoreSchemaGenerator.DbObjectKey,System.Collections.Generic.ICollection{System.String}@)">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="columns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="pKeys">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.IsFkPartiallyContainedInPK(System.Data.Metadata.Edm.AssociationType,System.String@)">
+    <parameter name="association">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState.AddEntity(System.Data.Entity.Design.EntityStoreSchemaGenerator.DbObjectKey,System.Data.Metadata.Edm.EntityType)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState.AddErrorsForType(System.Data.Metadata.Edm.EdmType,System.Collections.Generic.ICollection{System.Data.Metadata.Edm.EdmSchemaError})">
+    <parameter name="errors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState.AddErrorsForType(System.Data.Metadata.Edm.EdmType,System.Data.Metadata.Edm.EdmSchemaError[])">
+    <parameter name="errors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState.GetAllEntities">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState.GetEntitySet(System.Data.Metadata.Edm.RelationshipEndMember)">
+    <parameter name="end">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState.GetKey(System.Data.Metadata.Edm.EntityType)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.ThrowOnError(System.Collections.Generic.IList{System.Data.Metadata.Edm.EdmSchemaError})">
+    <parameter name="errors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.TryGetEndEntities(System.Data.Entity.Design.EntityStoreSchemaGenerator.LoadMethodSessionState,System.Data.Entity.Design.SsdlGenerator.RelationshipDetailsRow,System.Data.Metadata.Edm.EntityType@,System.Data.Metadata.Edm.EntityType@)">
+    <parameter name="session">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="row">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.WriteStoreSchema(System.String)">
+    <parameter name="outputFileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityStoreSchemaGenerator.WriteStoreSchema(System.Xml.XmlWriter)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.AppendStringToStringBuilder(System.CodeDom.CodeVariableReferenceExpression,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.CheckForCompatibleSchemaAndTarget(System.Data.Mapping.StorageMappingItemCollection,System.Version,System.String)">
+    <parameter name="mappingCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.CreateAndAddGetViewAtMethod(System.CodeDom.CodeTypeDeclaration,System.Collections.Generic.Dictionary{System.Data.Metadata.Edm.EntitySetBase,System.String})">
+    <parameter name="typeDeclaration">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="generatedViews">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.CreateConstructorForViewStoringType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.CreateSizedStringBuilder(System.CodeDom.CodeStatementCollection,System.Int32)">
+    <parameter name="statements">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.CreateTypeForStoringViews(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.CreateViewReturnMethod(System.String,System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="viewText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.GenerateAndStoreViews(System.Data.Mapping.StorageMappingItemCollection,System.Collections.Generic.Dictionary{System.Data.Metadata.Edm.EntitySetBase,System.String},System.IO.TextWriter,System.CodeDom.Compiler.CodeDomProvider,System.Collections.Generic.IList{System.Data.Metadata.Edm.EdmSchemaError})">
+    <parameter name="mappingCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="generatedViews">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sourceWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="provider">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="schemaErrors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.GenerateCode(System.IO.TextWriter,System.CodeDom.Compiler.CodeDomProvider,System.CodeDom.CodeCompileUnit)">
+    <parameter name="provider">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="compileUnit">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.GenerateDictionaryForEntitySetNameAndView(System.Collections.Generic.Dictionary{System.Data.Metadata.Edm.EntitySetBase,System.String})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.GenerateViews(System.Data.Mapping.StorageMappingItemCollection,System.IO.TextWriter)">
+    <parameter name="mappingCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.GenerateViews(System.Data.Mapping.StorageMappingItemCollection,System.IO.TextWriter,System.Version)">
+    <parameter name="mappingCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetEntityFrameworkVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.GenerateViews(System.Data.Mapping.StorageMappingItemCollection,System.String)">
+    <parameter name="mappingCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.GetAppendViewStringsExpressions(System.String)">
+    <parameter name="viewString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.GetExtentFullName(System.Data.Metadata.Edm.EntitySetBase)">
+    <parameter name="entitySet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.GetViews(System.Data.Mapping.StorageMappingItemCollection,System.Collections.Generic.IList{System.Data.Metadata.Edm.EdmSchemaError}@,System.Collections.Generic.Dictionary{System.Data.Metadata.Edm.EntitySetBase,System.String}@)">
+    <parameter name="mappingCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.GetViewsAndCodeDomProvider(System.Data.Mapping.StorageMappingItemCollection,System.CodeDom.Compiler.CodeDomProvider@,System.Collections.Generic.IList{System.Data.Metadata.Edm.EdmSchemaError}@,System.Collections.Generic.Dictionary{System.Data.Metadata.Edm.EntitySetBase,System.String}@)">
+    <parameter name="mappingCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.GetViewStringBuilderVariable">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.GetViewsWithErrors(System.Data.Mapping.StorageMappingItemCollection,System.CodeDom.Compiler.CodeDomProvider@,System.Collections.Generic.IList{System.Data.Metadata.Edm.EdmSchemaError}@,System.Collections.Generic.Dictionary{System.Data.Metadata.Edm.EntitySetBase,System.String}@)">
+    <parameter name="mappingCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.HasQueryView(System.Data.Mapping.StorageEntityContainerMapping)">
+    <parameter name="storageEntityContainerMapping">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.InternalGenerateViews(System.Data.Mapping.StorageMappingItemCollection,System.Func{System.IO.TextWriter},System.IO.TextWriter@)">
+    <parameter name="mappingCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="GetWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.Validate(System.Data.Mapping.StorageMappingItemCollection)">
+    <parameter name="mappingCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.EntityViewGenerator.Validate(System.Data.Mapping.StorageMappingItemCollection,System.Version)">
+    <parameter name="mappingCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetEntityFrameworkVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Error.ArgumentNull(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Error.ArgumentOutOfRange(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Error.NotImplemented">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Error.NotSupported">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.LazyTextWriterCreator.GetOrCreateTextWriter">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.MetadataItemCollectionFactory.CheckActualVersionAgainstTarget(System.Version,System.Version,System.Collections.Generic.IList{System.Data.Metadata.Edm.EdmSchemaError})">
+    <parameter name="errors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.MetadataItemCollectionFactory.CreateEdmItemCollection(System.Collections.Generic.IEnumerable{},System.Collections.Generic.IList{System.Data.Metadata.Edm.EdmSchemaError}@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.MetadataItemCollectionFactory.CreateEdmItemCollection(System.Collections.Generic.IEnumerable{},System.Version,System.Collections.Generic.IList{System.Data.Metadata.Edm.EdmSchemaError}@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="targetEntityFrameworkVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.MetadataItemCollectionFactory.CreateStorageMappingItemCollection(System.Data.Metadata.Edm.EdmItemCollection,System.Data.Metadata.Edm.StoreItemCollection,System.Collections.Generic.IEnumerable{},System.Collections.Generic.IList{System.Data.Metadata.Edm.EdmSchemaError}@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="storeCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="edmCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.MetadataItemCollectionFactory.CreateStorageMappingItemCollection(System.Data.Metadata.Edm.EdmItemCollection,System.Data.Metadata.Edm.StoreItemCollection,System.Collections.Generic.IEnumerable{},System.Version,System.Collections.Generic.IList{System.Data.Metadata.Edm.EdmSchemaError}@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="edmCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="storeCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="readers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetEntityFrameworkVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.MetadataItemCollectionFactory.CreateStoreItemCollection(System.Collections.Generic.IEnumerable{},System.Collections.Generic.IList{System.Data.Metadata.Edm.EdmSchemaError}@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.MetadataItemCollectionFactory.CreateStoreItemCollection(System.Collections.Generic.IEnumerable{},System.Version,System.Collections.Generic.IList{System.Data.Metadata.Edm.EdmSchemaError}@)">
+    <parameter name="targetEntityFrameworkVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.BidirectionalDictionary`2.#ctor(System.Collections.Generic.Dictionary{`0,`1})">
+    <parameter name="firstToSecondDictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.BidirectionalDictionary`2.AddValue(`0,`1)">
+    <parameter name="secondValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="firstValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.BidirectionalDictionary`2.ExistsInFirst(`0)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.BidirectionalDictionary`2.ExistsInSecond(`1)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.BidirectionalDictionary`2.GetFirstValue(`1)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.BidirectionalDictionary`2.GetSecondValue(`0)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.EnglishPluralizationService.AddWord(System.String,System.String)">
+    <parameter name="plural">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="singular">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.EnglishPluralizationService.Capitalize(System.String,System.Func{System.String,System.String})">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.EnglishPluralizationService.GetSuffixWord(System.String,System.String@)">
+    <parameter name="word">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.EnglishPluralizationService.InternalPluralize(System.String)">
+    <parameter name="word">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.EnglishPluralizationService.InternalSingularize(System.String)">
+    <parameter name="word">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.EnglishPluralizationService.IsAlphabets(System.String)">
+    <parameter name="word">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.EnglishPluralizationService.IsNoOpWord(System.String)">
+    <parameter name="word">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.EnglishPluralizationService.IsUninflective(System.String)">
+    <parameter name="word">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.PluralizationService.CreateService(System.Globalization.CultureInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="culture">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.PluralizationService.IsPlural(System.String)">
+    <parameter name="word">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.PluralizationService.IsSingular(System.String)">
+    <parameter name="word">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.PluralizationService.Pluralize(System.String)">
+    <parameter name="word">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.PluralizationService.Singularize(System.String)">
+    <parameter name="word">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.PluralizationServiceUtil.DoesWordContainSuffix(System.String,System.Collections.Generic.IEnumerable{System.String},System.Globalization.CultureInfo)">
+    <parameter name="word">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suffixes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.PluralizationServiceUtil.TryGetMatchedSuffixForWord(System.String,System.Collections.Generic.IEnumerable{System.String},System.Globalization.CultureInfo,System.String@)">
+    <parameter name="word">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suffixes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.PluralizationServiceUtil.TryInflectOnSuffixInWord(System.String,System.Collections.Generic.IEnumerable{System.String},System.Func{System.String,System.String},System.Globalization.CultureInfo,System.String@)">
+    <parameter name="word">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="suffixes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="operationOnWord">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.PluralizationServices.StringBidirectionalDictionary.#ctor(System.Collections.Generic.Dictionary{System.String,System.String})">
+    <parameter name="firstToSecondDictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.EntityStoreSchemaGeneratorDatabaseSchemaLoader.#ctor(System.String,System.String)">
+    <parameter name="providerInvariantName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="connectionString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.EntityStoreSchemaGeneratorDatabaseSchemaLoader.AddComparison(System.Data.EntityClient.EntityCommand,System.Text.StringBuilder,System.String,System.String,System.String)">
+    <parameter name="command">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="segment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.EntityStoreSchemaGeneratorDatabaseSchemaLoader.AddFilterEntry(System.Data.EntityClient.EntityCommand,System.Text.StringBuilder,System.String,System.Data.Entity.Design.EntityStoreSchemaFilterEntry)">
+    <parameter name="command">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="segment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="entry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.EntityStoreSchemaGeneratorDatabaseSchemaLoader.CreateFilteredCommand(System.Data.EntityClient.EntityConnection,System.String,System.String,System.Data.Entity.Design.EntityStoreSchemaFilterObjectTypes,System.Collections.Generic.List{System.Data.Entity.Design.EntityStoreSchemaFilterEntry},System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="connection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="filters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="filterAliases">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.EntityStoreSchemaGeneratorDatabaseSchemaLoader.LoadDataTable(System.String,System.String,System.Data.DataTable,System.Data.Entity.Design.EntityStoreSchemaFilterObjectTypes,System.Collections.Generic.IEnumerable{System.Data.Entity.Design.EntityStoreSchemaFilterEntry},System.String[])">
+    <parameter name="filterAliases">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="table">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="filters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.EntityStoreSchemaGeneratorDatabaseSchemaLoader.LoadRelationships(System.Collections.Generic.IEnumerable{System.Data.Entity.Design.EntityStoreSchemaFilterEntry})">
+    <parameter name="filters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.EntityStoreSchemaGeneratorDatabaseSchemaLoader.LoadStoredProcedureDetails(System.Collections.Generic.IEnumerable{System.Data.Entity.Design.EntityStoreSchemaFilterEntry})">
+    <parameter name="filters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.EntityStoreSchemaGeneratorDatabaseSchemaLoader.LoadTableDetails(System.Collections.Generic.IEnumerable{System.Data.Entity.Design.EntityStoreSchemaFilterEntry})">
+    <parameter name="filters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.EntityStoreSchemaGeneratorDatabaseSchemaLoader.LoadViewDetails(System.Collections.Generic.IEnumerable{System.Data.Entity.Design.EntityStoreSchemaFilterEntry})">
+    <parameter name="filters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.FunctionDetailsReader.#ctor(System.Data.Entity.Design.SsdlGenerator.FunctionDetailsReader.Memento)">
+    <parameter name="memento">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.FunctionDetailsReader.#ctor(System.Data.EntityClient.EntityConnection,System.Collections.Generic.IEnumerable{System.Data.Entity.Design.EntityStoreSchemaFilterEntry})">
+    <parameter name="connection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="filters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.FunctionDetailsReader.Attach(System.Data.Entity.Design.SsdlGenerator.FunctionDetailsReader.Memento)">
+    <parameter name="memento">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.FunctionDetailsReader.CreateMemento">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.FunctionDetailsReader.Memento.CreateReader">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.RelationshipDetailsCollection.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.RelationshipDetailsCollection.CreateInstance">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.RelationshipDetailsCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.RelationshipDetailsRow.#ctor(System.Data.DataRowBuilder)">
+    <parameter name="rb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.TableDetailsCollection.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.TableDetailsCollection.CreateInstance">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.TableDetailsCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.SsdlGenerator.TableDetailsRow.#ctor(System.Data.DataRowBuilder)">
+    <parameter name="rb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.AssociationMissingKeyColumn(System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.CannotChangePropertyReturnType(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.CannotChangePropertyReturnTypeToNull(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.CannotCreateEntityWithNoPrimaryKeyDefined(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.CodeGenSourceFilePathIsNotAFile">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.ColumnFacetValueOutOfRange(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.ConstructorComments">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.CtorSummaryComment(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.DbProviderServicesInformationLocationPath(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.DuplicateClassName(System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.DuplicateEntityContainerName(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.DuplicateEntryInUserDictionary(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.EmptyCtorSummaryComment(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.EntityClient_DoesNotImplementIServiceProvider(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.EntityClient_InvalidStoreProvider(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.EntityClient_ReturnedNullOnProviderMethod(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.EntityModelGeneratorSchemaNotLoaded">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.EntitySetExistsWithDifferentCase(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.EntityStoreGeneratorSchemaNotLoaded">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.EntityTypeAndSetAccessibilityConflict(System.Object,System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.ExcludedColumnWasAKeyColumnEntityIsInvalid(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.ExcludedColumnWasAKeyColumnEntityIsReadOnly(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.FactoryMethodSummaryComment(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.FactoryParamCommentGeneral(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.GeneratedFactoryMethodNameConflict(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.GeneratedNavigationPropertyNameConflict(System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.GeneratedPropertyAccessibilityConflict(System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.GetViewAtMethodComments">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.IndividualViewComments(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.InvalidAttributeSuppliedForProperty(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.InvalidAttributeSuppliedForType(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.InvalidEntityContainerNameArgument(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.InvalidGetStatementSuppliedForProperty(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.InvalidInterfaceSuppliedForType(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.InvalidMemberSuppliedForType(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.InvalidNamespaceNameArgument(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.InvalidNonStoreEntityContainer(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.InvalidSetStatementSuppliedForProperty(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.InvalidStringArgument(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.InvalidTypeForPrimaryKey(System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.ItemExistsWithDifferentCase(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.MetadataItemErrorsFoundDuringGeneration">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.MissingComplexTypeDocumentation(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.MissingDocumentation(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.MissingDocumentationNoName">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.MissingPropertyDocumentation(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.ModelGeneration_UnGeneratableType(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.NamespaceComments(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.NoPrimaryKeyDefined(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.NullAdditionalSchema(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.ParameterDirectionNotValid(System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.PropertyExistsWithDifferentCase(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.ProviderFactoryReturnedNullFactory(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.ProviderSchemaErrors">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.ReservedNamespace(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.Serialization_UnknownGlobalItem(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.SharedForeignKey(System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.StonglyTypedAccessToNullValue(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.TableReferencedByAssociationWasNotFound(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.TargetEntityFrameworkVersionToNewForEntityClassGenerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.TargetVersionEdmOrMslSchemaVersionMismatch(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.TargetVersionSchemaVersionMismatch(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.Template_CaseInsensitiveEntitySetConflict(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.Template_CaseInsensitiveMemberConflict(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.Template_CaseInsensitiveTypeConflict(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.Template_CommentFactoryMethodParam(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_CommentNoDocumentation">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.Template_ConflictingGeneratedNavPropName(System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.Template_ContextCommonCtorComment(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.Template_ContextDefaultCtorComment(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.Template_DuplicateTopLevelType(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.Template_FactoryMethodComment(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.Template_FactoryMethodNameConflict(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.Template_GenCommentAddToMethodCs(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.Template_GenCommentAddToMethodVb(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_GeneratedCodeCommentLine1">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_GeneratedCodeCommentLine2">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_GeneratedCodeCommentLine3">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_RegionAddToMethods">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_RegionComplexProperties">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_RegionComplexTypes">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_RegionConstructors">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_RegionContexts">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_RegionEntities">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_RegionFactoryMethod">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_RegionFunctionImports">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_RegionNavigationProperties">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_RegionObjectSetProperties">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_RegionPartialMethods">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_RegionPrimitiveProperties">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_RegionRelationships">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.Template_ReplaceVsItemTemplateToken">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.TypeComments">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.Entity.Design.Strings.UnableToGenerateForeignKeyPropertiesForV1">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.UnsupportedDataType(System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.UnsupportedDataTypeUnknownType(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.UnsupportedDbRelationship(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.UnsupportedForeignKeyPattern(System.Object,System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.UnsupportedFunctionParameterDataType(System.Object,System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.UnsupportedFunctionReturnDataType(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.Entity.Design.Strings.UnsupportedQueryViewInEntityContainerMapping(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.AddError(System.Data.Entity.Design.SsdlGenerator.ModelBuilderErrorCode,System.Data.Metadata.Edm.EdmSchemaErrorSeverity,System.Exception)">
+    <parameter name="ex">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.AddError(System.Data.Entity.Design.SsdlGenerator.ModelBuilderErrorCode,System.Data.Metadata.Edm.EdmSchemaErrorSeverity,System.Exception,System.String)">
+    <parameter name="ex">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.AddError(System.String,System.Data.Entity.Design.SsdlGenerator.ModelBuilderErrorCode,System.Data.Metadata.Edm.EdmSchemaErrorSeverity)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.AddError(System.String,System.Data.Entity.Design.SsdlGenerator.ModelBuilderErrorCode,System.Data.Metadata.Edm.EdmSchemaErrorSeverity,System.Exception)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.AddError(System.String,System.Data.Entity.Design.SsdlGenerator.ModelBuilderErrorCode,System.Data.Metadata.Edm.EdmSchemaErrorSeverity,System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.AddError(System.String,System.Data.Entity.Design.SsdlGenerator.ModelBuilderErrorCode,System.Data.Metadata.Edm.EdmSchemaErrorSeverity,System.String,System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Data.EntityModel.ClientApiGenerator.CompileUnit">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.EntityModel.ClientApiGenerator.FixUps">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.GenerateCode(System.Data.Entity.Design.LazyTextWriterCreator,System.String)">
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.GetDirectSubTypes(System.Data.Metadata.Edm.EdmType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.GetElementLocationInfo(System.Data.EntityModel.SchemaObjectModel.Schema,System.String,System.Int32@,System.Int32@)">
+    <parameter name="schema">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.GetElementLocationInfo(System.Data.EntityModel.SchemaObjectModel.Schema,System.String,System.String,System.Int32@,System.Int32@)">
+    <parameter name="schema">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.GetFullyQualifiedTypeReference(System.Data.Metadata.Edm.EdmType)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.GetFullyQualifiedTypeReference(System.Data.Metadata.Edm.EdmType,System.Boolean)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.GetLeastPossibleQualifiedTypeReference(System.Data.Metadata.Edm.EdmType)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.GetObjectNamespace(System.String)">
+    <parameter name="csdlNamespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.GetSchemaElement(System.Data.EntityModel.SchemaObjectModel.Schema,System.String)">
+    <parameter name="schema">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.VerifyLanguageCaseSensitiveCompatibilityForEntitySet(System.Data.Metadata.Edm.EntityContainer)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.VerifyLanguageCaseSensitiveCompatibilityForProperty(System.Data.Metadata.Edm.EdmMember)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.ClientApiGenerator.VerifyLanguageCaseSensitiveCompatibilityForType(System.Data.Metadata.Edm.GlobalItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AssociationTypeEmitter.GetEndTypeCodeExpression(System.Data.Metadata.Edm.AssociationEndMember)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="end">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AssociationTypeEmitter.GetMultiplicityCodeExpression(System.Data.Metadata.Edm.RelationshipMultiplicity)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.EntityModel.Emitters.AssociationTypeEmitter.Item">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AttributeEmitter.AddAttributeArguments(System.CodeDom.CodeAttributeDeclaration,System.Object[])">
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AttributeEmitter.AddBrowsableAttribute(System.CodeDom.CodeMemberProperty)">
+    <parameter name="propertyDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AttributeEmitter.AddDataMemberAttribute(System.CodeDom.CodeMemberProperty)">
+    <parameter name="propertyDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AttributeEmitter.AddIgnoreAttributes(System.CodeDom.CodeMemberProperty)">
+    <parameter name="propertyDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AttributeEmitter.AddNamedAttributeArguments(System.CodeDom.CodeAttributeDeclaration,System.Object[])">
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AttributeEmitter.EmitGeneratedCodeAttribute(System.CodeDom.CodeTypeMember)">
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AttributeEmitter.EmitKnownTypeAttributes(System.Data.Metadata.Edm.EdmType,System.Data.EntityModel.ClientApiGenerator,System.CodeDom.CodeTypeDeclaration)">
+    <parameter name="generator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AttributeEmitter.EmitNavigationPropertyAttributes(System.Data.EntityModel.ClientApiGenerator,System.Data.Metadata.Edm.RelationshipEndMember,System.CodeDom.CodeMemberProperty,System.Collections.Generic.List{System.CodeDom.CodeAttributeDeclaration})">
+    <parameter name="generator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="targetRelationshipEnd">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AttributeEmitter.EmitPropertyAttributes(System.Data.EntityModel.Emitters.PropertyEmitter,System.CodeDom.CodeMemberProperty,System.Collections.Generic.List{System.CodeDom.CodeAttributeDeclaration})">
+    <parameter name="emitter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AttributeEmitter.EmitSchemaTypeAttribute(System.String,System.Data.EntityModel.Emitters.SchemaTypeEmitter,System.CodeDom.CodeTypeDeclaration)">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="emitter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AttributeEmitter.EmitSchemaTypeAttribute(System.String,System.Data.Metadata.Edm.EdmType,System.CodeDom.CodeTypeMember)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AttributeEmitter.EmitSimpleAttribute(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AttributeEmitter.EmitTypeAttributes(System.Data.EntityModel.Emitters.ComplexTypeEmitter,System.CodeDom.CodeTypeDeclaration)">
+    <parameter name="emitter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.AttributeEmitter.EmitTypeAttributes(System.Data.EntityModel.Emitters.EntityTypeEmitter,System.CodeDom.CodeTypeDeclaration)">
+    <parameter name="emitter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.CommentEmitter.EmitComments(System.String[],System.CodeDom.CodeCommentStatementCollection,System.Boolean)">
+    <parameter name="commentLines">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="commentCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.CommentEmitter.EmitOtherDocumentationComments(System.Data.Metadata.Edm.Documentation,System.CodeDom.CodeCommentStatementCollection)">
+    <parameter name="commentCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.CommentEmitter.EmitParamComments(System.CodeDom.CodeParameterDeclarationExpression,System.String,System.CodeDom.CodeCommentStatementCollection)">
+    <parameter name="parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="commentCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.CommentEmitter.EmitSummaryComments(System.Data.Metadata.Edm.MetadataItem,System.CodeDom.CodeCommentStatementCollection)">
+    <parameter name="commentCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.CommentEmitter.EmitSummaryComments(System.String,System.CodeDom.CodeCommentStatementCollection)">
+    <parameter name="commentCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.CommentEmitter.EmitSummaryComments(System.String[],System.CodeDom.CodeCommentStatementCollection)">
+    <parameter name="commentCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="summaryComments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.CommentEmitter.EmitXmlComments(System.String,System.String[],System.CodeDom.CodeCommentStatementCollection)">
+    <parameter name="summaryComments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="commentCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.CommentEmitter.GetDocumentation(System.Data.Metadata.Edm.MetadataItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.CommentEmitter.GetFormattedLines(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.CommentEmitter.SplitIntoLines(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.EntityModel.Emitters.ComplexTypeEmitter.Item">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.Emitter.EmitEnumMemberExpression(System.CodeDom.CodeTypeReference,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.Emitter.EmitExpressionDoesNotEqualNull(System.CodeDom.CodeExpression)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.Emitter.EmitExpressionEqualsNull(System.CodeDom.CodeExpression)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.EntityContainerEmitter.CreateConstructors(System.CodeDom.CodeTypeDeclaration)">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.EntityContainerEmitter.CreateContextPartialMethods(System.CodeDom.CodeTypeDeclaration)">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.EntityContainerEmitter.CreateEntitySetAddObjectProperty(System.Data.Metadata.Edm.EntitySet)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="set">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.EntityContainerEmitter.CreateEntitySetField(System.Data.Metadata.Edm.EntitySet)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="set">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.EntityContainerEmitter.CreateEntitySetProperty(System.Data.Metadata.Edm.EntitySet)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="set">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.EntityContainerEmitter.CreateFunctionArgument(System.CodeDom.CodeMemberMethod,System.Data.Entity.Design.Common.UniqueIdentifierService,System.Data.Metadata.Edm.FunctionParameter)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="uniqueIdentifierService">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.EntityContainerEmitter.CreateFunctionImportStructuralTypeReaderMethod(System.Data.Metadata.Edm.EdmFunction)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="functionImport">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.EntityContainerEmitter.CreateFunctionParameter(System.CodeDom.CodeMemberMethod,System.Data.Entity.Design.Common.UniqueIdentifierService,System.Data.Metadata.Edm.FunctionParameter)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="uniqueIdentifierService">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.EntityContainerEmitter.DetermineParameterType(System.Data.Metadata.Edm.FunctionParameter)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.EntityContainerEmitter.GetReturnTypeFromFunctionImport(System.Data.Metadata.Edm.EdmFunction)">
+    <parameter name="functionImport">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Data.EntityModel.Emitters.EntityContainerEmitter.Item">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.EntityContainerEmitter.OnContextCreatedCodeMethodInvokeExpression">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.EntityContainerEmitter.ShouldEmitFunctionImport(System.Data.Metadata.Edm.EdmFunction)">
+    <parameter name="functionImport">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Data.EntityModel.Emitters.EntityTypeEmitter.Item">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.#ctor(System.String,System.Data.EntityModel.Emitters.FixUpType)">
+    <parameter name="fqName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.CSMarkClassAsStatic(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.CSMarkMethodAsPartial(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.CSMarkOverrideMethodAsSealed(System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.CSMarkPropertyGetAsInternal(System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.CSMarkPropertyGetAsPrivate(System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.CSMarkPropertyGetAsProtected(System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.CSMarkPropertyGetAsPublic(System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.CSMarkPropertySetAsInternal(System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.CSMarkPropertySetAsPrivate(System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.CSMarkPropertySetAsProtected(System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.CSMarkPropertySetAsPublic(System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.IndexOfKeyword(System.String,System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyword">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.InsertBefore(System.String,System.String,System.String)">
+    <parameter name="searchText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="insertText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.ReplaceFirst(System.String,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="str1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="str2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.VBMarkMethodAsPartial(System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.VBMarkOverrideMethodAsSealed(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.VBMarkPropertyGetAsInternal(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.VBMarkPropertyGetAsPrivate(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.VBMarkPropertyGetAsProtected(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.VBMarkPropertyGetAsPublic(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.VBMarkPropertySetAsInternal(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.VBMarkPropertySetAsPrivate(System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.VBMarkPropertySetAsProtected(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUp.VBMarkPropertySetAsPublic(System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Data.EntityModel.Emitters.FixUpCollection.ClassFixUps">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.CopyFile(System.IO.TextReader,System.IO.TextWriter)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.Do(System.IO.TextReader,System.IO.TextWriter,System.Data.Entity.Design.LanguageOption,System.Boolean)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.DoFixUpsForCS(System.IO.TextReader,System.IO.TextWriter,System.Boolean)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.DoFixUpsForVB(System.IO.TextReader,System.IO.TextWriter)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.FixUpClassDecl(System.String,System.String)">
+    <parameter name="className">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.FixUpGetter(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="className">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.FixUpMethodDecl(System.String,System.String,System.String)">
+    <parameter name="className">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.FixUpSetter(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="className">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.GetCSDeclType(System.String,System.String@)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.GetVBStatementType(System.Collections.Generic.Stack{System.Data.EntityModel.Emitters.FixUpCollection.VBStatementType},System.String,System.String@)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.IndexOfKeyword(System.String,System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyword">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.IsClassWanted(System.String)">
+    <parameter name="className">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.IsCSClassDefinition(System.String,System.String@)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.LineIsVBBeginClassMethodProperty(System.String,System.String,System.String@)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyword">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.LineIsVBBeginSetterGetter(System.String,System.String)">
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="keyword">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.FixUpCollection.NormalizeForVB(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="line">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.MetadataItemEmitter.AccessibilityFromGettersAndSetters(System.Data.Metadata.Edm.EdmMember)">
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.MetadataItemEmitter.GetAccessibilityCsdlStringFromMemberAttribute(System.CodeDom.MemberAttributes)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.MetadataItemEmitter.GetAccessibilityValue(System.Data.Metadata.Edm.MetadataItem,System.String)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.MetadataItemEmitter.GetEntitySetPropertyAccessibility(System.Data.Metadata.Edm.EntitySet)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.MetadataItemEmitter.GetEntityTypeAccessibility(System.Data.Metadata.Edm.EntityType)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.MetadataItemEmitter.GetFunctionImportAccessibility(System.Data.Metadata.Edm.EdmFunction)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.MetadataItemEmitter.GetGetterAccessibility(System.Data.Metadata.Edm.EdmMember)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.MetadataItemEmitter.GetSetterAccessibility(System.Data.Metadata.Edm.EdmMember)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.MetadataItemEmitter.GetTypeAccessibilityValue(System.Data.Metadata.Edm.MetadataItem)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.NamespaceEmitter.AddElementNameToCache(System.Data.Metadata.Edm.GlobalItem,System.Collections.Generic.Dictionary{System.String,System.String})">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="cache">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Data.EntityModel.Emitters.NamespaceEmitter.CompileUnit">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.NamespaceEmitter.CreateElementEmitter(System.Data.Metadata.Edm.GlobalItem)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.NamespaceEmitter.TryAddNameToCache(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="cache">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.NavigationPropertyEmitter.EmitGetMethod(System.Data.Metadata.Edm.RelationshipEndMember)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.NavigationPropertyEmitter.EmitNavigationProperty(System.CodeDom.CodeTypeDeclaration)">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.NavigationPropertyEmitter.EmitNavigationProperty(System.Data.Metadata.Edm.RelationshipEndMember,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.NavigationPropertyEmitter.GetEntityType(System.Data.Metadata.Edm.RelationshipEndMember)">
+    <parameter name="endMember">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.NavigationPropertyEmitter.GetReturnType(System.Data.Metadata.Edm.RelationshipEndMember,System.Boolean)">
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.NavigationPropertyEmitter.IsNameAlreadyAMemberName(System.Data.Metadata.Edm.StructuralType,System.String,System.StringComparison)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Data.EntityModel.Emitters.NavigationPropertyEmitter.Item">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.AddGetterSetterFixUp(System.Data.EntityModel.Emitters.FixUpCollection,System.String,System.CodeDom.MemberAttributes,System.CodeDom.MemberAttributes,System.Boolean)">
+    <parameter name="propertyFqName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fixups">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Data.EntityModel.Emitters.PropertyEmitter.ComplexPropertyInitializedFieldRef">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.CreateEdmStructuralObjectRef(System.Data.EntityModel.Emitters.TypeReference)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="typeReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.DisallowReturnTypeChange(System.CodeDom.CodeTypeReference,System.CodeDom.CodeTypeReference)">
+    <parameter name="newType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.EmitComplexTypePropertySetStatements(System.CodeDom.CodeStatementCollection,System.Data.Metadata.Edm.CollectionKind)">
+    <parameter name="statements">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.EmitCustomAttributes(System.CodeDom.CodeMemberProperty,System.Collections.Generic.List{System.CodeDom.CodeAttributeDeclaration})">
+    <parameter name="memberProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.EmitField(System.CodeDom.CodeTypeDeclaration,System.CodeDom.CodeTypeReference)">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.EmitPropertyDeclaration(System.CodeDom.CodeTypeReference)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.EmitPropertyDeclaration(System.CodeDom.MemberAttributes,System.CodeDom.CodeTypeReference,System.Boolean,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.EmitPropertyGetter(System.CodeDom.CodeMemberProperty,System.Collections.Generic.List{System.CodeDom.CodeStatement})">
+    <parameter name="memberProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.EmitPropertyGetterBody(System.CodeDom.CodeStatementCollection)">
+    <parameter name="statements">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.EmitPropertyOnChangePartialMethods(System.CodeDom.CodeTypeDeclaration,System.CodeDom.CodeTypeReference)">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.EmitPropertySetter(System.CodeDom.CodeMemberProperty,System.Collections.Generic.List{System.CodeDom.CodeStatement})">
+    <parameter name="memberProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.EmitPropertySetterBody(System.CodeDom.CodeStatementCollection,System.Collections.Generic.List{System.CodeDom.CodeStatement})">
+    <parameter name="statements">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.EmitScalarTypePropertySetStatements(System.CodeDom.CodeStatementCollection,System.Data.Metadata.Edm.CollectionKind)">
+    <parameter name="statements">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Data.EntityModel.Emitters.PropertyEmitter.FieldRef">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.GetCodeExpressionFromBinary(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.GetCodeExpressionFromDateTimeDefaultValue(System.Object,System.Data.Metadata.Edm.EdmProperty)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.GetCodeExpressionFromGuid(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.GetCollectionKind(System.Data.Metadata.Edm.TypeUsage)">
+    <parameter name="usage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.GetDefaultValueExpression(System.Data.Metadata.Edm.EdmProperty)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.GetEnumValue``1(``0)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.GetType(System.Data.Metadata.Edm.EdmProperty,System.Boolean)">
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.HasDefault(System.Data.Metadata.Edm.EdmProperty)">
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Data.EntityModel.Emitters.PropertyEmitter.Item">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.PropertyTypeReferences.#ctor(System.Data.EntityModel.Emitters.TypeReference,System.Data.Metadata.Edm.ComplexType,System.Data.EntityModel.ClientApiGenerator)">
+    <parameter name="complexType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="generator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typeReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.PropertyTypeReferences.#ctor(System.Data.EntityModel.Emitters.TypeReference,System.Data.Metadata.Edm.ComplexType,System.Data.Metadata.Edm.CollectionKind,System.Data.EntityModel.ClientApiGenerator)">
+    <parameter name="complexType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="generator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typeReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.PropertyTypeReferences.#ctor(System.Data.EntityModel.Emitters.TypeReference,System.Data.Metadata.Edm.PrimitiveType)">
+    <parameter name="primitiveType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typeReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.PropertyTypeReferences.#ctor(System.Data.EntityModel.Emitters.TypeReference,System.Data.Metadata.Edm.PrimitiveType,System.Data.Metadata.Edm.CollectionKind)">
+    <parameter name="typeReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="primitiveType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.PropertyTypeReferences.GetCollectionTypeReference(System.Data.EntityModel.Emitters.TypeReference,System.CodeDom.CodeTypeReference,System.Data.Metadata.Edm.CollectionKind)">
+    <parameter name="typeReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="baseType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.PropertyTypeReferences.GetCollectionTypeReferenceForBagSemantics(System.Data.EntityModel.Emitters.TypeReference,System.CodeDom.CodeTypeReference)">
+    <parameter name="typeReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="baseType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitter.PropertyTypeReferences.GetCollectionTypeReferenceForListSemantics(System.Data.EntityModel.Emitters.TypeReference,System.CodeDom.CodeTypeReference)">
+    <parameter name="typeReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="baseType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitterBase.AncestorClassDefinesName(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitterBase.Emit(System.CodeDom.CodeTypeDeclaration)">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.PropertyEmitterBase.EmitProperty(System.CodeDom.CodeTypeDeclaration)">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Data.EntityModel.Emitters.PropertyEmitterBase.Item">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.SchemaTypeEmitter.AddInterfaces(System.String,System.CodeDom.CodeTypeDeclaration,System.Collections.Generic.List{System.Type})">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.SchemaTypeEmitter.AddMembers(System.String,System.CodeDom.CodeTypeDeclaration,System.Collections.Generic.List{System.CodeDom.CodeTypeMember})">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.SchemaTypeEmitter.EmitApiClass">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.SchemaTypeEmitter.EmitTypeAttributes(System.CodeDom.CodeTypeDeclaration)">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.SchemaTypeEmitter.EmitTypeAttributes(System.String,System.CodeDom.CodeTypeDeclaration,System.Collections.Generic.List{System.CodeDom.CodeAttributeDeclaration})">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Data.EntityModel.Emitters.SchemaTypeEmitter.Item">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.SchemaTypeEmitter.SetTypeVisibility(System.CodeDom.CodeTypeDeclaration)">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.StructuredTypeEmitter.AssignBaseType(System.CodeDom.CodeTypeDeclaration,System.CodeDom.CodeTypeReference,System.CodeDom.CodeTypeReference)">
+    <parameter name="baseType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.StructuredTypeEmitter.EmitFactoryMethod(System.CodeDom.CodeTypeDeclaration)">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.StructuredTypeEmitter.EmitProperties(System.CodeDom.CodeTypeDeclaration)">
+    <parameter name="typeDecl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.StructuredTypeEmitter.IncludeFieldInFactoryMethod(System.Data.Metadata.Edm.EdmProperty)">
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Data.EntityModel.Emitters.StructuredTypeEmitter.Item">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.TypeReference.ComputeForType(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.TypeReference.ComputeFromString(System.Collections.Generic.KeyValuePair{System.String,System.Boolean})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.TypeReference.ComputeFromStringGeneric(System.Collections.Generic.KeyValuePair{System.String,System.CodeDom.CodeTypeReference})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.TypeReference.ComputeNullableForType(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="innerType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.TypeReference.ForType(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.TypeReference.ForType(System.Type,System.CodeDom.CodeTypeReference)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="argument">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="generic">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.TypeReference.NullableForType(System.Type)">
+    <parameter name="innerType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.Utils.DoesTypeReserveMemberName(System.Data.Metadata.Edm.StructuralType,System.String,System.StringComparison)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.Utils.InitializeTypeReservedNames">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.Utils.ShouldReserveName(System.Reflection.EventInfo)">
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.Utils.ShouldReserveName(System.Reflection.FieldInfo)">
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.Utils.ShouldReserveName(System.Reflection.MethodBase)">
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.Utils.ShouldReserveName(System.Reflection.MethodBase,System.Boolean)">
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.Utils.ShouldReserveName(System.Reflection.PropertyInfo)">
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.Utils.SplitName(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Data.EntityModel.Emitters.Utils.TryGetPrimitiveTypeKind(System.Data.Metadata.Edm.EdmType,System.Data.Metadata.Edm.PrimitiveTypeKind@)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

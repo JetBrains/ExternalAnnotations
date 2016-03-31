@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Activities.DurableInstancing" version="4.0.0.0">
+  <member name="M:System.Activities.DurableInstancing.FxTrace.UpdateLevel(System.Runtime.Diagnostics.DiagnosticTrace)">
+    <parameter name="trace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Activities.DurableInstancing.LockRecoveryTask.#ctor(System.Activities.DurableInstancing.SqlWorkflowInstanceStore,System.Activities.DurableInstancing.SqlWorkflowInstanceStoreLock,System.TimeSpan)">
+    <parameter name="storeLock">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Activities.DurableInstancing.LockRenewalTask.#ctor(System.Activities.DurableInstancing.SqlWorkflowInstanceStore,System.Activities.DurableInstancing.SqlWorkflowInstanceStoreLock,System.TimeSpan)">
+    <parameter name="storeLock">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Activities.DurableInstancing.PersistenceTask.#ctor(System.Activities.DurableInstancing.SqlWorkflowInstanceStore,System.Activities.DurableInstancing.SqlWorkflowInstanceStoreLock,System.Runtime.DurableInstancing.InstancePersistenceCommand,System.TimeSpan,System.Boolean)">
+    <parameter name="storeLock">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Activities.DurableInstancing.SerializationUtilities.DeserializeObject(System.Byte[],System.Activities.DurableInstancing.InstanceEncodingOption)">
+    <parameter name="serializedObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Activities.DurableInstancing.SerializationUtilities.SerializeObject(System.Object,System.Activities.DurableInstancing.InstanceEncodingOption)">
+    <parameter name="objectToSerialize">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Activities.DurableInstancing.SqlWorkflowInstanceStore.BeginTryCommand(System.Runtime.DurableInstancing.InstancePersistenceContext,System.Runtime.DurableInstancing.InstancePersistenceCommand,System.TimeSpan,System.AsyncCallback,System.Object)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="command">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Activities.DurableInstancing.SqlWorkflowInstanceStore.EndTryCommand(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Activities.DurableInstancing.SqlWorkflowInstanceStore.OnFreeInstanceHandle(System.Runtime.DurableInstancing.InstanceHandle,System.Object)">
+    <parameter name="userContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Activities.DurableInstancing.SqlWorkflowInstanceStore.OnNewInstanceHandle(System.Runtime.DurableInstancing.InstanceHandle)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Activities.DurableInstancing.SqlWorkflowInstanceStore.Promote(System.String,System.Collections.Generic.IEnumerable{System.Xml.Linq.XName},System.Collections.Generic.IEnumerable{System.Xml.Linq.XName})">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Activities.DurableInstancing.SR.InvalidInstanceLocksRecoveryPeriod(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Activities.DurableInstancing.SR.InvalidWorkflowHostTypeValue(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>

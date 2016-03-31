@@ -1,0 +1,3218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Printing, Version=4.0.0.0">
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIDevice.#ctor(Microsoft.Internal.GDIExporter.PointI[],System.Byte[],System.Int32)">
+    <parameter name="pPoints">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="pTypes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIDevice.#ctor(Microsoft.Internal.GDIExporter.PointI[],System.Int32)">
+    <parameter name="pPoints">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIDevice.#ctor(Microsoft.Internal.GDIExporter.PointI[],System.Int32,System.Int32)">
+    <parameter name="pPoints">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIDevice.#ctor(Microsoft.Internal.GDIExporter.PointI[],System.Int32,System.UInt32[],System.Int32,System.Int32)">
+    <parameter name="pPoints">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="pPolyCounts">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIDevice.#ctor(Microsoft.Internal.GDIExporter.PointI[],System.UInt32[],System.Int32)">
+    <parameter name="pPoints">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="pPolyCounts">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIDevice.CheckFont(System.Windows.Media.GlyphTypeface,System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIDevice.ConvertBrush(System.Windows.Media.Brush)">
+    <parameter name="brush">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIDevice.ConvertPen(System.Windows.Media.Pen,System.Windows.Media.Brush,System.Windows.Media.Matrix,Microsoft.Internal.GDIExporter.CGDIPath,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="pen">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="pStrokeBrush">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="pPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIPath.#ctor(Microsoft.Internal.GDIExporter.CGDIDevice,Microsoft.Internal.GDIExporter.GdiSafeHandle)">
+    <parameter name="dc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIPath.#ctor(Microsoft.Internal.GDIExporter.CGDIDevice,System.Int32)">
+    <parameter name="dc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIPath.GetDeviceBounds(Microsoft.Internal.GDIExporter.PointI[],System.Int32)">
+    <parameter name="p">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIRenderTarget.#ctor(System.Windows.Media.Brush,System.Double@,System.Double@)">
+    <parameter name="pFillBrush">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIRenderTarget.#ctor(System.Windows.Media.GlyphRun,System.Windows.Media.Brush)">
+    <parameter name="pGlyphRun">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIRenderTarget.#ctor(System.Windows.Media.GlyphRun,System.Windows.Point,System.Windows.Point)">
+    <parameter name="pGlyphRun">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIRenderTarget.CreateDeviceContext(System.String,System.String,System.Byte[])">
+    <parameter name="printerName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIRenderTarget.CreateFontW(System.Windows.Media.GlyphRun,System.Double,System.Double)">
+    <parameter name="pGlyphRun">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIRenderTarget.DrawImage(System.Windows.Media.Imaging.BitmapSource,System.Byte[],System.Windows.Rect)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIRenderTarget.ExtEscGetName">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIRenderTarget.FontSimulatedStyleKey.Equals(System.Object)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIRenderTarget.GetFontFace(Microsoft.Internal.GDIExporter.GdiSafeHandle)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIRenderTarget.GetFontStyle(Microsoft.Internal.GDIExporter.GdiSafeHandle)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIRenderTarget.PushClip(System.Windows.Media.Geometry)">
+    <parameter name="clipGeometry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CGDIRenderTarget.StartDocument(System.String,System.String,System.String,System.Byte[])">
+    <parameter name="printerName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CPolyPolygon.DisJoint(Microsoft.Internal.GDIExporter.CPolyPolygon)">
+    <parameter name="poly2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CPolyPolygon.DisJoint(Microsoft.Internal.GDIExporter.CPolyPolygon[],System.Int32)">
+    <parameter name="pPolygons">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.CPolyPolygon.Divide(Microsoft.Internal.GDIExporter.CPolyPolygon[],System.Int32)">
+    <parameter name="pPolygons">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.FontInfo.#ctor(System.Uri)">
+    <parameter name="systemUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.FontInstallInfo.#ctor(System.Uri)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.FontStreamContext.#ctor(System.Uri,System.Int32)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.GeometryProxy.#ctor(System.Windows.Media.Geometry)">
+    <parameter name="geometry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.GeometryProxy.Attach(System.Windows.Media.Geometry)">
+    <parameter name="geometry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.PaletteSorter.ProcessScanline(System.Byte[],System.Int32,System.Int32,System.Int32)">
+    <parameter name="scan">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.StrokeGeometrySplitter.#ctor(System.Windows.Media.Matrix,,System.Windows.Media.Pen,System.Windows.Media.Brush)">
+    <parameter name="callback">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.StrokeGeometrySplitter.GetSubPoints(System.Collections.Generic.IList{System.Windows.Point},System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="points">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.StrokeGeometrySplitter.PolySegmentTo(System.Collections.Generic.IList{System.Windows.Point},System.Boolean,System.Boolean,Microsoft.Internal.GDIExporter.StrokeGeometrySplitter.PolySegmentType)">
+    <parameter name="points">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.TrueTypeFont.#ctor(System.Byte[],System.UInt32)">
+    <parameter name="fontdata">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.TrueTypeFont.AreCharsEqual(System.Char[],System.Char[],System.UInt32)">
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="b">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.TrueTypeFont.GenerateRandomName(System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.TrueTypeFont.ProcessNameTable(System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.TrueTypeFont.readString(System.UInt32,System.UInt32,System.Char[]@,System.Text.Encoding)">
+    <parameter name="encoding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.TrueTypeFont.ReplaceAll(System.UInt32,System.Char[],System.Char[])">
+    <parameter name="newFamilyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.TrueTypeFont.ReplaceFamilyName(System.UInt32,System.UInt32,System.Char[],System.Text.Encoding)">
+    <parameter name="newFamilyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="encoding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.TrueTypeFont.ReplaceFontName">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.TrueTypeFont.ReplaceFullFamilyName(System.UInt32,System.UInt32,System.Char[],System.Char[],System.Text.Encoding)">
+    <parameter name="familyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="newFamilyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="encoding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.TrueTypeFont.writeString(System.UInt32,System.UInt32,System.Char[],System.Text.Encoding)">
+    <parameter name="encoding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Internal.GDIExporter.TrueTypeFont.writeString(System.UInt32,System.UInt32,System.String,System.Text.Encoding)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="encoding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.DriverThunk.DriverThunkingProfile.GetCoverageList(MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelMask)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.DriverThunk.Win32DriverThunk.BeginCallWin32ApiToSetPrintInfoData(MS.Internal.PrintWin32Thunk.PrinterThunkHandler)">
+    <parameter name="printThunkHandler">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.DriverThunk.Win32DriverThunk.CallWin32ApiToGetPrintInfoData(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.Object)">
+    <parameter name="cookie">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.DriverThunk.Win32DriverThunk.EndCallWin32ApiToSetPrintInfoData(MS.Internal.PrintWin32Thunk.PrinterThunkHandler)">
+    <parameter name="printThunkHandler">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.DriverThunk.Win32DriverThunk.SetValueFromAttributeValue(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelCoverageList.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelCoverageList.GetInfoLevelThunk(System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelThunk.BeginCallWin32ApiToSetPrintInfoData(MS.Internal.PrintWin32Thunk.PrinterThunkHandler)">
+    <parameter name="printThunkHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelThunk.CallWin32ApiToGetPrintInfoData(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.Object)">
+    <parameter name="cookie">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="printThunkHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelThunk.EndCallWin32ApiToSetPrintInfoData(MS.Internal.PrintWin32Thunk.PrinterThunkHandler)">
+    <parameter name="printThunkHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelThunk.GetValueFromInfoData(System.String)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelThunk.GetValueFromInfoData(System.String,System.UInt32)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelThunk.SetValueFromAttributeValue(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.JobThunk.JobThunkingProfile.GetCoverageList(MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelMask)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.JobThunk.Win32JobThunk.BeginCallWin32ApiToSetPrintInfoData(MS.Internal.PrintWin32Thunk.PrinterThunkHandler)">
+    <parameter name="printThunkHandler">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.JobThunk.Win32JobThunk.CallWin32ApiToEnumeratePrintInfoData(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.UInt32,System.UInt32)">
+    <parameter name="printThunkHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.JobThunk.Win32JobThunk.EndCallWin32ApiToSetPrintInfoData(MS.Internal.PrintWin32Thunk.PrinterThunkHandler)">
+    <parameter name="printThunkHandler">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.JobThunk.Win32JobThunk.SetValueFromAttributeValue(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.PrintQueueThunk.PrinterThunkingProfile.GetCoverageList(MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelMask)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.PrintQueueThunk.Win32PrinterThunk.CallWin32ApiToGetPrintInfoData(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.Object)">
+    <parameter name="cookie">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.TypeToLevelMap.GetAttributeMapPerType(System.Type,MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.TypeToLevelMap.OperationType)">
+    <parameter name="printingType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.TypeToLevelMap.GetCoverageMaskForPropertiesFilter(System.Type,MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.TypeToLevelMap.OperationType,System.String[])">
+    <parameter name="printingType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.TypeToLevelMap.GetStaticAttributesMapPerTypeForEnumOperations(System.Type)">
+    <parameter name="printingType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.TypeToLevelMap.GetStaticAttributesMapPerTypeForGetOperations(System.Type)">
+    <parameter name="printingType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.TypeToLevelMap.GetStaticAttributesMapPerTypeForSetOperations(System.Type)">
+    <parameter name="printingType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.TypeToLevelMap.GetStaticReconcileMaskPerType(System.Type)">
+    <parameter name="printingType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.TypeToLevelMap.GetThunkProfileForPrintType(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.TypeToLevelMap.InvokeReconcileMaskPerType(System.Type,MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelMask)">
+    <parameter name="printingType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeValueInteropHandler.AllocateUnmanagedPrintPropertiesCollection(System.Printing.IndexedProperties.PrintPropertyDictionary)">
+    <parameter name="managedCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeValueInteropHandler.AssignUnmanagedPrintPropertyValue(PrintNamedProperty*,System.Printing.IndexedProperties.PrintProperty)">
+    <parameter name="managedAttributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeValueInteropHandler.BuildManagedPrintPropertiesCollection(System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeValueInteropHandler.CopyManagedPrintPropertiesCollection(System.IntPtr,System.Printing.PrintSystemObject)">
+    <parameter name="printSystemObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeValueInteropHandler.GetDateTime(PrintPropertyValue)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeValueInteropHandler.GetStream(PrintPropertyValue)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeValueInteropHandler.GetString(PrintPropertyValue)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.AttributeValueInteropHandler.GetValue(System.IntPtr,System.String,System.Type,System.Boolean@)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoOne.GetDatatype(_JOB_INFO_1W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoOne.GetDocumentName(_JOB_INFO_1W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoOne.GetPrinterName(_JOB_INFO_1W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoOne.GetServerName(_JOB_INFO_1W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoOne.GetStatusString(_JOB_INFO_1W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoOne.GetTimeSubmitted(_JOB_INFO_1W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoOne.GetUserNameW(_JOB_INFO_1W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoOne.GetValueFromName(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoOne.GetValueFromName(System.String,System.UInt32)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoOne.SetValueFromName(System.String,System.Object)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetDatatype(_JOB_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetDocumentName(_JOB_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetNotifyName(_JOB_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetPrinterName(_JOB_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetPrintProcessor(_JOB_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetPrintProcessorParameters(_JOB_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetQueueDriverName(_JOB_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetSecurityDescriptor(_JOB_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetServerName(_JOB_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetStatus(_JOB_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetStatusString(_JOB_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetTimeSubmitted(_JOB_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetUserNameW(_JOB_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetValueFromName(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.GetValueFromName(System.String,System.UInt32)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForJob.JobInfoTwo.SetValueFromName(System.String,System.Object)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoEight.GetValueFromName(System.String,System.UInt32)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoEight.SetValueFromName(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFiveGetter.GetPortName(_PRINTER_INFO_5W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFiveGetter.GetPrinterName(_PRINTER_INFO_5W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFiveGetter.GetValueFromName(System.String,System.UInt32)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFiveGetter.SetValueFromName(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFiveSetter.#ctor(MS.Internal.PrintWin32Thunk.PrinterThunkHandler)">
+    <parameter name="printThunkHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFiveSetter.GetValueFromName(System.String,System.UInt32)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFiveSetter.SetAttributes(System.IntPtr,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFiveSetter.SetDeviceNotSelectedTimeout(System.IntPtr,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFiveSetter.SetTransmissionRetryTimeout(System.IntPtr,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFiveSetter.SetValueFromName(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFourGetter.GetPrinterName(_PRINTER_INFO_4W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFourGetter.GetValueFromName(System.String)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFourGetter.GetValueFromName(System.String,System.UInt32)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFourGetter.SetValueFromName(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFourSetter.#ctor(MS.Internal.PrintWin32Thunk.PrinterThunkHandler)">
+    <parameter name="printerThunkHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFourSetter.GetValueFromName(System.String,System.UInt32)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFourSetter.SetAttributes(System.IntPtr,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoFourSetter.SetValueFromName(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoNine.GetValueFromName(System.String,System.UInt32)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoNine.SetValueFromName(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoOne.GetComment(_PRINTER_INFO_1W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoOne.GetDescription(_PRINTER_INFO_1W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoOne.GetValueFromName(System.String)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoOne.GetValueFromName(System.String,System.UInt32)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoOne.SetValueFromName(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoSeven.GetObjectGUID(_PRINTER_INFO_7W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoSeven.GetValueFromName(System.String)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoSeven.GetValueFromName(System.String,System.UInt32)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoSeven.SetValueFromName(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoSix.GetValueFromName(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoSix.GetValueFromName(System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoSix.SetValueFromName(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoThree.GetValueFromName(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoThree.GetValueFromName(System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoThree.SetValueFromName(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoGetter.GetComment(_PRINTER_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoGetter.GetDriverName(_PRINTER_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoGetter.GetLocation(_PRINTER_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoGetter.GetPortName(_PRINTER_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoGetter.GetPrinterName(_PRINTER_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoGetter.GetPrintProcessor(_PRINTER_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoGetter.GetPrintProcessorDatatype(_PRINTER_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoGetter.GetPrintProcessorParameters(_PRINTER_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoGetter.GetSecurityDescriptor(_PRINTER_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoGetter.GetSeparatorFile(_PRINTER_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoGetter.GetShareName(_PRINTER_INFO_2W*)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoGetter.GetValueFromName(System.String)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoGetter.GetValueFromName(System.String,System.UInt32)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoGetter.SetValueFromName(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoSetter.#ctor(MS.Internal.PrintWin32Thunk.PrinterThunkHandler)">
+    <parameter name="printerHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoSetter.GetValueFromName(System.String,System.UInt32)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoSetter.SetAttributes(System.IntPtr,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoSetter.SetDefaultPriority(System.IntPtr,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoSetter.SetPriority(System.IntPtr,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoSetter.SetStartTime(System.IntPtr,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoSetter.SetUntilTime(System.IntPtr,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoSetter.SetValueFromName(System.String,System.Object)">
+    <parameter name="valueName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.EnumDataThunkObject.BuildCoverageListAndEnumerateData(System.String,System.UInt32,MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelMask)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.EnumDataThunkObject.BuildJobCoverageListAndEnumerateData(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelMask,System.UInt32,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="printingHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.EnumDataThunkObject.GetPrintSystemValuesPerPrintJobs(System.Printing.PrintQueue,System.Collections.Generic.Queue{System.Printing.PrintSystemJobInfo},System.String[],System.UInt32,System.UInt32)">
+    <parameter name="printQueue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="printObjectsCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.EnumDataThunkObject.GetPrintSystemValuesPerPrintQueues(System.Printing.PrintServer,System.Printing.EnumeratedPrintQueueTypes[],System.Collections.Generic.Queue{System.Printing.PrintQueue},System.String[])">
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="flags">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="printObjectsCollection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.EnumDataThunkObject.MapEnumeratePrinterQueuesFlags(System.Printing.EnumeratedPrintQueueTypes[])">
+    <parameter name="enumerateFlags">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.GetDataThunkObject.#ctor(System.Type)">
+    <parameter name="printingType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.GetDataThunkObject.BuildCoverageListAndGetData(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelMask)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="printingHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.GetDataThunkObject.PopulateAttributesFromCoverageList(System.Printing.PrintSystemObject,System.String[],MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelCoverageList)">
+    <parameter name="printObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="coverageList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.GetDataThunkObject.PopulatePrintSystemObject(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.Printing.PrintSystemObject,System.String[])">
+    <parameter name="printingHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="printObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.DuplicateHandler">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.GetManagedDriverInfoObject(System.UInt32,MS.Internal.PrintWin32Thunk.SafeMemoryHandle,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.GetManagedJobInfoObject(System.UInt32,MS.Internal.PrintWin32Thunk.SafeMemoryHandle,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.GetManagedPrinterInfoObject(System.UInt32,MS.Internal.PrintWin32Thunk.SafeMemoryHandle,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="win32HeapBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkAddPrinter(System.String,MS.Internal.PrintWin32Thunk.DirectInteropForPrintQueue.PrinterInfoTwoSetter)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="printInfoTwoLeveThunk">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkAddPrinter(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="printerName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="driverName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="portName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="printProcessorName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkAddPrinterConnection(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkDeletePrinterConnection(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkEnumDrivers(System.UInt32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkEnumJobs(System.UInt32,System.UInt32,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkEnumPrinters(System.String,System.UInt32,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkGetDefaultPrinter">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkGetDriver(System.UInt32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkGetJob(System.UInt32,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkGetPrinter(System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkGetPrinterDataBoolean(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.String)">
+    <parameter name="printerHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkGetPrinterDataBooleanInternal(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkGetPrinterDataInt32(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.String)">
+    <parameter name="printerHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkGetPrinterDataInt32Internal(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkGetPrinterDataServerEventLogging(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.String)">
+    <parameter name="printerHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkGetPrinterDataServerEventLoggingInternal(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkGetPrinterDataString(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.String)">
+    <parameter name="printerHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkGetPrinterDataStringInternal(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkGetPrinterDataThreadPriority(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.String)">
+    <parameter name="printerHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkGetPrinterDataThreadPriorityInternal(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkSetDefaultPrinter(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkSetPrinter(System.UInt32,MS.Internal.PrintWin32Thunk.SafeMemoryHandle)">
+    <parameter name="win32PrinterInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkSetPrinterDataBoolean(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.String,System.Object)">
+    <parameter name="printerHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkSetPrinterDataBooleanInternal(System.String,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkSetPrinterDataInt32(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.String,System.Object)">
+    <parameter name="printerHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkSetPrinterDataInt32Internal(System.String,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkSetPrinterDataServerEventLogging(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.String,System.Object)">
+    <parameter name="printerHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkSetPrinterDataServerEventLoggingInternal(System.String,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkSetPrinterDataString(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.String,System.Object)">
+    <parameter name="printerHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkSetPrinterDataThreadPriority(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.String,System.Object)">
+    <parameter name="printerHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PrinterThunkHandler.ThunkSetPrinterDataThreadPriorityInternal(System.String,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.PropertyCollectionMemorySafeHandle.AllocPropertyCollectionMemorySafeHandle(System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.PrintWin32Thunk.SafeMemoryHandle.Null">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.SafeMemoryHandle.VerifyBufferArguments(System.String,System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.SafeMemoryHandle.Wrap(System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.SetDataThunkObject.BuildCoverageListToSetData(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelMask)">
+    <parameter name="printerThunkHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.SetDataThunkObject.CommitDataFromPrintSystemObject(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.Printing.PrintSystemObject,System.String[])">
+    <parameter name="printObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="printingHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.SetDataThunkObject.CreatePrintCommitAttributesException(System.Int32,System.Collections.ObjectModel.Collection{System.String},System.Collections.ObjectModel.Collection{System.String})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.SetDataThunkObject.SetAttributesFromCoverageList(System.Printing.PrintSystemObject,System.String[],MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelCoverageList)">
+    <parameter name="printObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="coverageList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.SetDataThunkObject.SetDataFromCoverageList(MS.Internal.PrintWin32Thunk.PrinterThunkHandler,System.String[],MS.Internal.PrintWin32Thunk.AttributeNameToInfoLevelMapping.InfoLevelCoverageList,System.Type)">
+    <parameter name="printingHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="coverageList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.Win32ApiThunk.UnmanagedXpsDocEventBuilder.XpsDocEventFixedDocSequence(System.Windows.Xps.Serialization.XpsDocumentEventType,System.UInt32,System.String,System.IO.Stream,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.Win32ApiThunk.UnmanagedXpsDocEventBuilder.XpsDocEventFixedDocument(System.Windows.Xps.Serialization.XpsDocumentEventType,System.UInt32,System.IO.Stream,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.PrintWin32Thunk.Win32ApiThunk.UnmanagedXpsDocEventBuilder.XpsDocEventFixedPage(System.Windows.Xps.Serialization.XpsDocumentEventType,System.UInt32,System.IO.Stream,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.Activation.ObjectsAttributesValuesFactory.Create(System.Type,System.String)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.ObjectsAttributesValuesFactory.Create(System.Type,System.String,System.MulticastDelegate)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.ObjectsAttributesValuesFactory.Create(System.Type,System.String,System.Object)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.ObjectsAttributesValuesFactory.Create(System.Type,System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.ObjectsAttributesValuesFactory.RegisterObjectAttributeNoValueCreationMethod(System.Type,System.Printing.PrintSystemObject.CreateWithNoValue)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.ObjectsAttributesValuesFactory.RegisterObjectAttributeNoValueLinkedCreationMethod(System.Type,System.Printing.PrintSystemObject.CreateWithNoValueLinked)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.ObjectsAttributesValuesFactory.RegisterObjectAttributeValueCreationMethod(System.Type,System.Printing.PrintSystemObject.CreateWithValue)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.ObjectsAttributesValuesFactory.RegisterObjectAttributeValueLinkedCreationMethod(System.Type,System.Printing.PrintSystemObject.CreateWithValueLinked)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintPropertyFactory.Create(System.Type,System.String)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintPropertyFactory.Create(System.Type,System.String,System.MulticastDelegate)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintPropertyFactory.Create(System.Type,System.String,System.Object)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintPropertyFactory.Create(System.Type,System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintPropertyFactory.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.Activation.PrintPropertyFactory.RegisterNoValueCreationDelegate(System.Type,System.Printing.IndexedProperties.PrintProperty.CreateWithNoValue)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintPropertyFactory.RegisterNoValueLinkedCreationDelegate(System.Type,System.Printing.IndexedProperties.PrintProperty.CreateWithNoValueLinked)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintPropertyFactory.RegisterValueCreationDelegate(System.Type,System.Printing.IndexedProperties.PrintProperty.CreateWithValue)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintPropertyFactory.RegisterValueLinkedCreationDelegate(System.Type,System.Printing.IndexedProperties.PrintProperty.CreateWithValueLinked)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintPropertyFactory.UnRegisterNoValueCreationDelegate(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintPropertyFactory.UnRegisterNoValueLinkedCreationDelegate(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintPropertyFactory.UnRegisterValueCreationDelegate(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintPropertyFactory.UnRegisterValueLinkedCreationDelegate(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintSystemObjectFactory.Instantiate(System.Type,System.String[])">
+    <parameter name="objType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintSystemObjectFactory.InstantiateOptimized(System.Type,System.Object,System.String[])">
+    <parameter name="objType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintSystemObjectFactory.RegisterInstantiationDelegates(System.Type,System.Printing.PrintSystemObject.Instantiate)">
+    <parameter name="objType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.Activation.PrintSystemObjectFactory.RegisterOptimizedInstantiationDelegates(System.Type,System.Printing.PrintSystemObject.InstantiateOptimized)">
+    <parameter name="objType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintBooleanProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintBooleanProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintBooleanProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintBooleanProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintBooleanProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintBooleanProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintBooleanProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintBooleanProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Printing.IndexedProperties.PrintBooleanProperty.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintByteArrayProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintByteArrayProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintByteArrayProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintByteArrayProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintByteArrayProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintByteArrayProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintByteArrayProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintByteArrayProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDateTimeProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDateTimeProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDateTimeProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDateTimeProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDateTimeProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDateTimeProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDateTimeProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDateTimeProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Printing.IndexedProperties.PrintDateTimeProperty.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDriverProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDriverProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDriverProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDriverProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDriverProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDriverProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDriverProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintDriverProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintInt32Property.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintInt32Property.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintInt32Property.#ctor(System.String,System.Object)">
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintInt32Property.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintInt32Property.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintInt32Property.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintInt32Property.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintInt32Property.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Printing.IndexedProperties.PrintInt32Property.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobPriorityProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobPriorityProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobPriorityProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobPriorityProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobPriorityProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobPriorityProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobPriorityProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobPriorityProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Printing.IndexedProperties.PrintJobPriorityProperty.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobStatusProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobStatusProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobStatusProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobStatusProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobStatusProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobStatusProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobStatusProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintJobStatusProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Printing.IndexedProperties.PrintJobStatusProperty.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintPortProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintPortProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintPortProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintPortProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintPortProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintPortProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintPortProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintPortProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintProcessorProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintProcessorProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintProcessorProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintProcessorProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintProcessorProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintProcessorProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintProcessorProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintProcessorProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintPropertyDictionary.Add(System.Printing.IndexedProperties.PrintProperty)">
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintPropertyDictionary.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintPropertyDictionary.GetProperty(System.String)">
+    <parameter name="attribName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintPropertyDictionary.SetProperty(System.String,System.Printing.IndexedProperties.PrintProperty)">
+    <parameter name="attribName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueAttributeProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueAttributeProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueAttributeProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueAttributeProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueAttributeProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueAttributeProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueAttributeProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueAttributeProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Printing.IndexedProperties.PrintQueueAttributeProperty.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueStatusProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueStatusProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueStatusProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueStatusProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueStatusProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueStatusProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueStatusProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintQueueStatusProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Printing.IndexedProperties.PrintQueueStatusProperty.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerLoggingProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerLoggingProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerLoggingProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerLoggingProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerLoggingProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerLoggingProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerLoggingProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerLoggingProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Printing.IndexedProperties.PrintServerLoggingProperty.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintServerProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStreamProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStreamProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStreamProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStreamProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStreamProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStreamProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStreamProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStreamProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStringProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStringProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStringProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStringProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStringProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStringProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStringProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintStringProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemJobTypeAttributeValue.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemJobTypeAttributeValue.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemJobTypeAttributeValue.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemJobTypeAttributeValue.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemJobTypeAttributeValue.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemJobTypeAttributeValue.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemJobTypeAttributeValue.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemJobTypeAttributeValue.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Printing.IndexedProperties.PrintSystemJobTypeAttributeValue.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemTypeProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemTypeProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemTypeProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemTypeProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemTypeProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemTypeProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemTypeProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintSystemTypeProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintThreadPriorityProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintThreadPriorityProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintThreadPriorityProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintThreadPriorityProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintThreadPriorityProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintThreadPriorityProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintThreadPriorityProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintThreadPriorityProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Printing.IndexedProperties.PrintThreadPriorityProperty.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintTicketProperty.#ctor(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintTicketProperty.#ctor(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintTicketProperty.#ctor(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintTicketProperty.#ctor(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintTicketProperty.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintTicketProperty.Create(System.String,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintTicketProperty.Create(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attributeValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.IndexedProperties.PrintTicketProperty.Create(System.String,System.Object,System.MulticastDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.#ctor(System.String[])">
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.#ctor(System.String[],System.Printing.PrintSystemDesiredAccess)">
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.ConnectToPrintQueue(System.Printing.PrintQueue)">
+    <parameter name="printer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.ConnectToPrintQueue(System.String)">
+    <parameter name="printQueuePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.ConvertPropertyFilterToString(System.Printing.LocalPrintServerIndexedProperty[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.CreateAttributeNoValue(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.CreateAttributeNoValueLinked(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.CreateAttributeValue(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.CreateAttributeValueLinked(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.CreatePropertiesDelegates">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.DisconnectFromPrintQueue(System.Printing.PrintQueue)">
+    <parameter name="printer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.DisconnectFromPrintQueue(System.String)">
+    <parameter name="printQueuePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.GetAllPropertiesFilter">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.GetAllPropertiesFilter(System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.GetAlteredPropertiesFilter">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.GetFullPrintQueueName(System.Printing.PrintQueue)">
+    <parameter name="queue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.LocalPrintServer.GetUnInitializedData(System.String[])">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintDriver.CreateAttributeNoValue(System.String)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintDriver.CreateAttributeNoValueLinked(System.String,System.MulticastDelegate)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintDriver.CreateAttributeValue(System.String,System.Object)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintDriver.CreateAttributeValueLinked(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintDriver.get_InternalPropertiesCollection(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintJobInfoCollection.#ctor(System.Printing.PrintQueue,System.String[])">
+    <parameter name="printQueue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintJobInfoCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintJobInfoCollection.GetNonGenericEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintPort.CreateAttributeNoValue(System.String)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintPort.CreateAttributeNoValueLinked(System.String,System.MulticastDelegate)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintPort.CreateAttributeValue(System.String,System.Object)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintPort.CreateAttributeValueLinked(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintPort.get_InternalPropertiesCollection(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintProcessor.CreateAttributeNoValue(System.String)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintProcessor.CreateAttributeNoValueLinked(System.String,System.MulticastDelegate)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintProcessor.CreateAttributeValue(System.String,System.Object)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintProcessor.CreateAttributeValueLinked(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintProcessor.get_InternalPropertiesCollection(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.#ctor(System.Printing.PrintServer,System.String)">
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.#ctor(System.Printing.PrintServer,System.String,System.Int32)">
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.#ctor(System.Printing.PrintServer,System.String,System.Int32,System.Printing.PrintSystemDesiredAccess)">
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.#ctor(System.Printing.PrintServer,System.String,System.Printing.PrintQueueIndexedProperty[])">
+    <parameter name="propertyFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.#ctor(System.Printing.PrintServer,System.String,System.Printing.PrintQueueIndexedProperty[],System.Printing.PrintSystemDesiredAccess)">
+    <parameter name="propertyFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.#ctor(System.Printing.PrintServer,System.String,System.Printing.PrintSystemDesiredAccess)">
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.#ctor(System.Printing.PrintServer,System.String,System.String[])">
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.#ctor(System.Printing.PrintServer,System.String,System.String[],System.Printing.PrintSystemDesiredAccess)">
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.AddJob">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.AddJob(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.AddJob(System.String,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="documentPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.BuildPortNamesString(System.String[])">
+    <parameter name="portNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.CalculateImagableArea(System.Printing.PrintTicket,System.Printing.PrintQueue,System.Double,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="partialTrustPrintQueue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.ClonePrintTicket(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.ConvertPropertyFilterToString(System.Printing.PrintQueueIndexedProperty[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.CreateAsyncSerializationManager(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.CreateAsyncSerializationManager(System.Boolean,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.CreateAttributeNoValue(System.String)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.CreateAttributeNoValueLinked(System.String,System.MulticastDelegate)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.CreateAttributeValue(System.String,System.Object)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.CreateAttributeValueLinked(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="text1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.CreatePrintQueueException(System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="messageId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.CreatePrintSystemException(System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="messageId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.CreatePropertiesDelegates">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.CreateSerializationManager(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.CreateSerializationManager(System.Boolean,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.CreateXpsDocumentWriter(System.Printing.PrintQueue)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="printQueue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Printing.PrintQueue.CurrentJobSettings">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.ForwardXpsDriverDocEvent(System.Object,System.Windows.Xps.Serialization.XpsSerializationXpsDriverDocEventArgs)">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.ForwardXpsFixedDocumentEvent(System.Windows.Xps.Serialization.XpsSerializationXpsDriverDocEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.ForwardXpsFixedDocumentPrintTicket(System.Windows.Xps.Serialization.XpsSerializationXpsDriverDocEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.ForwardXpsFixedDocumentSequenceEvent(System.Windows.Xps.Serialization.XpsSerializationXpsDriverDocEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.ForwardXpsFixedDocumentSequencePrintTicket(System.Windows.Xps.Serialization.XpsSerializationXpsDriverDocEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.ForwardXpsFixedPageEvent(System.Windows.Xps.Serialization.XpsSerializationXpsDriverDocEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.ForwardXpsFixedPagePrintTicket(System.Windows.Xps.Serialization.XpsSerializationXpsDriverDocEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.GatherDataFromPrintDialog(System.Windows.Controls.PrintDialog,System.Windows.Xps.XpsDocumentWriter@,System.Printing.PrintTicket@,System.Printing.PrintQueue@,System.Double@,System.Double@,System.String)">
+    <parameter name="printDialog">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.GetAllPropertiesFilter">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.GetAllPropertiesFilter(System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.GetAlteredPropertiesFilter(System.Collections.Specialized.StringCollection)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="collection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.GetAttributeNamePerPrintQueueObject(System.Printing.IndexedProperties.PrintProperty)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.GetJob(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.GetLegacyDevice">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.GetPrintCapabilities">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.GetPrintCapabilities(System.Printing.PrintTicket)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.GetPrintCapabilitiesAsXml">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.GetPrintCapabilitiesAsXml(System.Printing.PrintTicket)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.GetPrintJobInfoCollection">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.GetUnInitializedData(System.String,System.String)">
+    <parameter name="upLevelPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="downlevelPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.Initialize(System.Printing.PrintServer,System.String,System.String[],MS.Internal.PrintWin32Thunk.PrinterDefaults)">
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.Install(System.Printing.PrintServer,System.String,System.String,System.String[],System.String,System.Printing.IndexedProperties.PrintPropertyDictionary)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="initializationParams">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.Install(System.Printing.PrintServer,System.String,System.String,System.String[],System.String,System.Printing.PrintQueueAttributes)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="printProcessorName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.Install(System.Printing.PrintServer,System.String,System.String,System.String[],System.String,System.Printing.PrintQueueAttributes,System.Printing.PrintQueueStringProperty,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="printProcessorName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="requiredPrintQueueProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.Install(System.Printing.PrintServer,System.String,System.String,System.String[],System.String,System.Printing.PrintQueueAttributes,System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="printProcessorName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.Instantiate(System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.InstantiateOptimized(System.Object,System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueue.MergeAndValidatePrintTicket(System.Printing.PrintTicket,System.Printing.PrintTicket)">
+    <parameter name="basePrintTicket">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.MergeAndValidatePrintTicket(System.Printing.PrintTicket,System.Printing.PrintTicket,System.Printing.PrintTicketScope)">
+    <parameter name="basePrintTicket">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.PartialTrustPrintTicketEventHandler.SetPrintTicketInPartialTrust(System.Object,System.Windows.Documents.Serialization.WritingPrintTicketRequiredEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.PrepareNameForDownLevelConnectivity(System.String,System.String)">
+    <parameter name="serverName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueue.XpsDocumentEventPrintTicket(System.Windows.Xps.Serialization.XpsDocumentEventType,System.Windows.Xps.Serialization.XpsDocumentEventType,System.Runtime.InteropServices.SafeHandle,System.Windows.Xps.Serialization.XpsSerializationXpsDriverDocEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueueCollection.#ctor(System.Printing.PrintServer,System.String[])">
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueueCollection.#ctor(System.Printing.PrintServer,System.String[],System.Printing.EnumeratedPrintQueueTypes[])">
+    <parameter name="printServer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="enumerationFlag">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueueCollection.AddNameAndHostToProperties(System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="propertyFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueueCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueueCollection.GetNonGenericEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueueStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintQueueStream.CreatePrintingCanceledException(System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="messageId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueueStream.HandlePackagingProgressEvent(System.Object,System.Windows.Xps.Packaging.PackagingProgressEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueueStream.OpenSpoolFileStream(Microsoft.Win32.SafeHandles.SafeFileHandle)">
+    <parameter name="safeSpoolFileHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintQueueStream.Write(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.#ctor(System.String,System.Printing.PrintServerIndexedProperty[])">
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.#ctor(System.String,System.Printing.PrintServerIndexedProperty[],System.Printing.PrintSystemDesiredAccess)">
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.ConvertPropertyFilterToString(System.Printing.PrintServerIndexedProperty[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.CreateAttributeNoValue(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.CreateAttributeNoValueLinked(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.CreateAttributeValue(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.CreateAttributeValueLinked(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.CreatePrintCommitAttributesException(System.Int32,System.String,System.Collections.ObjectModel.Collection{System.String},System.Collections.ObjectModel.Collection{System.String})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="messageId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.CreatePrintServerException(System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="messageId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.CreatePrintServerException(System.Int32,System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="messageId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.CreatePropertiesDelegates">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintServer.DeletePrintQueue(System.Printing.PrintQueue)">
+    <parameter name="printQueue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.GetAllPropertiesFilter">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintServer.GetAllPropertiesFilter(System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintServer.GetAlteredPropertiesFilter">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintServer.GetDataFromServer(System.String,System.Boolean)">
+    <parameter name="property">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.GetPrintQueue(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintServer.GetPrintQueue(System.String,System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintServer.GetPrintQueues">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintServer.GetPrintQueues(System.Printing.EnumeratedPrintQueueTypes[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="enumerationFlag">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.GetPrintQueues(System.Printing.PrintQueueIndexedProperty[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.GetPrintQueues(System.Printing.PrintQueueIndexedProperty[],System.Printing.EnumeratedPrintQueueTypes[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="enumerationFlag">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.GetPrintQueues(System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.GetPrintQueues(System.String[],System.Printing.EnumeratedPrintQueueTypes[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="propertiesFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="enumerationFlag">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.GetUnInitializedData(System.String[])">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.InstallPrintQueue(System.String,System.String,System.String[],System.String,System.Printing.IndexedProperties.PrintPropertyDictionary)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="initialParameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.InstallPrintQueue(System.String,System.String,System.String[],System.String,System.Printing.PrintQueueAttributes)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="printProcessorName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.InstallPrintQueue(System.String,System.String,System.String[],System.String,System.Printing.PrintQueueAttributes,System.Printing.PrintQueueStringProperty,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="printProcessorName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="printQueueProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.InstallPrintQueue(System.String,System.String,System.String[],System.String,System.Printing.PrintQueueAttributes,System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="printProcessorName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintServer.RegisterAttributesNamesTypes(System.Collections.Hashtable)">
+    <parameter name="childAttributeNameTypes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemDefaultPathResolver.Resolve(System.Printing.IndexedProperties.PrintPropertyDictionary)">
+    <parameter name="collection">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.#ctor(System.Printing.PrintQueue,System.String,System.String,System.Boolean)">
+    <parameter name="documentPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.Add(System.Printing.PrintQueue)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.Add(System.Printing.PrintQueue,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.Add(System.Printing.PrintQueue,System.String,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="documentPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.CopyFileStreamToPrinter(System.String,System.IO.Stream)">
+    <parameter name="printStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xpsFileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.CreateAttributeNoValue(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.CreateAttributeNoValueLinked(System.String,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.CreateAttributeValue(System.String,System.Object)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.CreateAttributeValueLinked(System.String,System.Object,System.MulticastDelegate)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.CreatePrintJobException(System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="messageId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.CreatePrintJobException(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="messageId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.CreatePrintJobException(System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="messageId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.CreatePropertiesDelegates">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.Get(System.Printing.PrintQueue,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.GetAllPropertiesFilter">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.Instantiate(System.Object,System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintSystemJobInfo.PopulateJobProperties(System.String[])">
+    <parameter name="propertiesAsStrings">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemObject.CreatePropertiesDelegates">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintSystemObject.get_InternalPropertiesCollection(System.String)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Printing.PrintSystemObject.RegisterAttributesNamesTypes(System.Collections.Hashtable)">
+    <parameter name="attributeNamesTypes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemUNCPathCracker.#ctor(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemUNCPathResolver.Resolve(System.Printing.IndexedProperties.PrintPropertyDictionary)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="collection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemUNCPathResolver.ValidateAndCapturePrinterName(System.Object,System.Printing.PrintSystemUNCPathResolver)">
+    <parameter name="parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemUNCPathResolver.ValidateAndCaptureServerName(System.Object,System.Printing.PrintSystemUNCPathResolver)">
+    <parameter name="parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemUNCPathResolver.ValidateCollectionAndCaptureParameters(System.Collections.IDictionaryEnumerator)">
+    <parameter name="enumerator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Printing.PrintSystemUNCPathResolver.ValidateUNCName(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Printing.WritePrinterAsyncResult.AsyncState">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Printing.WritePrinterAsyncResult.AsyncWaitHandle">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Xps.VisualsToXpsDocument.CreateXPSDocument(System.String)">
+    <parameter name="documentName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.VisualsToXpsDocument.ForwardUserPrintTicket(System.Object,System.Windows.Xps.Serialization.XpsSerializationPrintTicketRequiredEventArgs)">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.VisualsToXpsDocument.MxdwConversionRequired(System.Printing.PrintQueue)">
+    <parameter name="printQueue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.VisualsToXpsDocument.SetPrintTicketEventHandler(System.Windows.Xps.Serialization.PackageSerializationManager)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.VisualsToXpsDocument.WriteVisual(System.Boolean,System.Printing.PrintTicket,System.Windows.Xps.Serialization.PrintTicketLevel,System.Windows.Media.Visual)">
+    <parameter name="visual">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.#ctor(System.Printing.PrintQueue)">
+    <parameter name="printQueue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.#ctor(System.Printing.PrintQueue,System.Object)">
+    <parameter name="printQueue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.#ctor(System.Windows.Xps.Packaging.XpsDocument)">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.CloneSourcePrintTicket(System.Object,System.Windows.Xps.Serialization.XpsSerializationPrintTicketRequiredEventArgs)">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.CreateXPSDocument(System.String)">
+    <parameter name="documentName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.ForwardProgressChangedEvent(System.Object,System.Windows.Xps.Serialization.XpsSerializationProgressChangedEventArgs)">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.ForwardUserPrintTicket(System.Object,System.Windows.Xps.Serialization.XpsSerializationPrintTicketRequiredEventArgs)">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.ForwardWriteCompletedEvent(System.Object,System.Windows.Xps.Serialization.XpsSerializationCompletedEventArgs)">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.MxdwConversionRequired(System.Printing.PrintQueue)">
+    <parameter name="printQueue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.SaveAsXaml(System.Object,System.Boolean)">
+    <parameter name="serializedObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.SetCompletionEventHandler(System.Windows.Xps.Serialization.PackageSerializationManager,System.Object)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.SetPrintTicketEventHandler(System.Windows.Xps.Serialization.PackageSerializationManager,System.Windows.Xps.Serialization.XpsSerializationPrintTicketRequiredEventHandler)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.SetProgressChangedEventHandler(System.Windows.Xps.Serialization.PackageSerializationManager,System.Object)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.Write(System.String)">
+    <parameter name="documentPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.Write(System.String,System.Windows.Xps.XpsDocumentNotificationLevel)">
+    <parameter name="documentPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.String)">
+    <parameter name="documentPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.String,System.Windows.Xps.XpsDocumentNotificationLevel)">
+    <parameter name="documentPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsWriterException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Xps.XpsWriterException.ThrowException(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

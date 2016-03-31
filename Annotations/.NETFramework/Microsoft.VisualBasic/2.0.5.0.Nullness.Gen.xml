@@ -1,0 +1,2394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="Microsoft.VisualBasic, Version=2.0.5.0">
+  <member name="P:Microsoft.VisualBasic.Collection.CollectionDebugView.Items">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.FastList.Add(Microsoft.VisualBasic.Collection.Node)">
+    <parameter name="Node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.FastList.DataIsEqual(System.Object,System.Object)">
+    <parameter name="obj1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="obj2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.FastList.DeleteNode(Microsoft.VisualBasic.Collection.Node,Microsoft.VisualBasic.Collection.Node)">
+    <parameter name="NodeToBeDeleted">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.FastList.IndexOfValue(System.Object)">
+    <parameter name="Value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.FastList.Insert(Microsoft.VisualBasic.Collection.Node,Microsoft.VisualBasic.Collection.Node,Microsoft.VisualBasic.Collection.Node)">
+    <parameter name="Node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.FastList.Insert(System.Int32,Microsoft.VisualBasic.Collection.Node)">
+    <parameter name="Node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.FastList.InsertAfter(Microsoft.VisualBasic.Collection.Node,Microsoft.VisualBasic.Collection.Node)">
+    <parameter name="NodeToInsertAfter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.FastList.InsertBefore(Microsoft.VisualBasic.Collection.Node,Microsoft.VisualBasic.Collection.Node)">
+    <parameter name="NodeToInsertBefore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.VisualBasic.Collection.FastList.Item(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.FastList.RemoveAt(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.FastList.RemoveNode(Microsoft.VisualBasic.Collection.Node)">
+    <parameter name="NodeToBeDeleted">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.ICollectionCopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.ICollectionGetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.VisualBasic.Collection.ICollectionSyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.IListContains(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.IListIndexOf(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.IListRemove(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Collection.Initialize(System.Globalization.CultureInfo,System.Int32)">
+    <parameter name="CultureInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.ClassifyCLRArrayToInterfaceConversion(System.Type,System.Type)">
+    <parameter name="TargetInterface">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="SourceArrayType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.ClassifyCLRConversionForArrayElementTypes(System.Type,System.Type)">
+    <parameter name="TargetElementType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="SourceElementType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.ClassifyConversion(System.Type,System.Type,Microsoft.VisualBasic.CompilerServices.Symbols.Method@)">
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="SourceType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.ClassifyPredefinedCLRConversion(System.Type,System.Type)">
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="SourceType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.ClassifyPredefinedConversion(System.Type,System.Type)">
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="SourceType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.ClassifyUserDefinedConversion(System.Type,System.Type,Microsoft.VisualBasic.CompilerServices.Symbols.Method@)">
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="SourceType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.CollectConversionOperators(System.Type,System.Type,System.Boolean@,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="SourceType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.DoClassifyUserDefinedConversion(System.Type,System.Type,Microsoft.VisualBasic.CompilerServices.Symbols.Method@,System.Boolean@,System.Boolean@)">
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="SourceType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.Encompasses(System.Type,System.Type)">
+    <parameter name="Larger">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Smaller">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.FindBestMatch(System.Type,System.Type,System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.Symbols.Method},System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.Symbols.Method},System.Boolean@)">
+    <parameter name="SearchList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ResultList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.InsertInOperatorListIfLessGenericThanExisting(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.Symbols.Method},System.Boolean@)">
+    <parameter name="OperatorToInsert">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="OperatorList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.MostEncompassed(System.Collections.Generic.List{System.Type})">
+    <parameter name="Types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.MostEncompassing(System.Collections.Generic.List{System.Type})">
+    <parameter name="Types">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.NotEncompasses(System.Type,System.Type)">
+    <parameter name="Larger">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Smaller">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ConversionResolution.ResolveConversion(System.Type,System.Type,System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.Symbols.Method},System.Boolean,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="OperatorSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="SourceType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.CanUserDefinedConvert(System.Object,System.Type)">
+    <parameter name="Expression">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.CastByteEnum(System.Byte,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.CastInt16Enum(System.Int16,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.CastInt32Enum(System.Int32,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.CastInt64Enum(System.Int64,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.CastSByteEnum(System.SByte,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.CastUInt16Enum(System.UInt16,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.CastUInt32Enum(System.UInt32,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.CastUInt64Enum(System.UInt64,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.ChangeIntrinsicType(System.Object,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.ChangeType(System.Object,System.Type)">
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.ChangeType(System.Object,System.Type,System.Boolean)">
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.FallbackUserDefinedConversion(System.Object,System.Type)">
+    <parameter name="Expression">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.ForceValueCopy(System.Object,System.Type)">
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.FromCharAndCount(System.Char,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.FromCharArray(System.Char[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.FromCharArraySubset(System.Char[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.GetNormalizedNumberFormat(System.Globalization.NumberFormatInfo)">
+    <parameter name="InNumberFormat">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.ObjectUserDefinedConversion(System.Object,System.Type)">
+    <parameter name="Expression">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.ToCharArrayRankOne(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Conversions.ToCharArrayRankOne(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ExceptionUtils.BuildException(System.Int32,System.String,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ExceptionUtils.VbMakeException(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ExceptionUtils.VbMakeExceptionEx(System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOBinder.IDOCall(,System.String,System.Object[],System.String[],System.Boolean[],System.Boolean)">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOBinder.IDOFallbackInvokeDefault(,System.Object[],System.String[],System.Boolean,System.Boolean[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOBinder.IDOGet(,System.String,System.Object[],System.String[],System.Boolean[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOBinder.IDOIndexSet(,System.Object[],System.String[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOBinder.IDOIndexSetComplex(,System.Object[],System.String[],System.Boolean,System.Boolean)">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOBinder.IDOInvokeDefault(,System.Object[],System.String[],System.Boolean,System.Boolean[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOBinder.IDOSet(,System.String,System.String[],System.Object[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOBinder.IDOSetComplex(,System.String,System.Object[],System.String[],System.Boolean,System.Boolean)">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOBinder.InvokeUserDefinedOperator(Microsoft.VisualBasic.CompilerServices.Symbols.UserDefinedOperator,System.Object[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOUtils.CopyBackArguments(,System.Object[],System.Object[])">
+    <parameter name="packedArgs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOUtils.CreateFuncCallSiteAndInvoke(,System.Object,System.Object[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOUtils.CreateRefCallSiteAndInvoke(,System.Object,System.Object[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOUtils.GetWriteBack([],)">
+    <parameter name="arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOUtils.LinqOperator(Microsoft.VisualBasic.CompilerServices.Symbols.UserDefinedOperator)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOUtils.PackArguments(System.Int32,System.String[],System.Object[],System.Object[]@,@)">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.IDOUtils.UnpackArguments([],,[]@,System.String[]@,System.Object[]@)">
+    <parameter name="packedArgs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.LikeOperator.BuildPatternGroups(System.String,System.Int32,System.Int32@,Microsoft.VisualBasic.CompilerServices.LikeOperator.LigatureInfo[],System.String,System.Int32,System.Int32@,Microsoft.VisualBasic.CompilerServices.LikeOperator.LigatureInfo[],System.Boolean@,System.Int32@,System.Globalization.CompareInfo,System.Globalization.CompareOptions,Microsoft.VisualBasic.CompilerServices.LikeOperator.PatternGroup[]@)">
+    <parameter name="Pattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.LikeOperator.CanCharExpand(System.Char,System.Byte[],System.Globalization.CompareInfo,System.Globalization.CompareOptions)">
+    <parameter name="LocaleSpecificLigatureTable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.LikeOperator.CompareChars(System.Char,System.Char,System.Globalization.CompareInfo,System.Globalization.CompareOptions)">
+    <parameter name="Comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.LikeOperator.CompareChars(System.String,System.Int32,System.Int32,System.Int32@,Microsoft.VisualBasic.CompilerServices.LikeOperator.LigatureInfo[],System.String,System.Int32,System.Int32,System.Int32@,Microsoft.VisualBasic.CompilerServices.LikeOperator.LigatureInfo[],System.Globalization.CompareInfo,System.Globalization.CompareOptions,System.Boolean,System.Boolean)">
+    <parameter name="Left">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.LikeOperator.CompareChars(System.String,System.String,System.Globalization.CompareInfo,System.Globalization.CompareOptions)">
+    <parameter name="Left">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.LikeOperator.ExpandString(System.String@,System.Int32@,Microsoft.VisualBasic.CompilerServices.LikeOperator.LigatureInfo[]@,System.Byte[],System.Globalization.CompareInfo,System.Globalization.CompareOptions,System.Boolean@,System.Boolean)">
+    <parameter name="Input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="LocaleSpecificLigatureTable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.LikeOperator.GetCharExpansion(System.Char,System.Byte[],System.Globalization.CompareInfo,System.Globalization.CompareOptions)">
+    <parameter name="LocaleSpecificLigatureTable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.LikeOperator.LikeString(System.String,System.String,Microsoft.VisualBasic.CompareMethod)">
+    <parameter name="Pattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.LikeOperator.MatchAsterisk(System.String,System.Int32,System.Int32,Microsoft.VisualBasic.CompilerServices.LikeOperator.LigatureInfo[],System.String,Microsoft.VisualBasic.CompilerServices.LikeOperator.LigatureInfo[],Microsoft.VisualBasic.CompilerServices.LikeOperator.PatternGroup[],System.Int32,System.Boolean@,System.Boolean@,System.Globalization.CompareInfo,System.Globalization.CompareOptions)">
+    <parameter name="Source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Pattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="PatternGroups">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.LikeOperator.MatchAsterisk(System.String,System.Int32,System.Int32,Microsoft.VisualBasic.CompilerServices.LikeOperator.LigatureInfo[],System.String,System.Int32,System.Int32,Microsoft.VisualBasic.CompilerServices.LikeOperator.LigatureInfo[],System.Boolean@,System.Boolean@,System.Globalization.CompareInfo,System.Globalization.CompareOptions)">
+    <parameter name="Source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Pattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.LikeOperator.MatchRange(System.String,System.Int32,System.Int32@,Microsoft.VisualBasic.CompilerServices.LikeOperator.LigatureInfo[],System.String,System.Int32,System.Int32@,Microsoft.VisualBasic.CompilerServices.LikeOperator.LigatureInfo[],System.Boolean@,System.Boolean@,System.Boolean@,System.Globalization.CompareInfo,System.Globalization.CompareOptions,System.Boolean@,System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.LikeOperator.Range},System.Boolean)">
+    <parameter name="Source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Pattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.LikeOperator.MatchRangeAfterAsterisk(System.String,System.Int32,System.Int32@,Microsoft.VisualBasic.CompilerServices.LikeOperator.LigatureInfo[],System.String,Microsoft.VisualBasic.CompilerServices.LikeOperator.LigatureInfo[],Microsoft.VisualBasic.CompilerServices.LikeOperator.PatternGroup,System.Globalization.CompareInfo,System.Globalization.CompareOptions)">
+    <parameter name="Source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Pattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.LikeOperator.ValidateRangePattern(System.String,System.Int32,System.Int32@,Microsoft.VisualBasic.CompilerServices.LikeOperator.LigatureInfo[],System.Globalization.CompareInfo,System.Globalization.CompareOptions,System.Boolean@,System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.LikeOperator.Range}@)">
+    <parameter name="Pattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Microsoft.VisualBasic.CompilerServices.Symbols.Container,System.String,System.Object[],System.String[],System.Type[],System.Boolean[],System.Reflection.BindingFlags,System.Boolean,Microsoft.VisualBasic.CompilerServices.OverloadResolution.ResolutionFailure@)">
+    <parameter name="BaseReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.CanBindCall(System.Object,System.String,System.Object[],System.String[],System.Boolean)">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.CanBindGet(System.Object,System.String,System.Object[],System.String[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.CanBindInvokeDefault(System.Object,System.Object[],System.String[],System.Boolean)">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.CanBindSet(System.Object,System.String,System.Object,System.Boolean,System.Boolean)">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.CanIndexSetComplex(System.Object,System.Object[],System.String[],System.Boolean,System.Boolean)">
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.ConstructCallArguments(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Object[],System.Reflection.BindingFlags)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackCall(System.Object,System.String,System.Object[],System.String[],System.Boolean)">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackGet(System.Object,System.String,System.Object[],System.String[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackIndexSet(System.Object,System.Object[],System.String[])">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackIndexSetComplex(System.Object,System.Object[],System.String[],System.Boolean,System.Boolean)">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackInvokeDefault1(System.Object,System.Object[],System.String[],System.Boolean)">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackInvokeDefault2(System.Object,System.Object[],System.String[],System.Boolean)">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackSet(System.Object,System.String,System.Object[])">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.FallbackSetComplex(System.Object,System.String,System.Object[],System.Boolean,System.Boolean)">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.GetCallTarget(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Reflection.BindingFlags)">
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(System.Object,System.Object[],System.String[],System.Boolean,Microsoft.VisualBasic.CompilerServices.OverloadResolution.ResolutionFailure@,System.Boolean[])">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateInvokeDefault(System.Object,System.Object[],System.String[],System.Boolean,System.Boolean[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.IsZeroArgumentCall(System.Reflection.MemberInfo)">
+    <parameter name="Member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateCall(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean[],System.Boolean)">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateCallInvokeDefault(System.Object,System.Object[],System.String[],System.Boolean)">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateCanEvaluate(System.Object,System.Type,System.String,System.Object[],System.Boolean,System.Boolean)">
+    <parameter name="arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean[])">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGetInvokeDefault(System.Object,System.Object[],System.String[],System.Boolean)">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(System.Object,System.Object[],System.String[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(System.Object,System.Object[],System.String[],System.Boolean[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexSet(System.Object,System.Object[],System.String[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexSetComplex(System.Object,System.Object[],System.String[],System.Boolean,System.Boolean)">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean,System.Boolean,Microsoft.VisualBasic.CallType)">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSetComplex(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean,System.Boolean)">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.MatchesPropertyRequirements(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Reflection.BindingFlags)">
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateCall(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean[],System.Boolean)">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateIndexSet(System.Object,System.Object[],System.String[])">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateIndexSetComplex(System.Object,System.Object[],System.String[],System.Boolean,System.Boolean)">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateInvokeDefault(System.Object,System.Object[],System.String[],System.Boolean,System.Boolean[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateSet(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[])">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateSetComplex(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean,System.Boolean)">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.ReportPropertyMismatch(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Reflection.BindingFlags)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.NewLateBinding.ResolveCall(Microsoft.VisualBasic.CompilerServices.Symbols.Container,System.String,System.Reflection.MemberInfo[],System.Object[],System.String[],System.Type[],System.Reflection.BindingFlags,System.Boolean,Microsoft.VisualBasic.CompilerServices.OverloadResolution.ResolutionFailure@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="BaseReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Members">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.ForLoopControl.CheckContinueLoop(Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.ForLoopControl)">
+    <parameter name="LoopFor">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.ForLoopControl.ConvertLoopElement(System.String,System.Object,System.Type,System.Type)">
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.ForLoopControl.ForLoopInitObj(System.Object,System.Object,System.Object,System.Object,System.Object@,System.Object@)">
+    <parameter name="Start">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Limit">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="StepValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.ForLoopControl.ForNextCheckObj(System.Object,System.Object,System.Object@)">
+    <parameter name="Counter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="LoopObj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.ForLoopControl.GetWidestType(System.Type,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.ForLoopControl.GetWidestType(System.Type,System.Type,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.ForLoopControl.VerifyForLoopOperator(Microsoft.VisualBasic.CompilerServices.Symbols.UserDefinedOperator,System.Object,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AddByte(System.Byte,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AddDecimal(System.IConvertible,System.IConvertible)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Left">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AddDouble(System.Double,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AddInt16(System.Int16,System.Int16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AddInt32(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AddInt64(System.Int64,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AddSByte(System.SByte,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AddSingle(System.Single,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AddUInt16(System.UInt16,System.UInt16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AddUInt32(System.UInt32,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AddUInt64(System.UInt64,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AndByte(System.Byte,System.Byte,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AndInt16(System.Int16,System.Int16,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AndInt32(System.Int32,System.Int32,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AndInt64(System.Int64,System.Int64,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AndSByte(System.SByte,System.SByte,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AndUInt16(System.UInt16,System.UInt16,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AndUInt32(System.UInt32,System.UInt32,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.AndUInt64(System.UInt64,System.UInt64,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.CollectOperators(Microsoft.VisualBasic.CompilerServices.Symbols.UserDefinedOperator,System.Type,System.Type,System.Boolean@,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Type1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.CompareDecimal(System.IConvertible,System.IConvertible)">
+    <parameter name="Left">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.DivideDecimal(System.IConvertible,System.IConvertible)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Left">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.DivideDouble(System.Double,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.DivideSingle(System.Single,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.FallbackInvokeUserDefinedOperator(System.Object,System.Object[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.GetCallableUserDefinedOperator(Microsoft.VisualBasic.CompilerServices.Symbols.UserDefinedOperator,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.GetEnumResult(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.GetNoValidOperatorException(Microsoft.VisualBasic.CompilerServices.Symbols.UserDefinedOperator,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.GetNoValidOperatorException(Microsoft.VisualBasic.CompilerServices.Symbols.UserDefinedOperator,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.IntDivideByte(System.Byte,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.IntDivideInt16(System.Int16,System.Int16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.IntDivideInt32(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.IntDivideInt64(System.Int64,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.IntDivideSByte(System.SByte,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.IntDivideUInt16(System.UInt16,System.UInt16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.IntDivideUInt32(System.UInt32,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.IntDivideUInt64(System.UInt64,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.InvokeObjectUserDefinedOperator(Microsoft.VisualBasic.CompilerServices.Symbols.UserDefinedOperator,System.Object[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.InvokeUserDefinedOperator(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Boolean,System.Object[])">
+    <parameter name="OperatorMethod">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.InvokeUserDefinedOperator(Microsoft.VisualBasic.CompilerServices.Symbols.UserDefinedOperator,System.Object[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.ModByte(System.Byte,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.ModDecimal(System.IConvertible,System.IConvertible)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Left">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.ModDouble(System.Double,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.ModInt16(System.Int16,System.Int16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.ModInt32(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.ModInt64(System.Int64,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.ModSByte(System.SByte,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.ModSingle(System.Single,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.ModUInt16(System.UInt16,System.UInt16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.ModUInt32(System.UInt32,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.ModUInt64(System.UInt64,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.MultiplyByte(System.Byte,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.MultiplyDecimal(System.IConvertible,System.IConvertible)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Left">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.MultiplyDouble(System.Double,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.MultiplyInt16(System.Int16,System.Int16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.MultiplyInt32(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.MultiplyInt64(System.Int64,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.MultiplySByte(System.SByte,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.MultiplySingle(System.Single,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.MultiplyUInt16(System.UInt16,System.UInt16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.MultiplyUInt32(System.UInt32,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.MultiplyUInt64(System.UInt64,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NegateBoolean(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NegateByte(System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NegateDecimal(System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NegateDouble(System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NegateInt16(System.Int16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NegateInt32(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NegateInt64(System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NegateSByte(System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NegateSingle(System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NegateString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NegateUInt16(System.UInt16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NegateUInt32(System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NegateUInt64(System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NotByte(System.Byte,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="OperandType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NotInt16(System.Int16,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="OperandType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NotInt32(System.Int32,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="OperandType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NotInt64(System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NotInt64(System.Int64,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="OperandType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NotSByte(System.SByte,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="OperandType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NotUInt16(System.UInt16,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="OperandType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NotUInt32(System.UInt32,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="OperandType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.NotUInt64(System.UInt64,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="OperandType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.OrByte(System.Byte,System.Byte,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.OrInt16(System.Int16,System.Int16,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.OrInt32(System.Int32,System.Int32,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.OrInt64(System.Int64,System.Int64,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.OrObject(System.Object,System.Object)">
+    <parameter name="Left">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.OrSByte(System.SByte,System.SByte,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.OrUInt16(System.UInt16,System.UInt16,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.OrUInt32(System.UInt32,System.UInt32,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.OrUInt64(System.UInt64,System.UInt64,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.ResolveUserDefinedOperator(Microsoft.VisualBasic.CompilerServices.Symbols.UserDefinedOperator,System.Object[],System.Boolean)">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.SubtractByte(System.Byte,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.SubtractDecimal(System.IConvertible,System.IConvertible)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Left">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.SubtractDouble(System.Double,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.SubtractInt16(System.Int16,System.Int16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.SubtractInt32(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.SubtractInt64(System.Int64,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.SubtractSByte(System.SByte,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.SubtractSingle(System.Single,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.SubtractUInt16(System.UInt16,System.UInt16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.SubtractUInt32(System.UInt32,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.SubtractUInt64(System.UInt64,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.ToVBBool(System.IConvertible)">
+    <parameter name="conv">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.ToVBBoolConv(System.IConvertible)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="conv">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.XorByte(System.Byte,System.Byte,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.XorInt16(System.Int16,System.Int16,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.XorInt32(System.Int32,System.Int32,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.XorInt64(System.Int64,System.Int64,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.XorSByte(System.SByte,System.SByte,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.XorUInt16(System.UInt16,System.UInt16,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.XorUInt32(System.UInt32,System.UInt32,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Operators.XorUInt64(System.UInt64,System.UInt64,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.CanConvert(System.Type,System.Type,System.Boolean,System.Collections.Generic.List{System.String},System.String,System.Boolean,System.Boolean@,System.Boolean@)">
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="SourceType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.CandidateIsNarrowing(Microsoft.VisualBasic.CompilerServices.Symbols.Method)">
+    <parameter name="Candidate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.CandidateIsNotCallable(Microsoft.VisualBasic.CompilerServices.Symbols.Method)">
+    <parameter name="Candidate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.CandidateIsUnspecific(Microsoft.VisualBasic.CompilerServices.Symbols.Method)">
+    <parameter name="Candidate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.CanMatchArguments(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Object[],System.String[],System.Type[],System.Boolean,System.Collections.Generic.List{System.String})">
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.CanPassToParamArray(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Object,System.Reflection.ParameterInfo)">
+    <parameter name="Parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.CanPassToParameter(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Object,System.Reflection.ParameterInfo,System.Boolean,System.Boolean,System.Collections.Generic.List{System.String},System.Boolean@,System.Boolean@)">
+    <parameter name="Parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.CollectOverloadCandidates(System.Reflection.MemberInfo[],System.Object[],System.Int32,System.String[],System.Type[],System.Boolean,System.Type,System.Int32@,System.Int32@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Members">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.CompareGenericityBasedOnMethodGenericParams(System.Reflection.ParameterInfo,System.Reflection.ParameterInfo,Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Boolean,System.Reflection.ParameterInfo,System.Reflection.ParameterInfo,Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Boolean,System.Boolean@,System.Boolean@,System.Boolean@)">
+    <parameter name="LeftParameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="RawLeftParameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="LeftMember">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="RightParameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="RawRightParameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="RightMember">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.CompareGenericityBasedOnTypeGenericParams(System.Reflection.ParameterInfo,System.Reflection.ParameterInfo,Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Boolean,System.Reflection.ParameterInfo,System.Reflection.ParameterInfo,Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Boolean,System.Boolean@,System.Boolean@,System.Boolean@)">
+    <parameter name="LeftParameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="RawLeftParameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="LeftMember">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="RightParameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="RawRightParameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="RightMember">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.CompareParameterSpecificity(System.Type,System.Reflection.ParameterInfo,System.Reflection.MethodBase,System.Boolean,System.Reflection.ParameterInfo,System.Reflection.MethodBase,System.Boolean,System.Boolean@,System.Boolean@,System.Boolean@)">
+    <parameter name="LeftParameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="RightParameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.CreateMatchTable(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.DetectArgumentErrors(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Object[],System.String[],System.Type[],System.Collections.Generic.List{System.String})">
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.DetectArgumentNarrowing(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Object[],System.String[],System.Type[],System.Collections.Generic.List{System.String})">
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.DetectUnspecificity(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Object[],System.String[],System.Type[],System.Collections.Generic.List{System.String})">
+    <parameter name="Errors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.FindParameterByName(System.Reflection.ParameterInfo[],System.String,System.Int32@)">
+    <parameter name="Parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.InferTypeArguments(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Object[],System.String[],System.Type[],System.Collections.Generic.List{System.String})">
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.InferTypeArgumentsFromArgument(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Object,System.Reflection.ParameterInfo,System.Boolean,System.Collections.Generic.List{System.String})">
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.InferTypeArgumentsFromArgument(System.Type,System.Type,System.Type[],System.Reflection.MethodBase,System.Boolean)">
+    <parameter name="ArgumentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ParameterType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeInferenceArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.InferTypeArgumentsFromArgumentDirectly(System.Type,System.Type,System.Type[],System.Reflection.MethodBase,System.Boolean)">
+    <parameter name="ArgumentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ParameterType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeInferenceArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.InsertIfMethodAvailable(System.Reflection.MemberInfo,System.Reflection.ParameterInfo[],System.Int32,System.Boolean,System.Object[],System.Int32,System.String[],System.Type[],System.Boolean,System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.Symbols.Method})">
+    <parameter name="NewCandidate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="NewCandidateSignature">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Candidates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.InstantiateGenericMethod(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Type[],System.Collections.Generic.List{System.String})">
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.IsExactSignatureMatch(System.Reflection.ParameterInfo[],System.Int32,System.Reflection.ParameterInfo[],System.Int32)">
+    <parameter name="LeftSignature">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="RightSignature">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.LeastGenericProcedure(Microsoft.VisualBasic.CompilerServices.Symbols.Method,Microsoft.VisualBasic.CompilerServices.Symbols.Method)">
+    <parameter name="Left">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.LeastGenericProcedure(Microsoft.VisualBasic.CompilerServices.Symbols.Method,Microsoft.VisualBasic.CompilerServices.Symbols.Method,Microsoft.VisualBasic.CompilerServices.OverloadResolution.ComparisonType,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="Left">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.MatchArguments(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Object[],System.Object[])">
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="MatchedArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.MoreSpecificProcedure(Microsoft.VisualBasic.CompilerServices.Symbols.Method,Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Object[],System.String[],Microsoft.VisualBasic.CompilerServices.OverloadResolution.ComparisonType,System.Boolean@,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="Left">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.MostSpecificProcedure(System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.Symbols.Method},System.Int32@,System.Object[],System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="Candidates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.PassToParameter(System.Object,System.Reflection.ParameterInfo,System.Type)">
+    <parameter name="Parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ParameterType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.RejectUncallableProcedure(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Object[],System.String[],System.Type[])">
+    <parameter name="Candidate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.RejectUncallableProcedures(System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.Symbols.Method},System.Object[],System.String[],System.Type[],System.Int32@,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="Candidates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.RemoveRedundantGenericProcedures(System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.Symbols.Method},System.Int32@,System.Object[],System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="Candidates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.ReorderArgumentArray(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Object[],System.Object[],System.Boolean[],System.Reflection.BindingFlags)">
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ParameterResults">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.ReportError(System.Collections.Generic.List{System.String},System.String)">
+    <parameter name="Errors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ResourceID">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.ReportError(System.Collections.Generic.List{System.String},System.String,System.String)">
+    <parameter name="Errors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ResourceID">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.ReportError(System.Collections.Generic.List{System.String},System.String,System.String,Microsoft.VisualBasic.CompilerServices.Symbols.Method)">
+    <parameter name="Errors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Substitution2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ResourceID">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.ReportError(System.Collections.Generic.List{System.String},System.String,System.String,System.Type,System.Type)">
+    <parameter name="Errors">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ResourceID">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.ReportNarrowingProcedures(System.String,System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.Symbols.Method},System.Object[],System.String[],System.Type[],Microsoft.VisualBasic.CompilerServices.OverloadResolution.ResolutionFailure)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Candidates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.ReportOverloadResolutionFailure(System.String,System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.Symbols.Method},System.Object[],System.String[],System.Type[],System.String,Microsoft.VisualBasic.CompilerServices.OverloadResolution.ResolutionFailure,Microsoft.VisualBasic.CompilerServices.OverloadResolution.ArgumentDetector,Microsoft.VisualBasic.CompilerServices.OverloadResolution.CandidateProperty)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Candidates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Detector">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="CandidateFilter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ErrorID">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.ReportUncallableProcedures(System.String,System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.Symbols.Method},System.Object[],System.String[],System.Type[],Microsoft.VisualBasic.CompilerServices.OverloadResolution.ResolutionFailure)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Candidates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.ReportUnspecificProcedures(System.String,System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.Symbols.Method},Microsoft.VisualBasic.CompilerServices.OverloadResolution.ResolutionFailure)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Candidates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.ResolveOverloadedCall(System.String,System.Collections.Generic.List{Microsoft.VisualBasic.CompilerServices.Symbols.Method},System.Object[],System.String[],System.Type[],System.Reflection.BindingFlags,System.Boolean,Microsoft.VisualBasic.CompilerServices.OverloadResolution.ResolutionFailure@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="Candidates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.OverloadResolution.ResolveOverloadedCall(System.String,System.Reflection.MemberInfo[],System.Object[],System.String[],System.Type[],System.Reflection.BindingFlags,System.Boolean,Microsoft.VisualBasic.CompilerServices.OverloadResolution.ResolutionFailure@)">
+    <parameter name="Members">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ArgumentNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="TypeArguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ProjectData.CreateProjectError(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.ProjectData.GetProjectData">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.AreGenericMethodDefsEqual(System.Reflection.MethodBase,System.Reflection.MethodBase)">
+    <parameter name="Method1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Method2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.Container.#ctor(System.Object)">
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.Container.#ctor(System.Type)">
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.Container.FilterInvalidMembers(System.Reflection.MemberInfo[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.Container.GetArrayValue(System.Object[])">
+    <parameter name="Indices">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.Container.GetFieldValue(System.Reflection.FieldInfo)">
+    <parameter name="Field">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.Container.GetMembers(System.String@,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.Container.InheritanceSorter.Compare(System.Reflection.MemberInfo,System.Reflection.MemberInfo)">
+    <parameter name="Left">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Right">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Microsoft.VisualBasic.CompilerServices.Symbols.Method,System.Object[],System.Boolean[],System.Reflection.BindingFlags)">
+    <parameter name="TargetProcedure">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.Container.SetArrayValue(System.Object[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.Container.SetFieldValue(System.Reflection.FieldInfo,System.Object)">
+    <parameter name="Field">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.GetAllParameterCounts(System.Reflection.ParameterInfo[],System.Int32@,System.Int32@,System.Int32@)">
+    <parameter name="Parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.GetClassConstraint(System.Type)">
+    <parameter name="GenericParameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.GetElementType(System.Type)">
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.GetInterfaceConstraints(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="GenericParameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.GetTypeArguments(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.GetTypeParameters(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.Implements(System.Type,System.Type)">
+    <parameter name="Implementor">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IndexIn(System.Type,System.Reflection.MethodBase)">
+    <parameter name="PossibleGenericParameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="GenericMethodDef">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsArrayType(System.Type)">
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsClass(System.Type)">
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsClassOrInterface(System.Type)">
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsClassOrValueType(System.Type)">
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsEnum(System.Type)">
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsGeneric(System.Reflection.MethodBase)">
+    <parameter name="Method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsGeneric(System.Type)">
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsGenericParameter(System.Type)">
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsInstantiatedGeneric(System.Type)">
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsInterface(System.Type)">
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsIntrinsicType(System.Type)">
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsNarrowingConversionOperator(System.Reflection.MethodBase)">
+    <parameter name="Method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsNonPublicRuntimeMember(System.Reflection.MemberInfo)">
+    <parameter name="Member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsOrInheritsFrom(System.Type,System.Type)">
+    <parameter name="Derived">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Base">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsParamArray(System.Reflection.ParameterInfo)">
+    <parameter name="Parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsRawGeneric(System.Reflection.MethodBase)">
+    <parameter name="Method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsReferenceType(System.Type)">
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsShadows(System.Reflection.MethodBase)">
+    <parameter name="Method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsShared(System.Reflection.MemberInfo)">
+    <parameter name="Member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsUserDefinedOperator(System.Reflection.MethodBase)">
+    <parameter name="Method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.IsValueType(System.Type)">
+    <parameter name="Type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.MapToUserDefinedOperator(System.Reflection.MethodBase)">
+    <parameter name="Method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.MapTypeCodeToType(System.TypeCode)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.Method.AsMethod">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.Method.AsProperty">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.VisualBasic.CompilerServices.Symbols.Method.DeclaringType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.VisualBasic.CompilerServices.Symbols.Method.RawDeclaringType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.RefersToGenericParameter(System.Type,System.Reflection.MethodBase)">
+    <parameter name="ReferringType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Symbols.RefersToGenericParameterCLRSemantics(System.Type,System.Type)">
+    <parameter name="ReferringType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.CopyArray(System.Array,System.Array)">
+    <parameter name="aryDest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.FieldToString(System.Reflection.FieldInfo)">
+    <parameter name="Field">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.GetArraySuffixAndElementType(System.Type@)">
+    <parameter name="typ">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.GetCultureInfo">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.GetDateTimeFormatInfo">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.GetGenericArgsSuffix(System.Type)">
+    <parameter name="typ">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.GetInvariantCultureInfo">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.GetResourceString(System.String)">
+    <parameter name="ResourceKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.GetResourceString(System.String,System.Boolean)">
+    <parameter name="ResourceKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.GetResourceString(System.String,System.String[])">
+    <parameter name="Args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ResourceKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.IsHexOrOctValue(System.String,System.Int64@)">
+    <parameter name="Value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.IsHexOrOctValue(System.String,System.UInt64@)">
+    <parameter name="Value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.MemberToString(System.Reflection.MemberInfo)">
+    <parameter name="Member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.MethodToString(System.Reflection.MethodBase)">
+    <parameter name="Method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.ParameterToString(System.Reflection.ParameterInfo)">
+    <parameter name="Parameter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.PropertyToString(System.Reflection.PropertyInfo)">
+    <parameter name="Prop">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.StdFormat(System.String)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Utils.UriEncode(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.VBCallBinder.FallbackInvoke(,[],)">
+    <parameter name="packedArgs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.VBCallBinder.FallbackInvokeMember(,[],)">
+    <parameter name="packedArgs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.VBGetBinder.FallbackInvoke(,[],)">
+    <parameter name="packedArgs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.VBGetBinder.FallbackInvokeMember(,[],)">
+    <parameter name="packedArgs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.VBGetMemberBinder.FallbackGetMember(,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.VBIndexSetBinder.FallbackSetIndex(,[],,)">
+    <parameter name="packedIndexes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.VBIndexSetComplexBinder.FallbackSetIndex(,[],,)">
+    <parameter name="packedIndexes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.VBInvokeBinder.FallbackInvoke(,[],)">
+    <parameter name="packedArgs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.VBInvokeDefaultBinder.FallbackInvoke(,[],)">
+    <parameter name="packedArgs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.VBInvokeDefaultFallbackBinder.FallbackGetIndex(,[],)">
+    <parameter name="packedArgs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Versioned.CallByName(System.Object,System.String,Microsoft.VisualBasic.CallType,System.Object[])">
+    <parameter name="Arguments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Instance">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Versioned.SystemTypeName(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.CompilerServices.Versioned.VbTypeName(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Conversion.CTypeDynamic(System.Object,System.Type)">
+    <parameter name="TargetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Conversion.Fix(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Number">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Conversion.Hex(System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Conversion.Hex(System.Int16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Conversion.Hex(System.Object)">
+    <parameter name="Number">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Conversion.Hex(System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Conversion.Hex(System.UInt16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Conversion.Hex(System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Conversion.HexOrOctValue(System.String,System.Int32)">
+    <parameter name="InputStr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Conversion.Int(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Number">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Conversion.Str(System.Object)">
+    <parameter name="Number">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.VisualBasic.DateAndTime.CurrentCalendar">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.DateAndTime.MonthName(System.Int32,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.DateAndTime.WeekdayName(System.Int32,System.Boolean,Microsoft.VisualBasic.FirstDayOfWeek)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.ErrObject.CreateException(System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.ErrObject.MapExceptionToNumber(System.Exception)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.ErrObject.MapNumberToException(System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:Microsoft.VisualBasic.ForEachEnum.Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.FormatInfoHolder.GetFormat(System.Type)">
+    <parameter name="service">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:Microsoft.VisualBasic.Globals.ScriptEngine">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Interaction.Choose(System.Double,System.Object[])">
+    <parameter name="Choice">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.MSCorLibWorkarounds.DoubleTryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Double@)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.AscW(System.String)">
+    <parameter name="String">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.Filter(System.Object[],System.String,System.Boolean,Microsoft.VisualBasic.CompareMethod)">
+    <parameter name="Source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.Filter(System.String[],System.String,System.Boolean,Microsoft.VisualBasic.CompareMethod)">
+    <parameter name="Source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.FormatCurrency(System.Object,System.Int32,Microsoft.VisualBasic.TriState,Microsoft.VisualBasic.TriState,Microsoft.VisualBasic.TriState)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.FormatNamed(System.Object,System.String,System.String@)">
+    <parameter name="Style">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.FormatNumber(System.Object,System.Int32,Microsoft.VisualBasic.TriState,Microsoft.VisualBasic.TriState,Microsoft.VisualBasic.TriState)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.FormatPercent(System.Object,System.Int32,Microsoft.VisualBasic.TriState,Microsoft.VisualBasic.TriState,Microsoft.VisualBasic.TriState)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.GetChar(System.String,System.Int32)">
+    <parameter name="str">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.GetCurrencyFormatString(Microsoft.VisualBasic.TriState,System.Int32,Microsoft.VisualBasic.TriState,Microsoft.VisualBasic.TriState,System.IFormatProvider@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.InternalStrReverse(System.String,System.Int32,System.Int32)">
+    <parameter name="Expression">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.Join(System.Object[],System.String)">
+    <parameter name="SourceArray">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.Join(System.String[],System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="SourceArray">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.LCase(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.Left(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.LSet(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.LTrim(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.Mid(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.ReplaceInternal(System.String,System.String,System.String,System.Int32,Microsoft.VisualBasic.CompareMethod)">
+    <parameter name="Expression">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Find">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.Right(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.RSet(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.RTrim(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.Space(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.SplitHelper(System.String,System.String,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.StrDup(System.Int32,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.StrDup(System.Int32,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Character">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.StrDup(System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="Character">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.Trim(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.VisualBasic.Strings.UCase(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>

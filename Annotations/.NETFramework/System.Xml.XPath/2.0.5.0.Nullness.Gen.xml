@@ -1,0 +1,1613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Xml.XPath, Version=2.0.5.0">
+  <member name="M:MS.Internal.Xml.XPath.AbsoluteQuery.#ctor(MS.Internal.Xml.XPath.AbsoluteQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.AttributeQuery.#ctor(MS.Internal.Xml.XPath.AttributeQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.AttributeQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType)">
+    <parameter name="Name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.BaseAxisQuery.#ctor(MS.Internal.Xml.XPath.BaseAxisQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.BaseAxisQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.BaseAxisQuery.matches(System.Xml.XPath.XPathNavigator)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.BooleanExpr.#ctor(MS.Internal.Xml.XPath.BooleanExpr)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.BooleanExpr.#ctor(MS.Internal.Xml.XPath.Operator.Op,MS.Internal.Xml.XPath.Query,MS.Internal.Xml.XPath.Query)">
+    <parameter name="opnd1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="opnd2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.BooleanFunctions.#ctor(MS.Internal.Xml.XPath.BooleanFunctions)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.BooleanFunctions.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.BooleanFunctions.Lang(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.BooleanFunctions.Not(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.BooleanFunctions.toBoolean(System.String)">
+    <parameter name="str">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.BooleanFunctions.toBoolean(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.CacheAxisQuery.#ctor(MS.Internal.Xml.XPath.CacheAxisQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.CacheAxisQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.CacheAxisQuery.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.CacheChildrenQuery.#ctor(MS.Internal.Xml.XPath.CacheChildrenQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.CacheChildrenQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.CacheChildrenQuery.GetNextInput">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.CacheOutputQuery.#ctor(MS.Internal.Xml.XPath.CacheOutputQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ChildrenQuery.#ctor(MS.Internal.Xml.XPath.ChildrenQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ChildrenQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ClonableStack`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+    <parameter name="collection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ClonableStack`1.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Xml.XPath.CompiledXpathExpr.UndefinedXsltContext.DefaultNamespace">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.CompiledXpathExpr.UndefinedXsltContext.LookupNamespace(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ContextQuery.#ctor(MS.Internal.Xml.XPath.ContextQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ContextQuery.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.DescendantBaseQuery.#ctor(MS.Internal.Xml.XPath.DescendantBaseQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.DescendantBaseQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType,System.Boolean,System.Boolean)">
+    <parameter name="Name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.DescendantOverDescendantQuery.#ctor(MS.Internal.Xml.XPath.DescendantOverDescendantQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.DescendantOverDescendantQuery.#ctor(MS.Internal.Xml.XPath.Query,System.Boolean,System.String,System.String,System.Xml.XPath.XPathNodeType,System.Boolean)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.DescendantQuery.#ctor(MS.Internal.Xml.XPath.DescendantQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.DescendantQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType,System.Boolean,System.Boolean)">
+    <parameter name="Name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.DocumentOrderQuery.#ctor(MS.Internal.Xml.XPath.DocumentOrderQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.DocumentOrderQuery.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.EmptyQuery.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ExtensionQuery.#ctor(MS.Internal.Xml.XPath.ExtensionQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ExtensionQuery.ProcessResult(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.FilterQuery.#ctor(MS.Internal.Xml.XPath.FilterQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.FollowingQuery.#ctor(MS.Internal.Xml.XPath.FollowingQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.FollowingQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.FollSiblingQuery.#ctor(MS.Internal.Xml.XPath.FollSiblingQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.FollSiblingQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.FollSiblingQuery.FetchInput">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.FollSiblingQuery.Visited(System.Xml.XPath.XPathNavigator)">
+    <parameter name="nav">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ForwardPositionQuery.#ctor(MS.Internal.Xml.XPath.ForwardPositionQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ForwardPositionQuery.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.Function.#ctor(MS.Internal.Xml.XPath.Function.FunctionType,System.Collections.Generic.List{System.Object})">
+    <parameter name="argumentList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.Function.#ctor(System.String,System.String,System.Collections.Generic.List{System.Object})">
+    <parameter name="argumentList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.FunctionQuery.#ctor(MS.Internal.Xml.XPath.FunctionQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.FunctionQuery.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.GroupQuery.#ctor(MS.Internal.Xml.XPath.GroupQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.IDQuery.#ctor(MS.Internal.Xml.XPath.IDQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.IDQuery.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.IDQuery.ProcessIds(System.Xml.XPath.XPathNavigator,System.String)">
+    <parameter name="contextNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="val">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.IteratorFilter.#ctor(MS.Internal.Xml.XPath.IteratorFilter)">
+    <parameter name="it">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.#ctor(MS.Internal.Xml.XPath.LogicalExpr)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpBoolBoolE(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpBoolBoolO(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpBoolNumberE(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpBoolNumberO(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpBoolStringE(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpBoolStringO(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpNumberNumber(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpQueryBoolE(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpQueryBoolO(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpQueryNumber(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpRtfBoolE(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpRtfBoolO(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpRtfNumber(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpRtfQueryE(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpRtfQueryO(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpRtfRtfE(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpRtfRtfO(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpRtfStringE(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpRtfStringO(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.cmpStringNumber(MS.Internal.Xml.XPath.Operator.Op,System.Object,System.Object)">
+    <parameter name="val2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.LogicalExpr.Rtf(System.Object)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.MergeFilterQuery.#ctor(MS.Internal.Xml.XPath.MergeFilterQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.MergeFilterQuery.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.NamespaceQuery.#ctor(MS.Internal.Xml.XPath.NamespaceQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.NamespaceQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType)">
+    <parameter name="Name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.NodeFunctions.EvaluateArg(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.NumberFunctions.#ctor(MS.Internal.Xml.XPath.NumberFunctions)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.NumberFunctions.Ceiling(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.NumberFunctions.Floor(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.NumberFunctions.Number(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.NumberFunctions.Round(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.NumberFunctions.Sum(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.NumericExpr.#ctor(MS.Internal.Xml.XPath.NumericExpr)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.NumericExpr.#ctor(MS.Internal.Xml.XPath.Operator.Op,MS.Internal.Xml.XPath.Query,MS.Internal.Xml.XPath.Query)">
+    <parameter name="opnd1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="opnd2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.NumericExpr.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.OperandQuery.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ParentQuery.#ctor(MS.Internal.Xml.XPath.ParentQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ParentQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType)">
+    <parameter name="Name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.PrecedingQuery.#ctor(MS.Internal.Xml.XPath.PrecedingQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.PrecedingQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.PreSiblingQuery.#ctor(MS.Internal.Xml.XPath.PreSiblingQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.PreSiblingQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.PreSiblingQuery.NotVisited(System.Xml.XPath.XPathNavigator,System.Collections.Generic.List{System.Xml.XPath.XPathNavigator})">
+    <parameter name="nav">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parentStk">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.Query.#ctor(MS.Internal.Xml.XPath.Query)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.Query.Advance">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.Query.AssertDOD(System.Collections.Generic.List{System.Xml.XPath.XPathNavigator},System.Xml.XPath.XPathNavigator,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="nav">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.Query.Clone(MS.Internal.Xml.XPath.Query)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.Query.Clone(System.Xml.XPath.XPathNavigator)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.Query.Clone(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.Query.CompareNodes(System.Xml.XPath.XPathNavigator,System.Xml.XPath.XPathNavigator)">
+    <parameter name="l">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="r">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.Query.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.Query.Insert(System.Collections.Generic.List{System.Xml.XPath.XPathNavigator},System.Xml.XPath.XPathNavigator)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="nav">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.Query.MatchNode(System.Xml.XPath.XPathNavigator)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.Query.SetXsltContext(System.Xml.Xsl.XsltContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.QueryBuilder.Build(MS.Internal.Xml.XPath.AstNode,System.String)">
+    <parameter name="root">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.QueryBuilder.Build(System.String,System.Boolean,System.Boolean)">
+    <parameter name="query">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.QueryBuilder.Build(System.String,System.Boolean@)">
+    <parameter name="query">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.QueryBuilder.BuildPatternQuery(System.String,System.Boolean,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="query">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.QueryBuilder.BuildPatternQuery(System.String,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="query">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.QueryBuilder.CanBeNumber(MS.Internal.Xml.XPath.Query)">
+    <parameter name="q">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.QueryBuilder.ProcessArguments(System.Collections.Generic.List{System.Object},MS.Internal.Xml.XPath.QueryBuilder.Props@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.QueryBuilder.ProcessAxis(MS.Internal.Xml.XPath.Axis,MS.Internal.Xml.XPath.QueryBuilder.Flags,MS.Internal.Xml.XPath.QueryBuilder.Props@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="root">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.QueryBuilder.ProcessFilter(MS.Internal.Xml.XPath.Filter,MS.Internal.Xml.XPath.QueryBuilder.Flags,MS.Internal.Xml.XPath.QueryBuilder.Props@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="root">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.QueryBuilder.ProcessFunction(MS.Internal.Xml.XPath.Function,MS.Internal.Xml.XPath.QueryBuilder.Props@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="root">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.QueryBuilder.ProcessNode(MS.Internal.Xml.XPath.AstNode,MS.Internal.Xml.XPath.QueryBuilder.Flags,MS.Internal.Xml.XPath.QueryBuilder.Props@)">
+    <parameter name="root">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.QueryBuilder.ProcessOperator(MS.Internal.Xml.XPath.Operator,MS.Internal.Xml.XPath.QueryBuilder.Props@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="root">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.QueryBuilder.ProcessVariable(MS.Internal.Xml.XPath.Variable)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="root">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ResetableIterator.#ctor(MS.Internal.Xml.XPath.ResetableIterator)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ReversePositionQuery.#ctor(MS.Internal.Xml.XPath.ReversePositionQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.SortQuery.#ctor(MS.Internal.Xml.XPath.SortQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.SortQuery.AddSort(MS.Internal.Xml.XPath.Query,System.Collections.IComparer)">
+    <parameter name="evalQuery">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.SortQuery.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.StringFunctions.#ctor(MS.Internal.Xml.XPath.StringFunctions)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.StringFunctions.Concat(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.StringFunctions.Contains(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.StringFunctions.Normalize(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.StringFunctions.StartsWith(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.StringFunctions.StringLength(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.StringFunctions.Substring(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.StringFunctions.SubstringAfter(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.StringFunctions.SubstringBefore(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.StringFunctions.toString(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.StringFunctions.toString(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.StringFunctions.Translate(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.UnionExpr.#ctor(MS.Internal.Xml.XPath.UnionExpr)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.UnionExpr.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.ValueQuery.#ctor(MS.Internal.Xml.XPath.ValueQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.VariableQuery.#ctor(MS.Internal.Xml.XPath.VariableQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.VariableQuery.Evaluate(System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathAncestorIterator.#ctor(MS.Internal.Xml.XPath.XPathAncestorIterator)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathAncestorIterator.#ctor(System.Xml.XPath.XPathNavigator,System.String,System.String,System.Boolean)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="namespaceURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathAncestorQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType,System.Boolean)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathAncestorQuery.#ctor(MS.Internal.Xml.XPath.XPathAncestorQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathArrayIterator.#ctor(MS.Internal.Xml.XPath.XPathArrayIterator)">
+    <parameter name="it">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathArrayIterator.#ctor(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="nodeIterator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MS.Internal.Xml.XPath.XPathArrayIterator.debuggerDisplayProxy">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathAxisIterator.#ctor(MS.Internal.Xml.XPath.XPathAxisIterator)">
+    <parameter name="it">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathAxisIterator.#ctor(System.Xml.XPath.XPathNavigator,System.String,System.String,System.Boolean)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="namespaceURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathChildIterator.#ctor(MS.Internal.Xml.XPath.XPathChildIterator)">
+    <parameter name="it">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathChildIterator.#ctor(System.Xml.XPath.XPathNavigator,System.String,System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="namespaceURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathComparerHelper.Compare(System.Object,System.Object)">
+    <parameter name="y">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="x">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathDescendantIterator.#ctor(MS.Internal.Xml.XPath.XPathDescendantIterator)">
+    <parameter name="it">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathDescendantIterator.#ctor(System.Xml.XPath.XPathNavigator,System.String,System.String,System.Boolean)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="namespaceURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.CreateAxesTable">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.CreateFunctionTable">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.GetAxis(MS.Internal.Xml.XPath.XPathScanner)">
+    <parameter name="scaner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.IsNodeType(MS.Internal.Xml.XPath.XPathScanner)">
+    <parameter name="scaner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.IsPrimaryExpr(MS.Internal.Xml.XPath.XPathScanner)">
+    <parameter name="scanner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.ParseFilterExpr(MS.Internal.Xml.XPath.AstNode)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.ParseIdKeyPattern(MS.Internal.Xml.XPath.AstNode)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.ParseMethod(MS.Internal.Xml.XPath.AstNode)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.ParseNodeTest(MS.Internal.Xml.XPath.AstNode,MS.Internal.Xml.XPath.Axis.AxisType,System.Xml.XPath.XPathNodeType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.ParsePredicate(MS.Internal.Xml.XPath.AstNode)">
+    <parameter name="qyInput">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.ParsePrimaryExpr(MS.Internal.Xml.XPath.AstNode)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.ParseStep(MS.Internal.Xml.XPath.AstNode)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.ParseStepPattern(MS.Internal.Xml.XPath.AstNode)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.ParseXPathExpresion(System.String)">
+    <parameter name="xpathExpresion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathParser.ParseXPathPattern(System.String)">
+    <parameter name="xpathPattern">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathScanner.#ctor(System.String)">
+    <parameter name="xpathExpr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathScanner.ScanName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathScanner.ScanString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathSelectionIterator.#ctor(MS.Internal.Xml.XPath.XPathSelectionIterator)">
+    <parameter name="it">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathSelectionIterator.#ctor(System.Xml.XPath.XPathNavigator,MS.Internal.Xml.XPath.Query)">
+    <parameter name="nav">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathSelfQuery.#ctor(MS.Internal.Xml.XPath.Query,System.String,System.String,System.Xml.XPath.XPathNodeType)">
+    <parameter name="Name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="Prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathSelfQuery.#ctor(MS.Internal.Xml.XPath.XPathSelfQuery)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathSingletonIterator.#ctor(MS.Internal.Xml.XPath.XPathSingletonIterator)">
+    <parameter name="it">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathSortComparer.AddSort(MS.Internal.Xml.XPath.Query,System.Collections.IComparer)">
+    <parameter name="evalQuery">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathSortComparer.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Xml.XPath.XPathSortComparer.System#Collections#Generic#IComparer{MS#Internal#Xml#XPath#SortKey}#Compare(MS.Internal.Xml.XPath.SortKey,MS.Internal.Xml.XPath.SortKey)">
+    <parameter name="x">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="y">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.BufferBuilder.Append(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XmlCharType.IsOnlyDigits(System.Char[],System.Int32,System.Int32)">
+    <parameter name="chars">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XmlCharType.IsOnlyDigits(System.String,System.Int32,System.Int32)">
+    <parameter name="str">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XmlCharType.SetProperties(System.String,System.Byte)">
+    <parameter name="ranges">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.Extensions.CreateNavigator(,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.Extensions.XPathEvaluate(,System.String,)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.Extensions.XPathSelectElements(,System.String,)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Xml.XPath.Res.Culture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.Res.GetObject(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.Res.GetString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.Res.GetString(System.String,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.Res.GetString(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.ResCategoryAttribute.GetLocalizedString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.ValidateNames.IsNameNoNamespaces(System.String)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.ValidateNames.IsNmtokenNoNamespaces(System.String)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.ValidateNames.ParseNameNoNamespaces(System.String,System.Int32)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.ValidateNames.ParseNCName(System.String)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.ValidateNames.ParseNCName(System.String,System.Int32)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.ValidateNames.ParseNCNameInternal(System.String,System.Boolean)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.ValidateNames.ParseNCNameThrow(System.String)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.ValidateNames.ParseNmtokenNoNamespaces(System.String,System.Int32)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.ValidateNames.ParseQName(System.String,System.Int32,System.Int32@)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.ValidateNames.ParseQNameThrow(System.String,System.String@,System.String@)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.ValidateNames.SplitQName(System.String,System.String@,System.String@)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.ValidateNames.ThrowInvalidName(System.String,System.Int32,System.Int32)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Xml.XPath.XmlEmptyNavigator.BaseURI">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Xml.XPath.XmlEmptyNavigator.LocalName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Xml.XPath.XmlEmptyNavigator.Name">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Xml.XPath.XmlEmptyNavigator.NamespaceURI">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Xml.XPath.XmlEmptyNavigator.NameTable">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Xml.XPath.XmlEmptyNavigator.Prefix">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Xml.XPath.XmlEmptyNavigator.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Xml.XPath.XmlEmptyNavigator.XmlLang">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XmlExceptionHelper.BuildCharExceptionArgs(System.Char,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XmlExceptionHelper.BuildCharExceptionArgs(System.Char[],System.Int32)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XmlExceptionHelper.BuildCharExceptionArgs(System.Char[],System.Int32,System.Int32)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XmlExceptionHelper.BuildCharExceptionArgs(System.String,System.Int32)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XNodeNavigator.#ctor(System.Xml.XPath.XNodeNavigator)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XNodeNavigator.CreateNameTable">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XNodeNavigator.GetFirstNamespaceDeclarationGlobal()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XNodeNavigator.GetFirstNamespaceDeclarationLocal()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XNodeNavigator.GetNextNamespaceDeclarationGlobal()">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XNodeNavigator.IsSamePosition(System.Xml.XPath.XNodeNavigator,System.Xml.XPath.XNodeNavigator)">
+    <parameter name="n1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="n2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathConvert.EscapeValueForDebuggerDisplay(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathConvert.SplitString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathConvert.TrimString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathException.#ctor(System.String,System.String[])">
+    <parameter name="res">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathException.#ctor(System.String,System.String[],System.Exception)">
+    <parameter name="res">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathException.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathException.Create(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="res">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathException.Create(System.String,System.String,System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="res">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathException.Create(System.String,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="res">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathException.CreateMessage(System.String,System.String[])">
+    <parameter name="res">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathExpression.AddSort(System.Object,System.Collections.IComparer)">
+    <parameter name="expr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathExpression.AddSort(System.Object,System.Xml.XPath.XmlSortOrder,System.Xml.XPath.XmlCaseOrder,System.String,System.Xml.XPath.XmlDataType)">
+    <parameter name="expr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathExpression.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathExpression.Compile(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="xpath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathExpression.Compile(System.String,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="xpath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathExtensions.WriteLocalNamespaces(,System.Xml.XPath.XPathNavigator)">
+    <parameter name="nsNav">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathExtensions.WriteNode(,System.Xml.XPath.XPathNavigator,System.Boolean)">
+    <parameter name="navigator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.AppendChild()">
+    <parameter name="newChild">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.AppendChild(System.String)">
+    <parameter name="newChild">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.AppendChild(System.Xml.XPath.XPathNavigator)">
+    <parameter name="newChild">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.CompareSiblings(System.Xml.XPath.XPathNavigator,System.Xml.XPath.XPathNavigator)">
+    <parameter name="n1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="n2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.Compile(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="xpath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.CompileMatchPattern(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="xpath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.CreateContextReader(System.String,System.Boolean)">
+    <parameter name="xml">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.CreateNavigator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.CreateReader">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Xml.XPath.XPathNavigator.debuggerDisplayProxy">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.Evaluate(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xpath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.Evaluate(System.String,)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xpath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.Evaluate(System.Xml.XPath.XPathExpression)">
+    <parameter name="expr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.Evaluate(System.Xml.XPath.XPathExpression,System.Xml.XPath.XPathNodeIterator)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="expr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.GetAttribute(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.GetDepth(System.Xml.XPath.XPathNavigator)">
+    <parameter name="nav">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.GetNamespace(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.GetNamespaces()">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.InsertAfter()">
+    <parameter name="newSibling">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.InsertAfter(System.String)">
+    <parameter name="newSibling">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.InsertAfter(System.Xml.XPath.XPathNavigator)">
+    <parameter name="newSibling">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.InsertBefore()">
+    <parameter name="newSibling">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.InsertBefore(System.String)">
+    <parameter name="newSibling">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.InsertBefore(System.Xml.XPath.XPathNavigator)">
+    <parameter name="newSibling">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.Matches(System.String)">
+    <parameter name="xpath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.Matches(System.Xml.XPath.XPathExpression)">
+    <parameter name="expr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.PrependChild()">
+    <parameter name="newChild">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.PrependChild(System.String)">
+    <parameter name="newChild">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.PrependChild(System.Xml.XPath.XPathNavigator)">
+    <parameter name="newChild">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.ReadSubtree">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.ReplaceSelf()">
+    <parameter name="newNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.ReplaceSelf(System.String)">
+    <parameter name="newNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.ReplaceSelf(System.Xml.XPath.XPathNavigator)">
+    <parameter name="newNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.Select(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="xpath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.Select(System.String,)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="xpath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.Select(System.Xml.XPath.XPathExpression)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.SelectAncestors(System.String,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="namespaceURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.SelectAncestors(System.Xml.XPath.XPathNodeType,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.SelectChildren(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="namespaceURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.SelectChildren(System.Xml.XPath.XPathNodeType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.SelectDescendants(System.String,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="namespaceURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.SelectDescendants(System.Xml.XPath.XPathNodeType,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.SelectSingleNode(System.String)">
+    <parameter name="xpath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.SelectSingleNode(System.String,)">
+    <parameter name="xpath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.SelectSingleNode(System.Xml.XPath.XPathExpression)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Xml.XPath.XPathNavigator.UnderlyingObject">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Xml.XPath.XPathNavigator.UniqueId">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigator.WriteSubtree()">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigatorKeyComparer.System#Collections#IEqualityComparer#GetHashCode(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigatorReader.Create(System.Xml.XPath.XPathNavigator)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="navToRead">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigatorReader.GetAttribute(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigatorReader.GetAttribute(System.String,System.String)">
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigatorReader.GetNamespaceByIndex(System.Xml.XPath.XPathNavigator,System.Int32,System.Int32@)">
+    <parameter name="nav">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigatorReader.MoveToAttribute(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Xml.XPath.XPathNavigatorReader.MoveToAttribute(System.String,System.String)">
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Xml.XPath.XPathNavigatorReader.Settings">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Xml.XPath.XPathNavigatorReader.UnderlyingObject">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNodeIterator.Clone">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Xml.XPath.XPathNodeIterator.Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Xml.XPath.XPathNodeIterator.debuggerDisplayProxy">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNodeIterator.DebuggerDisplayProxy.ToString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Xml.XPath.XPathNodeIterator.Enumerator.#ctor(System.Xml.XPath.XPathNodeIterator)">
+    <parameter name="original">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Xml.XPath.XPathNodeIterator.Enumerator.Current">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>

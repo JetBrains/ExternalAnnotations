@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="Microsoft.Vsa.Vb.CodeDOMProcessor, Version=8.0.0.0">
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.BuildCodeDOM(System.Xml.XmlDocument)">
+    <parameter name="doc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.BuildCodeDOMFromNamespaceNode(System.Xml.XmlNode)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.CodeDOMFromXML(System.String)">
+    <parameter name="xmlStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.DecodeId(System.String,Microsoft.Vsa.Vb.CodeDOM.Location@,Microsoft.Vsa.Vb.CodeDOM.Location@)">
+    <parameter name="loc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="locEnd">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.DecodeNumber(System.String,System.UInt32,System.UInt32[]@)">
+    <parameter name="strBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="u">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.FindRootNamespace(System.Xml.XmlNode)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="nodeDeclarations">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.GetClassAttributes(System.CodeDom.CodeTypeDeclaration@,System.Xml.XmlNode)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.GetClassesOfNamespace(System.CodeDom.CodeNamespace@,System.Xml.XmlNode)">
+    <parameter name="ns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.GetClassType(System.CodeDom.CodeTypeDeclaration@,System.Xml.XmlNode)">
+    <parameter name="cls">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.GetFullyQualifiedNamespaceName(System.String@,System.Xml.XmlNode)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.GetId(System.CodeDom.CodeObject@,System.Xml.XmlNode)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.GetMembersOfClass(System.CodeDom.CodeTypeDeclaration@,System.Xml.XmlNode)">
+    <parameter name="cls">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.GetMemberVisibility(System.CodeDom.CodeTypeMember@,System.Xml.XmlNode)">
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.GetMemberVisibility(System.Xml.XmlNode)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.GetMethodAttributes(System.CodeDom.CodeMemberMethod@,System.Xml.XmlNode)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.GetMethodParams(System.CodeDom.CodeMemberMethod@,System.Xml.XmlNode)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.GetMethodReturnType(System.CodeDom.CodeMemberMethod@,System.Xml.XmlNode)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.GetMethodShared(System.CodeDom.CodeMemberMethod@,System.Xml.XmlNode)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.GetOptionalAttributeOfParam(System.CodeDom.CodeParameterDeclarationExpression@,System.Xml.XmlNode)">
+    <parameter name="param">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Vsa.Vb.CodeDOM.CodeDOMProcessor.IsNodeShared(System.Xml.XmlNode)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>

@@ -1,0 +1,2919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="PresentationBuildTasks, Version=3.0.0.0">
+  <member name="M:Microsoft.Build.Tasks.Windows.FileClassifier.CLRResourceFileClassifier(System.Collections.ArrayList@,System.Collections.ArrayList@)">
+    <parameter name="clrEmbeddedResourceList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="clrSatelliteEmbeddedResourceList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.FileClassifier.DoFileClassifier(System.Collections.ArrayList,System.Collections.ArrayList)">
+    <parameter name="mainEmbeddedList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="satelliteEmbeddedList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.FileClassifier.IsItemLocalizable(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="fileItem">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.MarkupCompilePass1.GenerateBamlItem(System.String,Microsoft.Build.Framework.ITaskItem)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.MarkupCompilePass1.GenerateLocalTypeItem(System.String,Microsoft.Build.Framework.ITaskItem[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="inputXamlItemList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.MarkupCompilePass1.GenerateOutputItemsForCompiledXamlFiles(Microsoft.Build.Framework.ITaskItem[],System.String[],System.Collections.ArrayList@,System.Collections.ArrayList@,System.Collections.ArrayList@)">
+    <parameter name="inputXamlItemList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="outputBamlFileList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.MarkupCompilePass1.GetResolvedFilePath(System.String,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.MarkupCompilePass1.IsItemLocalizable(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="ti">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.MarkupCompilePass1.IsValidInputFile(System.String)">
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.MarkupCompilePass1.ProcessLocFileForXamlItem(Microsoft.Build.Framework.ITaskItem)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xamlItem">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.MarkupCompilePass1.ProcessReferenceList">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.MarkupCompilePass1.VerifyInputTaskItems(Microsoft.Build.Framework.ITaskItem[])">
+    <parameter name="inputItems">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.MarkupCompilePass2.GenerateBamlItem(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.MarkupCompilePass2.GetResolvedFilePath(System.String,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.ResourcesGenerator.GetResourceIdForResourceFile(Microsoft.Build.Framework.ITaskItem)">
+    <parameter name="resFile">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.ResourcesGenerator.ValidResourceFiles(Microsoft.Build.Framework.ITaskItem[])">
+    <parameter name="inputFiles">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.UidCollector.AddUid(Microsoft.Build.Tasks.Windows.Uid)">
+    <parameter name="uid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.UidCollector.GetAvailableUid(Microsoft.Build.Tasks.Windows.Uid)">
+    <parameter name="uid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.UidCollector.GetElementLocalName(System.String)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.UidCollector.StoreUid(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.UidManager.ParseFile(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.UidManager.RemoveFile(System.String)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.UidManager.RenameFile(System.String,System.String)">
+    <parameter name="src">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.UidManager.VerifyUid(Microsoft.Build.Tasks.Windows.UidCollector,System.Boolean)">
+    <parameter name="collector">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.UidWriter.#ctor(Microsoft.Build.Tasks.Windows.UidCollector,System.IO.Stream,System.IO.Stream)">
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.UidWriter.EscapeMatch(System.Text.RegularExpressions.Match)">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.UidWriter.LineBuffer.ReadToEnd">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.UidWriter.WriteNewAttributeValue(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.Build.Tasks.Windows.UidWriter.WriteNewUid(Microsoft.Build.Tasks.Windows.Uid)">
+    <parameter name="uid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.CompilerWrapper.GetResolvedFilePath(System.String,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.CompilerWrapper.OnCompilerError(System.Object,MS.Internal.MarkupErrorEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.CompilerWrapper.OnSourceFileResolve(System.Object,MS.Internal.SourceFileResolveEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Globalization.LocComments.EnumNameIndexTable.TryGet(System.String,System.Int32@)">
+    <parameter name="enumName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Globalization.LocComments.LookupAndSetLocalizabilityAttribute(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Globalization.LocComments.ParseLocalizabilityString(System.String,MS.Internal.Globalization.LocalizabilityGroup)">
+    <parameter name="attributeGroup">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Globalization.LocComments.ParsePropertyComments(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Globalization.LocComments.ParsePropertyLocalizabilityAttributes(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.IO.Packaging.CompoundFile.ContainerUtilities.CheckAgainstNull(System.Object,System.String)">
+    <parameter name="paramRef">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.IO.Packaging.CompoundFile.FormatVersion.#ctor(System.String,MS.Internal.IO.Packaging.CompoundFile.VersionPair)">
+    <parameter name="version">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="featureId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.IO.Packaging.CompoundFile.FormatVersion.#ctor(System.String,MS.Internal.IO.Packaging.CompoundFile.VersionPair,MS.Internal.IO.Packaging.CompoundFile.VersionPair,MS.Internal.IO.Packaging.CompoundFile.VersionPair)">
+    <parameter name="featureId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writerVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="readerVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="updaterVersion">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.IO.Packaging.CompoundFile.VersionPair.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.AbbreviatedGeometryParser.ParseToGeometryContext(MS.Internal.Markup.StreamGeometryContext,System.String,System.Int32)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="pathString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.AssemblyInfoKey.Equals(System.Object)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlBinaryWriter.#ctor(System.IO.Stream,System.Text.Encoding)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="code">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlDefAttributeKeyStringRecord.MS#Internal#Markup#IBamlDictionaryKey#UpdateValuePosition(System.Int32,System.IO.BinaryWriter)">
+    <parameter name="bamlBinaryWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlDefAttributeKeyTypeRecord.MS#Internal#Markup#IBamlDictionaryKey#UpdateValuePosition(System.Int32,System.IO.BinaryWriter)">
+    <parameter name="bamlBinaryWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlDeferableContentStartRecord.UpdateContentSize(System.Int32,System.IO.BinaryWriter)">
+    <parameter name="bamlBinaryWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlDocumentStartRecord.UpdateWrite(System.IO.BinaryWriter)">
+    <parameter name="bamlBinaryWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.AddAttributeInfoMap(System.IO.BinaryWriter,System.String,System.String,System.Type,System.String,System.Type,MS.Internal.Markup.BamlAttributeUsage)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.AddAttributeInfoMap(System.IO.BinaryWriter,System.String,System.String,System.Type,System.String,System.Type,MS.Internal.Markup.BamlAttributeUsage,MS.Internal.Markup.BamlAttributeInfoRecord@)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.AddStringInfoMap(System.IO.BinaryWriter,System.String)">
+    <parameter name="stringValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.AddTypeInfoMap(System.IO.BinaryWriter,System.String,System.String,System.Type,System.String,System.String)">
+    <parameter name="serializerTypeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.EnsureAssemblyRecord(System.Reflection.Assembly)">
+    <parameter name="asm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.GetAssemblyFromAssemblyInfo(MS.Internal.Markup.BamlAssemblyInfoRecord)">
+    <parameter name="assemblyInfoRecord">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.GetAttributeOrTypeId(System.IO.BinaryWriter,System.Type,System.String,System.Int16@)">
+    <parameter name="declaringType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.GetCustomConverter(System.Object,System.Type,System.String,System.Type)">
+    <parameter name="ownerType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.GetCustomSerializer(System.Type,System.Int16@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.GetCustomSerializerOrConverter(System.IO.BinaryWriter,System.Type,System.Type,System.Object,System.String,System.Int16@,System.Type@)">
+    <parameter name="ownerType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.GetHashTableData(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.GetKnownConverterTypeFromPropName(System.Type,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.GetKnownConverterTypeFromType(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.GetKnownTypeFromId(System.Int16)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.GetStaticMemberId(System.IO.BinaryWriter,MS.Internal.Markup.ParserContext,System.Int16,System.String,System.Type)">
+    <parameter name="pc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="memberValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.GetStringInfoId(System.String,System.Int16@)">
+    <parameter name="stringValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlMapTable.GetTypeInfoId(System.IO.BinaryWriter,System.String,System.String,System.Int16@)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecord.WriteRecordData(System.IO.BinaryWriter)">
+    <parameter name="bamlBinaryWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordManager.AllocateRecord(MS.Internal.Markup.BamlRecordType)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordManager.AllocateWriteRecord(MS.Internal.Markup.BamlRecordType)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordManager.GetPropertyStartRecordType(System.Type,System.Boolean)">
+    <parameter name="propertyType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordManager.GetWriteRecord(MS.Internal.Markup.BamlRecordType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordManager.ReleaseWriteRecord(MS.Internal.Markup.BamlRecord)">
+    <parameter name="record">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.#ctor(System.IO.Stream,MS.Internal.Markup.ParserContext,System.Boolean)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parserContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.BaseWriteProperty(MS.Internal.Markup.XamlPropertyNode)">
+    <parameter name="xamlProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.FindBamlDictionaryKey(MS.Internal.Markup.BamlRecordWriter.KeyDeferRecord)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Markup.BamlRecordWriter.KeyDeferRecord.StaticResourceRecordList">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Markup.BamlRecordWriter.LineAndPositionRecord">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Markup.BamlRecordWriter.LinePositionRecord">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Markup.BamlRecordWriter.TypeConvertContext">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteAndReleaseRecord(MS.Internal.Markup.BamlRecord,MS.Internal.Markup.XamlNode)">
+    <parameter name="bamlRecord">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteBamlRecord(MS.Internal.Markup.BamlRecord,System.Int32,System.Int32)">
+    <parameter name="bamlRecord">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteConstructorParameterType(MS.Internal.Markup.XamlConstructorParameterTypeNode)">
+    <parameter name="xamlConstructorParameterTypeNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteContentProperty(MS.Internal.Markup.XamlContentPropertyNode)">
+    <parameter name="xamlContentPropertyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteDefAttribute(MS.Internal.Markup.XamlDefAttributeNode)">
+    <parameter name="xamlDefNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteDefAttributeKeyType(MS.Internal.Markup.XamlDefAttributeKeyTypeNode)">
+    <parameter name="xamlDefNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteDeferableContent(MS.Internal.Markup.XamlElementEndNode)">
+    <parameter name="xamlNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteDocumentEnd(MS.Internal.Markup.XamlDocumentEndNode)">
+    <parameter name="xamlDocumentEndNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteDocumentStart(MS.Internal.Markup.XamlDocumentStartNode)">
+    <parameter name="xamlDocumentNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteElementEnd(MS.Internal.Markup.XamlElementEndNode)">
+    <parameter name="xamlElementEndNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteElementStart(MS.Internal.Markup.XamlElementStartNode)">
+    <parameter name="xamlElementNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteKeyElementStart(MS.Internal.Markup.XamlElementStartNode)">
+    <parameter name="xamlKeyElementNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteLiteralContent(MS.Internal.Markup.XamlLiteralContentNode)">
+    <parameter name="xamlLiteralContentNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteNamespacePrefix(MS.Internal.Markup.XamlXmlnsPropertyNode)">
+    <parameter name="xamlXmlnsPropertyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WritePIMapping(MS.Internal.Markup.XamlPIMappingNode)">
+    <parameter name="xamlPIMappingNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WritePresentationOptionsAttribute(MS.Internal.Markup.XamlPresentationOptionsAttributeNode)">
+    <parameter name="xamlPresentationOptionsNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteProperty(MS.Internal.Markup.XamlPropertyNode)">
+    <parameter name="xamlProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WritePropertyArrayStart(MS.Internal.Markup.XamlPropertyArrayStartNode)">
+    <parameter name="xamlPropertyArrayStartNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WritePropertyComplexStart(MS.Internal.Markup.XamlPropertyComplexStartNode)">
+    <parameter name="xamlComplexPropertyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WritePropertyIDictionaryStart(MS.Internal.Markup.XamlPropertyIDictionaryStartNode)">
+    <parameter name="xamlPropertyIDictionaryStartNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WritePropertyIListStart(MS.Internal.Markup.XamlPropertyIListStartNode)">
+    <parameter name="xamlPropertyIListStart">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WritePropertyWithExtension(MS.Internal.Markup.XamlPropertyWithExtensionNode)">
+    <parameter name="xamlPropertyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WritePropertyWithType(MS.Internal.Markup.XamlPropertyWithTypeNode)">
+    <parameter name="xamlPropertyWithType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlRecordWriter.WriteText(MS.Internal.Markup.XamlTextNode)">
+    <parameter name="xamlTextNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlVariableSizedRecord.WriteRecordSize(System.IO.BinaryWriter)">
+    <parameter name="bamlBinaryWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.BamlVersionHeader.WriteVersion(System.IO.BinaryWriter)">
+    <parameter name="bamlBinaryWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.KnownTypes.GetContentPropertyName(MS.Internal.Markup.KnownElements)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.AddToTokenList(System.Collections.ArrayList,System.Text.StringBuilder,System.Boolean)">
+    <parameter name="list">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.CompileAttribute(System.Collections.ArrayList,MS.Internal.Markup.AttributeData)">
+    <parameter name="xamlNodes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.CompileAttributeCore(System.Collections.ArrayList,MS.Internal.Markup.AttributeData)">
+    <parameter name="xamlNodes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.CompileAttributes(System.Collections.ArrayList,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="markupExtensionList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.CompileDictionaryKey(System.Collections.ArrayList,MS.Internal.Markup.DefAttributeData)">
+    <parameter name="xamlNodes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.CompileDictionaryKeys(System.Collections.ArrayList,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="complexDefAttributesList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.CompileProperty(System.Collections.ArrayList,System.String,System.String,System.Type,System.String,MS.Internal.Markup.AttributeData,System.Int32,System.Int32,System.Int32)">
+    <parameter name="xamlNodes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.FillAttributeData(System.Type,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="typename">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.FillDefAttributeData(System.Type,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="typename">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.GetAttributeContext(System.Type,System.String,System.String,System.String,System.Object@,System.String@,System.String@,System.Type@,System.String@)">
+    <parameter name="attributeLocalName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeNamespaceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.GetExtensionType(System.String,System.String,System.Int32,System.Int32,System.String@,System.String@,System.String@,System.Type@,System.Type@)">
+    <parameter name="typename">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.GetMarkupExtensionTypeAndArgs(System.String@,System.String@,System.String@)">
+    <parameter name="attrValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.IsMarkupExtensionAttribute(System.Type,System.String,System.String@,System.Int32,System.Int32,System.Int32,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.IsMarkupExtensionDefAttribute(System.Type,System.String@,System.Int32,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.IsSimpleExtensionArgs(System.Int32,System.Int32,System.String,System.String@)">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.LooksLikeAMarkupExtension(System.String)">
+    <parameter name="attrValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.RemoveEscapes(System.String@)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.ResolveAttributeNamespaceURI(System.String,System.String,System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.ThrowException(System.String,System.String,System.Int32,System.Int32)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.ThrowException(System.String,System.String,System.String,System.Int32,System.Int32)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.ThrowException(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.TokenizeAttributes(System.String,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.WriteConstructorParams(System.Collections.ArrayList,System.Collections.ArrayList,MS.Internal.Markup.DefAttributeData,System.Int32@)">
+    <parameter name="xamlNodes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.MarkupExtensionParser.WriteProperties(System.Collections.ArrayList,System.Collections.ArrayList,System.Int32,MS.Internal.Markup.DefAttributeData)">
+    <parameter name="xamlNodes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.NamespaceMapEntry.#ctor(System.String,System.String,System.String)">
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="clrNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.NamespaceMapEntry.#ctor(System.String,System.String,System.String,System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="clrNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.NameValidationHelper.IsValidIdentifierName(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ParserContext.ToXmlParserContext(MS.Internal.Markup.ParserContext)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="parserContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MS.Internal.Markup.ParserContext.XmlnsDictionary">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.ParserHooks.LoadNode(MS.Internal.Markup.XamlNode)">
+    <parameter name="tokenNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.Parsers.ParseStringToStreamGeometryContext(MS.Internal.Markup.StreamGeometryContext,System.String,System.IFormatProvider,System.Boolean@)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ParserStack.#ctor(System.Collections.ICollection)">
+    <parameter name="collection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ParserStreamGeometryContext.SerializeListOfPointsAndTwoBools(MS.Internal.Markup.ParserStreamGeometryContext.ParserGeometryContextOpCodes,System.Collections.Generic.IList{MS.Internal.Markup.Point},System.Boolean,System.Boolean)">
+    <parameter name="points">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.GetAlreadyReflectionOnlyLoadedAssembly(System.String)">
+    <parameter name="assemblyNameLookup">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.GetAssemblyContent(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="filepath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.GetCustomAttributeData(System.Collections.Generic.IList{System.Reflection.CustomAttributeData},System.Type,System.Type@,System.Boolean,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="list">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attrType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.GetCustomAttributeData(System.Reflection.CustomAttributeData,System.Type,System.Type@,System.Boolean,System.Boolean,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="cad">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attrType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.GetCustomAttributeData(System.Reflection.MemberInfo,System.Type,System.Type@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="mi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attrType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.GetCustomAttributeData(System.Type,System.Type,System.Boolean)">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="attrType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.GetCustomAttributeData(System.Type,System.Type,System.Boolean,System.Boolean@,System.Type@)">
+    <parameter name="attrType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.GetQualifiedType(System.String)">
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.GetSystemType(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.GetTypeConverterAttributeData(System.Reflection.MemberInfo,System.Type@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="mi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.GetTypeConverterAttributeData(System.Type,System.Type@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.HasAlreadyReflectionOnlyLoaded(System.String)">
+    <parameter name="assemblyNameLookup">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.IsFriendAssembly(System.Reflection.Assembly)">
+    <parameter name="sourceAssembly">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.IsInternalAllowedOnType(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.IsInternalType(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.IsNullableType(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.IsPublicType(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.LoadAssembly(System.String,System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="assemblyPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.ReflectionOnlyLoadAssembly(System.String,System.String)">
+    <parameter name="assemblyGivenName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="fullpath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.ReliableRead(System.IO.Stream,System.Byte[],System.Int32,System.Int32)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.ResetCacheForAssembly(System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.ReflectionHelper.SetContentLoadForAssembly(System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.StreamGeometryContext.PolyBezierTo(System.Collections.Generic.IList{MS.Internal.Markup.Point},System.Boolean,System.Boolean)">
+    <parameter name="points">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.StreamGeometryContext.PolyLineTo(System.Collections.Generic.IList{MS.Internal.Markup.Point},System.Boolean,System.Boolean)">
+    <parameter name="points">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.StreamGeometryContext.PolyQuadraticBezierTo(System.Collections.Generic.IList{MS.Internal.Markup.Point},System.Boolean,System.Boolean)">
+    <parameter name="points">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.StyleXamlParser.#ctor(MS.Internal.Markup.XamlReaderHelper,MS.Internal.Markup.ParserContext)">
+    <parameter name="tokenReader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.StyleXamlParser.GetDependencyPropertyInfo(MS.Internal.Markup.XamlPropertyNode)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xamlPropertyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.StyleXamlParser.GetPropertyOrEventInfo(MS.Internal.Markup.XamlNode,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xamlNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.StyleXamlParser.ProcessEventSetterNode(MS.Internal.Markup.XamlEndAttributesNode)">
+    <parameter name="xamlEndAttributesNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.SystemResourceKey.GetSystemResourceKeyId(System.Type,System.String)">
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="memberName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.TemplateXamlParser.#ctor(MS.Internal.Markup.XamlReaderHelper,MS.Internal.Markup.ParserContext)">
+    <parameter name="tokenReader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.TemplateXamlParser.CommonElementStartProcessing(MS.Internal.Markup.XamlNode,System.Type,MS.Internal.Markup.StyleMode@)">
+    <parameter name="xamlNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.TemplateXamlParser.GetCLRPropertyInfo(MS.Internal.Markup.XamlPropertyNode,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xamlPropertyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.TemplateXamlParser.GetDependencyPropertyInfo(MS.Internal.Markup.XamlPropertyNode)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xamlPropertyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.TemplateXamlParser.WriteDataTypeKey(MS.Internal.Markup.XamlPropertyWithTypeNode)">
+    <parameter name="xamlPropertyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.TemplateXamlParser.WritePropertyForTriggers(MS.Internal.Markup.XamlPropertyNode)">
+    <parameter name="xamlPropertyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.TokenizerHelper.#ctor(System.String,System.Char,System.Char)">
+    <parameter name="str">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.TokenizerHelper.#ctor(System.String,System.IFormatProvider)">
+    <parameter name="str">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.TokenizerHelper.GetCurrentToken">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.TokenizerHelper.Initialize(System.String,System.Char,System.Char)">
+    <parameter name="str">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.TokenizerHelper.NextTokenRequired">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.TokenizerHelper.NextTokenRequired(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.TreeBuilder.ParseFragment">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Markup.TypeConvertContext.Container">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.TypeConvertContext.GetService(System.Type)">
+    <parameter name="serviceType">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Markup.TypeConvertContext.Instance">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Markup.TypeConvertContext.PropertyDescriptor">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.TypeConverterHelper.GetConverterType(System.Reflection.MemberInfo)">
+    <parameter name="memberInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.TypeConverterHelper.GetConverterType(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.TypeConverterHelper.GetConverterTypeFromName(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.TypeConverterHelper.GetCoreConverterTypeFromCustomType(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.TypeConverterHelper.GetMemberInfoForPropertyConverter(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.TypeIndexer.InitializeOneType(MS.Internal.Markup.KnownElements)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Markup.TypeIndexer.Item(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.TypeInfoKey.Equals(System.Object)">
+    <parameter name="o">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.TypeInfoKey.ToString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlBrushSerializer.SerializeOn(System.IO.BinaryWriter,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stringValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlContentPropertyNode.#ctor(System.Int32,System.Int32,System.Int32,System.Object,System.String,System.String,System.String)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlInt32CollectionSerializer.Parse(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParseException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.#ctor(MS.Internal.Markup.ParserContext,MS.Internal.Markup.BamlRecordWriter,System.IO.Stream,System.Boolean)">
+    <parameter name="xamlStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.#ctor(MS.Internal.Markup.ParserContext,MS.Internal.Markup.BamlRecordWriter,System.Xml.XmlTextReader)">
+    <parameter name="textReader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.GetElementType(System.Xml.XmlReader,System.String,System.String,System.String@,System.String@,System.Type@,System.Type@)">
+    <parameter name="namespaceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.IsXmlNamespaceSupported(System.String,System.String@)">
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.ParseError(MS.Internal.Markup.XamlParseException)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.ProcessXamlNode(MS.Internal.Markup.XamlNode,System.Boolean@,System.Boolean@)">
+    <parameter name="xamlNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.SetParserAction(MS.Internal.Markup.XamlNode)">
+    <parameter name="xamlNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.ThrowException(System.String,System.Int32,System.Int32)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.ThrowException(System.String,System.String,System.Int32,System.Int32)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.ThrowException(System.String,System.String,System.String,System.Int32,System.Int32)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.ThrowException(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.ThrowException(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteBaseProperty(MS.Internal.Markup.XamlPropertyNode)">
+    <parameter name="xamlPropertyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteClrEvent(MS.Internal.Markup.XamlClrEventNode)">
+    <parameter name="xamlClrEventNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteConstructorParameterType(MS.Internal.Markup.XamlConstructorParameterTypeNode)">
+    <parameter name="xamlConstructorParameterTypeNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteContentProperty(MS.Internal.Markup.XamlContentPropertyNode)">
+    <parameter name="xamlContentPropertyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteDefAttribute(MS.Internal.Markup.XamlDefAttributeNode)">
+    <parameter name="xamlDefAttributeNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteDefAttributeCore(MS.Internal.Markup.XamlDefAttributeNode)">
+    <parameter name="xamlDefAttributeNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteDefAttributeKeyType(MS.Internal.Markup.XamlDefAttributeKeyTypeNode)">
+    <parameter name="xamlDefNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteDefTag(MS.Internal.Markup.XamlDefTagNode)">
+    <parameter name="xamlDefTagNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteDocumentEnd(MS.Internal.Markup.XamlDocumentEndNode)">
+    <parameter name="xamlEndDocumentNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteDocumentStart(MS.Internal.Markup.XamlDocumentStartNode)">
+    <parameter name="XamlDocumentStartNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteElementEnd(MS.Internal.Markup.XamlElementEndNode)">
+    <parameter name="xamlElementEndNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteElementStart(MS.Internal.Markup.XamlElementStartNode)">
+    <parameter name="xamlElementStartNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteEndAttributes(MS.Internal.Markup.XamlEndAttributesNode)">
+    <parameter name="xamlEndAttributesNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteKeyElementStart(MS.Internal.Markup.XamlElementStartNode)">
+    <parameter name="xamlKeyElementStartNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteLiteralContent(MS.Internal.Markup.XamlLiteralContentNode)">
+    <parameter name="xamlLiteralContentNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteNamespacePrefix(MS.Internal.Markup.XamlXmlnsPropertyNode)">
+    <parameter name="xamlXmlnsPropertyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WritePIMapping(MS.Internal.Markup.XamlPIMappingNode)">
+    <parameter name="xamlPIMappingNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WritePresentationOptionsAttribute(MS.Internal.Markup.XamlPresentationOptionsAttributeNode)">
+    <parameter name="xamlPresentationOptionsAttributeNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteProperty(MS.Internal.Markup.XamlPropertyNode)">
+    <parameter name="xamlPropertyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WritePropertyArrayStart(MS.Internal.Markup.XamlPropertyArrayStartNode)">
+    <parameter name="xamlPropertyArrayStartNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WritePropertyComplexStart(MS.Internal.Markup.XamlPropertyComplexStartNode)">
+    <parameter name="xamlPropertyComplexStartNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WritePropertyIDictionaryStart(MS.Internal.Markup.XamlPropertyIDictionaryStartNode)">
+    <parameter name="xamlPropertyIDictionaryStartNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WritePropertyIListStart(MS.Internal.Markup.XamlPropertyIListStartNode)">
+    <parameter name="xamlPropertyIListStartNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WritePropertyWithExtension(MS.Internal.Markup.XamlPropertyWithExtensionNode)">
+    <parameter name="xamlPropertyWithExtensionNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WritePropertyWithType(MS.Internal.Markup.XamlPropertyWithTypeNode)">
+    <parameter name="xamlPropertyNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteText(MS.Internal.Markup.XamlTextNode)">
+    <parameter name="xamlTextNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteUnknownAttribute(MS.Internal.Markup.XamlUnknownAttributeNode)">
+    <parameter name="xamlUnknownAttributeNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteUnknownTagEnd(MS.Internal.Markup.XamlUnknownTagEndNode)">
+    <parameter name="xamlUnknownTagEndNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlParser.WriteUnknownTagStart(MS.Internal.Markup.XamlUnknownTagStartNode)">
+    <parameter name="xamlUnknownTagStartNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlPathDataSerializer.ConvertStringToCustomBinary(System.IO.BinaryWriter,System.String)">
+    <parameter name="stringValue">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlPropertyArrayStartNode.#ctor(System.Int32,System.Int32,System.Int32,System.Object,System.String,System.String,System.String)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlPropertyBaseNode.#ctor(MS.Internal.Markup.XamlNodeType,System.Int32,System.Int32,System.Int32,System.Object,System.String,System.String,System.String)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MS.Internal.Markup.XamlPropertyBaseNode.PropInfo">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlPropertyComplexStartNode.#ctor(MS.Internal.Markup.XamlNodeType,System.Int32,System.Int32,System.Int32,System.Object,System.String,System.String,System.String)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlPropertyComplexStartNode.#ctor(System.Int32,System.Int32,System.Int32,System.Object,System.String,System.String,System.String)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlPropertyIDictionaryStartNode.#ctor(System.Int32,System.Int32,System.Int32,System.Object,System.String,System.String,System.String)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlPropertyIListStartNode.#ctor(System.Int32,System.Int32,System.Int32,System.Object,System.String,System.String,System.String)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlPropertyNode.#ctor(System.Int32,System.Int32,System.Int32,System.Object,System.String,System.String,System.String,System.String,MS.Internal.Markup.BamlAttributeUsage,System.Boolean)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlPropertyNode.#ctor(System.Int32,System.Int32,System.Int32,System.Object,System.String,System.String,System.String,System.String,MS.Internal.Markup.BamlAttributeUsage,System.Boolean,System.Boolean)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlPropertyWithExtensionNode.#ctor(System.Int32,System.Int32,System.Int32,System.Object,System.String,System.String,System.String,System.String,System.Int16,System.Boolean,System.Boolean)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlPropertyWithTypeNode.#ctor(System.Int32,System.Int32,System.Int32,System.Object,System.String,System.String,System.String,System.String,System.String,System.Type,System.String,System.String)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.AddNodeToCollection(MS.Internal.Markup.XamlNode)">
+    <parameter name="xamlNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.AddNodeToCollection(MS.Internal.Markup.XamlNode,System.Boolean,System.Boolean)">
+    <parameter name="xamlNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.CanCollectionTypeAcceptStrings(System.Type)">
+    <parameter name="collectionType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.CanCollectionTypeAcceptStringsHelper(System.Type)">
+    <parameter name="propertyType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.CanWrapStringAsItemType(System.Type,System.Type)">
+    <parameter name="collectionType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.CheckDuplicateProperty(System.Collections.Specialized.HybridDictionary,System.String,System.Object)">
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.CollapseAndAddTextNode(MS.Internal.Markup.XamlReaderHelper.TextFlowStackData,System.Boolean)">
+    <parameter name="textFlowData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.CollapseText(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.CompileComplexProperty(System.Object,System.Type,System.Type,System.Int32,System.String,System.String,System.String,System.String,System.Type,System.String,System.Boolean@,System.Boolean@)">
+    <parameter name="propertyType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dynamicObjectName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.CompileComplexPropertyArray(System.Object,System.Type,System.Int32,System.String,System.String,System.String)">
+    <parameter name="propertyType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dynamicObjectName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.CompileComplexPropertyIDictionary(System.Object,System.Type,System.Type,System.Int32,System.String,System.String,System.String)">
+    <parameter name="propertyType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dynamicObjectName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.CompileComplexPropertyIList(System.Object,System.Type,System.Type,System.Int32,System.String,System.String,System.String)">
+    <parameter name="propertyType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dynamicObjectName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.CompileComplexPropertySingle(System.Int32,System.Int32,System.Object,System.Type,System.Int32,System.String,System.String,System.String)">
+    <parameter name="typeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dynamicObjectName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.CompileContentProperty(MS.Internal.Markup.XamlReaderHelper.ElementContextStackData)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.CompileElement(System.String,System.String,System.Int32,System.Type,System.String,System.Boolean,System.Boolean@)">
+    <parameter name="namespaceURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.CompileText(System.Xml.XmlNodeType,System.String)">
+    <parameter name="textValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.ContentPropertySeesAProperty(MS.Internal.Markup.XamlReaderHelper.ElementContextStackData)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MS.Internal.Markup.XamlReaderHelper.CurrentProperties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.DictionaryContextData.AddKey(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.DictionaryContextData.ContainsKey(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MS.Internal.Markup.XamlReaderHelper.ElementContextStackData.ChildTagLocalName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Markup.XamlReaderHelper.ElementContextStackData.ComplexProperties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.GetAdjacentUnicodeScalarValue(System.String,System.Int32,System.Boolean)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.GetAttributeContext(System.Type,System.String,System.String,System.String,System.Object@,System.String@,System.String@,System.Type@,System.String@)">
+    <parameter name="attributeNamespaceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeLocalName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.GetCollectionItemType(System.Type)">
+    <parameter name="collectionType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.GetContentPropertyName(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.GetDottedAttributeContext(System.Type,System.String,System.String,System.String,System.String,System.Object@,System.String@,System.String@,System.Type@,System.String@)">
+    <parameter name="attributeNamespaceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ownerName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.GetElementType(System.Boolean,System.String,System.String,System.String@,System.String@,System.Type@,System.Type@)">
+    <parameter name="namespaceURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.GetPropertyComplex(System.String,System.String,System.String,System.String@,System.String@,System.String@,System.Type@,System.Object@,System.Type@)">
+    <parameter name="namespaceURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ownerName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.GetRuntimeNamePropertyName(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="parentTypeNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.GetRuntimeNamePropertyName(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.GetTrimSurroundingWhitespace(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.HandleElementScopedAttributes(System.Type,System.String,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="namespaceURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.HandleMappingProtocol(System.String)">
+    <parameter name="mappingUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.IsACollection(MS.Internal.Markup.XamlReaderHelper.ElementContextStackData)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.IsElementScopedAttribute(System.String,System.String,System.String)">
+    <parameter name="attribName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.IsWhitespace(System.String)">
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.LoadContentPropertyInfo(System.Type)">
+    <parameter name="elementType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.MappingParser.Expect(System.String)">
+    <parameter name="ident">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.MappingParser.ParseAssembly">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.MappingParser.ParseNamespace">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.MappingScanner.TokenEquals(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.MappingScanner.TokenValue">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.MS#Internal#Markup#IParserHelper#GetElementType(System.Boolean,System.String,System.String,System.String@,System.String@,System.Type@,System.Type@)">
+    <parameter name="namespaceURI">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.MS#Internal#Markup#IParserHelper#LookupNamespace(System.String)">
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Markup.XamlReaderHelper.ParentProperties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.ResolveAttributeNamespaceURI(System.String,System.String,System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.ResolveContentProperty(System.String,System.Type,System.String,System.String@,System.Object@,System.Type@)">
+    <parameter name="elementType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="namespaceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contentPropertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.SkipWhitespace(System.String,System.Int32,System.Int32)">
+    <parameter name="text">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.SplitPropertyElementName(System.String,System.String@,System.String@)">
+    <parameter name="longName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.ThrowException(System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.ThrowException(System.String,System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.ThrowException(System.String,System.String,System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.ThrowException(System.String,System.String,System.String,System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.VerifyContentPropertySeesAnElement(MS.Internal.Markup.XamlReaderHelper.ElementContextStackData)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WriteAttributes(System.Type,System.String,System.String,System.Int32)">
+    <parameter name="parentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parentTypeNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WriteClrEvent(System.String,System.Reflection.MemberInfo,System.String)">
+    <parameter name="eventName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WriteComplexAsSimpleProperty(System.String,System.String,System.Object,System.String,System.Type,System.String,System.String,MS.Internal.Markup.BamlAttributeUsage)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="declaringTypeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WriteContentProperty(System.Int32,System.Int32,System.Int32,System.Object,System.String,System.String,System.String)">
+    <parameter name="declaringTypeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WriteDefAttributes(System.Int32,System.String,System.String,System.Type,System.Collections.ArrayList@,System.Collections.Specialized.HybridDictionary,System.String)">
+    <parameter name="resolvedProperties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WriteNameProperty(System.String,System.Object,System.String,System.String,System.String,MS.Internal.Markup.BamlAttributeUsage)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="declaringTypeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WriteNameProperty(System.String,System.Type,System.String,System.String,System.Collections.Specialized.HybridDictionary,System.String)">
+    <parameter name="resolvedProperties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WriteProperty(System.String,System.Object,System.String,System.String,System.String,MS.Internal.Markup.BamlAttributeUsage)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="declaringTypeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WritePropertyArrayStart(System.Int32,System.Object,System.String,System.String,System.String)">
+    <parameter name="propIdName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="declaringTypeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WritePropertyAttribute(System.Type,System.Collections.Specialized.HybridDictionary,System.String,System.String,System.String,System.String,System.Object,System.String,System.String,System.String,System.Type,System.Int32,System.Int32,System.Int32,System.Collections.ArrayList@)">
+    <parameter name="resolvedProperties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attribLocalName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="declaringTypeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="dynamicObjectName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="declaringType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WritePropertyComplexStart(System.Int32,System.Int32,System.Int32,System.Object,System.String,System.String,System.String,System.Collections.Specialized.HybridDictionary)">
+    <parameter name="declaringTypeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propIdName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="properties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WritePropertyIDictionaryStart(System.Int32,System.Object,System.String,System.String,System.String)">
+    <parameter name="declaringTypeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propIdName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WritePropertyIListStart(System.Int32,System.Object,System.String,System.String,System.String)">
+    <parameter name="declaringTypeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propIdName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WritePropertyWithExtension(System.String,System.Object,System.String,System.String,System.String,System.Int16,System.Boolean,System.Boolean)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="declaringTypeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WritePropertyWithType(System.String,System.Object,System.String,System.String,System.String,System.String,System.Type,System.String,System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="declaringTypeFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.WriteUnknownAttribute(System.String,System.String,System.String,System.Int32,System.String,System.String,System.Object,System.Collections.Specialized.HybridDictionary)">
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="resolvedProperties">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="parentTypeNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.XamlNodeCollectionProcessor.Add(MS.Internal.Markup.XamlNode)">
+    <parameter name="xamlNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.XamlNodeCollectionProcessor.ExamineAddedNode(MS.Internal.Markup.XamlNode)">
+    <parameter name="xamlNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.XamlNodeCollectionProcessor.ExamineInsertedNode(MS.Internal.Markup.XamlNode,System.Int32)">
+    <parameter name="xamlNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.XamlNodeCollectionProcessor.InsertAtCurrentMark(MS.Internal.Markup.XamlNode)">
+    <parameter name="xamlNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.XamlNodeCollectionProcessor.InsertAtStartMark(MS.Internal.Markup.XamlNode)">
+    <parameter name="xamlNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlReaderHelper.XamlNodeCollectionProcessor.NodeTypePrecludesTypeConverterUse(MS.Internal.Markup.XamlNode)">
+    <parameter name="xamlNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MS.Internal.Markup.XamlReaderHelper.XmlAttributesFullName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlSerializationHelper.ParsePointCollection(System.String,System.IFormatProvider)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlSerializationHelper.ParseThreeDoublesCollection(System.String,System.IFormatProvider)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlSerializationHelper.SerializePoint(System.IO.BinaryWriter,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stringValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlSerializationHelper.SerializePoint3D(System.IO.BinaryWriter,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stringValues">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlSerializationHelper.SerializeVector3D(System.IO.BinaryWriter,System.String)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="stringValues">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlSerializationHelper.WriteDouble(System.IO.BinaryWriter,System.Double)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlSerializer.ConvertStringToCustomBinary(System.IO.BinaryWriter,System.String)">
+    <parameter name="stringValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlSerializer.ConvertXamlToBaml(MS.Internal.Markup.XamlReaderHelper,MS.Internal.Markup.ParserContext,MS.Internal.Markup.XamlNode,MS.Internal.Markup.BamlRecordWriter)">
+    <parameter name="xamlNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="tokenReader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlSerializer.GetDictionaryKey(MS.Internal.Markup.BamlRecord,MS.Internal.Markup.ParserContext)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.#ctor(System.String[],MS.Internal.Markup.NamespaceMapEntry[])">
+    <parameter name="assemblyNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.AssemblyPathFor(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.CreateInstance(System.Type)">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.CreateTypeAndSerializer(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MS.Internal.Markup.XamlTypeMapper.DefaultMapper">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetCachedInformationForType(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetCachedMemberInfo(System.Type,System.String,System.Boolean,MS.Internal.Markup.BamlAttributeInfoRecord@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetCachedTrimSurroundingWhitespace(System.Type)">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetClrInfo(System.Boolean,System.Type,System.String,System.String,System.String@)">
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetClrInfoForClass(System.Boolean,System.Type,System.String,System.String,System.String,System.Boolean,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="globalClassName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetClrInfoForClass(System.Boolean,System.Type,System.String,System.String,System.String,System.String@)">
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="globalClassName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetClrNamespacePairFromCache(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="namespaceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetDependencyPropertyOwnerAndName(System.String,MS.Internal.Markup.ParserContext,System.Type,System.String@)">
+    <parameter name="memberValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetDictionaryKey(System.String,MS.Internal.Markup.ParserContext)">
+    <parameter name="keyString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetNamespaceMapEntries(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetObjectType(MS.Internal.Markup.NamespaceMapEntry,System.String,System.Boolean)">
+    <parameter name="namespaceMap">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetPropertyConverterType(System.Type,System.Object)">
+    <parameter name="propType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetStaticMemberInfo(System.Type,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="memberName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetStaticMemberInfo(System.Type,System.String,System.Boolean,System.Boolean)">
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="memberName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetTargetTypeAndMember(System.String,MS.Internal.Markup.ParserContext,System.Boolean,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="valueParam">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetType(System.String,System.String)">
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetTypeAndSerializer(System.String,System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetTypeArgsType(System.String,MS.Internal.Markup.ParserContext,System.String@,System.String@)">
+    <parameter name="typeString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetTypeConverterType(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetTypeFromBaseString(System.String,MS.Internal.Markup.ParserContext,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="typeString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetTypeOnly(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetXamlSerializerForType(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.GetXmlLangProperty(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.InvalidateMappingCache(System.String)">
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.IsAllowedEvent(System.Reflection.EventInfo,System.Boolean)">
+    <parameter name="ei">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.IsAllowedEventDelegateType(System.Type)">
+    <parameter name="delegateType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.IsAllowedPropertyGet(System.Reflection.PropertyInfo)">
+    <parameter name="pi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.IsAllowedPropertyGet(System.Reflection.PropertyInfo,System.Boolean)">
+    <parameter name="pi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.IsAllowedPropertySet(System.Reflection.PropertyInfo)">
+    <parameter name="pi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.IsFriendAssembly(System.Reflection.Assembly)">
+    <parameter name="assembly">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.IsInternalAllowedOnType(MS.Internal.Markup.NamespaceMapEntry)">
+    <parameter name="namespaceMap">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.IsInternalAllowedOnType(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.IsLocalAssembly(System.String)">
+    <parameter name="namespaceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.IsPublicEvent(System.Reflection.EventInfo)">
+    <parameter name="ei">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.OnReferencedAssemblyResolve(System.Object,System.ResolveEventArgs)">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.PreLoadDefaultAssemblies(System.String,System.String)">
+    <parameter name="asmName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="asmPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.PropertyInfoFromName(System.String,System.Type,System.Boolean,System.Boolean,System.Boolean@)">
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ownerType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.SetAssemblyPath(System.String,System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="assemblyPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.ThrowException(System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.ThrowException(System.String,System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.ThrowException(System.String,System.String,System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.ThrowException(System.String,System.String,System.String,System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.TypeInformationCacheData.GetPropertyAndType(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="dpName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MS.Internal.Markup.XamlTypeMapper.TypeInformationCacheData.PropertyConverters">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.TypeInformationCacheData.SetPropertyAndType(System.String,System.Reflection.PropertyInfo,System.Type,System.Boolean)">
+    <parameter name="dpName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.TypeInformationCacheData.SetPropertyConverter(System.Object,System.Type)">
+    <parameter name="dpOrPi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.ValidateEnums(System.String,System.Type,System.String)">
+    <parameter name="propType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attribValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XamlTypeMapper.ValidateNames(System.String,System.Int32,System.Int32)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.#ctor(System.Xml.XmlReader,MS.Internal.Markup.IsXmlNamespaceSupportedCallback,System.Collections.Generic.IEnumerable{System.String})">
+    <parameter name="supportedNamespaces">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.AddKnownNamespace(System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.AddSubsumingNamespace(System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.CompatibilityScope.CanIgnore(System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.CompatibilityScope.Ignorable(System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.CompatibilityScope.IsIgnorableAtCurrentScope(System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.CompatibilityScope.PreserveAttribute(System.String,System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="attributeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.CompatibilityScope.PreserveElement(System.String,System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="elementName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.CompatibilityScope.ProcessContent(System.String,System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="elementName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.CompatibilityScope.ShouldProcessContent(System.String,System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="elementName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.DeclareNamespaceCompatibility(System.String,System.String)">
+    <parameter name="newNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="oldNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.Error(System.String,System.Object[])">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.GetMappedNamespace(System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.IsNamespaceKnown(System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.IsSubsumingNamespace(System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.MapNewNamespace(System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.PreserveItemSet.Add(System.String)">
+    <parameter name="itemName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.PreserveItemSet.ShouldPreserveItem(System.String)">
+    <parameter name="itemName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.ProcessContentSet.Add(System.String)">
+    <parameter name="elementName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.ProcessContentSet.ShouldProcessContent(System.String)">
+    <parameter name="elementName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlCompatibilityReader.ShouldIgnoreNamespace(System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsCache.GetAttributes(System.Reflection.Assembly,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="asm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsCache.GetMappingArray(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="xmlns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsCache.GetNamespacesFromCompatAttr(System.Reflection.CustomAttributeData,System.String@,System.String@)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsCache.GetNamespacesFromDefinitionAttr(System.Reflection.CustomAttributeData,System.String@,System.String@)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsCache.GetNewXmlnamespace(System.String)">
+    <parameter name="oldXmlnamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsCache.LoadClrnsToAssemblyNameMappingCache(System.Reflection.Assembly[])">
+    <parameter name="asmList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsCache.ProcessXmlnsCompatibleWithAttributes(System.Reflection.Assembly[])">
+    <parameter name="asmList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsDictionary.Add(System.Object,System.Object)">
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsDictionary.AddNamespace(System.String,System.String)">
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="xmlNamespace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsDictionary.Contains(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsDictionary.CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsDictionary.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsDictionary.GetNamespacesInScope(MS.Internal.Markup.XmlnsDictionary.NamespaceScope)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsDictionary.HasNamespace(System.String)">
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MS.Internal.Markup.XmlnsDictionary.Item(System.Object)">
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MS.Internal.Markup.XmlnsDictionary.Item(System.String)">
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MS.Internal.Markup.XmlnsDictionary.Keys">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsDictionary.LookupNamespace(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsDictionary.Remove(System.Object)">
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsDictionary.Remove(System.String)">
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MS.Internal.Markup.XmlnsDictionary.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsDictionary.System#Collections#IDictionary#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XmlnsDictionary.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Markup.XmlnsDictionary.Values">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:MS.Internal.Markup.XmlParserDefaults.DefaultMapper">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XmlWrappingReader.LookupNamespace(System.String)">
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XmlWrappingReader.System#Xml#IXmlNamespaceResolver#GetNamespacesInScope(System.Xml.XmlNamespaceScope)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Markup.XmlWrappingReader.System#Xml#IXmlNamespaceResolver#LookupPrefix(System.String)">
+    <parameter name="namespaceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.AddApplicationProperty(System.Reflection.MemberInfo,System.String,System.Int32)">
+    <parameter name="memberInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.AddCLREvent(MS.Internal.MarkupCompiler.CodeContext,System.CodeDom.CodeExpression,MS.Internal.MarkupCompiler.MarkupEventInfo)">
+    <parameter name="cc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ce">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.AddCLREvent(System.Type,MS.Internal.MarkupCompiler.CodeContext,System.CodeDom.CodeExpression,MS.Internal.MarkupCompiler.MarkupEventInfo)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="ce">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.AddDebuggerNonUserCodeAttribute(System.CodeDom.CodeTypeMember)">
+    <parameter name="ctmTarget">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.AddEditorBrowsableAttribute(System.CodeDom.CodeTypeMember)">
+    <parameter name="ctmTarget">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.AddGenericArguments(MS.Internal.Markup.ParserContext,System.String)">
+    <parameter name="parserContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.AddLinePragma(System.CodeDom.CodeStatement,System.Int32)">
+    <parameter name="cs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.AddLinePragma(System.CodeDom.CodeTypeMember,System.Int32)">
+    <parameter name="ctm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.AddNameField(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.AddNameField(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.AddSuppressMessageAttribute(System.CodeDom.CodeTypeMember,System.String,System.String)">
+    <parameter name="ctmTarget">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.CodeContextRoot.#ctor(System.CodeDom.CodeTypeDeclaration,System.CodeDom.CodeNamespace,System.Type,System.String[],System.String)">
+    <parameter name="codeClass">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MS.Internal.MarkupCompiler.CodeContextRoot.EnsureInitializeComponentFn">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.Compile(MS.Internal.CompilationUnit)">
+    <parameter name="cu">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.ConnectStyleEvent(MS.Internal.Markup.XamlClrEventNode)">
+    <parameter name="xamlClrEventNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.CrackClassName(System.String@,System.String@)">
+    <parameter name="className">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GenerateAppInstance(System.CodeDom.CodeMemberMethod)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="cmmMain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GenerateBamlFile(System.IO.MemoryStream)">
+    <parameter name="bamlMemStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GenerateClass(System.String,System.String@,System.Type,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="baseClassFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GenerateConstructedTypeReference(System.Type,System.String[],System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="genericName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GenerateConstructedTypeReference(System.Type,System.String[],System.Type,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GenerateEntryPointMethod">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GenerateSplashScreenInstance(System.CodeDom.CodeMemberMethod)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="cmmMain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GenerateSubClass(System.String@,System.String@,System.Type,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GenerateXmlComments(System.CodeDom.CodeTypeMember,System.String)">
+    <parameter name="ctm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GetEvent(System.Reflection.MemberInfo,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="miEvent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GetEventDelegate(MS.Internal.MarkupCompiler.CodeContext,System.Reflection.MemberInfo,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="miEvent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="eventHandler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GetEventHandlerType(System.Reflection.MemberInfo)">
+    <parameter name="memberInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GetGenericTypeName(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="typeArgs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GetMemberAttributes(System.String)">
+    <parameter name="modifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GetPropertyValueExpression(System.ComponentModel.ITypeDescriptorContext,System.Type,System.Object,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="typeToConvertTo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ctx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GetSplashResourceId">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.GetTypeAttributes(System.String@)">
+    <parameter name="modifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.Initialize(System.String)">
+    <parameter name="sourceFile">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.InitializeAssemblyState(System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.IsLanguageSupported(System.String)">
+    <parameter name="language">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.IsValidClassName(System.String)">
+    <parameter name="className">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.IsValidCLRNamespace(System.String,System.Boolean)">
+    <parameter name="ns">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.OnSourceFileResolve(System.String)">
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.ProcessDefinitionNamespace(MS.Internal.Markup.XamlDefTagNode)">
+    <parameter name="xamlDefTagNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.StartElement(System.String@,System.String,System.String@,System.Type,System.String)">
+    <parameter name="className">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="subClassFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="modifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="baseClassFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.ThrowCompilerException(System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.ThrowCompilerException(System.String,System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.ThrowCompilerException(System.String,System.String,System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.ThrowCompilerException(System.String,System.String,System.String,System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.ThrowCompilerException(System.String,System.String,System.String,System.String,System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.ValidateEventHandlerName(System.String,System.String)">
+    <parameter name="handlerName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.MarkupCompiler.ValidateFullSubClassName(System.String@)">
+    <parameter name="subClassFullName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.ParserExtension.#ctor(MS.Internal.MarkupCompiler,MS.Internal.Markup.ParserContext,MS.Internal.Markup.BamlRecordWriter,System.IO.Stream,System.Boolean)">
+    <parameter name="xamlStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.ResourceIDHelper.GetResourceIDFromRelativePath(System.String)">
+    <parameter name="relPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.ResourceIDHelper.GetResourceIDFromUri(System.Uri,System.Uri)">
+    <parameter name="baseUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="sourceUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.TaskFileService.Delete(System.String)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.TaskFileService.Exists(System.String)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.TaskFileService.GetChecksum(System.String,System.Guid)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.TaskFileService.GetContent(System.String)">
+    <parameter name="srcFile">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.TaskFileService.GetLastChangeTime(System.String)">
+    <parameter name="srcFile">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MS.Internal.TaskFileService.HostFileManager">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.TaskFileService.WriteFile(System.Byte[],System.String)">
+    <parameter name="destinationFile">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="contentArray">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Tasks.CompilerLocalReference.SaveCacheInformation(Microsoft.Build.Tasks.Windows.MarkupCompilePass1)">
+    <parameter name="mcPass1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Tasks.CompilerState.GenerateCacheForFileList(Microsoft.Build.Framework.ITaskItem[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Tasks.CompilerState.GenerateStringFromFileNames(Microsoft.Build.Framework.ITaskItem[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Tasks.CompilerState.SaveStateInformation(Microsoft.Build.Tasks.Windows.MarkupCompilePass1)">
+    <parameter name="mcPass1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Tasks.IncrementalCompileAnalyzer.IsFileChanged(System.String)">
+    <parameter name="inputFile">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Tasks.IncrementalCompileAnalyzer.IsFileListChanged(Microsoft.Build.Framework.ITaskItem[])">
+    <parameter name="fileList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Tasks.IncrementalCompileAnalyzer.UpdateFileListForIncrementalBuild(System.Collections.ArrayList)">
+    <parameter name="modifiedXamlFiles">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Tasks.LocalReferenceFile.Deserialize(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Tasks.LocalReferenceFile.Serialize">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Tasks.TaskHelper.CouldReferenceAssemblyBeChanged(System.String,System.String[],System.String[])">
+    <parameter name="assemblyPath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Tasks.TaskHelper.CreateCompilerWrapper(System.Boolean,System.AppDomain@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Tasks.TaskHelper.CreateFullFilePath(System.String,System.String)">
+    <parameter name="thePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Tasks.TaskHelper.DisplayLogo(Microsoft.Build.Utilities.TaskLoggingHelper,System.String)">
+    <parameter name="log">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Internal.Tasks.TaskHelper.GetRootRelativePath(System.String,System.String)">
+    <parameter name="path2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="path1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Internal.Tasks.TaskHelper.GetWholeExceptionMessage(System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MS.Utility.SR.Get(System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MS.Utility.SR.Get(System.String,System.Object[])">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Markup.ContentWrapperAttribute.TypeId">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>

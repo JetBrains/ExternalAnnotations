@@ -1,0 +1,256 @@
+<assembly name="System">
+
+  <member name="M:System.Diagnostics.Debug.Print(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+  </member>
+  <member name="M:System.Diagnostics.Debug.Print(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+  </member>
+
+  <member name="M:System.Diagnostics.Debug.Fail(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Diagnostics.Debug.Fail(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.ThrowHelper.ThrowArgumentException(System.ExceptionResource)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.ThrowHelper.ThrowArgumentNullException(System.ExceptionArgument)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.ThrowHelper.ThrowArgumentOutOfRangeException(System.ExceptionArgument)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.ThrowHelper.ThrowArgumentOutOfRangeException(System.ExceptionArgument,System.ExceptionResource)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.ThrowHelper.ThrowInvalidOperationException(System.ExceptionResource)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.ThrowHelper.ThrowKeyNotFoundException">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.ThrowHelper.ThrowNotSupportedException(System.ExceptionResource)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.ThrowHelper.ThrowSerializationException(System.ExceptionResource)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.ThrowHelper.ThrowWrongKeyTypeArgumentException(System.Object,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.ThrowHelper.ThrowWrongValueTypeArgumentException(System.Object,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+  </member>
+
+  <member name="M:System.Diagnostics.Debug.Assert(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:false=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Diagnostics.Debug.Assert(System.Boolean,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:false=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Diagnostics.Debug.Assert(System.Boolean,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:false=&gt;halt</argument>
+    </attribute>
+  </member>
+
+  <member name="M:System.Diagnostics.Trace.Assert(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:false=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Diagnostics.Trace.Assert(System.Boolean,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:false=&gt;halt</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Diagnostics.Trace.Assert(System.Boolean,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:false=&gt;halt</argument>
+    </attribute>
+  </member>
+
+  <member name="M:System.Diagnostics.Debug.WriteLine(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+  </member>
+  
+  <member name="M:System.ComponentModel.InvalidEnumArgumentException.#ctor(System.String,System.Int32,System.Type)">
+    <parameter name="argumentName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor"/>
+    </parameter>
+  </member>
+
+  <member name="M:System.Diagnostics.Trace.TraceInformation(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+  </member>
+  <member name="M:System.Diagnostics.Trace.TraceWarning(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+  </member>>
+  <member name="M:System.Diagnostics.Trace.TraceError(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+  </member>
+  
+  <member name="M:System.Diagnostics.TraceSource.TraceInformation(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+  </member>>
+  <member name="M:System.Diagnostics.TraceSource.TraceEvent(System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+  </member>
+
+  <member name="P:System.Net.WebRequest.Method">
+    <attribute ctor="M:JetBrains.Annotations.ValueProviderAttribute.#ctor(System.String)">
+      <argument>System.Net.WebRequestMethods.File</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.ValueProviderAttribute.#ctor(System.String)">
+      <argument>System.Net.WebRequestMethods.Ftp</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.ValueProviderAttribute.#ctor(System.String)">
+      <argument>System.Net.WebRequestMethods.Http</argument>
+    </attribute>
+  </member>
+  
+  <member name="M:System.Text.RegularExpressions.Regex.#ctor(System.String)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.#ctor(System.String,System.Text.RegularExpressions.RegexOptions)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.#ctor(System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.IsMatch(System.String,System.String)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Match(System.String,System.String)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Match(System.String,System.String,System.Text.RegularExpressions.RegexOptions)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Match(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Matches(System.String,System.String)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Matches(System.String,System.String,System.Text.RegularExpressions.RegexOptions)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Matches(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.String)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Split(System.String,System.String)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Split(System.String,System.String,System.Text.RegularExpressions.RegexOptions)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Text.RegularExpressions.Regex.Split(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)">
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RegexPatternAttribute.#ctor"/>
+    </parameter>
+  </member>
+  
+</assembly>

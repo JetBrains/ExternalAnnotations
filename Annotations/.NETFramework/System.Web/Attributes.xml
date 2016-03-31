@@ -1,0 +1,223 @@
+<assembly name="System.Web">
+  <member name="M:System.Web.HttpResponse.Redirect(System.String)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.PathReferenceAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpResponse.Redirect(System.String,System.Boolean)">
+    <parameter name="url">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.PathReferenceAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Web.UI.Control.ResolveUrl(System.String)">
+    <parameter name="relativeUrl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.PathReferenceAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Web.UI.Control.ResolveClientUrl(System.String)">
+    <parameter name="relativeUrl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.PathReferenceAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  
+  <member name="M:System.Web.UI.TemplateControl.Eval(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.UI.TemplateControl.Eval(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.UI.DataBinder.Eval(System.Object,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.UI.DataBinder.Eval(System.Object,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+    </parameter>
+  </member>
+
+  <!-- Strongly Typed Data Controls -->
+  <member name="P:System.Web.UI.WebControls.ObjectDataSource.TypeName">
+    <attribute ctor="M:JetBrains.Annotations.AspTypePropertyAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Web.UI.WebControls.ObjectDataSource.DataObjectTypeName">
+    <attribute ctor="M:JetBrains.Annotations.AspTypePropertyAttribute.#ctor(System.Boolean)">
+      <argument>true</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Web.UI.WebControls.DataBoundControl.ItemType">
+    <attribute ctor="M:JetBrains.Annotations.AspTypePropertyAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Web.UI.WebControls.Repeater.ItemType">
+    <attribute ctor="M:JetBrains.Annotations.AspTypePropertyAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+
+  <!-- Model Binding -->
+  <member name="P:System.Web.UI.WebControls.DataBoundControl.SelectMethod">
+    <attribute ctor="M:JetBrains.Annotations.AspMethodPropertyAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.DetailsView.UpdateMethod">
+    <attribute ctor="M:JetBrains.Annotations.AspMethodPropertyAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.FormView.UpdateMethod">
+    <attribute ctor="M:JetBrains.Annotations.AspMethodPropertyAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.GridView.UpdateMethod">
+    <attribute ctor="M:JetBrains.Annotations.AspMethodPropertyAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.DetailsView.DeleteMethod">
+    <attribute ctor="M:JetBrains.Annotations.AspMethodPropertyAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.FormView.DeleteMethod">
+    <attribute ctor="M:JetBrains.Annotations.AspMethodPropertyAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.GridView.DeleteMethod">
+    <attribute ctor="M:JetBrains.Annotations.AspMethodPropertyAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.DetailsView.InsertMethod">
+    <attribute ctor="M:JetBrains.Annotations.AspMethodPropertyAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.FormView.InsertMethod">
+    <attribute ctor="M:JetBrains.Annotations.AspMethodPropertyAttribute.#ctor"/>
+  </member>
+
+  <!-- Data Bound Fields -->
+  <member name="P:System.Web.UI.WebControls.ListControl.DataValueField">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.ListControl.DataTextField">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.ImageField.DataAlternateTextField">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.ImageField.DataImageUrlField">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.ButtonColumn.DataTextField">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.ButtonField.DataTextField">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.HyperLinkColumn.DataTextField">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.HyperLinkColumn.DataNavigateUrlField">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.HyperLinkField.DataTextField">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.HyperLinkField.DataNavigateUrlField">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.BoundColumn.DataField">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.BoundField.DataField">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.GridView.DataKeyNames">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldsAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.DetailsView.DataKeyNames">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldsAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Web.UI.WebControls.FormView.DataKeyNames">
+    <attribute ctor="M:JetBrains.Annotations.AspDataFieldsAttribute.#ctor"/>
+  </member>
+
+  <!-- Child Control Types-->
+  <member name="T:System.Web.UI.HtmlControls.HtmlSelectBuilder">
+    <attribute ctor="M:JetBrains.Annotations.AspChildControlTypeAttribute.#ctor(System.String,System.Type)">
+      <argument>option</argument>
+      <argument>System.Web.UI.WebControls.ListItem</argument>
+    </attribute>
+  </member>
+  <member name="T:System.Web.UI.HtmlControls.HtmlHeadBuilder">
+    <attribute ctor="M:JetBrains.Annotations.AspChildControlTypeAttribute.#ctor(System.String,System.Type)">
+      <argument>title</argument>
+      <argument>System.Web.UI.HtmlControls.HtmlTitle</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.AspChildControlTypeAttribute.#ctor(System.String,System.Type)">
+      <argument>link</argument>
+      <argument>System.Web.UI.HtmlControls.HtmlLink</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.AspChildControlTypeAttribute.#ctor(System.String,System.Type)">
+      <argument>meta</argument>
+      <argument>System.Web.UI.HtmlControls.HtmlMeta</argument>
+    </attribute>
+  </member>
+
+  <!-- Required attributes -->
+  <member name="T:System.Web.UI.WebControls.ContentPlaceHolder">
+    <attribute ctor="M:JetBrains.Annotations.AspRequiredAttributeAttribute.#ctor(System.String)">
+      <argument>ID</argument>
+    </attribute>
+  </member>
+  <member name="T:System.Web.UI.WebControls.Content">
+    <attribute ctor="M:JetBrains.Annotations.AspRequiredAttributeAttribute.#ctor(System.String)">
+      <argument>ContentPlaceHolderID</argument>
+    </attribute>
+  </member>
+
+  <!-- Nullness -->
+  <member name="M:System.Web.ModelBinding.ModelStateDictionary.#ctor(System.Web.ModelBinding.ModelStateDictionary)">
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Web.ModelBinding.ModelStateDictionary.AddModelError(System.String,System.Exception)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Web.ModelBinding.ModelStateDictionary.AddModelError(System.String,System.String)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Web.ModelBinding.ModelStateDictionary.SetModelValue(System.String,System.Web.ModelBinding.ValueProviderResult)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Web.ModelBinding.ModelStateDictionary.IsValidField(System.String)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+
+</assembly>

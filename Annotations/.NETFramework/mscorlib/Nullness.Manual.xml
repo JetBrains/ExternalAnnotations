@@ -1,0 +1,221 @@
+<assembly name="mscorlib">
+  <!-- Extern methods -->
+  <member name="M:System.String.FastAllocateString(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.String.InsertInternal(System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.String.PadHelper(System.Int32,System.Char,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.String.RemoveInternal(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.String.ReplaceInternal(System.Char,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.String.ReplaceInternal(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Globalization.TextInfo.InternalChangeCaseString(System.IntPtr,System.String,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  
+  <member name="F:System.String.Empty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  
+  <!-- Suggestions -->
+  <member name="M:System.IO.Path.NormalizePath(System.String,System.Boolean,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+
+  <member name="M:System.Delegate.CreateDelegate(System.Type,System.Object,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Delegate.CreateDelegate(System.Type,System.Type,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Delegate.CreateDelegate(System.Type,System.Object,System.Reflection.MethodInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Delegate.CreateDelegate(System.Type,System.Reflection.MethodInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  
+  <!-- RSRP-182350 -->
+  <member name="M:System.Type.GetType(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+
+  <!-- RSRP-188430 -->
+  <member name="M:System.Type.GetConstructor(System.Type[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  
+  <!-- RSRP-187087 -->
+  <member name="P:System.IO.FileInfo.DirectoryName">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.IO.FileInfo.Directory">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  
+  <!-- RSRP-193122 -->
+  <member name="P:System.Threading.Thread.Name">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+
+  <!-- RSRP-280552 -->
+  <member name="P:System.Reflection.MemberInfo.DeclaringType">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+
+
+  <!-- RSRP-288255 -->
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.Assembly)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.Module)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+
+  <!-- RSRP-288437 -->
+  <member name="F:System.DBNull.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Reflection.Missing.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+
+  <!-- RSRP-256926 -->
+  <member name="M:System.Enum.GetName(System.Type,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  
+  <!-- RSRP-328266 -->
+  <member name="M:System.Security.Principal.WindowsIdentity.GetCurrent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.GetCurrent(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>false=&gt;notnull</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.GetCurrent(System.Security.Principal.TokenAccessLevels)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+
+  <!-- RSRP-289784, RSRP-354991 -->
+  <member name="M:System.IO.Path.GetDirectoryName(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>null=&gt;null</argument>
+    </attribute>
+  </member>
+  <member name="M:System.IO.Path.GetExtension(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>null=&gt;null;notnull=&gt;notnull</argument>
+    </attribute>
+  </member>
+  <member name="M:System.IO.Path.GetFileName(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>null=&gt;null;notnull=&gt;notnull</argument>
+    </attribute>
+  </member>
+  <member name="M:System.IO.Path.GetFileNameWithoutExtension(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>null=&gt;null;notnull=&gt;notnull</argument>
+    </attribute>
+  </member>
+  <member name="M:System.IO.Path.GetPathRoot(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>null=&gt;null;notnull=&gt;notnull</argument>
+    </attribute>
+  </member>
+ 
+ 
+  <!-- RSRP-329200 -->
+  <member name="M:System.Security.Cryptography.HashAlgorithm.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  
+  <!-- RSRP-297671 -->
+  <member name="P:System.StringComparer.InvariantCulture">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+
+  <!-- RSRP-188025 -->
+  <member name="M:System.Collections.Generic.IDictionary`2.TryGetValue(`0,`1@)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;true; =&gt;false, value: null</argument>
+    </attribute>
+  </member>
+
+  <!-- RSRP-297824 -->
+  <member name="M:System.Runtime.InteropServices.Marshal.GetDelegateForFunctionPointer(System.IntPtr,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+
+  <member name="M:System.WeakReference`1.TryGetTarget(`0@)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;true, target: notnull; =&gt;false, target: null</argument>
+    </attribute>
+  </member>
+  <member name="P:System.WeakReference`1.Target">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+</assembly>
