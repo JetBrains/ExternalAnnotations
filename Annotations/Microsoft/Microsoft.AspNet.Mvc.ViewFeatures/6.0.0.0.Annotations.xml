@@ -1333,6 +1333,502 @@
       </attribute>
     </parameter>
   </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.ActionLink(System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+    <parameter name="linkText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controllerName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>a</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.BeginForm(System.String,System.String,System.Object,Microsoft.AspNet.Mvc.Rendering.FormMethod,System.Object)">
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controllerName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>form</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.BeginRouteForm(System.String,System.Object,Microsoft.AspNet.Mvc.Rendering.FormMethod,System.Object)">
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>form</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.CheckBox(System.String,System.Nullable{System.Boolean},System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.DropDownList(System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.String,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>select</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.Hidden(System.String,System.Object,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.Label(System.String,System.String,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>label</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.ListBox(System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>select</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.PartialAsync(System.String,System.Object,Microsoft.AspNet.Mvc.ViewFeatures.ViewDataDictionary)">
+    <parameter name="partialViewName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="model">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.Password(System.String,System.Object,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.RadioButton(System.String,System.Object,System.Nullable{System.Boolean},System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.RenderPartialAsync(System.String,System.Object,Microsoft.AspNet.Mvc.ViewFeatures.ViewDataDictionary)">
+    <parameter name="partialViewName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="model">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.RouteLink(System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+    <parameter name="linkText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>a</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.TextArea(System.String,System.String,System.Int32,System.Int32,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>textarea</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.TextBox(System.String,System.Object,System.String,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.ValidationMessage(System.String,System.String,System.Object,System.String)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>span</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.ValidationSummary(System.Boolean,System.String,System.Object,System.String)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>div</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.CheckBoxFor(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Object)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.DisplayFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.String,System.Object)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.DisplayNameFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.DisplayNameForInnerType``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.DisplayTextFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.DropDownListFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.String,System.Object)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>select</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.EditorFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.String,System.Object)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.HiddenFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.IdFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.LabelFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>label</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.ListBoxFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Object)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>select</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.NameFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.PasswordFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.RadioButtonFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object,System.Object)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.TextAreaFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Int32,System.Int32,System.Object)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>textarea</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.TextBoxFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.ValidationMessageFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object,System.String)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>span</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.ValueFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewComponent.View">
+    <attribute ctor="M:JetBrains.Annotations.AspMvcViewComponentViewAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewComponent.View(System.String)">
+    <parameter name="viewName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewComponent.View``1(``0)">
+    <attribute ctor="M:JetBrains.Annotations.AspMvcViewComponentViewAttribute.#ctor" />
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewComponent.View``1(System.String,``0)">
+    <parameter name="viewName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
   <member name="M:Microsoft.AspNet.Mvc.ViewEngines.CompositeViewEngine.FindPartialView(Microsoft.AspNet.Mvc.ActionContext,System.String)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
@@ -1344,6 +1840,22 @@
   <member name="M:Microsoft.AspNet.Mvc.ViewEngines.CompositeViewEngine.FindView(Microsoft.AspNet.Mvc.ActionContext,System.String)">
     <parameter name="viewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewEngines.IViewEngine.FindView(Microsoft.AspNet.Mvc.ActionContext,System.String)">
+    <parameter name="viewName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewEngines.IViewEngine.FindPartialView(Microsoft.AspNet.Mvc.ActionContext,System.String)">
+    <parameter name="partialViewName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
         <argument>false</argument>
       </attribute>
@@ -1551,7 +2063,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateSelect(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Collections.Generic.IReadOnlyCollection`1,System.Boolean,System.Object)">
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateSelect(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Collections.Generic.IReadOnlyCollection{System.String},System.Boolean,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>select</argument>
@@ -2321,6 +2833,234 @@
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
         <argument>Assign</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateActionLink(System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+    <parameter name="linkText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controllerName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>a</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateCheckBox(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Nullable{System.Boolean},System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateForm(Microsoft.AspNet.Mvc.Rendering.ViewContext,System.String,System.String,System.Object,System.String,System.Object)">
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controllerName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>form</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateRouteForm(Microsoft.AspNet.Mvc.Rendering.ViewContext,System.String,System.Object,System.String,System.Object)">
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>form</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateHidden(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Boolean,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateLabel(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>label</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GeneratePassword(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateRadioButton(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Nullable{System.Boolean},System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateRouteLink(System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+    <parameter name="linkText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>a</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateSelect(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Boolean,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>select</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateSelect(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Collections.Generic.IReadOnlyCollection{System.String},System.Boolean,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>select</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateTextArea(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Int32,System.Int32,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>textarea</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateTextBox(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.String,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateValidationMessage(Microsoft.AspNet.Mvc.Rendering.ViewContext,System.String,System.String,System.String,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>span</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateValidationSummary(Microsoft.AspNet.Mvc.Rendering.ViewContext,System.Boolean,System.String,System.String,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>div</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
       </attribute>
     </parameter>
   </member>
