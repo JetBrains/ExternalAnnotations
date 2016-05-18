@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Generated on Microsoft.AspNet.Mvc.ViewFeatures, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 -->
-<assembly name="Microsoft.AspNet.Mvc.ViewFeatures, Version=6.0.0.0">
-  <member name="M:Microsoft.AspNet.Mvc.Controller.View(System.String)">
+<!-- Generated on Microsoft.AspNetCore.Mvc.ViewFeatures, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 -->
+<assembly name="Microsoft.AspNetCore.Mvc.ViewFeatures, Version=1.0.0.0">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.View(System.String)">
     <parameter name="viewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -9,36 +9,12 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.View(System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.View(System.Object)">
     <parameter name="model">
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.View(System.String,System.Object)">
-    <parameter name="viewName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-    <parameter name="model">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.PartialView(System.String)">
-    <parameter name="viewName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.PartialView(System.Object)">
-    <parameter name="model">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.PartialView(System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.View(System.String,System.Object)">
     <parameter name="viewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -49,7 +25,31 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.RedirectToAction(System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.PartialView(System.String)">
+    <parameter name="viewName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.PartialView(System.Object)">
+    <parameter name="model">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.PartialView(System.String,System.Object)">
+    <parameter name="viewName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="model">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.RedirectToAction(System.String)">
     <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
@@ -58,77 +58,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.RedirectToAction(System.String,System.Object)">
-    <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
-    <parameter name="actionName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-    <parameter name="routeValues">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
-        <argument>Action</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
-        <argument>Area</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
-        <argument>Controller</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.RedirectToAction(System.String,System.String)">
-    <parameter name="actionName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-    <parameter name="controllerName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.RedirectToAction(System.String,System.String,System.Object)">
-    <parameter name="actionName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-    <parameter name="controllerName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-    <parameter name="routeValues">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
-        <argument>Action</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
-        <argument>Area</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
-        <argument>Controller</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.RedirectToActionPermanent(System.String)">
-    <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
-    <parameter name="actionName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.RedirectToActionPermanent(System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.RedirectToAction(System.String,System.Object)">
     <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
@@ -149,7 +79,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.RedirectToActionPermanent(System.String,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.RedirectToAction(System.String,System.String)">
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -163,7 +93,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.RedirectToActionPermanent(System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.RedirectToAction(System.String,System.String,System.Object)">
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -189,63 +119,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.RedirectToRoute(System.Object)">
-    <parameter name="routeValues">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
-        <argument>Action</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
-        <argument>Area</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
-        <argument>Controller</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.RedirectToRoute(System.String,System.Object)">
-    <parameter name="routeValues">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
-        <argument>Action</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
-        <argument>Area</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
-        <argument>Controller</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.RedirectToRoutePermanent(System.Object)">
-    <parameter name="routeValues">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
-        <argument>Action</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
-        <argument>Area</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
-        <argument>Controller</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.RedirectToRoutePermanent(System.String,System.Object)">
-    <parameter name="routeValues">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
-        <argument>Action</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
-        <argument>Area</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
-        <argument>Controller</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.CreatedAtAction(System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.RedirectToActionPermanent(System.String)">
     <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
@@ -254,7 +128,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.CreatedAtAction(System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.RedirectToActionPermanent(System.String,System.Object)">
     <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
@@ -275,7 +149,21 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.CreatedAtAction(System.String,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.RedirectToActionPermanent(System.String,System.String)">
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controllerName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.RedirectToActionPermanent(System.String,System.String,System.Object)">
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -301,7 +189,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.CreatedAtRoute(System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.RedirectToRoute(System.Object)">
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -315,7 +203,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.CreatedAtRoute(System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.RedirectToRoute(System.String,System.Object)">
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -329,27 +217,139 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.TryUpdateModelAsync(System.Object,System.Type,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.RedirectToRoutePermanent(System.Object)">
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.RedirectToRoutePermanent(System.String,System.Object)">
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.CreatedAtAction(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.CreatedAtAction(System.String,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.CreatedAtAction(System.String,System.String,System.Object,System.Object)">
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controllerName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.CreatedAtRoute(System.Object,System.Object)">
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.CreatedAtRoute(System.String,System.Object,System.Object)">
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.TryUpdateModelAsync(System.Object,System.Type,System.String)">
     <parameter name="model">
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.TryUpdateModelAsync(System.Object,System.Type,System.String,Microsoft.AspNet.Mvc.ModelBinding.IValueProvider,System.Func{Microsoft.AspNet.Mvc.ModelBinding.ModelBindingContext,System.String,System.Boolean})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.TryUpdateModelAsync(System.Object,System.Type,System.String,Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider,System.Func{Microsoft.AspNetCore.Mvc.ModelBinding.ModelBindingContext,System.String,System.Boolean})">
     <parameter name="model">
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.TryValidateModel(System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.TryValidateModel(System.Object)">
     <parameter name="model">
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Controller.TryValidateModel(System.Object,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.TryValidateModel(System.Object,System.String)">
     <parameter name="model">
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Diagnostics.ViewExecutorDiagnosticSourceExtensions.ViewFound(System.Diagnostics.DiagnosticSource,Microsoft.AspNet.Mvc.ActionContext,System.Boolean,Microsoft.AspNet.Mvc.PartialViewResult,System.String,Microsoft.AspNet.Mvc.ViewEngines.IView)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Diagnostics.ViewExecutorDiagnosticSourceExtensions.ViewFound(System.Diagnostics.DiagnosticSource,Microsoft.AspNetCore.Mvc.ActionContext,System.Boolean,Microsoft.AspNetCore.Mvc.PartialViewResult,System.String,Microsoft.AspNetCore.Mvc.ViewEngines.IView)">
     <parameter name="viewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -357,7 +357,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Diagnostics.ViewExecutorDiagnosticSourceExtensions.ViewNotFound(System.Diagnostics.DiagnosticSource,Microsoft.AspNet.Mvc.ActionContext,System.Boolean,Microsoft.AspNet.Mvc.PartialViewResult,System.String,System.Collections.Generic.IEnumerable{System.String})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Diagnostics.ViewExecutorDiagnosticSourceExtensions.ViewNotFound(System.Diagnostics.DiagnosticSource,Microsoft.AspNetCore.Mvc.ActionContext,System.Boolean,Microsoft.AspNetCore.Mvc.PartialViewResult,System.String,System.Collections.Generic.IEnumerable{System.String})">
     <parameter name="viewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -365,7 +365,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ModelBinding.ModelStateDictionaryExtensions.AddModelError``1(Microsoft.AspNet.Mvc.ModelBinding.ModelStateDictionary,System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionaryExtensions.AddModelError``1(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary,System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -373,7 +373,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ModelBinding.ModelStateDictionaryExtensions.AddModelError``1(Microsoft.AspNet.Mvc.ModelBinding.ModelStateDictionary,System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Exception,Microsoft.AspNet.Mvc.ModelBinding.ModelMetadata)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionaryExtensions.AddModelError``1(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary,System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Exception,Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -381,7 +381,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ModelBinding.ModelStateDictionaryExtensions.Remove``1(Microsoft.AspNet.Mvc.ModelBinding.ModelStateDictionary,System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionaryExtensions.Remove``1(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary,System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -389,7 +389,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ModelBinding.ModelStateDictionaryExtensions.RemoveAll``1(Microsoft.AspNet.Mvc.ModelBinding.ModelStateDictionary,System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionaryExtensions.RemoveAll``1(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary,System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -397,7 +397,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -405,7 +405,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -413,7 +413,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -421,7 +421,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -429,7 +429,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -437,7 +437,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperDisplayNameExtensions.DisplayNameFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{System.Collections.Generic.IEnumerable{``0}},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayNameExtensions.DisplayNameFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{System.Collections.Generic.IEnumerable{``0}},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -445,7 +445,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperEditorExtensions.EditorFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperEditorExtensions.EditorFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -453,7 +453,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperEditorExtensions.EditorFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperEditorExtensions.EditorFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -461,7 +461,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperEditorExtensions.EditorFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperEditorExtensions.EditorFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -469,7 +469,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperEditorExtensions.EditorFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperEditorExtensions.EditorFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -477,7 +477,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperEditorExtensions.EditorFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperEditorExtensions.EditorFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -485,7 +485,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,Microsoft.AspNet.Mvc.Rendering.FormMethod,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>form</argument>
@@ -495,7 +495,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.Object)">
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -509,7 +509,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String)">
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -523,47 +523,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object)">
-    <parameter name="actionName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-    <parameter name="controllerName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-    <parameter name="routeValues">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
-        <argument>Action</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
-        <argument>Area</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
-        <argument>Controller</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String,Microsoft.AspNet.Mvc.Rendering.FormMethod)">
-    <parameter name="actionName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-    <parameter name="controllerName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object,Microsoft.AspNet.Mvc.Rendering.FormMethod)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object)">
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -589,7 +549,47 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String,Microsoft.AspNet.Mvc.Rendering.FormMethod,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String,Microsoft.AspNetCore.Mvc.Rendering.FormMethod)">
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controllerName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object,Microsoft.AspNetCore.Mvc.Rendering.FormMethod)">
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controllerName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Object)">
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -611,7 +611,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperFormExtensions.BeginRouteForm(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginRouteForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.Object)">
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -625,7 +625,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperFormExtensions.BeginRouteForm(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginRouteForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -639,7 +639,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperFormExtensions.BeginRouteForm(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object,Microsoft.AspNet.Mvc.Rendering.FormMethod)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginRouteForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object,Microsoft.AspNetCore.Mvc.Rendering.FormMethod)">
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -653,7 +653,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperFormExtensions.BeginRouteForm(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,Microsoft.AspNet.Mvc.Rendering.FormMethod,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginRouteForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>form</argument>
@@ -663,7 +663,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperInputExtensions.CheckBox(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions.CheckBox(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -673,7 +673,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperInputExtensions.CheckBoxFor``1(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions.CheckBoxFor``1(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -681,7 +681,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperInputExtensions.HiddenFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions.HiddenFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -689,7 +689,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperInputExtensions.PasswordFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions.PasswordFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -697,7 +697,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperInputExtensions.RadioButton(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions.RadioButton(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -707,7 +707,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperInputExtensions.RadioButtonFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions.RadioButtonFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -715,7 +715,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperInputExtensions.TextBox(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions.TextBox(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -725,7 +725,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperInputExtensions.TextBoxFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions.TextBoxFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -733,7 +733,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperInputExtensions.TextBoxFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions.TextBoxFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -741,51 +741,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperInputExtensions.TextBoxFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
-    <parameter name="expression">
-      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
-        <argument>Assign</argument>
-      </attribute>
-    </parameter>
-    <parameter name="htmlAttributes">
-      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
-        <argument>input</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperInputExtensions.TextArea(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
-    <parameter name="htmlAttributes">
-      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
-        <argument>input</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperInputExtensions.TextArea(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object)">
-    <parameter name="htmlAttributes">
-      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
-        <argument>input</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperInputExtensions.TextAreaFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
-    <parameter name="expression">
-      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
-        <argument>Assign</argument>
-      </attribute>
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperInputExtensions.TextAreaFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions.TextBoxFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -801,7 +757,27 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLabelExtensions.LabelFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions.TextArea(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions.TextArea(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions.TextAreaFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -809,7 +785,23 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLabelExtensions.LabelFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperInputExtensions.TextAreaFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLabelExtensions.LabelFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -817,7 +809,15 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLabelExtensions.LabelFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLabelExtensions.LabelFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLabelExtensions.LabelFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -833,7 +833,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLabelExtensions.LabelForModel(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLabelExtensions.LabelForModel(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>label</argument>
@@ -843,7 +843,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLabelExtensions.LabelForModel(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLabelExtensions.LabelForModel(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>label</argument>
@@ -853,7 +853,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLinkExtensions.ActionLink(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLinkExtensions.ActionLink(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String)">
     <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
@@ -865,7 +865,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLinkExtensions.ActionLink(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLinkExtensions.ActionLink(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object)">
     <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
@@ -889,7 +889,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLinkExtensions.ActionLink(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLinkExtensions.ActionLink(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object,System.Object)">
     <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
@@ -921,7 +921,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLinkExtensions.ActionLink(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLinkExtensions.ActionLink(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.String)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -938,36 +938,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLinkExtensions.ActionLink(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.String,System.Object)">
-    <parameter name="linkText">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    </parameter>
-    <parameter name="actionName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-    <parameter name="controllerName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-    <parameter name="routeValues">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
-        <argument>Action</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
-        <argument>Area</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
-        <argument>Controller</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLinkExtensions.ActionLink(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLinkExtensions.ActionLink(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.String,System.Object)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -995,57 +966,22 @@
       </attribute>
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
-    <parameter name="htmlAttributes">
-      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
-        <argument>a</argument>
-      </attribute>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLinkExtensions.ActionLink(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.String,System.Object,System.Object)">
+    <parameter name="linkText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
         <argument>false</argument>
       </attribute>
     </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLinkExtensions.RouteLink(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
-    <parameter name="linkText">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    </parameter>
-    <parameter name="routeValues">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
-        <argument>Action</argument>
+    <parameter name="controllerName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
       </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
-        <argument>Area</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
-        <argument>Controller</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLinkExtensions.RouteLink(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String)">
-    <parameter name="linkText">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLinkExtensions.RouteLink(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object)">
-    <parameter name="linkText">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    </parameter>
-    <parameter name="routeValues">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
-        <argument>Action</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
-        <argument>Area</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
-        <argument>Controller</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLinkExtensions.RouteLink(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object,System.Object)">
-    <parameter name="linkText">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
@@ -1068,7 +1004,46 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperLinkExtensions.RouteLink(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLinkExtensions.RouteLink(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
+    <parameter name="linkText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLinkExtensions.RouteLink(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String)">
+    <parameter name="linkText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLinkExtensions.RouteLink(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object)">
+    <parameter name="linkText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLinkExtensions.RouteLink(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object,System.Object)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -1093,7 +1068,32 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperPartialExtensions.PartialAsync(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperLinkExtensions.RouteLink(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object,System.Object)">
+    <parameter name="linkText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>a</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions.PartialAsync(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1101,7 +1101,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperPartialExtensions.PartialAsync(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,Microsoft.AspNet.Mvc.ViewFeatures.ViewDataDictionary)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions.PartialAsync(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1109,7 +1109,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperPartialExtensions.PartialAsync(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions.PartialAsync(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1120,7 +1120,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperPartialExtensions.Partial(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions.Partial(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1128,7 +1128,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperPartialExtensions.Partial(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,Microsoft.AspNet.Mvc.ViewFeatures.ViewDataDictionary)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions.Partial(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1136,18 +1136,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperPartialExtensions.Partial(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
-    <parameter name="partialViewName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-    <parameter name="model">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperPartialExtensions.Partial(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object,Microsoft.AspNet.Mvc.ViewFeatures.ViewDataDictionary)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions.Partial(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1158,23 +1147,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperPartialExtensions.RenderPartialAsync(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String)">
-    <parameter name="partialViewName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperPartialExtensions.RenderPartialAsync(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,Microsoft.AspNet.Mvc.ViewFeatures.ViewDataDictionary)">
-    <parameter name="partialViewName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperPartialExtensions.RenderPartialAsync(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions.Partial(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object,Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1185,7 +1158,34 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperSelectExtensions.DropDownList(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions.RenderPartialAsync(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String)">
+    <parameter name="partialViewName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions.RenderPartialAsync(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">
+    <parameter name="partialViewName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions.RenderPartialAsync(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
+    <parameter name="partialViewName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="model">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperSelectExtensions.DropDownList(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>select</argument>
@@ -1195,7 +1195,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperSelectExtensions.DropDownListFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperSelectExtensions.DropDownListFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1203,7 +1203,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperSelectExtensions.DropDownListFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperSelectExtensions.DropDownListFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1219,7 +1219,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperSelectExtensions.DropDownListFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperSelectExtensions.DropDownListFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.String)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1227,7 +1227,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperSelectExtensions.ListBoxFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperSelectExtensions.ListBoxFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1235,7 +1235,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationMessage(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationMessage(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>span</argument>
@@ -1245,7 +1245,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationMessage(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationMessage(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>span</argument>
@@ -1255,7 +1255,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationMessageFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationMessageFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1263,7 +1263,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationMessageFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationMessageFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1271,7 +1271,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationMessageFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationMessageFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1287,7 +1287,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationMessageFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationMessageFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1295,7 +1295,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationSummary(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationSummary(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>div</argument>
@@ -1305,7 +1305,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationSummary(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.String,System.Object,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationSummary(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object,System.String)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>div</argument>
@@ -1315,7 +1315,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationSummary(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper,System.Boolean,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperValidationExtensions.ValidationSummary(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.Boolean,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>div</argument>
@@ -1325,7 +1325,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.HtmlHelperValueExtensions.ValueFor``2(Microsoft.AspNet.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperValueExtensions.ValueFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1333,7 +1333,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.ActionLink(System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.ActionLink(System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -1370,7 +1370,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.BeginForm(System.String,System.String,System.Object,Microsoft.AspNet.Mvc.Rendering.FormMethod,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.BeginForm(System.String,System.String,System.Object,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Object)">
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1404,7 +1404,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.BeginRouteForm(System.String,System.Object,Microsoft.AspNet.Mvc.Rendering.FormMethod,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.BeginRouteForm(System.String,System.Object,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Object)">
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -1426,7 +1426,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.CheckBox(System.String,System.Nullable{System.Boolean},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.CheckBox(System.String,System.Nullable{System.Boolean},System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -1436,7 +1436,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.DropDownList(System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.DropDownList(System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>select</argument>
@@ -1446,7 +1446,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.Hidden(System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.Hidden(System.String,System.Object,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -1456,7 +1456,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.Label(System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.Label(System.String,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>label</argument>
@@ -1466,7 +1466,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.ListBox(System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.ListBox(System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>select</argument>
@@ -1476,7 +1476,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.PartialAsync(System.String,System.Object,Microsoft.AspNet.Mvc.ViewFeatures.ViewDataDictionary)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.PartialAsync(System.String,System.Object,Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1487,7 +1487,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.Password(System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.Password(System.String,System.Object,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -1497,7 +1497,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.RadioButton(System.String,System.Object,System.Nullable{System.Boolean},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.RadioButton(System.String,System.Object,System.Nullable{System.Boolean},System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -1507,7 +1507,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.RenderPartialAsync(System.String,System.Object,Microsoft.AspNet.Mvc.ViewFeatures.ViewDataDictionary)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.RenderPartialAsync(System.String,System.Object,Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1518,7 +1518,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.RouteLink(System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.RouteLink(System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -1543,7 +1543,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.TextArea(System.String,System.String,System.Int32,System.Int32,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.TextArea(System.String,System.String,System.Int32,System.Int32,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>textarea</argument>
@@ -1553,7 +1553,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.TextBox(System.String,System.Object,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.TextBox(System.String,System.Object,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -1563,7 +1563,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.ValidationMessage(System.String,System.String,System.Object,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.ValidationMessage(System.String,System.String,System.Object,System.String)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>span</argument>
@@ -1573,7 +1573,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper.ValidationSummary(System.Boolean,System.String,System.Object,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper.ValidationSummary(System.Boolean,System.String,System.Object,System.String)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>div</argument>
@@ -1583,7 +1583,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.CheckBoxFor(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.CheckBoxFor(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1599,7 +1599,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.DisplayFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.DisplayFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.String,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1607,7 +1607,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.DisplayNameFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.DisplayNameFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1615,7 +1615,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.DisplayNameForInnerType``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.DisplayNameForInnerType``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1623,7 +1623,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.DisplayTextFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.DisplayTextFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1631,7 +1631,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.DropDownListFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.DropDownListFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.String,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1647,7 +1647,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.EditorFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.EditorFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.String,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1655,7 +1655,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.HiddenFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.HiddenFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1671,7 +1671,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.IdFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.IdFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1679,7 +1679,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.LabelFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.LabelFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1695,7 +1695,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.ListBoxFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.ListBoxFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1711,7 +1711,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.NameFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.NameFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1719,23 +1719,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.PasswordFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object)">
-    <parameter name="expression">
-      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
-        <argument>Assign</argument>
-      </attribute>
-    </parameter>
-    <parameter name="htmlAttributes">
-      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
-        <argument>input</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.RadioButtonFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.PasswordFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1751,7 +1735,23 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.TextAreaFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Int32,System.Int32,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.RadioButtonFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object,System.Object)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.TextAreaFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Int32,System.Int32,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1767,7 +1767,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.TextBoxFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.TextBoxFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1783,7 +1783,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.ValidationMessageFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.ValidationMessageFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object,System.String)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1799,7 +1799,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.Rendering.IHtmlHelper`1.ValueFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper`1.ValueFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1807,7 +1807,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewEngines.CompositeViewEngine.FindPartialView(Microsoft.AspNet.Mvc.ActionContext,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindPartialView(Microsoft.AspNetCore.Mvc.ActionContext,System.String)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1815,7 +1815,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewEngines.CompositeViewEngine.FindView(Microsoft.AspNet.Mvc.ActionContext,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindView(Microsoft.AspNetCore.Mvc.ActionContext,System.String)">
     <parameter name="viewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1823,7 +1823,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewEngines.IViewEngine.FindView(Microsoft.AspNet.Mvc.ActionContext,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewEngines.IViewEngine.FindView(Microsoft.AspNetCore.Mvc.ActionContext,System.String)">
     <parameter name="viewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1831,7 +1831,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewEngines.IViewEngine.FindPartialView(Microsoft.AspNet.Mvc.ActionContext,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewEngines.IViewEngine.FindPartialView(Microsoft.AspNetCore.Mvc.ActionContext,System.String)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1839,7 +1839,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewEngines.ViewEngineResult.NotFound(System.String,System.Collections.Generic.IEnumerable{System.String})">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.NotFound(System.String,System.Collections.Generic.IEnumerable{System.String})">
     <parameter name="viewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1847,7 +1847,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewEngines.ViewEngineResult.Found(System.String,Microsoft.AspNet.Mvc.ViewEngines.IView)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.Found(System.String,Microsoft.AspNetCore.Mvc.ViewEngines.IView)">
     <parameter name="viewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1855,7 +1855,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.CachedExpressionCompiler.Process``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.CachedExpressionCompiler.Process``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -1863,7 +1863,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateActionLink(System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateActionLink(System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -1900,7 +1900,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateCheckBox(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Nullable{System.Boolean},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateCheckBox(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Nullable{System.Boolean},System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -1910,7 +1910,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateForm(Microsoft.AspNet.Mvc.Rendering.ViewContext,System.String,System.String,System.Object,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateForm(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String,System.String,System.Object,System.String,System.Object)">
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1944,7 +1944,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateRouteForm(Microsoft.AspNet.Mvc.Rendering.ViewContext,System.String,System.Object,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateRouteForm(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String,System.Object,System.String,System.Object)">
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -1966,7 +1966,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateHidden(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Boolean,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateHidden(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Boolean,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -1976,7 +1976,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateLabel(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateLabel(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>label</argument>
@@ -1986,7 +1986,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GeneratePassword(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GeneratePassword(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -1996,7 +1996,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateRadioButton(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Nullable{System.Boolean},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateRadioButton(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Nullable{System.Boolean},System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2006,7 +2006,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateRouteLink(System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateRouteLink(System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -2031,7 +2031,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateSelect(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Boolean,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateSelect(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Boolean,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>select</argument>
@@ -2041,7 +2041,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateSelect(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Collections.Generic.IReadOnlyCollection{System.String},System.Boolean,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateSelect(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Collections.Generic.IReadOnlyCollection{System.String},System.Boolean,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>select</argument>
@@ -2051,7 +2051,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateTextArea(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Int32,System.Int32,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateTextArea(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Int32,System.Int32,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>textarea</argument>
@@ -2061,7 +2061,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateTextBox(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateTextBox(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2071,7 +2071,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateValidationMessage(Microsoft.AspNet.Mvc.Rendering.ViewContext,System.String,System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateValidationMessage(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String,System.String,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>span</argument>
@@ -2081,7 +2081,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateValidationSummary(Microsoft.AspNet.Mvc.Rendering.ViewContext,System.Boolean,System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateValidationSummary(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.Boolean,System.String,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>div</argument>
@@ -2091,7 +2091,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateFormCore(Microsoft.AspNet.Mvc.Rendering.ViewContext,System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateFormCore(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String,System.String,System.Object)">
     <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
     <parameter name="action">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
@@ -2108,7 +2108,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateInput(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.InputType,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateInput(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.InputType,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2118,7 +2118,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateLink(System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateLink(System.String,System.String,System.Object)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -2131,7 +2131,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.ExpressionMetadataProvider.FromLambdaExpression``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},Microsoft.AspNet.Mvc.ViewFeatures.ViewDataDictionary{``0},Microsoft.AspNet.Mvc.ModelBinding.IModelMetadataProvider)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.ExpressionMetadataProvider.FromLambdaExpression``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary{``0},Microsoft.AspNetCore.Mvc.ModelBinding.IModelMetadataProvider)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2139,7 +2139,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.AnonymousObjectToHtmlAttributes(System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.AnonymousObjectToHtmlAttributes(System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -2147,7 +2147,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.ActionLink(System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.ActionLink(System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -2184,7 +2184,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.BeginForm(System.String,System.String,System.Object,Microsoft.AspNet.Mvc.Rendering.FormMethod,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.BeginForm(System.String,System.String,System.Object,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Object)">
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -2218,7 +2218,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.BeginRouteForm(System.String,System.Object,Microsoft.AspNet.Mvc.Rendering.FormMethod,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.BeginRouteForm(System.String,System.Object,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Object)">
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -2240,7 +2240,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.CheckBox(System.String,System.Nullable{System.Boolean},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.CheckBox(System.String,System.Nullable{System.Boolean},System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2250,7 +2250,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.DropDownList(System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.DropDownList(System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>select</argument>
@@ -2260,7 +2260,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.Hidden(System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.Hidden(System.String,System.Object,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2270,7 +2270,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.Label(System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.Label(System.String,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>label</argument>
@@ -2280,7 +2280,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.ListBox(System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.ListBox(System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>select</argument>
@@ -2290,7 +2290,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.PartialAsync(System.String,System.Object,Microsoft.AspNet.Mvc.ViewFeatures.ViewDataDictionary)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(System.String,System.Object,Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -2301,7 +2301,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.RenderPartialAsync(System.String,System.Object,Microsoft.AspNet.Mvc.ViewFeatures.ViewDataDictionary)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialAsync(System.String,System.Object,Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -2312,7 +2312,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(System.String,System.Object,Microsoft.AspNet.Mvc.ViewFeatures.ViewDataDictionary,System.IO.TextWriter)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(System.String,System.Object,Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.IO.TextWriter)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -2323,7 +2323,7 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.Password(System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.Password(System.String,System.Object,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2333,7 +2333,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.RadioButton(System.String,System.Object,System.Nullable{System.Boolean},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RadioButton(System.String,System.Object,System.Nullable{System.Boolean},System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2343,7 +2343,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.RouteLink(System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RouteLink(System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -2368,7 +2368,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.ValidationMessage(System.String,System.String,System.Object,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.ValidationMessage(System.String,System.String,System.Object,System.String)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>span</argument>
@@ -2378,7 +2378,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.ValidationSummary(System.Boolean,System.String,System.Object,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.ValidationSummary(System.Boolean,System.String,System.Object,System.String)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>div</argument>
@@ -2388,7 +2388,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.TextArea(System.String,System.String,System.Int32,System.Int32,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.TextArea(System.String,System.String,System.Int32,System.Int32,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>textarea</argument>
@@ -2398,7 +2398,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.TextBox(System.String,System.Object,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.TextBox(System.String,System.Object,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2408,7 +2408,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.GenerateCheckBox(Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Nullable{System.Boolean},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateCheckBox(Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Nullable{System.Boolean},System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2418,7 +2418,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.GenerateDropDown(Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateDropDown(Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>select</argument>
@@ -2428,7 +2428,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.GenerateForm(System.String,System.String,System.Object,Microsoft.AspNet.Mvc.Rendering.FormMethod,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateForm(System.String,System.String,System.Object,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Object)">
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -2462,7 +2462,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.GenerateRouteForm(System.String,System.Object,Microsoft.AspNet.Mvc.Rendering.FormMethod,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateRouteForm(System.String,System.Object,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Object)">
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -2484,7 +2484,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.GenerateHidden(Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Boolean,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateHidden(Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Boolean,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2494,7 +2494,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.GenerateLabel(Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateLabel(Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>label</argument>
@@ -2504,7 +2504,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.GenerateListBox(Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateListBox(Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>select</argument>
@@ -2514,7 +2514,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.GeneratePassword(Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GeneratePassword(Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2524,7 +2524,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.GenerateRadioButton(Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Nullable{System.Boolean},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateRadioButton(Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Nullable{System.Boolean},System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2534,7 +2534,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.GenerateTextArea(Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Int32,System.Int32,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateTextArea(Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Int32,System.Int32,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>textarea</argument>
@@ -2544,7 +2544,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.GenerateTextBox(Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateTextBox(Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2554,7 +2554,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.GenerateValidationMessage(System.String,System.String,System.Object,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateValidationMessage(System.String,System.String,System.Object,System.String)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>span</argument>
@@ -2564,7 +2564,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper.GenerateValidationSummary(System.Boolean,System.String,System.Object,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateValidationSummary(System.Boolean,System.String,System.Object,System.String)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>div</argument>
@@ -2574,7 +2574,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.CheckBoxFor(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.CheckBoxFor(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2590,7 +2590,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.DropDownListFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.DropDownListFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.String,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2606,7 +2606,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.DisplayFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.DisplayFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.String,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2614,7 +2614,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.DisplayNameFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.DisplayNameFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2622,7 +2622,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.DisplayNameForInnerType``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.DisplayNameForInnerType``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2630,7 +2630,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.DisplayTextFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.DisplayTextFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2638,7 +2638,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.EditorFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.EditorFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.String,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2646,7 +2646,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.HiddenFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.HiddenFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2662,7 +2662,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.IdFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.IdFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2670,7 +2670,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.LabelFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.LabelFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2686,7 +2686,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.ListBoxFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.ListBoxFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2702,7 +2702,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.NameFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.NameFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2710,23 +2710,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.PasswordFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object)">
-    <parameter name="expression">
-      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
-      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
-        <argument>Assign</argument>
-      </attribute>
-    </parameter>
-    <parameter name="htmlAttributes">
-      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
-        <argument>input</argument>
-      </attribute>
-      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
-        <argument>false</argument>
-      </attribute>
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.RadioButtonFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.PasswordFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2742,7 +2726,23 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.TextAreaFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Int32,System.Int32,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.RadioButtonFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Object,System.Object)">
+    <parameter name="expression">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>Assign</argument>
+      </attribute>
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.TextAreaFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Int32,System.Int32,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2758,7 +2758,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.TextBoxFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.TextBoxFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2774,7 +2774,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.GetExpressionName``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.GetExpressionName``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2782,7 +2782,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.GetModelExplorer``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.GetModelExplorer``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2790,7 +2790,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.ValidationMessageFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object,System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.ValidationMessageFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String,System.Object,System.String)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2806,7 +2806,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.HtmlHelper`1.ValueFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper`1.ValueFor``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},System.String)">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
@@ -2814,7 +2814,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateActionLink(System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateActionLink(System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -2851,7 +2851,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateCheckBox(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Nullable{System.Boolean},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateCheckBox(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Nullable{System.Boolean},System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2861,7 +2861,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateForm(Microsoft.AspNet.Mvc.Rendering.ViewContext,System.String,System.String,System.Object,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateForm(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String,System.String,System.Object,System.String,System.Object)">
     <parameter name="actionName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -2895,7 +2895,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateRouteForm(Microsoft.AspNet.Mvc.Rendering.ViewContext,System.String,System.Object,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateRouteForm(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String,System.Object,System.String,System.Object)">
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -2917,7 +2917,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateHidden(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Boolean,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateHidden(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Boolean,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2927,7 +2927,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateLabel(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateLabel(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>label</argument>
@@ -2937,7 +2937,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GeneratePassword(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GeneratePassword(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2947,7 +2947,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateRadioButton(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Nullable{System.Boolean},System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateRadioButton(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.Nullable{System.Boolean},System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -2957,7 +2957,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateRouteLink(System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateRouteLink(System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -2982,7 +2982,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateSelect(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Boolean,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateSelect(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Boolean,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>select</argument>
@@ -2992,7 +2992,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateSelect(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Mvc.Rendering.SelectListItem},System.Collections.Generic.IReadOnlyCollection{System.String},System.Boolean,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateSelect(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Collections.Generic.IReadOnlyCollection{System.String},System.Boolean,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>select</argument>
@@ -3002,7 +3002,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateTextArea(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Int32,System.Int32,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateTextArea(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Int32,System.Int32,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>textarea</argument>
@@ -3012,7 +3012,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateTextBox(Microsoft.AspNet.Mvc.Rendering.ViewContext,Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateTextBox(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
@@ -3022,7 +3022,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateValidationMessage(Microsoft.AspNet.Mvc.Rendering.ViewContext,System.String,System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateValidationMessage(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String,System.String,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>span</argument>
@@ -3032,7 +3032,7 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.IHtmlGenerator.GenerateValidationSummary(Microsoft.AspNet.Mvc.Rendering.ViewContext,System.Boolean,System.String,System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateValidationSummary(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.Boolean,System.String,System.String,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>div</argument>
@@ -3042,27 +3042,27 @@
       </attribute>
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer.GetExplorerForModel(System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer.GetExplorerForModel(System.Object)">
     <parameter name="model">
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer.GetExplorerForProperty(System.String,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer.GetExplorerForProperty(System.String,System.Object)">
     <parameter name="model">
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer.GetExplorerForExpression(System.Type,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer.GetExplorerForExpression(System.Type,System.Object)">
     <parameter name="model">
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.ModelExplorer.GetExplorerForExpression(Microsoft.AspNet.Mvc.ModelBinding.ModelMetadata,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer.GetExplorerForExpression(Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata,System.Object)">
     <parameter name="model">
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNet.Mvc.ViewFeatures.ModelMetadataProviderExtensions.GetModelExplorerForType(Microsoft.AspNet.Mvc.ModelBinding.IModelMetadataProvider,System.Type,System.Object)">
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.ModelMetadataProviderExtensions.GetModelExplorerForType(Microsoft.AspNetCore.Mvc.ModelBinding.IModelMetadataProvider,System.Type,System.Object)">
     <parameter name="model">
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
