@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <assembly name="Microsoft.AspNetCore.Mvc.ViewFeatures">
   
-  <member name="M:Microsoft.AspNetCore.Mvc.IViewComponentHelper.Invoke(System.String,System.Object[])">
+  <member name="M:Microsoft.AspNetCore.Mvc.IViewComponentHelper.InvokeAsync(System.String,System.Object)">
     <parameter name="name">
       <attribute ctor="M:JetBrains.Annotations.AspMvcViewComponentAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:Microsoft.AspNetCore.Mvc.IViewComponentHelper.RenderInvoke(System.String,System.Object[])">
-    <parameter name="name">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcViewComponentAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNetCore.Mvc.IViewComponentHelper.InvokeAsync(System.String,System.Object[])">
-    <parameter name="name">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcViewComponentAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name="M:Microsoft.AspNetCore.Mvc.IViewComponentHelper.RenderInvokeAsync(System.String,System.Object[])">
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.ViewComponentHelperExtensions.InvokeAsync(Microsoft.AspNetCore.Mvc.IViewComponentHelper,System.String)">
     <parameter name="name">
       <attribute ctor="M:JetBrains.Annotations.AspMvcViewComponentAttribute.#ctor" />
     </parameter>
