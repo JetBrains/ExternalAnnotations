@@ -495,7 +495,53 @@
       </attribute>
     </parameter>
   </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper)">
+    <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+      <argument>Action</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+      <argument>Controller</argument>
+    </attribute>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.Nullable{System.Boolean})">
+    <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)" />
+    <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)" />
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,Microsoft.AspNetCore.Mvc.Rendering.FormMethod)">
+    <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)" />
+    <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)" />
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Object))">
+    <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)" />
+    <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)" />
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>form</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
   <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)" />
+    <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)" />
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Nullable{System.Boolean},System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)" />
+    <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)" />
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -651,6 +697,16 @@
         <argument>Controller</argument>
       </attribute>
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginRouteForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,Microsoft.AspNetCore.Mvc.Rendering.FormMethod)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>form</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
     </parameter>
   </member>
   <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginRouteForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Object)">
