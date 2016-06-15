@@ -540,8 +540,8 @@
     </parameter>
   </member>
   <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperFormExtensions.BeginForm(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Nullable{System.Boolean},System.Object)">
-    <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)" />
-    <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)" />
+    <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -647,6 +647,40 @@
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
         <argument>false</argument>
       </attribute>
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>form</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.BeginForm(System.String,System.String,System.Object,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Nullable{System.Boolean},System.Object)">
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controllerName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
@@ -1204,6 +1238,33 @@
     </parameter>
   </member>
   <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions.Partial(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object,Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">
+    <parameter name="partialViewName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="model">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions.RenderPartial(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String)">
+    <parameter name="partialViewName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions.RenderPartial(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">
+    <parameter name="partialViewName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperPartialExtensions.RenderPartial(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,System.String,System.Object)">
     <parameter name="partialViewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
@@ -1919,6 +1980,43 @@
       </attribute>
     </parameter>
   </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateActionLink(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+    <parameter name="linkText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controllerName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>a</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
   <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateActionLink(System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
@@ -2062,6 +2160,31 @@
       </attribute>
     </parameter>
   </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateRouteLink(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+    <parameter name="linkText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>a</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
   <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateRouteLink(System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
@@ -2097,6 +2220,16 @@
       </attribute>
     </parameter>
   </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateSelect(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Collections.Generic.ICollection{System.String},System.Boolean,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>select</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
   <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateSelect(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Collections.Generic.IReadOnlyCollection{System.String},System.Boolean,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
@@ -2121,6 +2254,16 @@
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateValidationMessage(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.String,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>span</argument>
       </attribute>
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
         <argument>false</argument>
@@ -2275,6 +2418,28 @@
     </parameter>
   </member>
   <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.BeginRouteForm(System.String,System.Object,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Object)">
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>form</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.BeginRouteForm(System.String,System.Object,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Nullable{System.Boolean},System.Object)">
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -2518,7 +2683,63 @@
       </attribute>
     </parameter>
   </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateForm(System.String,System.String,System.Object,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Nullable{System.Boolean},System.Object)">
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controllerName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>form</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
   <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateRouteForm(System.String,System.Object,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Object)">
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>form</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateRouteForm(System.String,System.Object,Microsoft.AspNetCore.Mvc.Rendering.FormMethod,System.Nullable{System.Boolean},System.Object)">
     <parameter name="routeValues">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
@@ -2590,6 +2811,91 @@
       </attribute>
     </parameter>
   </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateRouteLink(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+    <parameter name="linkText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>a</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateSelect(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Boolean,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>select</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateSelect(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem},System.Collections.Generic.ICollection{System.String},System.Boolean,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>select</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateTextArea(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Int32,System.Int32,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>textarea</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateTextBox(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Object,System.String,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>input</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateValidationMessage(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.String,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>span</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateValidationSummary(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.Boolean,System.String,System.String,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>div</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
   <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateTextArea(Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.Int32,System.Int32,System.Object)">
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
@@ -2614,6 +2920,26 @@
     <parameter name="htmlAttributes">
       <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
         <argument>span</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+<member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateValidationMessage(Microsoft.AspNetCore.Mvc.ViewFeatures.ModelExplorer,System.String,System.String,System.String,System.Object)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>span</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.GenerateValidationSummary(System.Boolean,System.String,System.Object,System.String)">
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>div</argument>
       </attribute>
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
         <argument>false</argument>
@@ -2871,6 +3197,43 @@
     </parameter>
   </member>
   <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateActionLink(System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
+    <parameter name="linkText">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="actionName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controllerName">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="routeValues">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="htmlAttributes">
+      <attribute ctor="M:JetBrains.Annotations.HtmlElementAttributesAttribute.#ctor(System.String)">
+        <argument>a</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.ViewFeatures.IHtmlGenerator.GenerateActionLink(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Object)">
     <parameter name="linkText">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
