@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Generated on Microsoft.AspNetCore.Mvc.ViewFeatures, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 -->
 <assembly name="Microsoft.AspNetCore.Mvc.ViewFeatures, Version=1.0.0.0">
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.View">
+    <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
+  </member>
   <member name="M:Microsoft.AspNetCore.Mvc.Controller.View(System.String)">
     <parameter name="viewName">
       <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
@@ -10,6 +13,7 @@
     </parameter>
   </member>
   <member name="M:Microsoft.AspNetCore.Mvc.Controller.View(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
     <parameter name="model">
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
@@ -25,22 +29,26 @@
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.Controller.PartialView">
+    <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
+  </member>
   <member name="M:Microsoft.AspNetCore.Mvc.Controller.PartialView(System.String)">
     <parameter name="viewName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
         <argument>false</argument>
       </attribute>
     </parameter>
   </member>
   <member name="M:Microsoft.AspNetCore.Mvc.Controller.PartialView(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
     <parameter name="model">
       <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
     </parameter>
   </member>
   <member name="M:Microsoft.AspNetCore.Mvc.Controller.PartialView(System.String,System.Object)">
     <parameter name="viewName">
-      <attribute ctor="M:JetBrains.Annotations.AspMvcViewAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.AspMvcPartialViewAttribute.#ctor" />
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
         <argument>false</argument>
       </attribute>
