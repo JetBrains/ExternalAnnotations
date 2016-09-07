@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="CommonServiceLocator.NinjectAdapter">
+  <member name="M:CommonServiceLocator.NinjectAdapter.NinjectServiceLocator.#ctor(Ninject.IKernel)">
+    <parameter name="kernel">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:CommonServiceLocator.NinjectAdapter.NinjectServiceLocator.DoGetAllInstances(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="serviceType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:CommonServiceLocator.NinjectAdapter.NinjectServiceLocator.DoGetInstance(System.Type,System.String)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="serviceType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:CommonServiceLocator.NinjectAdapter.NinjectServiceLocator.Kernel">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>
