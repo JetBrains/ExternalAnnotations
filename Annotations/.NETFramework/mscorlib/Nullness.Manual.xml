@@ -222,4 +222,16 @@
   <member name="P:System.Exception.InnerException">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
   </member>
+
+  <!-- https://github.com/JetBrains/ExternalAnnotations/issues/21 -->
+  <member name="M:System.Object.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.IEquatable`1.Equals(`0)">
+    <parameter name="other">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
 </assembly>
