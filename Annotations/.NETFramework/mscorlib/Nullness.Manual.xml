@@ -238,5 +238,12 @@
   <!-- https://github.com/JetBrains/ExternalAnnotations/issues/41 -->
   <member name="M:System.Nullable.GetUnderlyingType(System.Type)">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </member>
+  
+  <!-- https://github.com/JetBrains/ExternalAnnotations/issues/42 -->
+  <!-- RSRP-296612 -->
+  <member name="F:System.Type.EmptyTypes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
   </member>
+
 </assembly>
