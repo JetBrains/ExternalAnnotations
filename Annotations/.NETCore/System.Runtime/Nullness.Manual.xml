@@ -1,0 +1,13 @@
+<assembly name="System.Runtime">
+
+  <!-- https://github.com/JetBrains/ExternalAnnotations/issues/55 -->
+  <member name="M:System.Collections.Generic.IComparer`1.Compare(`0,`0)">
+    <parameter name="x">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="y">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+
+</assembly>
