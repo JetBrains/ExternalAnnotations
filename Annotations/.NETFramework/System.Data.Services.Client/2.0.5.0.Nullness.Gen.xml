@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <assembly name="System.Data.Services.Client, Version=2.0.5.0">
-  <member name="M:System.Data.Services.Client.ALinqExpressionVisitor.Visit()">
+  <member name="M:System.Data.Services.Client.ALinqExpressionVisitor.Visit">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
   </member>
-  <member name="M:System.Data.Services.Client.ALinqExpressionVisitor.VisitBinary()">
+  <member name="M:System.Data.Services.Client.ALinqExpressionVisitor.VisitBinary">
     <parameter name="b">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -14,7 +14,7 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ALinqExpressionVisitor.VisitConditional()">
+  <member name="M:System.Data.Services.Client.ALinqExpressionVisitor.VisitConditional">
     <parameter name="c">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -31,18 +31,18 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ALinqExpressionVisitor.VisitMethodCall()">
+  <member name="M:System.Data.Services.Client.ALinqExpressionVisitor.VisitMethodCall">
     <parameter name="m">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ALinqExpressionVisitor.VisitParameter()">
+  <member name="M:System.Data.Services.Client.ALinqExpressionVisitor.VisitParameter">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     <parameter name="p">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ALinqExpressionVisitor.VisitUnary()">
+  <member name="M:System.Data.Services.Client.ALinqExpressionVisitor.VisitUnary">
     <parameter name="u">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -552,7 +552,7 @@
   <member name="M:System.Data.Services.Client.AtomParser.ReadCurrentPropertyValue">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
   </member>
-  <member name="M:System.Data.Services.Client.AtomParser.ReadElementStringForText()">
+  <member name="M:System.Data.Services.Client.AtomParser.ReadElementStringForText">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
   </member>
   <member name="M:System.Data.Services.Client.AtomParser.ReadPropertyValue">
@@ -1152,7 +1152,7 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.DataServiceCollection`1.LoadAsync()">
+  <member name="M:System.Data.Services.Client.DataServiceCollection`1.LoadAsync">
     <parameter name="query">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -1167,7 +1167,7 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.DataServiceContext.#ctor()">
+  <member name="M:System.Data.Services.Client.DataServiceContext.#ctor">
     <parameter name="serviceRoot">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -1544,28 +1544,28 @@
   <member name="P:System.Data.Services.Client.DataServiceQueryContinuation.ElementType">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
   </member>
-  <member name="M:System.Data.Services.Client.DataServiceQueryProvider.CreateQuery()">
+  <member name="M:System.Data.Services.Client.DataServiceQueryProvider.CreateQuery">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.DataServiceQueryProvider.CreateQuery``1()">
+  <member name="M:System.Data.Services.Client.DataServiceQueryProvider.CreateQuery``1">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.DataServiceQueryProvider.Execute()">
+  <member name="M:System.Data.Services.Client.DataServiceQueryProvider.Execute">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.DataServiceQueryProvider.Execute``1()">
+  <member name="M:System.Data.Services.Client.DataServiceQueryProvider.Execute``1">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.DataServiceQueryProvider.Translate()">
+  <member name="M:System.Data.Services.Client.DataServiceQueryProvider.Translate">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
   </member>
   <member name="M:System.Data.Services.Client.DataServiceRequest.BeginExecute(System.Object,System.Data.Services.Client.DataServiceContext,System.AsyncCallback,System.Object)">
@@ -1598,7 +1598,7 @@
   <member name="P:System.Data.Services.Client.DataServiceRequest.Plan">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
   </member>
-  <member name="M:System.Data.Services.Client.DataServiceRequest`1.#ctor()">
+  <member name="M:System.Data.Services.Client.DataServiceRequest`1.#ctor">
     <parameter name="requestUri">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -1619,10 +1619,10 @@
   <member name="P:System.Data.Services.Client.DataServiceStreamResponse.Stream">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
   </member>
-  <member name="M:System.Data.Services.Client.EntityDescriptor.GetEditMediaResourceUri()">
+  <member name="M:System.Data.Services.Client.EntityDescriptor.GetEditMediaResourceUri">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
   </member>
-  <member name="M:System.Data.Services.Client.EntityDescriptor.GetMediaResourceUri()">
+  <member name="M:System.Data.Services.Client.EntityDescriptor.GetMediaResourceUri">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
   </member>
   <member name="M:System.Data.Services.Client.EntityDescriptor.GetRelatedEnd">
@@ -1763,7 +1763,7 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ExpressionNormalizer.VisitMethodCallNoRewrite()">
+  <member name="M:System.Data.Services.Client.ExpressionNormalizer.VisitMethodCallNoRewrite">
     <parameter name="call">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -1771,7 +1771,7 @@
   <member name="M:System.Data.Services.Client.ExpressionWriter.ExpressionToString(System.Data.Services.Client.DataServiceContext,)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
   </member>
-  <member name="M:System.Data.Services.Client.ExpressionWriter.Translate()">
+  <member name="M:System.Data.Services.Client.ExpressionWriter.Translate">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
   </member>
   <member name="M:System.Data.Services.Client.ExpressionWriter.TypeNameForUri(System.Type)">
@@ -1779,27 +1779,27 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ExpressionWriter.VisitBinary()">
+  <member name="M:System.Data.Services.Client.ExpressionWriter.VisitBinary">
     <parameter name="b">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ExpressionWriter.VisitConditional()">
+  <member name="M:System.Data.Services.Client.ExpressionWriter.VisitConditional">
     <parameter name="c">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ExpressionWriter.VisitMethodCall()">
+  <member name="M:System.Data.Services.Client.ExpressionWriter.VisitMethodCall">
     <parameter name="m">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ExpressionWriter.VisitParameter()">
+  <member name="M:System.Data.Services.Client.ExpressionWriter.VisitParameter">
     <parameter name="p">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ExpressionWriter.VisitUnary()">
+  <member name="M:System.Data.Services.Client.ExpressionWriter.VisitUnary">
     <parameter name="u">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
@@ -1975,7 +1975,7 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.MemberAssignmentAnalysis.VisitParameter()">
+  <member name="M:System.Data.Services.Client.MemberAssignmentAnalysis.VisitParameter">
     <parameter name="p">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
@@ -1990,7 +1990,7 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.PathBox.PushParamExpression()">
+  <member name="M:System.Data.Services.Client.PathBox.PushParamExpression">
     <parameter name="pe">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -2023,22 +2023,22 @@
   <member name="M:System.Data.Services.Client.ProjectionAnalyzer.EntityProjectionAnalyzer.GetMemberType(System.Reflection.MemberInfo)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
   </member>
-  <member name="M:System.Data.Services.Client.ProjectionAnalyzer.EntityProjectionAnalyzer.VisitBinary()">
+  <member name="M:System.Data.Services.Client.ProjectionAnalyzer.EntityProjectionAnalyzer.VisitBinary">
     <parameter name="b">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ProjectionAnalyzer.EntityProjectionAnalyzer.VisitConditional()">
+  <member name="M:System.Data.Services.Client.ProjectionAnalyzer.EntityProjectionAnalyzer.VisitConditional">
     <parameter name="c">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ProjectionAnalyzer.EntityProjectionAnalyzer.VisitParameter()">
+  <member name="M:System.Data.Services.Client.ProjectionAnalyzer.EntityProjectionAnalyzer.VisitParameter">
     <parameter name="p">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ProjectionAnalyzer.NonEntityProjectionAnalyzer.VisitParameter()">
+  <member name="M:System.Data.Services.Client.ProjectionAnalyzer.NonEntityProjectionAnalyzer.VisitParameter">
     <parameter name="p">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
@@ -2086,7 +2086,7 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ProjectionPlanCompiler.GetExpressionBeforeNormalization()">
+  <member name="M:System.Data.Services.Client.ProjectionPlanCompiler.GetExpressionBeforeNormalization">
     <parameter name="expression">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -2101,12 +2101,12 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ProjectionPlanCompiler.RebindMethodCallForMemberSelect()">
+  <member name="M:System.Data.Services.Client.ProjectionPlanCompiler.RebindMethodCallForMemberSelect">
     <parameter name="call">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ProjectionPlanCompiler.RebindMethodCallForNewSequence()">
+  <member name="M:System.Data.Services.Client.ProjectionPlanCompiler.RebindMethodCallForNewSequence">
     <parameter name="call">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -2157,7 +2157,7 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.QueryResult.GetResponse``1()">
+  <member name="M:System.Data.Services.Client.QueryResult.GetResponse``1">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
   </member>
   <member name="M:System.Data.Services.Client.QueryResult.GetResponseWithType(,System.Type)">
@@ -2254,7 +2254,7 @@
     </parameter>
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
   </member>
-  <member name="M:System.Data.Services.Client.ResourceBinder.Bind()">
+  <member name="M:System.Data.Services.Client.ResourceBinder.Bind">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
   </member>
   <member name="M:System.Data.Services.Client.ResourceBinder.BuildKeyPredicateFilter(System.Data.Services.Client.InputReferenceExpression,System.Collections.Generic.Dictionary{System.Reflection.PropertyInfo,})">
@@ -2351,7 +2351,7 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.ResourceBinder.StripTo``1()">
+  <member name="M:System.Data.Services.Client.ResourceBinder.StripTo``1">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
   </member>
   <member name="M:System.Data.Services.Client.ResourceBinder.ValidationRules.RequireLegalCustomQueryOption(,System.Data.Services.Client.ResourceExpression)">
@@ -3245,7 +3245,7 @@
   <member name="M:System.Data.Services.Client.UriUtil.GetNameFromAtomLinkRelationAttribute(System.String)">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
   </member>
-  <member name="M:System.Data.Services.Client.UriWriter.ExpressionToString()">
+  <member name="M:System.Data.Services.Client.UriWriter.ExpressionToString">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
   </member>
   <member name="M:System.Data.Services.Client.UriWriter.Translate(System.Data.Services.Client.DataServiceContext,System.Boolean,,@,System.Version@)">
@@ -3253,12 +3253,12 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.UriWriter.VisitBinary()">
+  <member name="M:System.Data.Services.Client.UriWriter.VisitBinary">
     <parameter name="b">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.UriWriter.VisitConditional()">
+  <member name="M:System.Data.Services.Client.UriWriter.VisitConditional">
     <parameter name="c">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
@@ -3273,12 +3273,12 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.UriWriter.VisitMethodCall()">
+  <member name="M:System.Data.Services.Client.UriWriter.VisitMethodCall">
     <parameter name="m">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.UriWriter.VisitParameter()">
+  <member name="M:System.Data.Services.Client.UriWriter.VisitParameter">
     <parameter name="p">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
@@ -3313,7 +3313,7 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Data.Services.Client.UriWriter.VisitUnary()">
+  <member name="M:System.Data.Services.Client.UriWriter.VisitUnary">
     <parameter name="u">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
