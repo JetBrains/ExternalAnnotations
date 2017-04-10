@@ -108,8 +108,13 @@
   <member name="M:System.Globalization.CultureInfo.GetCultureInfo(System.String,System.String)">
     <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
   </member>
-  
-    <!-- readonly interfaces -->
+
+  <!-- https://github.com/JetBrains/ExternalAnnotations/issues/72 -->
+  <member name="M:System.Array.Empty``1">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+
+  <!-- readonly interfaces -->
   <member name="M:System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey(`0)">
     <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
   </member>

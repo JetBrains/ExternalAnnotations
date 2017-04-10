@@ -277,4 +277,8 @@
     <attribute ctor="M:JetBrains.CanBeNullAttribute.#ctor" />
   </member>
 
+  <!-- https://github.com/JetBrains/ExternalAnnotations/issues/72 -->
+  <member name="M:System.Array.Empty``1">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
 </assembly>
