@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Configuration.Install">
+  <member name="M:System.Configuration.Install.AssemblyInstaller.Commit(System.Collections.IDictionary)">
+    <parameter name="savedState">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.AssemblyInstaller.CreateAssemblyContext">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Configuration.Install.AssemblyInstaller.GetInstallerTypes(System.Reflection.Assembly)">
+    <parameter name="assem">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.AssemblyInstaller.Install(System.Collections.IDictionary)">
+    <parameter name="savedState">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.AssemblyInstaller.PrintStartText(System.String)">
+    <parameter name="activity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.AssemblyInstaller.Rollback(System.Collections.IDictionary)">
+    <parameter name="savedState">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.AssemblyInstaller.Uninstall(System.Collections.IDictionary)">
+    <parameter name="savedState">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.ComponentInstaller.CopyFromComponent(System.ComponentModel.IComponent)">
+    <parameter name="component">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.InstallContext.IsParameterTrue(System.String)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.InstallContext.LogMessage(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.Installer.Commit(System.Collections.IDictionary)">
+    <parameter name="savedState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Configuration.Install.Installer.HelpText">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Configuration.Install.Installer.Install(System.Collections.IDictionary)">
+    <parameter name="stateSaver">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.Installer.InstallerTreeContains(System.Configuration.Install.Installer)">
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.Installer.LogException(System.Exception,System.Configuration.Install.InstallContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.Installer.Rollback(System.Collections.IDictionary)">
+    <parameter name="savedState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.Installer.Uninstall(System.Collections.IDictionary)">
+    <parameter name="savedState">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.InstallerCollection.Add(System.Configuration.Install.Installer)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.InstallerCollection.AddRange(System.Configuration.Install.Installer[])">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.InstallerCollection.AddRange(System.Configuration.Install.InstallerCollection)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.InstallerCollection.Contains(System.Configuration.Install.Installer)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.InstallerCollection.IndexOf(System.Configuration.Install.Installer)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.InstallerCollection.Insert(System.Int32,System.Configuration.Install.Installer)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.InstallerCollection.Remove(System.Configuration.Install.Installer)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.InstallException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.ManagedInstallerClass.GetHelp(System.Configuration.Install.Installer)">
+    <parameter name="installerWithHelp">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.ManagedInstallerClass.InstallHelper(System.String[])">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.ManagedInstallerClass.StringToArgs(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="cmdLine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.ManagedInstallerClass.System#Configuration#Install#IManagedInstaller#ManagedInstall(System.String,System.Int32)">
+    <parameter name="argString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Configuration.Install.Res.Culture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Configuration.Install.Res.GetObject(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.Res.GetString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.Res.GetString(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.PerformanceCounterInstaller.CheckValidCategory(System.String)">
+    <parameter name="categoryName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.PerformanceCounterInstaller.CheckValidId(System.String)">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.PerformanceCounterInstaller.DoRollback(System.Collections.IDictionary)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.SerializableRegistryKey.#ctor(Microsoft.Win32.RegistryKey)">
+    <parameter name="keyToSave">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.SerializableRegistryKey.CopyFromRegistry(Microsoft.Win32.RegistryKey)">
+    <parameter name="keyToSave">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.SerializableRegistryKey.CopyToRegistry(Microsoft.Win32.RegistryKey)">
+    <parameter name="baseKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.AssemblyInstaller.#ctor(System.String,System.String[])">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.InstallContext.ParseCommandLine(System.String[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Configuration.Install.Installer.Installers">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Configuration.Install.InstallerCollection.CopyTo(System.Configuration.Install.Installer[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Configuration.Install.IManagedInstaller.ManagedInstall(System.String,System.Int32)">
+    <parameter name="commandLine">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+</assembly>

@@ -1,0 +1,2493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Security">
+  <member name="M:System.Security.Cryptography.ProtectedData.Protect(System.Byte[],System.Byte[],System.Security.Cryptography.DataProtectionScope)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="userData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.ProtectedData.Unprotect(System.Byte[],System.Byte[],System.Security.Cryptography.DataProtectionScope)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="encryptedData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.BigInt.Add(System.Security.Cryptography.BigInt,System.Byte,System.Security.Cryptography.BigInt@)">
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="c">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.BigInt.CopyFrom(System.Security.Cryptography.BigInt)">
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.BigInt.Divide(System.Security.Cryptography.BigInt,System.Security.Cryptography.BigInt,System.Security.Cryptography.BigInt@,System.Security.Cryptography.BigInt@)">
+    <parameter name="numerator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="denominator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="quotient">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="remainder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.BigInt.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.BigInt.FromDecimal(System.String)">
+    <parameter name="decNum">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.BigInt.FromHexadecimal(System.String)">
+    <parameter name="hexNum">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.BigInt.Multiply(System.Security.Cryptography.BigInt,System.Int32,System.Security.Cryptography.BigInt@)">
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="c">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.BigInt.Negate(System.Security.Cryptography.BigInt@)">
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.BigInt.Subtract(System.Security.Cryptography.BigInt,System.Security.Cryptography.BigInt,System.Security.Cryptography.BigInt@)">
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="b">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="c">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.BigInt.ToByteArray">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.BigInt.ToDecimal">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.CAPI.BlobToByteArray(System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.CAPI.BlobToByteArray(System.Security.Cryptography.CAPIBase.CRYPTOAPI_BLOB)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.CAPI.CertAddCertificateContextToStore(System.Security.Cryptography.SafeCertStoreHandle,System.Security.Cryptography.SafeCertContextHandle,System.UInt32,System.Security.Cryptography.SafeCertContextHandle)">
+    <parameter name="hCertStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="pCertContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CAPI.CertAddCertificateLinkToStore(System.Security.Cryptography.SafeCertStoreHandle,System.Security.Cryptography.SafeCertContextHandle,System.UInt32,System.Security.Cryptography.SafeCertContextHandle)">
+    <parameter name="hCertStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="pCertContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CAPI.CertEnumCertificatesInStore(System.Security.Cryptography.SafeCertStoreHandle,System.IntPtr)">
+    <parameter name="hCertStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CAPI.CertFindCertificateInStore(System.Security.Cryptography.SafeCertStoreHandle,System.UInt32,System.UInt32,System.UInt32,System.IntPtr,System.Security.Cryptography.SafeCertContextHandle)">
+    <parameter name="hCertStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CAPI.CryptFindOIDInfo(System.UInt32,System.Security.Cryptography.SafeLocalAllocHandle,System.UInt32)">
+    <parameter name="pvKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CAPI.DecodeObject(System.IntPtr,System.Byte[],System.Security.Cryptography.SafeLocalAllocHandle@,System.UInt32@)">
+    <parameter name="pbEncoded">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CAPI.LocalAlloc(System.UInt32,System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptographicAttributeObject.#ctor(System.Security.Cryptography.AsnEncodedData)">
+    <parameter name="asnEncodedData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptographicAttributeObject.#ctor(System.Security.Cryptography.Oid)">
+    <parameter name="oid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptographicAttributeObject.#ctor(System.Security.Cryptography.Oid,System.Security.Cryptography.AsnEncodedDataCollection)">
+    <parameter name="oid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.CryptographicAttributeObject.Oid">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptographicAttributeObjectCollection.#ctor(System.Security.Cryptography.SafeLocalAllocHandle)">
+    <parameter name="pCryptAttributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptographicAttributeObjectCollection.Add(System.Security.Cryptography.AsnEncodedData)">
+    <parameter name="asnEncodedData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptographicAttributeObjectCollection.Add(System.Security.Cryptography.CryptographicAttributeObject)">
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptographicAttributeObjectCollection.CopyTo(System.Security.Cryptography.CryptographicAttributeObject[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptographicAttributeObjectCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptographicAttributeObjectCollection.Remove(System.Security.Cryptography.CryptographicAttributeObject)">
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.CryptographicAttributeObjectCollection.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptographicAttributeObjectCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptographicAttributeObjectCollection.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.CryptographicAttributeObjectEnumerator.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.AlgorithmIdentifier.#ctor(System.String)">
+    <parameter name="oidValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.CmsRecipient.#ctor(System.Security.Cryptography.Pkcs.SubjectIdentifierType,System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.CmsRecipient.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.CmsRecipient.Reset(System.Security.Cryptography.Pkcs.SubjectIdentifierType,System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.CmsRecipientCollection.#ctor(System.Security.Cryptography.Pkcs.SubjectIdentifierType,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)">
+    <parameter name="certificates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.CmsRecipientCollection.Add(System.Security.Cryptography.Pkcs.CmsRecipient)">
+    <parameter name="recipient">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.CmsRecipientCollection.CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.CmsRecipientCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.CmsRecipientCollection.Remove(System.Security.Cryptography.Pkcs.CmsRecipient)">
+    <parameter name="recipient">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.CmsRecipientCollection.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.CmsRecipientCollection.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.CmsRecipientEnumerator.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.CmsSigner.#ctor(System.Security.Cryptography.CspParameters)">
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.ContentInfo.#ctor(System.Byte[])">
+    <parameter name="content">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.ContentInfo.#ctor(System.Security.Cryptography.Oid,System.Byte[])">
+    <parameter name="contentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="content">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.ContentInfo.#ctor(System.String,System.Byte[])">
+    <parameter name="content">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="contentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.ContentInfo.GetContentType(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="encodedMessage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.#ctor(System.Security.Cryptography.Pkcs.ContentInfo)">
+    <parameter name="contentInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.#ctor(System.Security.Cryptography.Pkcs.ContentInfo,System.Security.Cryptography.Pkcs.AlgorithmIdentifier)">
+    <parameter name="encryptionAlgorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="contentInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.#ctor(System.Security.Cryptography.Pkcs.SubjectIdentifierType,System.Security.Cryptography.Pkcs.ContentInfo)">
+    <parameter name="contentInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.#ctor(System.Security.Cryptography.Pkcs.SubjectIdentifierType,System.Security.Cryptography.Pkcs.ContentInfo,System.Security.Cryptography.Pkcs.AlgorithmIdentifier)">
+    <parameter name="contentInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="encryptionAlgorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.BuildDecryptorStore(System.Security.Cryptography.X509Certificates.X509Certificate2Collection)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.BuildOriginatorStore(System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.Decode(System.Byte[])">
+    <parameter name="encodedMessage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.Decrypt(System.Security.Cryptography.Pkcs.RecipientInfo)">
+    <parameter name="recipientInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.Decrypt(System.Security.Cryptography.Pkcs.RecipientInfo,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)">
+    <parameter name="recipientInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="extraStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.Decrypt(System.Security.Cryptography.X509Certificates.X509Certificate2Collection)">
+    <parameter name="extraStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.DecryptContent(System.Security.Cryptography.Pkcs.RecipientInfoCollection,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)">
+    <parameter name="recipientInfos">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.Encrypt(System.Security.Cryptography.Pkcs.CmsRecipient)">
+    <parameter name="recipient">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.Encrypt(System.Security.Cryptography.Pkcs.CmsRecipientCollection)">
+    <parameter name="recipients">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.EncryptContent(System.Security.Cryptography.Pkcs.CmsRecipientCollection)">
+    <parameter name="recipients">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.GetCspParams(System.Security.Cryptography.Pkcs.RecipientInfo,System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Security.Cryptography.Pkcs.EnvelopedCms.CMSG_DECRYPT_PARAM@)">
+    <parameter name="recipientInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.OpenToDecode(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="encodedMessage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.EnvelopedCms.RecipientInfos">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.SetCmsRecipientParams(System.Security.Cryptography.Pkcs.CmsRecipientCollection,System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Security.Cryptography.CryptographicAttributeObjectCollection,System.Security.Cryptography.Pkcs.AlgorithmIdentifier,System.Security.Cryptography.Pkcs.EnvelopedCms.CMSG_ENCRYPT_PARAM@)">
+    <parameter name="recipients">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="certificates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="unprotectedAttributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="contentEncryptionAlgorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.SetCspParams(System.Security.Cryptography.Pkcs.AlgorithmIdentifier,System.Security.Cryptography.Pkcs.EnvelopedCms.CMSG_ENCRYPT_PARAM@)">
+    <parameter name="contentEncryptionAlgorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.EnvelopedCms.SetPkcs7RecipientParams(System.Security.Cryptography.Pkcs.CmsRecipientCollection,System.Security.Cryptography.Pkcs.EnvelopedCms.CMSG_ENCRYPT_PARAM@)">
+    <parameter name="recipients">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.KeyAgreeRecipientInfo.OriginatorIdentifierOrKey">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.KeyAgreeRecipientInfo.OtherKeyAttribute">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.Pkcs9AttributeObject.#ctor(System.Security.Cryptography.AsnEncodedData)">
+    <parameter name="asnEncodedData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.Pkcs9AttributeObject.#ctor(System.String)">
+    <parameter name="oid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.Pkcs9AttributeObject.#ctor(System.String,System.Byte[])">
+    <parameter name="oid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.Pkcs9DocumentDescription.#ctor(System.String)">
+    <parameter name="documentDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.Pkcs9DocumentDescription.Encode(System.String)">
+    <parameter name="documentDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.Pkcs9DocumentName.#ctor(System.String)">
+    <parameter name="documentName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.Pkcs9DocumentName.Encode(System.String)">
+    <parameter name="documentName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.AddCertsToMessage(System.Security.Cryptography.SafeCryptMsgHandle,System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)">
+    <parameter name="bagOfCerts">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="chainOfCerts">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.CreateBagOfCertificates(System.Security.Cryptography.Pkcs.CmsSigner)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.CreateCryptAttributes(System.Security.Cryptography.CryptographicAttributeObjectCollection)">
+    <parameter name="attributes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.CreateDummyCertificate(System.Security.Cryptography.CspParameters)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.CreateEncodedCertBlob(System.Security.Cryptography.X509Certificates.X509Certificate2Collection)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="certificates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.CreateSignerEncodeInfo(System.Security.Cryptography.Pkcs.CmsSigner)">
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.CreateSignerEncodeInfo(System.Security.Cryptography.Pkcs.CmsSigner,System.Boolean)">
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.DecodeObjectIdentifier(System.Byte[],System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="encodedObjId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.DecodeOctetBytes(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="encodedOctetString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.DecodeOctetString(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="encodedOctetString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.EncodeOctetString(System.Byte[])">
+    <parameter name="octets">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.EncodeOctetString(System.String)">
+    <parameter name="octetString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.FindCertificate(System.Security.Cryptography.Pkcs.SubjectIdentifier,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)">
+    <parameter name="identifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.GetAlgorithmIdentifier(System.Security.Cryptography.SafeCryptMsgHandle)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.GetAsnEncodedDataCollection(System.Security.Cryptography.CAPIBase.CRYPT_ATTRIBUTE)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.GetAsnEncodedDataCollection(System.Security.Cryptography.CAPIBase.CRYPT_ATTRIBUTE_TYPE_VALUE)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.GetCertificates(System.Security.Cryptography.SafeCryptMsgHandle)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.GetContentType(System.Security.Cryptography.SafeCryptMsgHandle)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.GetSignerIndex(System.Security.Cryptography.SafeCryptMsgHandle,System.Security.Cryptography.Pkcs.SignerInfo,System.Int32)">
+    <parameter name="signerInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.GetUnprotectedAttributes(System.Security.Cryptography.SafeCryptMsgHandle)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.PkcsUtils.SelectRecipients(System.Security.Cryptography.Pkcs.SubjectIdentifierType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.RecipientInfo.KeyEncryptionAlgorithm">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.RecipientInfo.RecipientIdentifier">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.RecipientInfoCollection.CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.RecipientInfoCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.RecipientInfoCollection.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.RecipientInfoCollection.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.RecipientInfoEnumerator.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignedCms.#ctor(System.Security.Cryptography.Pkcs.ContentInfo)">
+    <parameter name="contentInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignedCms.#ctor(System.Security.Cryptography.Pkcs.ContentInfo,System.Boolean)">
+    <parameter name="contentInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignedCms.#ctor(System.Security.Cryptography.Pkcs.SubjectIdentifierType,System.Security.Cryptography.Pkcs.ContentInfo)">
+    <parameter name="contentInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignedCms.#ctor(System.Security.Cryptography.Pkcs.SubjectIdentifierType,System.Security.Cryptography.Pkcs.ContentInfo,System.Boolean)">
+    <parameter name="contentInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.SignedCms.Certificates">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignedCms.CheckHashes(System.Security.Cryptography.Pkcs.SignerInfoCollection)">
+    <parameter name="signers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignedCms.CheckSignature(System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Boolean)">
+    <parameter name="extraStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignedCms.CheckSignatures(System.Security.Cryptography.Pkcs.SignerInfoCollection,System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Boolean)">
+    <parameter name="signers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="extraStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignedCms.ComputeSignature(System.Security.Cryptography.Pkcs.CmsSigner)">
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignedCms.ComputeSignature(System.Security.Cryptography.Pkcs.CmsSigner,System.Boolean)">
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignedCms.CoSign(System.Security.Cryptography.Pkcs.CmsSigner,System.Boolean)">
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignedCms.Decode(System.Byte[])">
+    <parameter name="encodedMessage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignedCms.OpenToDecode(System.Byte[],System.Security.Cryptography.Pkcs.ContentInfo,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="encodedMessage">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="contentInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignedCms.RemoveSignature(System.Security.Cryptography.Pkcs.SignerInfo)">
+    <parameter name="signerInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignedCms.Sign(System.Security.Cryptography.Pkcs.CmsSigner,System.Boolean)">
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.SignedCms.SignerInfos">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignerInfo.#ctor(System.Security.Cryptography.Pkcs.SignedCms,System.Security.Cryptography.Pkcs.SignerInfo,System.Byte[])">
+    <parameter name="encodedSignerInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignerInfo.#ctor(System.Security.Cryptography.Pkcs.SignedCms,System.Security.Cryptography.SafeLocalAllocHandle)">
+    <parameter name="pbCmsgSignerInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignerInfo.CheckSignature(System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Boolean)">
+    <parameter name="extraStore">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignerInfo.ComputeCounterSignature(System.Security.Cryptography.Pkcs.CmsSigner)">
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignerInfo.CounterSign(System.Security.Cryptography.Pkcs.CmsSigner)">
+    <parameter name="signer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.SignerInfo.CounterSignerInfos">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.SignerInfo.DigestAlgorithm">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignerInfo.RemoveCounterSignature(System.Security.Cryptography.Pkcs.SignerInfo)">
+    <parameter name="counterSignerInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.SignerInfo.SignedAttributes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.SignerInfo.SignerIdentifier">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.SignerInfo.UnsignedAttributes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignerInfo.Verify(System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Security.Cryptography.X509Certificates.X509Certificate2,System.Boolean)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignerInfo.VerifyCertificate(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignerInfoCollection.#ctor(System.Security.Cryptography.Pkcs.SignedCms)">
+    <parameter name="signedCms">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignerInfoCollection.#ctor(System.Security.Cryptography.Pkcs.SignedCms,System.Security.Cryptography.Pkcs.SignerInfo)">
+    <parameter name="signerInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignerInfoCollection.CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignerInfoCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.SignerInfoCollection.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SignerInfoCollection.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.Pkcs.SignerInfoEnumerator.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SubjectIdentifier.#ctor(System.Security.Cryptography.Pkcs.SubjectIdentifierType,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SubjectIdentifier.Reset(System.Security.Cryptography.Pkcs.SubjectIdentifierType,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SubjectIdentifierOrKey.#ctor(System.Security.Cryptography.Pkcs.SubjectIdentifierOrKeyType,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Pkcs.SubjectIdentifierOrKey.Reset(System.Security.Cryptography.Pkcs.SubjectIdentifierOrKeyType,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.ProtectedMemory.Protect(System.Byte[],System.Security.Cryptography.MemoryProtectionScope)">
+    <parameter name="userData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.ProtectedMemory.Unprotect(System.Byte[],System.Security.Cryptography.MemoryProtectionScope)">
+    <parameter name="encryptedData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.SafeCertChainHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.SafeCertContextHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.SafeCertStoreHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.SafeCryptMsgHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.SafeCryptProvHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.SafeLocalAllocHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Certificate2UI.DisplayCertificate(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Certificate2UI.DisplayCertificate(System.Security.Cryptography.X509Certificates.X509Certificate2,System.IntPtr)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Certificate2UI.DisplayX509Certificate(System.Security.Cryptography.SafeCertContextHandle,System.IntPtr)">
+    <parameter name="safeCertContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Certificate2UI.SelectFromCollection(System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.String,System.String,System.Security.Cryptography.X509Certificates.X509SelectionFlag)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="certificates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Certificate2UI.SelectFromCollection(System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.String,System.String,System.Security.Cryptography.X509Certificates.X509SelectionFlag,System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="certificates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Certificate2UI.SelectFromCollectionHelper(System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.String,System.String,System.Security.Cryptography.X509Certificates.X509SelectionFlag,System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="certificates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Certificate2UI.SelectFromStore(System.Security.Cryptography.SafeCertStoreHandle,System.String,System.String,System.Security.Cryptography.X509Certificates.X509SelectionFlag,System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="safeSourceStoreHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.BuildChain(System.IntPtr,System.Security.Cryptography.SafeCertContextHandle,System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Security.Cryptography.OidCollection,System.Security.Cryptography.OidCollection,System.Security.Cryptography.X509Certificates.X509RevocationMode,System.Security.Cryptography.X509Certificates.X509RevocationFlag,System.DateTime,System.TimeSpan,System.Security.Cryptography.SafeCertChainHandle@)">
+    <parameter name="pCertContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.CopyOidsToUnmanagedMemory(System.Security.Cryptography.OidCollection)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.DecodeHexString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.EncodeHexString(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="sArray">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.EncodeHexString(System.Byte[],System.UInt32,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.EncodeHexStringFromInt(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="sArray">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.EncodeHexStringFromInt(System.Byte[],System.UInt32,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.ExportToMemoryStore(System.Security.Cryptography.X509Certificates.X509Certificate2Collection)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="collection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.GetCertContext(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.GetCertificates(System.Security.Cryptography.SafeCertStoreHandle)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="safeCertStoreHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.GetPrivateKeyInfo(System.Security.Cryptography.SafeCertContextHandle,System.Security.Cryptography.CspParameters@)">
+    <parameter name="parameters">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.IsSelfSigned(System.Security.Cryptography.X509Certificates.X509Chain)">
+    <parameter name="chain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.MemEqual(System.Byte*,System.UInt32,System.Byte*,System.UInt32)">
+    <parameter name="pbBuf1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="pbBuf2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.OidToAlgId(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.StringToAnsiPtr(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.X509Certificates.X509Utils.VerifyCertificate(System.Security.Cryptography.SafeCertContextHandle,System.Security.Cryptography.OidCollection,System.Security.Cryptography.OidCollection,System.Security.Cryptography.X509Certificates.X509RevocationMode,System.Security.Cryptography.X509Certificates.X509RevocationFlag,System.DateTime,System.TimeSpan,System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.IntPtr,System.IntPtr)">
+    <parameter name="pCertContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.AncestralNamespaceContextManager.AddRendered(System.Xml.XmlAttribute)">
+    <parameter name="attr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.AncestralNamespaceContextManager.AddUnrendered(System.Xml.XmlAttribute)">
+    <parameter name="attr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.AncestralNamespaceContextManager.GetNamespacesToRender(System.Xml.XmlElement,System.Collections.SortedList,System.Collections.SortedList,System.Collections.Hashtable)">
+    <parameter name="attrListToRender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="nsListToRender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="nsLocallyDeclared">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.AncestralNamespaceContextManager.GetNearestRenderedNamespaceWithMatchingPrefix(System.String,System.Int32@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="nsPrefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.AncestralNamespaceContextManager.GetNearestUnrenderedNamespaceWithMatchingPrefix(System.String,System.Int32@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="nsPrefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.AncestralNamespaceContextManager.LoadRenderedNamespaces(System.Collections.SortedList)">
+    <parameter name="nsRenderedList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.AncestralNamespaceContextManager.LoadUnrenderedNamespaces(System.Collections.Hashtable)">
+    <parameter name="nsLocallyDeclared">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.AncestralNamespaceContextManager.TrackNamespaceNode(System.Xml.XmlAttribute,System.Collections.SortedList,System.Collections.Hashtable)">
+    <parameter name="nsListToRender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="attr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="nsLocallyDeclared">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.AncestralNamespaceContextManager.TrackXmlNamespaceNode(System.Xml.XmlAttribute,System.Collections.SortedList,System.Collections.SortedList,System.Collections.Hashtable)">
+    <parameter name="attrListToRender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="attr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="nsLocallyDeclared">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.AttributeSortOrder.Compare(System.Object,System.Object)">
+    <parameter name="b">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.C14NAncestralNamespaceContextManager.GetNamespacesToRender(System.Xml.XmlElement,System.Collections.SortedList,System.Collections.SortedList,System.Collections.Hashtable)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.C14NAncestralNamespaceContextManager.GetNamespaceToRender(System.String,System.Collections.SortedList,System.Collections.SortedList,System.Collections.Hashtable)">
+    <parameter name="nsPrefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="attrListToRender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="nsListToRender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="nsLocallyDeclared">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.C14NAncestralNamespaceContextManager.TrackNamespaceNode(System.Xml.XmlAttribute,System.Collections.SortedList,System.Collections.Hashtable)">
+    <parameter name="nsListToRender">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.C14NAncestralNamespaceContextManager.TrackXmlNamespaceNode(System.Xml.XmlAttribute,System.Collections.SortedList,System.Collections.SortedList,System.Collections.Hashtable)">
+    <parameter name="attrListToRender">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalizationDispatcher.Write(System.Xml.XmlNode,System.Text.StringBuilder,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="strBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalizationDispatcher.WriteGenericNode(System.Xml.XmlNode,System.Text.StringBuilder,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="strBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalizationDispatcher.WriteHash(System.Xml.XmlNode,System.Security.Cryptography.HashAlgorithm,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalizationDispatcher.WriteHashGenericNode(System.Xml.XmlNode,System.Security.Cryptography.HashAlgorithm,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXml.#ctor(System.IO.Stream,System.Boolean,System.Xml.XmlResolver,System.String)">
+    <parameter name="inputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXml.#ctor(System.Xml.XmlDocument,System.Xml.XmlResolver)">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXml.#ctor(System.Xml.XmlDocument,System.Xml.XmlResolver,System.Boolean)">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXml.#ctor(System.Xml.XmlNodeList,System.Xml.XmlResolver,System.Boolean)">
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXml.GetBytes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXml.GetDigestedBytes(System.Security.Cryptography.HashAlgorithm)">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXml.MarkInclusionStateForNodes(System.Xml.XmlNodeList,System.Xml.XmlDocument,System.Xml.XmlDocument)">
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="inputRoot">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="root">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlAttribute.#ctor(System.String,System.String,System.String,System.Xml.XmlDocument,System.Boolean)">
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="doc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlAttribute.Write(System.Text.StringBuilder,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="strBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlAttribute.WriteHash(System.Security.Cryptography.HashAlgorithm,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlCDataSection.#ctor(System.String,System.Xml.XmlDocument,System.Boolean)">
+    <parameter name="doc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlCDataSection.Write(System.Text.StringBuilder,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="strBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlCDataSection.WriteHash(System.Security.Cryptography.HashAlgorithm,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlComment.#ctor(System.String,System.Xml.XmlDocument,System.Boolean,System.Boolean)">
+    <parameter name="doc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlComment.Write(System.Text.StringBuilder,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="strBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlComment.WriteHash(System.Security.Cryptography.HashAlgorithm,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlDocument.Write(System.Text.StringBuilder,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="strBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlDocument.WriteHash(System.Security.Cryptography.HashAlgorithm,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlElement.#ctor(System.String,System.String,System.String,System.Xml.XmlDocument,System.Boolean)">
+    <parameter name="doc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="localName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlElement.Write(System.Text.StringBuilder,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="strBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlElement.WriteHash(System.Security.Cryptography.HashAlgorithm,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlEntityReference.#ctor(System.String,System.Xml.XmlDocument,System.Boolean)">
+    <parameter name="doc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlEntityReference.Write(System.Text.StringBuilder,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="strBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlEntityReference.WriteHash(System.Security.Cryptography.HashAlgorithm,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlNodeList.Add(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlNodeList.Contains(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlNodeList.CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlNodeList.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlNodeList.IndexOf(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlNodeList.Insert(System.Int32,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlNodeList.Remove(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Xml.CanonicalXmlNodeList.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlProcessingInstruction.#ctor(System.String,System.String,System.Xml.XmlDocument,System.Boolean)">
+    <parameter name="doc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlProcessingInstruction.Write(System.Text.StringBuilder,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="strBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlProcessingInstruction.WriteHash(System.Security.Cryptography.HashAlgorithm,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlSignificantWhitespace.#ctor(System.String,System.Xml.XmlDocument,System.Boolean)">
+    <parameter name="doc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlSignificantWhitespace.Write(System.Text.StringBuilder,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="strBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlSignificantWhitespace.WriteHash(System.Security.Cryptography.HashAlgorithm,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlText.#ctor(System.String,System.Xml.XmlDocument,System.Boolean)">
+    <parameter name="doc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlText.Write(System.Text.StringBuilder,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="strBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlText.WriteHash(System.Security.Cryptography.HashAlgorithm,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlWhitespace.#ctor(System.String,System.Xml.XmlDocument,System.Boolean)">
+    <parameter name="doc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlWhitespace.Write(System.Text.StringBuilder,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="strBuilder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CanonicalXmlWhitespace.WriteHash(System.Security.Cryptography.HashAlgorithm,System.Security.Cryptography.Xml.DocPosition,System.Security.Cryptography.Xml.AncestralNamespaceContextManager)">
+    <parameter name="anc">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CipherData.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CipherData.LoadXml(System.Xml.XmlElement)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.CipherReference.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.DataObject.#ctor(System.String,System.String,System.String,System.Xml.XmlElement)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.DataObject.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.DataObject.LoadXml(System.Xml.XmlElement)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.DSAKeyValue.GetXml">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.DSAKeyValue.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedData.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedKey.AddReference(System.Security.Cryptography.Xml.DataReference)">
+    <parameter name="dataReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedKey.AddReference(System.Security.Cryptography.Xml.KeyReference)">
+    <parameter name="keyReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedKey.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Xml.EncryptedKey.ReferenceList">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedReference.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedReference.LoadXml(System.Xml.XmlElement)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Xml.EncryptedType.CipherData">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.Xml.EncryptedType.EncryptionProperties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedType.LoadXml(System.Xml.XmlElement)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.AddKeyNameMapping(System.String,System.Object)">
+    <parameter name="keyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="keyObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.DecryptData(System.Security.Cryptography.Xml.EncryptedData,System.Security.Cryptography.SymmetricAlgorithm)">
+    <parameter name="encryptedData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="symmetricAlgorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.DecryptEncryptedKey(System.Security.Cryptography.Xml.EncryptedKey)">
+    <parameter name="encryptedKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.DecryptKey(System.Byte[],System.Security.Cryptography.RSA,System.Boolean)">
+    <parameter name="keyData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="rsa">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.DecryptKey(System.Byte[],System.Security.Cryptography.SymmetricAlgorithm)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="keyData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="symmetricAlgorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.DownloadCipherValue(System.Security.Cryptography.Xml.CipherData,System.IO.Stream@,System.IO.Stream@,System.Net.WebResponse@)">
+    <parameter name="cipherData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.Encrypt(System.Xml.XmlElement,System.Security.Cryptography.X509Certificates.X509Certificate2)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="inputElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.Encrypt(System.Xml.XmlElement,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="inputElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="keyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.EncryptData(System.Byte[],System.Security.Cryptography.SymmetricAlgorithm)">
+    <parameter name="plaintext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="symmetricAlgorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.EncryptData(System.Xml.XmlElement,System.Security.Cryptography.SymmetricAlgorithm,System.Boolean)">
+    <parameter name="inputElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="symmetricAlgorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.EncryptKey(System.Byte[],System.Security.Cryptography.RSA,System.Boolean)">
+    <parameter name="keyData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="rsa">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.EncryptKey(System.Byte[],System.Security.Cryptography.SymmetricAlgorithm)">
+    <parameter name="keyData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="symmetricAlgorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.GetCipherValue(System.Security.Cryptography.Xml.CipherData)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="cipherData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.GetDecryptionIV(System.Security.Cryptography.Xml.EncryptedData,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="encryptedData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.GetDecryptionKey(System.Security.Cryptography.Xml.EncryptedData,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="encryptedData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="symmetricAlgorithmUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.GetIdElement(System.Xml.XmlDocument,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="idValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.ReplaceData(System.Xml.XmlElement,System.Byte[])">
+    <parameter name="inputElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="decryptedData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptedXml.ReplaceElement(System.Xml.XmlElement,System.Security.Cryptography.Xml.EncryptedData,System.Boolean)">
+    <parameter name="inputElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="encryptedData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptionMethod.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptionMethod.LoadXml(System.Xml.XmlElement)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptionProperty.#ctor(System.Xml.XmlElement)">
+    <parameter name="elementProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptionProperty.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptionProperty.LoadXml(System.Xml.XmlElement)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptionPropertyCollection.CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptionPropertyCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.Xml.EncryptionPropertyCollection.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptionPropertyCollection.System#Collections#IList#Add(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptionPropertyCollection.System#Collections#IList#Contains(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptionPropertyCollection.System#Collections#IList#IndexOf(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptionPropertyCollection.System#Collections#IList#Insert(System.Int32,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptionPropertyCollection.System#Collections#IList#Remove(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.ExcAncestralNamespaceContextManager.GatherNamespaceToRender(System.String,System.Collections.SortedList,System.Collections.Hashtable)">
+    <parameter name="nsPrefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="nsListToRender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="nsLocallyDeclared">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.ExcAncestralNamespaceContextManager.HasNonRedundantInclusivePrefix(System.Xml.XmlAttribute)">
+    <parameter name="attr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.ExcAncestralNamespaceContextManager.TrackXmlNamespaceNode(System.Xml.XmlAttribute,System.Collections.SortedList,System.Collections.SortedList,System.Collections.Hashtable)">
+    <parameter name="nsLocallyDeclared">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.ExcCanonicalXml.#ctor(System.IO.Stream,System.Boolean,System.String,System.Xml.XmlResolver,System.String)">
+    <parameter name="inputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.ExcCanonicalXml.#ctor(System.Xml.XmlDocument,System.Boolean,System.String,System.Xml.XmlResolver)">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.ExcCanonicalXml.#ctor(System.Xml.XmlNodeList,System.Boolean,System.String,System.Xml.XmlResolver)">
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.ExcCanonicalXml.GetBytes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.ExcCanonicalXml.GetDigestedBytes(System.Security.Cryptography.HashAlgorithm)">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.ExcCanonicalXml.MarkInclusionStateForNodes(System.Xml.XmlNodeList,System.Xml.XmlDocument,System.Xml.XmlDocument)">
+    <parameter name="inputRoot">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="root">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfo.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfo.GetEnumerator(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="requestedObjectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfo.GetXml">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfo.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="xmlDocument">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfo.LoadXml(System.Xml.XmlElement)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoClause.GetXml">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoClause.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="xmlDocument">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoClause.LoadXml(System.Xml.XmlElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoEncryptedKey.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoName.GetXml">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoName.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoNode.LoadXml(System.Xml.XmlElement)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoRetrievalMethod.GetXml">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoRetrievalMethod.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoX509Data.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate)">
+    <parameter name="cert">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoX509Data.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509IncludeOption)">
+    <parameter name="cert">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoX509Data.AddCertificate(System.Security.Cryptography.X509Certificates.X509Certificate)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoX509Data.AddIssuerSerial(System.String,System.String)">
+    <parameter name="issuerName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="serialNumber">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoX509Data.AddSubjectKeyId(System.String)">
+    <parameter name="subjectKeyId">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoX509Data.GetXml">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoX509Data.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoX509Data.InternalAddIssuerSerial(System.String,System.String)">
+    <parameter name="serialNumber">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="issuerName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.NamespaceFrame.AddRendered(System.Xml.XmlAttribute)">
+    <parameter name="attr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.NamespaceFrame.AddUnrendered(System.Xml.XmlAttribute)">
+    <parameter name="attr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.NamespaceFrame.GetRendered(System.String)">
+    <parameter name="nsPrefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.NamespaceFrame.GetUnrendered(System.String)">
+    <parameter name="nsPrefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.NamespaceSortOrder.Compare(System.Object,System.Object)">
+    <parameter name="b">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Reference.AddTransform(System.Security.Cryptography.Xml.Transform)">
+    <parameter name="transform">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Reference.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Reference.LoadXml(System.Xml.XmlElement)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.ReferenceList.Add(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.ReferenceList.Contains(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.ReferenceList.CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.ReferenceList.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.ReferenceList.Insert(System.Int32,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Xml.ReferenceList.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.RSAKeyValue.GetXml">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.RSAKeyValue.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Signature.AddObject(System.Security.Cryptography.Xml.DataObject)">
+    <parameter name="dataObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Signature.GetXml">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Signature.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Signature.LoadXml(System.Xml.XmlElement)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedInfo.AddReference(System.Security.Cryptography.Xml.Reference)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethodObject">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedInfo.CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedInfo.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedInfo.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedInfo.LoadXml(System.Xml.XmlElement)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Xml.SignedInfo.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.#ctor(System.Xml.XmlDocument)">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.#ctor(System.Xml.XmlElement)">
+    <parameter name="elem">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.AddObject(System.Security.Cryptography.Xml.DataObject)">
+    <parameter name="dataObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.AddReference(System.Security.Cryptography.Xml.Reference)">
+    <parameter name="reference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.BuildBagOfCerts">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.CheckSignature(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.CheckSignature(System.Security.Cryptography.KeyedHashAlgorithm)">
+    <parameter name="macAlg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.CheckSignature(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Boolean)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.CheckSignedInfo(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.CheckSignedInfo(System.Security.Cryptography.KeyedHashAlgorithm)">
+    <parameter name="macAlg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.ComputeSignature(System.Security.Cryptography.KeyedHashAlgorithm)">
+    <parameter name="macAlg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.GetC14NDigest(System.Security.Cryptography.HashAlgorithm)">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.GetIdElement(System.Xml.XmlDocument,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="idValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.GetNextCertificatePublicKey">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.GetReferenceLevel(System.Int32,System.Collections.ArrayList)">
+    <parameter name="references">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.GetXml">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.LoadXml(System.Xml.XmlElement)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.ReferenceLevelSortOrder.Compare(System.Object,System.Object)">
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="b">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SymmetricKeyWrap.AESKeyWrapDecrypt(System.Byte[],System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="rgbEncryptedWrappedKeyData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SymmetricKeyWrap.AESKeyWrapEncrypt(System.Byte[],System.Byte[])">
+    <parameter name="rgbWrappedKeyData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SymmetricKeyWrap.TripleDESKeyWrapDecrypt(System.Byte[],System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="rgbEncryptedWrappedKeyData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="rgbKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SymmetricKeyWrap.TripleDESKeyWrapEncrypt(System.Byte[],System.Byte[])">
+    <parameter name="rgbWrappedKeyData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="rgbKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Transform.AcceptsType(System.Type)">
+    <parameter name="inputType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Transform.GetDigestedOutput(System.Security.Cryptography.HashAlgorithm)">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Transform.GetInnerXml">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Transform.GetOutput(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Transform.GetXml">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Transform.GetXml(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Transform.GetXml(System.Xml.XmlDocument,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Transform.LoadInnerXml(System.Xml.XmlNodeList)">
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Transform.LoadInput(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Xml.Transform.PropagatedNamespaces">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.TransformChain.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.TransformChain.GetXml(System.Xml.XmlDocument,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.TransformChain.LoadXml(System.Xml.XmlElement)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.TransformChain.TransformToOctetStream(System.IO.Stream,System.Xml.XmlResolver,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.TransformChain.TransformToOctetStream(System.Object,System.Type,System.Xml.XmlResolver,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.TransformChain.TransformToOctetStream(System.Xml.XmlDocument,System.Xml.XmlResolver,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.AddNamespaces(System.Xml.XmlElement,System.Collections.Hashtable)">
+    <parameter name="elem">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.AddNamespaces(System.Xml.XmlElement,System.Security.Cryptography.Xml.CanonicalXmlNodeList)">
+    <parameter name="elem">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.AllDescendantNodes(System.Xml.XmlNode,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="node">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.BuildBagOfCerts(System.Security.Cryptography.Xml.KeyInfoX509Data,System.Security.Cryptography.Xml.CertUsageType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="keyInfoX509Data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.ConvertIntToByteArray(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.DiscardComments(System.Xml.XmlDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.DiscardWhiteSpaces(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="inputBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.DiscardWhiteSpaces(System.String,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="inputBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.EscapeAttributeValue(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.EscapeCData(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.EscapeTextData(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.EscapeWhitespaceData(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.ExtractIdFromLocalUri(System.String)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.GetAttribute(System.Xml.XmlElement,System.String,System.String)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.GetHexArraySize(System.Byte[])">
+    <parameter name="hex">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.GetIdFromLocalUri(System.String,System.Boolean@)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.GetNamespacePrefix(System.Xml.XmlAttribute)">
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.GetOwnerDocument(System.Xml.XmlNodeList)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.GetPropagatedAttributes(System.Xml.XmlElement)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.HasAttribute(System.Xml.XmlElement,System.String,System.String)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.HasNamespace(System.Xml.XmlElement,System.String,System.String)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.HasNamespacePrefix(System.Xml.XmlAttribute,System.String)">
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.IsCommittedNamespace(System.Xml.XmlElement,System.String,System.String)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.IsDefaultNamespaceNode(System.Xml.XmlNode)">
+    <parameter name="n">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.IsEmptyDefaultNamespaceNode(System.Xml.XmlNode)">
+    <parameter name="n">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.IsNamespaceNode(System.Xml.XmlNode)">
+    <parameter name="n">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.IsNonRedundantNamespaceDecl(System.Xml.XmlAttribute,System.Xml.XmlAttribute)">
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.IsRedundantNamespace(System.Xml.XmlElement,System.String,System.String)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="prefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.IsXmlNamespaceNode(System.Xml.XmlNode)">
+    <parameter name="n">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.NodeInList(System.Xml.XmlNode,System.Xml.XmlNodeList)">
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.PreProcessDocumentInput(System.Xml.XmlDocument,System.Xml.XmlResolver,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.PreProcessElementInput(System.Xml.XmlElement,System.Xml.XmlResolver,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="elem">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.PreProcessStreamInput(System.IO.Stream,System.Xml.XmlResolver,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="inputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.Pump(System.IO.Stream,System.IO.Stream)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="output">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.RemoveAllChildren(System.Xml.XmlElement)">
+    <parameter name="inputElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.SBReplaceCharWithString(System.Text.StringBuilder,System.Char,System.String)">
+    <parameter name="sb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="newString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.Utils.TokenizePrefixListString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.X509IssuerSerial.#ctor(System.String,System.String)">
+    <parameter name="issuerName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="serialNumber">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDecryptionTransform.AddExceptUri(System.String)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.Xml.XmlDecryptionTransform.ExceptUris">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDecryptionTransform.LoadInput(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDecryptionTransform.LoadStreamInput(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDecryptionTransform.LoadXmlDocumentInput(System.Xml.XmlDocument)">
+    <parameter name="document">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDecryptionTransform.ProcessEncryptedDataItem(System.Xml.XmlElement)">
+    <parameter name="encryptedDataElement">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigBase64Transform.LoadInnerXml(System.Xml.XmlNodeList)">
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigBase64Transform.LoadInput(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigBase64Transform.LoadStreamInput(System.IO.Stream)">
+    <parameter name="inputStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigBase64Transform.LoadXmlNodeListInput(System.Xml.XmlNodeList)">
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigC14NTransform.GetOutput">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigC14NTransform.GetOutput(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigC14NTransform.LoadInnerXml(System.Xml.XmlNodeList)">
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform.GetOutput">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform.GetOutput(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform.LoadInnerXml(System.Xml.XmlNodeList)">
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform.LoadInput(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform.LoadStreamInput(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform.LoadXmlDocumentInput(System.Xml.XmlDocument)">
+    <parameter name="doc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform.LoadXmlNodeListInput(System.Xml.XmlNodeList)">
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.GetOutput">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.GetOutput(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform.LoadInnerXml(System.Xml.XmlNodeList)">
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigXPathTransform.GetInnerXml">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigXPathTransform.GetOutput">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigXPathTransform.GetOutput(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigXPathTransform.LoadInput(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigXPathTransform.LoadStreamInput(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigXPathTransform.LoadXmlNodeListInput(System.Xml.XmlNodeList)">
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigXsltTransform.GetOutput">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigXsltTransform.GetOutput(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlDsigXsltTransform.LoadInput(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlLicenseTransform.DecryptEncryptedGrants(System.Xml.XmlNodeList,System.Security.Cryptography.Xml.IRelDecryptor)">
+    <parameter name="encryptedGrantList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlLicenseTransform.LoadInnerXml(System.Xml.XmlNodeList)">
+    <parameter name="nodeList">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.XmlLicenseTransform.LoadInput(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Permissions.DataProtectionPermissionAttribute.CreatePermission">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.SecurityResources.GetResourceString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptionPropertyCollection.IndexOf(System.Security.Cryptography.Xml.EncryptionProperty)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.EncryptionPropertyCollection.Remove(System.Security.Cryptography.Xml.EncryptionProperty)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.KeyInfoEncryptedKey.LoadXml(System.Xml.XmlElement)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXml.CheckSignature(,System.Boolean)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXmlDebugLog.GetOidName(System.Security.Cryptography.Oid)">
+    <parameter name="oid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXmlDebugLog.LogVerifyKeyUsage(System.Security.Cryptography.Xml.SignedXml,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509KeyUsageExtension)">
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="keyUsages">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="signedXml">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXmlDebugLog.LogVerifyX509Chain(System.Security.Cryptography.Xml.SignedXml,System.Security.Cryptography.X509Certificates.X509Chain,System.Security.Cryptography.X509Certificates.X509Certificate)">
+    <parameter name="chain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="signedXml">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Xml.SignedXmlDebugLog.WriteLine(System.Object,System.Diagnostics.TraceEventType,System.Security.Cryptography.Xml.SignedXmlDebugLog.SignedXmlDebugEvent,System.String)">
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+</assembly>

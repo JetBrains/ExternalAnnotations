@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.ServiceProcess">
+  <member name="M:System.ServiceProcess.Design.ServiceInstallerDialog.ServiceInstallerDialog_HelpButtonClicked(System.Object,System.ComponentModel.CancelEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.Design.ServiceNameConverter.GetStandardValues(System.ComponentModel.ITypeDescriptorContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.Design.ServiceNameConverter.GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.ServiceProcess.Res.Culture">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.ServiceProcess.Res.GetObject(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.Res.GetString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.Res.GetString(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.ServiceProcess.ServiceBase.EventLog">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceBase.GetEntry">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceBase.Run(System.ServiceProcess.ServiceBase)">
+    <parameter name="service">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceBase.Run(System.ServiceProcess.ServiceBase[])">
+    <parameter name="services">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceController.#ctor(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceController.#ctor(System.String,System.ServiceProcess.NativeMethods.ENUM_SERVICE_STATUS)">
+    <parameter name="status">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceController.#ctor(System.String,System.ServiceProcess.NativeMethods.ENUM_SERVICE_STATUS_PROCESS)">
+    <parameter name="status">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceController.#ctor(System.String,System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceController.CreateSafeWin32Exception">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.ServiceProcess.ServiceController.DependentServices">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceController.GetDataBaseHandleWithAccess(System.String,System.Int32)">
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceController.GetDataBaseHandleWithEnumerateAccess(System.String)">
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceController.GetDevices">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceController.GetDevices(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceController.GetServices">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceController.GetServices(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceController.GetServicesInGroup(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceController.GetServicesOfType(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.ServiceProcess.ServiceController.ServiceHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.ServiceProcess.ServiceController.ServicesDependedOn">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceController.Start(System.String[])">
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermission.#ctor(System.ServiceProcess.ServiceControllerPermissionAccess,System.String,System.String)">
+    <parameter name="serviceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermission.#ctor(System.ServiceProcess.ServiceControllerPermissionEntry[])">
+    <parameter name="permissionAccessEntries">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermission.AddPermissionAccess(System.ServiceProcess.ServiceControllerPermissionEntry)">
+    <parameter name="entry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.ServiceProcess.ServiceControllerPermission.PermissionEntries">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermission.RemovePermissionAccess(System.ServiceProcess.ServiceControllerPermissionEntry)">
+    <parameter name="entry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermissionAttribute.CreatePermission">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermissionEntry.#ctor(System.Security.Permissions.ResourcePermissionBaseEntry)">
+    <parameter name="baseEntry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermissionEntry.#ctor(System.ServiceProcess.ServiceControllerPermissionAccess,System.String,System.String)">
+    <parameter name="serviceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermissionEntry.GetBaseEntry">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermissionEntryCollection.#ctor(System.ServiceProcess.ServiceControllerPermission,System.Security.Permissions.ResourcePermissionBaseEntry[])">
+    <parameter name="entries">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermissionEntryCollection.Add(System.ServiceProcess.ServiceControllerPermissionEntry)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermissionEntryCollection.AddRange(System.ServiceProcess.ServiceControllerPermissionEntry[])">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermissionEntryCollection.AddRange(System.ServiceProcess.ServiceControllerPermissionEntryCollection)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermissionEntryCollection.Contains(System.ServiceProcess.ServiceControllerPermissionEntry)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermissionEntryCollection.CopyTo(System.ServiceProcess.ServiceControllerPermissionEntry[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermissionEntryCollection.IndexOf(System.ServiceProcess.ServiceControllerPermissionEntry)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermissionEntryCollection.Insert(System.Int32,System.ServiceProcess.ServiceControllerPermissionEntry)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceControllerPermissionEntryCollection.Remove(System.ServiceProcess.ServiceControllerPermissionEntry)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceProcessInstaller.CopyFromComponent(System.ComponentModel.IComponent)">
+    <parameter name="comp">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceProcessInstaller.GetAccountSid(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="accountName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceProcessInstaller.GrantAccountRight(System.IntPtr,System.Byte[],System.String)">
+    <parameter name="rightName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceProcessInstaller.RemoveAccountRight(System.IntPtr,System.Byte[],System.String)">
+    <parameter name="rightName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.SessionChangeDescription.Equals(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.TimeoutException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceInstaller.Install(System.Collections.IDictionary)">
+    <parameter name="stateSaver">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceInstaller.Rollback(System.Collections.IDictionary)">
+    <parameter name="savedState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceInstaller.Uninstall(System.Collections.IDictionary)">
+    <parameter name="savedState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.ServiceProcess.ServiceProcessInstaller.HelpText">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceProcessInstaller.Install(System.Collections.IDictionary)">
+    <parameter name="stateSaver">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ServiceProcess.ServiceProcessInstaller.Rollback(System.Collections.IDictionary)">
+    <parameter name="savedState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.ServiceProcess.ServiceBase.ServiceName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.ServiceProcess.ServiceController.DisplayName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.ServiceProcess.ServiceController.ServiceName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.ServiceProcess.ServiceControllerPermissionAttribute.ServiceName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.ServiceProcess.ServiceControllerPermissionEntry.ServiceName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.ServiceProcess.ServiceInstaller.Description">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.ServiceProcess.ServiceInstaller.ServiceName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+</assembly>
