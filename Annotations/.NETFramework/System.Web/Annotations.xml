@@ -12659,6 +12659,7 @@
   </member>
   <member name="M:System.Web.HttpUtility.UrlDecodeToBytes(System.String,System.Text.Encoding)">
     <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>str:notnull=&gt;notnull;str:null=&gt;null</argument>
     </attribute>
     <parameter name="e">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
@@ -31928,10 +31929,10 @@
   </member>
   <member name="M:System.Web.HttpUtility.UrlDecode(System.Byte[],System.Int32,System.Int32,System.Text.Encoding)">
     <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
-      <argument>notnull=&gt;notnull;null=&gt;null</argument>
+      <argument>bytes:notnull=&gt;notnull;bytes:null=&gt;null</argument>
     </attribute>
     <parameter name="bytes">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
     </parameter>
   </member>
   <member name="M:System.Web.HttpUtility.UrlDecode(System.Byte[],System.Text.Encoding)">
