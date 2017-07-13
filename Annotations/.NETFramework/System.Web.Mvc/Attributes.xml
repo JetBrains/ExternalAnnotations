@@ -61,6 +61,15 @@
     <attribute ctor="M:JetBrains.Annotations.AspMvcViewLocationFormatAttribute.#ctor(System.String)">
       <argument>~\Views\Shared\{0}.ascx</argument>
     </attribute>
+
+    <attribute ctor="M:JetBrains.Annotations.RazorPageBaseTypeAttribute.#ctor(System.String)">
+      <argument>System.Web.Mvc.WebViewPage</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.RazorPageBaseTypeAttribute.#ctor(System.String,System.String)">
+      <argument>System.Web.Mvc.ViewStartPage</argument>
+      <argument>_ViewStart.cshtml</argument>
+    </attribute>
+  
   </assembly>
 
   <member name="P:System.Web.Mvc.VirtualPathProviderViewEngine.AreaMasterLocationFormats">

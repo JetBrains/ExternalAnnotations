@@ -1,4 +1,11 @@
 <assembly name="System.Web.WebPages">
+  <assembly>
+    <attribute ctor="M:JetBrains.Annotations.RazorPageBaseTypeAttribute.#ctor(System.String,System.String)">
+      <argument>System.Web.WebPages.StartPage</argument>
+      <argument>_PageStart.cshtml</argument>
+    </attribute>
+  </assembly>
+  
   <member name="M:System.Web.WebPages.WebPageBase.RenderSection(System.String)">
     <parameter name="name">
       <attribute ctor="M:JetBrains.Annotations.RazorSectionAttribute.#ctor" />
