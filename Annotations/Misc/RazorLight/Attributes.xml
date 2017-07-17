@@ -1,0 +1,81 @@
+<assembly name="RazorLight">
+  <assembly>
+    <attribute ctor="M:JetBrains.Annotations.RazorImportNamespaceAttribute.#ctor(System.String)">
+      <argument>System</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.RazorImportNamespaceAttribute.#ctor(System.String)">
+      <argument>System.Linq</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.RazorImportNamespaceAttribute.#ctor(System.String)">
+      <argument>System.Collections.Generic</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.RazorImportNamespaceAttribute.#ctor(System.String)">
+      <argument>RazorLight.Internal</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.RazorPageBaseTypeAttribute.#ctor(System.String)">
+      <argument>RazorLight.TemplatePage</argument>
+    </attribute>
+  </assembly>
+
+  <member name="M:RazorLight.TemplatePage.RenderSection(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.RazorSectionAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:RazorLight.TemplatePage.RenderSection(System.String,System.Boolean)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.RazorSectionAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:RazorLight.TemplatePage.RenderSectionAsync(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.RazorSectionAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:RazorLight.TemplatePage.RenderSectionAsync(System.String,System.Boolean)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.RazorSectionAttribute.#ctor" />
+    </parameter>
+  </member>
+  
+  <member name="P:RazorLight.TemplatePage.Layout">
+    <attribute ctor="M:JetBrains.Annotations.RazorLayoutAttribute.#ctor" />
+  </member>
+
+  <member name="M:RazorLight.TemplatePage.Write(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodParameterAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:RazorLight.TemplatePage.WriteTo(System.IO.TextWriter,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodParameterAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:RazorLight.TemplatePage.WriteTo(System.IO.TextWriter,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodParameterAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:RazorLight.TemplatePage.WriteLiteral(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.RazorWriteLiteralMethodAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodParameterAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:RazorLight.TemplatePage.WriteLiteralTo(System.IO.TextWriter,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.RazorWriteLiteralMethodAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodParameterAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:RazorLight.TemplatePage.WriteLiteralTo(System.IO.TextWriter,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.RazorWriteLiteralMethodAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.RazorWriteMethodParameterAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>
