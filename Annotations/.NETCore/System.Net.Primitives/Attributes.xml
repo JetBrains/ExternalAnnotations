@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Net.Primitives">
+  <member name="M:System.Net.IPAddress.GetAddressBytes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.CookieCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.CookieCollection.Item(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="P:System.Net.CookieCollection.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.CookieContainer.CookieCutter(System.Uri,System.String,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="setCookieHeader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.GetCookies(System.Uri)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.InternalGetCookies(System.Uri)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieParser.CheckQuoted(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieParser.Get">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.CookieParser.GetServer">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.CookieTokenizer.Extract">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.CredentialCache.CredentialEnumerator.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.CredentialCache.GetCredential(System.String,System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="authenticationType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CredentialCache.GetCredential(System.Uri,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="authType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="uriPrefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CredentialCache.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.IPAddress.InternalParse(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="ipString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.IPAddress.Parse(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="ipString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.IPAddress.Snapshot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.IPEndPoint.Serialize">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.IPEndPoint.Snapshot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.NetworkCredential.Decrypt(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.NetworkCredential.Encrypt(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.NetworkCredential.GetCredential(System.String,System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="authenticationType">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.NetworkCredential.GetCredential(System.Uri,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="authType">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.NetworkCredential.InternalGetDomain">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.NetworkCredential.InternalGetPassword">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.NetworkCredential.InternalGetUserName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.NetworkInformation.IPAddressCollection.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.PathList.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.PathList.Values">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.IPEndPoint.Create(System.Net.SocketAddress)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="socketAddress">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Cache.RequestCachePolicy.ToString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.IPAddress.MapToIPv4">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.IPAddress.MapToIPv6">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.NetworkInformation.IPAddressCollection.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.SocketAddress.ToString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.TransportContext.GetChannelBinding(System.Security.Authentication.ExtendedProtection.ChannelBindingKind)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Cookie.Name">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Cookie.Equals(System.Object)">
+    <parameter name="comparand">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Cookie.InternalSetName(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Cookie.VerifySetDefaults(System.Net.CookieVariant,System.Uri,System.Boolean,System.String,System.Boolean,System.Boolean)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="localDomain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieCollection.Add(System.Net.Cookie)">
+    <parameter name="cookie">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieCollection.Add(System.Net.CookieCollection)">
+    <parameter name="cookies">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieCollection.CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieCollection.IndexOf(System.Net.Cookie)">
+    <parameter name="cookie">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieCollection.InternalAdd(System.Net.Cookie,System.Boolean)">
+    <parameter name="cookie">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.Add(System.Net.Cookie)">
+    <parameter name="cookie">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.Add(System.Net.Cookie,System.Boolean)">
+    <parameter name="cookie">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.Add(System.Net.CookieCollection)">
+    <parameter name="cookies">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.Add(System.Uri,System.Net.Cookie)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="cookie">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.Add(System.Uri,System.Net.CookieCollection)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="cookies">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.AddRemoveDomain(System.String,System.Net.PathList)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.ExpireCollection(System.Net.CookieCollection)">
+    <parameter name="cc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.GetCookieHeader(System.Uri)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.GetCookieHeader(System.Uri,System.String@)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.IsLocal(System.String)">
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.MergeUpdateCollections(System.Net.CookieCollection,System.Net.CookieCollection,System.Int32,System.Boolean,System.Boolean)">
+    <parameter name="destination">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="source">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.SetCookies(System.Uri,System.String)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="cookieHeader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieException.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieParser.#ctor(System.String)">
+    <parameter name="cookieString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieTokenizer.#ctor(System.String)">
+    <parameter name="tokenStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CredentialCache.Add(System.String,System.Int32,System.String,System.Net.NetworkCredential)">
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="authenticationType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CredentialCache.Add(System.Uri,System.String,System.Net.NetworkCredential)">
+    <parameter name="uriPrefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="authType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CredentialCache.CredentialEnumerator.#ctor(System.Net.CredentialCache,System.Collections.Hashtable,System.Collections.Hashtable,System.Int32)">
+    <parameter name="table">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="hostTable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CredentialHostKey.Equals(System.Object)">
+    <parameter name="comparand">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CredentialKey.#ctor(System.Uri,System.String)">
+    <parameter name="uriPrefix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CredentialKey.Equals(System.Object)">
+    <parameter name="comparand">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CredentialKey.IsPrefix(System.Uri,System.Uri)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="prefixUri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.EndPoint.Create(System.Net.SocketAddress)">
+    <parameter name="socketAddress">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.IPAddress.Equals(System.Object)">
+    <parameter name="comparand">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.IPAddress.IsLoopback(System.Net.IPAddress)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.IPAddress.TryParse(System.String,System.Net.IPAddress@)">
+    <parameter name="ipString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.IPEndPoint.Equals(System.Object)">
+    <parameter name="comparand">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.NetworkInformation.IPAddressCollection.Add(System.Net.IPAddress)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.NetworkInformation.IPAddressCollection.Contains(System.Net.IPAddress)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.NetworkInformation.IPAddressCollection.CopyTo(System.Net.IPAddress[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.NetworkInformation.IPAddressCollection.InternalAdd(System.Net.IPAddress)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.NetworkInformation.IPAddressCollection.Remove(System.Net.IPAddress)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Net.PathList.Item(System.String)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.PathList.PathListComparer.System#Collections#IComparer#Compare(System.Object,System.Object)">
+    <parameter name="or">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="ol">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.SocketAddress.Equals(System.Object)">
+    <parameter name="comparand">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Sockets.SocketException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.IPAddress.#ctor(System.Byte[])">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.IPAddress.#ctor(System.Byte[],System.Int64)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.IPEndPoint.#ctor(System.Net.IPAddress,System.Int32)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.DnsEndPoint.#ctor(System.String,System.Int32)">
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.DnsEndPoint.#ctor(System.String,System.Int32,System.Net.Sockets.AddressFamily)">
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.DnsEndPoint.Equals(System.Object)">
+    <parameter name="comparand">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ICredentials.GetCredential(System.Uri,System.String)">
+    <parameter name="authType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ICredentialsByHost.GetCredential(System.String,System.Int32,System.String)">
+    <parameter name="authenticationType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.IWebProxy.GetProxy(System.Uri)">
+    <parameter name="destination">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.IWebProxy.IsBypassed(System.Uri)">
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Net.Cookie.Domain">
+  </member>
+  <member name="P:System.Net.Cookie.Path">
+  </member>
+  <member name="P:System.Net.Cookie.Port">
+  </member>
+  <member name="P:System.Net.Cookie.Value">
+  </member>
+  <member name="P:System.Net.NetworkCredential.Domain">
+  </member>
+  <member name="P:System.Net.NetworkCredential.Password">
+  </member>
+  <member name="P:System.Net.NetworkCredential.UserName">
+  </member>
+  <member name="M:System.Net.Cookie.#ctor(System.String,System.String,System.String,System.String)">
+    <parameter name="name">
+    </parameter>
+    <parameter name="value">
+    </parameter>
+    <parameter name="path">
+    </parameter>
+    <parameter name="domain">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Cookie.#ctor(System.String,System.String,System.String)">
+    <parameter name="name">
+    </parameter>
+    <parameter name="value">
+    </parameter>
+    <parameter name="path">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Cookie.#ctor(System.String,System.String)">
+    <parameter name="name">
+    </parameter>
+    <parameter name="value">
+    </parameter>
+  </member>
+  <member name="M:System.Net.CredentialCache.Remove(System.String,System.Int32,System.String)">
+    <parameter name="host">
+    </parameter>
+    <parameter name="authenticationType">
+    </parameter>
+  </member>
+  <member name="M:System.Net.CredentialCache.Remove(System.Uri,System.String)">
+    <parameter name="authType">
+    </parameter>
+  </member>
+  <member name="M:System.Net.NetworkCredential.#ctor(System.String,System.String,System.String)">
+    <parameter name="userName">
+    </parameter>
+    <parameter name="password">
+    </parameter>
+    <parameter name="domain">
+    </parameter>
+  </member>
+  <member name="M:System.Net.NetworkCredential.#ctor(System.String,System.String)">
+    <parameter name="userName">
+    </parameter>
+    <parameter name="password">
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.CookieCutter(,System.String,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="setCookieHeader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.GetCookies">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.InternalGetCookies">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.NetworkCredential.GetCredential(,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Cookie.VerifySetDefaults(System.Net.CookieVariant,,System.Boolean,System.String,System.Boolean,System.Boolean)">
+    <parameter name="localDomain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.Add(,System.Net.Cookie)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="cookie">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.Add(,System.Net.CookieCollection)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="cookies">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.GetCookieHeader">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.CookieContainer.SetCookies(,System.String)">
+    <parameter name="uri">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="cookieHeader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+</assembly>

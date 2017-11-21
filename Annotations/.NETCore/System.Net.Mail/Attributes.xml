@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Net.Mail">
+  <member name="M:System.Net.Base64Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Base64Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Base64Stream.ReadState">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Base64Stream.WriteState">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.BufferedReadStream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.CreateAlternateViewFromString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="content">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.CreateAlternateViewFromString(System.String,System.Net.Mime.ContentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="content">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.CreateAlternateViewFromString(System.String,System.Text.Encoding,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="content">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="mediaType">
+    </parameter>
+  </member>
+  <member name="P:System.Net.Mail.AlternateView.LinkedResources">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.Attachment.ContentDisposition">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.CreateAttachmentFromString(System.String,System.Net.Mime.ContentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="content">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="contentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.CreateAttachmentFromString(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="content">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.CreateAttachmentFromString(System.String,System.String,System.Text.Encoding,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="content">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="name">
+    </parameter>
+    <parameter name="mediaType">
+    </parameter>
+  </member>
+  <member name="P:System.Net.Mail.AttachmentBase.ContentType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.ShortNameFromFile(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AuthCommand.BeginSend(System.Net.Mail.SmtpConnection,System.String,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AuthCommand.BeginSend(System.Net.Mail.SmtpConnection,System.String,System.String,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.CheckCommand.BeginSend(System.Net.Mail.SmtpConnection,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.CheckCommand.EndSend(System.IAsyncResult,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.DataCommand.BeginSend(System.Net.Mail.SmtpConnection,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.EHelloCommand.BeginSend(System.Net.Mail.SmtpConnection,System.String,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="domain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.EHelloCommand.CheckResponse(System.Net.Mail.LineInfo[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="lines">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.EHelloCommand.EndSend(System.IAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.EHelloCommand.Send(System.Net.Mail.SmtpConnection,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="domain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.HelloCommand.BeginSend(System.Net.Mail.SmtpConnection,System.String,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="domain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.CreateLinkedResourceFromString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="content">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.CreateLinkedResourceFromString(System.String,System.Net.Mime.ContentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="content">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.CreateLinkedResourceFromString(System.String,System.Text.Encoding,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="content">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Net.Mail.MailAddress.DisplayName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.MailAddress.SmtpAddress">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.MailAddressCollection.ToEncodedString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.MailCommand.BeginSend(System.Net.Mail.SmtpConnection,System.Byte[],System.String,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="command">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailMessage.BuildDeliveryStatusNotificationString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.MailWriter.BeginGetContentStream(System.Net.Mime.ContentTransferEncoding,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.MailWriter.GetContentStream(System.Net.Mime.ContentTransferEncoding)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.MailWriter.GetContentStream(System.Net.Mime.ContentTransferEncoding,System.Net.Mime.MultiAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.Message.Bcc">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.Message.CC">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.Message.EnvelopeHeaders">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.Message.Headers">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.Message.To">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.ReadLinesCommand.BeginSend(System.Net.Mail.SmtpConnection,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.RecipientCommand.BeginSend(System.Net.Mail.SmtpConnection,System.String,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="to">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SendMailAsyncResult.End(System.IAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpAuthenticationManager.GetModules">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.GetFileMailWriter(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="pickupDirectory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.BeginFlush(System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.BeginGetConnection(System.String,System.Int32,System.Net.ContextAwareResult,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.CreateSmtpPooledStream(System.Net.ConnectionPool)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.GetClosableStream">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.SetContextAndTryAuthenticate(System.Net.Mail.ISmtpAuthenticationModule,System.Net.NetworkCredential,System.Net.ContextAwareResult)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="module">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpException.GetMessageForStatus(System.Net.Mail.SmtpStatusCode)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.SmtpLoginAuthenticationModule.Authenticate(System.String,System.Net.NetworkCredential,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="sessionCookie">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Net.Mail.SmtpLoginAuthenticationModule.AuthenticationType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.SmtpNegotiateAuthenticationModule.Authenticate(System.String,System.Net.NetworkCredential,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="sessionCookie">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Net.Mail.SmtpNegotiateAuthenticationModule.AuthenticationType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.SmtpNegotiateAuthenticationModule.GetSecurityLayerOutgoingBlob(System.String,System.Net.NTAuthentication)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="clientContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpNtlmAuthenticationModule.Authenticate(System.String,System.Net.NetworkCredential,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="sessionCookie">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Net.Mail.SmtpNtlmAuthenticationModule.AuthenticationType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.SmtpReplyReader.BeginReadLine(System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.SmtpReplyReader.BeginReadLines(System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.SmtpReplyReaderFactory.BeginReadLine(System.Net.Mail.SmtpReplyReader,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.SmtpReplyReaderFactory.BeginReadLines(System.Net.Mail.SmtpReplyReader,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.SmtpReplyReaderFactory.GetNextReplyReader">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.SmtpTransport.BeginGetConnection(System.String,System.Int32,System.Net.ContextAwareResult,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpTransport.BeginSendMail(System.Net.Mail.MailAddress,System.Net.Mail.MailAddressCollection,System.String,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="sender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="recipients">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Net.Mail.SmtpTransport.ClientCertificates">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mail.SmtpTransport.EndSendMail(System.IAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpTransport.SendMail(System.Net.Mail.MailAddress,System.Net.Mail.MailAddressCollection,System.String,System.Net.Mail.SmtpFailedRecipientException@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="sender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="recipients">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.StartTlsCommand.BeginSend(System.Net.Mail.SmtpConnection,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.BaseWriter.BeginGetContentStream(System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mime.BaseWriter.GetContentStream">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mime.ContentDisposition.Parameters">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mime.ContentType.Parameters">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.GetDateTimeString(System.DateTime,System.Text.StringBuilder)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadAddressSpecDomain(System.String,System.Int32@,System.Text.StringBuilder)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="builder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadAngleAddress(System.String,System.Int32@,System.Text.StringBuilder)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="builder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadAtom(System.String,System.Int32@,System.Text.StringBuilder)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadDomainLiteral(System.String,System.Int32@,System.Text.StringBuilder)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadDotAtom(System.String,System.Int32@,System.Text.StringBuilder)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadMailAddress(System.String,System.Int32@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadMailAddress(System.String,System.Int32@,System.String@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadParameterAttribute(System.String,System.Int32@,System.Text.StringBuilder)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadPhrase(System.String,System.Int32@,System.Text.StringBuilder)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadQuotedString(System.String,System.Int32@,System.Text.StringBuilder)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadQuotedString(System.String,System.Int32@,System.Text.StringBuilder,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadToken(System.String,System.Int32@,System.Text.StringBuilder)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Net.Mime.MimeBasePart.ContentType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mime.MimeBasePart.DecodeHeaderValue(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mime.MimeBasePart.EncodeHeaderValue(System.String,System.Text.Encoding,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Net.Mime.MimeBasePart.Headers">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mime.MimeMultiPart.BeginSend(System.Net.Mime.BaseWriter,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mime.MimeMultiPart.Parts">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mime.MimePart.BeginSend(System.Net.Mime.BaseWriter,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mime.MimePart.GetEncodedStream(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeWriter.BeginClose(System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mime.MimeWriter.BeginGetContentStream(System.Net.Mime.ContentTransferEncoding,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mime.MimeWriter.GetContentStream(System.Net.Mime.ContentTransferEncoding)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mime.MimeWriter.GetContentStream(System.Net.Mime.ContentTransferEncoding,System.Net.Mime.MultiAsyncResult)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Mime.QuotedPrintableStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mime.QuotedPrintableStream.ReadState">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mime.QuotedPrintableStream.WriteState">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.MailAddress.Address">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.MailAddress.Host">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.MailAddress.User">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.MailMessage.AlternateViews">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.MailMessage.Attachments">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.MailMessage.Bcc">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.MailMessage.Body">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.MailMessage.CC">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.MailMessage.Headers">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.MailMessage.To">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.SmtpClient.ClientCertificates">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.SmtpClient.Host">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.SmtpClient.ServicePoint">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.MailMessage.ReplyToList">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mime.ContentType.MediaType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Mail.MailMessage.From">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Base64Stream.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Base64Stream.#ctor(System.IO.Stream,System.Int32)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Base64Stream.EncodeBytes(System.Byte[],System.Int32,System.Int32,System.Boolean)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Base64Stream.ReadAsyncResult.CompleteRead(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Base64Stream.ReadAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Base64Stream.ReadAsyncResult.OnRead(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Base64Stream.WriteAsyncResult.CompleteWrite(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Base64Stream.WriteAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Base64Stream.WriteAsyncResult.OnWrite(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.BufferedReadStream.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.BufferedReadStream.#ctor(System.IO.Stream,System.Boolean)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.BufferedReadStream.Read(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.BufferedReadStream.ReadAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.BufferedReadStream.ReadAsyncResult.OnRead(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.BufferedReadStream.ReadAsyncResult.Read(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ClosableStream.#ctor(System.IO.Stream,System.EventHandler)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.DelegatedStream.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.#ctor(System.IO.Stream)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.#ctor(System.IO.Stream,System.Net.Mime.ContentType)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.#ctor(System.IO.Stream,System.String)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="mediaType">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.#ctor(System.String)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="mediaType">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.#ctor(System.String,System.Net.Mime.ContentType)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.#ctor(System.String,System.String)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="mediaType">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.#ctor(System.IO.Stream,System.Net.Mime.ContentType)">
+    <parameter name="contentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.#ctor(System.IO.Stream,System.String)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.#ctor(System.IO.Stream,System.String,System.String)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="name">
+    </parameter>
+    <parameter name="mediaType">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.#ctor(System.String)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.#ctor(System.String,System.Net.Mime.ContentType)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="contentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.#ctor(System.String,System.String)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="mediaType">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.#ctor(System.IO.Stream)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.#ctor(System.IO.Stream,System.Net.Mime.ContentType)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.#ctor(System.IO.Stream,System.String)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="mediaType">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.#ctor(System.IO.Stream,System.String,System.String)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.#ctor(System.String)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="mediaType">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.#ctor(System.String,System.Net.Mime.ContentType)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.#ctor(System.String,System.String)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="mediaType">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.SetContentFromFile(System.String,System.Net.Mime.ContentType)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.SetContentFromFile(System.String,System.String)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.SetContentFromString(System.String,System.Net.Mime.ContentType)">
+    <parameter name="contentString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.SetContentFromString(System.String,System.Text.Encoding,System.String)">
+    <parameter name="contentString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AuthCommand.CheckResponse(System.Net.Mail.LineInfo[])">
+    <parameter name="lines">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AuthCommand.EndSend(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AuthCommand.PrepareCommand(System.Net.Mail.SmtpConnection,System.String)">
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AuthCommand.PrepareCommand(System.Net.Mail.SmtpConnection,System.String,System.String)">
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AuthCommand.Send(System.Net.Mail.SmtpConnection,System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AuthCommand.Send(System.Net.Mail.SmtpConnection,System.String,System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.CheckCommand.OnReadLine(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.CheckCommand.OnWrite(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.CheckCommand.Send(System.Net.Mail.SmtpConnection,System.String@)">
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.DataCommand.EndSend(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.DataCommand.PrepareCommand(System.Net.Mail.SmtpConnection)">
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.DataCommand.Send(System.Net.Mail.SmtpConnection)">
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.DataStopCommand.PrepareCommand(System.Net.Mail.SmtpConnection)">
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.DataStopCommand.Send(System.Net.Mail.SmtpConnection)">
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.EHelloCommand.PrepareCommand(System.Net.Mail.SmtpConnection,System.String)">
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="domain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.HelloCommand.EndSend(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.HelloCommand.PrepareCommand(System.Net.Mail.SmtpConnection,System.String)">
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="domain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.HelloCommand.Send(System.Net.Mail.SmtpConnection,System.String)">
+    <parameter name="domain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.#ctor(System.IO.Stream)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.#ctor(System.IO.Stream,System.Net.Mime.ContentType)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.#ctor(System.IO.Stream,System.String)">
+    <parameter name="contentStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="mediaType">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.#ctor(System.String)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.#ctor(System.String,System.Net.Mime.ContentType)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.#ctor(System.String,System.String)">
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="mediaType">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailAddress.#ctor(System.String)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailAddress.#ctor(System.String,System.String)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="displayName">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailAddress.#ctor(System.String,System.String,System.Text.Encoding)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="displayName">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailAddress.Equals(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailAddress.ParseValue(System.String)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailAddressCollection.Add(System.String)">
+    <parameter name="addresses">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailAddressCollection.ParseValue(System.String)">
+    <parameter name="addresses">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailCommand.EndSend(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailCommand.PrepareCommand(System.Net.Mail.SmtpConnection,System.Byte[],System.String)">
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="command">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailCommand.Send(System.Net.Mail.SmtpConnection,System.Byte[],System.String)">
+    <parameter name="command">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailHeaderInfo.GetID(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailHeaderInfo.IsMatch(System.String,System.Net.Mail.MailHeaderID)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailHeaderInfo.IsSingleton(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailHeaderInfo.IsWellKnown(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailHeaderInfo.NormalizeCase(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailMessage.#ctor(System.String,System.String)">
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="to">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailMessage.#ctor(System.String,System.String,System.String,System.String)">
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="to">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailMessage.BeginSend(System.Net.Mime.BaseWriter,System.Boolean,System.AsyncCallback,System.Object)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailMessage.EndSend(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailMessage.Send(System.Net.Mime.BaseWriter,System.Boolean)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailWriter.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailWriter.#ctor(System.IO.Stream,System.Int32)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailWriter.OnWrite(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailWriter.WriteAndFold(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Message.#ctor(System.Net.Mail.MailAddress,System.Net.Mail.MailAddress)">
+    <parameter name="to">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Message.#ctor(System.String,System.String)">
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="to">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Message.BeginSend(System.Net.Mime.BaseWriter,System.Boolean,System.AsyncCallback,System.Object)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Message.EmptySendCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Message.EndSend(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Message.Send(System.Net.Mime.BaseWriter,System.Boolean)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.ReadLinesCommand.EndSend(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.ReadLinesCommand.OnReadLines(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.ReadLinesCommand.OnWrite(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.ReadLinesCommand.Send(System.Net.Mail.SmtpConnection)">
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.RecipientCommand.EndSend(System.IAsyncResult,System.String@)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.RecipientCommand.PrepareCommand(System.Net.Mail.SmtpConnection,System.String)">
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="to">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.RecipientCommand.Send(System.Net.Mail.SmtpConnection,System.String,System.String@)">
+    <parameter name="to">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SendMailAsyncResult.SendDataCompleted(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SendMailAsyncResult.SendToCollectionCompleted(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SendMailAsyncResult.SendToCompleted(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpAuthenticationManager.Register(System.Net.Mail.ISmtpAuthenticationModule)">
+    <parameter name="module">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.Complete(System.Exception,System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.ConnectCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.ContextSafeCompleteCallback(System.IAsyncResult)">
+    <parameter name="ar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.Send(System.String,System.String,System.String,System.String)">
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="recipients">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.SendAsync(System.String,System.String,System.String,System.String,System.Object)">
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="recipients">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.SendMailCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.SendMessageCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.AuthenticateCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.AuthenticateCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.AuthenticateContinueCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.ConnectionCreatedCallback(System.Object,System.Object)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.HandshakeCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.SendEHelloCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.SendHelloCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.SendStartTlsCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.EndFlush(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.EndGetConnection(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.GetConnection(System.String,System.Int32)">
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpConnection.ParseExtensions(System.String[])">
+    <parameter name="extensions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpException.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpFailedRecipientException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpFailedRecipientException.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpFailedRecipientsException.#ctor(System.Collections.ArrayList,System.Boolean)">
+    <parameter name="innerExceptions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpFailedRecipientsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpFailedRecipientsException.#ctor(System.String,System.Net.Mail.SmtpFailedRecipientException[])">
+    <parameter name="innerExceptions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpFailedRecipientsException.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpLoginAuthenticationModule.CloseContext(System.Object)">
+    <parameter name="sessionCookie">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpNegotiateAuthenticationModule.CloseContext(System.Object)">
+    <parameter name="sessionCookie">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpNtlmAuthenticationModule.CloseContext(System.Object)">
+    <parameter name="sessionCookie">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpReplyReader.EndReadLine(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpReplyReader.EndReadLines(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpReplyReaderFactory.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpReplyReaderFactory.EndReadLine(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpReplyReaderFactory.EndReadLines(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpReplyReaderFactory.Read(System.Net.Mail.SmtpReplyReader,System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpReplyReaderFactory.ReadLinesAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpReplyReaderFactory.ReadLinesAsyncResult.ReadCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpTransport.#ctor(System.Net.Mail.SmtpClient,System.Net.Mail.ISmtpAuthenticationModule[])">
+    <parameter name="authenticationModules">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpTransport.EndGetConnection(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpTransport.GetConnection(System.String,System.Int32)">
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.StartTlsCommand.EndSend(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.StartTlsCommand.PrepareCommand(System.Net.Mail.SmtpConnection)">
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.StartTlsCommand.Send(System.Net.Mail.SmtpConnection)">
+    <parameter name="conn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.BaseWriter.EndGetContentStream(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.BaseWriter.WriteHeader(System.String,System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.BaseWriter.WriteHeaders(System.Collections.Specialized.NameValueCollection)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.ContentDisposition.#ctor(System.String)">
+    <parameter name="disposition">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.ContentDisposition.Equals(System.Object)">
+    <parameter name="rparam">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.ContentDisposition.PersistIfNeeded(System.Net.Mime.HeaderCollection,System.Boolean)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.ContentDisposition.Set(System.String,System.Net.Mime.HeaderCollection)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.ContentType.#ctor(System.String)">
+    <parameter name="contentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.ContentType.Equals(System.Object)">
+    <parameter name="rparam">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.ContentType.PersistIfNeeded(System.Net.Mime.HeaderCollection,System.Boolean)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.ContentType.Set(System.String,System.Net.Mime.HeaderCollection)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.HeaderCollection.InternalRemove(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.HeaderCollection.InternalSet(System.String,System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.GetDotAtomOrDomainLiteral(System.String,System.Text.StringBuilder)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.GetDotAtomOrQuotedString(System.String,System.Text.StringBuilder)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.GetTokenOrQuotedString(System.String,System.Text.StringBuilder)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.HasCROrLF(System.String)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.IsValidDOW(System.String,System.Int32@)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadDateNumber(System.String,System.Int32@,System.Int32)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadDateTime(System.String,System.Int32@)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ReadMonth(System.String,System.Int32@)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.SkipCFWS(System.String,System.Int32@)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.SkipFWS(System.String,System.Int32@)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MailBnfHelper.ValidateHeaderName(System.String)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeBasePart.BeginSend(System.Net.Mime.BaseWriter,System.AsyncCallback,System.Object)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeBasePart.EndSend(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeBasePart.IsAnsi(System.String,System.Boolean)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeBasePart.IsAscii(System.String,System.Boolean)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeBasePart.Send(System.Net.Mime.BaseWriter)">
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeMultiPart.Complete(System.IAsyncResult,System.Exception)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeMultiPart.ContentStreamCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeMultiPart.ContentStreamCallbackHandler(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeMultiPart.MimePartSentCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeMultiPart.MimePartSentCallbackHandler(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeMultiPart.MimeWriterCloseCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeMultiPart.MimeWriterCloseCallbackHandler(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimePart.Complete(System.IAsyncResult,System.Exception)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimePart.ContentStreamCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimePart.ContentStreamCallbackHandler(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimePart.ReadCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimePart.ReadCallbackHandler(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimePart.SetContent(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimePart.SetContent(System.IO.Stream,System.Net.Mime.ContentType)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimePart.SetContent(System.IO.Stream,System.String,System.String)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimePart.WriteCallback(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimePart.WriteCallbackHandler(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeWriter.#ctor(System.IO.Stream,System.String)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="boundary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeWriter.#ctor(System.IO.Stream,System.String,System.String,System.Int32)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="boundary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeWriter.EndClose(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeWriter.OnClose(System.Object,System.EventArgs)">
+    <parameter name="sender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeWriter.OnWrite(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MimeWriter.WriteAndFold(System.String,System.Int32)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.MultiAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.QuotedPrintableStream.#ctor(System.IO.Stream,System.Boolean)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.QuotedPrintableStream.#ctor(System.IO.Stream,System.Int32)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.QuotedPrintableStream.EncodeBytes(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.QuotedPrintableStream.WriteAsyncResult.CompleteWrite(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.QuotedPrintableStream.WriteAsyncResult.End(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.QuotedPrintableStream.WriteAsyncResult.OnWrite(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailMessage.#ctor(System.Net.Mail.MailAddress,System.Net.Mail.MailAddress)">
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="to">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.Send(System.Net.Mail.MailMessage)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.SendAsync(System.Net.Mail.MailMessage,System.Object)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Message.EncodeHeaders(System.Net.Mime.HeaderCollection)">
+    <parameter name="headers">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.SendMailAsync(System.Net.Mail.MailMessage)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.SendMailAsync(System.String,System.String,System.String,System.String)">
+    <parameter name="from">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="recipients">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.QEncodedStream.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.QEncodedStream.#ctor(System.IO.Stream,System.Int32)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Net.Mail.Attachment.Name">
+  </member>
+  <member name="P:System.Net.Mail.AttachmentBase.ContentId">
+  </member>
+  <member name="P:System.Net.Mail.SmtpClient.PickupDirectoryLocation">
+  </member>
+  <member name="P:System.Net.Mail.SmtpFailedRecipientException.FailedRecipient">
+  </member>
+  <member name="P:System.Net.Mime.ContentDisposition.DispositionType">
+  </member>
+  <member name="P:System.Net.Mime.ContentDisposition.FileName">
+  </member>
+  <member name="P:System.Net.Mime.ContentType.Boundary">
+  </member>
+  <member name="P:System.Net.Mime.ContentType.CharSet">
+  </member>
+  <member name="P:System.Net.Mime.ContentType.Name">
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.#ctor(System.String,System.Int32)">
+    <parameter name="host">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.#ctor(System.String)">
+    <parameter name="host">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpFailedRecipientException.#ctor(System.String,System.String,System.Exception)">
+    <parameter name="failedRecipient">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpFailedRecipientException.#ctor(System.Net.Mail.SmtpStatusCode,System.String,System.String)">
+    <parameter name="failedRecipient">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpFailedRecipientException.#ctor(System.Net.Mail.SmtpStatusCode,System.String)">
+    <parameter name="failedRecipient">
+    </parameter>
+  </member>
+</assembly>

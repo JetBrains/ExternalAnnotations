@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Net.WebSockets">
+  <member name="M:System.Net.WebSockets.WebSocket.CreateClientWebSocket(System.IO.Stream,System.String,System.Int32,System.Int32,System.TimeSpan,System.Boolean,System.ArraySegment{System.Byte})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="innerStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebSockets.WebSocket.CloseAsync(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken)">
+    <parameter name="statusDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebSockets.WebSocket.CloseOutputAsync(System.Net.WebSockets.WebSocketCloseStatus,System.String,System.Threading.CancellationToken)">
+    <parameter name="statusDescription">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebSockets.WebSocket.ThrowOnInvalidState(System.Net.WebSockets.WebSocketState,System.Net.WebSockets.WebSocketState[])">
+    <parameter name="validStates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+</assembly>

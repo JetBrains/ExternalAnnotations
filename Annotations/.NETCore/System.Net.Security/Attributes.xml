@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Net.Security">
+  <member name="P:System.Net.NTAuthentication.AssociatedName">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.NTAuthentication.GetOutgoingBlob(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.NTAuthentication.GetOutgoingDigestBlob(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Net.SecurityStatus@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="requestMethod">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Net.NTAuthentication.Sizes">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Security.NegoState.DefaultPackage">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegoState.GetIdentity">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegoState.SetException(System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.BeginAuthenticateAsClient(System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.BeginAuthenticateAsClient(System.Net.NetworkCredential,System.String,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="targetName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.BeginAuthenticateAsClient(System.Net.NetworkCredential,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="targetName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.BeginAuthenticateAsServer(System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.BeginAuthenticateAsServer(System.Net.NetworkCredential,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Net.Security.NegotiateStream.RemoteIdentity">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.ProtocolToken.GetException">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SecureChannel.EnsureStoreOpened(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SecureChannel.GetIssuers">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SecureChannel.GetRemoteCertificate(System.Security.Cryptography.X509Certificates.X509Certificate2Collection@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SecureChannel.MakeEx(System.Security.Cryptography.X509Certificates.X509Certificate)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="certificate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SecureChannel.NextMessage(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SslState.EnqueueOldKeyDecryptedData(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SslState.EnsureBufferSize(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SslState.SetException(System.Exception)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SslStream.BeginAuthenticateAsClient(System.String,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="targetHost">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslStream.BeginAuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="targetHost">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslStream.BeginAuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SslStream.BeginAuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Security.Authentication.SslProtocols,System.Boolean,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SslStream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SslStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Security.SslStream.RemoteCertificate">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.StreamFramer.BeginReadMessage(System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.StreamFramer.BeginWriteMessage(System.Byte[],System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.StreamFramer.ReadMessage">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsClientAsync">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsClientAsync(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsClientAsync(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsClientAsync(System.Net.NetworkCredential,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsClientAsync(System.Net.NetworkCredential,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsServerAsync">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsServerAsync(System.Net.NetworkCredential,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsServerAsync(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsServerAsync(System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.BeginAuthenticateAsClient(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="targetName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.BeginAuthenticateAsClient(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="targetName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.BeginAuthenticateAsServer(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.BeginAuthenticateAsServer(System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SslStream.AuthenticateAsClientAsync(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SslStream.AuthenticateAsClientAsync(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SslStream.AuthenticateAsServerAsync(System.Security.Cryptography.X509Certificates.X509Certificate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.Security.SslStream.AuthenticateAsServerAsync(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Security.Authentication.SslProtocols,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.Security.SslStream.TransportContext">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Authentication.ExtendedProtection.ServiceNameCollection.Merge(System.Collections.IEnumerable)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="serviceNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Authentication.ExtendedProtection.ServiceNameCollection.Merge(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="serviceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.FixedSizeReader.ReadCallback(System.IAsyncResult)">
+    <parameter name="transportResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.FixedSizeReader.ReadPacket(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.FrameHeader.CopyFrom(System.Byte[],System.Int32,System.Net.FrameHeader)">
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="verifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.FrameHeader.CopyTo(System.Byte[],System.Int32)">
+    <parameter name="dest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.NTAuthentication.#ctor(System.Boolean,System.String,System.Net.NetworkCredential,System.String,System.Net.ContextFlags)">
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.NTAuthentication.#ctor(System.Boolean,System.String,System.Net.NetworkCredential,System.String,System.Net.ContextFlags,System.Net.ContextAwareResult)">
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.NTAuthentication.#ctor(System.String,System.Net.NetworkCredential,System.String,System.Net.WebRequest)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="networkCredential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.NTAuthentication.GetHttpContextFlags(System.Net.WebRequest)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.NTAuthentication.Initialize(System.Boolean,System.String,System.Net.NetworkCredential,System.String,System.Net.ContextFlags)">
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.NTAuthentication.InitializeCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.AuthenticatedStream.#ctor(System.IO.Stream,System.Boolean)">
+    <parameter name="innerStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegoState.#ctor(System.IO.Stream,System.Boolean)">
+    <parameter name="innerStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegoState.CheckCompletionBeforeNextSend(System.Byte[],System.Net.LazyAsyncResult)">
+    <parameter name="lazyResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegoState.EndProcessAuthentication(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegoState.ProcessAuthentication(System.Net.LazyAsyncResult)">
+    <parameter name="lazyResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegoState.ProcessReceivedBlob(System.Byte[],System.Net.LazyAsyncResult)">
+    <parameter name="lazyResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegoState.ReadCallback(System.IAsyncResult)">
+    <parameter name="transportResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegoState.StartSendAuthResetSignal(System.Net.LazyAsyncResult,System.Byte[],System.Exception)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="lazyResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegoState.StartSendBlob(System.Byte[],System.Net.LazyAsyncResult)">
+    <parameter name="lazyResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegoState.ValidateCreateContext(System.String,System.Boolean,System.Net.NetworkCredential,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel)">
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="servicePrincipalName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegoState.WriteCallback(System.IAsyncResult)">
+    <parameter name="transportResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.#ctor(System.IO.Stream)">
+    <parameter name="innerStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.#ctor(System.IO.Stream,System.Boolean)">
+    <parameter name="innerStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsClient(System.Net.NetworkCredential,System.String)">
+    <parameter name="targetName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsClient(System.Net.NetworkCredential,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel)">
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="targetName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsServer(System.Net.NetworkCredential,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel)">
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.EndAuthenticateAsClient(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.EndAuthenticateAsServer(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.ProcessRead(System.Byte[],System.Int32,System.Int32,System.Net.AsyncProtocolRequest)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.ProcessWrite(System.Byte[],System.Int32,System.Int32,System.Net.AsyncProtocolRequest)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.ReadCallback(System.Net.AsyncProtocolRequest)">
+    <parameter name="asyncRequest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.ValidateParameters(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.WriteCallback(System.IAsyncResult)">
+    <parameter name="transportResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslSessionsCache.CacheCredential(System.Net.SafeFreeCredentials,System.Byte[],System.Net.SchProtocols)">
+    <parameter name="creds">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.AsyncResumeHandshakeRead(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.CheckCompletionBeforeNextReceive(System.Net.Security.ProtocolToken,System.Net.AsyncProtocolRequest)">
+    <parameter name="asyncRequest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.CompleteRequestWaitCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.CompleteUserWaitCallback(System.Object)">
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.DetectFraming(System.Byte[],System.Int32)">
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.EndProcessAuthentication(System.IAsyncResult)">
+    <parameter name="result">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.ForceAuthentication(System.Boolean,System.Byte[],System.Net.AsyncProtocolRequest)">
+    <parameter name="asyncRequest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.GetRemainingFrameSize(System.Byte[],System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.InternalEndProcessAuthentication(System.Net.LazyAsyncResult)">
+    <parameter name="lazyResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.PartialFrameCallback(System.Net.AsyncProtocolRequest)">
+    <parameter name="asyncRequest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.ProcessReceivedBlob(System.Byte[],System.Int32,System.Net.AsyncProtocolRequest)">
+    <parameter name="asyncRequest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.ReadFrameCallback(System.Net.AsyncProtocolRequest)">
+    <parameter name="asyncRequest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.StartReadFrame(System.Byte[],System.Int32,System.Net.AsyncProtocolRequest)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.StartReceiveBlob(System.Byte[],System.Net.AsyncProtocolRequest)">
+    <parameter name="asyncRequest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.StartSendAuthResetSignal(System.Net.Security.ProtocolToken,System.Net.AsyncProtocolRequest,System.Exception)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="asyncRequest">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.ValidateCreateContext(System.Boolean,System.String,System.Security.Authentication.SslProtocols,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Boolean,System.Boolean)">
+    <parameter name="targetHost">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.ValidateCreateContext(System.Boolean,System.String,System.Security.Authentication.SslProtocols,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Boolean,System.Boolean,System.Boolean)">
+    <parameter name="targetHost">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslState.WriteCallback(System.IAsyncResult)">
+    <parameter name="transportResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslStream.#ctor(System.IO.Stream)">
+    <parameter name="innerStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslStream.#ctor(System.IO.Stream,System.Boolean)">
+    <parameter name="innerStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslStream.#ctor(System.IO.Stream,System.Boolean,System.Net.Security.RemoteCertificateValidationCallback)">
+    <parameter name="innerStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslStream.#ctor(System.IO.Stream,System.Boolean,System.Net.Security.RemoteCertificateValidationCallback,System.Net.Security.LocalCertificateSelectionCallback)">
+    <parameter name="innerStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslStream.AuthenticateAsClient(System.String)">
+    <parameter name="targetHost">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslStream.AuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean)">
+    <parameter name="targetHost">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslStream.EndAuthenticateAsClient(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslStream.EndAuthenticateAsServer(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslStream.Write(System.Byte[])">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SSPIHandleCache.CacheCredential(System.Net.SafeFreeCredentials)">
+    <parameter name="newHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.StreamFramer.#ctor(System.IO.Stream)">
+    <parameter name="Transport">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.StreamFramer.BeginWriteCallback(System.IAsyncResult)">
+    <parameter name="transportResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.StreamFramer.BeginWriteComplete(System.IAsyncResult)">
+    <parameter name="transportResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.StreamFramer.EndReadMessage(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.StreamFramer.EndWriteMessage(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.StreamFramer.ReadFrameCallback(System.IAsyncResult)">
+    <parameter name="transportResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.StreamFramer.ReadFrameComplete(System.IAsyncResult)">
+    <parameter name="transportResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.StreamFramer.WriteMessage(System.Byte[])">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Authentication.AuthenticationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Authentication.InvalidCredentialException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.NTAuthentication.#ctor(System.String,System.Net.NetworkCredential,System.String,System.Net.WebRequest,System.Security.Authentication.ExtendedProtection.ChannelBinding)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="networkCredential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsClient(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String)">
+    <parameter name="targetName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsClient(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel)">
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="targetName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.AuthenticateAsServer(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel)">
+    <parameter name="credential">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.NegotiateStream.Write(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslStream.#ctor(System.IO.Stream,System.Boolean,System.Net.Security.RemoteCertificateValidationCallback,System.Net.Security.LocalCertificateSelectionCallback,System.Net.Security.EncryptionPolicy)">
+    <parameter name="innerStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Security.SslStream.Write(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy.#ctor(System.Security.Authentication.ExtendedProtection.PolicyEnforcement,System.Security.Authentication.ExtendedProtection.ChannelBinding)">
+    <parameter name="customChannelBinding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Authentication.ExtendedProtection.ServiceNameCollection.#ctor(System.Collections.ICollection)">
+    <parameter name="items">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Authentication.ExtendedProtection.ServiceNameCollection.Contains(System.String)">
+    <parameter name="searchServiceName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+</assembly>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Net.ServicePoint">
+  <member name="P:System.Net.ServicePoint.Certificate">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.ServicePoint.ClientCertificate">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.ServicePoint.ConnectionLeaseTimerQueue">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.ServicePoint.FindConnectionGroup(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.ServicePoint.GetConnection(System.Net.PooledStream,System.Object,System.Boolean,System.Net.IPAddress@,System.Net.Sockets.Socket@,System.Net.Sockets.Socket@,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.ServicePoint.GetIPAddressInfoList(System.Int32@,System.Net.IPAddress[],System.Int32,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.ServicePoint.SetupHandshakeDoneProcedure(System.Net.TlsStream,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.ServicePointManager.FindServicePoint(System.Net.ProxyChain)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="chain">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePointManager.FindServicePoint(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePointManager.FindServicePoint(System.String,System.Net.IWebProxy)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="uriString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePointManager.FindServicePointHelper(System.Uri,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Net.ServicePoint.Address">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Net.ServicePoint.ProtocolVersion">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.ServicePointManager.FindServicePoint(System.Uri)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePointManager.FindServicePoint(System.Uri,System.Net.IWebProxy)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePoint.#ctor(System.String,System.Int32,System.Net.TimerThread.Queue,System.Int32,System.String,System.Boolean,System.Boolean)">
+    <parameter name="defaultIdlingQueue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePoint.#ctor(System.Uri,System.Net.TimerThread.Queue,System.Int32,System.String,System.Boolean,System.Boolean)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="defaultIdlingQueue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePoint.BindUsingDelegate(System.Net.Sockets.Socket,System.Net.IPEndPoint)">
+    <parameter name="socket">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="remoteIPEndPoint">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePoint.CompleteGetConnection(System.Net.Sockets.Socket,System.Net.Sockets.Socket,System.Net.Sockets.Socket,System.Net.IPAddress)">
+    <parameter name="finalSocket">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePoint.ConnectSocket(System.Net.Sockets.Socket,System.Net.Sockets.Socket,System.Net.Sockets.Socket@,System.Net.IPAddress@,System.Net.ServicePoint.ConnectSocketState,System.Int32,System.Exception@)">
+    <parameter name="s6">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="s4">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePoint.ConnectSocketCallback(System.IAsyncResult)">
+    <parameter name="asyncResult">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePoint.ConnectSocketInternal(System.Boolean,System.Net.Sockets.Socket,System.Net.Sockets.Socket,System.Net.Sockets.Socket@,System.Net.IPAddress@,System.Net.ServicePoint.ConnectSocketState,System.IAsyncResult,System.Int32,System.Exception@)">
+    <parameter name="s4">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="s6">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePoint.IsAddressListLoopback(System.Net.IPAddress[])">
+    <parameter name="addressList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePoint.ReleaseConnectionGroup(System.String)">
+    <parameter name="connName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePoint.SetAddressList(System.Net.IPHostEntry)">
+    <parameter name="ipHostEntry">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePoint.SubmitRequest(System.Net.HttpWebRequest)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePoint.SubmitRequest(System.Net.HttpWebRequest,System.String)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePointManager.IdleServicePointTimeoutCallback(System.Net.TimerThread.Timer,System.Int32,System.Object)">
+    <parameter name="context">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePointManager.MakeQueryString(System.Uri)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.ServicePointManager.MakeQueryString(System.Uri,System.Boolean)">
+    <parameter name="address1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Net.ServicePoint.ConnectionName">
+  </member>
+  <member name="M:System.Net.ServicePoint.CloseConnectionGroup(System.String)">
+    <parameter name="connectionGroupName">
+    </parameter>
+  </member>
+</assembly>

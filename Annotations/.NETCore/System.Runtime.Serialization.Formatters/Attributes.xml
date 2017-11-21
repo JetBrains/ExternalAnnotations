@@ -1,0 +1,1466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Runtime.Serialization.Formatters">
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="serializationStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(System.IO.Stream,System.Runtime.Remoting.Messaging.HeaderHandler)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="serializationStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.DeserializeMethodResponse(System.IO.Stream,System.Runtime.Remoting.Messaging.HeaderHandler,System.Runtime.Remoting.Messaging.IMethodCallMessage)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="serializationStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.UnsafeDeserialize(System.IO.Stream,System.Runtime.Remoting.Messaging.HeaderHandler)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="serializationStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.UnsafeDeserializeMethodResponse(System.IO.Stream,System.Runtime.Remoting.Messaging.HeaderHandler,System.Runtime.Remoting.Messaging.IMethodCallMessage)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="serializationStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Serialization.Formatter.Binder">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.Deserialize(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="serializationStream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Serialization.Formatter.SurrogateSelector">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.Convert(System.Object,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.Convert(System.Object,System.TypeCode)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToString(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo.GetAssembly">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.Converter.CreatePrimitiveArray(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectMap.Create(System.String,System.String[],System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[],System.Object[],System.Int32[],System.Runtime.Serialization.Formatters.Binary.ObjectReader,System.Int32,System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo,System.Runtime.Serialization.Formatters.Binary.SizedArray)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="memberNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="binaryTypeEnumA">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="typeInformationA">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="memberAssemIds">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="objectReader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="assemblyInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="assemIdToAssemblyTable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectMap.Create(System.String,System.Type,System.String[],System.Runtime.Serialization.Formatters.Binary.ObjectReader,System.Int32,System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="objectReader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="memberNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="objectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.CreateReadObjectInfo(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="objectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.CreateReadObjectInfo(System.Type,System.String[],System.Type[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Runtime.Serialization.Formatters.Binary.ObjectReader.ValueFixupStack">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.GetNameInfo">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.GetNext(System.Int64@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.MemberToNameInfo(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.StoreUserPropertiesForMethodMessage(System.Runtime.Remoting.Messaging.IMethodMessage)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.TypeToNameInfo(System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="objectInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.TypeToNameInfo(System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="objectInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.TypeToNameInfo(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.TypeToNameInfo(System.Type,System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo,System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE,System.Runtime.Serialization.Formatters.Binary.NameInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteMethodCall(System.Runtime.Remoting.Messaging.IMethodCallMessage)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="mcm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteMethodReturn(System.Runtime.Remoting.Messaging.IMethodReturnMessage)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="mrm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.Create(System.Type,System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ObjectManager,System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit,System.Runtime.Serialization.IFormatterConverter,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="objectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.Create(System.Type,System.String[],System.Type[],System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ObjectManager,System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit,System.Runtime.Serialization.IFormatterConverter,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.GetMemberType(System.Reflection.MemberInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="objMember">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.GetMemberTypes(System.String[],System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="inMemberNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.GetObjectInfo(System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.GetType(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.GetMemberType(System.Reflection.MemberInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="objMember">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.GetObjectInfo(System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="serObjectInfoInit">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.Serialize(System.Object,System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit,System.Runtime.Serialization.IFormatterConverter,System.Runtime.Serialization.Formatters.Binary.ObjectWriter)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="serObjectInfoInit">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="objectWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="converter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.Serialize(System.Type,System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit,System.Runtime.Serialization.IFormatterConverter)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="serObjectInfoInit">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="objectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="converter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.GetObjectData(System.Object,System.Reflection.MemberInfo[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="members">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.GetSerializableMembers(System.RuntimeType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.GetSurrogateForCyclicalReference(System.Runtime.Serialization.ISerializationSurrogate)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="innerSurrogate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.InternalGetSerializableMembers(System.RuntimeType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.PopulateObjectMembers(System.Object,System.Reflection.MemberInfo[],System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="members">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectHolderList.GetFixupEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.FindObjectHolder(System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.FindOrCreateObjectHolder(System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.GetConstructor(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.GetConstructor(System.Type,System.Type[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="ctorParams">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Serialization.ObjectManager.SpecialFixupObjects">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationBinder.BindToType(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationEvents.GetMethodsWithAttribute(System.Type,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="attribute">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationEventsCache.GetSerializationEventsForType(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.Serialize(System.Type,System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit,System.Runtime.Serialization.IFormatterConverter,System.Runtime.Serialization.SerializationBinder)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="serObjectInfoInit">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="objectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="converter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.Serialize(System.Object,System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit,System.Runtime.Serialization.IFormatterConverter,System.Runtime.Serialization.Formatters.Binary.ObjectWriter,System.Runtime.Serialization.SerializationBinder)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="serObjectInfoInit">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="objectWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="converter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.GetClrTypeFullNameForArray(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Serialization.SerializationFieldInfo.RemotingCache">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(System.IO.Stream,System.Object)">
+    <parameter name="serializationStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="graph">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(System.IO.Stream,System.Object,System.Runtime.Remoting.Messaging.Header[])">
+    <parameter name="serializationStream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.Serialize(System.IO.Stream,System.Object)">
+    <parameter name="graph">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="serializationStream">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToBoolean(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToByte(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToChar(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToDateTime(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToDecimal(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToDouble(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToInt16(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToInt32(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToInt64(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToSByte(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToSingle(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToUInt16(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToUInt32(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterConverter.ToUInt64(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryArray.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryArray.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryAssembly.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryAssembly.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryCrossAppDomainAssembly.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryCrossAppDomainAssembly.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryCrossAppDomainMap.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryCrossAppDomainMap.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryCrossAppDomainString.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryCrossAppDomainString.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryObject.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryObject.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryObjectString.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryObjectString.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMap.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMap.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMapTyped.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMapTyped.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.IntSizedArray.#ctor(System.Runtime.Serialization.Formatters.Binary.IntSizedArray)">
+    <parameter name="sizedArray">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveTyped.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveTyped.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveUnTyped.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveUnTyped.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.MemberReference.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.MemberReference.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.MessageEnd.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.MessageEnd.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.NameCache.GetCachedValue(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectMap.#ctor(System.String,System.String[],System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[],System.Object[],System.Int32[],System.Runtime.Serialization.Formatters.Binary.ObjectReader,System.Int32,System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo,System.Runtime.Serialization.Formatters.Binary.SizedArray)">
+    <parameter name="memberNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="binaryTypeEnumA">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="typeInformationA">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="memberAssemIds">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="objectReader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="assemblyInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="assemIdToAssemblyTable">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="objectName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectMap.#ctor(System.String,System.Type,System.String[],System.Runtime.Serialization.Formatters.Binary.ObjectReader,System.Int32,System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo)">
+    <parameter name="objectReader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="memberNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="objectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectNull.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectNull.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser,System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectNull.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.#ctor(System.IO.Stream,System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.Formatters.Binary.InternalFE,System.Runtime.Serialization.SerializationBinder)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.Bind(System.String,System.String)">
+    <parameter name="assemblyString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="typeString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.CheckSecurity(System.Runtime.Serialization.Formatters.Binary.ParseRecord)">
+    <parameter name="pr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.CheckSerializable(System.Type)">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(System.Runtime.Remoting.Messaging.HeaderHandler,System.Runtime.Serialization.Formatters.Binary.__BinaryParser,System.Boolean,System.Boolean,System.Runtime.Remoting.Messaging.IMethodCallMessage)">
+    <parameter name="serParser">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.FastBindToType(System.String,System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.GetType(System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo,System.String)">
+    <parameter name="assemblyInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.HasSurrogate(System.Type)">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.IndexTraceMessage(System.String,System.Int32[])">
+    <parameter name="index">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.NextRectangleMap(System.Runtime.Serialization.Formatters.Binary.ParseRecord)">
+    <parameter name="pr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.Parse(System.Runtime.Serialization.Formatters.Binary.ParseRecord)">
+    <parameter name="pr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.ParseArray(System.Runtime.Serialization.Formatters.Binary.ParseRecord)">
+    <parameter name="pr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.ParseArrayMember(System.Runtime.Serialization.Formatters.Binary.ParseRecord)">
+    <parameter name="pr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.ParseArrayMemberEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord)">
+    <parameter name="pr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.ParseError(System.Runtime.Serialization.Formatters.Binary.ParseRecord,System.Runtime.Serialization.Formatters.Binary.ParseRecord)">
+    <parameter name="processing">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="onStack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.ParseMember(System.Runtime.Serialization.Formatters.Binary.ParseRecord)">
+    <parameter name="pr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.ParseMemberEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord)">
+    <parameter name="pr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.ParseObject(System.Runtime.Serialization.Formatters.Binary.ParseRecord)">
+    <parameter name="pr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.ParseObjectEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord)">
+    <parameter name="pr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.ParseString(System.Runtime.Serialization.Formatters.Binary.ParseRecord,System.Runtime.Serialization.Formatters.Binary.ParseRecord)">
+    <parameter name="pr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.RegisterObject(System.Object,System.Runtime.Serialization.Formatters.Binary.ParseRecord,System.Runtime.Serialization.Formatters.Binary.ParseRecord)">
+    <parameter name="pr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.RegisterObject(System.Object,System.Runtime.Serialization.Formatters.Binary.ParseRecord,System.Runtime.Serialization.Formatters.Binary.ParseRecord,System.Boolean)">
+    <parameter name="pr">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.CheckForNull(System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Object)">
+    <parameter name="objectInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="memberNameInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="typeNameInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.GetAssemblyId(System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo)">
+    <parameter name="objectInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.GetType(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.IndexTraceMessage(System.String,System.Int32[])">
+    <parameter name="index">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.InternalGetId(System.Object,System.Boolean,System.Type,System.Boolean@)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Serialize(System.Object,System.Runtime.Remoting.Messaging.Header[],System.Runtime.Serialization.Formatters.Binary.__BinaryWriter,System.Boolean)">
+    <parameter name="graph">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="serWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Write(System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo)">
+    <parameter name="objectInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="memberNameInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="typeNameInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Write(System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo,System.String[],System.Type[],System.Object[],System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo[])">
+    <parameter name="objectInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="typeNameInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="memberNames">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="memberTypes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="memberData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="memberObjectInfos">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteArray(System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo)">
+    <parameter name="objectInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteArrayMember(System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Object)">
+    <parameter name="objectInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="arrayElemTypeNameInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteKnownValueClass(System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Object)">
+    <parameter name="memberNameInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="typeNameInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteMembers(System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Object,System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo)">
+    <parameter name="memberNameInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="memberTypeNameInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="memberData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="objectInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteMemberSetup(System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo,System.String,System.Type,System.Object,System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo)">
+    <parameter name="memberNameInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="objectInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="memberData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteObjectRef(System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Int64)">
+    <parameter name="nameInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteRectangle(System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo,System.Int32,System.Int32[],System.Array,System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Int32[])">
+    <parameter name="objectInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="maxA">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="arrayElemNameTypeInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteString(System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Runtime.Serialization.Formatters.Binary.NameInfo,System.Object)">
+    <parameter name="memberNameInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="typeNameInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="stringObject">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.PrimitiveArray.SetValue(System.String,System.Int32)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.AddValue(System.String,System.Object,System.Runtime.Serialization.SerializationInfo@,System.Object[]@)">
+    <parameter name="si">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="memberData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.DumpPopulate(System.Reflection.MemberInfo[],System.Object[])">
+    <parameter name="memberInfos">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.Init(System.Type,System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ObjectManager,System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit,System.Runtime.Serialization.IFormatterConverter,System.Boolean)">
+    <parameter name="objectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.InitReadConstructor(System.Type,System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="objectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.PopulateObjectMembers(System.Object,System.Object[])">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.RecordFixup(System.Int64,System.String,System.Int64)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.SerializationHeaderRecord.GetInt32(System.Byte[],System.Int32)">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.SerializationHeaderRecord.Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.SerializationHeaderRecord.Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter)">
+    <parameter name="sout">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.SizedArray.#ctor(System.Runtime.Serialization.Formatters.Binary.SizedArray)">
+    <parameter name="sizedArray">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ValueFixup.Fixup(System.Runtime.Serialization.Formatters.Binary.ParseRecord,System.Runtime.Serialization.Formatters.Binary.ParseRecord)">
+    <parameter name="record">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="parent">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(System.Object,System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit,System.Runtime.Serialization.IFormatterConverter,System.Runtime.Serialization.Formatters.Binary.ObjectWriter)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="objectWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="converter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(System.Type,System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit,System.Runtime.Serialization.IFormatterConverter)">
+    <parameter name="objectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="converter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.PutObjectInfo(System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit,System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo)">
+    <parameter name="serObjectInfoInit">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.CheckSerializable(System.RuntimeType)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.CheckTypeSecurity(System.Type,System.Runtime.Serialization.Formatters.TypeFilterLevel)">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.GetParentTypes(System.Type,System.Type[]@,System.Int32@)">
+    <parameter name="parentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.GetSafeUninitializedObject(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.GetSerializableMembers(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.GetSerializableMembers(System.Type,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.GetTypeFromAssembly(System.Reflection.Assembly,System.String)">
+    <parameter name="assem">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.GetUninitializedObject(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.LoadAssemblyFromString(System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.LoadAssemblyFromStringNoThrow(System.String)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.SerializationSetValue(System.Reflection.MemberInfo,System.Object,System.Object)">
+    <parameter name="fi">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="target">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectHolder.AddFixup(System.Runtime.Serialization.FixupHolder,System.Runtime.Serialization.ObjectManager)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectHolder.DecrementFixupsRemaining(System.Runtime.Serialization.ObjectManager)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectHolder.SetObjectValue(System.Object,System.Runtime.Serialization.ObjectManager)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectHolder.UpdateData(System.Object,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.ISerializationSurrogate,System.Int64,System.Reflection.FieldInfo,System.Int32[],System.Runtime.Serialization.ObjectManager)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectHolder.UpdateDescendentDependencyChain(System.Int32,System.Runtime.Serialization.ObjectManager)">
+    <parameter name="manager">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectHolderListEnumerator.#ctor(System.Runtime.Serialization.ObjectHolderList,System.Boolean)">
+    <parameter name="list">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectIDGenerator.GetId(System.Object,System.Boolean@)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectIDGenerator.HasId(System.Object,System.Boolean@)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.AddObjectHolder(System.Runtime.Serialization.ObjectHolder)">
+    <parameter name="holder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.AddOnDeserialized(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.CompleteISerializableObject(System.Object,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.CompleteObject(System.Runtime.Serialization.ObjectHolder,System.Boolean)">
+    <parameter name="holder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.DoNewlyRegisteredObjectFixups(System.Runtime.Serialization.ObjectHolder)">
+    <parameter name="holder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.DoValueTypeFixup(System.Reflection.FieldInfo,System.Runtime.Serialization.ObjectHolder,System.Object)">
+    <parameter name="holder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.DumpValueTypeFixup(System.Object,System.Reflection.FieldInfo[],System.Reflection.FieldInfo,System.Object)">
+    <parameter name="memberToFix">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.FixupSpecialObject(System.Runtime.Serialization.ObjectHolder)">
+    <parameter name="holder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.GetCompletionInfo(System.Runtime.Serialization.FixupHolder,System.Runtime.Serialization.ObjectHolder@,System.Object@,System.Boolean)">
+    <parameter name="fixup">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.RaiseOnDeserializedEvent(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.RaiseOnDeserializingEvent(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.RecordArrayElementFixup(System.Int64,System.Int32[],System.Int64)">
+    <parameter name="indices">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.RecordDelayedFixup(System.Int64,System.String,System.Int64)">
+    <parameter name="memberName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.RecordFixup(System.Int64,System.Reflection.MemberInfo,System.Int64)">
+    <parameter name="member">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.RegisterFixup(System.Runtime.Serialization.FixupHolder,System.Int64,System.Int64)">
+    <parameter name="fixup">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.RegisterObject(System.Object,System.Int64)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.RegisterObject(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.RegisterObject(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo,System.Int64,System.Reflection.MemberInfo)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.RegisterObject(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo,System.Int64,System.Reflection.MemberInfo,System.Int32[])">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.ResolveObjectReference(System.Runtime.Serialization.ObjectHolder)">
+    <parameter name="holder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationFieldInfo.#ctor(System.Reflection.RuntimeFieldInfo,System.String)">
+    <parameter name="field">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationFieldInfo.GetValue(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationFieldInfo.InternalGetValue(System.Object,System.Boolean)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationFieldInfo.InternalSetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Globalization.CultureInfo,System.Boolean,System.Boolean)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="culture">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationFieldInfo.SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Globalization.CultureInfo)">
+    <parameter name="culture">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationObjectManager.AddOnSerialized(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationObjectManager.RegisterObject(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SurrogateForCyclicalReference.#ctor(System.Runtime.Serialization.ISerializationSurrogate)">
+    <parameter name="innerSurrogate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SurrogateForCyclicalReference.GetObjectData(System.Object,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SurrogateSelector.AddSurrogate(System.Type,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISerializationSurrogate)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="surrogate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SurrogateSelector.ChainSelector(System.Runtime.Serialization.ISurrogateSelector)">
+    <parameter name="selector">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SurrogateSelector.GetSurrogate(System.Type,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector@)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SurrogateSelector.RemoveSurrogate(System.Type,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.GetTypeInformation(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.ResolveSimpleAssemblyName(System.Reflection.AssemblyName)">
+    <parameter name="assemblyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache.#ctor(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(System.Type,System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit,System.Runtime.Serialization.IFormatterConverter,System.Runtime.Serialization.SerializationBinder)">
+    <parameter name="objectType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="converter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(System.Object,System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit,System.Runtime.Serialization.IFormatterConverter,System.Runtime.Serialization.Formatters.Binary.ObjectWriter,System.Runtime.Serialization.SerializationBinder)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="objectWriter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="converter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.GetClrTypeFullName(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.GetClrAssemblyName(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.GetClrTypeFullNameForNonArrayTypes(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.FormatterServices.GetParentTypes(System.RuntimeType,System.RuntimeType[]@,System.Int32@)">
+    <parameter name="parentType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.GetConstructor(System.RuntimeType,System.RuntimeType[])">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="ctorParams">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.TryGetConstructor(System.RuntimeType,System.RuntimeType[],System.Reflection.RuntimeConstructorInfo@)">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="ctorParams">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatters.Binary.ObjectReader.GetSimplyNamedTypeFromAssembly(System.Reflection.Assembly,System.String,System.Type@)">
+    <parameter name="assm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.GetConstructor(System.RuntimeType)">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.ObjectManager.TryGetConstructor(System.RuntimeType,System.Reflection.RuntimeConstructorInfo@)">
+    <parameter name="t">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Serialization.Formatters.IFieldInfo.FieldNames">
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteArray(System.Object,System.String,System.Type)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteBoolean(System.Boolean,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteByte(System.Byte,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteChar(System.Char,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteDateTime(System.DateTime,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteDecimal(System.Decimal,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteDouble(System.Double,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteInt16(System.Int16,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteInt32(System.Int32,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteInt64(System.Int64,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteMember(System.String,System.Object)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteObjectRef(System.Object,System.String,System.Type)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteSByte(System.SByte,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteSingle(System.Single,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteTimeSpan(System.TimeSpan,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteUInt16(System.UInt16,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteUInt32(System.UInt32,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteUInt64(System.UInt64,System.String)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.Formatter.WriteValueType(System.Object,System.String,System.Type)">
+    <parameter name="name">
+    </parameter>
+  </member>
+</assembly>

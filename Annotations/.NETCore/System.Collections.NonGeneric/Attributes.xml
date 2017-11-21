@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Collections.NonGeneric">
+  <member name="M:System.Collections.Specialized.CollectionsUtil.CreateCaseInsensitiveHashtable">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.Specialized.CollectionsUtil.CreateCaseInsensitiveHashtable(System.Collections.IDictionary)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="d">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Specialized.CollectionsUtil.CreateCaseInsensitiveHashtable(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.Specialized.CollectionsUtil.CreateCaseInsensitiveSortedList">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.SortedList.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.SortedList.Synchronized(System.Collections.SortedList)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="list">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Collections.CaseInsensitiveComparer.Default">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.CaseInsensitiveHashCodeProvider.Default">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.CollectionBase.InnerList">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.CollectionBase.List">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.DictionaryBase.Dictionary">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.DictionaryBase.InnerHashtable">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.Queue.QueueDebugView.Items">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.Queue.QueueEnumerator.Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.Queue.Synchronized(System.Collections.Queue)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="queue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Queue.ToArray">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.ReadOnlyCollectionBase.InnerList">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.SortedList.GetKeyList">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.SortedList.GetValueList">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.SortedList.SortedListDebugView.Items">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.SortedList.SortedListEnumerator.Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.SortedList.SortedListEnumerator.Key">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.SortedList.SortedListEnumerator.Value">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.SortedList.ToKeyValuePairsArray">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.Stack.StackDebugView.Items">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.Stack.StackEnumerator.Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.Stack.Synchronized(System.Collections.Stack)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="stack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Stack.ToArray">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.SortedList.#ctor(System.Collections.IDictionary,System.Collections.IComparer)">
+    <parameter name="d">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.Add(System.Object,System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.IndexOfKey(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Collections.SortedList.Item(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.CaseInsensitiveComparer.#ctor(System.Globalization.CultureInfo)">
+    <parameter name="culture">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.CaseInsensitiveHashCodeProvider.#ctor(System.Globalization.CultureInfo)">
+    <parameter name="culture">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.CaseInsensitiveHashCodeProvider.GetHashCode(System.Object)">
+    <parameter name="obj">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.CollectionBase.OnValidate(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.CollectionBase.System#Collections#ICollection#CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.CollectionBase.System#Collections#IList#Add(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.CollectionBase.System#Collections#IList#Contains(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.CollectionBase.System#Collections#IList#IndexOf(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.CollectionBase.System#Collections#IList#Insert(System.Int32,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.CollectionBase.System#Collections#IList#Remove(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Queue.#ctor(System.Collections.ICollection)">
+    <parameter name="col">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Queue.QueueDebugView.#ctor(System.Collections.Queue)">
+    <parameter name="queue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Queue.QueueEnumerator.#ctor(System.Collections.Queue)">
+    <parameter name="q">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Queue.SynchronizedQueue.#ctor(System.Collections.Queue)">
+    <parameter name="q">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.ReadOnlyCollectionBase.System#Collections#ICollection#CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.#ctor(System.Collections.IDictionary)">
+    <parameter name="d">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.ContainsKey(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.KeyList.Add(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.KeyList.Contains(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.KeyList.CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.KeyList.IndexOf(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.KeyList.Insert(System.Int32,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.KeyList.Remove(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.SortedListDebugView.#ctor(System.Collections.SortedList)">
+    <parameter name="sortedList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.SortedListEnumerator.#ctor(System.Collections.SortedList,System.Int32,System.Int32,System.Int32)">
+    <parameter name="sortedList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.SyncSortedList.#ctor(System.Collections.SortedList)">
+    <parameter name="list">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.ValueList.Add(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.ValueList.Contains(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.ValueList.CopyTo(System.Array,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.ValueList.IndexOf(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.ValueList.Insert(System.Int32,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.ValueList.Remove(System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Stack.#ctor(System.Collections.ICollection)">
+    <parameter name="col">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Stack.StackDebugView.#ctor(System.Collections.Stack)">
+    <parameter name="stack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Stack.StackEnumerator.#ctor(System.Collections.Stack)">
+    <parameter name="stack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Stack.SyncStack.#ctor(System.Collections.Stack)">
+    <parameter name="stack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.CaseInsensitiveComparer.Compare(System.Object,System.Object)">
+    <parameter name="b">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="a">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.get_Item(System.Object)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.SortedList.IndexOfValue(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.SortedList.GetKey(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.SortedList.GetByIndex(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.SortedList.ContainsValue(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.SortedList.Contains(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  </member>
+</assembly>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.ComponentModel.EventBasedAsync">
+  <member name="M:System.ComponentModel.AsyncOperation.CreateOperation(System.Object,System.Threading.SynchronizationContext)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="syncContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.AsyncOperationManager.CreateOperation(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.ComponentModel.AsyncOperation.#ctor(System.Object,System.Threading.SynchronizationContext)">
+    <parameter name="syncContext">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.AsyncOperation.Post(System.Threading.SendOrPostCallback,System.Object)">
+    <parameter name="d">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.AsyncOperation.PostOperationCompleted(System.Threading.SendOrPostCallback,System.Object)">
+    <parameter name="d">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.ComponentModel.AsyncOperation.VerifyDelegateNotNull(System.Threading.SendOrPostCallback)">
+    <parameter name="d">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+</assembly>
