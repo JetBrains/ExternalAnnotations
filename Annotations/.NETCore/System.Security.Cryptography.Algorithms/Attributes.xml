@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Security.Cryptography.Algorithms">
+  <member name="M:System.Security.Cryptography.AesManaged.CreateDecryptor(System.Byte[],System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="iv">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.AesManaged.CreateEncryptor(System.Byte[],System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="iv">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.ECDiffieHellmanPublicKey.ToByteArray">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.ECDiffieHellmanPublicKey.ToXmlString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.ECDsa.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.ECDsa.SignatureAlgorithm">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.ECDsa.SignHash(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.ECDsa.Create">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Aes.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="algorithmName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.ECDiffieHellmanPublicKey.#ctor(System.Byte[])">
+    <parameter name="keyBlob">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.ECDsa.VerifyHash(System.Byte[],System.Byte[])">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="signature">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.AsymmetricKeyExchangeFormatter.Parameters">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptoConfig.EncodeOID(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="str">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptoConfig.EncodeSingleOIDNum(System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.DeriveBytes.GetBytes(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.MaskGenerationMethod.GenerateMask(System.Byte[],System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="rgbSeed">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.MD5.Create(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="algName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Rfc2898DeriveBytes.Func">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Cryptography.Rfc2898DeriveBytes.Salt">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.RijndaelManaged.NewEncryptor(System.Byte[],System.Security.Cryptography.CipherMode,System.Byte[],System.Int32,System.Security.Cryptography.RijndaelManagedTransformMode)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="rgbIV">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.RSAPKCS1KeyExchangeFormatter.Parameters">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA1Managed._EndHash">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA1Managed.HashFinal">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA256Managed._EndHash">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA256Managed.HashFinal">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA384Managed._EndHash">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA384Managed.HashFinal">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA512Managed._EndHash">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA512Managed.HashFinal">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.SignatureDescription.CreateDeformatter(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SignatureDescription.CreateFormatter(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptoConfig.InitializeOidMappings(System.ConfigNode)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="oidMappingNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptoConfig.InitializeNameMappings(System.ConfigNode)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="nameMappingNode">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptoConfig.OpenCryptoConfig">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.Aes.Create">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.MD5.Create">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Cryptography.AsymmetricKeyExchangeDeformatter.DecryptKeyExchange(System.Byte[])">
+    <parameter name="rgb">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.AsymmetricKeyExchangeDeformatter.SetKey(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.AsymmetricKeyExchangeFormatter.CreateKeyExchange(System.Byte[])">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.AsymmetricKeyExchangeFormatter.CreateKeyExchange(System.Byte[],System.Type)">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.AsymmetricKeyExchangeFormatter.SetKey(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.AsymmetricSignatureDeformatter.SetHashAlgorithm(System.String)">
+    <parameter name="strName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.AsymmetricSignatureDeformatter.SetKey(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.AsymmetricSignatureDeformatter.VerifySignature(System.Byte[],System.Byte[])">
+    <parameter name="rgbSignature">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="rgbHash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.AsymmetricSignatureDeformatter.VerifySignature(System.Security.Cryptography.HashAlgorithm,System.Byte[])">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="rgbSignature">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.AsymmetricSignatureFormatter.CreateSignature(System.Byte[])">
+    <parameter name="rgbHash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.AsymmetricSignatureFormatter.CreateSignature(System.Security.Cryptography.HashAlgorithm)">
+    <parameter name="hash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.AsymmetricSignatureFormatter.SetHashAlgorithm(System.String)">
+    <parameter name="strName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.AsymmetricSignatureFormatter.SetKey(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptoConfig.CreateFromName(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptoConfig.CreateFromName(System.String,System.Object[])">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptoConfig.MapNameToOID(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.DES.Create(System.String)">
+    <parameter name="algName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.DES.IsSemiWeakKey(System.Byte[])">
+    <parameter name="rgbKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.DES.IsWeakKey(System.Byte[])">
+    <parameter name="rgbKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.DES.QuadWordFromBigEndian(System.Byte[])">
+    <parameter name="block">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.DSA.Create(System.String)">
+    <parameter name="algName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.DSA.CreateSignature(System.Byte[])">
+    <parameter name="rgbHash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.DSA.VerifySignature(System.Byte[],System.Byte[])">
+    <parameter name="rgbSignature">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="rgbHash">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.DSASignatureDeformatter.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.DSASignatureFormatter.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.HMACMD5.#ctor(System.Byte[])">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.HMACSHA1.#ctor(System.Byte[])">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.HMACSHA1.#ctor(System.Byte[],System.Boolean)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.HMACSHA256.#ctor(System.Byte[])">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.HMACSHA384.#ctor(System.Byte[])">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.HMACSHA512.#ctor(System.Byte[])">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RandomNumberGenerator.Create(System.String)">
+    <parameter name="rngName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RandomNumberGenerator.GetBytes(System.Byte[])">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RandomNumberGenerator.GetNonZeroBytes(System.Byte[])">
+    <parameter name="data">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RC2.Create(System.String)">
+    <parameter name="AlgName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Rfc2898DeriveBytes.#ctor(System.Byte[],System.Byte[],System.Int32)">
+    <parameter name="password">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="salt">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Rfc2898DeriveBytes.#ctor(System.String,System.Byte[])">
+    <parameter name="salt">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="password">
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Rfc2898DeriveBytes.#ctor(System.String,System.Byte[],System.Int32)">
+    <parameter name="salt">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="password">
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Rijndael.Create(System.String)">
+    <parameter name="algName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RijndaelManaged.CreateDecryptor(System.Byte[],System.Byte[])">
+    <parameter name="rgbKey">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RijndaelManaged.CreateEncryptor(System.Byte[],System.Byte[])">
+    <parameter name="rgbKey">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RSA.Create(System.String)">
+    <parameter name="algName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RSAPKCS1KeyExchangeDeformatter.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RSAPKCS1KeyExchangeFormatter.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RSAPKCS1SignatureDeformatter.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RSAPKCS1SignatureFormatter.#ctor(System.Security.Cryptography.AsymmetricAlgorithm)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA1.Create(System.String)">
+    <parameter name="hashName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA1Managed.HashCore(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="rgb">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA1Managed.SHAExpand(System.UInt32*)">
+    <parameter name="x">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA1Managed.SHATransform(System.UInt32*,System.UInt32*,System.Byte*)">
+    <parameter name="expandedBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="block">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA256.Create(System.String)">
+    <parameter name="hashName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA256Managed.HashCore(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="rgb">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA256Managed.SHA256Expand(System.UInt32*)">
+    <parameter name="x">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA256Managed.SHATransform(System.UInt32*,System.UInt32*,System.Byte*)">
+    <parameter name="expandedBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="block">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA384.Create(System.String)">
+    <parameter name="hashName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA384Managed.HashCore(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="rgb">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA384Managed.SHA384Expand(System.UInt64*)">
+    <parameter name="x">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA384Managed.SHATransform(System.UInt64*,System.UInt64*,System.Byte*)">
+    <parameter name="expandedBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="block">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA512.Create(System.String)">
+    <parameter name="hashName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA512Managed.HashCore(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="rgb">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA512Managed.SHA512Expand(System.UInt64*)">
+    <parameter name="x">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SHA512Managed.SHATransform(System.UInt64*,System.UInt64*,System.Byte*)">
+    <parameter name="expandedBuffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="state">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="block">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.SignatureDescription.#ctor(System.Security.SecurityElement)">
+    <parameter name="el">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.TripleDES.Create(System.String)">
+    <parameter name="str">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.TripleDES.EqualBytes(System.Byte[],System.Int32,System.Int32,System.Int32)">
+    <parameter name="rgbKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.TripleDES.IsWeakKey(System.Byte[])">
+    <parameter name="rgbKey">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptoConfig.AddOID(System.String,System.String[])">
+    <parameter name="oid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="names">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.CryptoConfig.AddAlgorithm(System.Type,System.String[])">
+    <parameter name="algorithm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="names">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Cryptography.PKCS1MaskGenerationMethod.HashName">
+  </member>
+  <member name="P:System.Security.Cryptography.SignatureDescription.DeformatterAlgorithm">
+  </member>
+  <member name="P:System.Security.Cryptography.SignatureDescription.DigestAlgorithm">
+  </member>
+  <member name="P:System.Security.Cryptography.SignatureDescription.FormatterAlgorithm">
+  </member>
+  <member name="P:System.Security.Cryptography.SignatureDescription.KeyAlgorithm">
+  </member>
+  <member name="M:System.Security.Cryptography.DSA.FromXmlString(System.String)">
+    <parameter name="xmlString">
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.DSASignatureDeformatter.SetHashAlgorithm(System.String)">
+    <parameter name="strName">
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.DSASignatureFormatter.SetHashAlgorithm(System.String)">
+    <parameter name="strName">
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Rfc2898DeriveBytes.#ctor(System.String,System.Int32,System.Int32)">
+    <parameter name="password">
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.Rfc2898DeriveBytes.#ctor(System.String,System.Int32)">
+    <parameter name="password">
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RSA.FromXmlString(System.String)">
+    <parameter name="xmlString">
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RSAPKCS1SignatureDeformatter.SetHashAlgorithm(System.String)">
+    <parameter name="strName">
+    </parameter>
+  </member>
+  <member name="M:System.Security.Cryptography.RSAPKCS1SignatureFormatter.SetHashAlgorithm(System.String)">
+    <parameter name="strName">
+    </parameter>
+  </member>
+</assembly>

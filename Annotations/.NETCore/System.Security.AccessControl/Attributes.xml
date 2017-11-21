@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Security.AccessControl">
+  <member name="P:System.Security.AccessControl.AceEnumerator.Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.AccessControl.AceEnumerator.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.AccessControl.AuthorizationRuleCollection.Item(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.GetAccessRules(System.Boolean,System.Boolean,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.GetAuditRules(System.Boolean,System.Boolean,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.GetRules(System.Boolean,System.Boolean,System.Boolean,System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.DiscretionaryAcl.CreateAllowEveryoneFullAccess(System.Boolean,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.AccessControl.GenericAce.Copy">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.AccessControl.GenericAce.CreateFromBinaryForm(System.Byte[],System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.GenericAcl.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.AccessControl.GenericAcl.SyncRoot">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.AccessControl.NativeObjectSecurity.CreateInternal(System.Security.AccessControl.ResourceType,System.Boolean,System.String,System.Runtime.InteropServices.SafeHandle,System.Security.AccessControl.AccessControlSections,System.Boolean,System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.AccessControl.ObjectSecurity.AccessRightType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.AccessRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="identityReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.AccessControl.ObjectSecurity.AccessRuleType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="identityReference">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.AccessControl.ObjectSecurity.AuditRuleType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.GetSecurityDescriptorBinaryForm">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.AccessControl.RawSecurityDescriptor.BinaryFormFromSddlForm(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="sddlForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AccessRule.#ctor(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AceEnumerator.#ctor(System.Security.AccessControl.GenericAcl)">
+    <parameter name="collection">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AuditRule.#ctor(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AuthorizationRule.#ctor(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AuthorizationRuleCollection.CopyTo(System.Security.AccessControl.AuthorizationRule[],System.Int32)">
+    <parameter name="rules">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAce.#ctor(System.Security.AccessControl.AceFlags,System.Security.AccessControl.AceQualifier,System.Int32,System.Security.Principal.SecurityIdentifier,System.Boolean,System.Byte[])">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAce.ParseBinaryForm(System.Byte[],System.Int32,System.Security.AccessControl.AceQualifier@,System.Int32@,System.Security.Principal.SecurityIdentifier@,System.Boolean@,System.Byte[]@)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAcl.#ctor(System.Boolean,System.Boolean,System.Security.AccessControl.RawAcl,System.Boolean,System.Boolean)">
+    <parameter name="rawAcl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAcl.AccessMasksAreMergeable(System.Security.AccessControl.QualifiedAce,System.Security.AccessControl.QualifiedAce)">
+    <parameter name="newAce">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAcl.AddQualifiedAce(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.AceQualifier,System.Int32,System.Security.AccessControl.AceFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAcl.CompareAces(System.Security.AccessControl.GenericAce,System.Security.AccessControl.GenericAce,System.Boolean)">
+    <parameter name="ace1">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="ace2">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAcl.DaclAcePriority(System.Security.AccessControl.GenericAce)">
+    <parameter name="ace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAcl.GetAccessMaskForRemoval(System.Security.AccessControl.QualifiedAce,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Int32@)">
+    <parameter name="ace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAcl.GetInheritanceFlagsForRemoval(System.Security.AccessControl.QualifiedAce,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Security.AccessControl.AceFlags@)">
+    <parameter name="ace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAcl.GetObjectTypesForSplit(System.Security.AccessControl.ObjectAce,System.Int32,System.Security.AccessControl.AceFlags,System.Security.AccessControl.ObjectAceFlags@,System.Guid@,System.Guid@)">
+    <parameter name="originalAce">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAcl.InspectAce(System.Security.AccessControl.GenericAce@,System.Boolean)">
+    <parameter name="ace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAcl.MergeAces(System.Security.AccessControl.QualifiedAce@,System.Security.AccessControl.QualifiedAce)">
+    <parameter name="ace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="newAce">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAcl.Purge(System.Security.Principal.SecurityIdentifier)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAcl.RemoveQualifiedAcesSpecific(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.AceQualifier,System.Int32,System.Security.AccessControl.AceFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAcl.SaclAcePriority(System.Security.AccessControl.GenericAce)">
+    <parameter name="ace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonAcl.SetQualifiedAce(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.AceQualifier,System.Int32,System.Security.AccessControl.AceFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.#ctor(System.Security.AccessControl.CommonSecurityDescriptor)">
+    <parameter name="securityDescriptor">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.AddAccessRule(System.Security.AccessControl.AccessRule)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.AddAuditRule(System.Security.AccessControl.AuditRule)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRule(System.Security.AccessControl.AccessRule)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRuleAll(System.Security.AccessControl.AccessRule)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRuleSpecific(System.Security.AccessControl.AccessRule)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRule(System.Security.AccessControl.AuditRule)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRuleAll(System.Security.AccessControl.AuditRule)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRuleSpecific(System.Security.AccessControl.AuditRule)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.ResetAccessRule(System.Security.AccessControl.AccessRule)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.SetAccessRule(System.Security.AccessControl.AccessRule)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonObjectSecurity.SetAuditRule(System.Security.AccessControl.AuditRule)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonSecurityDescriptor.#ctor(System.Boolean,System.Boolean,System.Byte[],System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonSecurityDescriptor.#ctor(System.Boolean,System.Boolean,System.Security.AccessControl.RawSecurityDescriptor)">
+    <parameter name="rawSecurityDescriptor">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonSecurityDescriptor.#ctor(System.Boolean,System.Boolean,System.Security.AccessControl.RawSecurityDescriptor,System.Boolean)">
+    <parameter name="rawSecurityDescriptor">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonSecurityDescriptor.#ctor(System.Boolean,System.Boolean,System.String)">
+    <parameter name="sddlForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonSecurityDescriptor.PurgeAccessControl(System.Security.Principal.SecurityIdentifier)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CommonSecurityDescriptor.PurgeAudit(System.Security.Principal.SecurityIdentifier)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CompoundAce.#ctor(System.Security.AccessControl.AceFlags,System.Int32,System.Security.AccessControl.CompoundAceType,System.Security.Principal.SecurityIdentifier)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.CompoundAce.ParseBinaryForm(System.Byte[],System.Int32,System.Int32@,System.Security.AccessControl.CompoundAceType@,System.Security.Principal.SecurityIdentifier@)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.DiscretionaryAcl.AddAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.DiscretionaryAcl.AddAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.DiscretionaryAcl.RemoveAccessSpecific(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.DiscretionaryAcl.RemoveAccessSpecific(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.DiscretionaryAcl.SetAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.DiscretionaryAcl.SetAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.GenericAce.GetBinaryForm(System.Byte[],System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.GenericAce.MarshalHeader(System.Byte[],System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.GenericAce.VerifyHeader(System.Byte[],System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.GenericAcl.CopyTo(System.Security.AccessControl.GenericAce[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.GenericAcl.GetBinaryForm(System.Byte[],System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.GenericSecurityDescriptor.GetBinaryForm(System.Byte[],System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.GenericSecurityDescriptor.MarshalInt(System.Byte[],System.Int32,System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.GenericSecurityDescriptor.UnmarshalInt(System.Byte[],System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.KnownAce.#ctor(System.Security.AccessControl.AceType,System.Security.AccessControl.AceFlags,System.Int32,System.Security.Principal.SecurityIdentifier)">
+    <parameter name="securityIdentifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.NativeObjectSecurity.#ctor(System.Security.AccessControl.ResourceType,System.Security.AccessControl.CommonSecurityDescriptor)">
+    <parameter name="securityDescriptor">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.NativeObjectSecurity.#ctor(System.Security.AccessControl.ResourceType,System.Security.AccessControl.CommonSecurityDescriptor,System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode)">
+    <parameter name="securityDescriptor">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.NativeObjectSecurity.Persist(System.Runtime.InteropServices.SafeHandle,System.Security.AccessControl.AccessControlSections,System.Object)">
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.NativeObjectSecurity.Persist(System.String,System.Security.AccessControl.AccessControlSections,System.Object)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectAccessRule.#ctor(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Guid,System.Guid,System.Security.AccessControl.AccessControlType)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectAce.#ctor(System.Security.AccessControl.AceFlags,System.Security.AccessControl.AceQualifier,System.Int32,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid,System.Boolean,System.Byte[])">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectAce.ParseBinaryForm(System.Byte[],System.Int32,System.Security.AccessControl.AceQualifier@,System.Int32@,System.Security.Principal.SecurityIdentifier@,System.Security.AccessControl.ObjectAceFlags@,System.Guid@,System.Guid@,System.Boolean@,System.Byte[]@)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectAuditRule.#ctor(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Guid,System.Guid,System.Security.AccessControl.AuditFlags)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.#ctor(System.Security.AccessControl.CommonSecurityDescriptor)">
+    <parameter name="securityDescriptor">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.GetGroup(System.Type)">
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.GetOwner(System.Type)">
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.ModifyAccess(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AccessRule,System.Boolean@)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.ModifyAccessRule(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AccessRule,System.Boolean@)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.ModifyAudit(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AuditRule,System.Boolean@)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.ModifyAuditRule(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AuditRule,System.Boolean@)">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.Persist(System.Boolean,System.String,System.Security.AccessControl.AccessControlSections)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.Persist(System.Runtime.InteropServices.SafeHandle,System.Security.AccessControl.AccessControlSections)">
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.Persist(System.String,System.Security.AccessControl.AccessControlSections)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.PurgeAccessRules(System.Security.Principal.IdentityReference)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.PurgeAuditRules(System.Security.Principal.IdentityReference)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.SetGroup(System.Security.Principal.IdentityReference)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.SetOwner(System.Security.Principal.IdentityReference)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.SetSecurityDescriptorBinaryForm(System.Byte[])">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.SetSecurityDescriptorBinaryForm(System.Byte[],System.Security.AccessControl.AccessControlSections)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.SetSecurityDescriptorSddlForm(System.String)">
+    <parameter name="sddlForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.SetSecurityDescriptorSddlForm(System.String,System.Security.AccessControl.AccessControlSections)">
+    <parameter name="sddlForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity.UpdateWithNewSecurityDescriptor(System.Security.AccessControl.RawSecurityDescriptor,System.Security.AccessControl.AccessControlSections)">
+    <parameter name="newOne">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.PrivilegeNotHeldException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.QualifiedAce.#ctor(System.Security.AccessControl.AceType,System.Security.AccessControl.AceFlags,System.Int32,System.Security.Principal.SecurityIdentifier,System.Byte[])">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.RawAcl.#ctor(System.Byte[],System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.RawAcl.InsertAce(System.Int32,System.Security.AccessControl.GenericAce)">
+    <parameter name="ace">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.RawAcl.MarshalHeader(System.Byte[],System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.RawAcl.SetBinaryForm(System.Byte[],System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.RawAcl.VerifyHeader(System.Byte[],System.Int32,System.Byte@,System.Int32@,System.Int32@)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.RawSecurityDescriptor.#ctor(System.Byte[],System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.RawSecurityDescriptor.#ctor(System.String)">
+    <parameter name="sddlForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.SystemAcl.#ctor(System.Boolean,System.Boolean,System.Security.AccessControl.RawAcl)">
+    <parameter name="rawAcl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.SystemAcl.#ctor(System.Boolean,System.Boolean,System.Security.AccessControl.RawAcl,System.Boolean)">
+    <parameter name="rawAcl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.SystemAcl.AddAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.SystemAcl.AddAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.SystemAcl.RemoveAuditSpecific(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.SystemAcl.RemoveAuditSpecific(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.SystemAcl.SetAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.SystemAcl.SetAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity`1.AddAccessRule(System.Security.AccessControl.AccessRule{`0})">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity`1.AddAuditRule(System.Security.AccessControl.AuditRule{`0})">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity`1.RemoveAccessRule(System.Security.AccessControl.AccessRule{`0})">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity`1.RemoveAccessRuleAll(System.Security.AccessControl.AccessRule{`0})">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity`1.RemoveAccessRuleSpecific(System.Security.AccessControl.AccessRule{`0})">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity`1.RemoveAuditRule(System.Security.AccessControl.AuditRule{`0})">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity`1.RemoveAuditRuleAll(System.Security.AccessControl.AuditRule{`0})">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity`1.RemoveAuditRuleSpecific(System.Security.AccessControl.AuditRule{`0})">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity`1.ResetAccessRule(System.Security.AccessControl.AccessRule{`0})">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity`1.SetAccessRule(System.Security.AccessControl.AccessRule{`0})">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity`1.SetAuditRule(System.Security.AccessControl.AuditRule{`0})">
+    <parameter name="rule">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AccessRule`1.#ctor(System.String,`0,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AccessRule`1.#ctor(System.String,`0,System.Security.AccessControl.AccessControlType)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AuditRule`1.#ctor(System.String,`0,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AuditRule`1.#ctor(System.String,`0,System.Security.AccessControl.AuditFlags)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity`1.Persist(System.Runtime.InteropServices.SafeHandle)">
+    <parameter name="handle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.ObjectSecurity`1.Persist(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AccessRule`1.#ctor(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AccessRule`1.#ctor(System.Security.Principal.IdentityReference,`0,System.Security.AccessControl.AccessControlType)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AuditRule`1.#ctor(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AccessRule`1.#ctor(System.Security.Principal.IdentityReference,`0,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AuditRule`1.#ctor(System.Security.Principal.IdentityReference,`0,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.AuditRule`1.#ctor(System.Security.Principal.IdentityReference,`0,System.Security.AccessControl.AuditFlags)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.NativeObjectSecurity.Persist(System.String,System.Security.AccessControl.AccessControlSections)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode.BeginInvoke(System.Int32,System.String,System.Runtime.InteropServices.SafeHandle,System.Object,System.AsyncCallback,System.Object)">
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode.Invoke(System.Int32,System.String,System.Runtime.InteropServices.SafeHandle,System.Object)">
+    <parameter name="name">
+    </parameter>
+  </member>
+</assembly>

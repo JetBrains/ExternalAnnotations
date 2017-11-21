@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Threading.Thread">
+  <member name="P:System.Threading.Thread.CurrentCulture">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Threading.Thread.CurrentThread">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Threading.Thread.CurrentUICulture">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.CompressedStack.Capture">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.CompressedStack.CreateCopy">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.CompressedStack.GetCompressedStack">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.CompressedStack.GetCompressedStack(System.Threading.StackCrawlMark@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Thread.AllocateDataSlot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Thread.AllocateNamedDataSlot(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Threading.Thread.ExecutionContext">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Thread.GetNamedDataSlot(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Threading.Thread.Name">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.CompressedStack.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.CompressedStack.CheckDemand(System.Security.CodeAccessPermission,System.Security.PermissionToken,System.RuntimeMethodHandle)">
+    <parameter name="demand">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.CompressedStack.CheckSetDemand(System.Security.PermissionSet,System.RuntimeMethodHandle)">
+    <parameter name="pset">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.CompressedStack.DemandFlagsOrGrantSet(System.Int32,System.Security.PermissionSet)">
+    <parameter name="grantSet">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.CompressedStack.GetZoneAndOrigin(System.Collections.ArrayList,System.Collections.ArrayList,System.Security.PermissionToken,System.Security.PermissionToken)">
+    <parameter name="zoneList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="originList">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.CompressedStack.Run(System.Threading.CompressedStack,System.Threading.ContextCallback,System.Object)">
+    <parameter name="compressedStack">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.CompressedStack.runFinallyCode(System.Object,System.Boolean)">
+    <parameter name="userData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.CompressedStack.runTryCode(System.Object)">
+    <parameter name="userData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Thread.#ctor(System.Threading.ParameterizedThreadStart)">
+    <parameter name="start">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Thread.#ctor(System.Threading.ParameterizedThreadStart,System.Int32)">
+    <parameter name="start">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Thread.#ctor(System.Threading.ThreadStart)">
+    <parameter name="start">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Thread.#ctor(System.Threading.ThreadStart,System.Int32)">
+    <parameter name="start">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Thread.CompleteCrossContextCallback(System.Threading.InternalCrossContextDelegate,System.Object[])">
+    <parameter name="ftnToCall">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Thread.FreeNamedDataSlot(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Thread.GetData(System.LocalDataStoreSlot)">
+    <parameter name="slot">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Thread.InternalCrossContextCallback(System.Runtime.Remoting.Contexts.Context,System.Threading.InternalCrossContextDelegate,System.Object[])">
+    <parameter name="ctx">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Thread.SetData(System.LocalDataStoreSlot,System.Object)">
+    <parameter name="slot">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.CompressedStack.CheckSetDemand(System.Security.PermissionSet,System.RuntimeMethodHandleInternal)">
+    <parameter name="pset">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.CompressedStack.CheckDemand(System.Security.CodeAccessPermission,System.Security.PermissionToken,System.RuntimeMethodHandleInternal)">
+    <parameter name="demand">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+</assembly>

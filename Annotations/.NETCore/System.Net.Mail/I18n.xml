@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Net.Mail">
+  <member name="M:System.Net.Mail.AlternateView.CreateAlternateViewFromString(System.String)">
+    <parameter name="content">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.CreateAlternateViewFromString(System.String,System.Net.Mime.ContentType)">
+    <parameter name="content">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.CreateAlternateViewFromString(System.String,System.Text.Encoding,System.String)">
+    <parameter name="content">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="mediaType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.CreateAttachmentFromString(System.String,System.Net.Mime.ContentType)">
+    <parameter name="content">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="contentType">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.CreateAttachmentFromString(System.String,System.String)">
+    <parameter name="content">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="name">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.CreateAttachmentFromString(System.String,System.String,System.Text.Encoding,System.String)">
+    <parameter name="content">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="name">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="mediaType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.CreateLinkedResourceFromString(System.String)">
+    <parameter name="content">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.CreateLinkedResourceFromString(System.String,System.Net.Mime.ContentType)">
+    <parameter name="content">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.CreateLinkedResourceFromString(System.String,System.Text.Encoding,System.String)">
+    <parameter name="content">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="P:System.Net.Mail.MailAddress.DisplayName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Net.Mail.MailAddress.Address">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Net.Mail.MailAddress.Host">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Net.Mail.MailAddress.User">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Net.Mail.SmtpClient.Host">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Net.Mime.ContentType.MediaType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.#ctor(System.IO.Stream,System.String)">
+    <parameter name="contentStream">
+    </parameter>
+    <parameter name="mediaType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.#ctor(System.String)">
+    <parameter name="fileName">
+    </parameter>
+    <parameter name="mediaType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.#ctor(System.String,System.Net.Mime.ContentType)">
+    <parameter name="fileName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AlternateView.#ctor(System.String,System.String)">
+    <parameter name="fileName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="mediaType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.#ctor(System.IO.Stream,System.String)">
+    <parameter name="contentStream">
+    </parameter>
+    <parameter name="name">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.#ctor(System.IO.Stream,System.String,System.String)">
+    <parameter name="contentStream">
+    </parameter>
+    <parameter name="name">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="mediaType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.#ctor(System.String)">
+    <parameter name="fileName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.#ctor(System.String,System.Net.Mime.ContentType)">
+    <parameter name="fileName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="contentType">
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.Attachment.#ctor(System.String,System.String)">
+    <parameter name="fileName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="mediaType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.#ctor(System.IO.Stream,System.String)">
+    <parameter name="contentStream">
+    </parameter>
+    <parameter name="mediaType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.#ctor(System.String)">
+    <parameter name="fileName">
+    </parameter>
+    <parameter name="mediaType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.#ctor(System.String,System.Net.Mime.ContentType)">
+    <parameter name="fileName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.AttachmentBase.#ctor(System.String,System.String)">
+    <parameter name="fileName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="mediaType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.#ctor(System.IO.Stream,System.String)">
+    <parameter name="contentStream">
+    </parameter>
+    <parameter name="mediaType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.#ctor(System.String)">
+    <parameter name="fileName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.#ctor(System.String,System.Net.Mime.ContentType)">
+    <parameter name="fileName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.LinkedResource.#ctor(System.String,System.String)">
+    <parameter name="fileName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="mediaType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailAddress.#ctor(System.String)">
+    <parameter name="address">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailAddress.#ctor(System.String,System.String)">
+    <parameter name="address">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="displayName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailAddress.#ctor(System.String,System.String,System.Text.Encoding)">
+    <parameter name="address">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="displayName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailMessage.#ctor(System.String,System.String)">
+    <parameter name="from">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="to">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.MailMessage.#ctor(System.String,System.String,System.String,System.String)">
+    <parameter name="from">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="to">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.Send(System.String,System.String,System.String,System.String)">
+    <parameter name="from">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="recipients">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.SendAsync(System.String,System.String,System.String,System.String,System.Object)">
+    <parameter name="from">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+    <parameter name="recipients">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.ContentDisposition.#ctor(System.String)">
+    <parameter name="disposition">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mime.ContentType.#ctor(System.String)">
+    <parameter name="contentType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="P:System.Net.Mail.Attachment.Name">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Net.Mail.AttachmentBase.ContentId">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Net.Mail.SmtpClient.PickupDirectoryLocation">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Net.Mail.SmtpFailedRecipientException.FailedRecipient">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Net.Mime.ContentDisposition.DispositionType">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Net.Mime.ContentDisposition.FileName">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Net.Mime.ContentType.Boundary">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Net.Mime.ContentType.CharSet">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="P:System.Net.Mime.ContentType.Name">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.#ctor(System.String,System.Int32)">
+    <parameter name="host">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpClient.#ctor(System.String)">
+    <parameter name="host">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpFailedRecipientException.#ctor(System.String,System.String,System.Exception)">
+    <parameter name="failedRecipient">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpFailedRecipientException.#ctor(System.Net.Mail.SmtpStatusCode,System.String,System.String)">
+    <parameter name="failedRecipient">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+  <member name="M:System.Net.Mail.SmtpFailedRecipientException.#ctor(System.Net.Mail.SmtpStatusCode,System.String)">
+    <parameter name="failedRecipient">
+    <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+      <argument>false</argument>
+    </attribute>
+    </parameter>
+  </member>
+</assembly>

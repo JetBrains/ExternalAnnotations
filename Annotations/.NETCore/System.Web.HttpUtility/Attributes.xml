@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Web.HttpUtility">
+  <member name="M:System.Web.HttpUtility.HtmlAttributeEncode(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>notnull=&gt;notnull;null=&gt;null</argument>
+    </attribute>
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.HtmlDecode(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>notnull=&gt;notnull;null=&gt;null</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Web.HttpUtility.HtmlEncode(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>notnull=&gt;notnull;null=&gt;null</argument>
+    </attribute>
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.ParseQueryString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <parameter name="query">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.ParseQueryString(System.String,System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <parameter name="query">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="encoding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlDecode(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>notnull=&gt;notnull;null=&gt;null</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlDecode(System.Byte[],System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>bytes:notnull=&gt;notnull;bytes:null=&gt;null</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlDecode(System.String,System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>str:notnull=&gt;notnull;str:null=&gt;null</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlDecode(System.Byte[],System.Int32,System.Int32,System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>bytes:notnull=&gt;notnull;bytes:null=&gt;null</argument>
+    </attribute>
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlDecodeToBytes(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>notnull=&gt;notnull;null=&gt;null</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlDecodeToBytes(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>notnull=&gt;notnull;null=&gt;null</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlDecodeToBytes(System.String,System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>str:notnull=&gt;notnull;str:null=&gt;null</argument>
+    </attribute>
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlDecodeToBytes(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>bytes:notnull=&gt;notnull;bytes:null=&gt;null</argument>
+    </attribute>
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlEncode(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>notnull=&gt;notnull;null=&gt;null</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlEncode(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>notnull=&gt;notnull;null=&gt;null</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlEncode(System.String,System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>str:notnull=&gt;notnull;str:null=&gt;null</argument>
+    </attribute>
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlEncode(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>bytes:notnull=&gt;notnull;bytes:null=&gt;null</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlEncodeToBytes(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlEncodeToBytes(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlEncodeToBytes(System.String,System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>str:notnull=&gt;notnull;str:null=&gt;null</argument>
+    </attribute>
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlEncodeToBytes(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>bytes:notnull=&gt;notnull;bytes:null=&gt;null</argument>
+    </attribute>
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlEncodeUnicode(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlEncodeUnicodeToBytes(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>notnull=&gt;notnull;null=&gt;null</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlPathEncode(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>notnull=&gt;notnull;null=&gt;null</argument>
+    </attribute>
+    <parameter name="str">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.CollapsePercentUFromStringInternal(System.String,System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.FormatHttpCookieDateTime(System.DateTime)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Web.HttpUtility.FormatHttpDateTime(System.DateTime)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Web.HttpUtility.FormatHttpDateTimeUtc(System.DateTime)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Web.HttpUtility.FormatPlainTextAsHtml(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Web.HttpUtility.FormatPlainTextSpacesAsHtml(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlDecodeBytesFromBytesInternal(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="buf">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlDecodeStringFromBytesInternal(System.Byte[],System.Int32,System.Int32,System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="buf">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlDecodeStringFromStringInternal(System.String,System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlEncodeBytesToBytesInternal(System.Byte[],System.Int32,System.Int32,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlEncodeBytesToBytesInternalNonAscii(System.Byte[],System.Int32,System.Int32,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.UrlEncodeUnicodeStringToStringInternal(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.Util.HttpEncoder.JavaScriptStringEncode(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.Util.HttpEncoder.UrlEncode(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.HtmlAttributeEncode(System.String,System.IO.TextWriter)">
+    <parameter name="output">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.HtmlDecode(System.String,System.IO.TextWriter)">
+    <parameter name="output">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.HtmlEncode(System.String,System.IO.TextWriter)">
+    <parameter name="output">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.FormatPlainTextAsHtml(System.String,System.IO.TextWriter)">
+    <parameter name="output">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.HtmlAttributeEncodeInternal(System.String,System.Web.HttpWriter)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="writer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.IndexOfHtmlAttributeEncodingChars(System.String,System.Int32)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.IndexOfHtmlEncodingChars(System.String,System.Int32)">
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.JavaScriptStringEncode(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.HttpUtility.JavaScriptStringEncode(System.String,System.Boolean)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.Util.HttpEncoder.HeaderNameValueEncode(System.String,System.String,System.String@,System.String@)">
+    <parameter name="headerName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="headerValue">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.Util.HttpEncoder.HtmlAttributeEncode(System.String,System.IO.TextWriter)">
+    <parameter name="output">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.Util.HttpEncoder.HtmlEncode(System.String,System.IO.TextWriter)">
+    <parameter name="output">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Web.Util.HttpEncoder.UrlPathEncode(System.String)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+</assembly>

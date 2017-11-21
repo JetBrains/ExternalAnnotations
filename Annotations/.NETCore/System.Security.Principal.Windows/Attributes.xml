@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Security.Principal.Windows">
+  <member name="P:System.Security.Principal.IdentityNotMappedException.UnmappedIdentities">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.IdentityReferenceCollection.Translate(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.IdentityReferenceCollection.Translate(System.Type,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.NTAccount.Translate(System.Security.Principal.IdentityReferenceCollection,System.Type,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="sourceAccounts">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.NTAccount.Translate(System.Security.Principal.IdentityReferenceCollection,System.Type,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="sourceAccounts">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.NTAccount.TranslateToSids(System.Security.Principal.IdentityReferenceCollection,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="sourceAccounts">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.SecurityIdentifier.ToString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.SecurityIdentifier.Translate(System.Security.Principal.IdentityReferenceCollection,System.Type,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="sourceSids">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.SecurityIdentifier.Translate(System.Security.Principal.IdentityReferenceCollection,System.Type,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="sourceSids">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.SecurityIdentifier.TranslateToNTAccounts(System.Security.Principal.IdentityReferenceCollection,System.Boolean@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="sourceSids">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Principal.SecurityIdentifier.Value">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Principal.WindowsIdentity.AuthenticationType">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.GetAnonymous">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.GetCurrent(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>false=&gt;notnull</argument>
+    </attribute>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.GetCurrentInternal(System.Security.Principal.TokenAccessLevels,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.GetExceptionFromNtStatus(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.GetTokenInformation(Microsoft.Win32.SafeHandles.SafeTokenHandle,System.Security.Principal.TokenInformationClass,System.UInt32@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Principal.WindowsIdentity.Groups">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.Impersonate">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.Impersonate(System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.Impersonate(System.Threading.StackCrawlMark@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Principal.WindowsIdentity.Owner">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.SafeImpersonate(Microsoft.Win32.SafeHandles.SafeTokenHandle,System.Security.Principal.WindowsIdentity,System.Threading.StackCrawlMark@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="userToken">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Principal.WindowsIdentity.User">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.GetTokenInformation(Microsoft.Win32.SafeHandles.SafeTokenHandle,System.Security.Principal.TokenInformationClass)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.SafeRevertToSelf(System.Threading.StackCrawlMark@)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.GetCurrent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.GetCurrent(System.Security.Principal.TokenAccessLevels)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Security.Principal.WindowsIdentity.Name">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Security.Principal.IdentityNotMappedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.IdentityReference.Translate(System.Type)">
+    <parameter name="targetType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.IdentityReferenceCollection.Add(System.Security.Principal.IdentityReference)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.IdentityReferenceCollection.Contains(System.Security.Principal.IdentityReference)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.IdentityReferenceCollection.Remove(System.Security.Principal.IdentityReference)">
+    <parameter name="identity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.NTAccount.#ctor(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.NTAccount.#ctor(System.String,System.String)">
+    <parameter name="accountName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.SecurityIdentifier.#ctor(System.Byte[],System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.SecurityIdentifier.#ctor(System.Security.Principal.IdentifierAuthority,System.Int32[])">
+    <parameter name="subAuthorities">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.SecurityIdentifier.#ctor(System.Security.Principal.SecurityIdentifier,System.UInt32)">
+    <parameter name="domainSid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.SecurityIdentifier.#ctor(System.String)">
+    <parameter name="sddlForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.SecurityIdentifier.CreateFromBinaryForm(System.Byte[],System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.SecurityIdentifier.CreateFromParts(System.Security.Principal.IdentifierAuthority,System.Int32[])">
+    <parameter name="subAuthorities">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.#ctor(Microsoft.Win32.SafeHandles.SafeTokenHandle)">
+    <parameter name="safeTokenHandle">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.#ctor(System.Runtime.Serialization.SerializationInfo)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.#ctor(System.String)">
+    <parameter name="sUserPrincipalName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.#ctor(System.String,System.String)">
+    <parameter name="sUserPrincipalName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="type">
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.WindowsIdentity.KerbS4ULogon(System.String)">
+    <parameter name="upn">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.WindowsPrincipal.#ctor(System.Security.Principal.WindowsIdentity)">
+    <parameter name="ntIdentity">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.WindowsPrincipal.IsInRole(System.Security.Principal.SecurityIdentifier)">
+    <parameter name="sid">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.SecurityIdentifier.GetBinaryForm(System.Byte[],System.Int32)">
+    <parameter name="binaryForm">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Security.Principal.IdentityReference.Value">
+  </member>
+  <member name="T:System.Security.Principal.WindowsIdentity">
+    <parameter name="type">
+    </parameter>
+  </member>
+  <member name="M:System.Security.Principal.WindowsPrincipal.IsInRole(System.String)">
+    <parameter name="role">
+    </parameter>
+  </member>
+</assembly>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Net.WebProxy">
+  <member name="P:System.Net.WebProxy.BypassArrayList">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.WebProxy.CreateProxyUri(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.WebProxy.GetDefaultProxy">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.WebProxy.GetProxiesAuto(System.Uri,System.Net.AutoWebProxyState@,System.Int32@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="destination">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.GetProxy(System.Uri)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="destination">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.GetProxyAuto(System.Uri,System.Net.AutoWebProxyState@)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="destination">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.ProxyUri(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Net.WebProxy.System#Net#IAutoWebProxy#GetProxies(System.Uri)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="destination">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.IWebProxyScript.Run(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="url">
+    </parameter>
+    <parameter name="host">
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.#ctor(System.Collections.Hashtable,System.Boolean,System.String[])">
+    <parameter name="proxyHostAddresses">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.AreAllBypassed(System.Collections.Specialized.StringCollection,System.Boolean)">
+    <parameter name="proxies">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.GetProxyAutoFailover(System.Uri)">
+    <parameter name="destination">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.IsBypassed(System.Uri)">
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.IsBypassedAuto(System.Uri,System.Net.AutoWebProxyState@)">
+    <parameter name="destination">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.IsBypassedManual(System.Uri)">
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.IsLocal(System.Uri)">
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.IsLocalInProxyHash(System.Uri)">
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.IsMatchInBypassList(System.Uri)">
+    <parameter name="input">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="serializationInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.Update(System.Net.WebProxyData)">
+    <parameter name="webProxyData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Net.IWebProxyScript.Load(System.Uri,System.String,System.Type)">
+    <parameter name="scriptLocation">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="script">
+    </parameter>
+  </member>
+  <member name="P:System.Net.WebProxy.BypassList">
+  </member>
+  <member name="M:System.Net.WebProxy.#ctor(System.String,System.Boolean,System.String[],System.Net.ICredentials)">
+    <parameter name="Address">
+    </parameter>
+    <parameter name="BypassList">
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.#ctor(System.String,System.Boolean,System.String[])">
+    <parameter name="Address">
+    </parameter>
+    <parameter name="BypassList">
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.#ctor(System.String,System.Boolean)">
+    <parameter name="Address">
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.#ctor(System.String)">
+    <parameter name="Address">
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.#ctor(System.Uri,System.Boolean,System.String[],System.Net.ICredentials)">
+    <parameter name="BypassList">
+    </parameter>
+  </member>
+  <member name="M:System.Net.WebProxy.#ctor(System.Uri,System.Boolean,System.String[])">
+    <parameter name="BypassList">
+    </parameter>
+  </member>
+</assembly>

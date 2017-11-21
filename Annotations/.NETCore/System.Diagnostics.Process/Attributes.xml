@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Diagnostics.Process">
+  <member name="P:System.Diagnostics.Process.MainModule">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Diagnostics.Process.BuildCommandLine(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="executableFileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.Process.GetProcessById(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Diagnostics.Process.GetProcessById(System.Int32,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.Process.GetProcesses(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.Process.GetProcessesByName(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="processName">
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.Process.GetProcessTimes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.Process.Modules">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Diagnostics.Process.Start(System.Diagnostics.ProcessStartInfo)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="startInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.Process.Start(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="fileName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.Process.Start(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="fileName">
+    </parameter>
+    <parameter name="arguments">
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.Process.Start(System.String,System.String,System.Security.SecureString,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="fileName">
+    </parameter>
+    <parameter name="userName">
+    </parameter>
+    <parameter name="domain">
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.Process.Start(System.String,System.String,System.String,System.Security.SecureString,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    <parameter name="fileName">
+    </parameter>
+    <parameter name="arguments">
+    </parameter>
+    <parameter name="userName">
+    </parameter>
+    <parameter name="domain">
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.ProcessManager.GetModuleInfos(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Diagnostics.ProcessManager.GetProcessIds">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Diagnostics.ProcessManager.GetProcessIds(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.ProcessManager.GetProcessInfos(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.ProcessManager.OpenThread(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.ProcessModule.FileVersionInfo">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Diagnostics.ProcessModule.ToString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Diagnostics.ProcessThread.GetThreadTimes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Diagnostics.ProcessThread.OpenThreadHandle(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.Process.MachineName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.Process.MainWindowTitle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.Process.ProcessName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.Process.StandardError">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.Process.StandardInput">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.Process.StandardOutput">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.Process.StartInfo">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.Process.Threads">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Diagnostics.Process.GetCurrentProcess">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Diagnostics.Process.GetProcesses">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Diagnostics.Process.GetProcessesByName(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="processName">
+    </parameter>
+  </member>
+  <member name="P:System.Diagnostics.ProcessModule.FileName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.ProcessStartInfo.Arguments">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.ProcessStartInfo.EnvironmentVariables">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.ProcessStartInfo.FileName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.ProcessStartInfo.StandardErrorEncoding">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.ProcessStartInfo.StandardOutputEncoding">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.ProcessStartInfo.UserName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.ProcessStartInfo.Verbs">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.ProcessStartInfo.WorkingDirectory">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Diagnostics.ProcessThreadCollection.Item(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Diagnostics.AsyncStreamReader.#ctor(System.Diagnostics.Process,System.IO.Stream,System.Diagnostics.UserCallBack,System.Text.Encoding)">
+    <parameter name="encoding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.AsyncStreamReader.#ctor(System.Diagnostics.Process,System.IO.Stream,System.Diagnostics.UserCallBack,System.Text.Encoding,System.Int32)">
+    <parameter name="encoding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.AsyncStreamReader.Init(System.Diagnostics.Process,System.IO.Stream,System.Diagnostics.UserCallBack,System.Text.Encoding,System.Int32)">
+    <parameter name="encoding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.AsyncStreamReader.ReadBuffer(System.IAsyncResult)">
+    <parameter name="ar">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.Process.StartWithCreateProcess(System.Diagnostics.ProcessStartInfo)">
+    <parameter name="startInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.Process.StartWithShellExecuteEx(System.Diagnostics.ProcessStartInfo)">
+    <parameter name="startInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.ProcessManager.GetMainWindowHandle(System.Diagnostics.ProcessInfo)">
+    <parameter name="processInfo">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.ProcessManager.IsProcessRunning(System.Int32,System.Int32[])">
+    <parameter name="processIds">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.ProcessManager.IsProcessRunning(System.Int32,System.String)">
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.ProcessManager.IsRemoteMachine(System.String)">
+    <parameter name="machineName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.ProcessModuleCollection.#ctor(System.Diagnostics.ProcessModule[])">
+    <parameter name="processModules">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.ProcessThreadCollection.#ctor(System.Diagnostics.ProcessThread[])">
+    <parameter name="processThreads">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.ProcessModuleCollection.IndexOf(System.Diagnostics.ProcessModule)">
+    <parameter name="module">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.ProcessThreadCollection.IndexOf(System.Diagnostics.ProcessThread)">
+    <parameter name="thread">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.ProcessThreadCollection.Remove(System.Diagnostics.ProcessThread)">
+    <parameter name="thread">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Diagnostics.DataReceivedEventArgs.Data">
+  </member>
+  <member name="P:System.Diagnostics.ProcessModule.ModuleName">
+  </member>
+  <member name="P:System.Diagnostics.ProcessStartInfo.Domain">
+  </member>
+  <member name="P:System.Diagnostics.ProcessStartInfo.Verb">
+  </member>
+  <member name="M:System.Diagnostics.ProcessStartInfo.#ctor(System.String,System.String)">
+    <parameter name="fileName">
+    </parameter>
+    <parameter name="arguments">
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.ProcessStartInfo.#ctor(System.String)">
+    <parameter name="fileName">
+    </parameter>
+  </member>
+  <member name="P:Microsoft.Win32.SafeHandles.SafeProcessHandle.InvalidHandle">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+</assembly>

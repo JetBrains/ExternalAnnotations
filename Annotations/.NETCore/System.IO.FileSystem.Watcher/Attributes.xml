@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.IO.FileSystem.Watcher">
+  <member name="M:System.IO.FileSystemEventArgs.#ctor(System.IO.WatcherChangeTypes,System.String,System.String)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="name">
+    </parameter>
+  </member>
+  <member name="M:System.IO.FileSystemWatcher.#ctor(System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.IO.FileSystemWatcher.#ctor(System.String,System.String)">
+    <parameter name="path">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="filter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.IO.FileSystemWatcher.CompletionStatusChanged(System.UInt32,System.UInt32,System.Threading.NativeOverlapped*)">
+    <parameter name="overlappedPointer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.IO.FileSystemWatcher.OnInternalFileSystemEventArgs(System.Object,System.IO.FileSystemEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.IO.FileSystemWatcher.OnInternalRenameEventArgs(System.Object,System.IO.RenamedEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.IO.InternalBufferOverflowException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.IO.RenamedEventArgs.#ctor(System.IO.WatcherChangeTypes,System.String,System.String,System.String)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="name">
+    </parameter>
+    <parameter name="oldName">
+    </parameter>
+  </member>
+  <member name="P:System.IO.FileSystemEventArgs.FullPath">
+  </member>
+  <member name="P:System.IO.FileSystemEventArgs.Name">
+  </member>
+  <member name="P:System.IO.FileSystemWatcher.Filter">
+  </member>
+  <member name="P:System.IO.FileSystemWatcher.Path">
+  </member>
+  <member name="P:System.IO.RenamedEventArgs.OldFullPath">
+  </member>
+  <member name="P:System.IO.RenamedEventArgs.OldName">
+  </member>
+  <member name="P:System.IO.WaitForChangedResult.Name">
+  </member>
+  <member name="P:System.IO.WaitForChangedResult.OldName">
+  </member>
+</assembly>
