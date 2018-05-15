@@ -37823,25 +37823,25 @@
       </attribute>
     </parameter>
   </member>
-  <member name ="M:System.Type.GetType(System.String,System.Boolean)">
-    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
-    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  <member name="M:System.Type.GetType(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>throwOnError:true => notnull; throwOnError:false=>canbenull;</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
     <parameter name="typeName">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    </parameter>
-    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
         <argument>false</argument>
       </attribute>
     </parameter>
   </member>
-  <member name ="M:System.Type.GetType(System.String,System.Boolean,System.Boolean)">
-    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
-    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  <member name="M:System.Type.GetType(System.String,System.Boolean,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>throwOnError:true => notnull; throwOnError:false=>canbenull;</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
     <parameter name="typeName">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    </parameter>
-    <parameter name="typeName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
       <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
         <argument>false</argument>
       </attribute>
