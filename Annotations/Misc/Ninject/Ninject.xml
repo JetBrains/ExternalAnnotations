@@ -269,6 +269,20 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
+  <member name="M:Ninject.Components.IComponentContainer.Add``2">
+    <typeparameter name="TImplementation"> 
+      <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>8</argument>
+      </attribute>
+    </typeparameter>
+  </member>
+  <member name="M:Ninject.Components.IComponentContainer.AddTransient``2">
+    <typeparameter name="TImplementation"> 
+      <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>8</argument>
+      </attribute>
+    </typeparameter>
+  </member>
   <member name="M:Ninject.Components.IComponentContainer.Get(System.Type)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     <parameter name="component">
@@ -1755,14 +1769,29 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
+  <member name="M:Ninject.Syntax.IBindingToSyntax`1.ToSelf">
+    <typeparameter name="T1"> 
+      <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>8</argument>
+      </attribute>
+    </typeparameter>
+  </member>
   <member name="M:Ninject.Syntax.IBindingToSyntax`1.To(System.Type)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     <parameter name="implementation">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	  <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>8</argument>
+      </attribute>
     </parameter>
   </member>
   <member name="M:Ninject.Syntax.IBindingToSyntax`1.To``1">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	<typeparameter name="TImplementation"> 
+      <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+        <argument>8</argument>
+      </attribute>
+    </typeparameter>
   </member>
   <member name="M:Ninject.Syntax.IBindingToSyntax`1.ToConstant``1(``0)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
@@ -2174,21 +2203,6 @@
     <parameter name="request">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
-  </member>
-  <member name="P:JetBrains.Annotations.BaseTypeRequiredAttribute.BaseType">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-  </member>
-  <member name="P:JetBrains.Annotations.HtmlAttributeValueAttribute.Name">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-  </member>
-  <member name="P:JetBrains.Annotations.MeansImplicitUseAttribute.TargetFlags">
-    <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor" />
-  </member>
-  <member name="P:JetBrains.Annotations.MeansImplicitUseAttribute.UseKindFlags">
-    <attribute ctor="M:JetBrains.Annotations.UsedImplicitlyAttribute.#ctor" />
-  </member>
-  <member name="P:JetBrains.Annotations.ValueProviderAttribute.Name">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
   </member>
   <member name="P:Ninject.Activation.Blocks.ActivationBlock.Parent">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
