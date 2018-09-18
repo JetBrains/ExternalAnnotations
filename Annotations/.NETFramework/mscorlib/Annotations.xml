@@ -36901,6 +36901,7 @@
   <member name="M:System.Threading.Tasks.Task.FastWaitAll(System.Threading.Tasks.Task[])">
     <parameter name="tasks">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
     </parameter>
   </member>
   <member name="M:System.Threading.Tasks.Task.InternalStartNew(System.Threading.Tasks.Task,System.Object,System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskScheduler,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.InternalTaskOptions,System.Threading.StackCrawlMark@)">
@@ -36959,6 +36960,7 @@
   <member name="M:System.Threading.Tasks.Task.WaitAll(System.Threading.Tasks.Task[],System.Int32,System.Threading.CancellationToken)">
     <parameter name="tasks">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
     </parameter>
   </member>
   <member name="P:System.Threading.Tasks.Task.CurrentStackGuard">
@@ -36975,6 +36977,7 @@
   <member name="M:System.Threading.Tasks.Task.WaitAny(System.Threading.Tasks.Task[],System.Int32,System.Threading.CancellationToken)">
     <parameter name="tasks">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
     </parameter>
   </member>
   <member name="M:System.Threading.Tasks.TaskCompletionSource`1.SetException(System.Exception)">
@@ -40685,81 +40688,6 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
     </parameter>
   </member>
-  <member name="P:System.Threading.Tasks.Task.CompletedTask">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-  </member>
-  <member name="P:System.Threading.Tasks.Task.Factory">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-  </member>
-  <member name="M:System.Threading.Tasks.Task.FromCanceled(System.Threading.CancellationToken)">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-  </member>
-  <member name="M:System.Threading.Tasks.Task.FromCanceled``1(System.Threading.CancellationToken)">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-  </member>
-  <member name="M:System.Threading.Tasks.Task.FromException(System.Exception)">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    <parameter name="exception">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
-  <member name="M:System.Threading.Tasks.Task.FromException``1(System.Exception)">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    <parameter name="exception">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
-  <member name="M:System.Threading.Tasks.Task.FromResult``1(``0)">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-  </member>
-  <member name="M:System.Threading.Tasks.Task.Run(System.Action)">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    <parameter name="action">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
-  <member name="M:System.Threading.Tasks.Task.Run(System.Action,System.Threading.CancellationToken)">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    <parameter name="action">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
-  <member name="M:System.Threading.Tasks.Task.Run(System.Func{System.Threading.Tasks.Task})">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    <parameter name="function">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
-  <member name="M:System.Threading.Tasks.Task.Run(System.Func{System.Threading.Tasks.Task},System.Threading.CancellationToken)">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    <parameter name="function">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
-  <member name="M:System.Threading.Tasks.Task.Run``1(System.Func{``0})">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    <parameter name="function">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
-  <member name="M:System.Threading.Tasks.Task.Run``1(System.Func{``0},System.Threading.CancellationToken)">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    <parameter name="function">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
-  <member name="M:System.Threading.Tasks.Task.Run``1(System.Func{System.Threading.Tasks.Task{``0}})">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    <parameter name="function">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
-  <member name="M:System.Threading.Tasks.Task.Run``1(System.Func{System.Threading.Tasks.Task{``0}},System.Threading.CancellationToken)">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    <parameter name="function">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
   <member name="M:System.Threading.Tasks.Task`1.#ctor(System.Func{`0})">
     <parameter name="function">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
@@ -40797,6 +40725,388 @@
   </member>
   <member name="P:System.Threading.Tasks.Task`1.Factory">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.Start(System.Threading.Tasks.TaskScheduler)">
+    <parameter name="scheduler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.RunSynchronously(System.Threading.Tasks.TaskScheduler)">
+    <parameter name="scheduler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Threading.Tasks.Task.Exception">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Threading.Tasks.Task.Factory">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Threading.Tasks.Task.CompletedTask">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.GetAwaiter">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.Yield">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith(System.Action{System.Threading.Tasks.Task})">
+    <parameter name="continuationAction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith(System.Action{System.Threading.Tasks.Task},System.Threading.CancellationToken)">
+    <parameter name="continuationAction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith(System.Action{System.Threading.Tasks.Task},System.Threading.Tasks.TaskScheduler)">
+    <parameter name="continuationAction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="scheduler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith(System.Action{System.Threading.Tasks.Task},System.Threading.Tasks.TaskContinuationOptions)">
+    <parameter name="continuationAction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith(System.Action{System.Threading.Tasks.Task},System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler)">
+    <parameter name="continuationAction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="scheduler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+
+  <member name="M:System.Threading.Tasks.Task.ContinueWith(System.Action{System.Threading.Tasks.Task,System.Object},System.Object)">
+    <parameter name="continuationAction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith(System.Action{System.Threading.Tasks.Task,System.Object},System.Object,System.Threading.CancellationToken)">
+    <parameter name="continuationAction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith(System.Action{System.Threading.Tasks.Task,System.Object},System.Object,System.Threading.Tasks.TaskScheduler)">
+    <parameter name="continuationAction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="scheduler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith(System.Action{System.Threading.Tasks.Task,System.Object},System.Object,System.Threading.Tasks.TaskContinuationOptions)">
+    <parameter name="continuationAction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith(System.Action{System.Threading.Tasks.Task,System.Object},System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler)">
+    <parameter name="continuationAction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="scheduler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+
+  <member name="M:System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,``0})">
+    <parameter name="continuationFunction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,``0},System.Threading.CancellationToken)">
+    <parameter name="continuationFunction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,``0},System.Threading.Tasks.TaskScheduler)">
+    <parameter name="continuationFunction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="scheduler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,``0},System.Threading.Tasks.TaskContinuationOptions)">
+    <parameter name="continuationFunction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,``0},System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler)">
+    <parameter name="continuationFunction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="scheduler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+
+  <member name="M:System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,System.Object,``0},System.Object)">
+    <parameter name="continuationFunction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,System.Object,``0},System.Object,System.Threading.CancellationToken)">
+    <parameter name="continuationFunction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,System.Object,``0},System.Object,System.Threading.Tasks.TaskScheduler)">
+    <parameter name="continuationFunction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="scheduler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,System.Object,``0},System.Object,System.Threading.Tasks.TaskContinuationOptions)">
+    <parameter name="continuationFunction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,System.Object,``0},System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler)">
+    <parameter name="continuationFunction">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="scheduler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+
+  <member name="M:System.Threading.Tasks.Task.WaitAll(System.Threading.Tasks.Task[])">
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WaitAll(System.Threading.Tasks.Task[],System.TimeSpan)">
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WaitAll(System.Threading.Tasks.Task[],System.Int32)">
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WaitAll(System.Threading.Tasks.Task[],System.Threading.CancellationToken)">
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WaitAll(System.Threading.Tasks.Task[],System.Int32,System.Threading.CancellationToken)">
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+
+  <member name="M:System.Threading.Tasks.Task.WaitAny(System.Threading.Tasks.Task[])">
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WaitAny(System.Threading.Tasks.Task[],System.TimeSpan)">
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WaitAny(System.Threading.Tasks.Task[],System.Int32)">
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WaitAny(System.Threading.Tasks.Task[],System.Threading.CancellationToken)">
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WaitAny(System.Threading.Tasks.Task[],System.Int32,System.Threading.CancellationToken)">
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+
+  <member name="M:System.Threading.Tasks.Task.FromResult``1(``0)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.FromException(System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.FromException``1(System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.FromCancellation(System.Threading.CancellationToken)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.FromCanceled(System.Threading.CancellationToken)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.FromCancellation``1(System.Threading.CancellationToken)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.FromCanceled``1(System.Threading.CancellationToken)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.Run(System.Action)">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.Run(System.Action,System.Threading.CancellationToken)">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.Run``1(System.Func{``0})">
+    <parameter name="function">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.Run``1(System.Func{``0},System.Threading.CancellationToken)">
+    <parameter name="function">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.Run(System.Func{System.Threading.Tasks.Task})">
+    <parameter name="function">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.Run(System.Func{System.Threading.Tasks.Task},System.Threading.CancellationToken)">
+    <parameter name="function">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.Run``1(System.Func{System.Threading.Tasks.Task{``0}})">
+    <parameter name="function">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.Run``1(System.Func{System.Threading.Tasks.Task{``0}},System.Threading.CancellationToken)">
+    <parameter name="function">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.Delay(System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.Delay(System.TimeSpan,System.Threading.CancellationToken)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.Delay(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.Delay(System.Int32,System.Threading.CancellationToken)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+
+  <member name="M:System.Threading.Tasks.Task.WhenAll(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WhenAll(System.Threading.Tasks.Task[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WhenAll``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WhenAll``1(System.Threading.Tasks.Task{``0}[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WhenAny(System.Threading.Tasks.Task[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WhenAny(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WhenAny``1(System.Threading.Tasks.Task{``0}[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Threading.Tasks.Task.WhenAny``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <parameter name="tasks">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+      <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+    </parameter>
   </member>
   <member name="P:System.Threading.Tasks.TaskScheduler.Current">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
