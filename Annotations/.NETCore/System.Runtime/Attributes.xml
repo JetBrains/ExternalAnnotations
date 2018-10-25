@@ -1442,14 +1442,32 @@
   <member name="M:System.Collections.Generic.List`1.AsReadOnly">
     <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
   </member>
-  <member name="M:System.Collections.Generic.List`1.BinarySearch(`0)">
-    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  <member name ="M:System.Collections.Generic.List`1.BinarySearch(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.CollectionAccessAttribute.#ctor(JetBrains.Annotations.CollectionAccessType)">
+      <argument>1</argument>
+    </attribute>
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
   </member>
-  <member name="M:System.Collections.Generic.List`1.BinarySearch(`0,System.Collections.Generic.IComparer{`0})">
-    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  <member name ="M:System.Collections.Generic.List`1.BinarySearch(`0,System.Collections.Generic.IComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.CollectionAccessAttribute.#ctor(JetBrains.Annotations.CollectionAccessType)">
+      <argument>1</argument>
+    </attribute>
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
   </member>
-  <member name="M:System.Collections.Generic.List`1.BinarySearch(System.Int32,System.Int32,`0,System.Collections.Generic.IComparer{`0})">
-    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  <member name ="M:System.Collections.Generic.List`1.BinarySearch(System.Int32,System.Int32,`0,System.Collections.Generic.IComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.CollectionAccessAttribute.#ctor(JetBrains.Annotations.CollectionAccessType)">
+      <argument>1</argument>
+    </attribute>
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
   </member>
   <member name="M:System.Collections.Generic.List`1.ConvertAll``1(System.Converter{`0,``0})">
     <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
