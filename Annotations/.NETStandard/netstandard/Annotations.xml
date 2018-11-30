@@ -13419,6 +13419,19 @@
   <member name ="P:System.IO.Compression.ZipArchiveEntry.Archive">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
   </member>
+  <member name="P:System.IO.Compression.ZipArchiveEntry.FullName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.IO.Compression.ZipArchiveEntry.Name">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.IO.Compression.ZipArchiveEntry.Open">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.IO.Compression.ZipArchive.Entries">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor"/>
+  </member>
   <member name ="M:System.IO.Compression.DeflateStream.ReadCallback(System.IAsyncResult)">
     <parameter name="baseStreamResult">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
