@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="Ninject.Extensions.Logging">
+    <member name="P:Ninject.Extensions.Logging.ILogger.Type">
+        <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </member>
+    <member name="P:Ninject.Extensions.Logging.ILogger.Name">
+        <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Debug(System.String)">
+        <parameter name="message">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Debug(System.String,System.Object[])">
+        <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+        <parameter name="format">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="args">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Debug(System.Exception,System.String,System.Object[])">
+        <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+        <parameter name="exception">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="format">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="args">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.DebugException(System.String,System.Exception)">
+        <parameter name="message">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="exception">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Info(System.String)">
+        <parameter name="message">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Info(System.String,System.Object[])">
+        <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+        <parameter name="format">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="args">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Info(System.Exception,System.String,System.Object[])">
+        <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+        <parameter name="exception">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="format">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="args">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.InfoException(System.String,System.Exception)">
+        <parameter name="message">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="exception">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Trace(System.String)">
+        <parameter name="message">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Trace(System.String,System.Object[])">
+        <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+        <parameter name="format">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="args">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Trace(System.Exception,System.String,System.Object[])">
+        <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+        <parameter name="exception">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="format">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="args">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.TraceException(System.String,System.Exception)">
+        <parameter name="message">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="exception">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Warn(System.String)">
+        <parameter name="message">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Warn(System.String,System.Object[])">
+        <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+        <parameter name="format">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="args">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Warn(System.Exception,System.String,System.Object[])">
+        <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+        <parameter name="exception">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="format">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="args">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.WarnException(System.String,System.Exception)">
+        <parameter name="message">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="exception">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Error(System.String)">
+        <parameter name="message">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Error(System.String,System.Object[])">
+        <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+        <parameter name="format">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="args">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Error(System.Exception,System.String,System.Object[])">
+        <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+        <parameter name="exception">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="format">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="args">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.ErrorException(System.String,System.Exception)">
+        <parameter name="message">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="exception">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Fatal(System.String)">
+        <parameter name="message">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Fatal(System.String,System.Object[])">
+        <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+        <parameter name="format">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="args">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.Fatal(System.Exception,System.String,System.Object[])">
+        <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>format</argument></attribute>
+        <parameter name="exception">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="format">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="args">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILogger.FatalException(System.String,System.Exception)">
+        <parameter name="message">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+        <parameter name="exception">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+
+
+    <member name="M:Ninject.Extensions.Logging.ILoggerFactory.GetLogger(System.Type)">
+        <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        <parameter name="type">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILoggerFactory.GetLogger(System.String)">
+        <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        <parameter name="name">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILoggerFactory.GetLogger(Ninject.Activation.IContext)">
+        <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        <parameter name="context">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.ILoggerFactory.GetCurrentClassLogger">
+        <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </member>
+
+
+    <member name="M:Ninject.Extensions.Logging.LoggerBase.#ctor(System.Type)">
+        <parameter name="type">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.LoggerBase.#ctor(System.String)">
+        <parameter name="name">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+
+
+    <member name="M:Ninject.Extensions.Logging.LoggerFactoryBase.CreateLogger(System.Type)">
+        <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        <parameter name="type">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+    <member name="M:Ninject.Extensions.Logging.LoggerFactoryBase.CreateLogger(System.String)">
+        <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        <parameter name="name">
+            <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+        </parameter>
+    </member>
+</assembly>
