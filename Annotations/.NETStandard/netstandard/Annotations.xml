@@ -37421,6 +37421,24 @@
   <member name ="M:System.Runtime.InteropServices.Marshal.PtrToStringUni(System.IntPtr)">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
   </member>
+  <member name ="M:System.Runtime.InteropServices.Marshal.PtrToStructure(System.IntPtr, System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>ptr:null=&gt;null</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="structureType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name ="M:System.Runtime.InteropServices.Marshal.PtrToStructure``1(System.IntPtr)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>ptr:null=&gt;null</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="structureType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
   <member name ="M:System.Runtime.InteropServices.MarshalAsAttribute.GetCustomAttribute(System.Int32,System.Reflection.Module)">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     <parameter name="scope">
