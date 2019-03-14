@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>JetBrains.ExternalAnnotations</id>
-    <version>10.2.57</version>
+    <version>10.2.58</version>
     <authors>JetBrains</authors>
     <owners>JetBrains</owners>
     <projectUrl>https://github.com/JetBrains/ExternalAnnotations</projectUrl>
@@ -12,6 +12,9 @@
     <description>ReSharper External Annotations for .NET framework and popular libraries.</description>
     <releaseNotes></releaseNotes>
     <tags>resharper annotations</tags>
+    <dependencies>
+      <dependency id="Wave" />
+    </dependencies>
   </metadata>
   <files>
     <file src="Annotations\**" target="DotFiles\ExternalAnnotations" />
