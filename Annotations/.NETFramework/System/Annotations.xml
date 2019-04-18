@@ -25333,14 +25333,14 @@
     </parameter>
   </member>
   <member name="M:System.Net.WebUtility.HtmlDecode(System.String)">
-    <parameter name="value">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>null=&gt;null;notnull=&gt;notnull</argument>
+    </attribute>
   </member>
   <member name="M:System.Net.WebUtility.HtmlEncode(System.String)">
-    <parameter name="value">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
+   <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>null=&gt;null;notnull=&gt;notnull</argument>
+    </attribute>
   </member>
   <member name="M:System.Net.WebUtility.UrlDecodeToBytes(System.Byte[],System.Int32,System.Int32)">
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
