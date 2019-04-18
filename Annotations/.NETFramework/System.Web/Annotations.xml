@@ -273,9 +273,6 @@
     <parameter name="output">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
     </parameter>
-    <parameter name="s">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
   </member>
   <member name="M:System.Web.HttpUtility.ParseQueryString(System.String)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
@@ -12402,9 +12399,7 @@
     </parameter>
   </member>
   <member name="M:System.Web.HttpServerUtility.HtmlEncode(System.String)">
-    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
     <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
-      <argument>s:notnull =&gt; notnull</argument>
       <argument>null=&gt;null;notnull =&gt; notnull</argument>
     </attribute>
   </member>
