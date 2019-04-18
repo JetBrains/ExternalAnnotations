@@ -12405,10 +12405,8 @@
     <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
     <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
       <argument>s:notnull =&gt; notnull</argument>
+      <argument>null=&gt;null;notnull =&gt; notnull</argument>
     </attribute>
-    <parameter name="s">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
   </member>
   <member name="M:System.Web.HttpServerUtility.HtmlEncode(System.String,System.IO.TextWriter)">
     <parameter name="output">
@@ -31737,19 +31735,6 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
     </parameter>
   </member>
-  <member name="M:System.Web.HttpServerUtilityBase.HtmlEncode(System.String)">
-    <parameter name="s">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
-  <member name="M:System.Web.HttpServerUtilityBase.HtmlEncode(System.String,System.IO.TextWriter)">
-    <parameter name="output">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-    <parameter name="s">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
   <member name="M:System.Web.HttpServerUtilityBase.Transfer(System.String)">
     <parameter name="path">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
@@ -35123,13 +35108,11 @@
   </member>
   <member name="M:System.Web.HttpServerUtility.HtmlDecode(System.String)">
     <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
-      <argument>s:notnull =&gt; notnull</argument>
+      <argument>null=&gt;null;notnull =&gt; notnull</argument>
     </attribute>
   </member>
   <member name="M:System.Web.HttpServerUtility.MapPath(System.String)">
-    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
-      <argument>path:notnull =&gt; notnull</argument>
-    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
   </member>
   <member name="P:System.Web.HttpApplication.Context">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
