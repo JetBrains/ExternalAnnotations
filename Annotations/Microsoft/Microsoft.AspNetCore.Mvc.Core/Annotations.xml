@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Generated on Microsoft.AspNetCore.Mvc.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 -->
 <assembly name="Microsoft.AspNetCore.Mvc.Core">
   <member name="M:Microsoft.AspNetCore.Mvc.ModelBinding.ModelBindingHelper.TryUpdateModelAsync(System.Object,System.Type,System.String,Microsoft.AspNetCore.Http.HttpContext,Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary,Microsoft.AspNetCore.Mvc.ModelBinding.IModelMetadataProvider,Microsoft.AspNetCore.Mvc.ModelBinding.IModelBinder,Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider,System.Collections.Generic.IList{Microsoft.AspNetCore.Mvc.Formatters.IInputFormatter},Microsoft.AspNetCore.Mvc.ModelBinding.Validation.IObjectModelValidator,Microsoft.AspNetCore.Mvc.ModelBinding.Validation.IModelValidatorProvider)">
     <parameter name="model">
@@ -627,6 +626,112 @@
     </parameter>
   </member>
   <member name="M:Microsoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(Microsoft.AspNetCore.Mvc.IUrlHelper,System.String,System.Object,System.String,System.String,System.String)">
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+
+  <!-- LinkGenerator extensions -->
+  <member name="M:Microsoft.AspNetCore.Routing.ControllerLinkGeneratorExtensions.GetPathByAction(Microsoft.AspNetCore.Routing.LinkGenerator,Microsoft.AspNetCore.Http.HttpContext,System.String,System.String,System.Object,System.Nullable{Microsoft.AspNetCore.Http.PathString},Microsoft.AspNetCore.Http.FragmentString,Microsoft.AspNetCore.Routing.LinkOptions)">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controller">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Routing.ControllerLinkGeneratorExtensions.GetPathByAction(Microsoft.AspNetCore.Routing.LinkGenerator,System.String,System.String,System.Object,Microsoft.AspNetCore.Http.PathString,Microsoft.AspNetCore.Http.FragmentString,Microsoft.AspNetCore.Routing.LinkOptions)">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controller">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Routing.ControllerLinkGeneratorExtensions.GetUriByAction(Microsoft.AspNetCore.Routing.LinkGenerator,Microsoft.AspNetCore.Http.HttpContext,System.String,System.String,System.Object,System.String,System.Nullable{Microsoft.AspNetCore.Http.HostString},System.Nullable{Microsoft.AspNetCore.Http.PathString},Microsoft.AspNetCore.Http.FragmentString,Microsoft.AspNetCore.Routing.LinkOptions)">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controller">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="values">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Routing.ControllerLinkGeneratorExtensions.GetUriByAction(Microsoft.AspNetCore.Routing.LinkGenerator,System.String,System.String,System.Object,System.String,System.Nullable{Microsoft.AspNetCore.Http.HostString},System.Nullable{Microsoft.AspNetCore.Http.PathString},Microsoft.AspNetCore.Http.FragmentString,Microsoft.AspNetCore.Routing.LinkOptions)">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
+    <parameter name="controller">
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.LocalizationRequiredAttribute.#ctor(System.Boolean)">
+        <argument>false</argument>
+      </attribute>
+    </parameter>
     <parameter name="values">
       <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
         <argument>Action</argument>
