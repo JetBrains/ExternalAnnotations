@@ -18,6 +18,52 @@
   <member name ="M:System.Net.CookieContainer.InternalGetCookies">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
   </member>
+  <member name = "F:System.Net.IPAddress.Any">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "F:System.Net.IPAddress.Loopback">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "F:System.Net.IPAddress.Broadcast">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "F:System.Net.IPAddress.None">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "F:System.Net.IPAddress.IPv6Any">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "F:System.Net.IPAddress.IPv6Loopback">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "F:System.Net.IPAddress.IPv6None">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name ="M:System.Net.IPAddress.#ctor(System.Byte[])">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name ="M:System.Net.IPAddress.#ctor(System.Byte[],System.Int64)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name ="M:System.Net.IPAddress.IsLoopback(System.Net.IPAddress)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name ="M:System.Net.IPAddress.Parse(System.String)">
+    <parameter name="ipString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name ="M:System.Net.IPAddress.TryParse(System.String,System.Net.IPAddress@)">
+    <parameter name="ipString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
   <member name ="M:System.Net.IPAddress.GetAddressBytes">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
   </member>
@@ -28,6 +74,12 @@
     </parameter>
   </member>
   <member name ="M:System.Net.IPAddress.Snapshot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "M:System.Net.IPAddress.MapToIPv6">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "M:System.Net.IPAddress.MapToIPv4">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
   </member>
   <member name ="M:System.Net.IPEndPoint.Create(System.Net.SocketAddress)">
@@ -249,31 +301,6 @@
   </member>
   <member name ="M:System.Net.EndPoint.Create(System.Net.SocketAddress)">
     <parameter name="socketAddress">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name ="M:System.Net.IPAddress.#ctor(System.Byte[])">
-    <parameter name="address">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name ="M:System.Net.IPAddress.#ctor(System.Byte[],System.Int64)">
-    <parameter name="address">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name ="M:System.Net.IPAddress.IsLoopback(System.Net.IPAddress)">
-    <parameter name="address">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name ="M:System.Net.IPAddress.Parse(System.String)">
-    <parameter name="ipString">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name ="M:System.Net.IPAddress.TryParse(System.String,System.Net.IPAddress@)">
-    <parameter name="ipString">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>

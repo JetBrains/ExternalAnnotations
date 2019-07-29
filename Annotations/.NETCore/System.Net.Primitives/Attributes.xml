@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <assembly name="System.Net.Primitives">
-  <member name="M:System.Net.IPAddress.GetAddressBytes">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
-  </member>
   <member name="M:System.Net.CookieCollection.GetEnumerator">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
   </member>
@@ -75,20 +71,74 @@
   <member name="M:System.Net.CredentialCache.GetEnumerator">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
   </member>
-  <member name="M:System.Net.IPAddress.InternalParse(System.String,System.Boolean)">
-    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
-    <parameter name="ipString">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  <member name = "F:System.Net.IPAddress.Any">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "F:System.Net.IPAddress.Loopback">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "F:System.Net.IPAddress.Broadcast">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "F:System.Net.IPAddress.None">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "F:System.Net.IPAddress.IPv6Any">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "F:System.Net.IPAddress.IPv6Loopback">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "F:System.Net.IPAddress.IPv6None">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name ="M:System.Net.IPAddress.#ctor(System.Byte[])">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Net.IPAddress.Parse(System.String)">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    <parameter name="ipString">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  <member name ="M:System.Net.IPAddress.#ctor(System.Byte[],System.Int64)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name="M:System.Net.IPAddress.Snapshot">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  <member name ="M:System.Net.IPAddress.IsLoopback(System.Net.IPAddress)">
+    <parameter name="address">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name ="M:System.Net.IPAddress.Parse(System.String)">
+    <parameter name="ipString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name ="M:System.Net.IPAddress.TryParse(System.String,System.Net.IPAddress@)">
+    <parameter name="ipString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name ="M:System.Net.IPAddress.GetAddressBytes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name ="M:System.Net.IPAddress.InternalParse(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="ipString">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name ="M:System.Net.IPAddress.Snapshot">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Net.IPAddress.Equals(System.Object)">
+    <parameter name="comparand">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name = "M:System.Net.IPAddress.MapToIPv6">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name = "M:System.Net.IPAddress.MapToIPv4">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
   </member>
   <member name="M:System.Net.IPEndPoint.Serialize">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
@@ -145,12 +195,6 @@
     </parameter>
   </member>
   <member name="M:System.Net.Cache.RequestCachePolicy.ToString">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-  </member>
-  <member name="M:System.Net.IPAddress.MapToIPv4">
-    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-  </member>
-  <member name="M:System.Net.IPAddress.MapToIPv6">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
   </member>
   <member name="M:System.Net.NetworkInformation.IPAddressCollection.GetEnumerator">
@@ -352,21 +396,6 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
     </parameter>
   </member>
-  <member name="M:System.Net.IPAddress.Equals(System.Object)">
-    <parameter name="comparand">
-      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
-    </parameter>
-  </member>
-  <member name="M:System.Net.IPAddress.IsLoopback(System.Net.IPAddress)">
-    <parameter name="address">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
-  <member name="M:System.Net.IPAddress.TryParse(System.String,System.Net.IPAddress@)">
-    <parameter name="ipString">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
   <member name="M:System.Net.IPEndPoint.Equals(System.Object)">
     <parameter name="comparand">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
@@ -417,16 +446,6 @@
   </member>
   <member name="M:System.Net.Sockets.SocketException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
     <parameter name="serializationInfo">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
-  <member name="M:System.Net.IPAddress.#ctor(System.Byte[])">
-    <parameter name="address">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
-    </parameter>
-  </member>
-  <member name="M:System.Net.IPAddress.#ctor(System.Byte[],System.Int64)">
-    <parameter name="address">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
     </parameter>
   </member>
