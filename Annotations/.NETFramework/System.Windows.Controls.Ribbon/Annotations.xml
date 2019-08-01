@@ -1,0 +1,1353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Windows.Controls.Ribbon">
+  <member name="F:System.Windows.Controls.KeyTipControl.TextProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.KeyTipService.KeyTipProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.KeyTipService.IsKeyTipScopeProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.KeyTipService.KeyTipStyleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.KeyTipService.ActivatingKeyTipEvent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.KeyTipService.PreviewKeyTipAccessedEvent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.KeyTipService.KeyTipAccessedEvent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.ExpandedEvent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.CollapsedEvent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.WindowIconVisibilityProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.IsHostedInRibbonWindowProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.ApplicationMenuProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.QuickAccessToolBarProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.HelpPaneContentProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.HelpPaneContentTemplateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.IsMinimizedProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.IsDropDownOpenProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.IsCollapsedProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.TitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.TitleTemplateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.ShowQuickAccessToolBarOnTopProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.ContextualTabGroupsSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.ContextualTabGroupHeaderTemplateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.ContextualTabGroupStyleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.MouseOverBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.MouseOverBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.PressedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.PressedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.CheckedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.CheckedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.FocusedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.FocusedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.TabHeaderStyleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Ribbon.TabHeaderTemplateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonApplicationMenu.FooterPaneContentProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonApplicationMenu.FooterPaneContentTemplateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonApplicationMenu.FooterPaneContentTemplateSelectorProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonApplicationMenu.AuxiliaryPaneContentProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonApplicationMenu.AuxiliaryPaneContentTemplateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonApplicationMenu.AuxiliaryPaneContentTemplateSelectorProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonApplicationMenuItem.LevelProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonApplicationSplitMenuItem.LevelProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.LargeImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.SmallImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.LabelProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.ToolTipTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.ToolTipDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.ToolTipImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.ToolTipFooterTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.ToolTipFooterDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.ToolTipFooterImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.CornerRadiusProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.ControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.IsInControlGroupProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.QuickAccessToolBarControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.IsInQuickAccessToolBarProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.MouseOverBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.MouseOverBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.PressedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.PressedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.FocusedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.FocusedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.ShowKeyboardCuesProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.QuickAccessToolBarIdProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.CanAddToQuickAccessToolBarDirectlyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonButton.KeyTipProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.LargeImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.SmallImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.LabelProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipFooterTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipFooterDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.ToolTipFooterImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.ControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.IsInControlGroupProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.QuickAccessToolBarControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.IsInQuickAccessToolBarProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.MouseOverBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.MouseOverBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.PressedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.PressedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.CheckedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.CheckedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.FocusedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.FocusedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.ShowKeyboardCuesProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.QuickAccessToolBarIdProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.CanAddToQuickAccessToolBarDirectlyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonCheckBox.KeyTipProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonComboBox.IsEditableProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonComboBox.TextProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonComboBox.IsReadOnlyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonComboBox.ShowKeyboardCuesProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonComboBox.SelectionBoxWidthProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonComboBox.SelectionBoxItemProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonComboBox.SelectionBoxItemTemplateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonComboBox.SelectionBoxItemTemplateSelectorProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonComboBox.SelectionBoxItemStringFormatProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonComboBox.StaysOpenOnEditProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonContextMenu.HasGalleryProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonContextualTabGroup.HeaderProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonContextualTabGroup.HeaderTemplateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonContextualTabGroup.HeaderTemplateSelectorProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonContextualTabGroup.HeaderStringFormatProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonContextualTabGroup.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonContextualTabGroupItemsControl.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControl.ControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControl.IsInControlGroupProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControl.IsInQuickAccessToolBarProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonContentPresenter.ControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonContentPresenter.IsInControlGroupProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonContentPresenter.IsInQuickAccessToolBarProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlGroup.ControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlGroup.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.LargeImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.SmallImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.LabelProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.ToolTipTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.ToolTipDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.ToolTipImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.ToolTipFooterTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.ToolTipFooterDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.ToolTipFooterImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.MouseOverBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.MouseOverBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.PressedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.PressedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.CheckedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.CheckedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.FocusedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.FocusedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.CornerRadiusProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.ControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.DefaultControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.IsInControlGroupProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.CanAddToQuickAccessToolBarDirectlyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.IsInQuickAccessToolBarProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.QuickAccessToolBarControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.QuickAccessToolBarIdProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.ShowKeyboardCuesProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlService.DismissPopupEvent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlSizeDefinition.ImageSizeProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlSizeDefinition.IsLabelVisibleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlSizeDefinition.IsCollapsedProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlSizeDefinition.WidthProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlSizeDefinition.MinWidthProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonControlSizeDefinition.MaxWidthProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.MinColumnCountProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.MaxColumnCountProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.ColumnsStretchToFillProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.IsSharedColumnSizeScopeProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.SelectionChangedEvent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.SelectedItemProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.SelectedValueProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.SelectedValuePathProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.IsSynchronizedWithCurrentItemProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.HighlightedItemProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.CanUserFilterProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.FilterItemContainerStyleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.AllFilterItemContainerStyleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.FilterItemContainerStyleSelectorProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.FilterMenuButtonStyleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.FilterPaneContentProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.FilterPaneContentTemplateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.FilterItemTemplateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.AllFilterItemTemplateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.FilterItemTemplateSelectorProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.CategoryTemplateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.CategoryStyleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.GalleryItemTemplateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.GalleryItemStyleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.CommandProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.CommandParameterProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.PreviewCommandParameterProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.CommandTargetProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.SmallImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.ToolTipTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.ToolTipDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.ToolTipImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.ToolTipFooterTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.ToolTipFooterDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.ToolTipFooterImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.QuickAccessToolBarIdProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGallery.CanAddToQuickAccessToolBarDirectlyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryCategory.MinColumnCountProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryCategory.MaxColumnCountProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryCategory.ColumnsStretchToFillProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryCategory.IsSharedColumnSizeScopeProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryCategory.HeaderVisibilityProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.SelectedEvent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.UnselectedEvent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.IsSelectedProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.IsHighlightedProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.IsPressedProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.MouseOverBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.MouseOverBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.PressedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.PressedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.CheckedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.CheckedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.ToolTipTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.ToolTipDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.ToolTipImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.ToolTipFooterTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.ToolTipFooterDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.ToolTipFooterImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGalleryItem.KeyTipProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.IsCollapsedProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.GroupSizeDefinitionsProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.SmallImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.LargeImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.ToolTipTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.ToolTipDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.ToolTipImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.ToolTipFooterTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.ToolTipFooterDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.ToolTipFooterImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.MouseOverBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.MouseOverBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.IsInQuickAccessToolBarProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.IsDropDownOpenProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.QuickAccessToolBarIdProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.CanAddToQuickAccessToolBarDirectlyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroup.KeyTipProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroupSizeDefinition.ControlSizeDefinitionsProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroupSizeDefinitionBase.IsCollapsedProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonGroupTemplateSizeDefinition.ContentTemplateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.LargeImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.SmallImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.LabelProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.ToolTipTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.ToolTipDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.ToolTipImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.ToolTipFooterTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.ToolTipFooterDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.ToolTipFooterImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.ControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.IsInControlGroupProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.QuickAccessToolBarControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.IsInQuickAccessToolBarProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.MouseOverBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.MouseOverBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.PressedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.PressedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.FocusedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.FocusedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.IsDropDownOpenProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.DropDownHeightProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.CanUserResizeVerticallyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.CanUserResizeHorizontallyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.HasGalleryProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.IsDropDownPositionedAboveProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.QuickAccessToolBarIdProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.CanAddToQuickAccessToolBarDirectlyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuButton.KeyTipProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.ToolTipTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.ToolTipDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.ToolTipImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.ToolTipFooterTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.ToolTipFooterDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.ToolTipFooterImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.ImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.QuickAccessToolBarImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.IsDropDownPositionedLeftProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.CanUserResizeVerticallyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.CanUserResizeHorizontallyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.DropDownHeightProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.HasGalleryProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.MouseOverBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.MouseOverBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.PressedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.PressedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.CheckedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.CheckedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.QuickAccessToolBarIdProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.CanAddToQuickAccessToolBarDirectlyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonMenuItem.KeyTipProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonQuickAccessToolBar.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonQuickAccessToolBar.IsOverflowOpenProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonQuickAccessToolBar.HasOverflowItemsProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonQuickAccessToolBar.IsOverflowItemProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonQuickAccessToolBar.CloneEvent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonQuickAccessToolBar.CustomizeMenuButtonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.LargeImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.SmallImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.LabelProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.ToolTipTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.ToolTipDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.ToolTipImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.ToolTipFooterTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.ToolTipFooterDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.ToolTipFooterImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.CornerRadiusProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.ControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.IsInControlGroupProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.QuickAccessToolBarControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.IsInQuickAccessToolBarProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.MouseOverBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.MouseOverBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.PressedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.PressedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.CheckedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.CheckedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.FocusedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.FocusedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.ShowKeyboardCuesProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.QuickAccessToolBarIdProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.CanAddToQuickAccessToolBarDirectlyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonRadioButton.KeyTipProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSeparator.LabelProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSeparator.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.CheckedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.CheckedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.DropDownToolTipTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.DropDownToolTipDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.DropDownToolTipImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.DropDownToolTipFooterTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.DropDownToolTipFooterDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.DropDownToolTipFooterImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.ClickEvent">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.LabelPositionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.IsCheckableProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.IsCheckedProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.CommandProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.CommandParameterProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.CommandTargetProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.HeaderQuickAccessToolBarIdProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitButton.HeaderKeyTipProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitMenuItem.DropDownToolTipTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitMenuItem.DropDownToolTipDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitMenuItem.DropDownToolTipImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitMenuItem.DropDownToolTipFooterTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitMenuItem.DropDownToolTipFooterDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitMenuItem.DropDownToolTipFooterImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitMenuItem.HeaderQuickAccessToolBarIdProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonSplitMenuItem.HeaderKeyTipProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTab.GroupSizeReductionOrderProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTab.IsSelectedProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTab.ContextualTabGroupHeaderProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTab.ContextualTabGroupProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTab.HeaderStyleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTab.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTab.TabHeaderLeftProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTab.TabHeaderRightProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTab.KeyTipProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTabHeader.IsRibbonTabSelectedProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTabHeader.ContextualTabGroupProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTabHeader.IsContextualTabProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTabHeader.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTabHeader.MouseOverBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTabHeader.MouseOverBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTabHeader.FocusedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTabHeader.FocusedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTabHeader.CheckedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTabHeader.CheckedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.CommandProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.CommandParameterProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.CommandTargetProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.LargeImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.SmallImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.LabelProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.ToolTipTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.ToolTipDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.ToolTipImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.ToolTipFooterTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.ToolTipFooterDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.ToolTipFooterImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.ControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.IsInControlGroupProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.QuickAccessToolBarControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.IsInQuickAccessToolBarProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.MouseOverBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.MouseOverBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.FocusedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.FocusedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.ShowKeyboardCuesProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.TextBoxWidthProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.QuickAccessToolBarIdProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.CanAddToQuickAccessToolBarDirectlyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTextBox.KeyTipProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.LargeImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.SmallImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.LabelProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.ToolTipTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.ToolTipDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.ToolTipImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.ToolTipFooterTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.ToolTipFooterDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.ToolTipFooterImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.CornerRadiusProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.ControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.IsInControlGroupProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.QuickAccessToolBarControlSizeDefinitionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.IsInQuickAccessToolBarProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.MouseOverBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.MouseOverBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.PressedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.PressedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.CheckedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.CheckedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.FocusedBackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.FocusedBorderBrushProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.ShowKeyboardCuesProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.QuickAccessToolBarIdProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.CanAddToQuickAccessToolBarDirectlyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToggleButton.KeyTipProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToolTip.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToolTip.TitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToolTip.DescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToolTip.ImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToolTip.HasHeaderProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToolTip.FooterTitleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToolTip.FooterDescriptionProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToolTip.FooterImageSourceProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToolTip.HasFooterProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonToolTip.IsPlacementTargetInRibbonGroupProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTwoLineText.TextDecorationsProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTwoLineText.TextEffectsProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTwoLineText.BaselineOffsetProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTwoLineText.PaddingProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTwoLineText.TextAlignmentProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTwoLineText.TextTrimmingProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTwoLineText.LineHeightProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTwoLineText.LineStackingStrategyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTwoLineText.PathFillProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTwoLineText.PathStrokeProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTwoLineText.TextProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTwoLineText.PathDataProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.RibbonTwoLineText.HasTwoLinesProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Primitives.RibbonContextualTabGroupsPanel.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Primitives.RibbonGroupsPanel.IsStarLayoutPassProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Primitives.RibbonTabHeadersPanel.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Primitives.RibbonTitlePanel.RibbonProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Primitives.StarLayoutInfo.RequestedStarWeightProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Primitives.StarLayoutInfo.RequestedStarMinWidthProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Primitives.StarLayoutInfo.RequestedStarMaxWidthProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Controls.Ribbon.Primitives.StarLayoutInfo.AllocatedStarWidthProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>

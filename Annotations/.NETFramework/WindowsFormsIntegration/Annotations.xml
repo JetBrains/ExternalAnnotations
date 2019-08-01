@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="WindowsFormsIntegration">
+  <member name="M:System.Windows.Automation.Peers.WindowsFormsHostAutomationPeer.#ctor(System.Windows.Forms.Integration.WindowsFormsHost)">
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Automation.Peers.WindowsFormsHostAutomationPeer.GetProvider">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.ApplicationInterop.EnableModelessKeyboardInterop(System.Windows.Window)">
+    <parameter name="window">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.AvalonAdapter.FindSolidColorParent(System.Windows.Forms.Control)">
+    <parameter name="whichControl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.AvalonAdapter.OnCreateAutomationPeer">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.AvalonAdapter.OnGetForceInvalidate(System.Windows.DependencyObject)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="d">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.AvalonAdapter.OnNoMoreTabStops(System.Windows.Input.TraversalRequest)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.Convert.SystemDrawingFontToSystemWindowsFontSize(System.Drawing.Font)">
+    <parameter name="font">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.Convert.ToSystemWindowsFontFamily(System.Drawing.FontFamily)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="sdFamily">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.Convert.ToSystemWindowsFontStyle(System.Drawing.Font)">
+    <parameter name="sdFont">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.Convert.ToSystemWindowsFontWeight(System.Drawing.Font)">
+    <parameter name="sdFont">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.Convert.ToSystemWindowsInputCursor(System.Windows.Forms.Cursor)">
+    <parameter name="swfCursor">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.Convert.ToSystemWindowsMediaImagingBitmapImage(System.Drawing.Image)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.ElementHost.EnableModelessKeyboardInterop(System.Windows.Window)">
+    <parameter name="window">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.ElementHost.InputManager_PostProcessInput(System.Object,System.Windows.Input.ProcessInputEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.ElementHost.InvokePaintBackgroundAndPaint(System.Windows.Forms.Control,System.Windows.Forms.PaintEventArgs)">
+    <parameter name="control">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="args">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.ElementHost.OnPropertyChanged(System.String,System.Object)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.ElementHostAutomationPeer.#ctor(System.Windows.Forms.Integration.AvalonAdapter)">
+    <parameter name="owner">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.GetBitmapForFrameworkElement(System.Windows.FrameworkElement)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.GetBitmapForOpaqueWindowsFormsHost(System.Windows.Forms.Integration.WindowsFormsHost,System.Windows.Media.Brush)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.GetBitmapForTransparentWindowsFormsHost(System.Windows.Forms.Integration.WindowsFormsHost)">
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.GetBitmapForWindowsFormsHost(System.Windows.Forms.Integration.WindowsFormsHost,System.Windows.Media.Brush)">
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.GetBitmapFromRenderTargetBitmap(System.Windows.Forms.Control,System.Windows.Media.Imaging.RenderTargetBitmap,System.Windows.Point)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="control">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.GetBitmapOfControl(System.Windows.Forms.Control,System.Windows.Forms.Integration.ElementHost)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="control">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="host">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.GetCoveredPortionOfBitmap(System.Windows.Forms.Control,System.Windows.Forms.Integration.ElementHost)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="parentControl">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="childElementHost">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.GetCursorSource(System.Windows.DependencyObject,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.GetFrameworkElementAncestor(System.Windows.DependencyObject)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.GetRenderTargetBitmapForVisual(System.Int32,System.Int32,System.Windows.Media.Visual)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="visualToRender">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.GetScale(System.Windows.Media.Visual)">
+    <parameter name="visual">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.GetScale(System.Windows.Media.Visual,System.Boolean@)">
+    <parameter name="visual">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.IsRotated(System.Windows.Media.Visual)">
+    <parameter name="visual">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.SetBackgroundImage(System.Windows.Forms.Integration.WinFormsAdapter,System.Windows.Forms.Control,System.Drawing.Bitmap)">
+    <parameter name="adapter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.TransformToParentPoint(System.Windows.Media.Visual,System.Windows.Media.Visual,System.Windows.Point)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="ancestor">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.HostUtils.TransformToRootPoint(System.Windows.Media.Visual,System.Windows.Point)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.IntegrationExceptionEventArgs.#ctor(System.Boolean,System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.LayoutExceptionEventArgs.#ctor(System.Exception)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.PropertyMap.Add(System.String,System.Windows.Forms.Integration.PropertyTranslator)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.PropertyMap.Apply(System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.PropertyMap.Contains(System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Windows.Forms.Integration.PropertyMap.DefaultTranslators">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.PropertyMap.GetProperty(System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:System.Windows.Forms.Integration.PropertyMap.Item(System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Windows.Forms.Integration.PropertyMap.Keys">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.PropertyMap.OnPropertyChanged(System.Object,System.String,System.Object)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.PropertyMap.PropertyMappedToEmptyTranslator(System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.PropertyMap.Remove(System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.PropertyMap.Reset(System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.PropertyMap.RunTranslator(System.Windows.Forms.Integration.PropertyTranslator,System.Object,System.String,System.Object)">
+    <parameter name="translator">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.PropertyMap.ThrowIfPropertyDoesntExistOnSource(System.String)">
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Windows.Forms.Integration.PropertyMap.Values">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.PropertyMappingExceptionEventArgs.#ctor(System.Exception,System.String,System.Object)">
+    <parameter name="exception">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="propertyName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:System.Windows.Forms.Integration.WeakReferenceList`1.SnapshotListOfTargets">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.WindowFilterList.FindFilter(System.Windows.Window)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.WindowsFormsHost.GetFocusScopeForElement(System.Windows.DependencyObject)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.WindowsFormsHost.TabInto(System.Windows.Input.TraversalRequest)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.WindowsFormsHostList.FindRootVisual(System.Windows.Media.Visual)">
+    <parameter name="x">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.WindowsFormsHostPropertyMap.GetChildControl(System.Object,System.Windows.Forms.Integration.PropertyTranslator,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:System.Windows.Forms.Integration.WinFormsAdapter.CallOnParentRightToLeftChanged(System.Windows.Forms.Control)">
+    <parameter name="control">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.WinFormsAdapter.FocusNext(System.Windows.Input.TraversalRequest)">
+    <parameter name="request">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.WinFormsAdapter.InputManager_PostProcessInput(System.Object,System.Windows.Input.ProcessInputEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.Forms.Integration.WinFormsAdapter.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+    <parameter name="e">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.SR.Get(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Windows.SR.Get(System.String,System.Object[])">
+    <parameter name="id">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Forms.Integration.AvalonAdapter.ForceInvalidateProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Forms.Integration.WindowsFormsHost.PaddingProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Forms.Integration.WindowsFormsHost.TabIndexProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Forms.Integration.WindowsFormsHost.FontFamilyProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Forms.Integration.WindowsFormsHost.FontSizeProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Forms.Integration.WindowsFormsHost.FontStyleProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Forms.Integration.WindowsFormsHost.FontWeightProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Forms.Integration.WindowsFormsHost.ForegroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="F:System.Windows.Forms.Integration.WindowsFormsHost.BackgroundProperty">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>
