@@ -1933,6 +1933,9 @@
   </member>
   <member name="M:System.Linq.Enumerable.AsEnumerable``1(System.Collections.Generic.IEnumerable{``0})">
     <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>null=&gt;null;notnull=&gt;notnull</argument>
+    </attribute>
   </member>
   <member name="P:System.Linq.IQueryable.ElementType">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
