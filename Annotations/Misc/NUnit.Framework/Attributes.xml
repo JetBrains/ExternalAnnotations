@@ -65,10 +65,19 @@
     </attribute>
   </member>
   <member name="M:NUnit.Framework.Assert.Multiple(NUnit.Framework.TestDelegate)">
-    <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    <parameter name="testDelegate">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    </parameter>
   </member>
   <member name="M:NUnit.Framework.Assert.Multiple(NUnit.Framework.AsyncTestDelegate)">
-    <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    <parameter name="testDelegate">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:NUnit.Framework.Assert.That(System.Func{System.Boolean})">
+    <parameter name="condition">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    </parameter>
   </member>
   <member name="M:NUnit.Framework.Assert.True(System.Boolean,System.String,System.Object[])">
     <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
