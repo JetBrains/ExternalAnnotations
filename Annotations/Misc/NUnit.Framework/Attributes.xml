@@ -1,5 +1,14 @@
 <assembly name="NUnit.Framework">
-
+  <member name="M:NUnit.Framework.Assert.ByVal(System.Object,NUnit.Framework.Constraints.IResolveConstraint)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>actual:null,expression:notnull =&gt; halt;actual:notnull,expression:null =&gt; halt</argument>
+    </attribute>
+  </member>
+  <member name="M:NUnit.Framework.Assert.ByVal(System.Object,NUnit.Framework.Constraints.IResolveConstraint,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>actual:null,expression:notnull =&gt; halt;actual:notnull,expression:null =&gt; halt</argument>
+    </attribute>
+  </member>
   <member name="M:NUnit.Framework.Assert.Fail(System.String,System.Object[])">
     <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
     <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
@@ -74,8 +83,93 @@
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
     </parameter>
   </member>
+  <member name="M:NUnit.Framework.Assert.That(System.Boolean,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:false=&gt;void</argument>
+    </attribute>
+  </member>
+  <member name="M:NUnit.Framework.Assert.That(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:false=&gt;void</argument>
+    </attribute>
+  </member>
+  <member name="M:NUnit.Framework.Assert.That(System.Boolean,System.Func{System.String})">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:false=&gt;void</argument>
+    </attribute>
+  </member>
   <member name="M:NUnit.Framework.Assert.That(System.Func{System.Boolean})">
     <parameter name="condition">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:NUnit.Framework.Assert.That(System.Func{System.Boolean},System.String,System.Object[])">
+    <parameter name="condition">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:NUnit.Framework.Assert.That(System.Func{System.Boolean},System.Func{System.String})">
+    <parameter name="condition">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:NUnit.Framework.Assert.That``1(NUnit.Framework.Constraints.ActualValueDelegate{``0},NUnit.Framework.Constraints.IResolveConstraint)">
+    <parameter name="del">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:NUnit.Framework.Assert.That``1(NUnit.Framework.Constraints.ActualValueDelegate{``0},NUnit.Framework.Constraints.IResolveConstraint,System.String,System.Object[])">
+    <parameter name="del">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:NUnit.Framework.Assert.That``1(NUnit.Framework.Constraints.ActualValueDelegate{``0},NUnit.Framework.Constraints.IResolveConstraint,System.Func{System.String})">
+    <parameter name="del">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    </parameter>
+    <parameter name="getExceptionMessage">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:NUnit.Framework.Assert.That(NUnit.Framework.TestDelegate,NUnit.Framework.Constraints.IResolveConstraint)">
+    <parameter name="code">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:NUnit.Framework.Assert.That(NUnit.Framework.TestDelegate,NUnit.Framework.Constraints.IResolveConstraint,System.String,System.Object[])">
+    <parameter name="code">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:NUnit.Framework.Assert.That(NUnit.Framework.TestDelegate,NUnit.Framework.Constraints.IResolveConstraint,System.Func{System.String})">
+    <parameter name="code">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    </parameter>
+    <parameter name="getExceptionMessage">
+      <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:NUnit.Framework.Assert.That``1(``0,NUnit.Framework.Constraints.IResolveConstraint)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>actual:null,expression:notnull =&gt; halt;actual:notnull,expression:null =&gt; halt</argument>
+    </attribute>
+  </member>
+  <member name="M:NUnit.Framework.Assert.That``1(``0,NUnit.Framework.Constraints.IResolveConstraint,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>actual:null,expression:notnull =&gt; halt;actual:notnull,expression:null =&gt; halt</argument>
+    </attribute>
+  </member>
+  <member name="M:NUnit.Framework.Assert.That``1(``0,NUnit.Framework.Constraints.IResolveConstraint,System.Func{System.String})">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>actual:null,expression:notnull =&gt; halt;actual:notnull,expression:null =&gt; halt</argument>
+    </attribute>
+    <parameter name="getExceptionMessage">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor"/>
     </parameter>
   </member>
@@ -852,5 +946,10 @@
   <member name="M:NUnit.Framework.Contains.Substring(System.String)">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
   </member>
-  
+  <member name="M:NUnit.Framework.AssertionHelper.Expect``1(``0,NUnit.Framework.Constraints.IResolveConstraint)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>actual:null,expression:notnull =&gt; halt;actual:notnull,expression:null =&gt; halt</argument>
+    </attribute>
+  </member>  
 </assembly>
