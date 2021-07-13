@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>JetBrains.ExternalAnnotations</id>
-    <version>10.2.95</version>
+    <version>10.2.97</version>
     <authors>JetBrains</authors>
     <owners>JetBrains</owners>
     <projectUrl>https://github.com/JetBrains/ExternalAnnotations</projectUrl>
@@ -17,8 +17,8 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="Annotations\**" target="DotFiles\ExternalAnnotations" />
-   <file src="lib\**" target="lib" />
-   <file src="build\**" target="build" />
+    <file src="Annotations\**" target="DotFiles\ExternalAnnotations" exclude="**\.idea\**\*.*" />
+   <file src="lib\**" target="lib" exclude="**\.idea\**\*.*" />
+   <file src="build\**" target="build" exclude="**\.idea\**\*.*" />
   </files>
 </package>
