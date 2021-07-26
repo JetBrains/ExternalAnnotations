@@ -11064,6 +11064,19 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
     </parameter>
   </member>
+  <member name="M:System.Collections.Concurrent.ConcurrentDictionary`2.AddOrUpdate``1(`0,System.Func{`0,``0,`1},System.Func{`0,`1,``0,`1},``0)">
+    <parameter name="addValueFactory">
+      <attribute ctor="M:JetBrains.Annotations.RequireStaticDelegateAttribute.#ctor"/>
+    </parameter>
+    <parameter name="updateValueFactory">
+      <attribute ctor="M:JetBrains.Annotations.RequireStaticDelegateAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd``1(`0,System.Func{`0,``0,`1},``0)">
+    <parameter name="valueFactory">
+      <attribute ctor="M:JetBrains.Annotations.RequireStaticDelegateAttribute.#ctor"/>
+    </parameter>
+  </member>
   <member name="M:System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)">
     <attribute ctor="M:JetBrains.Annotations.CollectionAccessAttribute.#ctor(JetBrains.Annotations.CollectionAccessType)">
       <argument>1</argument>
