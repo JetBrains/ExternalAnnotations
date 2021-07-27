@@ -45257,9 +45257,6 @@
     <parameter name="updateValueFactory">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
     </parameter>
-    <parameter name="updateValueFactory">
-      <attribute ctor="M:JetBrains.Annotations.RequireStaticDelegateAttribute.#ctor"/>
-    </parameter>
     <parameter name="key">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
@@ -45271,17 +45268,11 @@
     <parameter name="addValueFactory">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
     </parameter>
-    <parameter name="addValueFactory">
-      <attribute ctor="M:JetBrains.Annotations.RequireStaticDelegateAttribute.#ctor"/>
-    </parameter>
     <parameter name="updateValueFactory">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
     <parameter name="updateValueFactory">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
-    </parameter>
-    <parameter name="updateValueFactory">
-      <attribute ctor="M:JetBrains.Annotations.RequireStaticDelegateAttribute.#ctor"/>
     </parameter>
     <parameter name="key">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
@@ -45294,11 +45285,21 @@
     <parameter name="valueFactory">
       <attribute ctor="M:JetBrains.Annotations.InstantHandleAttribute.#ctor" />
     </parameter>
-    <parameter name="valueFactory">
-      <attribute ctor="M:JetBrains.Annotations.RequireStaticDelegateAttribute.#ctor"/>
-    </parameter>
     <parameter name="key">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Concurrent.ConcurrentDictionary`2.AddOrUpdate``1(`0,System.Func{`0,``0,`1},System.Func{`0,`1,``0,`1},``0)">
+    <parameter name="addValueFactory">
+      <attribute ctor="M:JetBrains.Annotations.RequireStaticDelegateAttribute.#ctor"/>
+    </parameter>
+    <parameter name="updateValueFactory">
+      <attribute ctor="M:JetBrains.Annotations.RequireStaticDelegateAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd``1(`0,System.Func{`0,``0,`1},``0)">
+    <parameter name="valueFactory">
+      <attribute ctor="M:JetBrains.Annotations.RequireStaticDelegateAttribute.#ctor"/>
     </parameter>
   </member>
   <member name ="P:System.Collections.IDictionary.Item(System.Object)">
