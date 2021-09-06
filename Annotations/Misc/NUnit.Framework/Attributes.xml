@@ -1,4 +1,9 @@
 <assembly name="NUnit.Framework">
+  <member name="M:NUnit.Framework.Assert.AreEqual(System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>expected:null,actual:notnull =&gt; halt;expected:notnull,actual:null =&gt; halt</argument>
+    </attribute>
+  </member>
   <member name="M:NUnit.Framework.Assert.ByVal(System.Object,NUnit.Framework.Constraints.IResolveConstraint)">
     <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
         <argument>actual:null,expression:notnull =&gt; halt;actual:notnull,expression:null =&gt; halt</argument>
