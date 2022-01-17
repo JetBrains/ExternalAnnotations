@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="Microsoft.AspNetCore.Routing">
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,System.Delegate)">
+    <attribute ctor="M:JetBrains.Annotations.MinimalApiDeclarationAttribute.#ctor">
+      <property name="HttpVerb">GET</property>
+    </attribute>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="handler">
+      <attribute ctor="M:JetBrains.Annotations.MinimalApiHandlerAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPost(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,System.Delegate)">
+    <attribute ctor="M:JetBrains.Annotations.MinimalApiDeclarationAttribute.#ctor">
+      <property name="HttpVerb">POST</property>
+    </attribute>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="handler">
+      <attribute ctor="M:JetBrains.Annotations.MinimalApiHandlerAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPut(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,System.Delegate)">
+    <attribute ctor="M:JetBrains.Annotations.MinimalApiDeclarationAttribute.#ctor">
+      <property name="HttpVerb">PUT</property>
+    </attribute>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="handler">
+      <attribute ctor="M:JetBrains.Annotations.MinimalApiHandlerAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapDelete(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,System.Delegate)">
+    <attribute ctor="M:JetBrains.Annotations.MinimalApiDeclarationAttribute.#ctor">
+      <property name="HttpVerb">DELETE</property>
+    </attribute>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="handler">
+      <attribute ctor="M:JetBrains.Annotations.MinimalApiHandlerAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.Map(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,System.Delegate)">
+    <attribute ctor="M:JetBrains.Annotations.MinimalApiDeclarationAttribute.#ctor"/>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="handler">
+      <attribute ctor="M:JetBrains.Annotations.MinimalApiHandlerAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapMethods(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,System.Collections.Generic.IEnumerable{System.String},System.Delegate)">
+    <attribute ctor="M:JetBrains.Annotations.MinimalApiDeclarationAttribute.#ctor"/>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="httpMethods">
+      <attribute ctor="M:JetBrains.Annotations.RouteVerbsAttribute.#ctor"/>
+    </parameter>
+    <parameter name="handler">
+      <attribute ctor="M:JetBrains.Annotations.MinimalApiHandlerAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,Microsoft.AspNetCore.Http.RequestDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.MinimalApiDeclarationAttribute.#ctor">
+      <property name="HttpVerb">GET</property>
+    </attribute>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestDelegate">
+      <attribute ctor="M:JetBrains.Annotations.MinimalApiHandlerAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPost(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,Microsoft.AspNetCore.Http.RequestDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.MinimalApiDeclarationAttribute.#ctor">
+      <property name="HttpVerb">POST</property>
+    </attribute>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestDelegate">
+      <attribute ctor="M:JetBrains.Annotations.MinimalApiHandlerAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPut(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,Microsoft.AspNetCore.Http.RequestDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.MinimalApiDeclarationAttribute.#ctor">
+      <property name="HttpVerb">PUT</property>
+    </attribute>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestDelegate">
+      <attribute ctor="M:JetBrains.Annotations.MinimalApiHandlerAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapDelete(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,Microsoft.AspNetCore.Http.RequestDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.MinimalApiDeclarationAttribute.#ctor">
+      <property name="HttpVerb">DELETE</property>
+    </attribute>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestDelegate">
+      <attribute ctor="M:JetBrains.Annotations.MinimalApiHandlerAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.Map(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,Microsoft.AspNetCore.Http.RequestDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.MinimalApiDeclarationAttribute.#ctor"/>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="requestDelegate">
+      <attribute ctor="M:JetBrains.Annotations.MinimalApiHandlerAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapMethods(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,System.Collections.Generic.IEnumerable{System.String},Microsoft.AspNetCore.Http.RequestDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.MinimalApiDeclarationAttribute.#ctor"/>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor"/>
+    </parameter>
+    <parameter name="httpMethods">
+      <attribute ctor="M:JetBrains.Annotations.RouteVerbsAttribute.#ctor"/>
+    </parameter>
+    <parameter name="requestDelegate">
+      <attribute ctor="M:JetBrains.Annotations.MinimalApiHandlerAttribute.#ctor"/>
+    </parameter>
+  </member>
+</assembly>

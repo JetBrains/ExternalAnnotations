@@ -43,4 +43,100 @@
   <member name="P:Microsoft.AspNetCore.Mvc.AcceptVerbsAttribute.Route">
     <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
   </member>
+  <member name="P:Microsoft.AspNetCore.Mvc.RouteAttribute.Order">
+    <attribute ctor="M:JetBrains.Annotations.RouteOrderAttribute.#ctor"/>
+  </member>
+  <member name="P:Microsoft.AspNetCore.Mvc.Routing.HttpMethodAttribute.Order">
+    <attribute ctor="M:JetBrains.Annotations.RouteOrderAttribute.#ctor"/>
+  </member>
+  <member name="P:Microsoft.AspNetCore.Mvc.AcceptVerbsAttribute.Order">
+    <attribute ctor="M:JetBrains.Annotations.RouteOrderAttribute.#ctor"/>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.AcceptVerbsAttribute.#ctor(System.String)">
+    <parameter name="method">
+      <attribute ctor="M:JetBrains.Annotations.RouteVerbsAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Mvc.AcceptVerbsAttribute.#ctor(System.String[])">
+    <parameter name="methods">
+      <attribute ctor="M:JetBrains.Annotations.RouteVerbsAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="T:Microsoft.AspNetCore.Mvc.RouteAttribute">
+    <attribute ctor="M:JetBrains.Annotations.AttributeRoutingAttribute.#ctor"/>
+  </member>
+  <member name="T:Microsoft.AspNetCore.Mvc.AcceptVerbsAttribute">
+    <attribute ctor="M:JetBrains.Annotations.AttributeRoutingAttribute.#ctor"/>
+  </member>
+  <member name="T:Microsoft.AspNetCore.Mvc.HttpGetAttribute">
+    <attribute ctor="M:JetBrains.Annotations.AttributeRoutingAttribute.#ctor">
+      <property name="HttpVerb">GET</property>
+    </attribute>
+  </member>
+  <member name="T:Microsoft.AspNetCore.Mvc.HttpPostAttribute">
+    <attribute ctor="M:JetBrains.Annotations.AttributeRoutingAttribute.#ctor">
+      <property name="HttpVerb">POST</property>
+    </attribute>
+  </member>
+  <member name="T:Microsoft.AspNetCore.Mvc.HttpPutAttribute">
+    <attribute ctor="M:JetBrains.Annotations.AttributeRoutingAttribute.#ctor">
+      <property name="HttpVerb">PUT</property>
+    </attribute>
+  </member>
+  <member name="T:Microsoft.AspNetCore.Mvc.HttpDeleteAttribute">
+    <attribute ctor="M:JetBrains.Annotations.AttributeRoutingAttribute.#ctor">
+      <property name="HttpVerb">DELETE</property>
+    </attribute>
+  </member>
+  <member name="T:Microsoft.AspNetCore.Mvc.HttpOptionsAttribute">
+    <attribute ctor="M:JetBrains.Annotations.AttributeRoutingAttribute.#ctor">
+      <property name="HttpVerb">OPTIONS</property>
+    </attribute>
+  </member>
+  <member name="T:Microsoft.AspNetCore.Mvc.HttpPatchAttribute">
+    <attribute ctor="M:JetBrains.Annotations.AttributeRoutingAttribute.#ctor">
+      <property name="HttpVerb">PATCH</property>
+    </attribute>
+  </member>
+  <member name="T:Microsoft.AspNetCore.Mvc.HttpHeadAttribute">
+    <attribute ctor="M:JetBrains.Annotations.AttributeRoutingAttribute.#ctor">
+      <property name="HttpVerb">HEAD</property>
+    </attribute>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,System.String,System.Object,System.Object,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.RouteConventionAttribute.#ctor(System.String,System.String,System.String)">
+      <argument>pattern</argument>
+      <argument>constraints</argument>
+      <argument>defaults</argument>
+    </attribute>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="constraints">
+      <attribute ctor="M:JetBrains.Annotations.RouteValuesConstraints.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+    <parameter name="defaults">
+      <attribute ctor="M:JetBrains.Annotations.DefaultRouteValues.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.AspMvcActionAttribute.#ctor(System.String)">
+        <argument>Action</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcAreaAttribute.#ctor(System.String)">
+        <argument>Area</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcControllerAttribute.#ctor(System.String)">
+        <argument>Controller</argument>
+      </attribute>
+      <attribute ctor="M:JetBrains.Annotations.AspMvcModelTypeAttribute.#ctor" />
+    </parameter>
+  </member>
 </assembly>
