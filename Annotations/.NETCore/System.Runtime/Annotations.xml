@@ -7519,10 +7519,39 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name ="M:System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)">
+  <member name="M:System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.MustUseReturnValueAttribute.#ctor(System.String)">
+      <argument>Fewer bytes can be read than requested</argument>
+    </attribute>
     <parameter name="buffer">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
     </parameter>
+  </member>
+  <member name="M:System.IO.Stream.Read(System.Span{System.Byte})">
+    <attribute ctor="M:JetBrains.Annotations.MustUseReturnValueAttribute.#ctor(System.String)">
+      <argument>Fewer bytes can be read than requested</argument>
+    </attribute>
+  </member>
+  <member name="M:System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.MustUseReturnValueAttribute.#ctor(System.String)">
+      <argument>Fewer bytes can be read than requested</argument>
+    </attribute>
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
+    <attribute ctor="M:JetBrains.Annotations.MustUseReturnValueAttribute.#ctor(System.String)">
+      <argument>Fewer bytes can be read than requested</argument>
+    </attribute>
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.IO.Stream.ReadAsync(System.Memory{System.Byte},System.Threading.CancellationToken)">
+    <attribute ctor="M:JetBrains.Annotations.MustUseReturnValueAttribute.#ctor(System.String)">
+      <argument>Fewer bytes can be read than requested</argument>
+    </attribute>    
   </member>
   <member name ="M:System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)">
     <parameter name="buffer">
