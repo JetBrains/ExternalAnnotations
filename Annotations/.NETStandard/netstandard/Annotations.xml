@@ -45563,15 +45563,31 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
-  <member name ="M:System.IO.BinaryReader.Read(System.Byte[],System.Int32,System.Int32)">
+  <member name="M:System.IO.BinaryReader.Read(System.Byte[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.MustUseReturnValueAttribute.#ctor(System.String)">
+      <argument>Fewer bytes can be read than requested</argument>
+    </attribute>
     <parameter name="buffer">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
     </parameter>
   </member>
-  <member name ="M:System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)">
+  <member name="M:System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.MustUseReturnValueAttribute.#ctor(System.String)">
+      <argument>Fewer bytes can be read than requested</argument>
+    </attribute>
     <parameter name="buffer">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
     </parameter>
+  </member>
+  <member name="M:System.IO.BinaryReader.Read(System.Span{System.Byte})">
+    <attribute ctor="M:JetBrains.Annotations.MustUseReturnValueAttribute.#ctor(System.String)">
+      <argument>Fewer bytes can be read than requested</argument>
+    </attribute>
+  </member>
+  <member name="M:System.IO.BinaryReader.Read(System.Span{System.Char})">
+    <attribute ctor="M:JetBrains.Annotations.MustUseReturnValueAttribute.#ctor(System.String)">
+      <argument>Fewer bytes can be read than requested</argument>
+    </attribute>
   </member>
   <member name ="M:System.IO.BinaryWriter.Write(System.String)">
     <parameter name="value">
