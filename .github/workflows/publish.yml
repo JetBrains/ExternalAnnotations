@@ -33,5 +33,5 @@ jobs:
     - name: Publish NuGet package
       run: |
         foreach($file in (Get-ChildItem "${{ env.NuGetDirectory }}" -Recurse -Include *.nupkg)) {
-            dotnet nuget push $file --api-key "${{ secrets.NUGET_API_KEY }}" --source ${{ secrets.NUGET_SOURCE }}
+            dotnet nuget push $file --api-key "${{ secrets.SPACE_API_KEY }}" --source ${{ secrets.NUGET_SOURCE }}
         }
