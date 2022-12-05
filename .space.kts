@@ -3,7 +3,7 @@ job("Publish ExternalAnnotations") {
         env["DOTNET_SKIP_FIRST_TIME_EXPERIENCE"] = "1"
         env["DOTNET_NOLOGO"] = "true"
 
-        env["API_URL"] = Params("space.nuget.v2Url")
+        env["API_URL"] = Params("space.nuget.v2url")
         env["API_TOKEN"] = Secrets("space.nuget.token")
 
         shellScript {
