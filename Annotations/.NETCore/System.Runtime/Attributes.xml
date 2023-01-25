@@ -8,6 +8,12 @@
   <member name="M:System.Diagnostics.Stopwatch.StartNew">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
   </member>
+  <member name="M:System.Diagnostics.Debug.Assert(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+      <argument>condition:false=&gt;halt</argument>
+    </attribute>
+  </member>
   <member name="M:System.Diagnostics.Debug.Assert(System.Boolean,System.String)">
     <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
     <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
@@ -105,6 +111,11 @@
     <parameter name="category">
     </parameter>
   </member>
+    <member name="M:System.Diagnostics.Debug.WriteLine(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)">
+      <argument>format</argument>
+    </attribute>
+  </member>
   <member name="M:System.Diagnostics.Debug.WriteLineIf(System.Boolean,System.String)">
     <parameter name="message">
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
@@ -115,6 +126,29 @@
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
     </parameter>
     <parameter name="category">
+    </parameter>
+  </member>
+    <member name="M:System.Diagnostics.DebuggerVisualizerAttribute.#ctor(System.String,System.Type)">
+    <parameter name="visualizerObjectSource">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.DebuggerVisualizerAttribute.#ctor(System.Type)">
+    <parameter name="visualizer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.DebuggerVisualizerAttribute.#ctor(System.Type,System.String)">
+    <parameter name="visualizer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Diagnostics.DebuggerVisualizerAttribute.#ctor(System.Type,System.Type)">
+    <parameter name="visualizer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="visualizerObjectSource">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
     </parameter>
   </member>
   <member name="M:System.Net.WebUtility.UrlDecodeToBytes(System.Byte[],System.Int32,System.Int32)">
