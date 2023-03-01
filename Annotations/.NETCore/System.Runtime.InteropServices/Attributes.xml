@@ -5,8 +5,6 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
     </parameter>
   </member>
-  <member name="P:System.Runtime.InteropServices.HandleCollector.Name">
-  </member>
   <member name="M:System.Runtime.InteropServices.HandleCollector.#ctor(System.String,System.Int32,System.Int32)">
     <parameter name="name">
     </parameter>
@@ -53,10 +51,6 @@
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
     </parameter>
   </member>
-  <member name="P:System.Runtime.InteropServices.ComAliasNameAttribute.Value">
-  </member>
-  <member name="P:System.Runtime.InteropServices.ImportedFromTypeLibAttribute.Value">
-  </member>
   <member name="M:System.Runtime.InteropServices.ComAliasNameAttribute.#ctor(System.String)">
     <parameter name="alias">
     </parameter>
@@ -64,5 +58,10 @@
   <member name="M:System.Runtime.InteropServices.ImportedFromTypeLibAttribute.#ctor(System.String)">
     <parameter name="tlbFile">
     </parameter>
+  </member>
+  <member name="T:System.Runtime.InteropServices.UnmanagedCallersOnlyAttribute">
+    <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
+      <argument>1</argument>
+    </attribute>
   </member>
 </assembly>
