@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly name="Microsoft.AspNetCore.Identity">
+  <member name="M:Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions.MapIdentityApi``1(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)">
+    <attribute ctor="M:JetBrains.Annotations.AspMinimalApiImplicitEndpointDeclarationAttribute.#ctor">
+      <property name="HttpVerb">POST</property>
+      <property name="RouteTemplate">register</property>
+      <property name="BodyType">Microsoft.AspNetCore.Identity.DTO.RegisterRequest</property>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.AspMinimalApiImplicitEndpointDeclarationAttribute.#ctor">
+      <property name="HttpVerb">POST</property>
+      <property name="RouteTemplate">login</property>
+      <property name="BodyType">Microsoft.AspNetCore.Identity.DTO.LoginRequest</property>
+      <property name="QueryParameters">useCookies:System.Boolean,useSessionCookies:System.Boolean</property>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.AspMinimalApiImplicitEndpointDeclarationAttribute.#ctor">
+      <property name="HttpVerb">POST</property>
+      <property name="RouteTemplate">refresh</property>
+      <property name="BodyType">Microsoft.AspNetCore.Identity.DTO.RefreshRequest</property>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.AspMinimalApiImplicitEndpointDeclarationAttribute.#ctor">
+      <property name="HttpVerb">GET</property>
+      <property name="RouteTemplate">confirmEmail</property>      
+      <property name="QueryParameters">userId:System.String,code:System.String,changedEmail:System.String</property>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.AspMinimalApiImplicitEndpointDeclarationAttribute.#ctor">
+      <property name="HttpVerb">POST</property>
+      <property name="RouteTemplate">resendConfirmationEmail</property>
+      <property name="BodyType">Microsoft.AspNetCore.Identity.DTO.ResendEmailRequest</property>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.AspMinimalApiImplicitEndpointDeclarationAttribute.#ctor">
+      <property name="HttpVerb">POST</property>
+      <property name="RouteTemplate">forgotPassword</property>
+      <property name="BodyType">Microsoft.AspNetCore.Identity.DTO.ForgotPasswordRequest</property>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.AspMinimalApiImplicitEndpointDeclarationAttribute.#ctor">
+      <property name="HttpVerb">POST</property>
+      <property name="RouteTemplate">resetPassword</property>
+      <property name="BodyType">Microsoft.AspNetCore.Identity.DTO.ResetPasswordRequest</property>
+    </attribute>
+
+    <attribute ctor="M:JetBrains.Annotations.AspMinimalApiImplicitEndpointDeclarationAttribute.#ctor">
+      <property name="HttpVerb">POST</property>
+      <property name="RouteTemplate">manage/2fa</property>
+      <property name="BodyType">Microsoft.AspNetCore.Identity.DTO.TwoFactorRequest</property>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.AspMinimalApiImplicitEndpointDeclarationAttribute.#ctor">
+      <property name="HttpVerb">GET</property>
+      <property name="RouteTemplate">manage/info</property>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.AspMinimalApiImplicitEndpointDeclarationAttribute.#ctor">
+      <property name="HttpVerb">POST</property>
+      <property name="RouteTemplate">manage/info</property>
+      <property name="BodyType">Microsoft.AspNetCore.Identity.DTO.InfoRequest</property>
+    </attribute>
+  </member>
+</assembly>
