@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Collections.Immutable">
+  <member name="M:System.Collections.Frozen.FrozenDictionary.ToFrozenDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Frozen.FrozenDictionary.ToFrozenDictionary``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Frozen.FrozenDictionary.ToFrozenDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Frozen.FrozenSet.ToFrozenSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.IndexOf(`0,System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.LastIndexOf(`0,System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.Remove(`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.Replace(`0,`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="oldValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Builder.Remove(`0)">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Builder.Remove(`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="element">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Builder.Replace(`0,`0)">
+    <parameter name="oldValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Builder.Replace(`0,`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="oldValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Builder.Contains(`0)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Builder.IndexOf(`0,System.Int32)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Builder.IndexOf(`0,System.Int32,System.Int32)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Builder.IndexOf(`0,System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Builder.IndexOf(`0,System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Builder.LastIndexOf(`0)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Builder.LastIndexOf(`0,System.Int32)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Builder.LastIndexOf(`0,System.Int32,System.Int32)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Builder.LastIndexOf(`0,System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.IndexOf(`0,System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.IndexOf(`0,System.Int32)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.IndexOf(`0,System.Int32,System.Int32)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.LastIndexOf(`0)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.LastIndexOf(`0,System.Int32)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.LastIndexOf(`0,System.Int32,System.Int32)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Contains(`0)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Contains(`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Replace(`0,`0)">
+    <parameter name="oldValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Replace(`0,`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="oldValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Remove(`0)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableArray`1.Remove(`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.Create``2">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.Create``2(System.Collections.Generic.IEqualityComparer{``0})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.Create``2(System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IEqualityComparer{``1})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.CreateRange``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.CreateRange``2(System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.CreateRange``2(System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IEqualityComparer{``1},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.CreateBuilder``2">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.CreateBuilder``2(System.Collections.Generic.IEqualityComparer{``0})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.CreateBuilder``2(System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IEqualityComparer{``1})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1},System.Collections.Generic.IEqualityComparer{``2})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
+    <typeparameter name="TSource">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})">
+    <typeparameter name="TSource">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IEqualityComparer{``1})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="T:System.Collections.Immutable.ImmutableDictionary`2">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.Create``1">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.Create``1(System.Collections.Generic.IEqualityComparer{``0})">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.Create``1(``0)">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.Create``1(System.Collections.Generic.IEqualityComparer{``0},``0)">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.CreateRange``1(System.Collections.Generic.IEnumerable{``0})">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.CreateRange``1(System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IEnumerable{``0})">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.Create``1(``0[])">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.Create``1(System.ReadOnlySpan{``0})">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.Create``1(System.Collections.Generic.IEqualityComparer{``0},``0[])">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.Create``1(System.Collections.Generic.IEqualityComparer{``0},System.ReadOnlySpan{``0})">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.CreateBuilder``1">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.CreateBuilder``1(System.Collections.Generic.IEqualityComparer{``0})">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.ToImmutableHashSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})">
+    <typeparameter name="TSource">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.ToImmutableHashSet``1(System.Collections.Generic.IEnumerable{``0})">
+    <typeparameter name="TSource">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableInterlocked.TryUpdate``2(System.Collections.Immutable.ImmutableDictionary{``0,``1}@,``0,``1,``1)">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.Replace``1(System.Collections.Immutable.IImmutableList{``0},``0,``0)">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.Remove``1(System.Collections.Immutable.IImmutableList{``0},``0)">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.RemoveRange``1(System.Collections.Immutable.IImmutableList{``0},System.Collections.Generic.IEnumerable{``0})">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.IndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0)">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.IndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0,System.Collections.Generic.IEqualityComparer{``0})">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.IndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0,System.Int32)">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.IndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0,System.Int32,System.Int32)">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.LastIndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0)">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.LastIndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0,System.Collections.Generic.IEqualityComparer{``0})">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.LastIndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0,System.Int32)">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.LastIndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0,System.Int32,System.Int32)">
+    <typeparameter name="T">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.Contains(`0)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.Remove(`0)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.IndexOf(`0,System.Int32)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.IndexOf(`0,System.Int32,System.Int32)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.IndexOf(`0,System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.LastIndexOf(`0)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.LastIndexOf(`0,System.Int32)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.LastIndexOf(`0,System.Int32,System.Int32)">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.LastIndexOf(`0,System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.Remove(`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="item">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.Replace(`0,`0)">
+    <parameter name="oldValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.Replace(`0,`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="oldValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Remove(`0)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Remove(`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Replace(`0,`0)">
+    <parameter name="oldValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Replace(`0,`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <parameter name="oldValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Contains(`0)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.Create``2">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.Create``2(System.Collections.Generic.IComparer{``0})">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.Create``2(System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEqualityComparer{``1})">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateRange``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateRange``2(System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateRange``2(System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEqualityComparer{``1},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateBuilder``2">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateBuilder``2(System.Collections.Generic.IComparer{``0})">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateBuilder``2(System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEqualityComparer{``1})">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.ToImmutableSortedDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IComparer{``1},System.Collections.Generic.IEqualityComparer{``2})">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.ToImmutableSortedDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IComparer{``1})">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.ToImmutableSortedDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.ToImmutableSortedDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEqualityComparer{``1})">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.ToImmutableSortedDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IComparer{``0})">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.ToImmutableSortedDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <typeparameter name="TValue">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Linq.ImmutableArrayExtensions.SequenceEqual``2(System.Collections.Immutable.ImmutableArray{``1},System.Collections.Immutable.ImmutableArray{``0},System.Collections.Generic.IEqualityComparer{``1})">
+    <typeparameter name="TBase">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Linq.ImmutableArrayExtensions.SequenceEqual``2(System.Collections.Immutable.ImmutableArray{``1},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``1})">
+    <typeparameter name="TBase">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Linq.ImmutableArrayExtensions.ToDictionary``2(System.Collections.Immutable.ImmutableArray{``1},System.Func{``1,``0})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Linq.ImmutableArrayExtensions.ToDictionary``3(System.Collections.Immutable.ImmutableArray{``2},System.Func{``2,``0},System.Func{``2,``1})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Linq.ImmutableArrayExtensions.ToDictionary``2(System.Collections.Immutable.ImmutableArray{``1},System.Func{``1,``0},System.Collections.Generic.IEqualityComparer{``0})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+  <member name="M:System.Linq.ImmutableArrayExtensions.ToDictionary``3(System.Collections.Immutable.ImmutableArray{``2},System.Func{``2,``0},System.Func{``2,``1},System.Collections.Generic.IEqualityComparer{``0})">
+    <typeparameter name="TKey">
+      <attribute ctor="M:JetBrains.Annotations.DefaultEqualityUsageAttribute.#ctor" />
+    </typeparameter>
+  </member>
+</assembly>
