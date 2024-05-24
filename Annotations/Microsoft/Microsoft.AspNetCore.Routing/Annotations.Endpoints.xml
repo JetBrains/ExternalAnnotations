@@ -33,6 +33,17 @@
       <attribute ctor="M:JetBrains.Annotations.AspMinimalApiHandlerAttribute.#ctor" />
     </parameter>
   </member>
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPatch(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,System.Delegate)">
+    <attribute ctor="M:JetBrains.Annotations.AspMinimalApiDeclarationAttribute.#ctor">
+      <property name="HttpVerb">PATCH</property>
+    </attribute>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="handler">
+      <attribute ctor="M:JetBrains.Annotations.AspMinimalApiHandlerAttribute.#ctor" />
+    </parameter>
+  </member>
   <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapDelete(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,System.Delegate)">
     <attribute ctor="M:JetBrains.Annotations.AspMinimalApiDeclarationAttribute.#ctor">
       <property name="HttpVerb">DELETE</property>
@@ -46,6 +57,15 @@
   </member>
   <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.Map(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,System.Delegate)">
     <attribute ctor="M:JetBrains.Annotations.AspMinimalApiDeclarationAttribute.#ctor"/>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="handler">
+      <attribute ctor="M:JetBrains.Annotations.AspMinimalApiHandlerAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapFallback(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,System.Delegate)">
+    <attribute ctor="M:JetBrains.Annotations.AspMinimalApiDeclarationAttribute.#ctor" />
     <parameter name="pattern">
       <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
     </parameter>
@@ -95,6 +115,17 @@
       <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
     </parameter>
     <parameter name="requestDelegate">
+      <attribute ctor="M:JetBrains.Annotations.AspMinimalApiHandlerAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPatch(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,Microsoft.AspNetCore.Http.RequestDelegate)">
+    <attribute ctor="M:JetBrains.Annotations.AspMinimalApiDeclarationAttribute.#ctor">
+      <property name="HttpVerb">PATCH</property>
+    </attribute>
+    <parameter name="pattern">
+      <attribute ctor="M:JetBrains.Annotations.RouteTemplateAttribute.#ctor" />
+    </parameter>
+    <parameter name="handler">
       <attribute ctor="M:JetBrains.Annotations.AspMinimalApiHandlerAttribute.#ctor" />
     </parameter>
   </member>
