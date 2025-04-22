@@ -2,17 +2,17 @@
 <assembly name="Catel.Core">
   <member name="T:Catel.IoC.ServiceLocatorRegistrationAttribute">
     <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
-      <argument>8</argument>
+      <argument>8</argument> <!-- ImplicitUseKindFlags.InstantiatedNoFixedConstructorSignature -->
     </attribute>
   </member>
   <member name="T:Catel.IoC.InjectionConstructorAttribute">
     <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
-      <argument>1</argument>
+      <argument>1</argument> <!-- ImplicitUseKindFlags.Access -->
     </attribute>
   </member>
   <member name="T:Catel.IoC.InjectAttribute">
     <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
-      <argument>2</argument>
+      <argument>2</argument> <!-- ImplicitUseKindFlags.Assign -->
     </attribute>
   </member>
   <member name="M:Catel.IoC.ServiceLocatorExtensions.RegisterTypeIfNotYetRegistered``2(Catel.IoC.IServiceLocator,Catel.IoC.RegistrationType)">

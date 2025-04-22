@@ -538,7 +538,7 @@
   </member>
   <member name ="T:System.Runtime.InteropServices.ComVisibleAttribute">
     <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseTargetFlags)">
-      <argument>3</argument>
+      <argument>3</argument> <!-- ImplicitUseTargetFlags.Itself | ImplicitUseTargetFlags.Members -->
     </attribute>
   </member>
   <member name ="M:System.Reflection.Assembly.GetCallingAssembly">
@@ -1082,7 +1082,7 @@
   <member name ="T:System.Lazy`1">
     <typeparameter name="T">
       <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
-        <argument>8</argument>
+        <argument>8</argument> <!-- ImplicitUseKindFlags.InstantiatedNoFixedConstructorSignature -->
       </attribute>
     </typeparameter>
   </member>
@@ -11348,8 +11348,8 @@
   </member>
   <member name="T:System.SerializableAttribute">
     <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags,JetBrains.Annotations.ImplicitUseTargetFlags)">
-      <argument>8</argument> 
-      <argument>3</argument> 
+      <argument>8</argument> <!-- ImplicitUseKindFlags.InstantiatedNoFixedConstructorSignature -->
+      <argument>3</argument> <!-- ImplicitUseTargetFlags.Itself | ImplicitUseTargetFlags.Members -->
     </attribute>
   </member>
   <member name="M:System.Uri.Compare(System.Uri,System.Uri,System.UriComponents,System.UriFormat,System.StringComparison)">

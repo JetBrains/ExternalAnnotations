@@ -581,6 +581,8 @@
   <!-- Anything decorated with FactAttribute, or an attribute derived from
        FactAttribute is implicitly used -->
   <member name="T:Xunit.FactAttribute">
-    <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseTargetFlags)">
+      <argument>5</argument> <!-- ImplicitUseTargetFlags.Itself | ImplicitUseTargetFlags.WithInheritors -->
+    </attribute>
   </member>
 </assembly>

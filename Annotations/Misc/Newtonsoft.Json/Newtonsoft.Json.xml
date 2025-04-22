@@ -2,12 +2,12 @@
 <assembly name="Newtonsoft.Json">
   <member name="T:Newtonsoft.Json.JsonPropertyAttribute">
     <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
-      <argument>7</argument>
+      <argument>7</argument> <!-- ImplicitUseKindFlags.Access | ImplicitUseKindFlags.Assign | ImplicitUseKindFlags.InstantiatedWithFixedConstructorSignature -->
     </attribute>
   </member>
   <member name="T:Newtonsoft.Json.JsonObjectAttribute">
     <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseTargetFlags)">
-      <argument>3</argument>
+      <argument>3</argument> <!-- ImplicitUseTargetFlags.Itself | ImplicitUseTargetFlags.Members -->
     </attribute>
   </member>
   <member name="T:Newtonsoft.Json.JsonConstructorAttribute">
@@ -16,7 +16,7 @@
   <member name="M:Newtonsoft.Json.JsonConvert.DeserializeObject``1(System.String)">
     <typeparameter name="T">
       <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseKindFlags)">
-        <argument>8</argument>
+        <argument>8</argument> <!-- ImplicitUseKindFlags.InstantiatedNoFixedConstructorSignature -->
       </attribute>
     </typeparameter>
   </member>
