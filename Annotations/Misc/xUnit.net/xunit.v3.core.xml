@@ -7,7 +7,9 @@
   <!-- Marks anything decorated with [Fact] or derived as in use. Also marks the
        containing class as in use -->
   <member name="T:Xunit.FactAttribute">
-    <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseTargetFlags)">
+      <argument>5</argument> <!-- ImplicitUseTargetFlags.Itself | ImplicitUseTargetFlags.WithInheritors -->
+    </attribute>
   </member>
 
   <member name="M:Xunit.MemberDataAttribute.ConvertDataItem(System.Reflection.MethodInfo, System.Object)">
