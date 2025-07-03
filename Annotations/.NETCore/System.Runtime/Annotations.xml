@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <assembly name="System.Runtime">
+  <member name="P:System.ComponentModel.AsyncOperation.SynchronizationContext">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.ComponentModel.DefaultValueAttribute.#ctor(System.Type,System.String)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
   <member name ="M:System.String.IsNullOrEmpty(System.String)">
     <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String,System.Boolean)">
       <argument>null=>true</argument>
@@ -540,6 +551,231 @@
     <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor(JetBrains.Annotations.ImplicitUseTargetFlags)">
       <argument>3</argument> <!-- ImplicitUseTargetFlags.Itself | ImplicitUseTargetFlags.Members -->
     </attribute>
+  </member>
+  <member name="M:System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="T:System.Runtime.Serialization.OnDeserializingAttribute">
+    <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor"/>
+  </member>
+  <member name="T:System.Runtime.Serialization.OnDeserializedAttribute">
+    <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor"/>
+  </member>
+  <member name="T:System.Runtime.Serialization.OnSerializingAttribute">
+    <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor"/>
+  </member>
+  <member name="T:System.Runtime.Serialization.OnSerializedAttribute">
+    <attribute ctor="M:JetBrains.Annotations.MeansImplicitUseAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.SafeSerializationEventArgs.AddSerializedState(System.Runtime.Serialization.ISafeSerializationData)">
+    <parameter name="serializedState">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Runtime.Serialization.SerializationInfo.AssemblyName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Runtime.Serialization.SerializationInfo.FullTypeName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.#ctor(System.Type,System.Runtime.Serialization.IFormatterConverter)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="converter">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.Boolean)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.Byte)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.Char)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.DateTime)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.Decimal)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.Double)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.Int16)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.Int32)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.Int64)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.Object)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.SByte)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.Single)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.UInt16)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.UInt32)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.UInt64)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.AddValue(System.String,System.Object,System.Type)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetBoolean(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetByte(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetChar(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetDateTime(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetDecimal(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetDouble(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetInt16(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetInt32(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetInt64(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetSByte(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetSingle(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetString(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetUInt16(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetUInt32(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetUInt64(System.String)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.GetValue(System.String,System.Type)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Runtime.Serialization.SerializationInfo.SetType(System.Type)">
+    <parameter name="type">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Runtime.Serialization.SerializationInfoEnumerator.Name">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Runtime.Serialization.SerializationInfoEnumerator.ObjectType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Runtime.Serialization.SerializationInfoEnumerator.System#Collections#IEnumerator#Current">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
   </member>
   <member name ="M:System.Reflection.Assembly.GetCallingAssembly">
     <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
@@ -9754,6 +9990,56 @@
       <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
     </parameter>
   </member>
+  <member name="M:System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IEnumerable#GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="M:System.Collections.ObjectModel.ReadOnlyDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})">
+    <parameter name="dictionary">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.ObjectModel.ReadOnlyDictionary`2.Add(`0,`1)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.ObjectModel.ReadOnlyDictionary`2.ContainsKey(`0)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.ObjectModel.ReadOnlyDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="P:System.Collections.ObjectModel.ReadOnlyDictionary`2.Item(`0)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.ObjectModel.ReadOnlyDictionary`2.Remove(`0)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.ObjectModel.ReadOnlyDictionary`2.TryGetValue(`0,`1@)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor"/>
+    </parameter>
+  </member>
+  <member name="M:System.Collections.ObjectModel.ReadOnlyDictionary`2.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.ObjectModel.ReadOnlyDictionary`2.Keys">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
+  <member name="P:System.Collections.ObjectModel.ReadOnlyDictionary`2.Values">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor"/>
+  </member>
   <member name ="M:System.Decimal.SetBits(System.Int32[])">
     <parameter name="bits">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
@@ -10722,11 +11008,6 @@
   </member>
   <member name ="M:System.Runtime.InteropServices.StructLayoutAttribute.IsDefined(System.RuntimeType)">
     <parameter name="type">
-      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
-    </parameter>
-  </member>
-  <member name ="M:System.Runtime.Serialization.SafeSerializationEventArgs.AddSerializedState(System.Runtime.Serialization.ISafeSerializationData)">
-    <parameter name="serializedState">
       <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
     </parameter>
   </member>
